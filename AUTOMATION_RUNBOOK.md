@@ -18,7 +18,15 @@
 
 每条记录实际发布时间（未知用 null 并写明）、站点、生效日期（未知用 null）、来源链接、核验时间、可信度、影响、可执行动作。办理截止日与生效日分开；不要把抓取时间冒充发布时间。事实与推测分开，推测不能升级为确认变化。
 
-分类固定为 policy / ads / ai / opportunities / competitors。美国站优先；其他站点和公司生态变化须标清范围。重点汽车用品关键词：fuel line、CPE braided fuel hose、AN fittings、exhaust clamp。没有指定竞品ASIN或对照快照时，明确“缺少可比基线”，不编造价格/Coupon/BSR变化；可在状态分支建立公开样本ASIN与观察时间、变体、地域、价格币种和来源快照。首次快照不是增量趋势。
+分类固定为 policy / ads / ai / opportunities / competitors。常规覆盖 US（Amazon.com）、CA（Amazon.ca）、MX（Amazon.com.mx），美国站优先；其他站点和公司生态变化须标清范围。重点汽车用品关键词：fuel line、CPE braided fuel hose、AN fittings、exhaust clamp。没有指定竞品ASIN或对照快照时，明确“缺少可比基线”，不编造价格/Coupon/BSR变化；可在状态分支建立公开样本ASIN与观察时间、变体、地域、价格币种和来源快照。首次快照不是增量趋势。
+
+### 加拿大 / 墨西哥范围扩展（2026-08-31）
+
+- config/sources.json 新增八个独立来源记录，分别追踪 CA/MX 官方公告及 Amazon Ads/全球开店补查、监管原文、行业/公众号、汽车用品关键词与竞品。所有来源先第一层后第二层；新增站点从 bootstrap_window_start 补查，不继承美国来源的成功时间，也不将这次设置当作检查成功。
+- industry_wechat_ca/mx 必须逐一检查 include_source_ids 的所有媒体和账号，记录逐来源证据及限制；仅当该组全部完整检查才可标 checked，否则部分检索记录 public_search_only，不能推进全组成功游标。
+- 报告和任务记录分别说明 US/CA/MX 的实际覆盖情况；仅新建范围或首次价格快照不能称新闻新增。保留现有US历史与失败游标。
+- 多站同一事件若主体、动作、生效日一致，合并到一张卡片；扩展适用站点时 dedupe_review.matches_event_key 指向原事件，material_update=true，更新 marketplaces 的已证实并集，并保留原 key 与别名。不同规则/生效日才分开。不能按站点复制三份同一新闻。
+- 价格/促销记录 USD/CAD/MXN、税费/运费口径；BSR和关键词分别按站点、类目、ASIN、变体、时间建立基线，禁止直接跨站比较。
 
 ## 3. 四重比对与候选批次
 

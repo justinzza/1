@@ -3,25 +3,271 @@
   "marketplace_focus": "US",
   "public_only": true,
   "sources": [
-    { "id": "amazon_seller_news", "tier": 1, "name": "Amazon Seller Central News and Announcements", "query": "site:sellercentral.amazon.com News and Announcements", "note": "区分Amazon官方公告、版主回复与卖家个人帖子；只读公开内容。" },
-    { "id": "amazon_global_selling_news", "tier": 1, "name": "Amazon 全球开店新闻中心", "query": "site:globalselling.amazon.com 新闻 公告" },
-    { "id": "amazon_ads_whats_new", "tier": 1, "name": "Amazon Ads What's New", "query": "site:advertising.amazon.com whats-new" },
-    { "id": "relevant_regulators", "tier": 1, "name": "相关监管机构原文", "query": "Amazon seller United States CPSC FTC CBP IRS USPTO regulation", "note": "按线索检索相关监管机构；只引用真正支持该事件的原文。" },
-    { "id": "crossborder_headlines", "tier": 2, "name": "跨境头条", "query": "跨境头条 亚马逊", "note": "先确认媒体主体与文章归属，不把同名栏目自动当成独立媒体。" },
-    { "id": "crossborder_briefs", "tier": 2, "name": "跨境快讯", "query": "跨境快讯 亚马逊" },
-    { "id": "wearesellers", "tier": 2, "name": "知无不言", "query": "知无不言 亚马逊" },
-    { "id": "tt123", "tier": 2, "name": "TT123卖家导航", "query": "TT123 卖家导航 亚马逊" },
-    { "id": "brand_ark", "tier": 2, "name": "品牌方舟", "query": "品牌方舟 亚马逊" },
-    { "id": "seller_home", "tier": 2, "name": "卖家之家", "query": "卖家之家 亚马逊" },
-    { "id": "wechat_dabao", "tier": 2, "name": "大宝站外推广", "query": "site:mp.weixin.qq.com 大宝站外推广", "access": "public_search_and_public_article_only" },
-    { "id": "wechat_huluwa", "tier": 2, "name": "葫芦娃站外推广", "query": "site:mp.weixin.qq.com 葫芦娃站外推广", "access": "public_search_and_public_article_only" },
-    { "id": "wechat_santou", "tier": 2, "name": "三头六臂跨境电商", "query": "site:mp.weixin.qq.com 三头六臂跨境电商", "access": "public_search_and_public_article_only" },
-    { "id": "wechat_crossborder_headlines", "tier": 2, "name": "跨境头条对应公众号", "query": "site:mp.weixin.qq.com 跨境头条 亚马逊", "access": "public_only_verify_account_identity" },
-    { "id": "wechat_crossborder_briefs", "tier": 2, "name": "跨境快讯对应公众号", "query": "site:mp.weixin.qq.com 跨境快讯 亚马逊", "access": "public_only_verify_account_identity" },
-    { "id": "wechat_wearesellers", "tier": 2, "name": "知无不言对应公众号", "query": "site:mp.weixin.qq.com 知无不言 亚马逊", "access": "public_only_verify_account_identity" },
-    { "id": "wechat_tt123", "tier": 2, "name": "TT123卖家导航对应公众号", "query": "site:mp.weixin.qq.com TT123 卖家导航", "access": "public_only_verify_account_identity" },
-    { "id": "wechat_brand_ark", "tier": 2, "name": "品牌方舟对应公众号", "query": "site:mp.weixin.qq.com 品牌方舟 亚马逊", "access": "public_only_verify_account_identity" },
-    { "id": "wechat_seller_home", "tier": 2, "name": "卖家之家对应公众号", "query": "site:mp.weixin.qq.com 卖家之家 亚马逊", "access": "public_only_verify_account_identity" },
-    { "id": "amazon_category_competitors", "tier": 2, "name": "汽车用品关键词与竞品公开页面", "query": "site:amazon.com fuel hose CPE braided AN fittings exhaust clamp", "note": "尚无指定ASIN或历史快照。首次读到的数据只建基线；不得据单次价格、Coupon、BSR称发生变化。" }
-  ]
+    {
+      "id": "amazon_seller_news",
+      "tier": 1,
+      "name": "Amazon Seller Central News and Announcements",
+      "query": "site:sellercentral.amazon.com News and Announcements",
+      "note": "区分Amazon官方公告、版主回复与卖家个人帖子；只读公开内容。"
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "tier": 1,
+      "name": "Amazon 全球开店新闻中心",
+      "query": "site:globalselling.amazon.com 新闻 公告"
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "tier": 1,
+      "name": "Amazon Ads What's New",
+      "query": "site:advertising.amazon.com whats-new"
+    },
+    {
+      "id": "relevant_regulators",
+      "tier": 1,
+      "name": "相关监管机构原文",
+      "query": "Amazon seller United States CPSC FTC CBP IRS USPTO regulation",
+      "note": "按线索检索相关监管机构；只引用真正支持该事件的原文。"
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "tier": 1,
+      "name": "加拿大站 Amazon Seller Central 官方公告及官方动态",
+      "marketplaces": [
+        "CA"
+      ],
+      "query": "site:sellercentral.amazon.ca News and Announcements",
+      "additional_queries": [
+        "site:advertising.amazon.com whats-new Canada",
+        "site:globalselling.amazon.com 加拿大"
+      ],
+      "note": "检查加拿大官方公告，并补查 Amazon Ads / 全球开店中明确适用加拿大的内容。区分官方作者与卖家帖子；仅公开来源。"
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "tier": 1,
+      "name": "墨西哥站 Amazon Seller Central 官方公告及官方动态",
+      "marketplaces": [
+        "MX"
+      ],
+      "query": "site:sellercentral.amazon.com.mx noticias anuncios News_Amazon",
+      "additional_queries": [
+        "site:advertising.amazon.com whats-new Mexico",
+        "site:globalselling.amazon.com 墨西哥"
+      ],
+      "note": "检查墨西哥官方公告，并补查 Amazon Ads / 全球开店中明确适用墨西哥的内容。保留西语关键术语；区分官方作者与卖家帖子；仅公开来源。"
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "tier": 1,
+      "name": "加拿大相关监管机构原文",
+      "marketplaces": [
+        "CA"
+      ],
+      "query": "Amazon Canada seller regulatory tax customs product safety official",
+      "note": "按实际事件查找加拿大税务、海关、产品安全、知识产权等官方原文；核实当前机构身份和适用对象，不把美国规则套用加拿大。"
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "tier": 1,
+      "name": "墨西哥相关监管机构原文",
+      "marketplaces": [
+        "MX"
+      ],
+      "query": "Amazon México vendedores impuestos aduanas cumplimiento normativa oficial",
+      "note": "按实际事件查找墨西哥税务、海关、产品合规、消费者保护等官方原文；核实当前机构身份和适用对象，不把美国规则套用墨西哥。"
+    },
+    {
+      "id": "crossborder_headlines",
+      "tier": 2,
+      "name": "跨境头条",
+      "query": "跨境头条 亚马逊",
+      "note": "先确认媒体主体与文章归属，不把同名栏目自动当成独立媒体。"
+    },
+    {
+      "id": "crossborder_briefs",
+      "tier": 2,
+      "name": "跨境快讯",
+      "query": "跨境快讯 亚马逊"
+    },
+    {
+      "id": "wearesellers",
+      "tier": 2,
+      "name": "知无不言",
+      "query": "知无不言 亚马逊"
+    },
+    {
+      "id": "tt123",
+      "tier": 2,
+      "name": "TT123卖家导航",
+      "query": "TT123 卖家导航 亚马逊"
+    },
+    {
+      "id": "brand_ark",
+      "tier": 2,
+      "name": "品牌方舟",
+      "query": "品牌方舟 亚马逊"
+    },
+    {
+      "id": "seller_home",
+      "tier": 2,
+      "name": "卖家之家",
+      "query": "卖家之家 亚马逊"
+    },
+    {
+      "id": "wechat_dabao",
+      "tier": 2,
+      "name": "大宝站外推广",
+      "query": "site:mp.weixin.qq.com 大宝站外推广",
+      "access": "public_search_and_public_article_only"
+    },
+    {
+      "id": "wechat_huluwa",
+      "tier": 2,
+      "name": "葫芦娃站外推广",
+      "query": "site:mp.weixin.qq.com 葫芦娃站外推广",
+      "access": "public_search_and_public_article_only"
+    },
+    {
+      "id": "wechat_santou",
+      "tier": 2,
+      "name": "三头六臂跨境电商",
+      "query": "site:mp.weixin.qq.com 三头六臂跨境电商",
+      "access": "public_search_and_public_article_only"
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "tier": 2,
+      "name": "跨境头条对应公众号",
+      "query": "site:mp.weixin.qq.com 跨境头条 亚马逊",
+      "access": "public_only_verify_account_identity"
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "tier": 2,
+      "name": "跨境快讯对应公众号",
+      "query": "site:mp.weixin.qq.com 跨境快讯 亚马逊",
+      "access": "public_only_verify_account_identity"
+    },
+    {
+      "id": "wechat_wearesellers",
+      "tier": 2,
+      "name": "知无不言对应公众号",
+      "query": "site:mp.weixin.qq.com 知无不言 亚马逊",
+      "access": "public_only_verify_account_identity"
+    },
+    {
+      "id": "wechat_tt123",
+      "tier": 2,
+      "name": "TT123卖家导航对应公众号",
+      "query": "site:mp.weixin.qq.com TT123 卖家导航",
+      "access": "public_only_verify_account_identity"
+    },
+    {
+      "id": "wechat_brand_ark",
+      "tier": 2,
+      "name": "品牌方舟对应公众号",
+      "query": "site:mp.weixin.qq.com 品牌方舟 亚马逊",
+      "access": "public_only_verify_account_identity"
+    },
+    {
+      "id": "wechat_seller_home",
+      "tier": 2,
+      "name": "卖家之家对应公众号",
+      "query": "site:mp.weixin.qq.com 卖家之家 亚马逊",
+      "access": "public_only_verify_account_identity"
+    },
+    {
+      "id": "amazon_category_competitors",
+      "tier": 2,
+      "name": "汽车用品关键词与竞品公开页面",
+      "query": "site:amazon.com fuel hose CPE braided AN fittings exhaust clamp",
+      "note": "尚无指定ASIN或历史快照。首次读到的数据只建基线；不得据单次价格、Coupon、BSR称发生变化。"
+    },
+    {
+      "id": "industry_wechat_ca",
+      "tier": 2,
+      "name": "加拿大站行业媒体与公众号增量",
+      "marketplaces": [
+        "CA"
+      ],
+      "query": "亚马逊 加拿大站 Amazon.ca 加拿大",
+      "include_source_ids": [
+        "crossborder_headlines",
+        "crossborder_briefs",
+        "wearesellers",
+        "tt123",
+        "brand_ark",
+        "seller_home",
+        "wechat_dabao",
+        "wechat_huluwa",
+        "wechat_santou",
+        "wechat_crossborder_headlines",
+        "wechat_crossborder_briefs",
+        "wechat_wearesellers",
+        "wechat_tt123",
+        "wechat_brand_ark",
+        "wechat_seller_home"
+      ],
+      "note": "逐一补查 include_source_ids 中全部既有行业媒体和公众号的加拿大消息，使用各媒体/账号原query加站点词。独立于美国来源游标；仅公开文章，行业线索需标注并追溯官方原文。"
+    },
+    {
+      "id": "industry_wechat_mx",
+      "tier": 2,
+      "name": "墨西哥站行业媒体与公众号增量",
+      "marketplaces": [
+        "MX"
+      ],
+      "query": "亚马逊 墨西哥站 Amazon.com.mx México",
+      "include_source_ids": [
+        "crossborder_headlines",
+        "crossborder_briefs",
+        "wearesellers",
+        "tt123",
+        "brand_ark",
+        "seller_home",
+        "wechat_dabao",
+        "wechat_huluwa",
+        "wechat_santou",
+        "wechat_crossborder_headlines",
+        "wechat_crossborder_briefs",
+        "wechat_wearesellers",
+        "wechat_tt123",
+        "wechat_brand_ark",
+        "wechat_seller_home"
+      ],
+      "note": "逐一补查 include_source_ids 中全部既有行业媒体和公众号的墨西哥消息，使用各媒体/账号原query加站点词。独立于美国来源游标；仅公开文章，行业线索需标注并追溯官方原文。"
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "tier": 2,
+      "name": "加拿大汽车用品关键词与竞品公开页面",
+      "marketplaces": [
+        "CA"
+      ],
+      "query": "site:amazon.ca fuel hose CPE braided AN fittings exhaust clamp",
+      "note": "独立建立CA基线；记录CAD、ASIN、变体、收货地域、税费/运费口径与时间。无可比快照不声称价格、Coupon、BSR变化，不从美国站推断。"
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "tier": 2,
+      "name": "墨西哥汽车用品关键词与竞品公开页面",
+      "marketplaces": [
+        "MX"
+      ],
+      "query": "site:amazon.com.mx manguera combustible CPE conexiones AN abrazadera escape",
+      "note": "独立建立MX基线；记录MXN、ASIN、变体、收货地域、税费/运费口径与时间。无可比快照不声称价格、Coupon、BSR变化，不从美国站推断。"
+    }
+  ],
+  "marketplaces": [
+    "US",
+    "CA",
+    "MX"
+  ],
+  "marketplace_labels": {
+    "US": "美国站 Amazon.com",
+    "CA": "加拿大站 Amazon.ca",
+    "MX": "墨西哥站 Amazon.com.mx"
+  },
+  "scope_note": "美国站优先，常规收录加拿大与墨西哥站。各站点独立核验；跨站同一事件更新单一卡片，站点独立变化分开记录。新增来源独立建基线，不继承美国站成功游标。"
 }

@@ -74,3 +74,30 @@ test('all rendered section links point to existing anchors', () => {
   const ids = new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]));
   for (const match of html.matchAll(/href="#([^"]+)"/g)) assert(ids.has(match[1]), `Missing anchor ${match[1]}`);
 });
+
+test('Canada and Mexico collection scope and filters remain visible without new events', () => {
+  assert(html.includes('加拿大 Amazon.ca'));
+  assert(html.includes('墨西哥 Amazon.com.mx'));
+  for (const [market, label] of [['CA', '加拿大站（CA）'], ['MX', '墨西哥站（MX）']]) {
+    assert(html.includes(`<option value="${market}">${label}</option>`));
+    const f = fixture();
+    f.market.change(market);
+    const expected = registry.events.filter(event => event.marketplaces.includes(market)).length;
+    assert.equal(f.count.textContent, String(expected));
+    assert.equal(f.empty.hidden, expected > 0);
+    f.stories.forEach(story => assert.equal(story.hidden, !story.dataset.marketplaces.split(' ').includes(market)));
+  }
+  const sources = JSON.parse(fs.readFileSync(new URL('../config/sources.json', import.meta.url), 'utf8'));
+  assert.equal(sources.marketplace_focus, 'US');
+  assert.deepEqual(sources.marketplaces, ['US', 'CA', 'MX']);
+  const ids = new Set(sources.sources.map(source => source.id));
+  assert.equal(ids.size, sources.sources.length);
+  for (const market of ['ca', 'mx']) {
+    for (const name of ['amazon_seller_news', 'relevant_regulators', 'industry_wechat', 'amazon_category_competitors']) {
+      assert(ids.has(`${name}_${market}`));
+    }
+    const group = sources.sources.find(source => source.id === `industry_wechat_${market}`);
+    assert(group.include_source_ids.length > 0);
+    assert(group.include_source_ids.every(id => ids.has(id)));
+  }
+});
