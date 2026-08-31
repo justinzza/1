@@ -7,337 +7,142 @@
     "2026-08-30"
   ],
   "last_successful_run_at": null,
-  "last_run_id": null,
-  "last_verified_publication": null,
-  "pending_publication": {
-    "run_id": "run-20260831-backfill-074340",
-    "started_at": "2026-08-31T07:43:40Z",
-    "publication": {
-      "status": "prepared",
-      "url": "https://amazon-ops-radar-vercel.vercel.app/"
-    },
+  "last_run_id": "run-20260831-backfill-074340",
+  "last_verified_publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "0b3d06b228741710f45bec6c8875291309a2ae9e",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
     "expected_digest": "0a5d74e855633db4855ce19d684e8ae500157b3f28d597f0ad4774a2cbfab2a7",
-    "source_results": [
-      {
-        "id": "amazon_seller_news",
-        "status": "public_search_only",
-        "note": "已读取News_Amazon易融库存公告及公开新闻列表；部分帮助页只有JavaScript外壳，无法确认全窗口新闻已穷尽。",
-        "evidence": [
-          {
-            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/a46c87eb-1acf-4fa7-98ef-d58666caa358",
-            "note": "已读取News_Amazon易融库存公告及公开新闻列表；部分帮助页只有JavaScript外壳，无法确认全窗口新闻已穷尽。"
-          }
-        ]
-      },
-      {
-        "id": "amazon_global_selling_news",
-        "status": "public_search_only",
-        "note": "检查全球开店与gs.amazon.cn官方索引、8月栏目；文章跳转失败、索引缓存较旧，不能据此宣称无新公告。",
-        "evidence": [
-          {
-            "url": "https://gs.amazon.cn/news/summary",
-            "note": "检查全球开店与gs.amazon.cn官方索引、8月栏目；文章跳转失败、索引缓存较旧，不能据此宣称无新公告。"
-          }
-        ]
-      },
-      {
-        "id": "amazon_ads_whats_new",
-        "status": "public_search_only",
-        "note": "已核验8月28日作者有声书原文；What’s New列表和API更新正文无法完整读取，MMM仅索引摘要暂缓。",
-        "evidence": [
-          {
-            "url": "https://advertising.amazon.com/resources/whats-new/authors-can-now-advertise-audiobooks",
-            "note": "已核验8月28日作者有声书原文；What’s New列表和API更新正文无法完整读取，MMM仅索引摘要暂缓。"
-          }
-        ]
-      },
-      {
-        "id": "relevant_regulators",
-        "status": "public_search_only",
-        "note": "定向检索FTC、CPSC、CBP及USPS原文。CPSC所见召回主要为8月27日及更早，FTC旧新闻被页面推荐日期误命中；没有将其当8月29/30新规。不是全部监管机构穷尽检查。",
-        "evidence": [
-          {
-            "url": "https://www.cpsc.gov/Recalls",
-            "note": "定向检索FTC、CPSC、CBP及USPS原文。CPSC所见召回主要为8月27日及更早，FTC旧新闻被页面推荐日期误命中；没有将其当8月29/30新规。不是全部监管机构穷尽检查。"
-          }
-        ]
-      },
-      {
-        "id": "crossborder_headlines",
-        "status": "public_search_only",
-        "note": "按页面归属确认跨境头条为AMZ123栏目，读取公开列表及相关文章/索引。SSD与易融商品并入已有本批事件；SmartScout5.2倍原始报告8月24日，排除旧闻转述。",
-        "evidence": [
-          {
-            "url": "https://www.amz123.com/t",
-            "note": "按页面归属确认跨境头条为AMZ123栏目，读取公开列表及相关文章/索引。SSD与易融商品并入已有本批事件；SmartScout5.2倍原始报告8月24日，排除旧闻转述。"
-          }
-        ]
-      },
-      {
-        "id": "crossborder_briefs",
-        "status": "public_search_only",
-        "note": "检查AMZ123跨境快讯列表及易融库存全文索引；易融快讯并入News_Amazon原文，只采用官方支持事实。动态列表与详情直接访问不稳定，不能称全源完整。",
-        "evidence": [
-          {
-            "url": "https://www.amz123.com/kx/ALmMkCZW",
-            "note": "检查AMZ123跨境快讯列表及易融库存全文索引；易融快讯并入News_Amazon原文，只采用官方支持事实。动态列表与详情直接访问不稳定，不能称全源完整。"
-          }
-        ]
-      },
-      {
-        "id": "wearesellers",
-        "status": "public_search_only",
-        "note": "查看知无不言公开首页。多项为旧帖最近回复时间，未核实为本窗口首发或实质更新，不将热榜/回复时间作新闻日期。",
-        "evidence": [
-          {
-            "url": "https://www.wearesellers.com/",
-            "note": "查看知无不言公开首页。多项为旧帖最近回复时间，未核实为本窗口首发或实质更新，不将热榜/回复时间作新闻日期。"
-          }
-        ]
-      },
-      {
-        "id": "tt123",
-        "status": "checked",
-        "note": "已检查公开头条列表及快讯栏，日期覆盖8月28日至本次检查；窗口中与Amazon有关的5.2倍增长转述追到SmartScout8月24日原始报告，不纳入本期增量。该完成状态仅覆盖无需登录的公开栏目，不涵盖会员内容及公众号。",
-        "evidence": [
-          {
-            "url": "https://www.tt123.com/t",
-            "note": "已检查公开头条列表及快讯栏，日期覆盖8月28日至本次检查；窗口中与Amazon有关的5.2倍增长转述追到SmartScout8月24日原始报告，不纳入本期增量。该完成状态仅覆盖无需登录的公开栏目，不涵盖会员内容及公众号。"
-          }
-        ],
-        "window_start": "2026-08-28T00:00:00+08:00",
-        "checked_through": "2026-08-31T07:45:47.189Z"
-      },
-      {
-        "id": "brand_ark",
-        "status": "checked",
-        "note": "已检查公开首页最新文章，日期覆盖8月28日至本次检查；主要为鞋服、美妆、融资和企业财报，未确认新增Amazon卖家直接变化，不把行业其他品牌动态填为汽配趋势。公众号单独记录。",
-        "evidence": [
-          {
-            "url": "https://www.brandark.com/",
-            "note": "已检查公开首页最新文章，日期覆盖8月28日至本次检查；主要为鞋服、美妆、融资和企业财报，未确认新增Amazon卖家直接变化，不把行业其他品牌动态填为汽配趋势。公众号单独记录。"
-          }
-        ],
-        "window_start": "2026-08-28T00:00:00+08:00",
-        "checked_through": "2026-08-31T07:45:47.189Z"
-      },
-      {
-        "id": "seller_home",
-        "status": "failed",
-        "note": "已通过公开检索确认mjzj.com卖家之家入口和早讯线索；首页与文章打开均失败，搜索摘要不足以完成全文核验。未改走登录或限制绕过。",
-        "evidence": [
-          {
-            "url": "https://m.mjzj.com/article/fwsv69ohthq8",
-            "note": "已通过公开检索确认mjzj.com卖家之家入口和早讯线索；首页与文章打开均失败，搜索摘要不足以完成全文核验。未改走登录或限制绕过。"
-          }
-        ]
-      },
-      {
-        "id": "wechat_dabao",
-        "status": "public_search_only",
-        "note": "已检索mp.weixin.qq.com域内“大宝站外推广”及相关名称；未得到本窗口内可验证归属、日期和正文的新文章。不将没有检索结果判为公众号没有发文，不绕过登录、验证码或付费墙。",
-        "queries": [
-          "site:mp.weixin.qq.com \"大宝站外推广\" 2026"
-        ]
-      },
-      {
-        "id": "wechat_huluwa",
-        "status": "public_search_only",
-        "note": "已检索mp.weixin.qq.com域内“葫芦娃站外推广”及相关名称；未得到本窗口内可验证归属、日期和正文的新文章。不将没有检索结果判为公众号没有发文，不绕过登录、验证码或付费墙。",
-        "queries": [
-          "site:mp.weixin.qq.com \"葫芦娃站外推广\" 2026"
-        ]
-      },
-      {
-        "id": "wechat_santou",
-        "status": "public_search_only",
-        "note": "已检索mp.weixin.qq.com域内“三头六臂跨境电商”及相关名称；未得到本窗口内可验证归属、日期和正文的新文章。不将没有检索结果判为公众号没有发文，不绕过登录、验证码或付费墙。",
-        "queries": [
-          "site:mp.weixin.qq.com \"三头六臂跨境电商\" 2026"
-        ]
-      },
-      {
-        "id": "wechat_crossborder_headlines",
-        "status": "public_search_only",
-        "note": "已检索mp.weixin.qq.com域内“跨境头条（AMZ123对应公众号）”及相关名称；未得到本窗口内可验证归属、日期和正文的新文章。不将没有检索结果判为公众号没有发文，不绕过登录、验证码或付费墙。",
-        "queries": [
-          "site:mp.weixin.qq.com \"跨境头条（AMZ123对应公众号）\" 2026"
-        ]
-      },
-      {
-        "id": "wechat_crossborder_briefs",
-        "status": "public_search_only",
-        "note": "已检索mp.weixin.qq.com域内“跨境快讯（AMZ123对应公众号）”及相关名称；未得到本窗口内可验证归属、日期和正文的新文章。不将没有检索结果判为公众号没有发文，不绕过登录、验证码或付费墙。",
-        "queries": [
-          "site:mp.weixin.qq.com \"跨境快讯（AMZ123对应公众号）\" 2026"
-        ]
-      },
-      {
-        "id": "wechat_wearesellers",
-        "status": "public_search_only",
-        "note": "已检索mp.weixin.qq.com域内“知无不言”及相关名称；未得到本窗口内可验证归属、日期和正文的新文章。不将没有检索结果判为公众号没有发文，不绕过登录、验证码或付费墙。",
-        "queries": [
-          "site:mp.weixin.qq.com \"知无不言\" 2026"
-        ]
-      },
-      {
-        "id": "wechat_tt123",
-        "status": "public_search_only",
-        "note": "已检索mp.weixin.qq.com域内“TT123卖家导航”及相关名称；未得到本窗口内可验证归属、日期和正文的新文章。不将没有检索结果判为公众号没有发文，不绕过登录、验证码或付费墙。",
-        "queries": [
-          "site:mp.weixin.qq.com \"TT123卖家导航\" 2026"
-        ]
-      },
-      {
-        "id": "wechat_brand_ark",
-        "status": "public_search_only",
-        "note": "已检索mp.weixin.qq.com域内“品牌方舟”及相关名称；未得到本窗口内可验证归属、日期和正文的新文章。不将没有检索结果判为公众号没有发文，不绕过登录、验证码或付费墙。",
-        "queries": [
-          "site:mp.weixin.qq.com \"品牌方舟\" 2026"
-        ]
-      },
-      {
-        "id": "wechat_seller_home",
-        "status": "public_search_only",
-        "note": "已检索mp.weixin.qq.com域内“卖家之家”及相关名称；未得到本窗口内可验证归属、日期和正文的新文章。不将没有检索结果判为公众号没有发文，不绕过登录、验证码或付费墙。",
-        "queries": [
-          "site:mp.weixin.qq.com \"卖家之家\" 2026"
-        ]
-      },
-      {
-        "id": "amazon_category_competitors",
-        "status": "public_search_only",
-        "note": "定向检索CPE fuel hose、AN fittings、exhaust clamp和已有上下文ASIN；检索到自有样本页面，但缺同变体、同地区的前后价格/Coupon/BSR快照及连续关键词量，未生成变化事件。",
-        "evidence": [
-          {
-            "url": "https://www.amazon.com/Evilenergy-Joint-Stainless-Exhaust-Sleeve/dp/B076J5HSNJ",
-            "note": "定向检索CPE fuel hose、AN fittings、exhaust clamp和已有上下文ASIN；检索到自有样本页面，但缺同变体、同地区的前后价格/Coupon/BSR快照及连续关键词量，未生成变化事件。"
-          }
-        ]
-      }
-    ],
-    "note": "Batch staged before main update; restore from saved run files if interrupted."
+    "observed_digest": "0a5d74e855633db4855ce19d684e8ae500157b3f28d597f0ad4774a2cbfab2a7",
+    "verified_at": "2026-08-31T07:50:10.522Z",
+    "html_exact_match": true,
+    "unique_event_keys": 15,
+    "event_cards": 15,
+    "deploy_dashboard_url": "https://vercel.com/amz-ce8f/amazon-ops-radar-vercel/Ajuu7ASd1MW6xEgheYwa9KXnmW6x",
+    "runtime_logs": "not_checked"
   },
+  "pending_publication": null,
   "deferred_metadata": null,
   "sources": {
     "amazon_seller_news": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_global_selling_news": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_ads_whats_new": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "relevant_regulators": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "crossborder_headlines": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "crossborder_briefs": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wearesellers": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "tt123": {
-      "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
-      "backfill_complete": false
+      "last_successful_check_at": "2026-08-31T07:45:47.189Z",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "checked",
+      "backfill_complete": true
     },
     "brand_ark": {
-      "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
-      "backfill_complete": false
+      "last_successful_check_at": "2026-08-31T07:45:47.189Z",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "checked",
+      "backfill_complete": true
     },
     "seller_home": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "failed",
       "backfill_complete": false
     },
     "wechat_dabao": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_huluwa": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_santou": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_crossborder_headlines": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_crossborder_briefs": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_wearesellers": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_tt123": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_brand_ark": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_seller_home": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_category_competitors": {
       "last_successful_check_at": null,
-      "last_attempt_at": null,
-      "last_status": "not_checked",
+      "last_attempt_at": "2026-08-31T07:50:59.714Z",
+      "last_status": "public_search_only",
       "backfill_complete": false
     }
   },
@@ -349,5 +154,6 @@
     "production_html_matches_source": true,
     "verified_at": "2026-08-31T03:44:09.551Z",
     "news_collection_verified": false
-  }
+  },
+  "last_run_status": "partial"
 }
