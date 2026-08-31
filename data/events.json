@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "content_updated_at": null,
+  "migration": {
+    "at": "2026-08-31T03:26:26.627Z",
+    "source_report_date": "2026-08-31",
+    "original_card_count": 11,
+    "compound_cards_split": 2,
+    "duplicate_occurrences_merged": 2,
+    "canonical_event_count": 11,
+    "source_archive": "archive/legacy-source-20260831.txt",
+    "news_reverified": false
+  },
+  "events": [
+    {
+      "subject_key": "amazon-fba-inventory-removal",
+      "action_key": "settings-deadline-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": "2026-08-28",
+      "title": "美国站 FBA 库存自动移除设置（旧版线索）",
+      "summary": "涉及270天以上超龄库存、无在售信息库存和不可售库存。若未完成设置，系统可能按账户配置自动退回、弃置、捐赠或清货，并产生移除费用。",
+      "impact": "高货值库存若被错误处置，可能同时造成货损、移除费与旺季库容错配。",
+      "action": "先核实当前官方要求；原建议为：导出库龄与不可售库存，核对退货地址、自动移除方式和高货值SKU例外，并保存操作截图。",
+      "priority": "P0",
+      "category": "policy",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-27卡片原时间标记：08-25（临期延续）。旧版2026-08-26卡片原时间标记：08-25。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-26",
+        "2026-08-27"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 1,
+          "display_date": "2026-08-27",
+          "title": "今天到期：美国站FBA库存自动移除设置"
+        },
+        {
+          "source_card": 10,
+          "display_date": "2026-08-26",
+          "title": "临期：美日站FBA库存移除设置"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.cifnews.com/article/188492",
+          "publisher": "雨果跨境",
+          "kind": "aggregator",
+          "claimed_kind": "industry",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://www.cifnews.com/article/188492"
+        }
+      ],
+      "event_key": "amazon-fba-inventory-removal|settings-deadline-2026|US|unknown",
+      "id": "evt-9e413b5acb9bacdb",
+      "primary_source_url": "https://www.cifnews.com/article/188492"
+    },
+    {
+      "subject_key": "amazon-eu-fba-import-details",
+      "action_key": "require-mrn-eori-2026",
+      "marketplaces": [
+        "EU"
+      ],
+      "effective_date": "2026-09-01",
+      "title": "9月1日起：PAN-EU及法国入仓需MRN + EORI",
+      "summary": "9月1日起收到的适用货件需提交欧盟首次入境国的MRN和EORI；首个货件收到后60天仍缺有效进口详情，可能无法继续创建发往欧盟运营中心的新货件。",
+      "impact": "缺失进口详情会阻断后续欧盟FBA货件创建，影响旺季补货连续性。",
+      "action": "先核实当前官方要求；原建议为：把MRN、EORI加入货代交付清单与货件台账，并设置“收货+45天”预警。",
+      "priority": "P0",
+      "category": "policy",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-27卡片原时间标记：08-11（临期延续）。旧版2026-08-26卡片原时间标记：08-11。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-26",
+        "2026-08-27"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 2,
+          "display_date": "2026-08-27",
+          "title": "9月1日起：PAN-EU及法国入仓需MRN + EORI"
+        },
+        {
+          "source_card": 11,
+          "display_date": "2026-08-26",
+          "title": "临期：PAN-EU及法国入仓需MRN + EORI"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://globalselling.amazon.com/en/news/news-notices-260811?mons_sel_locale=en_US",
+          "publisher": "Amazon官方",
+          "kind": "unverified",
+          "claimed_kind": "official_or_seller_post_unverified",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://globalselling.amazon.com/en/news/news-notices-260811"
+        }
+      ],
+      "event_key": "amazon-eu-fba-import-details|require-mrn-eori-2026|EU|2026-09-01",
+      "id": "evt-ea2287539d7f6819",
+      "primary_source_url": "https://globalselling.amazon.com/en/news/news-notices-260811"
+    },
+    {
+      "subject_key": "amazon-rheinberg-fulfillment-center",
+      "action_key": "facility-expansion-2026",
+      "marketplaces": [
+        "DE"
+      ],
+      "effective_date": null,
+      "title": "亚马逊数亿欧元升级德国莱茵贝格物流中心",
+      "summary": "德国媒体与行业媒体报道，亚马逊计划引入机器人和超过20公里输送系统；库存容量预计由约800万件提升至2000万件，周处理能力由14万件提升至60万件。",
+      "impact": "这是德国履约网络中长期扩容信号，短期不会直接改变卖家政策。",
+      "action": "先核实当前官方要求；原建议为：暂不因单一设施扩建调整仓网；未来12个月持续监控该区域接收与配送表现。",
+      "priority": "P2",
+      "category": "policy",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-27卡片原时间标记：08-27发布 · 事项08-25公布。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-27"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 3,
+          "display_date": "2026-08-27",
+          "title": "亚马逊数亿欧元升级德国莱茵贝格物流中心"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www1.wdr.de/nrw/niederrhein/kreis-wesel/erweiterung-amazon-logistikzentrum-rheinberg-100.html",
+          "publisher": "WDR",
+          "kind": "aggregator",
+          "claimed_kind": "industry",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://www1.wdr.de/nrw/niederrhein/kreis-wesel/erweiterung-amazon-logistikzentrum-rheinberg-100.html"
+        },
+        {
+          "url": "https://www.amz123.com/kx/oe7XSbFw",
+          "publisher": "AMZ123",
+          "kind": "aggregator",
+          "claimed_kind": "industry",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://www.amz123.com/kx/oe7XSbFw"
+        }
+      ],
+      "event_key": "amazon-rheinberg-fulfillment-center|facility-expansion-2026|DE|unknown",
+      "id": "evt-7957ea1746d6111c",
+      "primary_source_url": "https://www.amz123.com/kx/oe7XSbFw"
+    },
+    {
+      "subject_key": "amazon-accelerate-2026",
+      "action_key": "early-bird-registration-deadline",
+      "marketplaces": [
+        "GLOBAL",
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": "2026-08-29",
+      "category": "ai",
+      "title": "Amazon Accelerate 2026 早鸟报名截止（旧版线索）",
+      "summary": "Accelerate 2026将于9月22日至24日在西雅图举行，8月29日前报名可比标准价节省100美元。活动包含卖家工具、AI能力、运营与增长课程。",
+      "impact": "仅影响计划赴美参会的团队，对Seller Central规则和日常运营没有直接变化。",
+      "action": "先核实当前官方要求；原建议为：有明确参会目标的团队在8月29日前完成预算与行程决策；无计划者无需动作。",
+      "priority": "P2",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-27卡片原时间标记：08-27。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-27"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 4,
+          "display_date": "2026-08-27",
+          "title": "Amazon Accelerate早鸟价将在8月29日截止"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sell.amazon.com/events",
+          "publisher": "Amazon活动页",
+          "kind": "unverified",
+          "claimed_kind": "official_or_seller_post_unverified",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://sell.amazon.com/events"
+        }
+      ],
+      "event_key": "amazon-accelerate-2026|early-bird-registration-deadline|GLOBAL+US|unknown",
+      "id": "evt-0de0a31fb03b45e5",
+      "primary_source_url": "https://sell.amazon.com/events"
+    },
+    {
+      "subject_key": "amazon-seller-account-section-3",
+      "action_key": "seller-review-reports-2026-08",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "title": "“协议三”账户审核风险升温",
+      "summary": "多批卖家出现销售权限受限、资金冻结或视频/供应链核验；官方论坛可确认个案，但“全平台扫号”规模与机制暂无官方公告。",
+      "impact": "旧版事项的适用范围与影响仍需官方原文复核；不能直接套用到美国站。",
+      "action": "查找直接支持该事项的公开原文，确认站点、日期和适用条件后再采取动作。",
+      "priority": "P0",
+      "category": "policy",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-26卡片原时间标记：08-26 01:54。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-26"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 5,
+          "display_date": "2026-08-26",
+          "title": "“协议三”账户审核风险升温"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/b7749df3-8159-4496-b432-c91a119f4b09",
+          "publisher": "Amazon论坛",
+          "kind": "unverified",
+          "claimed_kind": "official_or_seller_post_unverified",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/b7749df3-8159-4496-b432-c91a119f4b09"
+        }
+      ],
+      "event_key": "amazon-seller-account-section-3|seller-review-reports-2026-08|US|unknown",
+      "id": "evt-fa20caf756f97250",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/b7749df3-8159-4496-b432-c91a119f4b09"
+    },
+    {
+      "subject_key": "amazon-europe-fba-delivery-window",
+      "action_key": "international-window-seven-days-2026",
+      "marketplaces": [
+        "DE",
+        "ES",
+        "FR",
+        "GB",
+        "IT"
+      ],
+      "effective_date": "2026-09-01",
+      "title": "欧洲五国国际FBA送达窗口被报道缩至7天",
+      "summary": "多家行业媒体称，9月1日起使用非亚马逊合作承运商的国际FBA货件需填写7天预计送达窗口，需回到各账户后台实测核验。",
+      "impact": "旧版事项的适用范围与影响仍需官方原文复核；不能直接套用到美国站。",
+      "action": "查找直接支持该事项的公开原文，确认站点、日期和适用条件后再采取动作。",
+      "priority": "P0",
+      "category": "policy",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-26卡片原时间标记：08-26。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-26"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 6,
+          "display_date": "2026-08-26",
+          "title": "欧洲五国国际FBA送达窗口被报道缩至7天"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.eccang.com/news/4965",
+          "publisher": "易仓",
+          "kind": "aggregator",
+          "claimed_kind": "industry",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://www.eccang.com/news/4965"
+        },
+        {
+          "url": "https://m.ebrun.com/699361.html",
+          "publisher": "亿邦",
+          "kind": "aggregator",
+          "claimed_kind": "industry",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://m.ebrun.com/699361.html"
+        }
+      ],
+      "event_key": "amazon-europe-fba-delivery-window|international-window-seven-days-2026|DE+ES+FR+GB+IT|2026-09-01",
+      "id": "evt-5fe213cdaa8942de",
+      "primary_source_url": "https://m.ebrun.com/699361.html"
+    },
+    {
+      "subject_key": "amazon-india-cancellation-fee",
+      "action_key": "tiered-order-value-fee-2026",
+      "marketplaces": [
+        "IN"
+      ],
+      "effective_date": "2026-08-17",
+      "title": "印度站取消费分级计费（旧版线索）",
+      "summary": "旧版称8月17日起，非买家请求取消及超时未确认订单按订单额收取2%–10%取消费并叠加18% GST。本次未取得原文核实。",
+      "impact": "旧版事项的适用范围与影响仍需官方原文复核；不能直接套用到美国站。",
+      "action": "查找直接支持该事项的公开原文，确认站点、日期和适用条件后再采取动作。",
+      "priority": "P1",
+      "category": "policy",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-26卡片原时间标记：08-26核验。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-26"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 7,
+          "display_date": "2026-08-26",
+          "title": "印度站取消费改为订单金额分级计费"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.in/seller-forums/discussions/t/02105615-8caa-453b-9699-bee94d5b91aa",
+          "publisher": "Amazon印度站",
+          "kind": "unverified",
+          "claimed_kind": "official_or_seller_post_unverified",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://sellercentral.amazon.in/seller-forums/discussions/t/02105615-8caa-453b-9699-bee94d5b91aa"
+        }
+      ],
+      "event_key": "amazon-india-cancellation-fee|tiered-order-value-fee-2026|IN|2026-08-17",
+      "id": "evt-d7e56b53810b783b",
+      "primary_source_url": "https://sellercentral.amazon.in/seller-forums/discussions/t/02105615-8caa-453b-9699-bee94d5b91aa"
+    },
+    {
+      "subject_key": "amazon-india-closing-fee",
+      "action_key": "increase-closing-fee-2026",
+      "marketplaces": [
+        "IN"
+      ],
+      "effective_date": "2026-09-07",
+      "title": "印度站部分成交费上调（旧版线索）",
+      "summary": "旧版称9月7日起部分成交费每件上调₹1或₹3。该变化与8月17日取消费调整分开建档；本次未取得原文核实。",
+      "impact": "旧版事项的适用范围与影响仍需官方原文复核；不能直接套用到美国站。",
+      "action": "查找直接支持该事项的公开原文，确认站点、日期和适用条件后再采取动作。",
+      "priority": "P1",
+      "category": "policy",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-26卡片原时间标记：08-26核验。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-26"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 7,
+          "display_date": "2026-08-26",
+          "title": "印度站取消费改为订单金额分级计费"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.in/seller-forums/discussions/t/02105615-8caa-453b-9699-bee94d5b91aa",
+          "publisher": "Amazon印度站",
+          "kind": "unverified",
+          "claimed_kind": "official_or_seller_post_unverified",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://sellercentral.amazon.in/seller-forums/discussions/t/02105615-8caa-453b-9699-bee94d5b91aa"
+        }
+      ],
+      "event_key": "amazon-india-closing-fee|increase-closing-fee-2026|IN|2026-09-07",
+      "id": "evt-9c4aeaa1e59282d5",
+      "primary_source_url": "https://sellercentral.amazon.in/seller-forums/discussions/t/02105615-8caa-453b-9699-bee94d5b91aa"
+    },
+    {
+      "subject_key": "amazon-us-mfn-fulfillment",
+      "action_key": "official-qa-session-2026-08",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "title": "美国站举办MFN履约官方答疑",
+      "summary": "官方团队集中讨论迟发率、有效追踪率、OTDR、承运商延误、Buy Shipping标签差额与配送承诺。",
+      "impact": "旧版事项的适用范围与影响仍需官方原文复核；不能直接套用到美国站。",
+      "action": "查找直接支持该事项的公开原文，确认站点、日期和适用条件后再采取动作。",
+      "priority": "P1",
+      "category": "policy",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-26卡片原时间标记：08-26。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-26"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 8,
+          "display_date": "2026-08-26",
+          "title": "美国站举办MFN履约官方答疑"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/6f081fc3-5f08-4d1f-8278-72fce3bfbf1b",
+          "publisher": "Amazon官方答疑",
+          "kind": "unverified",
+          "claimed_kind": "official_or_seller_post_unverified",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/6f081fc3-5f08-4d1f-8278-72fce3bfbf1b"
+        }
+      ],
+      "event_key": "amazon-us-mfn-fulfillment|official-qa-session-2026-08|US|unknown",
+      "id": "evt-362b5dcf42e2396e",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/6f081fc3-5f08-4d1f-8278-72fce3bfbf1b"
+    },
+    {
+      "subject_key": "amazon-mechanical-turk",
+      "action_key": "reported-service-closure-2026",
+      "marketplaces": [
+        "GLOBAL"
+      ],
+      "effective_date": "2026-09-30",
+      "category": "ai",
+      "summary": "旧版转述MTurk将于9月30日关闭，但只提供行业快讯列表页，未提供可核验的具体文章或官方公告。此消息未获确认，不得据此认定服务关闭。",
+      "title": "Mechanical Turk 被报道将于9月30日关闭",
+      "impact": "旧版事项的适用范围与影响仍需官方原文复核；不能直接套用到美国站。",
+      "action": "查找直接支持该事项的公开原文，确认站点、日期和适用条件后再采取动作。",
+      "priority": "P2",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-26卡片原时间标记：08-26报道。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-26"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 9,
+          "display_date": "2026-08-26",
+          "title": "Mechanical Turk 被报道将于9月30日关闭"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.amz123.com/kx/",
+          "publisher": "AMZ123",
+          "kind": "aggregator",
+          "claimed_kind": "industry",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://www.amz123.com/kx"
+        }
+      ],
+      "event_key": "amazon-mechanical-turk|reported-service-closure-2026|GLOBAL|2026-09-30",
+      "id": "evt-309353fc81e33b03",
+      "primary_source_url": "https://www.amz123.com/kx"
+    },
+    {
+      "subject_key": "amazon-fba-inventory-removal",
+      "action_key": "settings-deadline-2026",
+      "marketplaces": [
+        "JP"
+      ],
+      "effective_date": null,
+      "deadline": "2026-08-31",
+      "title": "日本站 FBA 库存移除设置（旧版线索）",
+      "summary": "旧版称日本站重点涉及270天以上超龄库存，8月31日前需复查移除设置；本次未核实范围、时限或处置机制。美国站变化已独立建档。",
+      "impact": "旧版事项的适用范围与影响仍需官方原文复核；不能直接套用到美国站。",
+      "action": "查找直接支持该事项的公开原文，确认站点、日期和适用条件后再采取动作。",
+      "priority": "P0",
+      "category": "policy",
+      "original_published_at": null,
+      "original_date_note": "旧版2026-08-26卡片原时间标记：08-25。这些标记混有报道、发现与临期提醒时间，未将其冒充原始发布日期。",
+      "first_seen_at": "2026-08-31T03:26:26.627Z",
+      "last_material_update_at": "2026-08-31T03:26:26.627Z",
+      "verification_status": "historical_unverified",
+      "history_dates": [
+        "2026-08-26"
+      ],
+      "legacy_cards": [
+        {
+          "source_card": 10,
+          "display_date": "2026-08-26",
+          "title": "临期：美日站FBA库存移除设置"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.cifnews.com/article/188492",
+          "publisher": "雨果跨境",
+          "kind": "aggregator",
+          "claimed_kind": "industry",
+          "published_at": null,
+          "verified_at": null,
+          "supports_event": false,
+          "authority_confirmed": false,
+          "canonical_url": "https://www.cifnews.com/article/188492"
+        }
+      ],
+      "event_key": "amazon-fba-inventory-removal|settings-deadline-2026|JP|unknown",
+      "id": "evt-6a495d98799d5763",
+      "primary_source_url": "https://www.cifnews.com/article/188492"
+    }
+  ]
+}

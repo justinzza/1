@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "bootstrap",
+  "report_date": null,
+  "content_updated_at": null,
+  "new_event_keys": [],
+  "updated_event_keys": [],
+  "counts": {
+    "new": 0,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "top_changes": [],
+  "category_coverage": {
+    "policy": "not_checked",
+    "ads": "not_checked",
+    "ai": "not_checked",
+    "opportunities": "not_checked",
+    "competitors": "not_checked"
+  },
+  "coverage_note": "本次完成源码接线和历史事件去重，尚未完成新闻全来源复核。首轮任务须从8月28日起补查，包含8月29日、30日；旧网页的“无新增”不是已验证的成功基准。",
+  "action_items": [
+    {
+      "title": "旧版政策先复核再执行",
+      "detail": "已把不同站点与不同生效日分开，重复事项合并；请以查到的适用站点官方原文为准。",
+      "due": "执行前"
+    }
+  ]
+}

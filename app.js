@@ -1,97 +1,68 @@
 (() => {
-  "use strict";
-
-  const dateTabs = [...document.querySelectorAll("[data-date]")];
-  const panels = [...document.querySelectorAll("[data-panel]")];
-  const filters = [...document.querySelectorAll("[data-filter]")];
-  let activeFilter = filters.find((button) => button.classList.contains("active"))?.dataset.filter || "all";
-
-  function updateCount(panel) {
-    const count = panel.querySelector("[data-story-count]");
-    const visible = [...panel.querySelectorAll(".story")].filter((story) => !story.hidden).length;
-    if (count) count.textContent = String(visible);
-  }
-
-  function applyFilter() {
-    const activePanel = panels.find((panel) => panel.classList.contains("active"));
-    if (!activePanel) return;
-    const stories = [...activePanel.querySelectorAll(".story")];
-    stories.forEach((story) => {
-      story.hidden = activeFilter !== "all" && story.dataset.priority !== activeFilter;
-    });
-    updateCount(activePanel);
-    const emptyMessage = activePanel.querySelector("[data-filter-empty]");
-    if (emptyMessage) emptyMessage.hidden = stories.length === 0 || stories.some((story) => !story.hidden);
-  }
-
-  function selectDate(date) {
-    if (!panels.some((panel) => panel.dataset.panel === date)) return;
-    dateTabs.forEach((button) => {
-      const selected = button.dataset.date === date;
-      button.classList.toggle("active", selected);
-      button.setAttribute("aria-pressed", String(selected));
-    });
-    panels.forEach((panel) => panel.classList.toggle("active", panel.dataset.panel === date));
-    applyFilter();
-  }
-
-  panels.forEach((panel) => {
-    updateCount(panel);
-    if (panel.querySelector(".story") && !panel.querySelector("[data-filter-empty]")) {
-      const message = document.createElement("p");
-      message.dataset.filterEmpty = "";
-      message.className = "filter-empty";
-      message.textContent = "该日期下没有符合当前优先级的情报。";
-      message.hidden = true;
-      message.setAttribute("role", "status");
-      panel.append(message);
+  'use strict';
+  const stories = [...document.querySelectorAll('#event-list .story')];
+  const priorityButtons = [...document.querySelectorAll('[data-filter]')];
+  const market = document.querySelector('#market-filter');
+  const category = document.querySelector('#category-filter');
+  const date = document.querySelector('#date-filter');
+  const count = document.querySelector('#story-count');
+  const empty = document.querySelector('#filter-empty');
+  const current = new Set((document.querySelector('#event-list')?.dataset.currentEventKeys || '').split('\n').filter(Boolean));
+  let priority = 'all';
+  function applyFilters() {
+    let visible = 0;
+    for (const story of stories) {
+      const markets = story.dataset.marketplaces.split(' ');
+      const dates = story.dataset.dates.split(' ');
+      const marketMatches = market.value === 'all' || (market.value === 'US' ? markets.includes('US') || markets.includes('GLOBAL') : markets.includes(market.value === 'US_ONLY' ? 'US' : market.value));
+      const categoryMatches = category.value === 'all' || category.value === story.dataset.category;
+      const dateMatches = date.value === 'all' || (date.value === 'latest' ? current.has(story.dataset.eventKey) : dates.includes(date.value));
+      story.hidden = !(marketMatches && categoryMatches && dateMatches && (priority === 'all' || story.dataset.priority === priority));
+      if (!story.hidden) visible += 1;
     }
-  });
-
-  dateTabs.forEach((button) => button.addEventListener("click", () => selectDate(button.dataset.date)));
-  filters.forEach((button) => {
-    button.setAttribute("aria-pressed", String(button.dataset.filter === activeFilter));
-    button.addEventListener("click", () => {
-      activeFilter = button.dataset.filter || "all";
-      filters.forEach((item) => {
-        const selected = item === button;
-        item.classList.toggle("active", selected);
-        item.setAttribute("aria-pressed", String(selected));
-      });
-      applyFilter();
+    if (count) count.textContent = String(visible);
+    if (empty) empty.hidden = visible > 0;
+    priorityButtons.forEach(button => {
+      const selected = button.dataset.filter === priority;
+      button.classList.toggle('active', selected);
+      button.setAttribute('aria-pressed', String(selected));
     });
-  });
-
-  // Reveal a hidden date panel before the browser follows an archive anchor.
-  function revealHashPanel(hash) {
-    if (!hash || hash === "#") return;
-    let id;
-    try { id = decodeURIComponent(hash.slice(1)); } catch { return; }
-    const target = document.getElementById(id);
-    const panel = target?.closest("[data-panel]");
-    if (panel) selectDate(panel.dataset.panel);
   }
-  document.querySelectorAll('a[href^="#"]').forEach((link) => {
-    link.addEventListener("click", () => revealHashPanel(link.getAttribute("href")));
-  });
-  window.addEventListener("hashchange", () => revealHashPanel(window.location.hash));
-
-  // Preserve checklist state on this device; storage denial must not break the page.
-  const reportDate = document.querySelector("main")?.dataset.reportDate || "undated";
-  document.querySelectorAll('.actions input[type="checkbox"]').forEach((input) => {
-    const label = input.closest("label")?.querySelector("b")?.textContent.trim();
+  function reset(marketValue = 'US') {
+    market.value = marketValue;
+    category.value = 'all';
+    date.value = 'all';
+    priority = 'all';
+    applyFilters();
+  }
+  [market, category, date].forEach(select => select?.addEventListener('change', applyFilters));
+  priorityButtons.forEach(button => button.addEventListener('click', () => { priority = button.dataset.filter; applyFilters(); }));
+  document.querySelector('#reset-filters')?.addEventListener('click', () => reset());
+  function revealHash() {
+    let id;
+    try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+    const target = document.getElementById(id);
+    if (target?.classList.contains('story') && target.hidden) reset('all');
+    target?.scrollIntoView?.({ block: 'start' });
+  }
+  document.querySelectorAll('a[href^="#evt-"]').forEach(link => link.addEventListener('click', () => {
+    const target = document.getElementById(link.getAttribute('href').slice(1));
+    if (target?.hidden) reset('all');
+  }));
+  window.addEventListener('hashchange', revealHash);
+  const reportDate = document.querySelector('main')?.dataset.reportDate || 'undated';
+  document.querySelectorAll('.actions input[type="checkbox"]').forEach(input => {
+    const label = input.closest('label')?.querySelector('b')?.textContent.trim();
     if (!label) return;
     const key = `amazon-ops-radar:checklist:v1:${reportDate}:${label}`;
-    try { input.checked = window.localStorage.getItem(key) === "1"; } catch { /* Storage is optional. */ }
-    input.addEventListener("change", () => {
+    try { input.checked = window.localStorage.getItem(key) === '1'; } catch { /* Optional local storage. */ }
+    input.addEventListener('change', () => {
       try {
-        if (input.checked) window.localStorage.setItem(key, "1");
+        if (input.checked) window.localStorage.setItem(key, '1');
         else window.localStorage.removeItem(key);
-      } catch { /* Keep the current page usable without persistent storage. */ }
+      } catch { /* Keep the page usable when storage is blocked. */ }
     });
   });
-
-  const initial = panels.find((panel) => panel.classList.contains("active")) || panels[0];
-  if (initial) selectDate(initial.dataset.panel);
-  revealHashPanel(window.location.hash);
+  if (market && category && date) applyFilters();
+  revealHash();
 })();
