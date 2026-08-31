@@ -57,9 +57,20 @@ test('static page references existing assets and state branch cannot deploy', ()
   assert.equal((css.match(/{/g) || []).length, (css.match(/}/g) || []).length);
   assert(!/oapi\.dingtalk|api\.dingtalk/i.test(script + html));
 });
-test('per-category limitations remain visible and are safely escaped', () => {
+test('daily briefing stays removed even when future reports contain category notes', () => {
   const withNotes = { ...report, category_notes: { ai: '公开核验范围内无重要增量 <不等于全源无新增>' } };
   const page = renderPage(registry, withNotes);
-  assert(page.includes('公开核验范围内无重要增量 &lt;不等于全源无新增&gt;'));
+  assert(!/DAILY BRIEFING|daily-summary|category-summary|category-note|id="daily"|href="#daily"/.test(page));
+  assert(!page.includes('公开核验范围内无重要增量'));
+  assert(page.includes('KEY CHANGES'));
+  assert(page.includes('id="news"'));
+  assert(page.includes('id="actions"'));
+  assert(page.includes('id="category-filter"'));
+  assert(page.includes('COVERAGE · 实际检查范围'));
+  assert.equal((page.match(/data-event-key=/g) || []).length, registry.events.length);
   assert.throws(() => renderPage(registry, { ...report, category_notes: { invalid: '错误栏目' } }), /Invalid category/);
+});
+test('all rendered section links point to existing anchors', () => {
+  const ids = new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]));
+  for (const match of html.matchAll(/href="#([^"]+)"/g)) assert(ids.has(match[1]), `Missing anchor ${match[1]}`);
 });

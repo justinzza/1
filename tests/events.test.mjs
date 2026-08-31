@@ -136,7 +136,7 @@ test('migrated data render once, escape HTML, and do not claim news success', ()
   assert.equal(eventKeys.length, new Set(eventKeys).size);
   assert.equal(eventKeys.length, data.events.length);
   if (report.status === 'bootstrap') {
-    assert(html.includes('尚未完成本期核验'));
+    assert(html.includes('等待首次完整核验'));
     assert(!html.includes('昨日无重大可靠更新'));
   }
   data.events[0].summary = '<script>alert("x")</script>';
