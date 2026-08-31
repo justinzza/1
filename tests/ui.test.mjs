@@ -27,7 +27,10 @@ test('US default, all markets, categories, dates, priorities, and empty state ag
   const f = fixture();
   assert.equal(f.count.textContent, String(registry.events.filter(e => e.marketplaces.includes('US') || e.marketplaces.includes('GLOBAL')).length));
   f.market.change('all'); assert.equal(f.count.textContent, String(registry.events.length));
-  f.category.change('ads'); assert.equal(f.count.textContent, '0'); assert.equal(f.empty.hidden, false);
+  f.category.change('ads');
+  const adsCount = registry.events.filter(e => e.category === 'ads').length;
+  assert.equal(f.count.textContent, String(adsCount)); assert.equal(f.empty.hidden, adsCount > 0);
+  f.date.change('1900-01-01'); assert.equal(f.count.textContent, '0'); assert.equal(f.empty.hidden, false);
   f.reset.click(); assert.equal(f.empty.hidden, Number(f.count.textContent) > 0);
   f.filters.find(b => b.dataset.filter === 'P0').click();
   assert.equal(f.count.textContent, String(registry.events.filter(e => e.priority === 'P0' && (e.marketplaces.includes('US') || e.marketplaces.includes('GLOBAL'))).length));
@@ -53,4 +56,10 @@ test('static page references existing assets and state branch cannot deploy', ()
   const css = fs.readFileSync(new URL('../styles.css', import.meta.url), 'utf8');
   assert.equal((css.match(/{/g) || []).length, (css.match(/}/g) || []).length);
   assert(!/oapi\.dingtalk|api\.dingtalk/i.test(script + html));
+});
+test('per-category limitations remain visible and are safely escaped', () => {
+  const withNotes = { ...report, category_notes: { ai: '公开核验范围内无重要增量 <不等于全源无新增>' } };
+  const page = renderPage(registry, withNotes);
+  assert(page.includes('公开核验范围内无重要增量 &lt;不等于全源无新增&gt;'));
+  assert.throws(() => renderPage(registry, { ...report, category_notes: { invalid: '错误栏目' } }), /Invalid category/);
 });
