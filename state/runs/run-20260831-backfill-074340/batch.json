@@ -1,0 +1,418 @@
+{
+  "base_digest": "2710446fcfdbfcac166f20f485843b7e2967d92db059bf3afe6285be015c2857",
+  "checked_at": "2026-08-31T07:45:47.189Z",
+  "candidates": [
+    {
+      "event": {
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": null,
+        "priority": "P1",
+        "original_published_at": "2026-08-29",
+        "first_seen_at": "2026-08-31T07:45:47.189Z",
+        "last_material_update_at": "2026-08-31T07:45:47.189Z",
+        "verification_status": "reviewed",
+        "history_dates": [],
+        "key_aliases": [],
+        "revisions": [],
+        "subject_key": "amazon-fba-sub-same-day",
+        "action_key": "optional-per-unit-bidding-2026",
+        "category": "policy",
+        "title": "美国 FBA 卖家获邀竞价加入 SSD 快速配送（行业线索）",
+        "original_date_note": "EcommerceBytes 与 IT之家转述稿均明确发表于2026-08-29。报道指邀请邮件在8月早些时候发出，具体上线/生效日期未核实；不能把报道日当成强制新收费生效日。已找到官方帮助入口，但本次只能读到页面外壳，故不标为官方确认。",
+        "summary": "8月29日行业报道披露：部分 FBA 卖家获邀为额外商品竞价加入 Sub Same-Day（SSD）网络，按实际经 SSD 发出的件数及卖家设定的单件出价收费，参与自愿。报道同时称，平台原有免费选品安排继续；这不是所有 FBA 商品统一加收配送费。",
+        "impact": "运营判断：更快配送可能改善转化，也会压缩单件利润。燃油管、AN 接头和卡箍是否符合条件须看各自 ASIN 邀请，不能把报道中的平均销量提升当作本店保证。",
+        "action": "先在 Seller Central 核实邀请、可选 ASIN 与收费条款；仅对高毛利、有库存的少量 ASIN 评估测试，记录新增配送费、转化率及扣费后贡献利润。未获邀请或条款不清时不调整报价。",
+        "sources": [
+          {
+            "url": "https://www.ecommercebytes.com/2026/08/29/amazon-lets-sellers-pay-extra-for-ssd-sub-same-day-shipping/",
+            "publisher": "EcommerceBytes",
+            "kind": "industry_original",
+            "published_at": "2026-08-29",
+            "verified_at": "2026-08-31T07:45:47.189Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "已读取公开原文正文。"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/help/hub/reference/external/GUUSS6CXMUYXGTEC",
+            "publisher": "Amazon 帮助页（正文未核实）",
+            "kind": "unverified",
+            "published_at": null,
+            "verified_at": null,
+            "supports_event": false,
+            "authority_confirmed": false
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "2710446fcfdbfcac166f20f485843b7e2967d92db059bf3afe6285be015c2857",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已与网页现有11个事件及本批候选逐项比对主体/动作/站点/生效日、标题语义及来源链接；非已有自动移除、进口MRN/EORI、印度费率、MFN问答或其他历史事件，保留独立卡片。"
+      }
+    },
+    {
+      "event": {
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-08-28",
+        "priority": "P1",
+        "original_published_at": "2026-08-28",
+        "first_seen_at": "2026-08-31T07:45:47.189Z",
+        "last_material_update_at": "2026-08-31T07:45:47.189Z",
+        "verification_status": "reviewed",
+        "history_dates": [],
+        "key_aliases": [],
+        "revisions": [],
+        "subject_key": "amazon-second-chance-savings",
+        "action_key": "first-us-labor-day-event-2026",
+        "deadline": "2026-09-07",
+        "category": "opportunities",
+        "title": "美国首次 Second Chance Savings：二手促销持续至9月7日",
+        "original_date_note": "Amazon News 官方文章发布日期2026-08-28，明确美国活动窗口为8月28日至9月7日。欧洲和拉美另有活动时间，本卡片仅收录美国安排。截止字段为活动结束日，并非卖家报名截止日。",
+        "summary": "Amazon 官方宣布，美国首次 Second Chance Savings 纳入 Labor Day Deals，时间为8月28日至9月7日，部分退货及翻新商品可在已有折扣基础上再优惠最高30%。这是面向消费者的活动公告，未承诺所有第三方二手库存都能参与。",
+        "impact": "运营判断：二手商品曝光节点值得关注，可用于复查积压库存的可售状态与价格竞争力。但公告没有确认燃油管、CPE 编织油管或排气卡箍的参与资格，也不意味着新品必须跟价。",
+        "action": "核查本店二手库存是否被纳入相关活动、商品状况描述是否准确，再按真实费用测算清库底价。燃油系统部件不得仅因促销就忽略使用安全和适配性；新品与二手品分别评估，不做全店统一降价。",
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.com/news/retail/second-chance-deal-days",
+            "publisher": "Amazon News",
+            "kind": "official",
+            "published_at": "2026-08-28",
+            "verified_at": "2026-08-31T07:45:47.189Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取公开原文正文。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "2710446fcfdbfcac166f20f485843b7e2967d92db059bf3afe6285be015c2857",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已与网页现有11个事件及本批候选逐项比对主体/动作/站点/生效日、标题语义及来源链接；非已有自动移除、进口MRN/EORI、印度费率、MFN问答或其他历史事件，保留独立卡片。"
+      }
+    },
+    {
+      "event": {
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-08-28",
+        "priority": "P2",
+        "original_published_at": "2026-08-28",
+        "first_seen_at": "2026-08-31T07:45:47.189Z",
+        "last_material_update_at": "2026-08-31T07:45:47.189Z",
+        "verification_status": "reviewed",
+        "history_dates": [],
+        "key_aliases": [],
+        "revisions": [],
+        "subject_key": "amazon-sponsored-ads-audiobooks",
+        "action_key": "enable-author-acx-audible-asins-2026",
+        "category": "ads",
+        "title": "美国作者可用 Sponsored Products / Sponsored Brands 推广有声书",
+        "original_date_note": "Amazon Ads What's New 官方发布于2026-08-28，正文说明功能已开放；适用美国作者（包括 ACX 创作者），不等同于所有类目广告规则调整。",
+        "summary": "Amazon Ads 将美国作者可投放的书籍格式扩展到有声书（Audible ASIN）；包括 ACX 创作者，可通过广告控制台或 API 使用 Sponsored Products 和 Sponsored Brands。开始前需在 Author Central 认领笔名。",
+        "impact": "对汽车用品账户没有直接适用性。本次是作者广告资格/格式扩展，不是 CPE 油管、AN 接头、卡箍的 SP 或 SB 竞价机制变更。",
+        "action": "汽车用品广告暂不因该消息改预算或结构；记录为限定类目功能更新。若另有图书业务，再由对应作者账户核查资格和多格式报表。",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/resources/whats-new/authors-can-now-advertise-audiobooks",
+            "publisher": "Amazon Ads What's New",
+            "kind": "official",
+            "published_at": "2026-08-28",
+            "verified_at": "2026-08-31T07:45:47.189Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取公开原文正文。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "2710446fcfdbfcac166f20f485843b7e2967d92db059bf3afe6285be015c2857",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已与网页现有11个事件及本批候选逐项比对主体/动作/站点/生效日、标题语义及来源链接；非已有自动移除、进口MRN/EORI、印度费率、MFN问答或其他历史事件，保留独立卡片。"
+      }
+    },
+    {
+      "event": {
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-08-31",
+        "priority": "P1",
+        "original_published_at": null,
+        "first_seen_at": "2026-08-31T07:45:47.189Z",
+        "last_material_update_at": "2026-08-31T07:45:47.189Z",
+        "verification_status": "reviewed",
+        "history_dates": [],
+        "key_aliases": [],
+        "revisions": [],
+        "subject_key": "amazon-fba-meltable-inventory",
+        "action_key": "phased-inbound-reopening-2026",
+        "category": "policy",
+        "title": "美国 FBA 易融商品分两批恢复入仓：入仓日不等于开售日",
+        "original_date_note": "已读取 News_Amazon 官方公告，但页面仅显示相对发布时间，无法可靠还原绝对首发日期，因此原始发布留空、以2026-08-31为发现日。AMZ123 快讯显示2026-08-31；未将本次发现伪记为8月29/30日发布。",
+        "summary": "官方公告明确：涂层/果胶软糖、蛋白棒、饼干及涂层糖果可于8月31日起发送库存，9月14日起接受顾客订单；巧克力等第二批商品9月21日起发送库存，10月5日起接受订单。应按商品类型区分两批窗口。",
+        "impact": "相关食品类卖家可重新安排备货，但提前发货不代表即时可售。普通燃油管、AN 接头和排气卡箍不应直接套用该易融商品规则；是否被系统标为易融须按 ASIN 核实。",
+        "action": "经营相关品类时，在 Send to Amazon 和官方 Meltable 清单确认 ASIN 分组，再安排运输及开售节奏。汽车用品仅检查是否存在误分类，避免因媒体“全面解禁”标题而误操作。",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/a46c87eb-1acf-4fa7-98ef-d58666caa358",
+            "publisher": "Amazon Seller Central · News_Amazon",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-08-31T07:45:47.189Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取公开原文正文。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "2710446fcfdbfcac166f20f485843b7e2967d92db059bf3afe6285be015c2857",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已与网页现有11个事件及本批候选逐项比对主体/动作/站点/生效日、标题语义及来源链接；非已有自动移除、进口MRN/EORI、印度费率、MFN问答或其他历史事件，保留独立卡片。"
+      }
+    },
+    {
+      "event": {
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": null,
+        "priority": "P1",
+        "original_published_at": "2026-08-29",
+        "first_seen_at": "2026-08-31T07:45:47.189Z",
+        "last_material_update_at": "2026-08-31T07:45:47.189Z",
+        "verification_status": "reviewed",
+        "history_dates": [],
+        "key_aliases": [],
+        "revisions": [],
+        "subject_key": "amazon-fba-sub-same-day",
+        "action_key": "optional-per-unit-bidding-2026",
+        "category": "policy",
+        "title": "亚马逊上线竞价机制，第三方卖家可付费提速数小时达",
+        "original_date_note": "EcommerceBytes 与 IT之家转述稿均明确发表于2026-08-29。报道指邀请邮件在8月早些时候发出，具体上线/生效日期未核实；不能把报道日当成强制新收费生效日。已找到官方帮助入口，但本次只能读到页面外壳，故不标为官方确认。",
+        "summary": "8月29日行业报道披露：部分 FBA 卖家获邀为额外商品竞价加入 Sub Same-Day（SSD）网络，按实际经 SSD 发出的件数及卖家设定的单件出价收费，参与自愿。报道同时称，平台原有免费选品安排继续；这不是所有 FBA 商品统一加收配送费。",
+        "impact": "运营判断：更快配送可能改善转化，也会压缩单件利润。燃油管、AN 接头和卡箍是否符合条件须看各自 ASIN 邀请，不能把报道中的平均销量提升当作本店保证。",
+        "action": "先在 Seller Central 核实邀请、可选 ASIN 与收费条款；仅对高毛利、有库存的少量 ASIN 评估测试，记录新增配送费、转化率及扣费后贡献利润。未获邀请或条款不清时不调整报价。",
+        "sources": [
+          {
+            "url": "https://finance.sina.com.cn/tech/digi/2026-08-29/doc-inipywer9029565.shtml",
+            "publisher": "IT之家 / 新浪转载",
+            "kind": "aggregator",
+            "published_at": "2026-08-29",
+            "verified_at": "2026-08-31T07:45:47.189Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "公开搜索索引返回完整正文；直接打开失败。仅合并相同SSD事实，不把媒体转述当官方原文。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "2710446fcfdbfcac166f20f485843b7e2967d92db059bf3afe6285be015c2857",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown",
+        "reason": "标题不同，但自愿SSD单件竞价、美国站和未知上线日均与本批SSD事件一致；合并转载来源。"
+      }
+    },
+    {
+      "event": {
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": null,
+        "priority": "P1",
+        "original_published_at": "2026-08-29",
+        "first_seen_at": "2026-08-31T07:45:47.189Z",
+        "last_material_update_at": "2026-08-31T07:45:47.189Z",
+        "verification_status": "reviewed",
+        "history_dates": [],
+        "key_aliases": [],
+        "revisions": [],
+        "subject_key": "amazon-fba-sub-same-day",
+        "action_key": "optional-per-unit-bidding-2026",
+        "category": "policy",
+        "title": "亚马逊卖家可付费使用SSD极速配送",
+        "original_date_note": "EcommerceBytes 与 IT之家转述稿均明确发表于2026-08-29。报道指邀请邮件在8月早些时候发出，具体上线/生效日期未核实；不能把报道日当成强制新收费生效日。已找到官方帮助入口，但本次只能读到页面外壳，故不标为官方确认。",
+        "summary": "8月29日行业报道披露：部分 FBA 卖家获邀为额外商品竞价加入 Sub Same-Day（SSD）网络，按实际经 SSD 发出的件数及卖家设定的单件出价收费，参与自愿。报道同时称，平台原有免费选品安排继续；这不是所有 FBA 商品统一加收配送费。",
+        "impact": "运营判断：更快配送可能改善转化，也会压缩单件利润。燃油管、AN 接头和卡箍是否符合条件须看各自 ASIN 邀请，不能把报道中的平均销量提升当作本店保证。",
+        "action": "先在 Seller Central 核实邀请、可选 ASIN 与收费条款；仅对高毛利、有库存的少量 ASIN 评估测试，记录新增配送费、转化率及扣费后贡献利润。未获邀请或条款不清时不调整报价。",
+        "sources": [
+          {
+            "url": "https://www.amz123.com/t/o9ioRGgP",
+            "publisher": "AMZ123 跨境头条",
+            "kind": "aggregator",
+            "published_at": null,
+            "verified_at": "2026-08-31T07:45:47.189Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "公开索引可核验SSD自愿按实际发货件数付费段落；绝对发布日期未核实。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "2710446fcfdbfcac166f20f485843b7e2967d92db059bf3afe6285be015c2857",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown",
+        "reason": "AMZ123头条SSD段落与8月29日EcommerceBytes所报同一机制，不能作为新的收费事件。"
+      }
+    },
+    {
+      "event": {
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-08-31",
+        "priority": "P1",
+        "original_published_at": null,
+        "first_seen_at": "2026-08-31T07:45:47.189Z",
+        "last_material_update_at": "2026-08-31T07:45:47.189Z",
+        "verification_status": "reviewed",
+        "history_dates": [],
+        "key_aliases": [],
+        "revisions": [],
+        "subject_key": "amazon-fba-meltable-inventory",
+        "action_key": "phased-inbound-reopening-2026",
+        "category": "policy",
+        "title": "亚马逊FBA可融化商品8月31日提前解禁",
+        "original_date_note": "已读取 News_Amazon 官方公告，但页面仅显示相对发布时间，无法可靠还原绝对首发日期，因此原始发布留空、以2026-08-31为发现日。AMZ123 快讯显示2026-08-31；未将本次发现伪记为8月29/30日发布。",
+        "summary": "官方公告明确：涂层/果胶软糖、蛋白棒、饼干及涂层糖果可于8月31日起发送库存，9月14日起接受顾客订单；巧克力等第二批商品9月21日起发送库存，10月5日起接受订单。应按商品类型区分两批窗口。",
+        "impact": "相关食品类卖家可重新安排备货，但提前发货不代表即时可售。普通燃油管、AN 接头和排气卡箍不应直接套用该易融商品规则；是否被系统标为易融须按 ASIN 核实。",
+        "action": "经营相关品类时，在 Send to Amazon 和官方 Meltable 清单确认 ASIN 分组，再安排运输及开售节奏。汽车用品仅检查是否存在误分类，避免因媒体“全面解禁”标题而误操作。",
+        "sources": [
+          {
+            "url": "https://www.amz123.com/kx/ALmMkCZW",
+            "publisher": "AMZ123 跨境快讯",
+            "kind": "aggregator",
+            "published_at": "2026-08-31",
+            "verified_at": "2026-08-31T07:45:47.189Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "公开搜索索引返回正文和日期。仅合并官方支持的分批日期，不采纳文章未获官方印证的ASIN总量或排名降幅。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "2710446fcfdbfcac166f20f485843b7e2967d92db059bf3afe6285be015c2857",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31",
+        "reason": "快讯所列四个日期与News_Amazon原文相同；合并到官方卡片，不重复新增。"
+      }
+    },
+    {
+      "event": {
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-08-31",
+        "priority": "P1",
+        "original_published_at": null,
+        "first_seen_at": "2026-08-31T07:45:47.189Z",
+        "last_material_update_at": "2026-08-31T07:45:47.189Z",
+        "verification_status": "reviewed",
+        "history_dates": [],
+        "key_aliases": [],
+        "revisions": [],
+        "subject_key": "amazon-fba-meltable-inventory",
+        "action_key": "phased-inbound-reopening-2026",
+        "category": "policy",
+        "title": "SSD综合报道中的易融商品入仓恢复",
+        "original_date_note": "已读取 News_Amazon 官方公告，但页面仅显示相对发布时间，无法可靠还原绝对首发日期，因此原始发布留空、以2026-08-31为发现日。AMZ123 快讯显示2026-08-31；未将本次发现伪记为8月29/30日发布。",
+        "summary": "官方公告明确：涂层/果胶软糖、蛋白棒、饼干及涂层糖果可于8月31日起发送库存，9月14日起接受顾客订单；巧克力等第二批商品9月21日起发送库存，10月5日起接受订单。应按商品类型区分两批窗口。",
+        "impact": "相关食品类卖家可重新安排备货，但提前发货不代表即时可售。普通燃油管、AN 接头和排气卡箍不应直接套用该易融商品规则；是否被系统标为易融须按 ASIN 核实。",
+        "action": "经营相关品类时，在 Send to Amazon 和官方 Meltable 清单确认 ASIN 分组，再安排运输及开售节奏。汽车用品仅检查是否存在误分类，避免因媒体“全面解禁”标题而误操作。",
+        "sources": [
+          {
+            "url": "https://www.amz123.com/t/o9ioRGgP",
+            "publisher": "AMZ123 跨境头条",
+            "kind": "aggregator",
+            "published_at": null,
+            "verified_at": "2026-08-31T07:45:47.189Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "公开索引读到综合文章的易融库存恢复段落；以News_Amazon原文控制日期和适用范围。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "2710446fcfdbfcac166f20f485843b7e2967d92db059bf3afe6285be015c2857",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31",
+        "reason": "综合报道易融库存段落与本批官方分批开放事件相同；与其SSD段落明确拆分，不新建重复事件。",
+        "distinct_event_reason": "AMZ123 同一综合报道同时介绍 SSD 付费参与和易融库存分批恢复入仓；两者主体、动作和生效日不同。每个事件各保留一张卡片并共享来源，不复制综合文章为第三张卡片。"
+      }
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown",
+      "amazon-second-chance-savings|first-us-labor-day-event-2026|US|2026-08-28",
+      "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "8月29—30日补查及8月31日更新：自8月28日起回查公开来源。补入8月29日SSD报道、8月28日两项官方漏项，以及本次发现的易融库存公告；不把转载日当成事件首发日。8月30日尚未核实到可单独归于该日的新事件，保留补查状态。公众号公开检索未取得可核验新文章，部分站点/动态页无法完整读取；因此本期是已核验部分上线，并非全源补齐。",
+    "category_notes": {
+      "policy": "官方易融公告与SSD行业线索分开标注；监管机构检索未确认本窗口内新增且直接相关的美国规定，不以旧法规凑数。",
+      "ads": "有声书新功能与汽车用品无直接关系。MMM reach/frequency 更新目前只有官方索引摘要，正文未充分核实，暂不作为完整事件发布。",
+      "ai": "本次未确认窗口内与美国站运营直接相关的AI新功能；已剔除8月7日及2025年的旧公告。公众号等未覆盖部分仍待补查。",
+      "opportunities": "已收录美国二手促销节点。fuel hose、CPE braided hose、AN fittings、exhaust clamp 未取得连续搜索量数据，不宣称关键词上涨，也不将其他类目热度套到汽配。",
+      "competitors": "缺少同一ASIN、同一变体、同一收货地区的前后快照；单次公开页面和搜索缓存不能证明价格、Coupon或BSR变化。本期不编造涨跌，也不把缺失字段写成0。"
+    },
+    "action_items": [
+      {
+        "title": "核查是否收到 SSD 邀请，再测算单件利润",
+        "detail": "仅对受邀ASIN评估；先确认收费条款、库存及最低保留利润，避免把可选服务误当成统一加费。",
+        "due": "今日",
+        "event_key": "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown"
+      },
+      {
+        "title": "检查二手库存的活动资格及清库底价",
+        "detail": "Second Chance Savings 至9月7日。核查自己的商品是否参与；新品与二手分别评估，不因新闻直接全店降价。",
+        "due": "9月7日前",
+        "event_key": "amazon-second-chance-savings|first-us-labor-day-event-2026|US|2026-08-28"
+      },
+      {
+        "title": "易融品先分组，再安排发货与开售",
+        "detail": "第一批8月31日入仓/9月14日开售，第二批9月21日入仓/10月5日开售；仅经营相关品类时执行。",
+        "due": "按ASIN窗口",
+        "event_key": "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31"
+      },
+      {
+        "title": "补足汽配竞品的可比较快照",
+        "detail": "后续监测沿用明确的代表ASIN与变体；保存收货地区、时间、价格、Coupon、BSR和页面证据。没有历史快照的项目只建基线，不报变化。",
+        "due": "下次采集",
+        "event_key": null
+      }
+    ]
+  }
+}

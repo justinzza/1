@@ -1,0 +1,87 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 4,
+    "updated": 0,
+    "merged": 4,
+    "deduplicated": 4
+  },
+  "new_event_keys": [
+    "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown",
+    "amazon-second-chance-savings|first-us-labor-day-event-2026|US|2026-08-28",
+    "amazon-sponsored-ads-audiobooks|enable-author-acx-audible-asins-2026|US|2026-08-28",
+    "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown",
+      "action": "new",
+      "review": "已与网页现有11个事件及本批候选逐项比对主体/动作/站点/生效日、标题语义及来源链接；非已有自动移除、进口MRN/EORI、印度费率、MFN问答或其他历史事件，保留独立卡片。"
+    },
+    {
+      "event_key": "amazon-second-chance-savings|first-us-labor-day-event-2026|US|2026-08-28",
+      "action": "new",
+      "review": "已与网页现有11个事件及本批候选逐项比对主体/动作/站点/生效日、标题语义及来源链接；非已有自动移除、进口MRN/EORI、印度费率、MFN问答或其他历史事件，保留独立卡片。"
+    },
+    {
+      "event_key": "amazon-sponsored-ads-audiobooks|enable-author-acx-audible-asins-2026|US|2026-08-28",
+      "action": "new",
+      "review": "已与网页现有11个事件及本批候选逐项比对主体/动作/站点/生效日、标题语义及来源链接；非已有自动移除、进口MRN/EORI、印度费率、MFN问答或其他历史事件，保留独立卡片。"
+    },
+    {
+      "event_key": "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31",
+      "action": "new",
+      "review": "已与网页现有11个事件及本批候选逐项比对主体/动作/站点/生效日、标题语义及来源链接；非已有自动移除、进口MRN/EORI、印度费率、MFN问答或其他历史事件，保留独立卡片。"
+    },
+    {
+      "event_key": "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown",
+      "action": "duplicate",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": false,
+        "effective_date": false
+      },
+      "review": "标题不同，但自愿SSD单件竞价、美国站和未知上线日均与本批SSD事件一致；合并转载来源。"
+    },
+    {
+      "event_key": "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown",
+      "action": "duplicate",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": false,
+        "effective_date": false
+      },
+      "review": "AMZ123头条SSD段落与8月29日EcommerceBytes所报同一机制，不能作为新的收费事件。"
+    },
+    {
+      "event_key": "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31",
+      "action": "duplicate",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": false,
+        "effective_date": true
+      },
+      "review": "快讯所列四个日期与News_Amazon原文相同；合并到官方卡片，不重复新增。"
+    },
+    {
+      "event_key": "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31",
+      "action": "duplicate",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": false,
+        "effective_date": true
+      },
+      "review": "综合报道易融库存段落与本批官方分批开放事件相同；与其SSD段落明确拆分，不新建重复事件。"
+    }
+  ]
+}
