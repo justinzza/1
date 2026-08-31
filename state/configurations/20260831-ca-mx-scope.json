@@ -1,0 +1,25 @@
+{
+  "type": "collection_scope_configuration",
+  "configured_at": "2026-08-31T08:35:00.837Z",
+  "main_commit": "e8b6c8b514364312f8814cb324e747dc5ca7f2f7",
+  "primary_marketplace": "US",
+  "marketplaces": [
+    "US",
+    "CA",
+    "MX"
+  ],
+  "added_source_ids": [
+    "amazon_seller_news_ca",
+    "amazon_seller_news_mx",
+    "relevant_regulators_ca",
+    "relevant_regulators_mx",
+    "industry_wechat_ca",
+    "industry_wechat_mx",
+    "amazon_category_competitors_ca",
+    "amazon_category_competitors_mx"
+  ],
+  "news_collection_performed": false,
+  "news_dates_unchanged": true,
+  "existing_source_cursors_preserved": true,
+  "note": "User requested Canada and Mexico collection. Added independent unchecked source cursors; this is not a successful news run. DAILY BRIEFING remains removed. No changes to independent BSR monitoring tasks."
+}

@@ -144,6 +144,54 @@
       "last_attempt_at": "2026-08-31T07:50:59.714Z",
       "last_status": "public_search_only",
       "backfill_complete": false
+    },
+    "amazon_seller_news_ca": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "amazon_seller_news_mx": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "relevant_regulators_ca": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "relevant_regulators_mx": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "industry_wechat_ca": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "industry_wechat_mx": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "amazon_category_competitors_ca": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "amazon_category_competitors_mx": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
     }
   },
   "setup_verification": {
