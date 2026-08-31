@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-08-31T03:44:09.230Z",
+  "bootstrap_window_start": "2026-08-28T00:00:00+08:00",
+  "pending_backfill_dates": [
+    "2026-08-29",
+    "2026-08-30"
+  ],
+  "last_successful_run_at": null,
+  "last_run_id": null,
+  "last_verified_publication": null,
+  "pending_publication": null,
+  "deferred_metadata": null,
+  "sources": {
+    "amazon_seller_news": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "amazon_global_selling_news": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "amazon_ads_whats_new": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "relevant_regulators": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "crossborder_headlines": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "crossborder_briefs": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "wearesellers": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "tt123": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "brand_ark": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "seller_home": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "wechat_dabao": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "wechat_huluwa": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "wechat_santou": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "wechat_crossborder_headlines": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "wechat_crossborder_briefs": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "wechat_wearesellers": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "wechat_tt123": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "wechat_brand_ark": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "wechat_seller_home": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    },
+    "amazon_category_competitors": {
+      "last_successful_check_at": null,
+      "last_attempt_at": null,
+      "last_status": "not_checked",
+      "backfill_complete": false
+    }
+  },
+  "setup_verification": {
+    "production_url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "commit_sha": "a43601ae15982cf0bf5d93a2f7bf5c713c5349a3",
+    "content_digest": "c3002edfbf2e235b6777151d5a3fcf77f668f8babe7efa90d652ce9b54feab7f",
+    "github_vercel_status": "success",
+    "production_html_matches_source": true,
+    "verified_at": "2026-08-31T03:44:09.551Z",
+    "news_collection_verified": false
+  }
+}

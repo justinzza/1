@@ -1,0 +1,37 @@
+{
+  "id": "setup-20260831",
+  "type": "infrastructure_setup",
+  "at": "2026-08-31T03:44:09.551Z",
+  "news_run": false,
+  "news_backfill_complete": false,
+  "verification": {
+    "production_url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "commit_sha": "a43601ae15982cf0bf5d93a2f7bf5c713c5349a3",
+    "content_digest": "c3002edfbf2e235b6777151d5a3fcf77f668f8babe7efa90d652ce9b54feab7f",
+    "github_vercel_status": "success",
+    "production_html_matches_source": true,
+    "verified_at": "2026-08-31T03:44:09.551Z",
+    "news_collection_verified": false
+  },
+  "migration": {
+    "original_cards": 11,
+    "compound_cards_split": 2,
+    "duplicate_occurrences_merged": 2,
+    "canonical_events": 11,
+    "news_reverified": false
+  },
+  "tests": {
+    "unit_and_dom_simulation": 19,
+    "passed": 19,
+    "live_browser": {
+      "default_us_and_global": 5,
+      "all_markets": 11,
+      "ads": 0,
+      "us_and_global_p0": 2,
+      "empty_state": true,
+      "site_script_errors_observed": 0,
+      "unrelated_browser_extension_errors": true
+    }
+  },
+  "note": "Setup, not a successful news check. Keep all news checkpoints null until sources are actually checked."
+}
