@@ -1,9 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown",
-    "amazon-second-chance-savings|first-us-labor-day-event-2026|US|2026-08-28",
-    "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31"
+    "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31",
+    "usps-holiday-package-rates|temporary-peak-increase-2026|US|2026-10-04",
+    "amazon-mexico-second-chance|launch-semana-segunda-vida-2026|MX|2026-08-31"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,54 +12,53 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "8月29—30日补查及8月31日更新：自8月28日起回查公开来源。补入8月29日SSD报道、8月28日两项官方漏项，以及本次发现的易融库存公告；不把转载日当成事件首发日。8月30日尚未核实到可单独归于该日的新事件，保留补查状态。公众号公开检索未取得可核验新文章，部分站点/动态页无法完整读取；因此本期是已核验部分上线，并非全源补齐。",
+  "coverage_note": "US：确认FTC广告诉讼与USPS旺季调价计划；CA：未确认可靠新增；MX：确认Semana de Segunda Vida活动。Seller Central、Amazon Ads、全球开店、监管机构及指定行业/公众号均做了公开检索，但部分动态页只能取得索引摘要，公众号无法完整遍历，因此本期为部分覆盖；8月29—30日补查标记继续保留。",
   "category_notes": {
-    "policy": "官方易融公告与SSD行业线索分开标注；监管机构检索未确认本窗口内新增且直接相关的美国规定，不以旧法规凑数。",
-    "ads": "有声书新功能与汽车用品无直接关系。MMM reach/frequency 更新目前只有官方索引摘要，正文未充分核实，暂不作为完整事件发布。",
-    "ai": "本次未确认窗口内与美国站运营直接相关的AI新功能；已剔除8月7日及2025年的旧公告。公众号等未覆盖部分仍待补查。",
-    "opportunities": "已收录美国二手促销节点。fuel hose、CPE braided hose、AN fittings、exhaust clamp 未取得连续搜索量数据，不宣称关键词上涨，也不将其他类目热度套到汽配。",
-    "competitors": "缺少同一ASIN、同一变体、同一收货地区的前后快照；单次公开页面和搜索缓存不能证明价格、Coupon或BSR变化。本期不编造涨跌，也不把缺失字段写成0。"
+    "policy": "新增USPS旺季包裹临时调价计划，明确仍待PRC审查；US/CA/MX Seller Central公开检索未确认其他可独立发布的新规。",
+    "ads": "新增FTC及22州对Amazon Sponsored Ads拍卖定价的诉讼，并并列Amazon回应；目前无法院裁判、退款安排或广告控制台即时变更。",
+    "ai": "今日未确认窗口内与US/CA/MX Amazon运营直接相关的AI工具实质更新；公开检索不完整，不以旧方法文章凑数。",
+    "opportunities": "新增墨西哥站二手促销节点；fuel hose、CPE braided hose、AN fittings、exhaust clamp仍没有站点独立的连续关键词数据，不宣称搜索量或销量变化。",
+    "competitors": "未提供指定ASIN，且缺少同一站点、同一变体、同一收货地区的连续快照；本轮没有可验证的价格、Coupon、BSR或页面变化。首次公开观察不计变化。"
   },
   "action_items": [
     {
-      "title": "核查是否收到 SSD 邀请，再测算单件利润",
-      "detail": "仅对受邀ASIN评估；先确认收费条款、库存及最低保留利润，避免把可选服务误当成统一加费。",
+      "title": "给广告bid和预算加利润护栏",
+      "detail": "把bid当作潜在最高CPC，按关键词和高流量日复核CPC、ROAS与毛利；关注诉讼和Ads Help更新，不预设退款。",
       "due": "今日",
-      "event_key": "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown"
+      "event_key": "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31"
     },
     {
-      "title": "检查二手库存的活动资格及清库底价",
-      "detail": "Second Chance Savings 至9月7日。核查自己的商品是否参与；新品与二手分别评估，不因新闻直接全店降价。",
-      "due": "9月7日前",
-      "event_key": "amazon-second-chance-savings|first-us-labor-day-event-2026|US|2026-08-28"
+      "title": "测算USPS旺季FBM与退货成本",
+      "detail": "待PRC确认后，按Commercial费率逐重量和Zone重算10月4日至1月17日成本，优先检查重件与远区订单。",
+      "due": "10月4日前",
+      "event_key": "usps-holiday-package-rates|temporary-peak-increase-2026|US|2026-10-04"
     },
     {
-      "title": "易融品先分组，再安排发货与开售",
-      "detail": "第一批8月31日入仓/9月14日开售，第二批9月21日入仓/10月5日开售；仅经营相关品类时执行。",
-      "due": "按ASIN窗口",
-      "event_key": "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31"
+      "title": "核查墨西哥二手库存活动资格",
+      "detail": "仅对符合二手/退货条件的SKU，以MXN含税口径核算活动价、配送和退货成本；新品不统一跟价。",
+      "due": "9月6日前",
+      "event_key": "amazon-mexico-second-chance|launch-semana-segunda-vida-2026|MX|2026-08-31"
     },
     {
-      "title": "补足汽配竞品的可比较快照",
-      "detail": "后续监测沿用明确的代表ASIN与变体；保存收货地区、时间、价格、Coupon、BSR和页面证据。没有历史快照的项目只建基线，不报变化。",
+      "title": "建立三站汽配可比快照",
+      "detail": "分别记录US/CA/MX代表ASIN、变体、地域、时间、币种、税费/运费口径、价格、Coupon和BSR；首轮只建基线。",
       "due": "下次采集",
       "event_key": null
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-08-31",
-  "content_updated_at": "2026-08-31T07:45:47.189Z",
+  "report_date": "2026-09-01",
+  "content_updated_at": "2026-09-01T01:07:41.000Z",
   "new_event_keys": [
-    "amazon-fba-sub-same-day|optional-per-unit-bidding-2026|US|unknown",
-    "amazon-second-chance-savings|first-us-labor-day-event-2026|US|2026-08-28",
-    "amazon-sponsored-ads-audiobooks|enable-author-acx-audible-asins-2026|US|2026-08-28",
-    "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31"
+    "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31",
+    "amazon-mexico-second-chance|launch-semana-segunda-vida-2026|MX|2026-08-31",
+    "usps-holiday-package-rates|temporary-peak-increase-2026|US|2026-10-04"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 4,
+    "new": 3,
     "updated": 0,
-    "merged": 4,
-    "deduplicated": 4
+    "merged": 0,
+    "deduplicated": 1
   }
 }

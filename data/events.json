@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-08-31T07:45:47.189Z",
+  "content_updated_at": "2026-09-01T01:07:41.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -785,6 +785,139 @@
       "event_key": "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31",
       "id": "evt-bb0a3e6646886f0a",
       "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/a46c87eb-1acf-4fa7-98ef-d58666caa358"
+    },
+    {
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-08-31",
+      "priority": "P0",
+      "original_published_at": "2026-08-31",
+      "first_seen_at": "2026-09-01T01:07:41.000Z",
+      "last_material_update_at": "2026-09-01T01:07:41.000Z",
+      "verification_status": "reviewed",
+      "history_dates": [
+        "2026-09-01"
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "subject_key": "ftc-amazon-sponsored-ads",
+      "action_key": "file-auction-pricing-lawsuit-2026",
+      "category": "ads",
+      "title": "FTC及22州就 Sponsored Ads 拍卖定价起诉 Amazon；Amazon否认指控",
+      "original_date_note": "FTC与22州于2026-08-31提起诉讼，Amazon同日发布回应。2026-08-31是诉讼事件日期，不是新的广告规则生效日；目前是监管机构指控与公司抗辩，尚无法院裁判，也没有已确认的广告主退款安排。",
+      "summary": "FTC诉状称，Amazon在Sponsored Products、Sponsored Brands和Display Ads拍卖中使用未充分披露的soft reserve price，使部分广告点击价格高于广告主对second-price auction的预期。Amazon公开否认误导，确认拍卖使用hard/soft reserve，并称广告主不会支付高于其出价的金额、竞价仍综合相关性和最高出价。两方说法均已保留，指控不能当作已裁定事实。",
+      "impact": "运营判断：目前没有广告控制台或计费规则立即变更，但广告主应把bid视为单次点击可能实际支付的上限，不能假定最终CPC总会只比下一名高一点。高流量日和自动调价策略的CPC、ROAS与利润保护需要更严格。",
+      "action": "导出近90天search term、placement与advertised product报告，按关键词和高流量日复核实际CPC、ROAS及毛利；为自动竞价设置可承受的bid/budget上限，并持续跟踪FTC案件和Amazon Ads Help措辞。当前不要预设可获得退款。",
+      "sources": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme",
+          "publisher": "U.S. Federal Trade Commission",
+          "kind": "regulator",
+          "published_at": "2026-08-31",
+          "verified_at": "2026-09-01T01:07:41.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取FTC公开新闻稿正文，并按监管机构诉讼主张表述，不把诉状指控写成法院裁判。",
+          "canonical_url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme"
+        },
+        {
+          "url": "https://www.aboutamazon.com/company-news/amazon-ftc-sponsored-ads-lawsuit-response",
+          "publisher": "Amazon",
+          "kind": "official",
+          "published_at": "2026-08-31",
+          "verified_at": "2026-09-01T01:07:41.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取Amazon公开回应正文；其效果与统计数字按公司立场处理，未当作独立验证事实。",
+          "canonical_url": "https://www.aboutamazon.com/company-news/amazon-ftc-sponsored-ads-lawsuit-response"
+        }
+      ],
+      "event_key": "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31",
+      "id": "evt-efd4994d0f10c55b",
+      "primary_source_url": "https://www.aboutamazon.com/company-news/amazon-ftc-sponsored-ads-lawsuit-response"
+    },
+    {
+      "marketplaces": [
+        "MX"
+      ],
+      "effective_date": "2026-08-31",
+      "deadline": "2026-09-06",
+      "priority": "P1",
+      "original_published_at": "2026-08-28",
+      "first_seen_at": "2026-09-01T01:07:41.000Z",
+      "last_material_update_at": "2026-09-01T01:07:41.000Z",
+      "verification_status": "reviewed",
+      "history_dates": [
+        "2026-09-01"
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "subject_key": "amazon-mexico-second-chance",
+      "action_key": "launch-semana-segunda-vida-2026",
+      "category": "opportunities",
+      "title": "墨西哥站 Semana de Segunda Vida：精选二手商品最高优惠30%至9月6日",
+      "original_date_note": "Amazon News官方文章发布于2026-08-28，明确墨西哥活动从2026-08-31持续至2026-09-06；发布日期、开始日与结束日分别记录，不把发现时间当成活动生效日。",
+      "summary": "Amazon官方宣布，墨西哥站Semana de Segunda Vida于8月31日至9月6日进行，精选pre-loved/second-hand商品最高优惠30%。这是面向消费者的二手商品促销公告，并未说明所有第三方二手库存自动获得活动资格。",
+      "impact": "运营判断：墨西哥站二手及退货库存出现明确流量窗口，可用于核查积压库存和商品状况页面；但不能把美国Second Chance Savings的活动日期、资格或价格口径套用到墨西哥站，也不代表新品必须跟价。",
+      "action": "仅对墨西哥站符合二手/退货条件的SKU核查活动资格、MXN含税售价、配送费和退货成本，再设清库底价。燃油管、CPE编织油管、AN接头和排气卡箍如为新品，不因本活动统一降价。",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/retail/second-chance-deal-days",
+          "publisher": "Amazon News",
+          "kind": "official",
+          "published_at": "2026-08-28",
+          "verified_at": "2026-09-01T01:07:41.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取公开原文；正文明确墨西哥活动名称、8月31日至9月6日窗口及最高30%优惠。",
+          "canonical_url": "https://www.aboutamazon.com/news/retail/second-chance-deal-days"
+        }
+      ],
+      "event_key": "amazon-mexico-second-chance|launch-semana-segunda-vida-2026|MX|2026-08-31",
+      "id": "evt-10594b96d0aa4403",
+      "primary_source_url": "https://www.aboutamazon.com/news/retail/second-chance-deal-days"
+    },
+    {
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-10-04",
+      "deadline": "2027-01-17",
+      "priority": "P1",
+      "original_published_at": "2026-08-25",
+      "first_seen_at": "2026-09-01T01:07:41.000Z",
+      "last_material_update_at": "2026-09-01T01:07:41.000Z",
+      "verification_status": "reviewed",
+      "history_dates": [
+        "2026-09-01"
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "subject_key": "usps-holiday-package-rates",
+      "action_key": "temporary-peak-increase-2026",
+      "category": "policy",
+      "title": "USPS拟于10月4日起临时上调旺季包裹费率，待PRC审查",
+      "original_date_note": "USPS于2026-08-25发布并向Postal Regulatory Commission提交临时调价通知；本次通过72小时重叠窗口延迟发现。拟生效日为2026-10-04 00:00 CT，结束日为2027-01-17 00:00 CT；仍以PRC审查结果为准。",
+      "summary": "USPS拟在2026年假日旺季临时上调部分美国境内零售和商业包裹价格，涉及Priority Mail Express、Priority Mail、USPS Ground Advantage及Parcel Select。Commercial Ground Advantage/ Priority Mail常见档位按分区和重量增加0.40美元至9.10美元，超大件和远区涨幅更高；其他产品不在本次计划范围。",
+      "impact": "运营判断：使用USPS履约的美国站FBM订单、退货标签和第三方仓尾程成本可能上升，重件、远区和Oversized风险更高。该事件不改变FBA配送费，也不能把USPS零售价或统一平均涨幅直接套到合同商业价。",
+      "action": "在PRC确认后，按当前实际Commercial价格表逐重量/Zone重算10月4日至1月17日的FBM和退货成本；重点复核重型汽车用品与远区订单，并与UPS/FedEx合同价比较。未确认前先做情景预算，不提前改全店运费模板。",
+      "sources": [
+        {
+          "url": "https://about.usps.com/newsroom/national-releases/2026/0825-usps-announces-temporary-price-change-for-2026-holiday-shipping-season.htm",
+          "publisher": "U.S. Postal Service",
+          "kind": "regulator",
+          "published_at": "2026-08-25",
+          "verified_at": "2026-09-01T01:07:41.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取USPS公开新闻稿及费率档位；正文明确待PRC有利审查，不把计划写成最终获批。",
+          "canonical_url": "https://about.usps.com/newsroom/national-releases/2026/0825-usps-announces-temporary-price-change-for-2026-holiday-shipping-season.htm"
+        }
+      ],
+      "event_key": "usps-holiday-package-rates|temporary-peak-increase-2026|US|2026-10-04",
+      "id": "evt-e7e1b442e089d6a6",
+      "primary_source_url": "https://about.usps.com/newsroom/national-releases/2026/0825-usps-announces-temporary-price-change-for-2026-holiday-shipping-season.htm"
     }
   ]
 }
