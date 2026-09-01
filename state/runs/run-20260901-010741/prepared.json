@@ -1,0 +1,32 @@
+{
+  "id": "run-20260901-010741",
+  "phase": "prepared",
+  "started_at": "2026-09-01T01:01:19.000Z",
+  "checked_at": "2026-09-01T01:07:41.000Z",
+  "main_baseline": "e8b6c8b514364312f8814cb324e747dc5ca7f2f7",
+  "base_registry_digest": "a3f2a54ac801819cafc14309508b31c0d322192105e39dfb071047b78190c045",
+  "expected": {
+    "event_registry_digest": "3005f0b41e29a227c19de41a1bccf6308c12b55b7a6be97aad1f17b9bbc80b7e",
+    "content_digest": "c130ebe1b08609a691892e16386451e45030d842b6ac1a73d74b36f1777d5289",
+    "index_sha256": "c2bfebf38e384ac2c7e977b29cfb79cd896044ade027e147ecf9645f4741fa22",
+    "events_sha256": "673c65642d880b46b71938a0824ab8118efa0311c0d158529ee809a0fe608e94",
+    "report_sha256": "6d65db7bc98100dadc122f3d6aeadb8c2ba448a3c191906f6478ad0f071fbd97",
+    "event_count": 18,
+    "counts": {
+      "new": 3,
+      "updated": 0,
+      "merged": 0,
+      "deduplicated": 1
+    }
+  },
+  "tests": {
+    "passed": 22,
+    "failed": 0,
+    "daily_briefing_absent": true,
+    "render_consistent": true
+  },
+  "publication": {
+    "status": "pending",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/"
+  }
+}

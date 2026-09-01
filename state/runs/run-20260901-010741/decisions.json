@@ -1,0 +1,45 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 1
+  },
+  "new_event_keys": [
+    "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31",
+    "amazon-mexico-second-chance|launch-semana-segunda-vida-2026|MX|2026-08-31",
+    "usps-holiday-package-rates|temporary-peak-increase-2026|US|2026-10-04"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31",
+      "action": "new",
+      "review": "已逐条对照现有15个事件及本批候选：现有广告事件仅为有声书广告资格扩展，本事件主体为FTC与Amazon、动作为广告拍卖定价诉讼、站点为US且日期为2026-08-31，标题语义、来源和日期均不构成旧事件重复。"
+    },
+    {
+      "event_key": "amazon-mexico-second-chance|launch-semana-segunda-vida-2026|MX|2026-08-31",
+      "action": "new",
+      "review": "已逐条对照现有15个事件及本批候选。与现有美国Second Chance卡片共享全球汇总来源，但墨西哥站活动名称、站点、开始日和结束日均独立，不能合并成美国活动更新。"
+    },
+    {
+      "event_key": "usps-holiday-package-rates|temporary-peak-increase-2026|US|2026-10-04",
+      "action": "new",
+      "review": "已逐条对照现有15个事件及本批候选：事件主体为USPS、动作为美国境内包裹旺季临时调价、拟生效日为2026-10-04；与Amazon FBA费用、SSD付费配送或其他旧政策卡片均不同。"
+    },
+    {
+      "event_key": "amazon-fba-meltable-inventory|phased-inbound-reopening-2026|US|2026-08-31",
+      "action": "duplicate",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": true,
+        "effective_date": true
+      },
+      "review": "标题虽改为9月1日早报表述，但主体、分批动作、US站点、四个日期与现有官方事件完全相同；复核后无实质更新，只计去重，不新增卡片。"
+    }
+  ]
+}
