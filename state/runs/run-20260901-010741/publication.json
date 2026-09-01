@@ -1,0 +1,14 @@
+{
+  "status": "verified",
+  "github_status": "success",
+  "commit_sha": "4adce15889b9898a35fededea3cf454502d6421b",
+  "url": "https://amazon-ops-radar-vercel.vercel.app/",
+  "expected_digest": "c130ebe1b08609a691892e16386451e45030d842b6ac1a73d74b36f1777d5289",
+  "observed_digest": "c130ebe1b08609a691892e16386451e45030d842b6ac1a73d74b36f1777d5289",
+  "verified_at": "2026-09-01T01:12:40.000Z",
+  "html_exact_match": true,
+  "unique_event_keys": 18,
+  "event_cards": 18,
+  "deploy_dashboard_url": "https://vercel.com/amz-ce8f/amazon-ops-radar-vercel/BYGXKoWTkcxc12AiAnjmbLwqmkok",
+  "runtime_logs": "not_checked"
+}
