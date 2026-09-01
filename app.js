@@ -2,6 +2,7 @@
   'use strict';
   const stories = [...document.querySelectorAll('#event-list .story')];
   const priorityButtons = [...document.querySelectorAll('[data-filter]')];
+  const viewButtons = [...document.querySelectorAll('[data-view]')];
   const market = document.querySelector('#market-filter');
   const category = document.querySelector('#category-filter');
   const date = document.querySelector('#date-filter');
@@ -27,27 +28,33 @@
       button.classList.toggle('active', selected);
       button.setAttribute('aria-pressed', String(selected));
     });
+    viewButtons.forEach(button => {
+      const selected = button.dataset.view === date.value;
+      button.classList.toggle('active', selected);
+      button.setAttribute('aria-pressed', String(selected));
+    });
   }
-  function reset(marketValue = 'US') {
+  function reset(marketValue = 'US', dateValue = current.size ? 'latest' : 'all') {
     market.value = marketValue;
     category.value = 'all';
-    date.value = 'all';
+    date.value = dateValue;
     priority = 'all';
     applyFilters();
   }
   [market, category, date].forEach(select => select?.addEventListener('change', applyFilters));
   priorityButtons.forEach(button => button.addEventListener('click', () => { priority = button.dataset.filter; applyFilters(); }));
+  viewButtons.forEach(button => button.addEventListener('click', () => { date.value = button.dataset.view; applyFilters(); }));
   document.querySelector('#reset-filters')?.addEventListener('click', () => reset());
   function revealHash() {
     let id;
     try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
     const target = document.getElementById(id);
-    if (target?.classList.contains('story') && target.hidden) reset('all');
+    if (target?.classList.contains('story') && target.hidden) reset('all', 'all');
     target?.scrollIntoView?.({ block: 'start' });
   }
   document.querySelectorAll('a[href^="#evt-"]').forEach(link => link.addEventListener('click', () => {
     const target = document.getElementById(link.getAttribute('href').slice(1));
-    if (target?.hidden) reset('all');
+    if (target?.hidden) reset('all', 'all');
   }));
   window.addEventListener('hashchange', revealHash);
   const reportDate = document.querySelector('main')?.dataset.reportDate || 'undated';
@@ -63,6 +70,9 @@
       } catch { /* Keep the page usable when storage is blocked. */ }
     });
   });
-  if (market && category && date) applyFilters();
+  if (market && category && date) {
+    date.value = current.size ? 'latest' : 'all';
+    applyFilters();
+  }
   revealHash();
 })();

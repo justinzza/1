@@ -14,28 +14,34 @@ function element(data = {}, names = []) {
 function fixture(storage = new Map(), blocked = false, hash = '') {
   const stories = registry.events.map(ev => { const s = element({ eventKey: ev.event_key, marketplaces: ev.marketplaces.join(' '), dates: ev.history_dates.join(' '), priority: ev.priority, category: ev.category }, ['story']); s.id = ev.id; s.scrollIntoView = () => {}; return s; });
   const filters = ['all', 'P0', 'P1', 'P2'].map(priority => element({ filter: priority }));
+  const views = ['latest', 'all'].map(view => element({ view }));
   const market = element(); market.value = 'US';
   const category = element(), date = element(), count = element(), empty = element(), reset = element();
   const input = element(); input.closest = () => ({ querySelector: () => ({ textContent: '测试本机清单' }) });
   const nodes = { '#market-filter': market, '#category-filter': category, '#date-filter': date, '#story-count': count, '#filter-empty': empty, '#reset-filters': reset, '#event-list': element({ currentEventKeys: report.new_event_keys.concat(report.updated_event_keys).join('\n') }), main: element({ reportDate: report.report_date || 'bootstrap' }) };
-  const doc = { querySelector: sel => nodes[sel] || null, querySelectorAll: sel => ({ '#event-list .story': stories, '[data-filter]': filters, 'a[href^="#evt-"]': [], '.actions input[type="checkbox"]': [input] })[sel] || [], getElementById: id => stories.find(story => story.id === id) };
+  const doc = { querySelector: sel => nodes[sel] || null, querySelectorAll: sel => ({ '#event-list .story': stories, '[data-filter]': filters, '[data-view]': views, 'a[href^="#evt-"]': [], '.actions input[type="checkbox"]': [input] })[sel] || [], getElementById: id => stories.find(story => story.id === id) };
   const win = { location: { hash }, addEventListener() {}, localStorage: { getItem(key) { if (blocked) throw new Error('denied'); return storage.get(key); }, setItem(key, value) { if (blocked) throw new Error('denied'); storage.set(key, value); }, removeItem(key) { if (blocked) throw new Error('denied'); storage.delete(key); } } };
   vm.runInNewContext(script, { document: doc, window: win });
-  return { stories, filters, market, category, date, count, empty, reset, input, storage };
+  return { stories, filters, views, market, category, date, count, empty, reset, input, storage };
 }
-test('US default, all markets, categories, dates, priorities, and empty state agree', () => {
+test('latest US changes are the default while archive filters remain complete', () => {
   const f = fixture();
-  assert.equal(f.count.textContent, String(registry.events.filter(e => e.marketplaces.includes('US') || e.marketplaces.includes('GLOBAL')).length));
-  f.market.change('all'); assert.equal(f.count.textContent, String(registry.events.length));
+  const current = new Set([...report.new_event_keys, ...report.updated_event_keys]);
+  assert.equal(f.date.value, 'latest');
+  assert.equal(f.count.textContent, String(registry.events.filter(e => current.has(e.event_key) && (e.marketplaces.includes('US') || e.marketplaces.includes('GLOBAL'))).length));
+  f.market.change('all'); assert.equal(f.count.textContent, String(current.size));
   f.category.change('ads');
-  const adsCount = registry.events.filter(e => e.category === 'ads').length;
+  const adsCount = registry.events.filter(e => current.has(e.event_key) && e.category === 'ads').length;
   assert.equal(f.count.textContent, String(adsCount)); assert.equal(f.empty.hidden, adsCount > 0);
+  f.date.change('all');
+  assert.equal(f.count.textContent, String(registry.events.filter(e => e.category === 'ads').length));
   f.date.change('1900-01-01'); assert.equal(f.count.textContent, '0'); assert.equal(f.empty.hidden, false);
-  f.reset.click(); assert.equal(f.empty.hidden, Number(f.count.textContent) > 0);
+  f.reset.click(); assert.equal(f.date.value, 'latest'); assert.equal(f.empty.hidden, Number(f.count.textContent) > 0);
   f.filters.find(b => b.dataset.filter === 'P0').click();
+  assert.equal(f.count.textContent, String(registry.events.filter(e => current.has(e.event_key) && e.priority === 'P0' && (e.marketplaces.includes('US') || e.marketplaces.includes('GLOBAL'))).length));
+  f.views.find(button => button.dataset.view === 'all').click();
+  assert.equal(f.date.value, 'all');
   assert.equal(f.count.textContent, String(registry.events.filter(e => e.priority === 'P0' && (e.marketplaces.includes('US') || e.marketplaces.includes('GLOBAL'))).length));
-  f.reset.click(); f.date.change('latest');
-  assert.equal(f.count.textContent, String(registry.events.filter(e => [...report.new_event_keys, ...report.updated_event_keys].includes(e.event_key) && (e.marketplaces.includes('US') || e.marketplaces.includes('GLOBAL'))).length));
 });
 test('deep links reveal the single original event despite filters', () => {
   const foreign = registry.events.find(e => !e.marketplaces.includes('US') && !e.marketplaces.includes('GLOBAL'));
@@ -67,6 +73,10 @@ test('daily briefing stays removed even when future reports contain category not
   assert(page.includes('id="actions"'));
   assert(page.includes('id="category-filter"'));
   assert(page.includes('COVERAGE · 实际检查范围'));
+  assert(page.indexOf('id="actions"') < page.indexOf('id="news"'));
+  assert(page.includes('data-view="latest"'));
+  assert(page.includes('class="mobile-nav"'));
+  assert(page.includes('（北京时间）'));
   assert.equal((page.match(/data-event-key=/g) || []).length, registry.events.length);
   assert.throws(() => renderPage(registry, { ...report, category_notes: { invalid: '错误栏目' } }), /Invalid category/);
 });
