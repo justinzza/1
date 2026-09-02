@@ -1,0 +1,469 @@
+{
+  "id": "run-20260902-010405",
+  "phase": "finalized",
+  "started_at": "2026-09-02T00:58:45.000Z",
+  "research_window_start": "2026-08-28T00:00:00+08:00",
+  "research_checked_at": "2026-09-02T01:04:05.000Z",
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "note": "检查US Seller Central公开入口、News_Amazon论坛索引与9月1日定向搜索；未确认新的政策或后台功能公告。公开动态列表不能完整遍历。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums",
+          "note": "检查US Seller Central公开入口、News_Amazon论坛索引与9月1日定向搜索；未确认新的政策或后台功能公告。公开动态列表不能完整遍历。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "note": "检查Amazon全球开店新闻中心及公开公众号索引；8月31日的新卖家招募文章属于开店推广，不是运营政策变化，未建事件。公开索引不能证明全栏目穷尽。",
+      "evidence": [
+        {
+          "url": "https://globalselling.amazon.com/news-center",
+          "note": "检查Amazon全球开店新闻中心及公开公众号索引；8月31日的新卖家招募文章属于开店推广，不是运营政策变化，未建事件。公开索引不能证明全栏目穷尽。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "note": "检查Amazon Ads What’s New公开索引及9月1日定向搜索；未确认本窗口内新功能公告。动态索引无法证明全量遍历。",
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new",
+          "note": "检查Amazon Ads What’s New公开索引及9月1日定向搜索；未确认本窗口内新功能公告。动态索引无法证明全量遍历。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "note": "定向检查FTC等美国监管公开更新；9月1日对Sponsored Ads诉讼的媒体跟进没有新增裁判、退款或控制台变化，映射到既有事件，不另建卡片。范围非所有机构穷尽浏览。",
+      "evidence": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme",
+          "note": "定向检查FTC等美国监管公开更新；9月1日对Sponsored Ads诉讼的媒体跟进没有新增裁判、退款或控制台变化，映射到既有事件，不另建卡片。范围非所有机构穷尽浏览。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "note": "自bootstrap窗口补查Amazon.ca Seller Central公开公告与帮助页索引；未确认可独立发布的新公告。公开页面不代表完整后台覆盖。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/",
+          "note": "自bootstrap窗口补查Amazon.ca Seller Central公开公告与帮助页索引；未确认可独立发布的新公告。公开页面不代表完整后台覆盖。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "note": "自bootstrap窗口补查Amazon.com.mx Seller Central公开公告与帮助页索引；未确认新的墨西哥站Seller Central规则。公开页面不代表完整后台覆盖。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com.mx/",
+          "note": "自bootstrap窗口补查Amazon.com.mx Seller Central公开公告与帮助页索引；未确认新的墨西哥站Seller Central规则。公开页面不代表完整后台覆盖。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "note": "定向检查Health Canada、Competition Bureau Canada等公开更新；确认Health Canada于2026-08-31发布Canadian Product Safety Pledge年度报告。该报告涵盖Amazon Canada但数据多为多平台汇总/匿名且自报，已按监管披露而非新规建档。范围非全部监管机构穷尽浏览。",
+      "evidence": [
+        {
+          "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/about-canadian-product-safety-pledge/canadian-product-safety-pledge-annual-report-2024-2025.html",
+          "note": "定向检查Health Canada、Competition Bureau Canada等公开更新；确认Health Canada于2026-08-31发布Canadian Product Safety Pledge年度报告。该报告涵盖Amazon Canada但数据多为多平台汇总/匿名且自报，已按监管披露而非新规建档。范围非全部监管机构穷尽浏览。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "note": "定向检索PROFECO、COFEPRIS及墨西哥公开法规入口；未确认本窗口内与Amazon.com.mx卖家直接相关的新监管事件。范围非全部机构穷尽浏览。",
+      "evidence": [
+        {
+          "url": "https://www.gob.mx/profeco",
+          "note": "定向检索PROFECO、COFEPRIS及墨西哥公开法规入口；未确认本窗口内与Amazon.com.mx卖家直接相关的新监管事件。范围非全部机构穷尽浏览。"
+        }
+      ]
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "note": "检查AMZ123跨境头条公开列表和定向结果；命中内容主要为欧洲Pan-EU变化、旧闻或既有事件转述，未作为北美三站新增。动态列表不能保证完整遍历。",
+      "evidence": [
+        {
+          "url": "https://m.amz123.com/t",
+          "note": "检查AMZ123跨境头条公开列表和定向结果；命中内容主要为欧洲Pan-EU变化、旧闻或既有事件转述，未作为北美三站新增。动态列表不能保证完整遍历。"
+        }
+      ]
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "note": "检查AMZ123跨境快讯公开列表；FTC诉讼跟进为既有事件重复，Pan-EU变化不适用US/CA/MX，未新增卡片。动态列表不能保证完整遍历。",
+      "evidence": [
+        {
+          "url": "https://m.amz123.com/kx",
+          "note": "检查AMZ123跨境快讯公开列表；FTC诉讼跟进为既有事件重复，Pan-EU变化不适用US/CA/MX，未新增卡片。动态列表不能保证完整遍历。"
+        }
+      ]
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "note": "检查知无不言公开首页与新帖索引；新帖主要为社区讨论和AI活动，未发现有官方证据支持的US/CA/MX运营实质变化。回复时间不作发布日期。",
+      "evidence": [
+        {
+          "url": "https://www.wearesellers.com/",
+          "note": "检查知无不言公开首页与新帖索引；新帖主要为社区讨论和AI活动，未发现有官方证据支持的US/CA/MX运营实质变化。回复时间不作发布日期。"
+        }
+      ]
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "note": "检查TT123公开作者/资讯入口及三站定向搜索；当前可见内容主要为TikTok，不是Amazon US/CA/MX运营增量。公开索引不能证明完整遍历。",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/author-21",
+          "note": "检查TT123公开作者/资讯入口及三站定向搜索；当前可见内容主要为TikTok，不是Amazon US/CA/MX运营增量。公开索引不能证明完整遍历。"
+        }
+      ]
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "note": "检查品牌方舟公开首页及Canada/Mexico定向搜索；命中为旧文章或泛品牌动态，未确认Amazon US/CA/MX卖家直接变化。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/",
+          "note": "检查品牌方舟公开首页及Canada/Mexico定向搜索；命中为旧文章或泛品牌动态，未确认Amazon US/CA/MX卖家直接变化。"
+        }
+      ]
+    },
+    {
+      "id": "seller_home",
+      "status": "failed",
+      "note": "卖家之家首页只能稳定取得站点介绍/搜索摘要，文章列表和正文未能完整读取；未绕过登录、验证码或访问限制，不能据此声明无新增。",
+      "evidence": [
+        {
+          "url": "https://mjzj.com/",
+          "note": "卖家之家首页只能稳定取得站点介绍/搜索摘要，文章列表和正文未能完整读取；未绕过登录、验证码或访问限制，不能据此声明无新增。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "note": "逐一公开检索“大宝站外推广”；只能取得公开作者页、旧文或聚合摘要，未取得本窗口内可完整核验的新公众号正文。未登录或绕过限制。",
+      "evidence": [
+        {
+          "url": "https://m.amz123.com/author-9392",
+          "note": "逐一公开检索“大宝站外推广”；只能取得公开作者页、旧文或聚合摘要，未取得本窗口内可完整核验的新公众号正文。未登录或绕过限制。"
+        }
+      ],
+      "queries": [
+        "微信公众号 dabao Amazon US/CA/MX 2026年9月1日"
+      ]
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "note": "逐一公开检索“葫芦娃站外推广”；只能取得公开作者页和旧文，未取得本窗口内可完整核验的新公众号正文。未登录或绕过限制。",
+      "evidence": [
+        {
+          "url": "https://m.amz123.com/author-61871",
+          "note": "逐一公开检索“葫芦娃站外推广”；只能取得公开作者页和旧文，未取得本窗口内可完整核验的新公众号正文。未登录或绕过限制。"
+        }
+      ],
+      "queries": [
+        "微信公众号 huluwa Amazon US/CA/MX 2026年9月1日"
+      ]
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "note": "逐一公开检索“三头六臂跨境电商”；仅确认公开身份入口、旧内容及活动页，未取得本窗口可核验新文章。未登录或绕过限制。",
+      "evidence": [
+        {
+          "url": "https://www.stlb520.com/",
+          "note": "逐一公开检索“三头六臂跨境电商”；仅确认公开身份入口、旧内容及活动页，未取得本窗口可核验新文章。未登录或绕过限制。"
+        }
+      ],
+      "queries": [
+        "微信公众号 santou Amazon US/CA/MX 2026年9月1日"
+      ]
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "note": "逐一公开检索跨境头条对应公众号；公开结果主要回到AMZ123作者/网站列表，未取得本窗口内独立可核验公众号正文。",
+      "evidence": [
+        {
+          "url": "https://m.amz123.com/author-40",
+          "note": "逐一公开检索跨境头条对应公众号；公开结果主要回到AMZ123作者/网站列表，未取得本窗口内独立可核验公众号正文。"
+        }
+      ],
+      "queries": [
+        "微信公众号 crossborder_headlines Amazon US/CA/MX 2026年9月1日"
+      ]
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "note": "逐一公开检索跨境快讯对应公众号；公开结果主要回到AMZ123网站快讯，未取得本窗口内独立可核验公众号正文。",
+      "evidence": [
+        {
+          "url": "https://m.amz123.com/kx",
+          "note": "逐一公开检索跨境快讯对应公众号；公开结果主要回到AMZ123网站快讯，未取得本窗口内独立可核验公众号正文。"
+        }
+      ],
+      "queries": [
+        "微信公众号 crossborder_briefs Amazon US/CA/MX 2026年9月1日"
+      ]
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "note": "逐一公开检索知无不言/WeAreSellers公众号；只取得网站首页、作者页或旧说明，未取得本窗口内完整可核验公众号正文。",
+      "evidence": [
+        {
+          "url": "https://m.amz123.com/author-78",
+          "note": "逐一公开检索知无不言/WeAreSellers公众号；只取得网站首页、作者页或旧说明，未取得本窗口内完整可核验公众号正文。"
+        }
+      ],
+      "queries": [
+        "微信公众号 wearesellers Amazon US/CA/MX 2026年9月1日"
+      ]
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "note": "逐一公开检索TT123公众号；公开作者页当前主要为TikTok内容，未取得本窗口内Amazon US/CA/MX公众号正文。",
+      "evidence": [
+        {
+          "url": "https://m.amz123.com/author-124516",
+          "note": "逐一公开检索TT123公众号；公开作者页当前主要为TikTok内容，未取得本窗口内Amazon US/CA/MX公众号正文。"
+        }
+      ],
+      "queries": [
+        "微信公众号 tt123 Amazon US/CA/MX 2026年9月1日"
+      ]
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "note": "逐一公开检索品牌方舟公众号；公开结果为网站/标签页和旧内容，未取得本窗口内Amazon US/CA/MX可核验新文章。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/",
+          "note": "逐一公开检索品牌方舟公众号；公开结果为网站/标签页和旧内容，未取得本窗口内Amazon US/CA/MX可核验新文章。"
+        }
+      ],
+      "queries": [
+        "微信公众号 brand_ark Amazon US/CA/MX 2026年9月1日"
+      ]
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "note": "逐一公开检索卖家之家公众号；只能取得网站介绍或搜索摘要，未取得本窗口内完整可核验公众号正文。",
+      "evidence": [
+        {
+          "url": "https://mjzj.com/",
+          "note": "逐一公开检索卖家之家公众号；只能取得网站介绍或搜索摘要，未取得本窗口内完整可核验公众号正文。"
+        }
+      ],
+      "queries": [
+        "微信公众号 seller_home Amazon US/CA/MX 2026年9月1日"
+      ]
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "note": "检查US燃油管、CPE braided hose、AN fittings、exhaust clamp公开搜索；无指定ASIN及同变体/同地区连续快照，不报价格、Coupon、BSR或关键词变化。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com/s?k=CPE+fuel+hose+AN+fittings+exhaust+clamp",
+          "note": "检查US燃油管、CPE braided hose、AN fittings、exhaust clamp公开搜索；无指定ASIN及同变体/同地区连续快照，不报价格、Coupon、BSR或关键词变化。"
+        }
+      ]
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "note": "按include_source_ids逐一执行15条Canada定向公开检索；网站结果、公众号作者页和搜索摘要均逐项记录。未确认除Health Canada年度报告（CA）外的可发布新增；公众号仍无法完整遍历，因此为部分覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.ca/",
+          "note": "按include_source_ids逐一执行15条Canada定向公开检索；网站结果、公众号作者页和搜索摘要均逐项记录。未确认除Health Canada年度报告（CA）外的可发布新增；公众号仍无法完整遍历，因此为部分覆盖。"
+        }
+      ],
+      "include_source_ids_checked": [
+        "crossborder_headlines",
+        "crossborder_briefs",
+        "wearesellers",
+        "tt123",
+        "brand_ark",
+        "seller_home",
+        "wechat_dabao",
+        "wechat_huluwa",
+        "wechat_santou",
+        "wechat_crossborder_headlines",
+        "wechat_crossborder_briefs",
+        "wechat_wearesellers",
+        "wechat_tt123",
+        "wechat_brand_ark",
+        "wechat_seller_home"
+      ],
+      "queries": [
+        "crossborder_headlines Amazon Canada 2026-08-28..2026-09-02",
+        "crossborder_briefs Amazon Canada 2026-08-28..2026-09-02",
+        "wearesellers Amazon Canada 2026-08-28..2026-09-02",
+        "tt123 Amazon Canada 2026-08-28..2026-09-02",
+        "brand_ark Amazon Canada 2026-08-28..2026-09-02",
+        "seller_home Amazon Canada 2026-08-28..2026-09-02",
+        "wechat_dabao Amazon Canada 2026-08-28..2026-09-02",
+        "wechat_huluwa Amazon Canada 2026-08-28..2026-09-02",
+        "wechat_santou Amazon Canada 2026-08-28..2026-09-02",
+        "wechat_crossborder_headlines Amazon Canada 2026-08-28..2026-09-02",
+        "wechat_crossborder_briefs Amazon Canada 2026-08-28..2026-09-02",
+        "wechat_wearesellers Amazon Canada 2026-08-28..2026-09-02",
+        "wechat_tt123 Amazon Canada 2026-08-28..2026-09-02",
+        "wechat_brand_ark Amazon Canada 2026-08-28..2026-09-02",
+        "wechat_seller_home Amazon Canada 2026-08-28..2026-09-02"
+      ]
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "note": "按include_source_ids逐一执行15条Mexico定向公开检索；网站结果、公众号作者页和搜索摘要均逐项记录。未确认除Health Canada年度报告（CA）外的可发布新增；公众号仍无法完整遍历，因此为部分覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com.mx/",
+          "note": "按include_source_ids逐一执行15条Mexico定向公开检索；网站结果、公众号作者页和搜索摘要均逐项记录。未确认除Health Canada年度报告（CA）外的可发布新增；公众号仍无法完整遍历，因此为部分覆盖。"
+        }
+      ],
+      "include_source_ids_checked": [
+        "crossborder_headlines",
+        "crossborder_briefs",
+        "wearesellers",
+        "tt123",
+        "brand_ark",
+        "seller_home",
+        "wechat_dabao",
+        "wechat_huluwa",
+        "wechat_santou",
+        "wechat_crossborder_headlines",
+        "wechat_crossborder_briefs",
+        "wechat_wearesellers",
+        "wechat_tt123",
+        "wechat_brand_ark",
+        "wechat_seller_home"
+      ],
+      "queries": [
+        "crossborder_headlines Amazon Mexico 2026-08-28..2026-09-02",
+        "crossborder_briefs Amazon Mexico 2026-08-28..2026-09-02",
+        "wearesellers Amazon Mexico 2026-08-28..2026-09-02",
+        "tt123 Amazon Mexico 2026-08-28..2026-09-02",
+        "brand_ark Amazon Mexico 2026-08-28..2026-09-02",
+        "seller_home Amazon Mexico 2026-08-28..2026-09-02",
+        "wechat_dabao Amazon Mexico 2026-08-28..2026-09-02",
+        "wechat_huluwa Amazon Mexico 2026-08-28..2026-09-02",
+        "wechat_santou Amazon Mexico 2026-08-28..2026-09-02",
+        "wechat_crossborder_headlines Amazon Mexico 2026-08-28..2026-09-02",
+        "wechat_crossborder_briefs Amazon Mexico 2026-08-28..2026-09-02",
+        "wechat_wearesellers Amazon Mexico 2026-08-28..2026-09-02",
+        "wechat_tt123 Amazon Mexico 2026-08-28..2026-09-02",
+        "wechat_brand_ark Amazon Mexico 2026-08-28..2026-09-02",
+        "wechat_seller_home Amazon Mexico 2026-08-28..2026-09-02"
+      ]
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "note": "检查Amazon.ca汽配关键词公开结果；无指定ASIN和历史可比快照，首次观察不计变化，不将USD或美国BSR套用为CAD/加拿大数据。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.ca/s?k=CPE+fuel+hose+AN+fittings+exhaust+clamp",
+          "note": "检查Amazon.ca汽配关键词公开结果；无指定ASIN和历史可比快照，首次观察不计变化，不将USD或美国BSR套用为CAD/加拿大数据。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "note": "检查Amazon.com.mx汽配关键词公开结果并保存可公开样本入口；无指定ASIN和历史可比快照，首次观察不计变化，不将美国数据套用为MXN/墨西哥数据。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com.mx/s?k=manguera+combustible+conectores+AN+abrazadera+escape",
+          "note": "检查Amazon.com.mx汽配关键词公开结果并保存可公开样本入口；无指定ASIN和历史可比快照，首次观察不计变化，不将美国数据套用为MXN/墨西哥数据。"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "backfill_complete": false,
+  "pending_backfill_dates": [
+    "2026-08-29",
+    "2026-08-30"
+  ],
+  "expected_digest": "10a20a3d4a7b762c4aa92a0507317e0a687fbfcf4828062e89c22c207268c0f3",
+  "main_baseline": "86c23196edfb1d2895e2ac232f7148a71785cf40",
+  "summary": "新增1项加拿大监管披露：Health Canada发布Canadian Product Safety Pledge 2024-2025年度报告，Amazon Canada在范围内。明确该报告不是新规，且汇总/匿名和自报数据不能全部归因于Amazon。US/MX未确认新的可靠增量；FTC诉讼媒体跟进映射既有事件。公开来源仍有动态页及公众号遍历限制，状态为partial，8月29—30日补查标记保留。",
+  "excluded_or_deferred": [
+    {
+      "url": "https://www.reuters.com/legal/government/amazon-sued-by-us-ftc-over-billions-ad-fees-2026-08-31/",
+      "reason": "9月1日媒体跟进未增加裁判、退款或控制台变化，语义上与既有FTC Sponsored Ads诉讼卡片相同，排除为重复报道。"
+    },
+    {
+      "url": "https://m.amz123.com/kx",
+      "reason": "Pan-EU荷兰/比利时报价要求及欧洲送达窗口变化不适用本任务US/CA/MX常规范围；未跨站套用。"
+    },
+    {
+      "url": "https://m.amz123.com/author-17",
+      "reason": "8月31日新卖家招募/入群文章属于开店推广，未发现运营规则、费用或履约机制实质变化，未建新闻事件。"
+    },
+    {
+      "url": "https://www.amazon.com.mx/EVIL-ENERGY-manguera-combustible-inoxidable/dp/B091YMFKJZ",
+      "reason": "墨西哥汽配公开样本只作首次观察；缺少同ASIN、变体、地域和时间的前后快照，不能声明价格、Coupon或BSR变化。"
+    }
+  ],
+  "test_result": {
+    "passed": 22,
+    "failed": 0,
+    "render_matches_data": true,
+    "daily_briefing_absent": true,
+    "unique_event_keys": 19,
+    "event_cards": 19
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "a2e616025cd5ccb7a6793aac3bbc7c7cdde5303d",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "10a20a3d4a7b762c4aa92a0507317e0a687fbfcf4828062e89c22c207268c0f3",
+    "observed_digest": "10a20a3d4a7b762c4aa92a0507317e0a687fbfcf4828062e89c22c207268c0f3",
+    "verified_at": "2026-09-02T01:13:08.000Z",
+    "html_exact_match": true,
+    "unique_event_keys": 19,
+    "event_cards": 19,
+    "deploy_dashboard_url": "https://vercel.com/amz-ce8f/amazon-ops-radar-vercel/AZxrgmL2SM5K8J2Kwq5hMVRBCjNQ",
+    "runtime_logs": "not_checked"
+  },
+  "finished_at": "2026-09-02T01:13:08.000Z",
+  "base_state_digest": "919f770a3ef7c4db05cd780c5cca74cb999a87f23f3d96d4b974b0cd8af3fbfe",
+  "material_changed": true
+}
