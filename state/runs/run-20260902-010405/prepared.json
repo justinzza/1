@@ -1,0 +1,30 @@
+{
+  "id": "run-20260902-010405",
+  "phase": "prepared",
+  "started_at": "2026-09-02T00:58:45.000Z",
+  "research_checked_at": "2026-09-02T01:04:05.000Z",
+  "base_state_digest": "919f770a3ef7c4db05cd780c5cca74cb999a87f23f3d96d4b974b0cd8af3fbfe",
+  "radar_state_parent": "3b6474fdcf09045f987dba02d76fe57dfee3743a",
+  "main_parent": "86c23196edfb1d2895e2ac232f7148a71785cf40",
+  "main_base_tree": "96f2e5b8987844e2c0974b2308e69c5aad5a4caf",
+  "registry_base_digest": "3005f0b41e29a227c19de41a1bccf6308c12b55b7a6be97aad1f17b9bbc80b7e",
+  "batch_sha256": "bcfe0253cf5fe7f8d2ab4064c56124006d234259f98ff7a904b4ccda15ab2aae",
+  "stage_result_sha256": "03929c9ded7fca58e2849659604a5b7aca082bd0c1e9a67addfad12e49622bcd",
+  "expected": {
+    "events_sha256": "7e78dd25d4404770faf68c2982cee982b6ec0bdd52cf01a456bfae979b0a5194",
+    "report_sha256": "067eb2f4870e7406664722bd9c2c43a5ded2bb3203e9d11189989ea305108341",
+    "index_html_sha256": "10a20a3d4a7b762c4aa92a0507317e0a687fbfcf4828062e89c22c207268c0f3",
+    "events": 19,
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "tests": {
+    "passed": 22,
+    "failed": 0,
+    "render_matches_data": true,
+    "daily_briefing_absent": true
+  },
+  "note": "已核验Health Canada 2024-2025 Canadian Product Safety Pledge年度报告；候选明确标注为监管披露、非Amazon.ca新规，并避免把多平台汇总或匿名数据全部归因于Amazon Canada。发布完成并验收前不得推进任何成功游标。"
+}

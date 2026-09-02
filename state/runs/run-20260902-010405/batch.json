@@ -1,0 +1,90 @@
+{
+  "base_digest": "3005f0b41e29a227c19de41a1bccf6308c12b55b7a6be97aad1f17b9bbc80b7e",
+  "checked_at": "2026-09-02T01:04:05.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "health-canada-online-marketplace-safety-pledge",
+        "action_key": "publish-2024-25-annual-report",
+        "marketplaces": ["CA"],
+        "effective_date": null,
+        "title": "Health Canada发布线上市场产品安全年度报告：Amazon Canada在承诺机制范围内",
+        "summary": "Health Canada于8月31日发布Canadian Product Safety Pledge第二份年度报告，覆盖Amazon Canada、eBay Canada及Temu Canada在各自报告期内的执行情况。报告称，监管方要求下架的199个商品listing均由签署平台在两个工作日内移除，平台已加强自动检测、事后审计和重复违规者监控；但这些数字与多数做法是多平台汇总或匿名描述，不能全部归因于Amazon Canada。",
+        "category": "policy",
+        "priority": "P1",
+        "impact": "这不是Amazon.ca新费率或新规生效通知，也不新增法定期限；但它确认加拿大平台安全治理正在强化对召回、禁售/不合规商品、重复上架和不回应监管询问的处置。海外卖家若未设置Canada shipping exclusion，或通过改标题、图片、描述重新上架问题商品，面临listing移除、账户限制及向监管机构提供卖家信息的风险。",
+        "action": "对Amazon.ca在售SKU逐一核对Health Canada Recalls and Safety Alerts、加拿大禁限售及标签/文件要求；发现不适用加拿大的商品立即设置Canada shipping exclusion。对被下架或被监管询问的SKU停止改标题/图片重建listing，保存供应商、测试、进口与履约记录并及时回应。汽车用品优先检查涉及安全关键部件、化学品和标签的ASIN。",
+        "original_published_at": "2026-08-31",
+        "original_date_note": "Health Canada页面标注2026-08-31。报告覆盖Amazon Canada和eBay Canada的2024-09-29至2025-09-28，以及Temu Canada自2024-12-20至2025-09-28；本事件无新的规则生效日，因此effective_date留空。报告明确数据由签署平台自报，并以汇总/匿名方式呈现。",
+        "first_seen_at": "2026-09-02T01:04:05.000Z",
+        "last_material_update_at": "2026-09-02T01:04:05.000Z",
+        "history_dates": ["2026-09-02"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/about-canadian-product-safety-pledge/canadian-product-safety-pledge-annual-report-2024-2025.html",
+            "publisher": "Health Canada",
+            "kind": "regulator",
+            "published_at": "2026-08-31",
+            "verified_at": "2026-09-02T01:04:05.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取加拿大政府公开原文；仅采用报告明确写明的范围、汇总指标和限制，不把匿名或汇总实践全部归因于Amazon Canada。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "3005f0b41e29a227c19de41a1bccf6308c12b55b7a6be97aad1f17b9bbc80b7e",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条比较现有18条事件的event_key、标题语义、规范化来源链接和生效日期；现有库没有Health Canada产品安全承诺年度报告或同一加拿大监管披露。本批仅此一条候选，不存在批内重复。",
+        "distinct_event_reason": "现有事件中虽有Amazon平台合规事项，但主体、变化动作、加拿大适用范围和监管原文均不同；该年度报告是独立监管披露。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "US：未确认新的官方实质增量；CA：新增Health Canada线上市场产品安全承诺年度报告；MX：未确认新的可靠增量。Seller Central、Amazon Ads、全球开店、监管机构及指定行业/公众号均做公开检索，但部分动态页只能取得公开索引或搜索摘要，公众号不能完整遍历，因此仍为部分覆盖；8月29—30日补查标记继续保留。",
+    "category_notes": {
+      "policy": "新增加拿大监管年度报告；这是产品安全治理披露，不是Amazon.ca新费率或新规生效通知。US/MX未确认其他官方实质增量。",
+      "ads": "FTC Sponsored Ads诉讼的9月1日媒体跟进未出现法院裁判、退款安排或控制台实质变化，按既有事件去重；Amazon Ads公开索引未确认新功能公告。",
+      "ai": "未确认本窗口内与US/CA/MX Amazon运营直接相关的AI工具实质更新；公开检索不完整。",
+      "opportunities": "燃油管、CPE braided hose、AN fittings、exhaust clamp未获得三站连续关键词数据，不宣称搜索量或销量变化。",
+      "competitors": "仍缺指定ASIN及同站点、同变体、同收货地区连续快照；公开样本仅作观察，不计价格、Coupon、BSR或页面变化。"
+    },
+    "action_items": [
+      {
+        "title": "审计Amazon.ca产品安全与召回风险",
+        "detail": "逐SKU核对Health Canada召回、禁限售、标签和文件要求；不适用加拿大的商品设置shipping exclusion。",
+        "due": "今日",
+        "event_key": "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
+      },
+      {
+        "title": "停止通过改标题重建问题listing",
+        "detail": "对被下架或被监管询问的SKU保留供应商、测试、进口和履约记录，及时回应，不以改标题、图片或描述规避检测。",
+        "due": "立即",
+        "event_key": "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
+      },
+      {
+        "title": "建立三站汽配可比快照",
+        "detail": "分别记录US/CA/MX代表ASIN、变体、地域、时间、币种、税费/运费口径、价格、Coupon和BSR；首轮只建基线。",
+        "due": "下次采集",
+        "event_key": null
+      }
+    ]
+  }
+}

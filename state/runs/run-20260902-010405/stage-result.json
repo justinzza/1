@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown",
+      "action": "new",
+      "review": "逐条比较现有18条事件的event_key、标题语义、规范化来源链接和生效日期；现有库没有Health Canada产品安全承诺年度报告或同一加拿大监管披露。本批仅此一条候选，不存在批内重复。"
+    }
+  ]
+}
