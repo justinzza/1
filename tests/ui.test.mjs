@@ -85,16 +85,21 @@ test('all rendered section links point to existing anchors', () => {
   for (const match of html.matchAll(/href="#([^"]+)"/g)) assert(ids.has(match[1]), `Missing anchor ${match[1]}`);
 });
 
-test('Canada and Mexico collection scope and filters remain visible without new events', () => {
+test('Canada and Mexico collection scope and filters preserve latest and archive views', () => {
   assert(html.includes('加拿大 Amazon.ca'));
   assert(html.includes('墨西哥 Amazon.com.mx'));
   for (const [market, label] of [['CA', '加拿大站（CA）'], ['MX', '墨西哥站（MX）']]) {
     assert(html.includes(`<option value="${market}">${label}</option>`));
     const f = fixture();
     f.market.change(market);
-    const expected = registry.events.filter(event => event.marketplaces.includes(market)).length;
-    assert.equal(f.count.textContent, String(expected));
-    assert.equal(f.empty.hidden, expected > 0);
+    const current = new Set([...report.new_event_keys, ...report.updated_event_keys]);
+    const latestExpected = registry.events.filter(event => current.has(event.event_key) && event.marketplaces.includes(market)).length;
+    assert.equal(f.count.textContent, String(latestExpected));
+    assert.equal(f.empty.hidden, latestExpected > 0);
+    f.date.change('all');
+    const archiveExpected = registry.events.filter(event => event.marketplaces.includes(market)).length;
+    assert.equal(f.count.textContent, String(archiveExpected));
+    assert.equal(f.empty.hidden, archiveExpected > 0);
     f.stories.forEach(story => assert.equal(story.hidden, !story.dataset.marketplaces.split(' ').includes(market)));
   }
   const sources = JSON.parse(fs.readFileSync(new URL('../config/sources.json', import.meta.url), 'utf8'));

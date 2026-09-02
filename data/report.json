@@ -1,9 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31",
-    "usps-holiday-package-rates|temporary-peak-increase-2026|US|2026-10-04",
-    "amazon-mexico-second-chance|launch-semana-segunda-vida-2026|MX|2026-08-31"
+    "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,32 +10,26 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "US：确认FTC广告诉讼与USPS旺季调价计划；CA：未确认可靠新增；MX：确认Semana de Segunda Vida活动。Seller Central、Amazon Ads、全球开店、监管机构及指定行业/公众号均做了公开检索，但部分动态页只能取得索引摘要，公众号无法完整遍历，因此本期为部分覆盖；8月29—30日补查标记继续保留。",
+  "coverage_note": "US：未确认新的官方实质增量；CA：新增Health Canada线上市场产品安全承诺年度报告；MX：未确认新的可靠增量。Seller Central、Amazon Ads、全球开店、监管机构及指定行业/公众号均做公开检索，但部分动态页只能取得公开索引或搜索摘要，公众号不能完整遍历，因此仍为部分覆盖；8月29—30日补查标记继续保留。",
   "category_notes": {
-    "policy": "新增USPS旺季包裹临时调价计划，明确仍待PRC审查；US/CA/MX Seller Central公开检索未确认其他可独立发布的新规。",
-    "ads": "新增FTC及22州对Amazon Sponsored Ads拍卖定价的诉讼，并并列Amazon回应；目前无法院裁判、退款安排或广告控制台即时变更。",
-    "ai": "今日未确认窗口内与US/CA/MX Amazon运营直接相关的AI工具实质更新；公开检索不完整，不以旧方法文章凑数。",
-    "opportunities": "新增墨西哥站二手促销节点；fuel hose、CPE braided hose、AN fittings、exhaust clamp仍没有站点独立的连续关键词数据，不宣称搜索量或销量变化。",
-    "competitors": "未提供指定ASIN，且缺少同一站点、同一变体、同一收货地区的连续快照；本轮没有可验证的价格、Coupon、BSR或页面变化。首次公开观察不计变化。"
+    "policy": "新增加拿大监管年度报告；这是产品安全治理披露，不是Amazon.ca新费率或新规生效通知。US/MX未确认其他官方实质增量。",
+    "ads": "FTC Sponsored Ads诉讼的9月1日媒体跟进未出现法院裁判、退款安排或控制台实质变化，按既有事件去重；Amazon Ads公开索引未确认新功能公告。",
+    "ai": "未确认本窗口内与US/CA/MX Amazon运营直接相关的AI工具实质更新；公开检索不完整。",
+    "opportunities": "燃油管、CPE braided hose、AN fittings、exhaust clamp未获得三站连续关键词数据，不宣称搜索量或销量变化。",
+    "competitors": "仍缺指定ASIN及同站点、同变体、同收货地区连续快照；公开样本仅作观察，不计价格、Coupon、BSR或页面变化。"
   },
   "action_items": [
     {
-      "title": "给广告bid和预算加利润护栏",
-      "detail": "把bid当作潜在最高CPC，按关键词和高流量日复核CPC、ROAS与毛利；关注诉讼和Ads Help更新，不预设退款。",
+      "title": "审计Amazon.ca产品安全与召回风险",
+      "detail": "逐SKU核对Health Canada召回、禁限售、标签和文件要求；不适用加拿大的商品设置shipping exclusion。",
       "due": "今日",
-      "event_key": "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31"
+      "event_key": "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
     },
     {
-      "title": "测算USPS旺季FBM与退货成本",
-      "detail": "待PRC确认后，按Commercial费率逐重量和Zone重算10月4日至1月17日成本，优先检查重件与远区订单。",
-      "due": "10月4日前",
-      "event_key": "usps-holiday-package-rates|temporary-peak-increase-2026|US|2026-10-04"
-    },
-    {
-      "title": "核查墨西哥二手库存活动资格",
-      "detail": "仅对符合二手/退货条件的SKU，以MXN含税口径核算活动价、配送和退货成本；新品不统一跟价。",
-      "due": "9月6日前",
-      "event_key": "amazon-mexico-second-chance|launch-semana-segunda-vida-2026|MX|2026-08-31"
+      "title": "停止通过改标题重建问题listing",
+      "detail": "对被下架或被监管询问的SKU保留供应商、测试、进口和履约记录，及时回应，不以改标题、图片或描述规避检测。",
+      "due": "立即",
+      "event_key": "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
     },
     {
       "title": "建立三站汽配可比快照",
@@ -47,18 +39,16 @@
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-01",
-  "content_updated_at": "2026-09-01T01:07:41.000Z",
+  "report_date": "2026-09-02",
+  "content_updated_at": "2026-09-02T01:04:05.000Z",
   "new_event_keys": [
-    "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31",
-    "amazon-mexico-second-chance|launch-semana-segunda-vida-2026|MX|2026-08-31",
-    "usps-holiday-package-rates|temporary-peak-increase-2026|US|2026-10-04"
+    "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 3,
+    "new": 1,
     "updated": 0,
     "merged": 0,
-    "deduplicated": 1
+    "deduplicated": 0
   }
 }

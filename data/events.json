@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-01T01:07:41.000Z",
+  "content_updated_at": "2026-09-02T01:04:05.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -918,6 +918,46 @@
       "event_key": "usps-holiday-package-rates|temporary-peak-increase-2026|US|2026-10-04",
       "id": "evt-e7e1b442e089d6a6",
       "primary_source_url": "https://about.usps.com/newsroom/national-releases/2026/0825-usps-announces-temporary-price-change-for-2026-holiday-shipping-season.htm"
+    },
+    {
+      "subject_key": "health-canada-online-marketplace-safety-pledge",
+      "action_key": "publish-2024-25-annual-report",
+      "marketplaces": [
+        "CA"
+      ],
+      "effective_date": null,
+      "title": "Health Canada发布线上市场产品安全年度报告：Amazon Canada在承诺机制范围内",
+      "summary": "Health Canada于8月31日发布Canadian Product Safety Pledge第二份年度报告，覆盖Amazon Canada、eBay Canada及Temu Canada在各自报告期内的执行情况。报告称，监管方要求下架的199个商品listing均由签署平台在两个工作日内移除，平台已加强自动检测、事后审计和重复违规者监控；但这些数字与多数做法是多平台汇总或匿名描述，不能全部归因于Amazon Canada。",
+      "category": "policy",
+      "priority": "P1",
+      "impact": "这不是Amazon.ca新费率或新规生效通知，也不新增法定期限；但它确认加拿大平台安全治理正在强化对召回、禁售/不合规商品、重复上架和不回应监管询问的处置。海外卖家若未设置Canada shipping exclusion，或通过改标题、图片、描述重新上架问题商品，面临listing移除、账户限制及向监管机构提供卖家信息的风险。",
+      "action": "对Amazon.ca在售SKU逐一核对Health Canada Recalls and Safety Alerts、加拿大禁限售及标签/文件要求；发现不适用加拿大的商品立即设置Canada shipping exclusion。对被下架或被监管询问的SKU停止改标题/图片重建listing，保存供应商、测试、进口与履约记录并及时回应。汽车用品优先检查涉及安全关键部件、化学品和标签的ASIN。",
+      "original_published_at": "2026-08-31",
+      "original_date_note": "Health Canada页面标注2026-08-31。报告覆盖Amazon Canada和eBay Canada的2024-09-29至2025-09-28，以及Temu Canada自2024-12-20至2025-09-28；本事件无新的规则生效日，因此effective_date留空。报告明确数据由签署平台自报，并以汇总/匿名方式呈现。",
+      "first_seen_at": "2026-09-02T01:04:05.000Z",
+      "last_material_update_at": "2026-09-02T01:04:05.000Z",
+      "history_dates": [
+        "2026-09-02"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/about-canadian-product-safety-pledge/canadian-product-safety-pledge-annual-report-2024-2025.html",
+          "publisher": "Health Canada",
+          "kind": "regulator",
+          "published_at": "2026-08-31",
+          "verified_at": "2026-09-02T01:04:05.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取加拿大政府公开原文；仅采用报告明确写明的范围、汇总指标和限制，不把匿名或汇总实践全部归因于Amazon Canada。",
+          "canonical_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/about-canadian-product-safety-pledge/canadian-product-safety-pledge-annual-report-2024-2025.html"
+        }
+      ],
+      "event_key": "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown",
+      "id": "evt-baf3c68eb3f89f21",
+      "primary_source_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/about-canadian-product-safety-pledge/canadian-product-safety-pledge-annual-report-2024-2025.html"
     }
   ]
 }
