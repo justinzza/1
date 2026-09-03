@@ -422,7 +422,7 @@
   ],
   "expected_digest": null,
   "main_baseline": "a2e616025cd5ccb7a6793aac3bbc7c7cdde5303d",
-  "summary": "US、CA、MX未确认新的可靠实质增量。FBA易融库存恢复和Health Canada年度报告已在事件库；FTC跟进无新裁判或后台变化；公众号提及的墨西哥IMPI查扣事件官方日期为8月17日且不是Amazon平台规则。动态页、公众号和卖家之家仍为部分覆盖，8月29—30日补查标记保留。网页不修改、不重新部署。",
+  "summary": "US、CA、MX未确认新的可靠实质增量。FBA易融库存恢复和Health Canada年度报告已在事件库；FTC跟进无新裁判或后台变化；公众号提及的墨西哥IMPI查扣事件官方日期为8月17日且不是Amazon平台规则。动态页、公众号和卖家之家仍为部分覆盖，8月29—30日补查标记保留。新闻数据与网页日期未修改；运行后发现生产别名漂移到旧页面，已用main同一源码恢复并完成整页一致性验收。",
   "excluded_or_deferred": [
     {
       "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/a46c87eb-1acf-4fa7-98ef-d58666caa358",
@@ -455,6 +455,21 @@
   },
   "publication": {
     "status": "not_needed"
+  },
+  "operational_recovery": {
+    "reason": "生产正式域名在无main内容变化时漂移到旧页面，重新出现DAILY BRIEFING并停留在9月1日版本。",
+    "detected_at": "2026-09-03T01:05:40.000Z",
+    "pre_recovery_observed_digest": "28e6ab81401ba53890056d37772e5485b5444f8db50952cd96364b8fbf111943",
+    "recovery_commit_sha": "13dddc304b54302b7982155134d6f4a74040796b",
+    "github_status": "success",
+    "deploy_dashboard_url": "https://vercel.com/amz-ce8f/amazon-ops-radar-vercel/CVSs7y3uEGjumyktUHxmdTrqGF7g",
+    "expected_digest": "10a20a3d4a7b762c4aa92a0507317e0a687fbfcf4828062e89c22c207268c0f3",
+    "observed_digest": "10a20a3d4a7b762c4aa92a0507317e0a687fbfcf4828062e89c22c207268c0f3",
+    "verified_at": "2026-09-03T01:08:21.000Z",
+    "html_exact_match": true,
+    "event_cards": 19,
+    "daily_briefing_absent": true,
+    "news_data_changed": false
   },
   "finished_at": "2026-09-03T01:03:43.035Z",
   "base_state_digest": "67139c333f594838fe5a29c9c19b66dc89e2b0c5925e9e0ce5cff90e8aa8a3c7",
