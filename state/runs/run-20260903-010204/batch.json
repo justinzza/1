@@ -1,0 +1,25 @@
+{
+  "base_digest": "c415ef0f487e7c61e31cfd447bd7fc8bbf1f3b0c2ec18dfe8a8a0b47745077fb",
+  "checked_at": "2026-09-03T01:02:04.000Z",
+  "candidates": [],
+  "report": {
+    "status": "partial",
+    "top_changes": [],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "US、CA、MX均未确认新的可靠实质增量。Seller Central、Amazon Ads、全球开店、监管机构及指定行业/公众号已做公开检索，但动态页只能取得索引或摘要，公众号不能完整遍历，卖家之家正文读取不稳定；8月29—30日补查标记继续保留。",
+    "category_notes": {
+      "policy": "今日未确认重要增量；已收录的Health Canada报告、FBA易融库存恢复及FTC诉讼不重复展示。",
+      "ads": "Amazon Ads公开索引未确认9月2日以来的新功能；FTC诉讼无新增裁判、退款或控制台变化。",
+      "ai": "未确认与US/CA/MX Amazon运营直接相关的可信AI工具实质更新；公开来源覆盖不完整。",
+      "opportunities": "汽配重点词没有三站连续关键词数据，不宣称搜索量或销量变化。",
+      "competitors": "缺少指定ASIN及同站点、同变体、同收货地区连续快照；首次观察不计价格、Coupon、BSR或页面变化。"
+    },
+    "action_items": []
+  }
+}
