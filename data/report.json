@@ -1,7 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
+    "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
+    "amazon-business-deals|launch-business-customer-exclusive-deals|CA+MX+US|2026-08-31"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -10,43 +11,50 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "US：未确认新的官方实质增量；CA：新增Health Canada线上市场产品安全承诺年度报告；MX：未确认新的可靠增量。Seller Central、Amazon Ads、全球开店、监管机构及指定行业/公众号均做公开检索，但部分动态页只能取得公开索引或搜索摘要，公众号不能完整遍历，因此仍为部分覆盖；8月29—30日补查标记继续保留。",
   "category_notes": {
-    "policy": "新增加拿大监管年度报告；这是产品安全治理披露，不是Amazon.ca新费率或新规生效通知。US/MX未确认其他官方实质增量。",
-    "ads": "FTC Sponsored Ads诉讼的9月1日媒体跟进未出现法院裁判、退款安排或控制台实质变化，按既有事件去重；Amazon Ads公开索引未确认新功能公告。",
-    "ai": "未确认本窗口内与US/CA/MX Amazon运营直接相关的AI工具实质更新；公开检索不完整。",
-    "opportunities": "燃油管、CPE braided hose、AN fittings、exhaust clamp未获得三站连续关键词数据，不宣称搜索量或销量变化。",
-    "competitors": "仍缺指定ASIN及同站点、同变体、同收货地区连续快照；公开样本仅作观察，不计价格、Coupon、BSR或页面变化。"
+    "policy": "新增Amazon商业责任保险要求，官方Seller Forums和帮助页可公开检索；US为明确适用站点。CA/MX未确认同类独立政策增量。",
+    "ads": "今日无重要新增；有声书广告资格此前已入库，本次不重复展示。",
+    "ai": "今日未确认与US/CA/MX Amazon运营直接相关的AI工具实质增量；公开来源覆盖不完整。",
+    "opportunities": "未获得燃油管、CPE braided fuel hose、AN fittings、exhaust clamp三站连续关键词数据；不宣称搜索量或销量变化。",
+    "competitors": "新增Amazon Business Deals促销入口，US/CA/MX均在公开通知覆盖范围；缺少指定ASIN快照，价格/Coupon/BSR不作变化判断。"
   },
+  "coverage_note": "本次为手动补跑9月8日前后漏收内容，并回查9月3—9月8公开可检索来源。US：新增商业责任保险官方政策、Business Deals；CA/MX：新增Business Deals适用站点。Seller Central动态页、Amazon Ads列表、行业网站和公众号仍只能做公开索引/搜索摘要检查，无法保证完整遍历；8月29—30日历史补查标记继续保留。",
   "action_items": [
     {
-      "title": "审计Amazon.ca产品安全与召回风险",
-      "detail": "逐SKU核对Health Canada召回、禁限售、标签和文件要求；不适用加拿大的商品设置shipping exclusion。",
-      "due": "今日",
-      "event_key": "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
+      "title": "核对商业责任保险覆盖范围",
+      "event_key": "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
+      "due": "本周",
+      "detail": "按美国站SKU逐项检查是否属于enhanced safety listing requirements，确认保单覆盖产品、USD 1M限额、附加被保险人和主体名称。"
     },
     {
-      "title": "停止通过改标题重建问题listing",
-      "detail": "对被下架或被监管询问的SKU保留供应商、测试、进口和履约记录，及时回应，不以改标题、图片或描述规避检测。",
-      "due": "立即",
-      "event_key": "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
+      "title": "中国大陆主体卖家准备AIA续保路径",
+      "event_key": "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
+      "due": "11月2日前",
+      "detail": "记录现有保单提交日期和到期日；11月2日后新提交或续保需提前评估Amazon Insurance Accelerator。"
     },
     {
-      "title": "建立三站汽配可比快照",
-      "detail": "分别记录US/CA/MX代表ASIN、变体、地域、时间、币种、税费/运费口径、价格、Coupon和BSR；首轮只建基线。",
-      "due": "下次采集",
-      "event_key": null
+      "title": "测试Amazon Business Deals",
+      "event_key": "amazon-business-deals|launch-business-customer-exclusive-deals|CA+MX+US|2026-08-31",
+      "due": "本周",
+      "detail": "筛选企业采购属性强的汽配/工具SKU，分别用USD/CAD/MXN测算10%和15% B2B折扣，并检查Promotions中All Business Customers选项。"
+    },
+    {
+      "title": "继续建立汽配竞品基线",
+      "event_key": null,
+      "due": "持续",
+      "detail": "分别保存US/CA/MX的ASIN、变体、收货地区、价格、Coupon和BSR，首次快照只作基线，不写成变化。"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-02",
-  "content_updated_at": "2026-09-02T01:04:05.000Z",
+  "report_date": "2026-09-09",
+  "content_updated_at": "2026-09-09T10:30:00.000Z",
   "new_event_keys": [
-    "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown"
+    "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
+    "amazon-business-deals|launch-business-customer-exclusive-deals|CA+MX+US|2026-08-31"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 1,
+    "new": 2,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0

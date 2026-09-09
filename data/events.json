@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-02T01:04:05.000Z",
+  "content_updated_at": "2026-09-09T10:30:00.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -958,6 +958,123 @@
       "event_key": "health-canada-online-marketplace-safety-pledge|publish-2024-25-annual-report|CA|unknown",
       "id": "evt-baf3c68eb3f89f21",
       "primary_source_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/about-canadian-product-safety-pledge/canadian-product-safety-pledge-annual-report-2024-2025.html"
+    },
+    {
+      "action": "今天导出美国站在售与拟上架SKU，按 Account Health / Product Policy Compliance 核对是否属于 enhanced safety listing requirements；向保险经纪确认保单是否覆盖相应产品和 USD 1M 要求；中国大陆主体卖家确认现有保单提交日期、到期日，并预留 AIA 续保时间。",
+      "action_key": "add-enhanced-safety-and-mainland-china-aia-requirements-2026",
+      "category": "policy",
+      "deadline": "2026-11-02",
+      "effective_date": "2026-11-02",
+      "first_seen_at": "2026-09-09T10:30:00.000Z",
+      "history_dates": [
+        "2026-09-09"
+      ],
+      "impact": "对低销量但涉及儿童用品、化妆品/摄入类、锂电等增强安全类目的卖家影响高；汽车用品中若涉及轮胎、锂电配件或其他增强安全 listing 要求，应提前核对。中国大陆主体卖家还要把续保路径切换到 AIA，否则新保单可能被拒。",
+      "key_aliases": [],
+      "last_material_update_at": "2026-09-09T10:30:00.000Z",
+      "marketplaces": [
+        "US"
+      ],
+      "original_date_note": "Amazon Seller Forums公开索引显示该News_Amazon公告约2026-09-03发布；EcomCrew/SellerEssentials在9月3—6日复述并分析。生效日为官方公告中的2026-11-02。",
+      "original_published_at": "2026-09-03",
+      "priority": "P0",
+      "revisions": [],
+      "sources": [
+        {
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "kind": "official",
+          "published_at": "2026-09-03",
+          "publisher": "Amazon Seller Forums / News_Amazon",
+          "supports_event": true,
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/287d5c33-8278-4802-ba69-2f58f7dda408",
+          "verified_at": "2026-09-09T10:30:00.000Z",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/287d5c33-8278-4802-ba69-2f58f7dda408"
+        },
+        {
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "kind": "official",
+          "published_at": null,
+          "publisher": "Amazon Seller Central Help",
+          "supports_event": true,
+          "url": "https://sellercentral.amazon.com/gp/help/external/G200386300",
+          "verified_at": "2026-09-09T10:30:00.000Z",
+          "canonical_url": "https://sellercentral.amazon.com/gp/help/external/G200386300"
+        },
+        {
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "kind": "industry_original",
+          "published_at": "2026-09-06",
+          "publisher": "EcomCrew",
+          "supports_event": true,
+          "url": "https://www.ecomcrew.com/amazons-new-insurance-rules-hit-small-sellers-in-11-categories/",
+          "verified_at": "2026-09-09T10:30:00.000Z",
+          "canonical_url": "https://www.ecomcrew.com/amazons-new-insurance-rules-hit-small-sellers-in-11-categories"
+        }
+      ],
+      "subject_key": "amazon-commercial-liability-insurance",
+      "summary": "Amazon Seller Forums 的 News_Amazon 公告显示，自2026年11月2日起，美国站商业责任保险要求新增两项：增强安全 listing 要求类目的商品需维持至少 USD 1 million/occurrence and aggregate 的商业责任保险，不再受单月销售额 USD 10,000 门槛限制；中国大陆主体卖家新提交保险需通过 Amazon Insurance Accelerator，已在生效日前提交且合规的第三方保单可用至到期。",
+      "title": "美国站商业责任保险 11月2日新增要求：增强安全类目不再按 $10,000/月门槛豁免",
+      "verification_status": "reviewed",
+      "event_key": "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
+      "id": "evt-e32c60810078636a",
+      "primary_source_url": "https://sellercentral.amazon.com/gp/help/external/G200386300"
+    },
+    {
+      "action": "筛选美国、加拿大、墨西哥三站中有企业采购需求的ASIN，先补齐 Business Price，再按USD/CAD/MXN分别测算10%/15%折扣后的毛利；不要默认所有SKU可参与，先在 Promotions → Price Discounts 检查 All Business Customers 是否已出现；记录B2B deal对后续Coupon/Prime Big Deal Days/Black Friday参考价的影响。",
+      "action_key": "launch-business-customer-exclusive-deals",
+      "category": "competitors",
+      "deadline": "2026-12-31",
+      "effective_date": "2026-08-31",
+      "first_seen_at": "2026-09-09T10:30:00.000Z",
+      "history_dates": [
+        "2026-09-09"
+      ],
+      "impact": "这是B2B促销入口变化，会影响 Q4 促销排期、Business Price 配置、利润测算和库存承诺。对汽配、工具、工业/维修类产品尤其值得测试，但需注意B2B价格是否影响后续消费者端 deal reference price，公开来源显示该点尚未获Amazon明确答复。",
+      "key_aliases": [],
+      "last_material_update_at": "2026-09-09T10:30:00.000Z",
+      "marketplaces": [
+        "CA",
+        "MX",
+        "US"
+      ],
+      "original_date_note": "Amazon Seller Forums公开页显示公告日期为2026-08-31；PPC Land于2026-09-08发布分析，补充折扣门槛、活动曝光截止日和未明确问题。",
+      "original_published_at": "2026-08-31",
+      "priority": "P1",
+      "revisions": [],
+      "sources": [
+        {
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "kind": "official",
+          "published_at": "2026-08-31",
+          "publisher": "Amazon Seller Forums / News_Amazon",
+          "supports_event": true,
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/9a115e3e-3201-4c17-986e-a46a1845558f",
+          "verified_at": "2026-09-09T10:30:00.000Z",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/9a115e3e-3201-4c17-986e-a46a1845558f"
+        },
+        {
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "kind": "industry_original",
+          "published_at": "2026-09-08",
+          "publisher": "PPC Land",
+          "supports_event": true,
+          "url": "https://ppc.land/amazon-opens-b2b-deals-to-11-million-business-accounts-in-10-markets/",
+          "verified_at": "2026-09-09T10:30:00.000Z",
+          "canonical_url": "https://ppc.land/amazon-opens-b2b-deals-to-11-million-business-accounts-in-10-markets"
+        }
+      ],
+      "subject_key": "amazon-business-deals",
+      "summary": "Amazon Seller Forums / Seller Central News 公告称，卖家可在 Price Discounts 工具中创建面向 All Business Customers 的 Amazon Business Deals；公开可核验文本显示该功能面向10个市场，含 US、CA、MX，商品需已有 Business Price，可触达超过 1100 万注册 business organizations。PPC Land 9月8日进一步整理：普通 Business Deals 最低折扣为10%，High Velocity Event Deals为15%，重大活动的 email/push 增强曝光“no additional cost”优惠截至2026年12月31日。",
+      "title": "Amazon Business Deals 开放给 US/CA/MX 等市场卖家：需先设置 Business Price",
+      "verification_status": "reviewed",
+      "event_key": "amazon-business-deals|launch-business-customer-exclusive-deals|CA+MX+US|2026-08-31",
+      "id": "evt-8d2437f5484177a4",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/9a115e3e-3201-4c17-986e-a46a1845558f"
     }
   ]
 }
