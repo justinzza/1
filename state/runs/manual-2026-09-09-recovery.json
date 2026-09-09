@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "run_id": "manual-2026-09-09-recovery",
+  "checked_at": "2026-09-09T10:45:00.000Z",
+  "mode": "manual_recovery",
+  "production_commit": "60864d299692e0369d4033f1230fffaaa2c87b98",
+  "production_url": "https://amazon-ops-radar-vercel.vercel.app/",
+  "production_verification": {
+    "status": "success",
+    "html_sha256": "d041198ab31224bc88afeb595374aa6cd0573e5073e130102450b1e2b7428fa2",
+    "contains": [
+      "商业责任保险",
+      "Amazon Business Deals"
+    ],
+    "daily_briefing_present": false
+  },
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
+    "amazon-business-deals|launch-business-customer-exclusive-deals|CA+MX+US|2026-08-31"
+  ],
+  "coverage": {
+    "US": "partial: Seller Central公开索引/帮助页、行业报道与Amazon Ads历史库比对；新增2条US相关事件。",
+    "CA": "partial: 新增Business Deals适用站点；未确认独立CA政策增量。",
+    "MX": "partial: 新增Business Deals适用站点；未确认独立MX政策增量。"
+  },
+  "limitations": [
+    "Seller Central动态页、Amazon Ads列表、行业网站和公众号仍只能做公开索引/搜索摘要检查，无法保证完整遍历。",
+    "8月29—30日历史补查标记继续保留。"
+  ],
+  "duplicate_review": [
+    {
+      "event": "amazon-ads-audiobook-sponsored-ads",
+      "decision": "already_present_in_main",
+      "reason": "现有库已有美国作者/ACX推广Audible ASIN事件，未重复新增。"
+    }
+  ]
+}
