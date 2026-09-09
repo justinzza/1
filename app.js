@@ -2,23 +2,27 @@
   'use strict';
   const stories = [...document.querySelectorAll('#event-list .story')];
   const priorityButtons = [...document.querySelectorAll('[data-filter]')];
+  const marketButtons = [...document.querySelectorAll('[data-market-filter]')];
   const viewButtons = [...document.querySelectorAll('[data-view]')];
-  const market = document.querySelector('#market-filter');
+  const search = document.querySelector('#search-input');
   const category = document.querySelector('#category-filter');
   const date = document.querySelector('#date-filter');
   const count = document.querySelector('#story-count');
   const empty = document.querySelector('#filter-empty');
   const current = new Set((document.querySelector('#event-list')?.dataset.currentEventKeys || '').split('\n').filter(Boolean));
   let priority = 'all';
+  let market = 'all';
   function applyFilters() {
     let visible = 0;
+    const query = (search?.value || '').trim().toLowerCase();
     for (const story of stories) {
       const markets = story.dataset.marketplaces.split(' ');
       const dates = story.dataset.dates.split(' ');
-      const marketMatches = market.value === 'all' || (market.value === 'US' ? markets.includes('US') || markets.includes('GLOBAL') : markets.includes(market.value === 'US_ONLY' ? 'US' : market.value));
+      const marketMatches = market === 'all' || markets.includes(market);
       const categoryMatches = category.value === 'all' || category.value === story.dataset.category;
       const dateMatches = date.value === 'all' || (date.value === 'latest' ? current.has(story.dataset.eventKey) : dates.includes(date.value));
-      story.hidden = !(marketMatches && categoryMatches && dateMatches && (priority === 'all' || story.dataset.priority === priority));
+      const searchMatches = !query || story.dataset.search.includes(query) || story.textContent.toLowerCase().includes(query);
+      story.hidden = !(marketMatches && categoryMatches && dateMatches && searchMatches && (priority === 'all' || story.dataset.priority === priority));
       if (!story.hidden) visible += 1;
     }
     if (count) count.textContent = String(visible);
@@ -28,21 +32,34 @@
       button.classList.toggle('active', selected);
       button.setAttribute('aria-pressed', String(selected));
     });
+    marketButtons.forEach(button => {
+      const selected = button.dataset.marketFilter === market;
+      button.classList.toggle('active', selected);
+      button.setAttribute('aria-pressed', String(selected));
+    });
     viewButtons.forEach(button => {
       const selected = button.dataset.view === date.value;
       button.classList.toggle('active', selected);
       button.setAttribute('aria-pressed', String(selected));
     });
   }
-  function reset(marketValue = 'US', dateValue = current.size ? 'latest' : 'all') {
-    market.value = marketValue;
+  function reset(marketValue = 'all', dateValue = current.size ? 'latest' : 'all') {
+    market = marketValue;
     category.value = 'all';
     date.value = dateValue;
     priority = 'all';
+    if (search) search.value = '';
     applyFilters();
   }
-  [market, category, date].forEach(select => select?.addEventListener('change', applyFilters));
+  [category, date].forEach(select => select?.addEventListener('change', applyFilters));
+  search?.addEventListener('input', applyFilters);
+  document.querySelector('#clear-search')?.addEventListener('click', () => {
+    if (search) search.value = '';
+    applyFilters();
+    search?.focus();
+  });
   priorityButtons.forEach(button => button.addEventListener('click', () => { priority = button.dataset.filter; applyFilters(); }));
+  marketButtons.forEach(button => button.addEventListener('click', () => { market = button.dataset.marketFilter; applyFilters(); }));
   viewButtons.forEach(button => button.addEventListener('click', () => { date.value = button.dataset.view; applyFilters(); }));
   document.querySelector('#reset-filters')?.addEventListener('click', () => reset());
   function revealHash() {
@@ -70,7 +87,7 @@
       } catch { /* Keep the page usable when storage is blocked. */ }
     });
   });
-  if (market && category && date) {
+  if (category && date) {
     date.value = current.size ? 'latest' : 'all';
     applyFilters();
   }

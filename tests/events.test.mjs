@@ -132,9 +132,14 @@ test('migrated data render once, escape HTML, and do not claim news success', ()
   const html = renderPage(data, report);
   const ids = [...html.matchAll(/\bid="([^\"]+)"/g)].map(m => m[1]);
   const eventKeys = [...html.matchAll(/data-event-key="([^\"]+)"/g)].map(m => m[1]);
+  const displayMarkets = new Set(['US', 'CA', 'MX']);
+  const displayedEvents = data.events.filter(event => event.marketplaces.some(market => displayMarkets.has(market)));
   assert.equal(ids.length, new Set(ids).size);
   assert.equal(eventKeys.length, new Set(eventKeys).size);
-  assert.equal(eventKeys.length, data.events.length);
+  assert.equal(eventKeys.length, displayedEvents.length);
+  for (const event of data.events.filter(event => !event.marketplaces.some(market => displayMarkets.has(market)))) {
+    assert(!eventKeys.includes(event.event_key));
+  }
   if (report.status === 'bootstrap') {
     assert(html.includes('等待首次完整核验'));
     assert(!html.includes('昨日无重大可靠更新'));
