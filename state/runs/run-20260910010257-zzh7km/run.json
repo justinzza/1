@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "run-20260910010257-zzh7km",
+  "started_at": "2026-09-10T01:03:00.362Z",
+  "finished_at": "2026-09-10T01:13:46.959Z",
+  "lock": {
+    "acquired_commit": "661041743afd96a7bf0299b4ce776e042ea477b6",
+    "previous_radar_state_head": "365ec608e6b1783e591db9a660099a08c864ae28",
+    "released": true
+  },
+  "material_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 1,
+    "merged": 0,
+    "deduplicated": 1
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "8afd28e0db2ad7f20018742851bed5fdc8256fb8fc0823808ff535f97740712c",
+    "observed_digest": "8afd28e0db2ad7f20018742851bed5fdc8256fb8fc0823808ff535f97740712c",
+    "verified_at": "2026-09-10T01:13:46.959Z"
+  },
+  "source_coverage": [
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "checked",
+      "note": "Checked public Amazon Ads API docs and What’s New pages supporting Product Collection migration."
+    },
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "note": "Backfilled Commercial Liability Insurance archive date from public Seller Central / News_Amazon result; did not claim full dynamic list traversal."
+    },
+    {
+      "id": "industry_media",
+      "status": "public_search_only",
+      "note": "PPC Land and EcomCrew public articles used as supporting context only; duplicates not promoted to current-day news."
+    },
+    {
+      "id": "wechat_sources",
+      "status": "public_search_only",
+      "note": "Public-search constraint remains; no login, CAPTCHA, or paywall bypass."
+    }
+  ],
+  "notes": [
+    "Corrected Commercial Liability Insurance history date from 2026-09-09 to 2026-09-03.",
+    "Corrected Amazon Business Deals history date from 2026-09-09 to 2026-08-31; PPC Land 2026-09-08 article remains a supporting source only.",
+    "Added one reviewed Amazon Ads official Product Collection migration event, archived to the official migration-document window rather than today.",
+    "9月4—9月8未确认US/CA/MX有非重复、可公开核验的实质增量。"
+  ]
+}

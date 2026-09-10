@@ -1,17 +1,35 @@
 {
   "schema_version": 1,
   "last_manual_recovery": {
-    "at": "2026-09-09T10:45:00.000Z",
-    "reason": "用户反馈昨天数据未更新，手动补跑9月8日前后漏收内容",
-    "main_commit": "60864d299692e0369d4033f1230fffaaa2c87b98",
+    "at": "2026-09-10T01:13:46.959Z",
+    "reason": "补齐9月3—9月8归档并落实“重复新闻不用更新到当天”",
+    "main_commit": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
     "counts": {
-      "new": 2,
-      "updated": 0,
+      "new": 1,
+      "updated": 1,
       "merged": 0,
-      "deduplicated": 0
+      "deduplicated": 1
     },
     "production_verified": true,
-    "production_digest": "d041198ab31224bc88afeb595374aa6cd0573e5073e130102450b1e2b7428fa2",
-    "notes": "新增商业责任保险要求与Amazon Business Deals；有声书广告已存在，未重复新增。部分动态页和公众号仍为公开索引/摘要覆盖，pending_backfill_dates不清除。"
+    "production_digest": "8afd28e0db2ad7f20018742851bed5fdc8256fb8fc0823808ff535f97740712c",
+    "notes": "Commercial Liability Insurance归档到9月3日；Business Deals归档回8月31日；新增Product Collection迁移事件；DAILY BRIEFING未恢复。"
+  },
+  "last_verified_publication": {
+    "at": "2026-09-10T01:13:46.959Z",
+    "main_commit": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "digest": "8afd28e0db2ad7f20018742851bed5fdc8256fb8fc0823808ff535f97740712c",
+    "counts": {
+      "new": 1,
+      "updated": 1,
+      "merged": 0,
+      "deduplicated": 1
+    }
+  },
+  "last_run": {
+    "id": "run-20260910010257-zzh7km",
+    "status": "partial_published_verified",
+    "finished_at": "2026-09-10T01:13:46.959Z",
+    "note": "Published archive-date correction and one official Amazon Ads migration event; duplicate industry follow-up was not refreshed to current date."
   }
 }
