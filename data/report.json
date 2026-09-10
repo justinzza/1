@@ -2,7 +2,7 @@
   "status": "partial",
   "top_changes": [
     "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
-    "amazon-business-deals|launch-business-customer-exclusive-deals|CA+MX+US|2026-08-31"
+    "amazon-sponsored-brands-product-collection|deprecate-and-migrate-to-sponsored-brands-collections-2026|CA+MX+US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,51 +12,50 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "新增Amazon商业责任保险要求，官方Seller Forums和帮助页可公开检索；US为明确适用站点。CA/MX未确认同类独立政策增量。",
-    "ads": "今日无重要新增；有声书广告资格此前已入库，本次不重复展示。",
-    "ai": "今日未确认与US/CA/MX Amazon运营直接相关的AI工具实质增量；公开来源覆盖不完整。",
-    "opportunities": "未获得燃油管、CPE braided fuel hose、AN fittings、exhaust clamp三站连续关键词数据；不宣称搜索量或销量变化。",
-    "competitors": "新增Amazon Business Deals促销入口，US/CA/MX均在公开通知覆盖范围；缺少指定ASIN快照，价格/Coupon/BSR不作变化判断。"
+    "policy": "补齐9月3日美国站商业责任保险官方事件归档；9月4—9月8未确认非重复官方政策增量。",
+    "ads": "补收Amazon Ads Product Collection迁移官方文档事件；其官方文档未给三站精确日级生效日期，因此不归为今日新闻。",
+    "ai": "9月3—9月8未确认US/CA/MX卖家运营相关AI工具实质增量。",
+    "opportunities": "9月3—9月8未确认汽配关键词或类目机会的可验证连续数据变化。",
+    "competitors": "Amazon Business Deals按8月31日官方事件归档；9月8第三方分析不生成重复卡片。缺少指定ASIN连续基线，未生成价格/BSR变化。"
   },
-  "coverage_note": "本次为手动补跑9月8日前后漏收内容，并回查9月3—9月8公开可检索来源。US：新增商业责任保险官方政策、Business Deals；CA/MX：新增Business Deals适用站点。Seller Central动态页、Amazon Ads列表、行业网站和公众号仍只能做公开索引/搜索摘要检查，无法保证完整遍历；8月29—30日历史补查标记继续保留。",
+  "coverage_note": "本次按用户要求补查并修正9月3—9月8归档：商业责任保险事件按官方公开日期归档到2026-09-03；Amazon Business Deals按官方原始发布日期归档回2026-08-31，9月8行业文章仅作补充来源，不更新到当天。另补收一条Amazon Ads官方文档支持的Sponsored Brands Product Collection迁移事件，归档到官方迁移文档窗口而非今日。9月4—9月8未确认US/CA/MX有非重复、可公开核验的实质增量；动态页、行业索引和公众号仍为部分公开覆盖。",
   "action_items": [
     {
-      "title": "核对商业责任保险覆盖范围",
-      "event_key": "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
-      "due": "本周",
-      "detail": "按美国站SKU逐项检查是否属于enhanced safety listing requirements，确认保单覆盖产品、USD 1M限额、附加被保险人和主体名称。"
+      "title": "不要把旧闻当今日新增",
+      "detail": "查看事件时优先看归档日期、原始发布和生效日期；9月8转载或分析只作为来源补充，不单独建卡。",
+      "due": "持续执行"
     },
     {
-      "title": "中国大陆主体卖家准备AIA续保路径",
-      "event_key": "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
-      "due": "11月2日前",
-      "detail": "记录现有保单提交日期和到期日；11月2日后新提交或续保需提前评估Amazon Insurance Accelerator。"
+      "title": "处理商业责任保险要求",
+      "detail": "美国站增强安全类目和中国大陆主体卖家先核对保险覆盖、AIA路径、现有保单提交日期与到期日。",
+      "due": "2026-11-02前",
+      "event_key": "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02"
     },
     {
-      "title": "测试Amazon Business Deals",
-      "event_key": "amazon-business-deals|launch-business-customer-exclusive-deals|CA+MX+US|2026-08-31",
-      "due": "本周",
-      "detail": "筛选企业采购属性强的汽配/工具SKU，分别用USD/CAD/MXN测算10%和15% B2B折扣，并检查Promotions中All Business Customers选项。"
+      "title": "检查Sponsored Brands旧广告格式",
+      "detail": "US/CA/MX分别筛查Product Collection旧广告、批量模板和API字段，规划迁移到Sponsored Brands collections。",
+      "due": "迁移窗口内",
+      "event_key": "amazon-sponsored-brands-product-collection|deprecate-and-migrate-to-sponsored-brands-collections-2026|CA+MX+US|unknown"
     },
     {
-      "title": "继续建立汽配竞品基线",
-      "event_key": null,
-      "due": "持续",
-      "detail": "分别保存US/CA/MX的ASIN、变体、收货地区、价格、Coupon和BSR，首次快照只作基线，不写成变化。"
+      "title": "三站分别建立汽配基线",
+      "detail": "燃油管、CPE braided hose、AN fittings、exhaust clamp按US/CA/MX分别记录ASIN、变体、地域、价格、Coupon和BSR，首次快照不当作变化。",
+      "due": "本周"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-09",
-  "content_updated_at": "2026-09-09T10:30:00.000Z",
+  "report_date": "2026-09-10",
+  "content_updated_at": "2026-09-10T01:10:00.000Z",
   "new_event_keys": [
-    "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
-    "amazon-business-deals|launch-business-customer-exclusive-deals|CA+MX+US|2026-08-31"
+    "amazon-sponsored-brands-product-collection|deprecate-and-migrate-to-sponsored-brands-collections-2026|CA+MX+US|unknown"
   ],
-  "updated_event_keys": [],
+  "updated_event_keys": [
+    "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02"
+  ],
   "counts": {
-    "new": 2,
-    "updated": 0,
+    "new": 1,
+    "updated": 1,
     "merged": 0,
-    "deduplicated": 0
+    "deduplicated": 1
   }
 }

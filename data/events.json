@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-09T10:30:00.000Z",
+  "content_updated_at": "2026-09-10T01:10:00.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -967,7 +967,7 @@
       "effective_date": "2026-11-02",
       "first_seen_at": "2026-09-09T10:30:00.000Z",
       "history_dates": [
-        "2026-09-09"
+        "2026-09-03"
       ],
       "impact": "对低销量但涉及儿童用品、化妆品/摄入类、锂电等增强安全类目的卖家影响高；汽车用品中若涉及轮胎、锂电配件或其他增强安全 listing 要求，应提前核对。中国大陆主体卖家还要把续保路径切换到 AIA，否则新保单可能被拒。",
       "key_aliases": [],
@@ -978,7 +978,12 @@
       "original_date_note": "Amazon Seller Forums公开索引显示该News_Amazon公告约2026-09-03发布；EcomCrew/SellerEssentials在9月3—6日复述并分析。生效日为官方公告中的2026-11-02。",
       "original_published_at": "2026-09-03",
       "priority": "P0",
-      "revisions": [],
+      "revisions": [
+        {
+          "at": "2026-09-10T01:10:00.000Z",
+          "reason": "按原始公开发布日期修正归档日期为2026-09-03；这是日期归档修正，不是把旧闻更新为当天新闻。"
+        }
+      ],
       "sources": [
         {
           "authority_confirmed": true,
@@ -1030,7 +1035,7 @@
       "effective_date": "2026-08-31",
       "first_seen_at": "2026-09-09T10:30:00.000Z",
       "history_dates": [
-        "2026-09-09"
+        "2026-08-31"
       ],
       "impact": "这是B2B促销入口变化，会影响 Q4 促销排期、Business Price 配置、利润测算和库存承诺。对汽配、工具、工业/维修类产品尤其值得测试，但需注意B2B价格是否影响后续消费者端 deal reference price，公开来源显示该点尚未获Amazon明确答复。",
       "key_aliases": [],
@@ -1043,7 +1048,12 @@
       "original_date_note": "Amazon Seller Forums公开页显示公告日期为2026-08-31；PPC Land于2026-09-08发布分析，补充折扣门槛、活动曝光截止日和未明确问题。",
       "original_published_at": "2026-08-31",
       "priority": "P1",
-      "revisions": [],
+      "revisions": [
+        {
+          "at": "2026-09-10T01:10:00.000Z",
+          "reason": "按Amazon官方原始发布日期修正归档日期为2026-08-31；9月8日第三方分析仅作为来源补充，不作为新事件日期。"
+        }
+      ],
       "sources": [
         {
           "authority_confirmed": true,
@@ -1075,6 +1085,81 @@
       "event_key": "amazon-business-deals|launch-business-customer-exclusive-deals|CA+MX+US|2026-08-31",
       "id": "evt-8d2437f5484177a4",
       "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/9a115e3e-3201-4c17-986e-a46a1845558f"
+    },
+    {
+      "subject_key": "amazon-sponsored-brands-product-collection",
+      "action_key": "deprecate-and-migrate-to-sponsored-brands-collections-2026",
+      "marketplaces": [
+        "CA",
+        "MX",
+        "US"
+      ],
+      "effective_date": null,
+      "title": "Sponsored Brands Product Collection 进入弃用迁移：新建请求转向 Collections 格式",
+      "summary": "Amazon Ads 官方 API 文档已提供 Product Collection 向 Sponsored Brands Collections 迁移指南，并在 deprecations 文档中说明 Product Collection 创建请求将转为 Manual Collection；Amazon Ads 5月27日的官方公告确认 Sponsored Brands collections 支持自动/手动选品，并在北美 United States、Canada、Mexico 可用。公开文档给出的是月级迁移窗口，未提供三站独立的精确生效日。",
+      "impact": "对仍使用 Sponsored Brands Product Collection、批量表格或 API 创建广告的卖家影响中高。新格式最多展示10个相关产品，并可能使用 Amazon AI 自动组合 ASIN；若继续沿用旧模板，可能出现素材、产品数量、落地页或批量导入字段不匹配。",
+      "action": "广告账户中筛出 Product Collection 旧广告和批量导入模板；新建活动优先测试 Sponsored Brands collections 的 manual collection，记录3-10个ASIN组合、图片/品牌Logo要求、点击率和ACOS。US、CA、MX分站检查 Campaign Manager 和 Amazon Ads API 字段，避免把美国广告迁移状态直接套用到加拿大或墨西哥。",
+      "category": "ads",
+      "priority": "P1",
+      "original_published_at": null,
+      "original_date_note": "Amazon Ads官方文档可公开检索到 Product Collection 到 Collections 的迁移指南和deprecations说明，但迁移/停用节点多为月级（August/September 2026、January/February 2027）而非精确日；因此effective_date留空，归档日期按本次补收时可核验的官方迁移文档窗口记为2026-08-25，不使用9月第三方转载日期冒充官方发布日期。",
+      "first_seen_at": "2026-09-10T01:10:00.000Z",
+      "last_material_update_at": "2026-09-10T01:10:00.000Z",
+      "history_dates": [
+        "2026-08-25"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://advertising.amazon.com/API/docs/en-us/reference/migration-guides/sb-product-collection",
+          "publisher": "Amazon Ads API Docs",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-09-10T01:10:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://advertising.amazon.com/API/docs/en-us/reference/migration-guides/sb-product-collection"
+        },
+        {
+          "url": "https://advertising.amazon.com/API/docs/en-us/release-notes/deprecations",
+          "publisher": "Amazon Ads API Docs",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-09-10T01:10:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://advertising.amazon.com/API/docs/en-us/release-notes/deprecations"
+        },
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new/sponsored-brands-collections",
+          "publisher": "Amazon Ads What's New",
+          "kind": "official",
+          "published_at": "2026-05-27",
+          "verified_at": "2026-09-10T01:10:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://advertising.amazon.com/resources/whats-new/sponsored-brands-collections"
+        },
+        {
+          "url": "https://www.ecomcrew.com/amazon-just-set-a-deadline-to-kill-your-old-ads/",
+          "publisher": "EcomCrew",
+          "kind": "industry_original",
+          "published_at": "2026-09-02",
+          "verified_at": "2026-09-10T01:10:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://www.ecomcrew.com/amazon-just-set-a-deadline-to-kill-your-old-ads"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-sponsored-brands-product-collection|deprecate-and-migrate-to-sponsored-brands-collections-2026|CA+MX+US|unknown",
+      "id": "evt-ed342b98993b26a6",
+      "primary_source_url": "https://advertising.amazon.com/API/docs/en-us/reference/migration-guides/sb-product-collection"
     }
   ]
 }
