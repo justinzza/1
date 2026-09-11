@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "id": "run-20260911010244-i5klf0",
+  "started_at": "2026-09-11T01:02:44.818Z",
+  "finished_at": "2026-09-11T01:08:04.712Z",
+  "lock": {
+    "acquired_commit": "74347a452d64e17b02689f8d0bd731b6a51d70a1",
+    "previous_radar_state_head": "3e7cd7eb7698f8964a8b2326c54a91237b430260",
+    "released": true
+  },
+  "main_baseline": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
+  "material_changed": false,
+  "counts": {
+    "new": 0,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "not_attempted_no_material_change",
+    "commit_sha": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "note": "按规则未改main、未改网页日期、未触发Vercel部署。"
+  },
+  "source_coverage": [
+    {
+      "id": "amazon_seller_news",
+      "status": "partial_dynamic_index",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "Seller Central动态列表无法公开完整遍历；直接打开受限，仅完成公开搜索索引核对，未发现可核验增量。"
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_no_increment",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "全球开店公开搜索未发现自上一期以来US/CA/MX相关、可核验且非重复的实质增量。"
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "partial_dynamic_index",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "Amazon Ads What's New公开页可读取栏目与筛选项，但动态结果未完整加载；公开检索未发现带可核日期的新卖家事件。"
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_no_increment",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已按对应国家监管关键词公开检索；未发现自上一期以来直接影响Amazon卖家的新监管原文。"
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "partial_dynamic_index",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "Seller Central动态列表无法公开完整遍历；直接打开受限，仅完成公开搜索索引核对，未发现可核验增量。"
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "partial_dynamic_index",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "Seller Central动态列表无法公开完整遍历；直接打开受限，仅完成公开搜索索引核对，未发现可核验增量。"
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_no_increment",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已按对应国家监管关键词公开检索；未发现自上一期以来直接影响Amazon卖家的新监管原文。"
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_no_increment",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已按对应国家监管关键词公开检索；未发现自上一期以来直接影响Amazon卖家的新监管原文。"
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已检查公开搜索结果；未发现窗口内可核验、非重复的US/CA/MX实质事件，正文覆盖不保证完整。"
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已检查公开搜索结果；未发现窗口内可核验、非重复的US/CA/MX实质事件，正文覆盖不保证完整。"
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已检查公开搜索结果；未发现窗口内可核验、非重复的US/CA/MX实质事件，正文覆盖不保证完整。"
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已检查公开搜索结果；未发现窗口内可核验、非重复的US/CA/MX实质事件，正文覆盖不保证完整。"
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已检查公开搜索结果；未发现窗口内可核验、非重复的US/CA/MX实质事件，正文覆盖不保证完整。"
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已检查公开搜索结果；未发现窗口内可核验、非重复的US/CA/MX实质事件，正文覆盖不保证完整。"
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "仅检查无需登录的公开搜索结果；未找到可确认账号身份且落在窗口内的新文章，未绕过微信访问限制。"
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "仅检查无需登录的公开搜索结果；未找到可确认账号身份且落在窗口内的新文章，未绕过微信访问限制。"
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "仅检查无需登录的公开搜索结果；未找到可确认账号身份且落在窗口内的新文章，未绕过微信访问限制。"
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "仅检查无需登录的公开搜索结果；未找到可确认账号身份且落在窗口内的新文章，未绕过微信访问限制。"
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "仅检查无需登录的公开搜索结果；未找到可确认账号身份且落在窗口内的新文章，未绕过微信访问限制。"
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "仅检查无需登录的公开搜索结果；未找到可确认账号身份且落在窗口内的新文章，未绕过微信访问限制。"
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "仅检查无需登录的公开搜索结果；未找到可确认账号身份且落在窗口内的新文章，未绕过微信访问限制。"
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "仅检查无需登录的公开搜索结果；未找到可确认账号身份且落在窗口内的新文章，未绕过微信访问限制。"
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "仅检查无需登录的公开搜索结果；未找到可确认账号身份且落在窗口内的新文章，未绕过微信访问限制。"
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "no_comparable_baseline",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "公开商品搜索未返回可用于同ASIN、同变体、同地域连续比较的快照；未声称价格、Coupon或BSR变化。"
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "partial_includes_checked",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已逐一使用站点词检查include_source_ids的15个来源；结果仅为公开搜索/摘要覆盖，未发现可核验非重复增量。"
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "partial_includes_checked",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "已逐一使用站点词检查include_source_ids的15个来源；结果仅为公开搜索/摘要覆盖，未发现可核验非重复增量。"
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "no_comparable_baseline",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "公开商品搜索未返回可用于同ASIN、同变体、同地域连续比较的快照；未声称价格、Coupon或BSR变化。"
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "no_comparable_baseline",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-11T01:08:04.712Z",
+      "cursor_advanced": false,
+      "note": "公开商品搜索未返回可用于同ASIN、同变体、同地域连续比较的快照；未声称价格、Coupon或BSR变化。"
+    }
+  ],
+  "market_coverage": {
+    "US": "partial：官方动态页和公众号不能完整遍历；已完成公开搜索、监管线索与既有事件库去重核对。",
+    "CA": "partial：逐一检查行业/公众号include_source_ids，官方动态页仅公开索引；无可核验非重复增量。",
+    "MX": "partial：逐一检查行业/公众号include_source_ids，官方动态页仅公开索引；无可核验非重复增量。"
+  },
+  "validation": {
+    "tests": "22 passed, 0 failed",
+    "registry": {
+      "valid": true,
+      "events": 22,
+      "digest": "76533ea9cf1f667ba25406b4b94ba2d0416c96396efa2f50233bc7311fdf61e9"
+    }
+  },
+  "notes": [
+    "自上一期成功发布后未确认US/CA/MX可公开核验且非重复的实质增量。",
+    "重复/旧闻未更新到2026-09-11，main和网页时间保持不变。",
+    "Amazon Ads动态页、Seller Central动态列表、行业动态索引和公众号仅为部分公开覆盖。",
+    "汽配重点词和竞品缺少同站点同ASIN连续基线，因此未生成价格、Coupon、BSR或关键词变化。"
+  ]
+}

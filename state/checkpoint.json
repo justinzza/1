@@ -27,9 +27,23 @@
     }
   },
   "last_run": {
-    "id": "run-20260910010257-zzh7km",
-    "status": "partial_published_verified",
-    "finished_at": "2026-09-10T01:13:46.959Z",
-    "note": "Published archive-date correction and one official Amazon Ads migration event; duplicate industry follow-up was not refreshed to current date."
+    "id": "run-20260911010244-i5klf0",
+    "status": "partial_no_change",
+    "finished_at": "2026-09-11T01:08:04.712Z",
+    "note": "No verified non-duplicate material increment; main and production unchanged."
+  },
+  "last_attempt": {
+    "id": "run-20260911010244-i5klf0",
+    "at": "2026-09-11T01:08:04.712Z",
+    "status": "partial_no_change",
+    "main_commit": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
+    "counts": {
+      "new": 0,
+      "updated": 0,
+      "merged": 0,
+      "deduplicated": 0
+    },
+    "publication_attempted": false,
+    "note": "无可靠实质增量；公开动态页与公众号仍为部分覆盖，未推进来源成功游标。"
   }
 }
