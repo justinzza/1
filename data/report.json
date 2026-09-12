@@ -1,8 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02",
-    "amazon-sponsored-brands-product-collection|deprecate-and-migrate-to-sponsored-brands-collections-2026|CA+MX+US|unknown"
+    "us-cpsc-amazon-sold-products|issue-september-10-recalls-and-stop-sale-warnings-2026|US|2026-09-10",
+    "amazon-ads-chatgpt-ads|launch-us-select-advertiser-pilot-2026|US|2026-09-10",
+    "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,50 +13,52 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "补齐9月3日美国站商业责任保险官方事件归档；9月4—9月8未确认非重复官方政策增量。",
-    "ads": "补收Amazon Ads Product Collection迁移官方文档事件；其官方文档未给三站精确日级生效日期，因此不归为今日新闻。",
-    "ai": "9月3—9月8未确认US/CA/MX卖家运营相关AI工具实质增量。",
-    "opportunities": "9月3—9月8未确认汽配关键词或类目机会的可验证连续数据变化。",
-    "competitors": "Amazon Business Deals按8月31日官方事件归档；9月8第三方分析不生成重复卡片。缺少指定ASIN连续基线，未生成价格/BSR变化。"
+    "policy": "补收9月10日CPSC与Amazon.com在售商品有关的召回/停用批次，并收录9月11日美国站Product Bundling Policy扩围行业线索；后者官方动态页链接仍待稳定核验。",
+    "ads": "补收Amazon Ads于9月10日发布的ChatGPT Ads美国精选广告主试点；没有证据表明已向所有卖家或CA/MX开放。",
+    "ai": "ChatGPT Ads属于广告库存合作，未将其重复计为AI运营工具；本期未确认独立的卖家后台AI工具增量。",
+    "opportunities": "fuel line、CPE braided hose、AN fittings、exhaust clamp仅取得三站公开商品页样本，缺少连续关键词/销量基线，未声称趋势变化。",
+    "competitors": "US/CA/MX公开商品页仅作基线；未取得同站点、同ASIN、同变体和同收货地域的连续价格、Coupon或BSR快照。"
   },
-  "coverage_note": "本次按用户要求补查并修正9月3—9月8归档：商业责任保险事件按官方公开日期归档到2026-09-03；Amazon Business Deals按官方原始发布日期归档回2026-08-31，9月8行业文章仅作补充来源，不更新到当天。另补收一条Amazon Ads官方文档支持的Sponsored Brands Product Collection迁移事件，归档到官方迁移文档窗口而非今日。9月4—9月8未确认US/CA/MX有非重复、可公开核验的实质增量；动态页、行业索引和公众号仍为部分公开覆盖。",
+  "coverage_note": "本期新增均按原始发布日期归档：两条9月10日官方事件和一条9月11日行业线索，不将延迟发现日刷新为今日新闻。已检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、CPSC及加墨监管公开检索，并逐一用CA/MX站点词补查既定行业媒体与指定公众号；动态列表、卖家之家正文及公众号仍只能取得公开索引、作者页或无结果，未声称完整遍历。",
   "action_items": [
     {
-      "title": "不要把旧闻当今日新增",
-      "detail": "查看事件时优先看归档日期、原始发布和生效日期；9月8转载或分析只作为来源补充，不单独建卡。",
-      "due": "持续执行"
+      "title": "排查CPSC涉事SKU",
+      "detail": "按Prepared Hero、Cade California Electronic、Le Hao Tool、HOTFINE及型号/批次检查美国站库存和历史订单；命中即停售、停广告并按监管方案隔离处置。",
+      "due": "立即",
+      "event_key": "us-cpsc-amazon-sold-products|issue-september-10-recalls-and-stop-sale-warnings-2026|US|2026-09-10"
     },
     {
-      "title": "处理商业责任保险要求",
-      "detail": "美国站增强安全类目和中国大陆主体卖家先核对保险覆盖、AIA路径、现有保单提交日期与到期日。",
-      "due": "2026-11-02前",
-      "event_key": "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02"
+      "title": "确认ChatGPT Ads试点资格",
+      "detail": "仅美国广告账户向Amazon Ads代表确认准入、预算、品牌安全、素材与归因口径；CA/MX暂不套用。",
+      "due": "本周",
+      "event_key": "amazon-ads-chatgpt-ads|launch-us-select-advertiser-pilot-2026|US|2026-09-10"
     },
     {
-      "title": "检查Sponsored Brands旧广告格式",
-      "detail": "US/CA/MX分别筛查Product Collection旧广告、批量模板和API字段，规划迁移到Sponsored Brands collections。",
-      "due": "迁移窗口内",
-      "event_key": "amazon-sponsored-brands-product-collection|deprecate-and-migrate-to-sponsored-brands-collections-2026|CA+MX+US|unknown"
+      "title": "盘点实体Bundle合规",
+      "detail": "导出美国站实体bundle，核对原厂包装、品牌授权、例外类型和FBA库存；在Seller Central复核官方通知。",
+      "due": "2027-01-11前",
+      "event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
     },
     {
       "title": "三站分别建立汽配基线",
-      "detail": "燃油管、CPE braided hose、AN fittings、exhaust clamp按US/CA/MX分别记录ASIN、变体、地域、价格、Coupon和BSR，首次快照不当作变化。",
-      "due": "本周"
+      "detail": "燃油管、CPE braided hose、AN fittings、exhaust clamp按US/CA/MX分别记录ASIN、变体、地域、币种、税费、运费、Coupon和BSR。",
+      "due": "持续执行",
+      "event_key": null
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-10",
-  "content_updated_at": "2026-09-10T01:10:00.000Z",
+  "report_date": "2026-09-12",
+  "content_updated_at": "2026-09-12T01:10:09.000Z",
   "new_event_keys": [
-    "amazon-sponsored-brands-product-collection|deprecate-and-migrate-to-sponsored-brands-collections-2026|CA+MX+US|unknown"
+    "amazon-ads-chatgpt-ads|launch-us-select-advertiser-pilot-2026|US|2026-09-10",
+    "us-cpsc-amazon-sold-products|issue-september-10-recalls-and-stop-sale-warnings-2026|US|2026-09-10",
+    "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
   ],
-  "updated_event_keys": [
-    "amazon-commercial-liability-insurance|add-enhanced-safety-and-mainland-china-aia-requirements-2026|US|2026-11-02"
-  ],
+  "updated_event_keys": [],
   "counts": {
-    "new": 1,
-    "updated": 1,
+    "new": 3,
+    "updated": 0,
     "merged": 0,
-    "deduplicated": 1
+    "deduplicated": 0
   }
 }
