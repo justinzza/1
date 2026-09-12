@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "id": "run-20260912005842-tlgro4",
+  "started_at": "2026-09-12T00:58:42.015Z",
+  "finished_at": "2026-09-12T01:21:04.638Z",
+  "lock": {
+    "acquired_commit": "79c550f7b8b30df7682fc1036c7efafd05b56a88",
+    "prepared_commit": "52e09a2c9b3e19f75621f3a35fdaeeb44eb791b3",
+    "previous_radar_state_head": "e790b85b6b442656b2e96a6cf41d273dac3e2d9a",
+    "released": true
+  },
+  "main_baseline": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
+  "material_changed": true,
+  "counts": {
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0,
+    "manual_consolidations": 3
+  },
+  "publication": {
+    "status": "verified",
+    "commit_sha": "d3cb375c2b0c368068c2b6239b3ad3484a789d3e",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "github_status": "success",
+    "expected_content_digest": "82696e50c5efeb9525e91a463c168058932a0144bc208d63826ba6e2254b4140",
+    "observed_content_digest": "82696e50c5efeb9525e91a463c168058932a0144bc208d63826ba6e2254b4140",
+    "full_html_sha256": "f689a4870bca03c8668a3e2f5efbe01a4b855acd429283bf82b16c50170aa17a",
+    "verified_at": "2026-09-12T01:21:04.638Z",
+    "rendered_story_cards": 14
+  },
+  "source_coverage": [
+    {
+      "id": "amazon_seller_news",
+      "status": "partial_dynamic_index",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "Seller Central动态列表不能公开完整遍历；公开索引发现Product Bundling Policy同名摘要，但没有稳定文章URL，因此仅以AMZ123正文作为行业线索收录。"
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "全球开店新闻中心完成公开搜索核对；未发现窗口内US/CA/MX可核验非重复增量，动态栏目覆盖不保证完整。"
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "partial_dynamic_index_with_verified_event",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [
+        "https://advertising.amazon.com/library/news/amazon-ads-chat-gpt-advertising-integration"
+      ],
+      "note": "动态列表不能完整遍历，但已直接读取Amazon Ads官方新闻稿并核验2026-09-10的ChatGPT Ads美国精选广告主试点。"
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "partial_official_search_with_verified_events",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [
+        "https://www.cpsc.gov/Recalls/2026/Prepared-Hero-Recalls-Fire-Spray-Canisters-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards",
+        "https://www.cpsc.gov/Recalls/2026/Cade-California-Electronic-Recalls-Finger-Light-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
+        "https://www.cpsc.gov/Warnings/2026/CPSC-Warns-Consumers-to-Stop-Using-Le-Hao-Tool-Pressure-Washers-Immediately-Due-to-Serious-Shock-and-Electrocution-Hazards-Risk-of-Serious-Injury-or-Death",
+        "https://www.cpsc.gov/Warnings/2026/CPSC-Warns-Consumers-to-Stop-Using-HOTFINE-Pressure-Washers-Immediately-Due-to-Serious-Shock-and-Electrocution-Hazards-Risk-of-Serious-Injury-or-Death"
+      ],
+      "note": "已核验CPSC于2026-09-10发布的四项Amazon.com在售商品安全行动；相关监管范围广，公开检索不代表全部监管机构完整遍历。"
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "partial_dynamic_index",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "Seller Central对应站点动态列表不能公开完整遍历；仅核对公开索引，未发现可核验非重复增量。"
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "partial_dynamic_index",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "Seller Central对应站点动态列表不能公开完整遍历；仅核对公开索引，未发现可核验非重复增量。"
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已检查Health Canada等公开监管入口；未发现窗口内直接影响Amazon.ca卖家的可靠新增，未把美国监管事件套用于加拿大。"
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已检查SAT、ANAM及gob.mx公开监管入口；未发现窗口内直接影响Amazon.com.mx卖家的可靠新增，未把其他站点规则套用于墨西哥。"
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检查该行业媒体的公开搜索结果；正文/动态栏目不能保证完整遍历，未发现除已记录线索外的非重复实质事件。"
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检查该行业媒体的公开搜索结果；正文/动态栏目不能保证完整遍历，未发现除已记录线索外的非重复实质事件。"
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检查该行业媒体的公开搜索结果；正文/动态栏目不能保证完整遍历，未发现除已记录线索外的非重复实质事件。"
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检查该行业媒体的公开搜索结果；正文/动态栏目不能保证完整遍历，未发现除已记录线索外的非重复实质事件。"
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检查该行业媒体的公开搜索结果；正文/动态栏目不能保证完整遍历，未发现除已记录线索外的非重复实质事件。"
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检查该行业媒体的公开搜索结果；正文/动态栏目不能保证完整遍历，未发现除已记录线索外的非重复实质事件。"
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检索该公众号的公开作者页、文章或搜索摘要；未找到窗口内可核验新文，未绕过登录、验证码或微信访问限制。"
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检索该公众号的公开作者页、文章或搜索摘要；未找到窗口内可核验新文，未绕过登录、验证码或微信访问限制。"
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检索该公众号的公开作者页、文章或搜索摘要；未找到窗口内可核验新文，未绕过登录、验证码或微信访问限制。"
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检索该公众号的公开作者页、文章或搜索摘要；未找到窗口内可核验新文，未绕过登录、验证码或微信访问限制。"
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检索该公众号的公开作者页、文章或搜索摘要；未找到窗口内可核验新文，未绕过登录、验证码或微信访问限制。"
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检索该公众号的公开作者页、文章或搜索摘要；未找到窗口内可核验新文，未绕过登录、验证码或微信访问限制。"
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检索该公众号的公开作者页、文章或搜索摘要；未找到窗口内可核验新文，未绕过登录、验证码或微信访问限制。"
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检索该公众号的公开作者页、文章或搜索摘要；未找到窗口内可核验新文，未绕过登录、验证码或微信访问限制。"
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已单独检索该公众号的公开作者页、文章或搜索摘要；未找到窗口内可核验新文，未绕过登录、验证码或微信访问限制。"
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "baseline_only_no_comparable_change",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "保存/核对对应站点公开汽配样本，但缺少同ASIN、同变体、同收货地区连续快照；首次观察不计作价格、Coupon、BSR或关键词变化。"
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "partial_includes_checked",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已逐一用Canada/CA站点词检查include_source_ids全部来源；仅属公开搜索/摘要覆盖，未发现可核验非重复增量。"
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "partial_includes_checked",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "已逐一用Mexico/MX站点词检查include_source_ids全部来源；仅属公开搜索/摘要覆盖，未发现可核验非重复增量。"
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "baseline_only_no_comparable_change",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "保存/核对对应站点公开汽配样本，但缺少同ASIN、同变体、同收货地区连续快照；首次观察不计作价格、Coupon、BSR或关键词变化。"
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "baseline_only_no_comparable_change",
+      "window_start": "2026-09-10T01:13:46.959Z",
+      "window_end": "2026-09-12T01:21:04.638Z",
+      "cursor_advanced": false,
+      "evidence": [],
+      "note": "保存/核对对应站点公开汽配样本，但缺少同ASIN、同变体、同收货地区连续快照；首次观察不计作价格、Coupon、BSR或关键词变化。"
+    }
+  ],
+  "market_coverage": {
+    "US": "partial：已核验Amazon Ads官方事件、CPSC四项行动并收录商品bundle行业线索；Seller Central、部分动态索引和公众号不能完整遍历。",
+    "CA": "partial：逐一检查官方监管、Seller Central公开索引、行业/公众号include_source_ids与汽配样本；未发现可靠非重复增量。",
+    "MX": "partial：逐一检查官方监管、Seller Central公开索引、行业/公众号include_source_ids与汽配样本；未发现可靠非重复增量。"
+  },
+  "validation": {
+    "tests": "22 passed, 0 failed",
+    "registry": {
+      "valid": true,
+      "events": 25,
+      "digest": "8650596fb9cb0dae4acfda15d59b6af683c384cd2a892f324ead0e6601a574f5"
+    },
+    "production": {
+      "github_vercel_status": "success",
+      "expected_content_digest": "82696e50c5efeb9525e91a463c168058932a0144bc208d63826ba6e2254b4140",
+      "observed_content_digest": "82696e50c5efeb9525e91a463c168058932a0144bc208d63826ba6e2254b4140",
+      "full_html_exact_match": true,
+      "rendered_story_cards": 14,
+      "daily_briefing_present": false
+    }
+  },
+  "notes": [
+    "新增3张卡片，归档在2026-09-10或2026-09-11，不把延迟发现的旧内容更新到2026-09-12。",
+    "CPSC四份同日官方行动合并为一张监管批次卡片，避免同类信息重复展示。",
+    "Product Bundling Policy只有公开Seller Central索引摘要和AMZ123稳定正文，保留行业线索标识。",
+    "CA/MX未确认可靠实质增量；竞品与汽配样本缺少可比连续基线。",
+    "正式域名完整HTML与生成文件逐字节一致，DAILY BRIEFING未恢复。"
+  ]
+}

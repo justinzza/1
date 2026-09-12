@@ -15,35 +15,35 @@
     "notes": "Commercial Liability Insurance归档到9月3日；Business Deals归档回8月31日；新增Product Collection迁移事件；DAILY BRIEFING未恢复。"
   },
   "last_verified_publication": {
-    "at": "2026-09-10T01:13:46.959Z",
-    "main_commit": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
+    "at": "2026-09-12T01:21:04.638Z",
+    "main_commit": "d3cb375c2b0c368068c2b6239b3ad3484a789d3e",
     "url": "https://amazon-ops-radar-vercel.vercel.app/",
-    "digest": "8afd28e0db2ad7f20018742851bed5fdc8256fb8fc0823808ff535f97740712c",
+    "digest": "82696e50c5efeb9525e91a463c168058932a0144bc208d63826ba6e2254b4140",
     "counts": {
-      "new": 1,
-      "updated": 1,
+      "new": 3,
+      "updated": 0,
       "merged": 0,
-      "deduplicated": 1
+      "deduplicated": 0
     }
   },
   "last_run": {
-    "id": "run-20260911010244-i5klf0",
-    "status": "partial_no_change",
-    "finished_at": "2026-09-11T01:08:04.712Z",
-    "note": "No verified non-duplicate material increment; main and production unchanged."
+    "id": "run-20260912005842-tlgro4",
+    "status": "partial_published",
+    "finished_at": "2026-09-12T01:21:04.638Z",
+    "note": "Published three verified non-duplicate events with original archive dates; public source coverage remains partial."
   },
   "last_attempt": {
-    "id": "run-20260911010244-i5klf0",
-    "at": "2026-09-11T01:08:04.712Z",
-    "status": "partial_no_change",
-    "main_commit": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
+    "id": "run-20260912005842-tlgro4",
+    "at": "2026-09-12T01:21:04.638Z",
+    "status": "partial_published",
+    "main_commit": "d3cb375c2b0c368068c2b6239b3ad3484a789d3e",
     "counts": {
-      "new": 0,
+      "new": 3,
       "updated": 0,
       "merged": 0,
       "deduplicated": 0
     },
-    "publication_attempted": false,
-    "note": "无可靠实质增量；公开动态页与公众号仍为部分覆盖，未推进来源成功游标。"
+    "publication_attempted": true,
+    "note": "已发布并完成Vercel状态、内容摘要与完整HTML一致性验收；部分动态页和公众号仍为公开搜索覆盖。"
   }
 }
