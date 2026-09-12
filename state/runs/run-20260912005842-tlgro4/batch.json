@@ -1,0 +1,227 @@
+{
+  "base_digest": "76533ea9cf1f667ba25406b4b94ba2d0416c96396efa2f50233bc7311fdf61e9",
+  "checked_at": "2026-09-12T01:10:09.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-ads-chatgpt-ads",
+        "action_key": "launch-us-select-advertiser-pilot-2026",
+        "marketplaces": ["US"],
+        "effective_date": "2026-09-10",
+        "deadline": null,
+        "title": "Amazon Ads 与 OpenAI 启动 ChatGPT Ads 美国试点：目前仅限精选广告主",
+        "summary": "Amazon Ads 于2026年9月10日宣布与 OpenAI 合作，在美国由部分精选广告主测试 ChatGPT Ads。官方原文确认，现有 Amazon Ads 广告主可在试点中把广告触达扩展至 ChatGPT 的对话式场景；Delta Vacations 是首批测试品牌之一。公告未说明该入口已向所有卖家自助开放，也未公布 Amazon 商品目录、归因窗口、计费、报告字段或 CA/MX 可用性。",
+        "impact": "这是 Amazon DSP / 全漏斗投放新增的站外对话式广告库存，对具备品牌预算和 Amazon Ads 服务支持的美国广告主有中期价值；对普通 Sponsored Products 卖家暂无可直接操作的控制台变化，不能据此假定所有美国站ASIN都能立即投放。",
+        "action": "美国广告账户先向 Amazon Ads 代表确认是否获得试点资格、最低预算、素材审核、受众和归因口径；把 ChatGPT Ads 单独设测试预算与品牌安全指标，并与 Amazon DSP 现有站外广告对照。加拿大、墨西哥账户暂不套用美国试点结论，等待各站官方开放说明。",
+        "category": "ads",
+        "priority": "P1",
+        "original_published_at": "2026-09-10",
+        "original_date_note": "Amazon Ads官方新闻稿明确标注2026-09-10；本次于2026-09-12延迟收录，归档日期保持9月10日，不作为9月12日新发布。",
+        "first_seen_at": "2026-09-12T01:10:09.000Z",
+        "last_material_update_at": "2026-09-12T01:10:09.000Z",
+        "history_dates": ["2026-09-10"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/library/news/amazon-ads-chat-gpt-advertising-integration",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": "2026-09-10",
+            "verified_at": "2026-09-12T01:10:09.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          },
+          {
+            "url": "https://www.amz123.com/t/FF3Kaeqj",
+            "publisher": "AMZ123",
+            "kind": "aggregator",
+            "published_at": "2026-09-11",
+            "verified_at": "2026-09-12T01:10:09.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "76533ea9cf1f667ba25406b4b94ba2d0416c96396efa2f50233bc7311fdf61e9",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比对22条现有事件和本批候选：现有FTC Sponsored Ads诉讼、Sponsored Brands Collections迁移均不是Amazon Ads向ChatGPT开放广告库存的试点；主体、动作、官方链接和生效日均独立。",
+        "distinct_event_reason": "与现有Amazon Ads事件属于不同产品和变化动作：本事件是ChatGPT站外广告库存试点，不是广告拍卖诉讼或Sponsored Brands格式迁移。"
+      },
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key": "us-cpsc-amazon-sold-products",
+        "action_key": "issue-september-10-recalls-and-stop-sale-warnings-2026",
+        "marketplaces": ["US"],
+        "effective_date": "2026-09-10",
+        "deadline": null,
+        "title": "CPSC集中发布Amazon.com在售商品召回与停用警告：立即核对涉事SKU",
+        "summary": "美国 CPSC 于2026年9月10日集中发布多项与 Amazon.com 在售商品有关的召回或停用警告：Prepared Hero Fire Spray（约31,000件，09/2024批次）、Cade California Electronic Finger Lights（约179,739件）、Le Hao Tool 压力清洗机（3,100件）及 HOTFINE 压力清洗机等。官方原文要求相关产品立即停止使用；对两款压力清洗机明确写明不得出售或赠送。该批事件是具体商品安全行动，不是覆盖全部Amazon卖家的平台新规。",
+        "impact": "美国站销售或历史销售涉事品牌/型号的卖家面临高风险：继续售卖、重新上架或处理召回品可能触发监管、Account Health、FBA库存和客户安全责任。其他消防用品、儿童玩具、带纽扣电池商品及电动工具卖家也应把这批警告作为同类合规排查触发器，但不能把召回范围扩大到未点名产品。",
+        "action": "立即按品牌、型号和批次检索美国站Catalog、在途、FBA/FBM库存与历史订单；命中后暂停Listing、广告和发货，隔离库存并按CPSC/品牌召回方案处理，不通过新ASIN或变体规避。同步保存供应商、测试报告、进口与客户通知记录，并在Account Health或Seller Support留痕。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-09-10",
+        "original_date_note": "四份CPSC原文均标注2026-09-10；本次于2026-09-12延迟收录并合并为一张监管批次卡片，归档日期保持9月10日。",
+        "first_seen_at": "2026-09-12T01:10:09.000Z",
+        "last_material_update_at": "2026-09-12T01:10:09.000Z",
+        "history_dates": ["2026-09-10"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.cpsc.gov/Recalls/2026/Prepared-Hero-Recalls-Fire-Spray-Canisters-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-10",
+            "verified_at": "2026-09-12T01:10:09.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2026/Cade-California-Electronic-Recalls-Finger-Light-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-10",
+            "verified_at": "2026-09-12T01:10:09.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Warnings/2026/CPSC-Warns-Consumers-to-Stop-Using-Le-Hao-Tool-Pressure-Washers-Immediately-Due-to-Serious-Shock-and-Electrocution-Hazards-Risk-of-Serious-Injury-or-Death",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-10",
+            "verified_at": "2026-09-12T01:10:09.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Warnings/2026/CPSC-Warns-Consumers-to-Stop-Using-HOTFINE-Pressure-Washers-Immediately-Due-to-Serious-Shock-and-Electrocution-Hazards-Risk-of-Serious-Injury-or-Death",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-10",
+            "verified_at": "2026-09-12T01:10:09.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "76533ea9cf1f667ba25406b4b94ba2d0416c96396efa2f50233bc7311fdf61e9",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比对22条现有事件和本批候选，事件库没有2026-09-10 CPSC召回/停用批次或相同CPSC链接；将同日多款Amazon.com在售商品合并为一张监管行动卡，避免同类召回刷屏。",
+        "distinct_event_reason": "与商业责任保险、账户审核及其他平台政策的监管主体、具体商品和法律动作均不同；本批内部四条CPSC原文属于同日同类运营处置，已主动合并。"
+      },
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key": "amazon-us-product-bundling-policy",
+        "action_key": "expand-manufacturer-packaging-requirement-2027",
+        "marketplaces": ["US"],
+        "effective_date": "2027-01-11",
+        "deadline": "2027-01-11",
+        "title": "美国站商品捆绑政策拟于2027年1月11日扩围：多数实体Bundle需原厂或品牌方包装（行业线索）",
+        "summary": "AMZ123于2026年9月11日报道，Amazon将从2027年1月11日起更新美国站 Product Bundling Policy：大多数以单一ASIN销售的实体捆绑包需由原始制造商或品牌方包装；获品牌方/制造商明确授权的重新组合可提交授权书，gifting browse nodes、camera product types、Virtual Bundles等被报道为例外，同时Books、Music、Video、DVD、Video Games等原受限组合范围可能放宽。公开检索已出现Amazon Seller Central同名公告摘要，但本次未取得可稳定引用的完整公告URL，因此当前仍按“行业线索”展示。",
+        "impact": "若报道适用于你的美国站Listing，卖家自组装、混合品牌或自贴牌的实体bundle可能在生效后被停用并记入Account Health；FBA中剩余不合规库存还会产生移除与仓储处置压力。Virtual Bundles与被报道的例外不可在未核对后台规则前自行扩大解释。",
+        "action": "导出美国站所有单ASIN实体bundle，标记包装主体、品牌组合、授权书和FBA库存；优先清理无授权自组装bundle，向品牌方补充允许repackage/resell的书面授权。对每个ASIN在Seller Central Account Health和Product Bundling Policy页复核是否收到官方通知；正式公告链接未核实前，不把该规则套用CA/MX。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": "2026-09-11",
+        "original_date_note": "可稳定引用的AMZ123文章发布于2026-09-11；Amazon Seller Central公开搜索索引出现同名公告及2027-01-11生效摘要，但动态页未提供可稳定引用的文章URL，故保留行业线索标识。",
+        "first_seen_at": "2026-09-12T01:10:09.000Z",
+        "last_material_update_at": "2026-09-12T01:10:09.000Z",
+        "history_dates": ["2026-09-11"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.amz123.com/t/40mvjjCq",
+            "publisher": "AMZ123",
+            "kind": "industry_original",
+            "published_at": "2026-09-11",
+            "verified_at": "2026-09-12T01:10:09.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "76533ea9cf1f667ba25406b4b94ba2d0416c96396efa2f50233bc7311fdf61e9",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比对22条现有事件和本批候选，事件库没有美国站实体商品捆绑政策扩围、2027-01-11生效日或相同来源；与现有Amazon Business Deals和Sponsored Brands Collections均非同一事件。",
+        "distinct_event_reason": "本事件是Listing合规与实体包装规则，主体、动作、生效日期和证据链接均独立；未因AMZ123同页出现其他新闻而合并。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "us-cpsc-amazon-sold-products|issue-september-10-recalls-and-stop-sale-warnings-2026|US|2026-09-10",
+      "amazon-ads-chatgpt-ads|launch-us-select-advertiser-pilot-2026|US|2026-09-10",
+      "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "category_notes": {
+      "policy": "补收9月10日CPSC与Amazon.com在售商品有关的召回/停用批次，并收录9月11日美国站Product Bundling Policy扩围行业线索；后者官方动态页链接仍待稳定核验。",
+      "ads": "补收Amazon Ads于9月10日发布的ChatGPT Ads美国精选广告主试点；没有证据表明已向所有卖家或CA/MX开放。",
+      "ai": "ChatGPT Ads属于广告库存合作，未将其重复计为AI运营工具；本期未确认独立的卖家后台AI工具增量。",
+      "opportunities": "fuel line、CPE braided hose、AN fittings、exhaust clamp仅取得三站公开商品页样本，缺少连续关键词/销量基线，未声称趋势变化。",
+      "competitors": "US/CA/MX公开商品页仅作基线；未取得同站点、同ASIN、同变体和同收货地域的连续价格、Coupon或BSR快照。"
+    },
+    "coverage_note": "本期新增均按原始发布日期归档：两条9月10日官方事件和一条9月11日行业线索，不将延迟发现日刷新为今日新闻。已检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、CPSC及加墨监管公开检索，并逐一用CA/MX站点词补查既定行业媒体与指定公众号；动态列表、卖家之家正文及公众号仍只能取得公开索引、作者页或无结果，未声称完整遍历。",
+    "action_items": [
+      {
+        "title": "排查CPSC涉事SKU",
+        "detail": "按Prepared Hero、Cade California Electronic、Le Hao Tool、HOTFINE及型号/批次检查美国站库存和历史订单；命中即停售、停广告并按监管方案隔离处置。",
+        "due": "立即",
+        "event_key": "us-cpsc-amazon-sold-products|issue-september-10-recalls-and-stop-sale-warnings-2026|US|2026-09-10"
+      },
+      {
+        "title": "确认ChatGPT Ads试点资格",
+        "detail": "仅美国广告账户向Amazon Ads代表确认准入、预算、品牌安全、素材与归因口径；CA/MX暂不套用。",
+        "due": "本周",
+        "event_key": "amazon-ads-chatgpt-ads|launch-us-select-advertiser-pilot-2026|US|2026-09-10"
+      },
+      {
+        "title": "盘点实体Bundle合规",
+        "detail": "导出美国站实体bundle，核对原厂包装、品牌授权、例外类型和FBA库存；在Seller Central复核官方通知。",
+        "due": "2027-01-11前",
+        "event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
+      },
+      {
+        "title": "三站分别建立汽配基线",
+        "detail": "燃油管、CPE braided hose、AN fittings、exhaust clamp按US/CA/MX分别记录ASIN、变体、地域、币种、税费、运费、Coupon和BSR。",
+        "due": "持续执行",
+        "event_key": null
+      }
+    ]
+  }
+}

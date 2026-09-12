@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20260912005842-tlgro4",
+  "status": "prepared",
+  "prepared_at": "2026-09-12T01:10:09.000Z",
+  "base_main_head": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
+  "base_registry_digest": "76533ea9cf1f667ba25406b4b94ba2d0416c96396efa2f50233bc7311fdf61e9",
+  "expected_registry_digest": "8650596fb9cb0dae4acfda15d59b6af683c384cd2a892f324ead0e6601a574f5",
+  "expected_content_digest": "82696e50c5efeb9525e91a463c168058932a0144bc208d63826ba6e2254b4140",
+  "counts": {
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0,
+    "manual_consolidations": 3
+  },
+  "archive_dates": ["2026-09-10", "2026-09-11"],
+  "notes": [
+    "All three candidates were reviewed against the 22-event baseline and this batch.",
+    "Four same-day CPSC product-safety actions were consolidated into one regulator batch card.",
+    "The Amazon US bundle-policy item remains an industry clue because no stable public Seller Central article URL was available.",
+    "New cards retain their original 2026-09-10 or 2026-09-11 archive dates and are not presented as 2026-09-12 news."
+  ]
+}
