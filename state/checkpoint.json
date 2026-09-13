@@ -2,48 +2,35 @@
   "schema_version": 1,
   "last_manual_recovery": {
     "at": "2026-09-10T01:13:46.959Z",
-    "reason": "补齐9月3—9月8归档并落实“重复新闻不用更新到当天”",
+    "reason": "补齐9月3—9月8归档并落实‘重复新闻不用更新到当天’",
     "main_commit": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
-    "counts": {
-      "new": 1,
-      "updated": 1,
-      "merged": 0,
-      "deduplicated": 1
-    },
+    "counts": {"new":1,"updated":1,"merged":0,"deduplicated":1},
     "production_verified": true,
     "production_digest": "8afd28e0db2ad7f20018742851bed5fdc8256fb8fc0823808ff535f97740712c",
     "notes": "Commercial Liability Insurance归档到9月3日；Business Deals归档回8月31日；新增Product Collection迁移事件；DAILY BRIEFING未恢复。"
   },
   "last_verified_publication": {
-    "at": "2026-09-12T01:21:04.638Z",
-    "main_commit": "d3cb375c2b0c368068c2b6239b3ad3484a789d3e",
+    "at": "2026-09-13T01:21:57.000Z",
+    "main_commit": "ba517e47ef895cee69ac859bb19a07b4ce38d2e8",
     "url": "https://amazon-ops-radar-vercel.vercel.app/",
-    "digest": "82696e50c5efeb9525e91a463c168058932a0144bc208d63826ba6e2254b4140",
-    "counts": {
-      "new": 3,
-      "updated": 0,
-      "merged": 0,
-      "deduplicated": 0
-    }
+    "digest": "c6a3cd359ed2e7c3ae1405c1f6f304fa71cd0338182101b632b408268e343fcc",
+    "counts": {"new":3,"updated":0,"merged":0,"deduplicated":0}
   },
   "last_run": {
-    "id": "run-20260912005842-tlgro4",
+    "id": "run-20260913010201-x3wjfn",
     "status": "partial_published",
-    "finished_at": "2026-09-12T01:21:04.638Z",
-    "note": "Published three verified non-duplicate events with original archive dates; public source coverage remains partial."
+    "finished_at": "2026-09-13T01:21:57.000Z",
+    "note": "Published three verified delayed backfills with original archive dates; public source coverage remains partial and no success cursor advanced."
   },
   "last_attempt": {
-    "id": "run-20260912005842-tlgro4",
-    "at": "2026-09-12T01:21:04.638Z",
+    "id": "run-20260913010201-x3wjfn",
+    "at": "2026-09-13T01:21:57.000Z",
     "status": "partial_published",
-    "main_commit": "d3cb375c2b0c368068c2b6239b3ad3484a789d3e",
-    "counts": {
-      "new": 3,
-      "updated": 0,
-      "merged": 0,
-      "deduplicated": 0
-    },
+    "main_commit": "ba517e47ef895cee69ac859bb19a07b4ce38d2e8",
+    "counts": {"new":3,"updated":0,"merged":0,"deduplicated":0},
     "publication_attempted": true,
-    "note": "已发布并完成Vercel状态、内容摘要与完整HTML一致性验收；部分动态页和公众号仍为公开搜索覆盖。"
-  }
+    "note": "Vercel状态、内容摘要与完整HTML一致性验收通过；所有事件按原始日期归档，部分动态页和公众号仍为公开搜索覆盖。"
+  },
+  "pending_backfill_dates": ["2026-08-29", "2026-08-30"],
+  "source_cursors_advanced": false
 }
