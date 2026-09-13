@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-12T01:10:09.000Z",
+  "content_updated_at": "2026-09-13T01:11:44.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -1327,6 +1327,173 @@
       "event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11",
       "id": "evt-c49e5bc3356eb7ca",
       "primary_source_url": "https://www.amz123.com/t/40mvjjCq"
+    },
+    {
+      "subject_key": "us-cbp-importer-of-record-data",
+      "action_key": "void-inaccurate-or-incomplete-ior-records-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-09-18",
+      "deadline": "2026-09-18",
+      "title": "美国CBP将于9月18日强化IOR信息核验：Form 5106不准确或不完整可被立即作废",
+      "summary": "美国海关与边境保护局（CBP）在2026年8月19日《联邦公报》中确认，自9月18日起强化 Importer of Record（IOR）资料核验。IOR或其报关行提交的CBP Form 5106必须完整准确，实体地址、邮箱、电话、EIN/SSN等须直接属于IOR；报关行还须与IOR直接签署有效Power of Attorney（POA）。CBP认定资料不准确或不完整时，可立即作废IOR号码，使其无法用于美国进口申报。9月8日行业报道再次提示跨境卖家清关风险，但关于货柜扣留规模等说法没有监管原文支持，本卡不作事实采用。",
+      "impact": "这不是Amazon平台规则，但直接影响向美国FBA、海外仓或其他渠道进口货物的卖家。IOR号码被作废会中断入境申报，并可能带来滞港、仓租、改配和断货风险；使用货代、报关行或第三方IOR服务也不能替代IOR主体对Form 5106资料真实性的责任。该规则不自动适用于加拿大或墨西哥进口。",
+      "action": "在9月18日前让美国报关行核对Form 5106中的法定名称、实际经营地址、EIN/SSN、IOR自有邮箱和电话；确认POA由报关行与IOR直接签署，并把订舱、ISF、商业发票、报关及FBA/海外仓收货资料中的主体信息统一。发货前要求报关行确认IOR仍为active；不要借用、共享或以货代联系信息替代IOR资料。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": "2026-08-19",
+      "original_date_note": "CBP官方通知发表于2026-08-19，执行日为2026-09-18；本次因9月8日行业提醒而延迟补收，归档仍保持8月19日，不作为9月13日新发布。",
+      "first_seen_at": "2026-09-13T01:11:44.000Z",
+      "last_material_update_at": "2026-09-13T01:11:44.000Z",
+      "history_dates": [
+        "2026-08-19"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-19/html/2026-16911.htm",
+          "publisher": "U.S. Customs and Border Protection / Federal Register",
+          "kind": "regulator",
+          "published_at": "2026-08-19",
+          "verified_at": "2026-09-13T01:11:44.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-19/html/2026-16911.htm"
+        },
+        {
+          "url": "https://m.chwang.com/news/209678290578",
+          "publisher": "出海网",
+          "kind": "industry_original",
+          "published_at": "2026-09-08",
+          "verified_at": "2026-09-13T01:11:44.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://m.chwang.com/news/209678290578"
+        },
+        {
+          "url": "https://m.amz123.com/t/uJirBLtp",
+          "publisher": "AMZ123",
+          "kind": "aggregator",
+          "published_at": "2026-09-08",
+          "verified_at": "2026-09-13T01:11:44.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://m.amz123.com/t/uJirBLtp"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "us-cbp-importer-of-record-data|void-inaccurate-or-incomplete-ior-records-2026|US|2026-09-18",
+      "id": "evt-e6a48af4460e90ca",
+      "primary_source_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-19/html/2026-16911.htm"
+    },
+    {
+      "subject_key": "amazon-us-duplicate-asin-enforcement-reports",
+      "action_key": "seller-reports-account-actions-linked-to-duplicate-asin-and-vine-abuse-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美国站出现重复创建ASIN相关绩效警告与停用反馈（行业线索）",
+      "summary": "AMZ123于2026年9月3日报道，部分卖家近期因“重复创建ASIN”收到绩效警告或账户停用，报道把重复翻新Listing、反复参加Vine、违规拆分/合并变体以及用旧库存创建新ASIN列为常见触发场景。Amazon公开帮助与历史官方论坛回复一贯禁止为已有商品创建重复详情页，但本次没有取得Amazon关于“新一轮集中扫号”、影响卖家数量或新识别规则的正式公告，因此仅作为美国站行业线索，不视为新政策。",
+      "impact": "若账户存在同款多ASIN、产品标识符错配、为重新参加Vine而重建Listing或不真实变体，Account Health、ASIN创建权限、Listing可见性和账户状态可能受到影响。仅销售在他人创建的ASIN下不等于一定违规，误判应依据具体绩效通知和证据申诉，不能因行业报道直接删除正常主链接。",
+      "action": "导出近12个月新建ASIN、Vine报名和变体变更记录，按UPC/EAN、品牌、型号、图片和核心功能检查同款重复；发现违规副本时先保留主ASIN与证据，再按后台通知处理库存和申诉。误判准备六面图、GTIN凭证、发票、品牌备案、型号差异和创建记录；不要通过换图、换条码或赠品包装重建同款ASIN。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-09-03",
+      "original_date_note": "AMZ123文章发表于2026-09-03，出海网于9月4日转载摘要；本次延迟补收并归档到9月3日。集中扫号规模和新识别规则未获Amazon官方确认。",
+      "first_seen_at": "2026-09-13T01:11:44.000Z",
+      "last_material_update_at": "2026-09-13T01:11:44.000Z",
+      "history_dates": [
+        "2026-09-03"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.amz123.com/kx/z0Q6YNbV",
+          "publisher": "AMZ123",
+          "kind": "industry_original",
+          "published_at": "2026-09-03",
+          "verified_at": "2026-09-13T01:11:44.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://www.amz123.com/kx/z0Q6YNbV"
+        },
+        {
+          "url": "https://www.chwang.com/daily/20260904",
+          "publisher": "出海网",
+          "kind": "aggregator",
+          "published_at": "2026-09-04",
+          "verified_at": "2026-09-13T01:11:44.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://www.chwang.com/daily/20260904"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-duplicate-asin-enforcement-reports|seller-reports-account-actions-linked-to-duplicate-asin-and-vine-abuse-2026|US|unknown",
+      "id": "evt-637db21b7afd760d",
+      "primary_source_url": "https://www.amz123.com/kx/z0Q6YNbV"
+    },
+    {
+      "subject_key": "amazon-us-reference-price-display",
+      "action_key": "seller-reports-widespread-strikethrough-price-disappearance-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美国站多卖家反馈划线价消失及专享折扣报错（行业线索）",
+      "summary": "出海网于2026年9月8日报道，部分Amazon美国站卖家发现Listing划线价（strikethrough price）消失、Prime Exclusive Discount报错，并同时出现订单下滑。报道还转述卖家圈关于“90天内至少10%的天数按参考价成交”的说法，但未提供Amazon官方公告或可复核后台通知。本卡仅确认公开行业报道存在，不确认所有卖家受影响，也不把该比例说法写成Amazon新规则；劳动节流量波动等因素可能同时影响订单。",
+      "impact": "划线价或折扣标签缺失会改变前台价格锚点和促销可见性，可能影响CTR与CVR；但没有同ASIN、同流量和同促销的连续数据，不能把销量变化全部归因于展示异常。卖家若频繁修改List Price或促销，反而可能延长参考价资格恢复时间或触发价格真实性审核。",
+      "action": "用美国收货地址和未登录窗口抽查核心ASIN的List Price、Was Price、Coupon及Prime Exclusive Discount展示，保存ASIN、变体、时间和报错截图；分别对比7天/28天Sessions、CTR、CVR与订单。不要人为抬高参考价；命中异常时以单ASIN证据开Seller Support case，并在官方说明前暂停基于传闻比例的大规模改价。",
+      "category": "competitors",
+      "priority": "P1",
+      "original_published_at": "2026-09-08",
+      "original_date_note": "出海网独立快讯发布时间为2026-09-08 10:03，9月9日日报再次汇总；本次延迟补收并归档到9月8日，不作为9月13日新闻。",
+      "first_seen_at": "2026-09-13T01:11:44.000Z",
+      "last_material_update_at": "2026-09-13T01:11:44.000Z",
+      "history_dates": [
+        "2026-09-08"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.chwang.com/news/209714381065",
+          "publisher": "出海网",
+          "kind": "industry_original",
+          "published_at": "2026-09-08",
+          "verified_at": "2026-09-13T01:11:44.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://www.chwang.com/news/209714381065"
+        },
+        {
+          "url": "https://www.chwang.com/daily/20260909",
+          "publisher": "出海网",
+          "kind": "aggregator",
+          "published_at": "2026-09-09",
+          "verified_at": "2026-09-13T01:11:44.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://www.chwang.com/daily/20260909"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-reference-price-display|seller-reports-widespread-strikethrough-price-disappearance-2026|US|unknown",
+      "id": "evt-2dc6ba4a11706aee",
+      "primary_source_url": "https://www.chwang.com/news/209714381065"
     }
   ]
 }

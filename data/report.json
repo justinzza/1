@@ -1,9 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "us-cpsc-amazon-sold-products|issue-september-10-recalls-and-stop-sale-warnings-2026|US|2026-09-10",
-    "amazon-ads-chatgpt-ads|launch-us-select-advertiser-pilot-2026|US|2026-09-10",
-    "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
+    "us-cbp-importer-of-record-data|void-inaccurate-or-incomplete-ior-records-2026|US|2026-09-18",
+    "amazon-us-duplicate-asin-enforcement-reports|seller-reports-account-actions-linked-to-duplicate-asin-and-vine-abuse-2026|US|unknown",
+    "amazon-us-reference-price-display|seller-reports-widespread-strikethrough-price-disappearance-2026|US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -13,46 +13,46 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "补收9月10日CPSC与Amazon.com在售商品有关的召回/停用批次，并收录9月11日美国站Product Bundling Policy扩围行业线索；后者官方动态页链接仍待稳定核验。",
-    "ads": "补收Amazon Ads于9月10日发布的ChatGPT Ads美国精选广告主试点；没有证据表明已向所有卖家或CA/MX开放。",
-    "ai": "ChatGPT Ads属于广告库存合作，未将其重复计为AI运营工具；本期未确认独立的卖家后台AI工具增量。",
-    "opportunities": "fuel line、CPE braided hose、AN fittings、exhaust clamp仅取得三站公开商品页样本，缺少连续关键词/销量基线，未声称趋势变化。",
-    "competitors": "US/CA/MX公开商品页仅作基线；未取得同站点、同ASIN、同变体和同收货地域的连续价格、Coupon或BSR快照。"
+    "policy": "补收CBP于8月19日发布、9月18日执行的IOR资料核验规则；另补收9月3日美国站重复ASIN绩效处置行业线索，后者未获Amazon确认。",
+    "ads": "本期未确认Amazon Ads或US/CA/MX广告控制台有新的实质变化；动态列表只能公开检索，不能声称完整遍历。",
+    "ai": "本期未确认独立的卖家后台AI工具或运营方法增量；已有ChatGPT Ads试点未重复展示。",
+    "opportunities": "fuel line、CPE braided hose、AN fittings、exhaust clamp缺少三站连续关键词、销量和同口径类目快照，本期没有可验证趋势变化。",
+    "competitors": "补收9月8日美国站划线价消失/专享折扣报错行业线索；传闻中的90天/10%门槛未获官方确认。US/CA/MX仍缺少同ASIN、变体与收货地区的连续价格、Coupon和BSR基线。"
   },
-  "coverage_note": "本期新增均按原始发布日期归档：两条9月10日官方事件和一条9月11日行业线索，不将延迟发现日刷新为今日新闻。已检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、CPSC及加墨监管公开检索，并逐一用CA/MX站点词补查既定行业媒体与指定公众号；动态列表、卖家之家正文及公众号仍只能取得公开索引、作者页或无结果，未声称完整遍历。",
+  "coverage_note": "本期三条均为延迟补收，分别按2026-08-19、09-03和09-08原始发布日期归档，未把旧闻刷新到9月13日。已检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、CPSC、Health Canada、墨西哥监管公开检索及既定行业媒体；指定公众号与行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。加拿大和墨西哥未确认可靠增量。",
   "action_items": [
     {
-      "title": "排查CPSC涉事SKU",
-      "detail": "按Prepared Hero、Cade California Electronic、Le Hao Tool、HOTFINE及型号/批次检查美国站库存和历史订单；命中即停售、停广告并按监管方案隔离处置。",
+      "title": "完成美国IOR资料复核",
+      "detail": "让报关行逐项核对Form 5106、IOR自有联系方式和直接POA，并确认订舱、ISF、报关及FBA/海外仓资料主体一致。",
+      "due": "2026-09-18前",
+      "event_key": "us-cbp-importer-of-record-data|void-inaccurate-or-incomplete-ior-records-2026|US|2026-09-18"
+    },
+    {
+      "title": "审计重复ASIN与Vine使用",
+      "detail": "按GTIN、品牌、型号、功能和图片排查同款多ASIN、异常变体及重复Vine报名；保留主ASIN与申诉证据。",
       "due": "立即",
-      "event_key": "us-cpsc-amazon-sold-products|issue-september-10-recalls-and-stop-sale-warnings-2026|US|2026-09-10"
+      "event_key": "amazon-us-duplicate-asin-enforcement-reports|seller-reports-account-actions-linked-to-duplicate-asin-and-vine-abuse-2026|US|unknown"
     },
     {
-      "title": "确认ChatGPT Ads试点资格",
-      "detail": "仅美国广告账户向Amazon Ads代表确认准入、预算、品牌安全、素材与归因口径；CA/MX暂不套用。",
-      "due": "本周",
-      "event_key": "amazon-ads-chatgpt-ads|launch-us-select-advertiser-pilot-2026|US|2026-09-10"
+      "title": "抽查美国站价格展示",
+      "detail": "记录核心ASIN的划线价、Coupon、Prime Exclusive Discount、Sessions和CVR；命中异常时带截图开case，不按未证实比例盲目改价。",
+      "due": "今日",
+      "event_key": "amazon-us-reference-price-display|seller-reports-widespread-strikethrough-price-disappearance-2026|US|unknown"
     },
     {
-      "title": "盘点实体Bundle合规",
-      "detail": "导出美国站实体bundle，核对原厂包装、品牌授权、例外类型和FBA库存；在Seller Central复核官方通知。",
-      "due": "2027-01-11前",
-      "event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
-    },
-    {
-      "title": "三站分别建立汽配基线",
+      "title": "三站分别维护汽配基线",
       "detail": "燃油管、CPE braided hose、AN fittings、exhaust clamp按US/CA/MX分别记录ASIN、变体、地域、币种、税费、运费、Coupon和BSR。",
       "due": "持续执行",
       "event_key": null
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-12",
-  "content_updated_at": "2026-09-12T01:10:09.000Z",
+  "report_date": "2026-09-13",
+  "content_updated_at": "2026-09-13T01:11:44.000Z",
   "new_event_keys": [
-    "amazon-ads-chatgpt-ads|launch-us-select-advertiser-pilot-2026|US|2026-09-10",
-    "us-cpsc-amazon-sold-products|issue-september-10-recalls-and-stop-sale-warnings-2026|US|2026-09-10",
-    "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
+    "us-cbp-importer-of-record-data|void-inaccurate-or-incomplete-ior-records-2026|US|2026-09-18",
+    "amazon-us-duplicate-asin-enforcement-reports|seller-reports-account-actions-linked-to-duplicate-asin-and-vine-abuse-2026|US|unknown",
+    "amazon-us-reference-price-display|seller-reports-widespread-strikethrough-price-disappearance-2026|US|unknown"
   ],
   "updated_event_keys": [],
   "counts": {
