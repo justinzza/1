@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20260913010201-x3wjfn",
+  "status": "prepared",
+  "prepared_at": "2026-09-13T01:11:44.000Z",
+  "base_main_head": "d3cb375c2b0c368068c2b6239b3ad3484a789d3e",
+  "base_registry_digest": "8650596fb9cb0dae4acfda15d59b6af683c384cd2a892f324ead0e6601a574f5",
+  "expected_registry_digest": "0e2047f21f24d150e89a7d00904ab6f509d347e1bcac0ebdf6f38b2a00fedc2a",
+  "expected_content_digest": "c6a3cd359ed2e7c3ae1405c1f6f304fa71cd0338182101b632b408268e343fcc",
+  "expected_file_sha256": {
+    "data/events.json": "93f39819613b7ec6241f176259db52d10fa37dbe2ada12ef9c9d2538c6698b32",
+    "data/report.json": "31f2da0d0a31d1c062998c599cdb99f22afe2fb9de4f5ed63a8c18e16029b758",
+    "index.html": "7efe81136a8c14ecd84b09d2591b1fcf5eb82f1c5da16bb14cfb7f3040b2e232"
+  },
+  "counts": {
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0,
+    "manual_consolidations": 3
+  },
+  "archive_dates": ["2026-08-19", "2026-09-03", "2026-09-08"],
+  "notes": [
+    "All three candidates were reviewed against the 25-event baseline and this batch.",
+    "CBP official rule and two syndication sets were each consolidated into one stable event card.",
+    "The duplicate-ASIN and strikethrough-display events remain industry clues because no new Amazon announcement was found.",
+    "New cards retain original archive dates and are not presented as 2026-09-13 news.",
+    "Tests passed: 22/22; DAILY BRIEFING remains absent."
+  ]
+}
