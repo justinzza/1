@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31",
+      "action": "new",
+      "review": "已逐条比对现有28条事件。现有Section 3账户审核、重复ASIN处置、商业责任保险与商品bundle事件分别涉及身份审查、商品详情页滥用、保险合规和包装主体；本事件是美国FBM订单绩效指标触发的Offer级临时停用，主体动作、生效日和官方来源均不同。"
+    }
+  ]
+}

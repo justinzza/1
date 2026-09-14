@@ -1,0 +1,91 @@
+{
+  "base_digest": "0e2047f21f24d150e89a7d00904ab6f509d347e1bcac0ebdf6f38b2a00fedc2a",
+  "checked_at": "2026-09-14T01:24:00.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-fbm-account-health",
+        "action_key": "deactivate-at-risk-offer-instead-of-account-2026",
+        "marketplaces": ["US"],
+        "effective_date": "2026-08-31",
+        "deadline": null,
+        "title": "美国站调整FBM绩效处置：高风险指标优先停用具体Offer，不再直接影响其他Listing",
+        "summary": "Amazon Seller Central官方公告确认，自2026年8月31日起，当某个Fulfilled by Merchant（FBM）Offer因绩效指标使Account Health面临风险时，Amazon会先临时停用该Offer；此前未达标Listing可能让整个账户面临风险。Amazon称其他正常Listing及整体Account Health不会因该次Offer停用而受到影响，并会在停用前发送警告邮件。用于判断的指标包括Cancellation Rate、Late Shipment Rate、Order Defect Rate和On-Time Delivery Rate；被停用Offer可在Account Health > Other Policy Violations中查看并按指引恢复。",
+        "impact": "这项变化把部分FBM绩效处置从账户层收窄到Offer层，有利于隔离单一SKU风险，但低销量Offer仍可能因少量缺陷迅速触及指标并暂停销售。公告没有说明临时停用的统一持续时长，也没有证明加拿大或墨西哥站同步实施，因此本卡仅适用于美国站。",
+        "action": "立即查看美国站Account Health和警告邮件，按Cancellation Rate、Late Shipment Rate、Order Defect Rate、On-Time Delivery Rate筛查FBM Offer；优先处理低销量、高缺陷率或承诺时效偏紧的SKU。对被停用Offer进入Other Policy Violations按提示整改和申请恢复，同时调整Handling Time、承运商选择、库存同步和取消流程；不要把本公告理解为所有账户级风险都已取消。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-09-13",
+        "original_date_note": "Seller Central官方账号News_Amazon于2026-09-13公开该公告，规则生效日为2026-08-31；本卡按9月13日原始发布日期归档，不作为9月14日新发布新闻。",
+        "first_seen_at": "2026-09-14T01:24:00.000Z",
+        "last_material_update_at": "2026-09-14T01:24:00.000Z",
+        "history_dates": ["2026-09-13"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/7d5f264e-d83e-4557-9557-3999722b7e23",
+            "publisher": "Amazon Seller Central / News_Amazon",
+            "kind": "official",
+            "published_at": "2026-09-13",
+            "verified_at": "2026-09-14T01:24:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0e2047f21f24d150e89a7d00904ab6f509d347e1bcac0ebdf6f38b2a00fedc2a",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比对现有28条事件。现有Section 3账户审核、重复ASIN处置、商业责任保险与商品bundle事件分别涉及身份审查、商品详情页滥用、保险合规和包装主体；本事件是美国FBM订单绩效指标触发的Offer级临时停用，主体动作、生效日和官方来源均不同。",
+        "distinct_event_reason": "本批仅此一项候选；官方公告首次明确四项FBM绩效指标对应的Offer级处置及Other Policy Violations恢复入口，不是既有账户风险新闻的改标题转载。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "category_notes": {
+      "policy": "新增Amazon美国站官方FBM绩效处置公告：四项指标触发时优先临时停用具体Offer，并提供Other Policy Violations恢复入口。",
+      "ads": "本期未确认Amazon Ads或US/CA/MX广告控制台有新的实质变化；动态列表只能公开检索，已收录ChatGPT Ads试点未重复展示。",
+      "ai": "本期未确认独立的卖家后台AI工具或运营方法增量；窗口外的旧公告未包装为今日新闻。",
+      "opportunities": "fuel hose、CPE braided hose、AN fittings、exhaust clamp仅取得三站公开商品索引样本，缺少连续关键词、销量和同口径类目快照，本期没有可验证趋势变化。",
+      "competitors": "US/CA/MX公开页面受地区、登录和反自动化限制，且缺少同ASIN、同变体、同收货地区的连续价格、Coupon和BSR快照；首次观察不计作变化。"
+    },
+    "coverage_note": "新增事件按2026-09-13原始发布日期归档，规则生效日为8月31日，没有把旧闻刷新到9月14日。已逐项检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、CPSC、Health Canada、墨西哥监管入口、既定行业媒体及CA/MX各自的include_source_ids；指定公众号和行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。加拿大和墨西哥未确认可靠增量。",
+    "action_items": [
+      {
+        "title": "筛查美国站FBM高风险Offer",
+        "detail": "在Account Health和警告邮件中按Cancellation Rate、Late Shipment Rate、Order Defect Rate、On-Time Delivery Rate定位风险SKU，优先处理低销量Offer。",
+        "due": "立即",
+        "event_key": "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31"
+      },
+      {
+        "title": "准备Offer恢复路径",
+        "detail": "对被停用Offer进入Other Policy Violations查看原因，修正库存、Handling Time、承运商或取消流程后按指引申请恢复。",
+        "due": "今日",
+        "event_key": "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31"
+      },
+      {
+        "title": "三站分别维护汽配基线",
+        "detail": "燃油管、CPE braided hose、AN fittings、exhaust clamp按US/CA/MX分别记录ASIN、变体、地域、币种、税费、运费、Coupon和BSR。",
+        "due": "持续执行",
+        "event_key": null
+      }
+    ]
+  }
+}

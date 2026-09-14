@@ -1,0 +1,11 @@
+{
+  "run_id": "run-20260914010632-q7nz4m",
+  "main_baseline": "ba517e47ef895cee69ac859bb19a07b4ce38d2e8",
+  "registry_digest": "3dba45e5519c6b29db957fb0335dc28fae7b62f2d26868c02aab9a692b593ee7",
+  "content_digest": "5e107d080732f7a71c64910716c9a7d88d47270541f19f993519b766478354f5",
+  "full_html_sha256": "c722d78394183a72022d671e893f7aa8049df42c17b6037718fde625dab418d1",
+  "registry_events": 29,
+  "rendered_story_cards": 22,
+  "daily_briefing_present": false,
+  "counts": {"new":1,"updated":0,"merged":0,"deduplicated":0}
+}
