@@ -10,26 +10,26 @@
     "notes": "Commercial Liability Insurance归档到9月3日；Business Deals归档回8月31日；新增Product Collection迁移事件；DAILY BRIEFING未恢复。"
   },
   "last_verified_publication": {
-    "at": "2026-09-13T01:21:57.000Z",
-    "main_commit": "ba517e47ef895cee69ac859bb19a07b4ce38d2e8",
+    "at": "2026-09-14T01:31:00.000Z",
+    "main_commit": "a4eb72a15d21499e7a7b4fd794390086edad39ee",
     "url": "https://amazon-ops-radar-vercel.vercel.app/",
-    "digest": "c6a3cd359ed2e7c3ae1405c1f6f304fa71cd0338182101b632b408268e343fcc",
-    "counts": {"new":3,"updated":0,"merged":0,"deduplicated":0}
+    "digest": "5e107d080732f7a71c64910716c9a7d88d47270541f19f993519b766478354f5",
+    "counts": {"new":1,"updated":0,"merged":0,"deduplicated":0}
   },
   "last_run": {
-    "id": "run-20260913010201-x3wjfn",
+    "id": "run-20260914010632-q7nz4m",
     "status": "partial_published",
-    "finished_at": "2026-09-13T01:21:57.000Z",
-    "note": "Published three verified delayed backfills with original archive dates; public source coverage remains partial and no success cursor advanced."
+    "finished_at": "2026-09-14T01:31:00.000Z",
+    "note": "Published one verified US FBM Account Health update; public source coverage remains partial and no success cursor advanced."
   },
   "last_attempt": {
-    "id": "run-20260913010201-x3wjfn",
-    "at": "2026-09-13T01:21:57.000Z",
+    "id": "run-20260914010632-q7nz4m",
+    "at": "2026-09-14T01:31:00.000Z",
     "status": "partial_published",
-    "main_commit": "ba517e47ef895cee69ac859bb19a07b4ce38d2e8",
-    "counts": {"new":3,"updated":0,"merged":0,"deduplicated":0},
+    "main_commit": "a4eb72a15d21499e7a7b4fd794390086edad39ee",
+    "counts": {"new":1,"updated":0,"merged":0,"deduplicated":0},
     "publication_attempted": true,
-    "note": "Vercel状态、内容摘要与完整HTML一致性验收通过；所有事件按原始日期归档，部分动态页和公众号仍为公开搜索覆盖。"
+    "note": "GitHub Vercel状态与正式页面content digest、卡片数量及事件路径验收通过；公告按原始日期归档。"
   },
   "pending_backfill_dates": ["2026-08-29", "2026-08-30"],
   "source_cursors_advanced": false
