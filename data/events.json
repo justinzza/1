@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-13T01:11:44.000Z",
+  "content_updated_at": "2026-09-14T01:24:00.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -1494,6 +1494,47 @@
       "event_key": "amazon-us-reference-price-display|seller-reports-widespread-strikethrough-price-disappearance-2026|US|unknown",
       "id": "evt-2dc6ba4a11706aee",
       "primary_source_url": "https://www.chwang.com/news/209714381065"
+    },
+    {
+      "subject_key": "amazon-us-fbm-account-health",
+      "action_key": "deactivate-at-risk-offer-instead-of-account-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-08-31",
+      "deadline": null,
+      "title": "美国站调整FBM绩效处置：高风险指标优先停用具体Offer，不再直接影响其他Listing",
+      "summary": "Amazon Seller Central官方公告确认，自2026年8月31日起，当某个Fulfilled by Merchant（FBM）Offer因绩效指标使Account Health面临风险时，Amazon会先临时停用该Offer；此前未达标Listing可能让整个账户面临风险。Amazon称其他正常Listing及整体Account Health不会因该次Offer停用而受到影响，并会在停用前发送警告邮件。用于判断的指标包括Cancellation Rate、Late Shipment Rate、Order Defect Rate和On-Time Delivery Rate；被停用Offer可在Account Health > Other Policy Violations中查看并按指引恢复。",
+      "impact": "这项变化把部分FBM绩效处置从账户层收窄到Offer层，有利于隔离单一SKU风险，但低销量Offer仍可能因少量缺陷迅速触及指标并暂停销售。公告没有说明临时停用的统一持续时长，也没有证明加拿大或墨西哥站同步实施，因此本卡仅适用于美国站。",
+      "action": "立即查看美国站Account Health和警告邮件，按Cancellation Rate、Late Shipment Rate、Order Defect Rate、On-Time Delivery Rate筛查FBM Offer；优先处理低销量、高缺陷率或承诺时效偏紧的SKU。对被停用Offer进入Other Policy Violations按提示整改和申请恢复，同时调整Handling Time、承运商选择、库存同步和取消流程；不要把本公告理解为所有账户级风险都已取消。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": "2026-09-13",
+      "original_date_note": "Seller Central官方账号News_Amazon于2026-09-13公开该公告，规则生效日为2026-08-31；本卡按9月13日原始发布日期归档，不作为9月14日新发布新闻。",
+      "first_seen_at": "2026-09-14T01:24:00.000Z",
+      "last_material_update_at": "2026-09-14T01:24:00.000Z",
+      "history_dates": [
+        "2026-09-14"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/7d5f264e-d83e-4557-9557-3999722b7e23",
+          "publisher": "Amazon Seller Central / News_Amazon",
+          "kind": "official",
+          "published_at": "2026-09-13",
+          "verified_at": "2026-09-14T01:24:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/7d5f264e-d83e-4557-9557-3999722b7e23"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31",
+      "id": "evt-2334d0e822a2a6c3",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/7d5f264e-d83e-4557-9557-3999722b7e23"
     }
   ]
 }
