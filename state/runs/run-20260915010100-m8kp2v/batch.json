@@ -1,0 +1,146 @@
+{
+  "base_digest": "3dba45e5519c6b29db957fb0335dc28fae7b62f2d26868c02aab9a692b593ee7",
+  "checked_at": "2026-09-15T01:06:52.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-fbm-account-health-rating",
+        "action_key": "add-customer-service-bonus-points-2026",
+        "marketplaces": ["US"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "美国站AHR新增FBM客服表现奖励：三项指标最多增加12分",
+        "summary": "Amazon Seller Central官方公告确认，Account Health Rating（AHR）现会奖励由卖家直接处理客服的Fulfilled by Merchant（FBM）订单。三项门槛分别为Buyer contact rate低于0.50%、Average contact response time少于12小时、Buyer dissatisfaction rate低于4.5%，综合表现最多可增加12个AHR points。Amazon明确表示，这三项客服指标只能提高AHR，表现低于门槛不会因此限制销售权限；卖家可在Feedback Manager和Customer Service Quality Insights查看表现。",
+        "impact": "客服质量从单纯的服务结果增加为AHR正向加分来源，可为合规表现良好的美国站FBM账户提供额外健康分缓冲。但公告没有证明加拿大或墨西哥站同步实施，也不代表其他政策违规、ODR、LSR等账户健康要求被放宽。Buyer contact rate还包含因商品质量、履约或运输问题提出退款或换货的联系，因此改善需要覆盖商品与履约根因。",
+        "action": "在美国站Feedback Manager查看三项指标并按周记录；把买家联系按商品质量、缺货、错发、延迟和运输损坏分类，优先降低可预防原因；建立12小时内回复值班和升级机制，并复盘1—2星客服满意度。不要诱导买家不联系、不提交反馈或改变真实评价，也不要把本次正向加分理解为可忽略其他Account Health违规。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": "2026-09-14",
+        "original_date_note": "Seller Central官方账号News_Amazon在本次检查时显示约20小时前发布，按2026-09-14归档；公告未给独立生效日期，effective_date保留unknown，不以抓取日代替。",
+        "first_seen_at": "2026-09-15T01:06:52.000Z",
+        "last_material_update_at": "2026-09-15T01:06:52.000Z",
+        "history_dates": ["2026-09-14"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/8748bc20-98c5-4c12-8bef-f38c0c4d2847",
+            "publisher": "Amazon Seller Central / News_Amazon",
+            "kind": "official",
+            "published_at": "2026-09-14",
+            "verified_at": "2026-09-15T01:06:52.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "3dba45e5519c6b29db957fb0335dc28fae7b62f2d26868c02aab9a692b593ee7",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比对现有29条事件。9月13日的FBM Offer级停用事件讨论CR、LSR、ODR和OTDR触发的处置机制；本事件讨论三项客服质量指标带来的AHR正向加分，动作、指标、结果与日期均不同，不是同一公告的改标题。",
+        "distinct_event_reason": "官方首次说明FBM自营客服可凭三项明确门槛获得最多12个AHR奖励分，并明确低于门槛不会限制销售权限；与本批订单数据异常事件也无主体动作或运营结果重合。"
+      },
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key": "amazon-north-america-order-and-checkout-systems",
+        "action_key": "seller-reports-order-display-and-checkout-outage-2026-09-14",
+        "marketplaces": ["US", "CA"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "美加站出现订单数据延迟及部分结账异常，随后逐步恢复（行业线索）",
+        "summary": "AMZ123于2026年9月14日报道，美国站和加拿大站部分卖家经历数小时订单数据不更新，部分FBA数据缺失而FBM仍有上报，广告继续消耗；另有卖家测试前台Buy now时遇到无库存或无法付款。报道援引卖家反馈称，异常约从美国时间9月13日下午2点开始，到北京时间9月14日上午已持续数小时，之后订单数据陆续回补。Amazon截至报道发布时未公开回应，原因、影响账号范围及订单是否完整恢复均未得到官方确认，因此仅作为行业线索。",
+        "impact": "订单仪表板延迟可能造成短时误判销量、库存和广告归因，结账异常则可能影响实际转化。由于公开监测没有确认全站重大故障，不能把同期流量或订单下滑全部归因于平台，也不能假定所有延迟订单已经回补；墨西哥站没有可靠受影响证据。",
+        "action": "对美国、加拿大站按站点分别保存9月13—14日订单、Payments、Business Reports和广告归因快照，重点核对FBA/FBM订单时间、取消、库存扣减及广告销售额；异常订单不要重复发货。若前后台仍不一致，以单一ASIN、订单时间段和截图开Seller Support case，并在恢复后重新计算该时段的TACOS、CVR与库存可售天数。",
+        "category": "competitors",
+        "priority": "P1",
+        "original_published_at": "2026-09-14",
+        "original_date_note": "AMZ123文章发表于2026-09-14 07:46，并被出海网9月14日晚报/9月15早报汇总；本卡按原始报道日期9月14日归档，不作为9月15日新发生事件。Amazon未公布精确事故开始日或正式状态页，effective_date保留unknown。",
+        "first_seen_at": "2026-09-15T01:06:52.000Z",
+        "last_material_update_at": "2026-09-15T01:06:52.000Z",
+        "history_dates": ["2026-09-14"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.amz123.com/t/TWOq3YK7",
+            "publisher": "AMZ123",
+            "kind": "industry_original",
+            "published_at": "2026-09-14",
+            "verified_at": "2026-09-15T01:06:52.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry"
+          },
+          {
+            "url": "https://www.chwang.com/daily/20260914",
+            "publisher": "出海网",
+            "kind": "aggregator",
+            "published_at": "2026-09-14",
+            "verified_at": "2026-09-15T01:06:52.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "3dba45e5519c6b29db957fb0335dc28fae7b62f2d26868c02aab9a692b593ee7",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比对现有29条事件。现有划线价消失事件是美国站价格展示与促销资格异常；本事件是美加两站订单数据上报及部分结账流程异常，涉及站点、系统路径和核验动作均不同。现有Amazon Ads诉讼、ChatGPT Ads试点及FBM政策事件也不描述系统故障。",
+        "distinct_event_reason": "本批另一候选是AHR官方客服奖励机制；一个是平台政策的正向加分，一个是跨站订单/结账技术异常，语义和运营处理路径完全独立。出海网仅为AMZ123报道的汇总转载，作为同一卡片补充来源而未新增重复事件。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-fbm-account-health-rating|add-customer-service-bonus-points-2026|US|unknown",
+      "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "category_notes": {
+      "policy": "新增Amazon美国站官方AHR客服奖励机制：三项FBM客服质量指标最多增加12分，低于门槛不会因此限制销售权限。",
+      "ads": "本期未确认US/CA/MX广告产品或投放机制有新的实质变化；Amazon Ads动态列表只能公开检索，既有ChatGPT Ads试点未重复展示。",
+      "ai": "本期未确认独立的卖家后台AI工具或运营方法增量；窗口外旧公告未包装为今日新闻。",
+      "opportunities": "fuel hose、CPE braided hose、AN fittings、exhaust clamp仅取得US/CA/MX公开商品索引样本，缺少连续关键词、销量和同口径类目快照，本期没有可验证趋势变化。",
+      "competitors": "新增美加站订单数据延迟及部分结账异常行业线索；Amazon未公开确认原因或完整影响范围。三站竞品价格、Coupon和BSR仍缺少同ASIN、同变体、同地区的连续快照。"
+    },
+    "coverage_note": "两项新增的原始发布日期均记录为2026-09-14，2026-09-15仅为首次核验入库日期；没有把转载或重复报道改写成9月15日新发布。已逐项检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、CPSC、Health Canada、墨西哥监管入口、既定行业媒体，以及CA/MX各15个include_source_ids；指定公众号和行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。墨西哥站未确认可靠增量。",
+    "action_items": [
+      {
+        "title": "建立美国站FBM客服指标看板",
+        "detail": "在Feedback Manager记录Buyer contact rate、Average contact response time和Buyer dissatisfaction rate，并按商品质量、履约和运输原因拆解。",
+        "due": "今日",
+        "event_key": "amazon-us-fbm-account-health-rating|add-customer-service-bonus-points-2026|US|unknown"
+      },
+      {
+        "title": "核对美加站异常时段订单与广告数据",
+        "detail": "分别导出9月13—14日订单、Payments、Business Reports和广告归因，检查订单回补、库存扣减及广告销售额是否一致。",
+        "due": "今日",
+        "event_key": "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
+      },
+      {
+        "title": "三站分别维护汽配基线",
+        "detail": "燃油管、CPE braided hose、AN fittings、exhaust clamp按US/CA/MX分别记录ASIN、变体、地域、币种、税费、运费、Coupon和BSR。",
+        "due": "持续执行",
+        "event_key": null
+      }
+    ]
+  }
+}

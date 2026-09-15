@@ -1,0 +1,15 @@
+{
+  "run_id": "run-20260915010100-m8kp2v",
+  "main_baseline": "a4eb72a15d21499e7a7b4fd794390086edad39ee",
+  "registry_events": 31,
+  "registry_digest": "6e5a9f2747152dbfd6d246a27cc9dd4e65d1ff1df036eaafd77b5a9de40ceb3a",
+  "rendered_story_cards": 24,
+  "content_digest": "f73fd1b7be8d470a5d21fb27aaf0f0371c388800d9e3f19ba54a4209611aa966",
+  "generated_html_sha256": "caede8fd117471a03fe4f8b22ff3b97b48fcb32bf05dd4529d212dddfcf692da",
+  "required_event_keys": [
+    "amazon-us-fbm-account-health-rating|add-customer-service-bonus-points-2026|US|unknown",
+    "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
+  ],
+  "daily_briefing_present": false,
+  "tests": "22 passed, 0 failed"
+}

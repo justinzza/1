@@ -1,0 +1,27 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-fbm-account-health-rating|add-customer-service-bonus-points-2026|US|unknown",
+    "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-fbm-account-health-rating|add-customer-service-bonus-points-2026|US|unknown",
+      "action": "new",
+      "review": "已逐条比对现有29条事件。9月13日的FBM Offer级停用事件讨论CR、LSR、ODR和OTDR触发的处置机制；本事件讨论三项客服质量指标带来的AHR正向加分，动作、指标、结果与日期均不同，不是同一公告的改标题。"
+    },
+    {
+      "event_key": "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown",
+      "action": "new",
+      "review": "已逐条比对现有29条事件。现有划线价消失事件是美国站价格展示与促销资格异常；本事件是美加两站订单数据上报及部分结账流程异常，涉及站点、系统路径和核验动作均不同。现有Amazon Ads诉讼、ChatGPT Ads试点及FBM政策事件也不描述系统故障。"
+    }
+  ]
+}
