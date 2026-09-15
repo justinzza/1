@@ -1,7 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31"
+    "amazon-us-fbm-account-health-rating|add-customer-service-bonus-points-2026|US|unknown",
+    "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,25 +12,25 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "新增Amazon美国站官方FBM绩效处置公告：四项指标触发时优先临时停用具体Offer，并提供Other Policy Violations恢复入口。",
-    "ads": "本期未确认Amazon Ads或US/CA/MX广告控制台有新的实质变化；动态列表只能公开检索，已收录ChatGPT Ads试点未重复展示。",
-    "ai": "本期未确认独立的卖家后台AI工具或运营方法增量；窗口外的旧公告未包装为今日新闻。",
-    "opportunities": "fuel hose、CPE braided hose、AN fittings、exhaust clamp仅取得三站公开商品索引样本，缺少连续关键词、销量和同口径类目快照，本期没有可验证趋势变化。",
-    "competitors": "US/CA/MX公开页面受地区、登录和反自动化限制，且缺少同ASIN、同变体、同收货地区的连续价格、Coupon和BSR快照；首次观察不计作变化。"
+    "policy": "新增Amazon美国站官方AHR客服奖励机制：三项FBM客服质量指标最多增加12分，低于门槛不会因此限制销售权限。",
+    "ads": "本期未确认US/CA/MX广告产品或投放机制有新的实质变化；Amazon Ads动态列表只能公开检索，既有ChatGPT Ads试点未重复展示。",
+    "ai": "本期未确认独立的卖家后台AI工具或运营方法增量；窗口外旧公告未包装为今日新闻。",
+    "opportunities": "fuel hose、CPE braided hose、AN fittings、exhaust clamp仅取得US/CA/MX公开商品索引样本，缺少连续关键词、销量和同口径类目快照，本期没有可验证趋势变化。",
+    "competitors": "新增美加站订单数据延迟及部分结账异常行业线索；Amazon未公开确认原因或完整影响范围。三站竞品价格、Coupon和BSR仍缺少同ASIN、同变体、同地区的连续快照。"
   },
-  "coverage_note": "新增事件按2026-09-13原始发布日期归档，规则生效日为8月31日，没有把旧闻刷新到9月14日。已逐项检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、CPSC、Health Canada、墨西哥监管入口、既定行业媒体及CA/MX各自的include_source_ids；指定公众号和行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。加拿大和墨西哥未确认可靠增量。",
+  "coverage_note": "两项新增的原始发布日期均记录为2026-09-14，2026-09-15仅为首次核验入库日期；没有把转载或重复报道改写成9月15日新发布。已逐项检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、CPSC、Health Canada、墨西哥监管入口、既定行业媒体，以及CA/MX各15个include_source_ids；指定公众号和行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。墨西哥站未确认可靠增量。",
   "action_items": [
     {
-      "title": "筛查美国站FBM高风险Offer",
-      "detail": "在Account Health和警告邮件中按Cancellation Rate、Late Shipment Rate、Order Defect Rate、On-Time Delivery Rate定位风险SKU，优先处理低销量Offer。",
-      "due": "立即",
-      "event_key": "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31"
+      "title": "建立美国站FBM客服指标看板",
+      "detail": "在Feedback Manager记录Buyer contact rate、Average contact response time和Buyer dissatisfaction rate，并按商品质量、履约和运输原因拆解。",
+      "due": "今日",
+      "event_key": "amazon-us-fbm-account-health-rating|add-customer-service-bonus-points-2026|US|unknown"
     },
     {
-      "title": "准备Offer恢复路径",
-      "detail": "对被停用Offer进入Other Policy Violations查看原因，修正库存、Handling Time、承运商或取消流程后按指引申请恢复。",
+      "title": "核对美加站异常时段订单与广告数据",
+      "detail": "分别导出9月13—14日订单、Payments、Business Reports和广告归因，检查订单回补、库存扣减及广告销售额是否一致。",
       "due": "今日",
-      "event_key": "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31"
+      "event_key": "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
     },
     {
       "title": "三站分别维护汽配基线",
@@ -39,14 +40,15 @@
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-14",
-  "content_updated_at": "2026-09-14T01:24:00.000Z",
+  "report_date": "2026-09-15",
+  "content_updated_at": "2026-09-15T01:06:52.000Z",
   "new_event_keys": [
-    "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31"
+    "amazon-us-fbm-account-health-rating|add-customer-service-bonus-points-2026|US|unknown",
+    "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 1,
+    "new": 2,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-14T01:24:00.000Z",
+  "content_updated_at": "2026-09-15T01:06:52.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -1535,6 +1535,100 @@
       "event_key": "amazon-us-fbm-account-health|deactivate-at-risk-offer-instead-of-account-2026|US|2026-08-31",
       "id": "evt-2334d0e822a2a6c3",
       "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/7d5f264e-d83e-4557-9557-3999722b7e23"
+    },
+    {
+      "subject_key": "amazon-us-fbm-account-health-rating",
+      "action_key": "add-customer-service-bonus-points-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美国站AHR新增FBM客服表现奖励：三项指标最多增加12分",
+      "summary": "Amazon Seller Central官方公告确认，Account Health Rating（AHR）现会奖励由卖家直接处理客服的Fulfilled by Merchant（FBM）订单。三项门槛分别为Buyer contact rate低于0.50%、Average contact response time少于12小时、Buyer dissatisfaction rate低于4.5%，综合表现最多可增加12个AHR points。Amazon明确表示，这三项客服指标只能提高AHR，表现低于门槛不会因此限制销售权限；卖家可在Feedback Manager和Customer Service Quality Insights查看表现。",
+      "impact": "客服质量从单纯的服务结果增加为AHR正向加分来源，可为合规表现良好的美国站FBM账户提供额外健康分缓冲。但公告没有证明加拿大或墨西哥站同步实施，也不代表其他政策违规、ODR、LSR等账户健康要求被放宽。Buyer contact rate还包含因商品质量、履约或运输问题提出退款或换货的联系，因此改善需要覆盖商品与履约根因。",
+      "action": "在美国站Feedback Manager查看三项指标并按周记录；把买家联系按商品质量、缺货、错发、延迟和运输损坏分类，优先降低可预防原因；建立12小时内回复值班和升级机制，并复盘1—2星客服满意度。不要诱导买家不联系、不提交反馈或改变真实评价，也不要把本次正向加分理解为可忽略其他Account Health违规。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-09-14",
+      "original_date_note": "Seller Central官方账号News_Amazon在本次检查时显示约20小时前发布，按2026-09-14归档；公告未给独立生效日期，effective_date保留unknown，不以抓取日代替。",
+      "first_seen_at": "2026-09-15T01:06:52.000Z",
+      "last_material_update_at": "2026-09-15T01:06:52.000Z",
+      "history_dates": [
+        "2026-09-15"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/8748bc20-98c5-4c12-8bef-f38c0c4d2847",
+          "publisher": "Amazon Seller Central / News_Amazon",
+          "kind": "official",
+          "published_at": "2026-09-14",
+          "verified_at": "2026-09-15T01:06:52.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/8748bc20-98c5-4c12-8bef-f38c0c4d2847"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-fbm-account-health-rating|add-customer-service-bonus-points-2026|US|unknown",
+      "id": "evt-2595f275daf6072c",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/8748bc20-98c5-4c12-8bef-f38c0c4d2847"
+    },
+    {
+      "subject_key": "amazon-north-america-order-and-checkout-systems",
+      "action_key": "seller-reports-order-display-and-checkout-outage-2026-09-14",
+      "marketplaces": [
+        "CA",
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美加站出现订单数据延迟及部分结账异常，随后逐步恢复（行业线索）",
+      "summary": "AMZ123于2026年9月14日报道，美国站和加拿大站部分卖家经历数小时订单数据不更新，部分FBA数据缺失而FBM仍有上报，广告继续消耗；另有卖家测试前台Buy now时遇到无库存或无法付款。报道援引卖家反馈称，异常约从美国时间9月13日下午2点开始，到北京时间9月14日上午已持续数小时，之后订单数据陆续回补。Amazon截至报道发布时未公开回应，原因、影响账号范围及订单是否完整恢复均未得到官方确认，因此仅作为行业线索。",
+      "impact": "订单仪表板延迟可能造成短时误判销量、库存和广告归因，结账异常则可能影响实际转化。由于公开监测没有确认全站重大故障，不能把同期流量或订单下滑全部归因于平台，也不能假定所有延迟订单已经回补；墨西哥站没有可靠受影响证据。",
+      "action": "对美国、加拿大站按站点分别保存9月13—14日订单、Payments、Business Reports和广告归因快照，重点核对FBA/FBM订单时间、取消、库存扣减及广告销售额；异常订单不要重复发货。若前后台仍不一致，以单一ASIN、订单时间段和截图开Seller Support case，并在恢复后重新计算该时段的TACOS、CVR与库存可售天数。",
+      "category": "competitors",
+      "priority": "P1",
+      "original_published_at": "2026-09-14",
+      "original_date_note": "AMZ123文章发表于2026-09-14 07:46，并被出海网9月14日晚报/9月15早报汇总；本卡按原始报道日期9月14日归档，不作为9月15日新发生事件。Amazon未公布精确事故开始日或正式状态页，effective_date保留unknown。",
+      "first_seen_at": "2026-09-15T01:06:52.000Z",
+      "last_material_update_at": "2026-09-15T01:06:52.000Z",
+      "history_dates": [
+        "2026-09-15"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.amz123.com/t/TWOq3YK7",
+          "publisher": "AMZ123",
+          "kind": "industry_original",
+          "published_at": "2026-09-14",
+          "verified_at": "2026-09-15T01:06:52.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://www.amz123.com/t/TWOq3YK7"
+        },
+        {
+          "url": "https://www.chwang.com/daily/20260914",
+          "publisher": "出海网",
+          "kind": "aggregator",
+          "published_at": "2026-09-14",
+          "verified_at": "2026-09-15T01:06:52.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://www.chwang.com/daily/20260914"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown",
+      "id": "evt-aed215d55e3ced1f",
+      "primary_source_url": "https://www.amz123.com/t/TWOq3YK7"
     }
   ]
 }
