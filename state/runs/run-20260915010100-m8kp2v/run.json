@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "run-20260915010100-m8kp2v",
+  "started_at": "2026-09-15T01:01:00.000Z",
+  "finished_at": "2026-09-15T01:16:06.000Z",
+  "lock": {
+    "acquired_commit": "235efae64e8233c8d551958d52535040ca07a8c3",
+    "prepared_commit": "ca2420ab9c0a5646e9dfdc32d025b006db642f6c",
+    "previous_radar_state_head": "b8695a05b3693d260dfae6b1a25694dec877d4b4",
+    "released": true
+  },
+  "main_baseline": "a4eb72a15d21499e7a7b4fd794390086edad39ee",
+  "material_changed": true,
+  "counts": {"new":2,"updated":0,"merged":0,"deduplicated":0,"excluded_duplicates":0},
+  "publication": {
+    "status": "verified",
+    "commit_sha": "dc22e6de0d3f4925f4df752ab2c8c4f6655d64eb",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "github_status": "success",
+    "expected_content_digest": "c5cce5fdafc11114ec889e39abf2d9774c3d387459e33bf0f9078fff4a5e30fc",
+    "observed_content_digest": "c5cce5fdafc11114ec889e39abf2d9774c3d387459e33bf0f9078fff4a5e30fc",
+    "generated_html_sha256": "caede8fd117471a03fe4f8b22ff3b97b48fcb32bf05dd4529d212dddfcf692da",
+    "verified_at": "2026-09-15T01:16:06.000Z",
+    "rendered_story_cards": 24
+  },
+  "source_coverage": [
+    {"id":"amazon_seller_news","status":"partial_dynamic_index_with_verified_event","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":["https://sellercentral.amazon.com/seller-forums/discussions/t/8748bc20-98c5-4c12-8bef-f38c0c4d2847"],"note":"直接核验News_Amazon官方AHR客服奖励公告；动态列表仍不能公开完整遍历。"},
+    {"id":"amazon_global_selling_news","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"全球开店仅完成公开搜索核对，未发现US/CA/MX可靠非重复增量。"},
+    {"id":"amazon_ads_whats_new","status":"partial_dynamic_index","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"动态列表仅能公开检索；未发现可靠非重复增量。"},
+    {"id":"relevant_regulators","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"检查CPSC、FTC及相关美国监管公开入口，未发现新的Amazon卖家实质事件。"},
+    {"id":"amazon_seller_news_ca","status":"partial_dynamic_index","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"Amazon.ca Seller Central动态列表不能公开完整遍历；订单异常只以行业线索收录。"},
+    {"id":"amazon_seller_news_mx","status":"partial_dynamic_index","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"Amazon.com.mx Seller Central动态列表不能公开完整遍历；未发现可靠增量。"},
+    {"id":"relevant_regulators_ca","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"检查Health Canada公开召回和监管入口，未确认新的Amazon.ca卖家事件。"},
+    {"id":"relevant_regulators_mx","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"检查SAT、ANAM及gob.mx公开入口，未发现新的Amazon.com.mx卖家事件。"},
+    {"id":"crossborder_headlines","status":"public_search_only_with_verified_clue","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":["https://www.amz123.com/t/TWOq3YK7"],"note":"核验美加站订单数据延迟及部分结账异常行业线索；Amazon尚未公开确认原因与影响范围。"},
+    {"id":"crossborder_briefs","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"逐项公开检索跨境快讯，未发现其他可靠非重复增量。"},
+    {"id":"wearesellers","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"逐项公开检索知无不言，未发现可靠非重复增量。"},
+    {"id":"tt123","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"逐项公开检索TT123，未发现可靠非重复增量。"},
+    {"id":"brand_ark","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"逐项公开检索品牌方舟，未发现可靠非重复增量。"},
+    {"id":"seller_home","status":"public_search_only_unstable_body","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"卖家之家正文读取不稳定，仅完成公开摘要核对。"},
+    {"id":"wechat_dabao","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"单独检索大宝站外推广公开页面和摘要；无窗口内可核验新文。"},
+    {"id":"wechat_huluwa","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"单独检索葫芦娃站外推广公开页面和摘要；无窗口内可核验新文。"},
+    {"id":"wechat_santou","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"单独检索三头六臂跨境电商；仅获得公开标签页或无结果。"},
+    {"id":"wechat_crossborder_headlines","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"对应公众号仅能取得公开摘要或无结果，无法完整遍历。"},
+    {"id":"wechat_crossborder_briefs","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"对应公众号仅能取得公开摘要或无结果，无法完整遍历。"},
+    {"id":"wechat_wearesellers","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"对应公众号仅能取得公开摘要、旧文或无结果。"},
+    {"id":"wechat_tt123","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"对应公众号仅能取得公开摘要、旧文或无结果。"},
+    {"id":"wechat_brand_ark","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"对应公众号仅能取得公开摘要、旧文或无结果。"},
+    {"id":"wechat_seller_home","status":"public_search_only","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"对应公众号仅能取得公开摘要、旧文或无结果。"},
+    {"id":"amazon_category_competitors","status":"baseline_only_no_comparable_change","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":["https://www.amazon.com/"],"note":"美国汽配公开样本缺少同ASIN、变体、地域连续快照；首次观察不计变化。"},
+    {"id":"industry_wechat_ca","status":"partial_includes_checked","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":["https://www.amz123.com/t/TWOq3YK7"],"note":"逐一用Canada/CA站点词检查include_source_ids全部来源；收录订单异常行业线索，其余仅公开搜索覆盖。"},
+    {"id":"industry_wechat_mx","status":"partial_includes_checked","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":[],"note":"逐一用Mexico/MX站点词检查include_source_ids全部来源，仅公开搜索覆盖。"},
+    {"id":"amazon_category_competitors_ca","status":"baseline_only_no_comparable_change","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":["https://www.amazon.ca/"],"note":"加拿大汽配公开样本仅作基线；未从美国站推断价格或排名变化。"},
+    {"id":"amazon_category_competitors_mx","status":"baseline_only_no_comparable_change","window_start":"2026-08-27T16:00:00.000Z","window_end":"2026-09-15T01:16:06.000Z","cursor_advanced":false,"evidence":["https://www.amazon.com.mx/"],"note":"墨西哥汽配公开样本仅作基线；未从美国站推断价格或排名变化。"}
+  ],
+  "market_coverage": {
+    "US": "partial：新增AHR客服表现奖励官方公告及订单/结账异常行业线索；动态索引、卖家之家和公众号无法完整遍历。",
+    "CA": "partial：新增订单数据延迟及部分结账异常行业线索；官方动态索引与公众号无法完整遍历。",
+    "MX": "partial：逐一检查官方监管、Seller Central公开索引、行业/公众号include_source_ids及汽配样本；未发现可靠非重复增量。"
+  },
+  "validation": {
+    "tests": "22 passed, 0 failed",
+    "registry": {"valid":true,"events":31,"digest":"6e5a9f2747152dbfd6d246a27cc9dd4e65d1ff1df036eaafd77b5a9de40ceb3a"},
+    "production": {"github_vercel_status":"success","expected_content_digest":"c5cce5fdafc11114ec889e39abf2d9774c3d387459e33bf0f9078fff4a5e30fc","observed_content_digest":"c5cce5fdafc11114ec889e39abf2d9774c3d387459e33bf0f9078fff4a5e30fc","rendered_story_cards":24,"new_events_present":true,"daily_briefing_present":false,"page_console_errors":0,"excluded_extension_errors":1}
+  },
+  "notes": [
+    "两项事件均按2026-09-14原始发布日期归档，未把旧闻伪装成9月15日发布。",
+    "标题语义、event_key、规范化来源链接和生效日期逐条比对现有29条事件及本批候选，确认不是重复新闻。",
+    "订单异常仅有行业媒体与卖家反馈，Amazon未正式说明原因、范围或补录完整性，因此醒目标注行业线索。",
+    "Vercel状态成功，正式页面content digest、卡片数量和两条新事件路径均验收通过，DAILY BRIEFING未恢复。",
+    "所有来源仍为部分公开覆盖，因此未推进任何成功游标，8月29—30日补查标记继续保留。"
+  ]
+}
