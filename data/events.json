@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-15T01:06:52.000Z",
+  "content_updated_at": "2026-09-16T01:06:15.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -1629,6 +1629,58 @@
       "event_key": "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown",
       "id": "evt-aed215d55e3ced1f",
       "primary_source_url": "https://www.amz123.com/t/TWOq3YK7"
+    },
+    {
+      "subject_key": "amazon-mexico-new-and-reactivated-seller-fees",
+      "action_key": "waive-referral-and-logistics-fees-up-to-five-months-2026",
+      "marketplaces": [
+        "MX"
+      ],
+      "effective_date": "2026-07-15",
+      "deadline": "2026-12-30",
+      "title": "墨西哥站新卖家及重新激活卖家可获3个月费用减免，达标最多延长至5个月",
+      "summary": "Amazon Mexico于2026年9月14日公布Programa de Exencion de Tarifas para Vendedores Nuevos y Reactivados。符合条件且税务地址在墨西哥的新卖家及重新激活卖家，成功自动登记后可在3个月基础期内免除各配送渠道的销售佣金，并免除FBA、Easy Ship和Seller Flex物流费用；MFN只免销售佣金，不免物流费用。基础期前90天若达到并维持5%的TACoS，可延长1个月；FBA销售件数占总销售件数达到80%，可再延长1个月，最多5个月。基础期和延长期累计优惠上限为MXN 200,000。",
+      "impact": "该计划可显著降低符合资格的墨西哥本土新卖家或重新激活卖家的前期获客和履约成本，但不是全体墨西哥站卖家普遍降费。Amazon会自动判断资格，基础登记验证最多可能需要两周，验证期间已收费用不追溯退款；优惠也不得与多数其他费用减免计划叠加。文章另述的12个月月服务费减免属于独立条件，要求卖家只在墨西哥销售，不能与本计划的3至5个月佣金及物流费减免混为一谈。",
+      "action": "核对墨西哥税务地址、首个可售Offer日期及是否满足新卖家或连续12个月无可售商品后重新激活的条件，并在Seller Central确认自动登记状态。逐月核对销售佣金和FBA、Easy Ship或Seller Flex物流费明细，保留登记验证截图；计划争取延长时，分别监控前90天TACoS是否达到并维持5%以及FBA销售件数占比是否达到80%。按MXN口径测算优惠，累计减免不得超过MXN 200,000，并在2026年12月30日前完成符合条件的登记窗口。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": "2026-09-14",
+      "original_date_note": "Amazon Mexico官方文章发表于2026-09-14；活动资格起点及登记窗口起始日为2026-07-15，截止日为2026-12-30。卡片按9月14日原始发布日期归档，2026-09-16仅为首次核验入库日期。",
+      "first_seen_at": "2026-09-16T01:06:15.000Z",
+      "last_material_update_at": "2026-09-16T01:06:15.000Z",
+      "history_dates": [
+        "2026-09-16"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.mx/amazon-mexico-elimina-comisiones-para-nuevos-vendedores-hasta-por-cinco-meses-extendiendo-sus-reducciones-historicas",
+          "publisher": "Amazon Mexico",
+          "kind": "official",
+          "published_at": "2026-09-14",
+          "verified_at": "2026-09-16T01:06:15.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.mx/amazon-mexico-elimina-comisiones-para-nuevos-vendedores-hasta-por-cinco-meses-extendiendo-sus-reducciones-historicas"
+        },
+        {
+          "url": "https://vender.amazon.com.mx/terminos/promocion",
+          "publisher": "Amazon Mexico",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-09-16T01:06:15.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://vender.amazon.com.mx/terminos/promocion"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-mexico-new-and-reactivated-seller-fees|waive-referral-and-logistics-fees-up-to-five-months-2026|MX|2026-07-15",
+      "primary_source_url": "https://www.aboutamazon.mx/amazon-mexico-elimina-comisiones-para-nuevos-vendedores-hasta-por-cinco-meses-extendiendo-sus-reducciones-historicas",
+      "id": "evt-48f179dd07fe04c5"
     }
   ]
 }
