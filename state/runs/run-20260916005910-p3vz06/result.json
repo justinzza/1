@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-mexico-new-and-reactivated-seller-fees|waive-referral-and-logistics-fees-up-to-five-months-2026|MX|2026-07-15"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-mexico-new-and-reactivated-seller-fees|waive-referral-and-logistics-fees-up-to-five-months-2026|MX|2026-07-15",
+      "action": "new",
+      "review": "逐条比较现有31条事件的event_key、标题语义、规范化来源链接和生效日期。库中没有墨西哥新卖家/重新激活卖家3个月基础费用减免及最多2个月延长的事件；既有FBA New Selection及其他新卖家福利的适用对象、费用范围、条件和生效窗口均不同，因此为独立新增。"
+    }
+  ]
+}

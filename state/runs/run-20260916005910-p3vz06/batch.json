@@ -1,0 +1,110 @@
+{
+  "base_digest": "6e5a9f2747152dbfd6d246a27cc9dd4e65d1ff1df036eaafd77b5a9de40ceb3a",
+  "checked_at": "2026-09-16T01:06:15.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-mexico-new-and-reactivated-seller-fees",
+        "action_key": "waive-referral-and-logistics-fees-up-to-five-months-2026",
+        "marketplaces": [
+          "MX"
+        ],
+        "effective_date": "2026-07-15",
+        "deadline": "2026-12-30",
+        "title": "墨西哥站新卖家及重新激活卖家可获3个月费用减免，达标最多延长至5个月",
+        "summary": "Amazon Mexico于2026年9月14日公布Programa de Exencion de Tarifas para Vendedores Nuevos y Reactivados。符合条件且税务地址在墨西哥的新卖家及重新激活卖家，成功自动登记后可在3个月基础期内免除各配送渠道的销售佣金，并免除FBA、Easy Ship和Seller Flex物流费用；MFN只免销售佣金，不免物流费用。基础期前90天若达到并维持5%的TACoS，可延长1个月；FBA销售件数占总销售件数达到80%，可再延长1个月，最多5个月。基础期和延长期累计优惠上限为MXN 200,000。",
+        "impact": "该计划可显著降低符合资格的墨西哥本土新卖家或重新激活卖家的前期获客和履约成本，但不是全体墨西哥站卖家普遍降费。Amazon会自动判断资格，基础登记验证最多可能需要两周，验证期间已收费用不追溯退款；优惠也不得与多数其他费用减免计划叠加。文章另述的12个月月服务费减免属于独立条件，要求卖家只在墨西哥销售，不能与本计划的3至5个月佣金及物流费减免混为一谈。",
+        "action": "核对墨西哥税务地址、首个可售Offer日期及是否满足新卖家或连续12个月无可售商品后重新激活的条件，并在Seller Central确认自动登记状态。逐月核对销售佣金和FBA、Easy Ship或Seller Flex物流费明细，保留登记验证截图；计划争取延长时，分别监控前90天TACoS是否达到并维持5%以及FBA销售件数占比是否达到80%。按MXN口径测算优惠，累计减免不得超过MXN 200,000，并在2026年12月30日前完成符合条件的登记窗口。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-09-14",
+        "original_date_note": "Amazon Mexico官方文章发表于2026-09-14；活动资格起点及登记窗口起始日为2026-07-15，截止日为2026-12-30。卡片按9月14日原始发布日期归档，2026-09-16仅为首次核验入库日期。",
+        "first_seen_at": "2026-09-16T01:06:15.000Z",
+        "last_material_update_at": "2026-09-16T01:06:15.000Z",
+        "history_dates": [
+          "2026-09-16"
+        ],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.mx/amazon-mexico-elimina-comisiones-para-nuevos-vendedores-hasta-por-cinco-meses-extendiendo-sus-reducciones-historicas",
+            "publisher": "Amazon Mexico",
+            "kind": "official",
+            "published_at": "2026-09-14",
+            "verified_at": "2026-09-16T01:06:15.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://www.aboutamazon.mx/amazon-mexico-elimina-comisiones-para-nuevos-vendedores-hasta-por-cinco-meses-extendiendo-sus-reducciones-historicas"
+          },
+          {
+            "url": "https://vender.amazon.com.mx/terminos/promocion",
+            "publisher": "Amazon Mexico",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-09-16T01:06:15.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://vender.amazon.com.mx/terminos/promocion"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": [],
+        "event_key": "amazon-mexico-new-and-reactivated-seller-fees|waive-referral-and-logistics-fees-up-to-five-months-2026|MX|2026-07-15",
+        "primary_source_url": "https://www.aboutamazon.mx/amazon-mexico-elimina-comisiones-para-nuevos-vendedores-hasta-por-cinco-meses-extendiendo-sus-reducciones-historicas"
+      },
+      "dedupe_review": {
+        "compared_digest": "6e5a9f2747152dbfd6d246a27cc9dd4e65d1ff1df036eaafd77b5a9de40ceb3a",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条比较现有31条事件的event_key、标题语义、规范化来源链接和生效日期。库中没有墨西哥新卖家/重新激活卖家3个月基础费用减免及最多2个月延长的事件；既有FBA New Selection及其他新卖家福利的适用对象、费用范围、条件和生效窗口均不同，因此为独立新增。",
+        "distinct_event_reason": "本事件是墨西哥税务地址卖家专属的新注册/重新激活费用计划，不与US/CA政策合并，也不与独立的12个月月服务费减免合并。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-mexico-new-and-reactivated-seller-fees|waive-referral-and-logistics-fees-up-to-five-months-2026|MX|2026-07-15"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "category_notes": {
+      "policy": "新增墨西哥站官方新卖家及重新激活卖家费用减免计划；美国、加拿大本期未确认新的官方政策实质增量。",
+      "ads": "本期未确认US/CA/MX广告产品、投放机制或流量规则有新的可靠实质变化；动态列表只能公开检索。",
+      "ai": "本期未确认独立的卖家后台AI工具或运营方法增量。",
+      "opportunities": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少US/CA/MX连续关键词、销量和同口径类目快照，不能形成趋势结论。",
+      "competitors": "未指定可比ASIN，三站价格、Coupon、BSR和页面变化缺少同ASIN、同变体、同地域连续快照；首次公开样本不计作变化。"
+    },
+    "coverage_note": "新增事件按2026-09-14官方原始发布日期归档，2026-09-16仅为首次核验入库日期，没有把旧闻或转载刷新为当天新闻。已检查US/CA/MX官方Seller Central公开索引、Amazon Ads、全球开店、CPSC、Health Canada、墨西哥官方入口及既定行业媒体；CA/MX行业及公众号组逐一按include_source_ids执行公开检索。Seller Central和Amazon Ads动态列表、卖家之家正文以及指定公众号和行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。",
+    "action_items": [
+      {
+        "title": "确认墨西哥费用计划资格与登记状态",
+        "detail": "核对墨西哥税务地址、首个可售Offer或重新激活日期，并在Seller Central确认自动登记及3个月基础期开始时间。",
+        "due": "今日",
+        "event_key": "amazon-mexico-new-and-reactivated-seller-fees|waive-referral-and-logistics-fees-up-to-five-months-2026|MX|2026-07-15"
+      },
+      {
+        "title": "建立延长期达标看板",
+        "detail": "前90天分别监控TACoS 5%和FBA销售件数占比80%，按MXN记录已减免销售佣金、物流费及MXN 200,000累计上限。",
+        "due": "基础期内持续",
+        "event_key": "amazon-mexico-new-and-reactivated-seller-fees|waive-referral-and-logistics-fees-up-to-five-months-2026|MX|2026-07-15"
+      },
+      {
+        "title": "三站分别维护汽配基线",
+        "detail": "燃油管、CPE braided fuel hose、AN fittings、exhaust clamp按US/CA/MX分别记录ASIN、变体、地域、币种、税费、运费、Coupon和BSR。",
+        "due": "持续执行",
+        "event_key": null
+      }
+    ]
+  }
+}

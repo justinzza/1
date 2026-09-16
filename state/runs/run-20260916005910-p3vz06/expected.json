@@ -1,0 +1,20 @@
+{
+  "run_id": "run-20260916005910-p3vz06",
+  "status": "prepared",
+  "main_baseline": "dc22e6de0d3f4925f4df752ab2c8c4f6655d64eb",
+  "report_date": "2026-09-16",
+  "registry_digest": "245ef6e961589616bd01140402b208f12a6a84934b338e55896137076f2b5613",
+  "expected_content_digest": "f929a9a3e7eaeb758b467a76cb81bdb63a4365759e5bd6413c1037bd1f7b20c6",
+  "generated_html_sha256": "d8ffd319216e49ef2debe03e4df450ebb7c54822f705750dd83bb13094bcebd3",
+  "expected_story_cards": 25,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-mexico-new-and-reactivated-seller-fees|waive-referral-and-logistics-fees-up-to-five-months-2026|MX|2026-07-15"
+  ],
+  "daily_briefing_present": false
+}
