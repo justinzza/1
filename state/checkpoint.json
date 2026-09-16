@@ -1,36 +1,204 @@
 {
   "schema_version": 1,
+  "created_at": "2026-08-31T00:00:00.000Z",
+  "bootstrap_window_start": "2026-08-28T00:00:00+08:00",
+  "pending_backfill_dates": [
+    "2026-08-29",
+    "2026-08-30"
+  ],
+  "last_successful_run_at": null,
+  "last_run_id": "run-20260916005910-p3vz06",
+  "last_run_status": "partial",
+  "last_verified_publication": {
+    "status": "verified",
+    "commit_sha": "414ff3d112b89f10ba768925d4b7603ae2725b79",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "github_status": "success",
+    "expected_digest": "f929a9a3e7eaeb758b467a76cb81bdb63a4365759e5bd6413c1037bd1f7b20c6",
+    "observed_digest": "f929a9a3e7eaeb758b467a76cb81bdb63a4365759e5bd6413c1037bd1f7b20c6",
+    "verified_at": "2026-09-16T01:14:41.000Z",
+    "generated_html_sha256": "d8ffd319216e49ef2debe03e4df450ebb7c54822f705750dd83bb13094bcebd3",
+    "rendered_story_cards": 25,
+    "new_event_present": true,
+    "daily_briefing_present": false
+  },
+  "pending_publication": null,
+  "deferred_metadata": null,
+  "sources": {
+    "amazon_seller_news": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "amazon_global_selling_news": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "amazon_ads_whats_new": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "relevant_regulators": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "amazon_seller_news_ca": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "amazon_seller_news_mx": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "relevant_regulators_ca": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "relevant_regulators_mx": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "crossborder_headlines": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "crossborder_briefs": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "wearesellers": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "tt123": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "brand_ark": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "seller_home": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "wechat_dabao": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "wechat_huluwa": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "wechat_santou": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "wechat_crossborder_headlines": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "wechat_crossborder_briefs": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "wechat_wearesellers": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "wechat_tt123": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "wechat_brand_ark": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "wechat_seller_home": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "amazon_category_competitors": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "industry_wechat_ca": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "industry_wechat_mx": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "amazon_category_competitors_ca": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    },
+    "amazon_category_competitors_mx": {
+      "last_successful_check_at": null,
+      "last_attempt_at": "2026-09-16T01:14:41.000Z",
+      "last_status": "public_search_only",
+      "backfill_complete": false
+    }
+  },
   "last_manual_recovery": {
     "at": "2026-09-10T01:13:46.959Z",
-    "reason": "补齐9月3—9月8归档并落实‘重复新闻不用更新到当天’",
+    "reason": "补齐9月3—9月8归档并落实重复新闻不用更新到当天",
     "main_commit": "f0dc84f4cf7f189e35ddb85b1f54d123ebd1fc56",
-    "counts": {"new":1,"updated":1,"merged":0,"deduplicated":1},
-    "production_verified": true,
-    "production_digest": "8afd28e0db2ad7f20018742851bed5fdc8256fb8fc0823808ff535f97740712c",
-    "notes": "Commercial Liability Insurance归档到9月3日；Business Deals归档回8月31日；新增Product Collection迁移事件；DAILY BRIEFING未恢复。"
+    "production_verified": true
   },
-  "last_verified_publication": {
-    "at": "2026-09-15T01:16:06.000Z",
-    "main_commit": "dc22e6de0d3f4925f4df752ab2c8c4f6655d64eb",
-    "url": "https://amazon-ops-radar-vercel.vercel.app/",
-    "digest": "c5cce5fdafc11114ec889e39abf2d9774c3d387459e33bf0f9078fff4a5e30fc",
-    "counts": {"new":2,"updated":0,"merged":0,"deduplicated":0}
-  },
-  "last_run": {
-    "id": "run-20260915010100-m8kp2v",
-    "status": "partial_published",
-    "finished_at": "2026-09-15T01:16:06.000Z",
-    "note": "Published one verified US AHR update and one US/CA order-system industry clue; public source coverage remains partial and no success cursor advanced."
-  },
-  "last_attempt": {
-    "id": "run-20260915010100-m8kp2v",
-    "at": "2026-09-15T01:16:06.000Z",
-    "status": "partial_published",
-    "main_commit": "dc22e6de0d3f4925f4df752ab2c8c4f6655d64eb",
-    "counts": {"new":2,"updated":0,"merged":0,"deduplicated":0},
-    "publication_attempted": true,
-    "note": "GitHub Vercel状态与正式页面content digest、卡片数量、新事件路径验收通过；两项事件均按9月14日原始日期归档。"
-  },
-  "pending_backfill_dates": ["2026-08-29", "2026-08-30"],
-  "source_cursors_advanced": false
+  "migrated_from_simplified_checkpoint_at": "2026-09-16T01:14:41.000Z"
 }

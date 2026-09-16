@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "id": "run-20260916005910-p3vz06",
+  "base_state_digest": "67026cf386891fdc44ec79f284a0adc281e4ac714a9ad8fc6b129923c927355e",
+  "started_at": "2026-09-16T00:59:10.000Z",
+  "finished_at": "2026-09-16T01:14:41.000Z",
+  "backfill_complete": false,
+  "material_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0,
+    "excluded_duplicates": 0
+  },
+  "publication": {
+    "status": "verified",
+    "commit_sha": "414ff3d112b89f10ba768925d4b7603ae2725b79",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "github_status": "success",
+    "expected_digest": "f929a9a3e7eaeb758b467a76cb81bdb63a4365759e5bd6413c1037bd1f7b20c6",
+    "observed_digest": "f929a9a3e7eaeb758b467a76cb81bdb63a4365759e5bd6413c1037bd1f7b20c6",
+    "verified_at": "2026-09-16T01:14:41.000Z",
+    "generated_html_sha256": "d8ffd319216e49ef2debe03e4df450ebb7c54822f705750dd83bb13094bcebd3",
+    "rendered_story_cards": 25,
+    "new_event_present": true,
+    "daily_briefing_present": false
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "note": "美国Seller Central动态列表仅能公开检索；未发现9月15日后的可靠非重复官方增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "note": "全球开店公开索引完成检索；墨西哥新费用计划以Amazon Mexico官方原文核验。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.mx/amazon-mexico-elimina-comisiones-para-nuevos-vendedores-hasta-por-cinco-meses-extendiendo-sus-reducciones-historicas",
+          "note": "Amazon Mexico于2026-09-14发布费用减免计划。"
+        },
+        {
+          "url": "https://vender.amazon.com.mx/terminos/promocion",
+          "note": "Amazon Mexico条款页核实资格、费用范围、延长条件、上限和截止日。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "note": "Amazon Ads动态列表只能公开检索，未发现可靠非重复增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "note": "检查CPSC、FTC及美国监管公开入口，未发现新的Amazon卖家实质事件。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "note": "Amazon.ca Seller Central动态列表不能公开完整遍历，未确认可靠增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "note": "Amazon.com.mx Seller Central动态列表不能公开完整遍历；费用计划由公开Amazon Mexico原文与条款页直接核验。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.mx/amazon-mexico-elimina-comisiones-para-nuevos-vendedores-hasta-por-cinco-meses-extendiendo-sus-reducciones-historicas",
+          "note": "Amazon Mexico于2026-09-14发布费用减免计划。"
+        },
+        {
+          "url": "https://vender.amazon.com.mx/terminos/promocion",
+          "note": "Amazon Mexico条款页核实资格、费用范围、延长条件、上限和截止日。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "note": "检查Health Canada公开召回和监管入口，未确认新的Amazon.ca卖家事件。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "note": "检查SAT、ANAM及gob.mx公开入口，未发现新的Amazon.com.mx监管事件。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "note": "逐项公开检索跨境头条，未发现除官方费用计划外的可靠非重复增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "note": "逐项公开检索跨境快讯，未发现可靠非重复增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "note": "逐项公开检索知无不言，未发现可靠非重复增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "note": "逐项公开检索TT123，未发现可靠非重复增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "note": "逐项公开检索品牌方舟，未发现可靠非重复增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "note": "卖家之家正文读取不稳定，仅完成公开摘要核对。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "note": "单独检索大宝站外推广公开页面和摘要；无窗口内可完整核验新文。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "note": "单独检索葫芦娃站外推广公开页面、标签页和摘要；无窗口内可完整核验新文。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "note": "单独检索三头六臂跨境电商；仅取得公开搜索结果或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要或无结果，无法完整遍历。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要或无结果，无法完整遍历。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要、旧文或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要、旧文或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要、旧文或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要、旧文或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "note": "美国汽配公开样本缺少同ASIN、变体、地域连续快照；首次观察不计变化。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "note": "逐一用Canada/CA站点词检查include_source_ids全部来源；均为公开搜索或摘要覆盖。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "note": "逐一用Mexico/MX站点词检查include_source_ids全部来源；官方费用计划以Amazon原文核验，其余为公开搜索覆盖。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.mx/amazon-mexico-elimina-comisiones-para-nuevos-vendedores-hasta-por-cinco-meses-extendiendo-sus-reducciones-historicas",
+          "note": "Amazon Mexico于2026-09-14发布费用减免计划。"
+        },
+        {
+          "url": "https://vender.amazon.com.mx/terminos/promocion",
+          "note": "Amazon Mexico条款页核实资格、费用范围、延长条件、上限和截止日。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "note": "加拿大汽配公开样本仅作基线；未从美国站推断价格或排名变化。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "note": "墨西哥汽配公开样本仅作基线；未从美国站推断价格或排名变化。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-16T01:14:41.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    }
+  ],
+  "lock": {
+    "acquired_commit": "06dbec576ebed5bd50aa2ebba3eb78af0609aeaf",
+    "prepared_commit": "c96a865758e5e4758035f8fb5fca958a0d0e125a",
+    "previous_radar_state_head": "257dfb67f2d387586965f012f5d309da6bae5661",
+    "released": true
+  },
+  "main_baseline": "dc22e6de0d3f4925f4df752ab2c8c4f6655d64eb",
+  "market_coverage": {
+    "US": "partial：官方动态索引、卖家之家正文和公众号无法完整遍历；未确认可靠非重复增量。",
+    "CA": "partial：官方动态索引和公众号无法完整遍历；未确认可靠非重复增量。",
+    "MX": "partial：新增Amazon Mexico官方费用减免计划；动态索引和公众号无法完整遍历。"
+  },
+  "validation": {
+    "tests": "22 passed, 0 failed",
+    "registry": {
+      "valid": true,
+      "events": 32,
+      "digest": "245ef6e961589616bd01140402b208f12a6a84934b338e55896137076f2b5613"
+    },
+    "production": {
+      "expected_content_digest": "f929a9a3e7eaeb758b467a76cb81bdb63a4365759e5bd6413c1037bd1f7b20c6",
+      "observed_content_digest": "f929a9a3e7eaeb758b467a76cb81bdb63a4365759e5bd6413c1037bd1f7b20c6",
+      "rendered_story_cards": 25,
+      "new_event_present": true,
+      "daily_briefing_present": false
+    }
+  },
+  "notes": [
+    "新增事件按2026-09-14官方发布日期归档，未改写为9月16日发布。",
+    "标题语义、event_key、规范化来源链接和生效日期逐条比较现有31条事件及本批候选，确认不是重复新闻。",
+    "Vercel提交状态成功，正式页面content digest、卡片数量和新事件锚点验收通过。",
+    "全部来源仍为部分公开覆盖，因此未推进任何成功游标，8月29—30日补查标记继续保留。"
+  ]
+}
