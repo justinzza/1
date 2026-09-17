@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-16T01:06:15.000Z",
+  "content_updated_at": "2026-09-17T01:05:03.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -1681,6 +1681,59 @@
       "event_key": "amazon-mexico-new-and-reactivated-seller-fees|waive-referral-and-logistics-fees-up-to-five-months-2026|MX|2026-07-15",
       "primary_source_url": "https://www.aboutamazon.mx/amazon-mexico-elimina-comisiones-para-nuevos-vendedores-hasta-por-cinco-meses-extendiendo-sus-reducciones-historicas",
       "id": "evt-48f179dd07fe04c5"
+    },
+    {
+      "subject_key": "amazon-prime-big-deal-days-2026",
+      "action_key": "schedule-october-6-7-2026",
+      "marketplaces": [
+        "CA",
+        "US"
+      ],
+      "effective_date": "2026-10-06",
+      "deadline": null,
+      "title": "美加站Prime Big Deal Days定档10月6—7日，48小时促销覆盖35+类目",
+      "summary": "Amazon美国与加拿大官方页面确认，2026年Prime Big Deal Days将于10月6日至7日举行，为期48小时，覆盖35个以上类目。美国站从10月6日00:01 PDT开始，并通过Today's Big Deals每天三次释放新促销；加拿大站同样确认10月6—7日档期。Amazon同时把墨西哥列入本季22个参与国家，但明确提示各国日期可能不同，因此本卡只把已独立确认相同日期的US和CA列为适用站点。",
+      "impact": "这是美国、加拿大站第四季度促销和库存节奏的明确时间锚点。卖家需要倒排FBA入仓、促销资格、价格历史、广告预算与客服排班；但消费者活动公告不等于所有第三方SKU自动获得活动标识，也未提供统一的卖家提报截止日。墨西哥站参与资格可确认，但在取得当地精确日期前不能把10月6—7日直接套用。",
+      "action": "分别进入美国、加拿大Seller Central的营销推广/促销管理页面，核对账户可用的Deal、Prime Exclusive Price Discount和Coupon提报入口及截止日；按10月6日倒排补货并预留入仓延迟；审计近30/60/90天价格与Coupon记录，避免促销资格或参考价异常；为活动前、中、后分别设置广告预算、库存和毛利护栏。墨西哥站等待当地公告或卖家后台日期后再排期。",
+      "category": "opportunities",
+      "priority": "P0",
+      "original_published_at": "2026-09-14",
+      "original_date_note": "Amazon Canada官方页面发表于2026-09-14并明确10月6—7日；Amazon美国官方页面于2026-09-16公开同一档期。事件按最早官方发布日期9月14日归档，2026-09-17仅为首次核验入库日期。Mexico虽被列为参与国家，但官方同时注明各国日期可能不同，未将美加日期套用至MX。",
+      "first_seen_at": "2026-09-17T01:05:03.000Z",
+      "last_material_update_at": "2026-09-17T01:05:03.000Z",
+      "history_dates": [
+        "2026-09-17"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.ca/pbdd-2026",
+          "publisher": "Amazon Canada",
+          "kind": "official",
+          "published_at": "2026-09-14",
+          "verified_at": "2026-09-17T01:05:03.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.ca/pbdd-2026"
+        },
+        {
+          "url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7",
+          "publisher": "Amazon",
+          "kind": "official",
+          "published_at": "2026-09-16",
+          "verified_at": "2026-09-17T01:05:03.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06",
+      "primary_source_url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7",
+      "id": "evt-41c407c2813f7b44"
     }
   ]
 }
