@@ -1,12 +1,18 @@
 {
   "schema_version": 1,
   "run_id": "run-20260917005952-h4rt8k",
-  "status": "active",
+  "status": "released",
   "acquired_at": "2026-09-17T01:00:27.000Z",
   "expires_at": "2026-09-17T02:30:27.000Z",
   "previous_radar_state_head": "42163917beece50bea92083f74c778b97fef86b9",
   "takeover_reason": null,
-  "released_at": null,
-  "release_run_record": null,
-  "publication": null
+  "released_at": "2026-09-17T01:12:23.000Z",
+  "release_run_record": "state/runs/run-20260917005952-h4rt8k/run.json",
+  "publication": {
+    "status": "verified",
+    "commit_sha": "a95a626e15e6495ad4490182ecff4c2d0b35edbe",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "c3f9df200ba26c5c14c01083a22caf6f3195b277200c0bf5b1a534e523a9993c",
+    "observed_digest": "c3f9df200ba26c5c14c01083a22caf6f3195b277200c0bf5b1a534e523a9993c"
+  }
 }

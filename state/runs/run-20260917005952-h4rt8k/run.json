@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "id": "run-20260917005952-h4rt8k",
+  "base_state_digest": "e348e4a42f0f55fb284b403499fa51f29e33cdeeb6b6e0877b3789e39c427487",
+  "started_at": "2026-09-17T00:59:52.000Z",
+  "finished_at": "2026-09-17T01:12:23.000Z",
+  "backfill_complete": false,
+  "material_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0,
+    "excluded_duplicates": 4
+  },
+  "publication": {
+    "status": "verified",
+    "commit_sha": "a95a626e15e6495ad4490182ecff4c2d0b35edbe",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "github_status": "success",
+    "expected_digest": "c3f9df200ba26c5c14c01083a22caf6f3195b277200c0bf5b1a534e523a9993c",
+    "observed_digest": "c3f9df200ba26c5c14c01083a22caf6f3195b277200c0bf5b1a534e523a9993c",
+    "verified_at": "2026-09-17T01:12:23.000Z",
+    "generated_html_sha256": "072e0b2c785f8fc69e81b12d65a37649c00c24e2d379764e79cbf2a173b49ed2",
+    "rendered_story_cards": 26,
+    "new_event_present": true,
+    "daily_briefing_present": false
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "note": "美国Seller Central动态列表仅能公开检索；未发现9月16日后的可靠非重复官方政策增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "note": "检查Amazon US、Canada、Mexico及全球开店公开新闻索引；确认US/CA Prime Big Deal Days同一档期，MX仅确认参与国家而未确认当地日期。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7",
+          "note": "Amazon美国官方页面确认US于2026-10-06至10-07举行Prime Big Deal Days。"
+        },
+        {
+          "url": "https://www.aboutamazon.ca/pbdd-2026",
+          "note": "Amazon Canada官方页面确认CA于2026-10-06至10-07举行Prime Big Deal Days。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "note": "Amazon Ads动态列表只能公开检索；未确认9月16日后的可靠非重复广告产品变化。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "note": "检查CPSC、FTC、CBP等美国监管公开入口；窗口内未确认新的Amazon卖家实质事件，检索到的召回多为更早日期。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "note": "Amazon.ca Seller Central动态列表不能公开完整遍历；Prime Big Deal Days日期由Amazon Canada公开原文独立核验。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.ca/pbdd-2026",
+          "note": "Amazon Canada于2026-09-14公开活动日期。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "note": "Amazon.com.mx Seller Central动态列表不能公开完整遍历；官方全球页面仅确认Mexico在参与国家清单中，并注明各国日期可能不同。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7",
+          "note": "官方全球清单包含Mexico，但未提供独立当地日期。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "note": "检查Health Canada公开召回和监管入口，未确认新的Amazon.ca卖家事件。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "note": "检查SAT、ANAM、PROFECO及gob.mx公开入口，未发现新的Amazon.com.mx监管事件。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "note": "逐项公开检索跨境头条；Prime大促报道与Amazon官方定档为同一事件，未另建卡片。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "note": "逐项公开检索跨境快讯；出海网9月16日晚报为Prime大促同一事件转载，已排除重复。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [
+        {
+          "url": "https://m.chwang.com/daily",
+          "note": "2026-09-16晚报重复报道Prime Big Deal Days定档。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "note": "逐项公开检索知无不言；9月16日Prime大促文章与官方定档语义相同，作为重复线索排除；未采信未有官方原文的新截止日。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [
+        {
+          "url": "https://www.wearesellers.com/m/question/124623",
+          "note": "行业文章重复报道同一Prime大促事件。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "note": "逐项公开检索TT123；站点主要为TikTok导航，未发现窗口内可靠Amazon增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "note": "逐项公开检索品牌方舟9月15—16日公开列表，未发现US/CA/MX Amazon运营实质增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/",
+          "note": "公开首页可见9月15—16日文章列表，未见相关可靠增量。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "note": "卖家之家正文读取不稳定，仅完成公开摘要核对。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "note": "单独检索大宝站外推广公开页面和摘要；无窗口内可完整核验新文。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "note": "单独检索葫芦娃站外推广公开页面、标签页和摘要；无窗口内可完整核验新文。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "note": "单独检索三头六臂跨境电商；仅取得公开搜索结果或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要或无结果，无法完整遍历。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要或无结果，无法完整遍历。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要、旧文或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要、旧文或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要、旧文或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "note": "对应公众号仅能取得公开摘要、旧文或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "note": "重点汽配词及竞品公开检索缺少同站点、同ASIN、同变体、同地域连续快照；本次不生成价格、Coupon、BSR或趋势变化结论。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "note": "按include_source_ids逐一公开检索跨境头条、跨境快讯、知无不言、TT123、品牌方舟、卖家之家及对应公众号；Prime大促重复报道已归并，公众号仍只能取得摘要、作者页、旧文或无结果，无法完整遍历。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.ca/pbdd-2026",
+          "note": "CA活动日期使用Amazon Canada官方原文核验。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "note": "按include_source_ids逐一公开检索全部媒体与公众号；仅确认MX在Prime大促参与国家清单，官方注明各国日期可能不同，因此未把US/CA日期套用MX；公众号无法完整遍历。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7",
+          "note": "Mexico被列入参与国家，但当地日期未独立确认。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "note": "重点汽配词及竞品公开检索缺少同站点、同ASIN、同变体、同地域连续快照；本次不生成价格、Coupon、BSR或趋势变化结论。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "note": "重点汽配词及竞品公开检索缺少同站点、同ASIN、同变体、同地域连续快照；本次不生成价格、Coupon、BSR或趋势变化结论。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-17T01:12:23.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    }
+  ],
+  "lock": {
+    "acquired_commit": "06dbec576ebed5bd50aa2ebba3eb78af0609aeaf",
+    "prepared_commit": "c96a865758e5e4758035f8fb5fca958a0d0e125a",
+    "previous_radar_state_head": "257dfb67f2d387586965f012f5d309da6bae5661",
+    "released": true
+  },
+  "main_baseline": "dc22e6de0d3f4925f4df752ab2c8c4f6655d64eb",
+  "market_coverage": {
+    "US": "partial：官方动态索引、卖家之家正文和公众号无法完整遍历；未确认可靠非重复增量。",
+    "CA": "partial：官方动态索引和公众号无法完整遍历；未确认可靠非重复增量。",
+    "MX": "partial：新增Amazon Mexico官方费用减免计划；动态索引和公众号无法完整遍历。"
+  },
+  "validation": {
+    "tests": "22 passed, 0 failed",
+    "registry": {
+      "valid": true,
+      "events": 32,
+      "digest": "245ef6e961589616bd01140402b208f12a6a84934b338e55896137076f2b5613"
+    },
+    "production": {
+      "expected_content_digest": "f929a9a3e7eaeb758b467a76cb81bdb63a4365759e5bd6413c1037bd1f7b20c6",
+      "observed_content_digest": "f929a9a3e7eaeb758b467a76cb81bdb63a4365759e5bd6413c1037bd1f7b20c6",
+      "rendered_story_cards": 25,
+      "new_event_present": true,
+      "daily_briefing_present": false
+    }
+  },
+  "notes": [
+    "新增事件按2026-09-14官方发布日期归档，未改写为9月16日发布。",
+    "标题语义、event_key、规范化来源链接和生效日期逐条比较现有31条事件及本批候选，确认不是重复新闻。",
+    "Vercel提交状态成功，正式页面content digest、卡片数量和新事件锚点验收通过。",
+    "全部来源仍为部分公开覆盖，因此未推进任何成功游标，8月29—30日补查标记继续保留。"
+  ]
+}
