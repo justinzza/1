@@ -1,0 +1,13 @@
+{
+  "run_id": "run-20260917005952-h4rt8k",
+  "status": "prepared",
+  "main_baseline": "414ff3d112b89f10ba768925d4b7603ae2725b79",
+  "report_date": "2026-09-17",
+  "registry_digest": "19f1ffa3065abc64fde9028cd12bd3b178ca4e19d161b1443ea88783026b3937",
+  "expected_content_digest": "c3f9df200ba26c5c14c01083a22caf6f3195b277200c0bf5b1a534e523a9993c",
+  "generated_html_sha256": "072e0b2c785f8fc69e81b12d65a37649c00c24e2d379764e79cbf2a173b49ed2",
+  "expected_story_cards": 26,
+  "counts": {"new": 1, "updated": 0, "merged": 0, "deduplicated": 0},
+  "new_event_keys": ["amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"],
+  "daily_briefing_present": false
+}

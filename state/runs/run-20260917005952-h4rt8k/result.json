@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06",
+      "action": "new",
+      "review": "逐条比较现有32条事件的event_key、标题语义、规范化来源链接和生效日期。库中没有2026年Prime Big Deal Days定档事件；既有Amazon Business Deals、Second Chance促销和夏季Prime Day的主体、活动机制及日期均不同，因此为独立新增。9月16日行业媒体转载与官方页面属于同一事件，不另建卡片。"
+    }
+  ]
+}

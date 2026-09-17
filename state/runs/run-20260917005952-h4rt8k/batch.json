@@ -1,0 +1,104 @@
+{
+  "base_digest": "245ef6e961589616bd01140402b208f12a6a84934b338e55896137076f2b5613",
+  "checked_at": "2026-09-17T01:05:03.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-prime-big-deal-days-2026",
+        "action_key": "schedule-october-6-7-2026",
+        "marketplaces": ["CA", "US"],
+        "effective_date": "2026-10-06",
+        "deadline": null,
+        "title": "美加站Prime Big Deal Days定档10月6—7日，48小时促销覆盖35+类目",
+        "summary": "Amazon美国与加拿大官方页面确认，2026年Prime Big Deal Days将于10月6日至7日举行，为期48小时，覆盖35个以上类目。美国站从10月6日00:01 PDT开始，并通过Today's Big Deals每天三次释放新促销；加拿大站同样确认10月6—7日档期。Amazon同时把墨西哥列入本季22个参与国家，但明确提示各国日期可能不同，因此本卡只把已独立确认相同日期的US和CA列为适用站点。",
+        "impact": "这是美国、加拿大站第四季度促销和库存节奏的明确时间锚点。卖家需要倒排FBA入仓、促销资格、价格历史、广告预算与客服排班；但消费者活动公告不等于所有第三方SKU自动获得活动标识，也未提供统一的卖家提报截止日。墨西哥站参与资格可确认，但在取得当地精确日期前不能把10月6—7日直接套用。",
+        "action": "分别进入美国、加拿大Seller Central的营销推广/促销管理页面，核对账户可用的Deal、Prime Exclusive Price Discount和Coupon提报入口及截止日；按10月6日倒排补货并预留入仓延迟；审计近30/60/90天价格与Coupon记录，避免促销资格或参考价异常；为活动前、中、后分别设置广告预算、库存和毛利护栏。墨西哥站等待当地公告或卖家后台日期后再排期。",
+        "category": "opportunities",
+        "priority": "P0",
+        "original_published_at": "2026-09-14",
+        "original_date_note": "Amazon Canada官方页面发表于2026-09-14并明确10月6—7日；Amazon美国官方页面于2026-09-16公开同一档期。事件按最早官方发布日期9月14日归档，2026-09-17仅为首次核验入库日期。Mexico虽被列为参与国家，但官方同时注明各国日期可能不同，未将美加日期套用至MX。",
+        "first_seen_at": "2026-09-17T01:05:03.000Z",
+        "last_material_update_at": "2026-09-17T01:05:03.000Z",
+        "history_dates": ["2026-09-17"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.ca/pbdd-2026",
+            "publisher": "Amazon Canada",
+            "kind": "official",
+            "published_at": "2026-09-14",
+            "verified_at": "2026-09-17T01:05:03.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://www.aboutamazon.ca/pbdd-2026"
+          },
+          {
+            "url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7",
+            "publisher": "Amazon",
+            "kind": "official",
+            "published_at": "2026-09-16",
+            "verified_at": "2026-09-17T01:05:03.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": [],
+        "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06",
+        "primary_source_url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7"
+      },
+      "dedupe_review": {
+        "compared_digest": "245ef6e961589616bd01140402b208f12a6a84934b338e55896137076f2b5613",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条比较现有32条事件的event_key、标题语义、规范化来源链接和生效日期。库中没有2026年Prime Big Deal Days定档事件；既有Amazon Business Deals、Second Chance促销和夏季Prime Day的主体、活动机制及日期均不同，因此为独立新增。9月16日行业媒体转载与官方页面属于同一事件，不另建卡片。",
+        "distinct_event_reason": "这是10月Prime Big Deal Days档期本身，不是既有Business Deals或日常Coupon变化。US与CA有同一动作及同一日期的官方证据，合并一张多站卡片；MX精确日期尚未独立确认，暂不纳入。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": ["amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "category_notes": {
+      "policy": "本期未确认US/CA/MX新的可靠政策与合规实质增量；Seller Central动态列表只能公开检索。",
+      "ads": "本期未确认US/CA/MX广告产品、投放机制或流量规则有新的可靠实质变化；Amazon Ads动态列表只能公开检索。",
+      "ai": "本期未确认独立的卖家后台AI工具或运营方法增量。",
+      "opportunities": "新增美加站Prime Big Deal Days官方档期；墨西哥仅确认在参与国家清单中，因官方提示各国日期可能不同，未套用美加日期。fuel line、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续数据。",
+      "competitors": "未指定可比ASIN，US/CA/MX价格、Coupon、BSR和页面变化缺少同ASIN、同变体、同地域连续快照；首次公开样本不计作变化。"
+    },
+    "coverage_note": "新增事件按最早官方发布日期2026-09-14归档，2026-09-17仅为首次核验入库日期，没有把行业转载刷新为当天新闻。已检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管入口及既定行业媒体；CA/MX行业及公众号组逐一按include_source_ids执行公开检索。Seller Central和Amazon Ads动态列表、卖家之家正文以及指定公众号和行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。",
+    "action_items": [
+      {
+        "title": "核对美加站促销资格与账户截止日",
+        "detail": "分别进入US、CA Seller Central的促销管理页面，确认Deal、Prime Exclusive Price Discount和Coupon入口、资格、费用与账户显示的最晚提交时间。",
+        "due": "今日",
+        "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+      },
+      {
+        "title": "倒排FBA补货与价格历史",
+        "detail": "以10月6日为活动起点核查FBA到仓缓冲、近30/60/90天售价及Coupon记录，并为活动期设置毛利和广告预算护栏。",
+        "due": "活动前持续",
+        "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+      },
+      {
+        "title": "墨西哥站等待本地日期确认",
+        "detail": "仅确认MX在参与国家清单中；在Amazon Mexico或Seller Central出现当地精确日期后再安排库存与促销，不直接沿用US/CA日期。",
+        "due": "持续监控",
+        "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+      }
+    ]
+  }
+}
