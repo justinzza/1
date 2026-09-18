@@ -1,7 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+    "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17",
+    "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,42 +12,43 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "本期未确认US/CA/MX新的可靠政策与合规实质增量；Seller Central动态列表只能公开检索。",
+    "policy": "新增CPSC于9月17日发布的美国站在售商品安全行动；7项同日监管原文合并为一张卡片，避免重复展示。",
     "ads": "本期未确认US/CA/MX广告产品、投放机制或流量规则有新的可靠实质变化；Amazon Ads动态列表只能公开检索。",
-    "ai": "本期未确认独立的卖家后台AI工具或运营方法增量。",
-    "opportunities": "新增美加站Prime Big Deal Days官方档期；墨西哥仅确认在参与国家清单中，因官方提示各国日期可能不同，未套用美加日期。fuel line、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续数据。",
+    "ai": "补收美加站零配件补发计划及注册流程优化，属于退货与售后运营工具，不是生成式AI功能；本期未确认独立AI增量。",
+    "opportunities": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续关键词、类目和转化数据，未生成趋势结论。",
     "competitors": "未指定可比ASIN，US/CA/MX价格、Coupon、BSR和页面变化缺少同ASIN、同变体、同地域连续快照；首次公开样本不计作变化。"
   },
-  "coverage_note": "新增事件按最早官方发布日期2026-09-14归档，2026-09-17仅为首次核验入库日期，没有把行业转载刷新为当天新闻。已检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管入口及既定行业媒体；CA/MX行业及公众号组逐一按include_source_ids执行公开检索。Seller Central和Amazon Ads动态列表、卖家之家正文以及指定公众号和行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。",
+  "coverage_note": "CPSC批次按官方发布日期2026-09-17归档；零配件补发计划按Amazon原始发布日期2026-09-03归档，没有把旧闻刷新为9月18日新闻。已检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管入口及既定行业媒体；CA/MX行业及公众号组逐一按include_source_ids执行公开检索。Prime Big Deal Days转载、旧费用页面及一般运营教程没有作为新事件重复收录。Seller Central和Amazon Ads动态列表、卖家之家正文以及指定公众号和行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。",
   "action_items": [
     {
-      "title": "核对美加站促销资格与账户截止日",
-      "detail": "分别进入US、CA Seller Central的促销管理页面，确认Deal、Prime Exclusive Price Discount和Coupon入口、资格、费用与账户显示的最晚提交时间。",
-      "due": "今日",
-      "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+      "title": "核对9月17日CPSC涉事SKU",
+      "detail": "在美国站按BedsPick、LANCHEZ、Pvauert、JKMAX、Basecamp、Jerify和Esjay及其型号检索Catalog、库存和历史订单；命中后立即停售并依原文执行补救。",
+      "due": "立即",
+      "event_key": "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17"
     },
     {
-      "title": "倒排FBA补货与价格历史",
-      "detail": "以10月6日为活动起点核查FBA到仓缓冲、近30/60/90天售价及Coupon记录，并为活动期设置毛利和广告预算护栏。",
-      "due": "活动前持续",
-      "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+      "title": "建立美加站配件补发映射",
+      "detail": "优先分析燃油管套装、AN接头和排气卡箍套装的缺件退货，分别为US、CA建立父SKU与零件SKU映射并测算配件配送成本。",
+      "due": "本周",
+      "event_key": "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
     },
     {
-      "title": "墨西哥站等待本地日期确认",
-      "detail": "仅确认MX在参与国家清单中；在Amazon Mexico或Seller Central出现当地精确日期后再安排库存与促销，不直接沿用US/CA日期。",
+      "title": "避免把美加功能套用到墨西哥",
+      "detail": "当前官方文章未列出Mexico；墨西哥站在获得Seller Central或Amazon Mexico直接证据前不启用或宣称该计划。",
       "due": "持续监控",
-      "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+      "event_key": "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-17",
-  "content_updated_at": "2026-09-17T01:05:03.000Z",
+  "report_date": "2026-09-18",
+  "content_updated_at": "2026-09-18T01:11:31.000Z",
   "new_event_keys": [
-    "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+    "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17",
+    "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 1,
+    "new": 2,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0
