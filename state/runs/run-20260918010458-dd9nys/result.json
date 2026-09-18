@@ -1,0 +1,27 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17",
+    "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17",
+      "action": "new",
+      "review": "逐条对照事件库后，9月10日CPSC批次涉及完全不同的品牌、型号和监管发布日期；本批7项均在9月17日发布，按同日同类监管行动合并为单独卡片，未与现有事件重复。"
+    },
+    {
+      "event_key": "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown",
+      "action": "new",
+      "review": "事件库没有零配件补发、Product Support配件映射或用配件替代整件退货的事件；与本批CPSC召回卡片在主体、动作、站点和生效日上均不同。"
+    }
+  ]
+}

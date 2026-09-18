@@ -1,0 +1,21 @@
+{
+  "run_id": "run-20260918010458-dd9nys",
+  "status": "prepared",
+  "main_baseline": "a95a626e15e6495ad4490182ecff4c2d0b35edbe",
+  "report_date": "2026-09-18",
+  "registry_digest": "01d82b3dea5bca96965d0fa829f334203b75fa7a0d1c760ba3ab746702767a2d",
+  "expected_content_digest": "dbe351d020ec07f46d8935633aecfe177d69eb65bb8d13c32a30ad885450a5e8",
+  "generated_html_sha256": "b8f88499ebe1d0a71bba3c0a25b9ed041da5b37bf6daa27c0371cd146d64a21b",
+  "expected_story_cards": 28,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17",
+    "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
+  ],
+  "daily_briefing_present": false
+}

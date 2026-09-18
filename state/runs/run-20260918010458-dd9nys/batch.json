@@ -1,0 +1,193 @@
+{
+  "base_digest": "19f1ffa3065abc64fde9028cd12bd3b178ca4e19d161b1443ea88783026b3937",
+  "checked_at": "2026-09-18T01:11:31.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "us-cpsc-amazon-sold-products",
+        "action_key": "issue-september-17-recalls-and-stop-sale-warnings-2026",
+        "marketplaces": ["US"],
+        "effective_date": "2026-09-17",
+        "deadline": null,
+        "title": "CPSC 9月17日集中发布Amazon.com在售商品召回与停用警告：7类商品需立即核查",
+        "summary": "美国CPSC于2026年9月17日集中发布多项与Amazon.com在售商品有关的召回或停用警告。本卡合并7项独立监管行动：BedsPick床垫（约818件）、LANCHEZ压力清洗机（329件）、Pvauert婴儿学步车（约5,451件）、JKMAX电热毯及加热垫（约195,000件）、Basecamp自行车头盔（约315件）、Jerify磁性人偶套装（约38,507件）和Esjay幼儿忙碌板（约276,000件）。风险涵盖阻燃标准、触电、跌落、火灾与灼伤、头部伤害、磁铁吞咽和窒息；其中Pvauert经营方未同意召回或提供补救，CPSC要求立即停用、处置且不得出售或赠送。",
+        "impact": "美国站销售或历史销售涉事品牌、型号的卖家面临高安全与合规风险，继续销售、重新上架或错误处理召回品可能触发监管责任、Account Health处置、FBA库存隔离及客户索赔。该批行动针对明确产品及型号，不应扩大为同类商品的普遍禁售，也不是Amazon全站新规。",
+        "action": "立即按品牌、型号和产品标识检索美国站Catalog、在途、FBA/FBM库存与历史订单；命中后暂停Listing、广告和发货，隔离库存，并逐条依CPSC规定执行退款、维修、销毁或客户通知。不得通过新ASIN、变体或赠送规避召回；保存供应商、检测、进口、库存处置及客户沟通记录，并在Account Health或Seller Support留痕。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-09-17",
+        "original_date_note": "7份CPSC原文均标注2026-09-17；为避免同日同类监管行动重复刷屏，本次合并为一张批次卡片并按9月17日归档。",
+        "first_seen_at": "2026-09-18T01:11:31.000Z",
+        "last_material_update_at": "2026-09-18T01:11:31.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.cpsc.gov/Recalls/2026/Regfear-Recalls-BedsPick-Mattresses-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Violate-Mandatory-Flammability-Standard-for-Mattresses",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-17",
+            "verified_at": "2026-09-18T01:11:31.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2026/LANCHEZ-Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-17",
+            "verified_at": "2026-09-18T01:11:31.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Warnings/2026/CPSC-Warns-Consumers-to-Stop-Using-Pvauert-Infant-Walkers-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Violate-Mandatory-Standard-for-Infant-Walkers",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-17",
+            "verified_at": "2026-09-18T01:11:31.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2026/JKMAX-Recalls-Heated-Blankets-and-Heating-Pads-Due-to-Fire-and-Burn-Hazards",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-17",
+            "verified_at": "2026-09-18T01:11:31.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2026/Tongyang-Cycling-Recalls-Basecamp-Bicycle-Helmets-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violate-Mandatory-Standard-for-Bicycle-Helmets",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-17",
+            "verified_at": "2026-09-18T01:11:31.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2026/Colerinsec-Recalls-Jerify-Magnetic-Stick-Figure-Toy-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-17",
+            "verified_at": "2026-09-18T01:11:31.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2026/Esjay-US-Recalls-Toddler-Busy-Board-Montessori-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violates-Small-Parts-Ban",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-09-17",
+            "verified_at": "2026-09-18T01:11:31.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "19f1ffa3065abc64fde9028cd12bd3b178ca4e19d161b1443ea88783026b3937",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "逐条对照事件库后，9月10日CPSC批次涉及完全不同的品牌、型号和监管发布日期；本批7项均在9月17日发布，按同日同类监管行动合并为单独卡片，未与现有事件重复。",
+        "distinct_event_reason": "与9月10日CPSC卡片属于不同发布日期、不同涉事产品和不同监管行动，必须保持独立事件身份。"
+      },
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key": "amazon-replacement-parts-program",
+        "action_key": "simplify-enrollment-and-enable-part-only-remedies-2026",
+        "marketplaces": ["CA", "US"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "美加站零配件补发计划简化注册：可用配件替代整件退货",
+        "summary": "亚马逊全球开店于2026年9月3日介绍更新后的零配件补发计划：美国、加拿大等11个站点的卖家可免费注册，把父SKU与零件SKU映射后，允许顾客在退货窗口内申请缺失或损坏配件，无需退回整件商品。近期注册流程缩短，映射模板列名和提示被标准化，并加入错误检测；卖家可限制每位顾客可申请的零件数量。从提交申请到功能上线预计15个工作日。",
+        "impact": "对燃油管套装、AN接头、排气卡箍及其他多零件产品，配件补发可减少因少件、破损小件造成的整件退货和不可售库存，但不是零成本履约：注册免费，卖家仍承担零件及FBA或自配送费用。公开证据仅确认美国、加拿大在覆盖站点内，没有墨西哥站适用证据。",
+        "action": "分别分析美国、加拿大站核心ASIN的退货原因，识别缺件或配件损坏占比高的套装；为可补发零件创建完整且活跃的FBA/FBM SKU，在Product Support下载最新映射模板并提交。收到映射完成确认后再上传配件库存，设置合理的单客最大申请数量，并分别核算配件成本、配送费与整件退货损失。",
+        "category": "ai",
+        "priority": "P1",
+        "original_published_at": "2026-09-03",
+        "original_date_note": "亚马逊全球开店文章发表于2026-09-03；文章未提供日级生效日期，effective_date保留unknown。本次于9月18日延迟补收并按9月3日归档，不刷新为当天新闻。",
+        "first_seen_at": "2026-09-18T01:11:31.000Z",
+        "last_material_update_at": "2026-09-18T01:11:31.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://globalselling.amazon.com/news/news-brand-260903",
+            "publisher": "Amazon Global Selling",
+            "kind": "official",
+            "published_at": "2026-09-03",
+            "verified_at": "2026-09-18T01:11:31.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "19f1ffa3065abc64fde9028cd12bd3b178ca4e19d161b1443ea88783026b3937",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "事件库没有零配件补发、Product Support配件映射或用配件替代整件退货的事件；与本批CPSC召回卡片在主体、动作、站点和生效日上均不同。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17",
+      "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "category_notes": {
+      "policy": "新增CPSC于9月17日发布的美国站在售商品安全行动；7项同日监管原文合并为一张卡片，避免重复展示。",
+      "ads": "本期未确认US/CA/MX广告产品、投放机制或流量规则有新的可靠实质变化；Amazon Ads动态列表只能公开检索。",
+      "ai": "补收美加站零配件补发计划及注册流程优化，属于退货与售后运营工具，不是生成式AI功能；本期未确认独立AI增量。",
+      "opportunities": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续关键词、类目和转化数据，未生成趋势结论。",
+      "competitors": "未指定可比ASIN，US/CA/MX价格、Coupon、BSR和页面变化缺少同ASIN、同变体、同地域连续快照；首次公开样本不计作变化。"
+    },
+    "coverage_note": "CPSC批次按官方发布日期2026-09-17归档；零配件补发计划按Amazon原始发布日期2026-09-03归档，没有把旧闻刷新为9月18日新闻。已检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管入口及既定行业媒体；CA/MX行业及公众号组逐一按include_source_ids执行公开检索。Prime Big Deal Days转载、旧费用页面及一般运营教程没有作为新事件重复收录。Seller Central和Amazon Ads动态列表、卖家之家正文以及指定公众号和行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。",
+    "action_items": [
+      {
+        "title": "核对9月17日CPSC涉事SKU",
+        "detail": "在美国站按BedsPick、LANCHEZ、Pvauert、JKMAX、Basecamp、Jerify和Esjay及其型号检索Catalog、库存和历史订单；命中后立即停售并依原文执行补救。",
+        "due": "立即",
+        "event_key": "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17"
+      },
+      {
+        "title": "建立美加站配件补发映射",
+        "detail": "优先分析燃油管套装、AN接头和排气卡箍套装的缺件退货，分别为US、CA建立父SKU与零件SKU映射并测算配件配送成本。",
+        "due": "本周",
+        "event_key": "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
+      },
+      {
+        "title": "避免把美加功能套用到墨西哥",
+        "detail": "当前官方文章未列出Mexico；墨西哥站在获得Seller Central或Amazon Mexico直接证据前不启用或宣称该计划。",
+        "due": "持续监控",
+        "event_key": "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
+      }
+    ]
+  }
+}
