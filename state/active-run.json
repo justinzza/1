@@ -1,18 +1,12 @@
 {
   "schema_version": 1,
-  "run_id": "run-20260918010458-dd9nys",
-  "status": "released",
-  "acquired_at": "2026-09-18T01:04:58.000Z",
-  "expires_at": "2026-09-18T02:34:58.000Z",
-  "previous_radar_state_head": "fb73e1a0a41b3943ec55a30185a5342ea0c5b21a",
+  "run_id": "run-20260919010341-q8mj5p",
+  "status": "active",
+  "acquired_at": "2026-09-19T01:03:41.000Z",
+  "expires_at": "2026-09-19T02:33:41.000Z",
+  "previous_radar_state_head": "b50a4c25a154081a65ce3f9d66f21d01d167b7a8",
   "takeover_reason": null,
-  "released_at": "2026-09-18T01:18:37.000Z",
-  "release_run_record": "state/runs/run-20260918010458-dd9nys/run.json",
-  "publication": {
-    "status": "verified",
-    "commit_sha": "35a6511e2e7ff1937b3e8ad304b59e2664f5622e",
-    "expected_digest": "dbe351d020ec07f46d8935633aecfe177d69eb65bb8d13c32a30ad885450a5e8",
-    "observed_digest": "dbe351d020ec07f46d8935633aecfe177d69eb65bb8d13c32a30ad885450a5e8",
-    "verified_at": "2026-09-18T01:18:37.000Z"
-  }
+  "released_at": null,
+  "release_run_record": null,
+  "publication": null
 }
