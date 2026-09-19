@@ -1,8 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17",
-    "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
+    "amazon-mexico-prime-mega-deals-2026|schedule-october-6-10-2026|MX|2026-10-06",
+    "amazon-ads-mexico-sme-ai-research|publish-ai-adoption-and-streaming-tv-study-2026|MX|unknown",
+    "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,44 +13,46 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "新增CPSC于9月17日发布的美国站在售商品安全行动；7项同日监管原文合并为一张卡片，避免重复展示。",
-    "ads": "本期未确认US/CA/MX广告产品、投放机制或流量规则有新的可靠实质变化；Amazon Ads动态列表只能公开检索。",
-    "ai": "补收美加站零配件补发计划及注册流程优化，属于退货与售后运营工具，不是生成式AI功能；本期未确认独立AI增量。",
-    "opportunities": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续关键词、类目和转化数据，未生成趋势结论。",
-    "competitors": "未指定可比ASIN，US/CA/MX价格、Coupon、BSR和页面变化缺少同ASIN、同变体、同地域连续快照；首次公开样本不计作变化。"
+    "policy": "未确认新的US/CA/MX政策或监管实质增量；Seller Central动态列表和部分监管入口仅完成公开覆盖。",
+    "ads": "新增墨西哥Amazon Ads官方调研，但不是具体广告产品或投放机制上线；未确认US/CA广告规则新增。",
+    "ai": "新增墨西哥中小企业AI广告采用调研及可执行测试方法，明确与产品发布、效果承诺区分。",
+    "opportunities": "补齐墨西哥站10月6—10日独立秋季Prime大促档期；fuel line、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续关键词和转化数据。",
+    "competitors": "未指定可比ASIN，US/CA/MX价格、Coupon、BSR和页面变化缺少同ASIN、变体、地域连续快照；首次公开样本不计作变化。"
   },
-  "coverage_note": "CPSC批次按官方发布日期2026-09-17归档；零配件补发计划按Amazon原始发布日期2026-09-03归档，没有把旧闻刷新为9月18日新闻。已检查US/CA/MX Seller Central公开索引、Amazon Ads、全球开店、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管入口及既定行业媒体；CA/MX行业及公众号组逐一按include_source_ids执行公开检索。Prime Big Deal Days转载、旧费用页面及一般运营教程没有作为新事件重复收录。Seller Central和Amazon Ads动态列表、卖家之家正文以及指定公众号和行业媒体公众号仅能取得公开搜索摘要、作者页、旧文或无结果，无法保证逐篇完整遍历。",
+  "coverage_note": "本次新增均按Amazon Mexico官方原始发布日期2026-09-15和09-17归档，没有刷新为9月19日。已检查US/CA/MX Seller Central公开检索、Amazon Global Selling、Amazon Ads、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管入口、既定行业媒体和逐一指定公众号公开结果。墨西哥大促转载与既有美加卡片完成语义比对后按不同日期独立建档。Seller Central和Amazon Ads动态列表、卖家之家正文、指定公众号及行业媒体公众号只能取得公开摘要、作者页、旧文或无结果，无法声称逐篇完整遍历。",
   "action_items": [
     {
-      "title": "核对9月17日CPSC涉事SKU",
-      "detail": "在美国站按BedsPick、LANCHEZ、Pvauert、JKMAX、Basecamp、Jerify和Esjay及其型号检索Catalog、库存和历史订单；命中后立即停售并依原文执行补救。",
-      "due": "立即",
-      "event_key": "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17"
-    },
-    {
-      "title": "建立美加站配件补发映射",
-      "detail": "优先分析燃油管套装、AN接头和排气卡箍套装的缺件退货，分别为US、CA建立父SKU与零件SKU映射并测算配件配送成本。",
+      "title": "按墨西哥5天独立档期排期",
+      "detail": "在Mexico Seller Central核对Deal、Coupon和Prime促销资格及截止日，并按10月6—10日单独设置MXN毛利、库存与广告预算护栏。",
       "due": "本周",
-      "event_key": "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
+      "event_key": "amazon-mexico-prime-mega-deals-2026|schedule-october-6-10-2026|MX|2026-10-06"
     },
     {
-      "title": "避免把美加功能套用到墨西哥",
-      "detail": "当前官方文章未列出Mexico；墨西哥站在获得Seller Central或Amazon Mexico直接证据前不启用或宣称该计划。",
-      "due": "持续监控",
-      "event_key": "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
+      "title": "小规模测试墨西哥AI视频素材",
+      "detail": "用同一受众、落地页和归因窗口对比人工与AI辅助西语素材，人工复核产品事实、商标、版权和字幕。",
+      "due": "本周",
+      "event_key": "amazon-ads-mexico-sme-ai-research|publish-ai-adoption-and-streaming-tv-study-2026|MX|unknown"
+    },
+    {
+      "title": "分离三站促销日历",
+      "detail": "US/CA按10月6—7日、MX按10月6—10日维护独立库存、价格、Coupon和广告计划，不跨站复用截止日或活动资格。",
+      "due": "立即",
+      "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-18",
-  "content_updated_at": "2026-09-18T01:11:31.000Z",
+  "report_date": "2026-09-19",
+  "content_updated_at": "2026-09-19T01:07:44.000Z",
   "new_event_keys": [
-    "us-cpsc-amazon-sold-products|issue-september-17-recalls-and-stop-sale-warnings-2026|US|2026-09-17",
-    "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown"
+    "amazon-mexico-prime-mega-deals-2026|schedule-october-6-10-2026|MX|2026-10-06",
+    "amazon-ads-mexico-sme-ai-research|publish-ai-adoption-and-streaming-tv-study-2026|MX|unknown"
   ],
-  "updated_event_keys": [],
+  "updated_event_keys": [
+    "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+  ],
   "counts": {
     "new": 2,
-    "updated": 0,
+    "updated": 1,
     "merged": 0,
     "deduplicated": 0
   }

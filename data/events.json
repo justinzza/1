@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-18T01:11:31.000Z",
+  "content_updated_at": "2026-09-19T01:07:44.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -1692,17 +1692,18 @@
       "effective_date": "2026-10-06",
       "deadline": null,
       "title": "美加站Prime Big Deal Days定档10月6—7日，48小时促销覆盖35+类目",
-      "summary": "Amazon美国与加拿大官方页面确认，2026年Prime Big Deal Days将于10月6日至7日举行，为期48小时，覆盖35个以上类目。美国站从10月6日00:01 PDT开始，并通过Today's Big Deals每天三次释放新促销；加拿大站同样确认10月6—7日档期。Amazon同时把墨西哥列入本季22个参与国家，但明确提示各国日期可能不同，因此本卡只把已独立确认相同日期的US和CA列为适用站点。",
-      "impact": "这是美国、加拿大站第四季度促销和库存节奏的明确时间锚点。卖家需要倒排FBA入仓、促销资格、价格历史、广告预算与客服排班；但消费者活动公告不等于所有第三方SKU自动获得活动标识，也未提供统一的卖家提报截止日。墨西哥站参与资格可确认，但在取得当地精确日期前不能把10月6—7日直接套用。",
-      "action": "分别进入美国、加拿大Seller Central的营销推广/促销管理页面，核对账户可用的Deal、Prime Exclusive Price Discount和Coupon提报入口及截止日；按10月6日倒排补货并预留入仓延迟；审计近30/60/90天价格与Coupon记录，避免促销资格或参考价异常；为活动前、中、后分别设置广告预算、库存和毛利护栏。墨西哥站等待当地公告或卖家后台日期后再排期。",
+      "summary": "Amazon美国与加拿大官方页面确认，2026年Prime Big Deal Days将于10月6日至7日举行，为期48小时，覆盖35个以上类目。美国站从10月6日00:01 PDT开始，并通过Today's Big Deals每天三次释放新促销；加拿大站同样确认10月6—7日档期。墨西哥官方现已另行确认10月6—10日的5天档期，因此不纳入本卡。",
+      "impact": "这是美国、加拿大站第四季度促销和库存节奏的明确时间锚点。卖家需要倒排FBA入仓、促销资格、价格历史、广告预算与客服排班；但消费者活动公告不等于所有第三方SKU自动获得活动标识。墨西哥站已有独立5天档期，不能复制本卡结束日期。",
+      "action": "分别进入美国、加拿大Seller Central的营销推广/促销管理页面，核对账户可用的Deal、Prime Exclusive Price Discount和Coupon提报入口及截止日；按10月6日倒排补货并预留入仓延迟；审计近30/60/90天价格与Coupon记录，并为48小时活动设置预算、库存和毛利护栏。墨西哥站按其10月6—10日独立卡片排期。",
       "category": "opportunities",
       "priority": "P0",
       "original_published_at": "2026-09-14",
-      "original_date_note": "Amazon Canada官方页面发表于2026-09-14并明确10月6—7日；Amazon美国官方页面于2026-09-16公开同一档期。事件按最早官方发布日期9月14日归档，2026-09-17仅为首次核验入库日期。Mexico虽被列为参与国家，但官方同时注明各国日期可能不同，未将美加日期套用至MX。",
+      "original_date_note": "Amazon Canada官方页面发表于2026-09-14并明确10月6—7日；Amazon美国官方页面于2026-09-16公开同一档期。事件按最早官方发布日期9月14日归档。Amazon Mexico于9月15日另行公布10月6—10日，因日期不同另建MX卡片，本卡仍仅适用US/CA。",
       "first_seen_at": "2026-09-17T01:05:03.000Z",
-      "last_material_update_at": "2026-09-17T01:05:03.000Z",
+      "last_material_update_at": "2026-09-19T01:07:44.000Z",
       "history_dates": [
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-19"
       ],
       "verification_status": "reviewed",
       "sources": [
@@ -1730,7 +1731,29 @@
         }
       ],
       "key_aliases": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "at": "2026-09-19T01:07:44.000Z",
+          "reason": "Amazon Mexico官方已公布不同的10月6—10日档期；更新美加卡片的摘要、影响、行动和日期说明，避免继续提示墨西哥日期未知。",
+          "previous": {
+            "title": "美加站Prime Big Deal Days定档10月6—7日，48小时促销覆盖35+类目",
+            "summary": "Amazon美国与加拿大官方页面确认，2026年Prime Big Deal Days将于10月6日至7日举行，为期48小时，覆盖35个以上类目。美国站从10月6日00:01 PDT开始，并通过Today's Big Deals每天三次释放新促销；加拿大站同样确认10月6—7日档期。Amazon同时把墨西哥列入本季22个参与国家，但明确提示各国日期可能不同，因此本卡只把已独立确认相同日期的US和CA列为适用站点。",
+            "impact": "这是美国、加拿大站第四季度促销和库存节奏的明确时间锚点。卖家需要倒排FBA入仓、促销资格、价格历史、广告预算与客服排班；但消费者活动公告不等于所有第三方SKU自动获得活动标识，也未提供统一的卖家提报截止日。墨西哥站参与资格可确认，但在取得当地精确日期前不能把10月6—7日直接套用。",
+            "action": "分别进入美国、加拿大Seller Central的营销推广/促销管理页面，核对账户可用的Deal、Prime Exclusive Price Discount和Coupon提报入口及截止日；按10月6日倒排补货并预留入仓延迟；审计近30/60/90天价格与Coupon记录，避免促销资格或参考价异常；为活动前、中、后分别设置广告预算、库存和毛利护栏。墨西哥站等待当地公告或卖家后台日期后再排期。",
+            "category": "opportunities",
+            "priority": "P0",
+            "marketplaces": [
+              "CA",
+              "US"
+            ],
+            "effective_date": "2026-10-06",
+            "deadline": null,
+            "original_published_at": "2026-09-14",
+            "original_date_note": "Amazon Canada官方页面发表于2026-09-14并明确10月6—7日；Amazon美国官方页面于2026-09-16公开同一档期。事件按最早官方发布日期9月14日归档，2026-09-17仅为首次核验入库日期。Mexico虽被列为参与国家，但官方同时注明各国日期可能不同，未将美加日期套用至MX。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06",
       "primary_source_url": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7",
       "id": "evt-41c407c2813f7b44"
@@ -1883,6 +1906,88 @@
       "event_key": "amazon-replacement-parts-program|simplify-enrollment-and-enable-part-only-remedies-2026|CA+US|unknown",
       "id": "evt-159e32eca208ecb8",
       "primary_source_url": "https://globalselling.amazon.com/news/news-brand-260903"
+    },
+    {
+      "subject_key": "amazon-mexico-prime-mega-deals-2026",
+      "action_key": "schedule-october-6-10-2026",
+      "marketplaces": [
+        "MX"
+      ],
+      "effective_date": "2026-10-06",
+      "deadline": "2026-10-10",
+      "title": "墨西哥站Mega Ofertas de Amazon Prime定档10月6—10日：与美加站档期不同",
+      "summary": "Amazon Mexico官方确认，2026年Mega Ofertas de Amazon Prime将于10月6日至10日在墨西哥站举行，共5天，覆盖35个以上类目；活动期间新优惠每日更新三次，并包含Amazon Mexico公布的银行Coupon与分期促销。该站点的结束日期晚于美国、加拿大站的10月7日，必须独立排期。",
+      "impact": "墨西哥站促销、库存和广告节奏不能沿用美加站48小时窗口。对在Amazon.com.mx经营的卖家，5天活动期意味着需要单独设置MXN价格、预算、库存与配送能力；消费者公告中的最高折扣、银行Coupon和分期条件不代表所有第三方ASIN自动获得活动资格。",
+      "action": "在墨西哥Seller Central核对本账户可用的Deal、Coupon和Prime专属促销入口及卖家截止日；按10月6—10日分别设置MXN毛利、库存与广告预算护栏，并预留5天履约与客服能力。不要复制美国或加拿大站的活动结束日期、价格历史或促销资格。",
+      "category": "opportunities",
+      "priority": "P0",
+      "original_published_at": "2026-09-15",
+      "original_date_note": "Amazon Mexico于2026-09-15公布墨西哥站独立档期为10月6—10日。本事件按9月15日归档；因墨西哥站结束日期与美加站不同，依据站点独立规则另建卡片，没有把旧闻刷新为9月19日。",
+      "first_seen_at": "2026-09-19T01:07:44.000Z",
+      "last_material_update_at": "2026-09-19T01:07:44.000Z",
+      "history_dates": [
+        "2026-09-19"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/el-shopping-de-otono-ya-tiene-fecha-regresa-mega-ofertas-de-amazon-prime-con-cinco-dias-para-aprovechar-al-maximo-tu-membresia-amazon-prime",
+          "publisher": "Amazon Mexico",
+          "kind": "official",
+          "published_at": "2026-09-15",
+          "verified_at": "2026-09-19T01:07:44.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/el-shopping-de-otono-ya-tiene-fecha-regresa-mega-ofertas-de-amazon-prime-con-cinco-dias-para-aprovechar-al-maximo-tu-membresia-amazon-prime"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-mexico-prime-mega-deals-2026|schedule-october-6-10-2026|MX|2026-10-06",
+      "id": "evt-15831b0dbeb95525",
+      "primary_source_url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/el-shopping-de-otono-ya-tiene-fecha-regresa-mega-ofertas-de-amazon-prime-con-cinco-dias-para-aprovechar-al-maximo-tu-membresia-amazon-prime"
+    },
+    {
+      "subject_key": "amazon-ads-mexico-sme-ai-research",
+      "action_key": "publish-ai-adoption-and-streaming-tv-study-2026",
+      "marketplaces": [
+        "MX"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "Amazon Ads发布墨西哥中小企业AI广告调研：流媒体视频门槛下降，但不是新功能上线",
+      "summary": "Amazon Ads委托Opinium于2026年4月7—23日调查300名墨西哥B2C中小企业营销决策者。官方文章称，82%的受访者认为AI广告工具首次使流媒体电视等视频渠道对其可行，91%计划用AI制作广告素材，78%计划用于流媒体电视广告。该内容是官方调研与运营方法线索，不代表Amazon Ads在墨西哥新发布了具体产品功能或保证投放效果。",
+      "impact": "墨西哥站品牌可把AI辅助创意和Streaming TV作为小预算测试方向，但样本是营销决策者自报数据，不是Amazon.com.mx卖家转化或销量基准，也不能套用于美国、加拿大站。使用生成式素材仍需人工复核品牌、产品事实、版权与西语本地化。",
+      "action": "为墨西哥站建立一组小规模西语视频创意测试：保留同一受众、落地页和归因窗口，分别记录人工与AI辅助素材的制作成本、审核退回、观看与转化结果；上线前人工核对商标、产品性能表述和字幕，不把官方调研百分比当作自身广告效果预测。",
+      "category": "ai",
+      "priority": "P1",
+      "original_published_at": "2026-09-17",
+      "original_date_note": "Amazon Mexico于2026-09-17发布该调研解读；调查采集期为2026-04-07至2026-04-23。事件按官方文章日期9月17日归档，effective_date为unknown，不以发现日代替。",
+      "first_seen_at": "2026-09-19T01:07:44.000Z",
+      "last_material_update_at": "2026-09-19T01:07:44.000Z",
+      "history_dates": [
+        "2026-09-19"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.mx/noticias/amazon-ads/la-ia-esta-cambiando-quien-puede-competir-en-la-publicidad-de-alto-impacto",
+          "publisher": "Amazon Mexico / Amazon Ads",
+          "kind": "official",
+          "published_at": "2026-09-17",
+          "verified_at": "2026-09-19T01:07:44.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.mx/noticias/amazon-ads/la-ia-esta-cambiando-quien-puede-competir-en-la-publicidad-de-alto-impacto"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-ads-mexico-sme-ai-research|publish-ai-adoption-and-streaming-tv-study-2026|MX|unknown",
+      "id": "evt-cffec8ed85406197",
+      "primary_source_url": "https://www.aboutamazon.mx/noticias/amazon-ads/la-ia-esta-cambiando-quien-puede-competir-en-la-publicidad-de-alto-impacto"
     }
   ]
 }
