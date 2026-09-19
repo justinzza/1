@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "id": "run-20260919010341-q8mj5p",
+  "base_state_digest": "820c9bf44b7961c55bb6bb3ee4371916a325ac0b74f19a2627d086cce21daadf",
+  "started_at": "2026-09-19T01:03:41.000Z",
+  "finished_at": "2026-09-19T01:16:21.000Z",
+  "backfill_complete": false,
+  "material_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 1,
+    "merged": 0,
+    "deduplicated": 0,
+    "excluded_duplicates": 3
+  },
+  "publication": {
+    "status": "verified",
+    "commit_sha": "68b6a13e2a5d78c8893a00ac3b85a92e7ae03d0e",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "github_status": "success",
+    "expected_digest": "53416fa5e8280affe81259a86f333ff63cd4b4d411ff018655179cb23cd3c6b3",
+    "observed_digest": "53416fa5e8280affe81259a86f333ff63cd4b4d411ff018655179cb23cd3c6b3",
+    "verified_at": "2026-09-19T01:16:21.000Z",
+    "generated_html_sha256": "f3496eafdb22cf68ba182bf78970ef3c7bedce15fce663c9b6a24b553babe9c7",
+    "rendered_story_cards": 30,
+    "new_event_present": true,
+    "daily_briefing_present": false
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "note": "美国Seller Central动态列表仅能公开检索；未发现9月18日后的可靠非重复官方政策增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "note": "检查Amazon全球开店公开新闻索引；未发现9月18日后的非重复实质更新。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "note": "Amazon Ads动态列表只能公开检索；核验墨西哥中小企业AI广告研究，但该内容是调研而非新广告产品上线。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.mx/noticias/amazon-ads/la-ia-esta-cambiando-quien-puede-competir-en-la-publicidad-de-alto-impacto",
+          "note": "Amazon Ads墨西哥于2026-09-17发布中小企业AI广告与Streaming TV调研。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "note": "检查CPSC、FTC、CBP公开入口；未确认9月18日后的US卖家监管实质增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "note": "Amazon.ca Seller Central动态列表无法公开完整遍历；未确认新的加拿大站非重复公告。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "note": "Amazon.com.mx Seller Central动态列表无法公开完整遍历；核验墨西哥Mega Ofertas Prime官方日期，与美加站档期不同。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/el-shopping-de-otono-ya-tiene-fecha-regresa-mega-ofertas-de-amazon-prime-con-cinco-dias-para-aprovechar-al-maximo-tu-membresia-amazon-prime",
+          "note": "Amazon墨西哥于2026-09-15确认Mega Ofertas Prime为10月6日至10日。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "note": "检查Health Canada公开召回和监管入口，未确认新的Amazon.ca卖家事件。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "note": "检查SAT、ANAM、PROFECO及gob.mx公开入口，未确认新的Amazon.com.mx监管事件。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "note": "逐项公开检索跨境头条；未发现可独立核验的US/CA/MX非重复实质增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "note": "逐项公开检索跨境快讯；结果为旧闻或既有事件转载，未另建卡片。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "note": "逐项公开检索知无不言；结果为既有事件讨论或无稳定原文的新线索，未重复收录。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "note": "逐项公开检索TT123；未发现窗口内可靠Amazon运营增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "note": "逐项公开检索品牌方舟公开文章；未发现US/CA/MX Amazon运营实质增量。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "note": "卖家之家正文读取不稳定，仅完成公开摘要核对，不能声称完整遍历。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "note": "单独检索大宝站外推广公开页面和摘要；无窗口内可完整核验新文。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "note": "单独检索葫芦娃站外推广公开页面和摘要；无窗口内可完整核验新文。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "note": "单独检索三头六臂跨境电商；仅取得公开搜索结果或无结果。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "note": "单独检索跨境头条公众号；仅能取得公开摘要或无结果，无法完整遍历。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "note": "单独检索跨境快讯公众号；仅能取得公开摘要或无结果，无法完整遍历。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "note": "单独检索知无不言公众号；公开检索未返回可核验的新文章。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "note": "单独检索TT123公众号；公开检索未返回可核验的新文章。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "note": "单独检索品牌方舟公众号；公开检索未返回可核验的新文章。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "note": "单独检索卖家之家公众号；仅能取得公开摘要或无结果，无法完整遍历。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "note": "检查美国站燃油管、CPE编织油管、AN接头和排气卡箍公开商品页；无同ASIN、变体、地域连续快照，首次观察不计变化。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "note": "逐一检查include_source_ids中的既定行业媒体及公众号公开结果；加拿大相关结果为无结果、旧文或既有事件。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "note": "逐一检查include_source_ids中的既定行业媒体及公众号公开结果；墨西哥Prime档期转载与官方事件重复，未另建卡片。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "note": "检查Amazon.ca重点汽配关键词及公开样本；缺少同ASIN、变体、收货地区和时间的连续快照，未生成变化结论。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "note": "检查Amazon.com.mx重点汽配关键词及公开样本；缺少同ASIN、变体、收货地区和时间的连续快照，未生成变化结论。",
+      "window_start": "2026-08-27T16:00:00.000Z",
+      "checked_through": "2026-09-19T01:16:21.000Z",
+      "evidence": [],
+      "cursor_advanced": false
+    }
+  ],
+  "deferred_metadata": null
+}
