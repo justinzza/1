@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20260919010341-q8mj5p",
+  "base_main_commit": "35a6511e2e7ff1937b3e8ad304b59e2664f5622e",
+  "base_registry_digest": "01d82b3dea5bca96965d0fa829f334203b75fa7a0d1c760ba3ab746702767a2d",
+  "result_registry_digest": "83e378c0eeb6d00295dfc95889b2cf362ed3151a644770a00afb9fe9d87ff4bb",
+  "content_digest": "53416fa5e8280affe81259a86f333ff63cd4b4d411ff018655179cb23cd3c6b3",
+  "generated_html_sha256": "f3496eafdb22cf68ba182bf78970ef3c7bedce15fce663c9b6a24b553babe9c7",
+  "events_json_sha256": "89a1614752aec0cf6e708ccdb7b7a142d607ab09da41698fc6b9ac7523a9bf57",
+  "report_json_sha256": "6a674e9559c1da08f518b77e0e9ed455c9725b4991e8feabd8b994fffdae3889",
+  "registry_events": 37,
+  "rendered_story_cards": 30,
+  "daily_briefing_present": false,
+  "counts": {
+    "new": 2,
+    "updated": 1,
+    "merged": 0,
+    "deduplicated": 0,
+    "excluded_duplicates": 3
+  },
+  "prepared_at": "2026-09-19T01:07:44.000Z"
+}

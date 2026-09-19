@@ -1,0 +1,41 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 1,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-mexico-prime-mega-deals-2026|schedule-october-6-10-2026|MX|2026-10-06",
+    "amazon-ads-mexico-sme-ai-research|publish-ai-adoption-and-streaming-tv-study-2026|MX|unknown"
+  ],
+  "updated_event_keys": [
+    "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-mexico-prime-mega-deals-2026|schedule-october-6-10-2026|MX|2026-10-06",
+      "action": "new",
+      "review": "逐条对照事件库和本批候选：现有Prime Big Deal Days卡片只记录US/CA的10月6—7日；墨西哥官方确认10月6—10日，站点与结束日期均独立，不能合并或套用。"
+    },
+    {
+      "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": true,
+        "identity": true,
+        "source": true,
+        "effective_date": true
+      },
+      "review": "明确匹配现有US/CA事件；墨西哥独立日期使原卡中“等待当地日期”的表述过时，但不改变原事件身份、站点或日期。"
+    },
+    {
+      "event_key": "amazon-ads-mexico-sme-ai-research|publish-ai-adoption-and-streaming-tv-study-2026|MX|unknown",
+      "action": "new",
+      "review": "逐条对照事件库与本批候选：现有ChatGPT Ads卡片是美国精选广告主产品试点，本事件是墨西哥中小企业AI广告采用调研，主体动作、站点、证据与运营含义均不同；标题明确排除“新功能上线”误读。"
+    }
+  ]
+}
