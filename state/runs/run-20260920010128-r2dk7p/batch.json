@@ -1,0 +1,6 @@
+{
+  "base_digest": "83e378c0eeb6d00295dfc95889b2cf362ed3151a644770a00afb9fe9d87ff4bb",
+  "checked_at": "2026-09-20T01:07:25.000Z",
+  "candidates": [],
+  "report": {"status":"partial","top_changes":[],"category_coverage":{"policy":"partial","ads":"partial","ai":"partial","opportunities":"partial","competitors":"partial"},"category_notes":{"policy":"未确认可靠增量；公开入口覆盖不完整。","ads":"GIA为2026-04-15既有内容，不是9月新上线。","ai":"未确认独立可靠增量。","opportunities":"重点汽配词缺少三站连续数据。","competitors":"缺少同ASIN、变体、地域和时间的连续快照。"},"coverage_note":"仅完成公开可访问范围核验；无新增或实质更新。","action_items":[]}
+}
