@@ -1,0 +1,16 @@
+{
+  "id": "run-20260921010614-khesop",
+  "phase": "prepared",
+  "started_at": "2026-09-21T01:06:14.684Z",
+  "prepared_at": "2026-09-21T01:10:29.000Z",
+  "lease_commit": "9a07f011bbf660d94d8b063af205853a3ef235bf",
+  "base_main_commit": "68b6a13e2a5d78c8893a00ac3b85a92e7ae03d0e",
+  "base_registry_digest": "83e378c0eeb6d00295dfc95889b2cf362ed3151a644770a00afb9fe9d87ff4bb",
+  "material_changed": true,
+  "publication": {
+    "status": "prepared",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "2d4a8d082e7b7db35d4e758c3e457c4bfb841a1a59ee178979b96c5c503fe0b9"
+  },
+  "note": "Candidate batch was staged and tested outside main. Re-read the active lease and main HEAD before any production commit."
+}

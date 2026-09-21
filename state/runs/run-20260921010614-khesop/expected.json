@@ -1,0 +1,20 @@
+{
+  "run_id": "run-20260921010614-khesop",
+  "phase": "prepared",
+  "base_main_commit": "68b6a13e2a5d78c8893a00ac3b85a92e7ae03d0e",
+  "base_registry_digest": "83e378c0eeb6d00295dfc95889b2cf362ed3151a644770a00afb9fe9d87ff4bb",
+  "expected_content_digest": "2d4a8d082e7b7db35d4e758c3e457c4bfb841a1a59ee178979b96c5c503fe0b9",
+  "expected_index_sha256": "834fbe4169e415c374a2ebe4fd10b8f8f92684a8233b15bf56c892b63d2401dd",
+  "expected_event_count": 38,
+  "expected_rendered_card_count": 31,
+  "new_event_keys": [
+    "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown"
+  ],
+  "updated_event_keys": [],
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  }
+}

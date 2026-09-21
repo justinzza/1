@@ -1,0 +1,95 @@
+{
+  "base_digest": "83e378c0eeb6d00295dfc95889b2cf362ed3151a644770a00afb9fe9d87ff4bb",
+  "checked_at": "2026-09-21T01:10:29.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-alexa-shopping-made-in-usa-scrutiny",
+        "action_key": "request-ftc-investigation-2026",
+        "marketplaces": ["US"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "美国参议员要求FTC调查Amazon购物AI的“Made in USA”信息处理",
+        "summary": "路透社2026年9月17日报道，美国参议员Tammy Baldwin与Rick Scott已致函Federal Trade Commission，要求调查Amazon的Alexa for Shopping和Walmart的Sparky是否弱化美国原产商品信息、且未充分识别虚假的“Made in USA”标注。Amazon否认故意隐瞒原产地信息，并称目前会把原产地问题引导至商品详情页；FTC未就该请求发表评论。这是监管审查请求，不是FTC已立案、已执法或Amazon规则已变更。",
+        "impact": "美国站卖家的原产国字段、标题、图片、A+与广告中的“Made in USA”声明可能面临更高的消费者保护和平台审查压力；同时，购物AI能否正确读取详情页字段会影响商品发现与信任。该事件目前仅涉及美国监管语境，没有证据可直接套用于加拿大或墨西哥站。",
+        "action": "立即审计美国站ASIN的country of origin字段，以及标题、五点、图片、A+、包装和广告中的美国制造表述；只有产品满足FTC“all or virtually all”标准且证据链完整时才使用无保留的“Made in USA”声明。用Alexa for Shopping抽查重点ASIN的原产地回答并保存时间、ASIN和页面证据；发现AI回答与详情页不一致时通过Seller Support留痕，但不要把参议员的调查请求误当成新平台政策。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": "2026-09-17",
+        "original_date_note": "参议员致FTC的请求由Reuters于2026-09-17公开报道；未取得稳定公开的参议员信函原文地址，故主来源标记为媒体报道。FTC尚未宣布调查或执法，effective_date保留unknown，本次按9月17日归档。",
+        "first_seen_at": "2026-09-21T01:10:29.000Z",
+        "last_material_update_at": "2026-09-21T01:10:29.000Z",
+        "history_dates": ["2026-09-21"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.reuters.com/legal/litigation/amazon-walmart-chatbots-attract-senator-ire-over-made-usa-label-snags-2026-09-17/",
+            "publisher": "Reuters",
+            "kind": "industry_original",
+            "published_at": "2026-09-17",
+            "verified_at": "2026-09-21T01:10:29.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry_original"
+          },
+          {
+            "url": "https://law-and-economy.law.columbia.edu/content/made-america-hidden-ai-ai-shopping-chatbots-reveal-how-amazon-and-walmart-hurt-american",
+            "publisher": "Columbia Law School Center for Law and the Economy",
+            "kind": "industry_original",
+            "published_at": "2026-07-30",
+            "verified_at": "2026-09-21T01:10:29.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "research"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "83e378c0eeb6d00295dfc95889b2cf362ed3151a644770a00afb9fe9d87ff4bb",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条对照现有37条事件及本批候选：事件库没有以Alexa for Shopping原产地展示、Made in USA虚假标注或参议员FTC调查请求为主体的卡片；现有FTC Sponsored Ads诉讼涉及广告披露义务，主体动作、来源和监管事项均不同；Reuters与Columbia来源链接也未出现。",
+        "distinct_event_reason": "虽与既有FTC Sponsored Ads诉讼同属美国消费者保护，但本事件针对购物AI和商品原产地声明，非广告标签诉讼，不能合并。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "category_notes": {
+      "policy": "新增美国参议员要求FTC调查Amazon购物AI原产地信息处理的监管动向；FTC尚未宣布立案、执法或新规则。",
+      "ads": "未确认US/CA/MX广告产品、投放机制或流量规则的重要增量；Amazon Ads动态列表仅完成公开覆盖。",
+      "ai": "新增Alexa for Shopping原产地信息透明度审查线索；它不是新AI功能发布，运营重点是核对详情页字段与AI回答一致性。",
+      "opportunities": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp没有可核验的三站连续关键词或转化数据，未生成趋势结论。",
+      "competitors": "未指定可比ASIN，US/CA/MX价格、Coupon、BSR和页面变化缺少同ASIN、变体、地域连续快照；首次公开结果不计作变化。"
+    },
+    "coverage_note": "已检查US/CA/MX Seller Central公开检索、Amazon Global Selling、Amazon Ads、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体及指定公众号公开索引，并分别搜索三站汽配重点词。Seller Central与Amazon Ads动态列表、部分行业站点及所有指定公众号仅能取得公开摘要、旧文或无结果，无法声称逐篇完整遍历。新事件按Reuters原始公开日2026-09-17归档，没有刷新成9月21日新闻。",
+    "action_items": [
+      {
+        "title": "审计美国站原产地声明",
+        "detail": "核对重点ASIN的country of origin字段、详情页文案、图片、A+、包装和广告；对“Made in USA”声明保留符合FTC标准的供应链证据。",
+        "due": "本周",
+        "event_key": "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown"
+      },
+      {
+        "title": "抽查购物AI回答一致性",
+        "detail": "用Alexa for Shopping查询重点ASIN原产地，记录时间、ASIN、收货地区和页面证据；回答与详情页不一致时向Seller Support留痕。",
+        "due": "本周",
+        "event_key": "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown"
+      }
+    ]
+  }
+}

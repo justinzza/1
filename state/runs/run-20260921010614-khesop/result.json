@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown",
+      "action": "new",
+      "review": "逐条对照现有37条事件及本批候选：事件库没有以Alexa for Shopping原产地展示、Made in USA虚假标注或参议员FTC调查请求为主体的卡片；现有FTC Sponsored Ads诉讼涉及广告披露义务，主体动作、来源和监管事项均不同；Reuters与Columbia来源链接也未出现。"
+    }
+  ]
+}
