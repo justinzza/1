@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-19T01:07:44.000Z",
+  "content_updated_at": "2026-09-21T01:10:29.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -1988,6 +1988,58 @@
       "event_key": "amazon-ads-mexico-sme-ai-research|publish-ai-adoption-and-streaming-tv-study-2026|MX|unknown",
       "id": "evt-cffec8ed85406197",
       "primary_source_url": "https://www.aboutamazon.mx/noticias/amazon-ads/la-ia-esta-cambiando-quien-puede-competir-en-la-publicidad-de-alto-impacto"
+    },
+    {
+      "subject_key": "amazon-alexa-shopping-made-in-usa-scrutiny",
+      "action_key": "request-ftc-investigation-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美国参议员要求FTC调查Amazon购物AI的“Made in USA”信息处理",
+      "summary": "路透社2026年9月17日报道，美国参议员Tammy Baldwin与Rick Scott已致函Federal Trade Commission，要求调查Amazon的Alexa for Shopping和Walmart的Sparky是否弱化美国原产商品信息、且未充分识别虚假的“Made in USA”标注。Amazon否认故意隐瞒原产地信息，并称目前会把原产地问题引导至商品详情页；FTC未就该请求发表评论。这是监管审查请求，不是FTC已立案、已执法或Amazon规则已变更。",
+      "impact": "美国站卖家的原产国字段、标题、图片、A+与广告中的“Made in USA”声明可能面临更高的消费者保护和平台审查压力；同时，购物AI能否正确读取详情页字段会影响商品发现与信任。该事件目前仅涉及美国监管语境，没有证据可直接套用于加拿大或墨西哥站。",
+      "action": "立即审计美国站ASIN的country of origin字段，以及标题、五点、图片、A+、包装和广告中的美国制造表述；只有产品满足FTC“all or virtually all”标准且证据链完整时才使用无保留的“Made in USA”声明。用Alexa for Shopping抽查重点ASIN的原产地回答并保存时间、ASIN和页面证据；发现AI回答与详情页不一致时通过Seller Support留痕，但不要把参议员的调查请求误当成新平台政策。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-09-17",
+      "original_date_note": "参议员致FTC的请求由Reuters于2026-09-17公开报道；未取得稳定公开的参议员信函原文地址，故主来源标记为媒体报道。FTC尚未宣布调查或执法，effective_date保留unknown，本次按9月17日归档。",
+      "first_seen_at": "2026-09-21T01:10:29.000Z",
+      "last_material_update_at": "2026-09-21T01:10:29.000Z",
+      "history_dates": [
+        "2026-09-21"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/legal/litigation/amazon-walmart-chatbots-attract-senator-ire-over-made-usa-label-snags-2026-09-17/",
+          "publisher": "Reuters",
+          "kind": "industry_original",
+          "published_at": "2026-09-17",
+          "verified_at": "2026-09-21T01:10:29.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry_original",
+          "canonical_url": "https://www.reuters.com/legal/litigation/amazon-walmart-chatbots-attract-senator-ire-over-made-usa-label-snags-2026-09-17"
+        },
+        {
+          "url": "https://law-and-economy.law.columbia.edu/content/made-america-hidden-ai-ai-shopping-chatbots-reveal-how-amazon-and-walmart-hurt-american",
+          "publisher": "Columbia Law School Center for Law and the Economy",
+          "kind": "industry_original",
+          "published_at": "2026-07-30",
+          "verified_at": "2026-09-21T01:10:29.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "research",
+          "canonical_url": "https://law-and-economy.law.columbia.edu/content/made-america-hidden-ai-ai-shopping-chatbots-reveal-how-amazon-and-walmart-hurt-american"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown",
+      "id": "evt-3432c3979a3ca4ae",
+      "primary_source_url": "https://law-and-economy.law.columbia.edu/content/made-america-hidden-ai-ai-shopping-chatbots-reveal-how-amazon-and-walmart-hurt-american"
     }
   ]
 }

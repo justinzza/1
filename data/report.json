@@ -1,9 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-mexico-prime-mega-deals-2026|schedule-october-6-10-2026|MX|2026-10-06",
-    "amazon-ads-mexico-sme-ai-research|publish-ai-adoption-and-streaming-tv-study-2026|MX|unknown",
-    "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+    "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -13,46 +11,37 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "未确认新的US/CA/MX政策或监管实质增量；Seller Central动态列表和部分监管入口仅完成公开覆盖。",
-    "ads": "新增墨西哥Amazon Ads官方调研，但不是具体广告产品或投放机制上线；未确认US/CA广告规则新增。",
-    "ai": "新增墨西哥中小企业AI广告采用调研及可执行测试方法，明确与产品发布、效果承诺区分。",
-    "opportunities": "补齐墨西哥站10月6—10日独立秋季Prime大促档期；fuel line、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续关键词和转化数据。",
-    "competitors": "未指定可比ASIN，US/CA/MX价格、Coupon、BSR和页面变化缺少同ASIN、变体、地域连续快照；首次公开样本不计作变化。"
+    "policy": "新增美国参议员要求FTC调查Amazon购物AI原产地信息处理的监管动向；FTC尚未宣布立案、执法或新规则。",
+    "ads": "未确认US/CA/MX广告产品、投放机制或流量规则的重要增量；Amazon Ads动态列表仅完成公开覆盖。",
+    "ai": "新增Alexa for Shopping原产地信息透明度审查线索；它不是新AI功能发布，运营重点是核对详情页字段与AI回答一致性。",
+    "opportunities": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp没有可核验的三站连续关键词或转化数据，未生成趋势结论。",
+    "competitors": "未指定可比ASIN，US/CA/MX价格、Coupon、BSR和页面变化缺少同ASIN、变体、地域连续快照；首次公开结果不计作变化。"
   },
-  "coverage_note": "本次新增均按Amazon Mexico官方原始发布日期2026-09-15和09-17归档，没有刷新为9月19日。已检查US/CA/MX Seller Central公开检索、Amazon Global Selling、Amazon Ads、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管入口、既定行业媒体和逐一指定公众号公开结果。墨西哥大促转载与既有美加卡片完成语义比对后按不同日期独立建档。Seller Central和Amazon Ads动态列表、卖家之家正文、指定公众号及行业媒体公众号只能取得公开摘要、作者页、旧文或无结果，无法声称逐篇完整遍历。",
+  "coverage_note": "已检查US/CA/MX Seller Central公开检索、Amazon Global Selling、Amazon Ads、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体及指定公众号公开索引，并分别搜索三站汽配重点词。Seller Central与Amazon Ads动态列表、部分行业站点及所有指定公众号仅能取得公开摘要、旧文或无结果，无法声称逐篇完整遍历。新事件按Reuters原始公开日2026-09-17归档，没有刷新成9月21日新闻。",
   "action_items": [
     {
-      "title": "按墨西哥5天独立档期排期",
-      "detail": "在Mexico Seller Central核对Deal、Coupon和Prime促销资格及截止日，并按10月6—10日单独设置MXN毛利、库存与广告预算护栏。",
+      "title": "审计美国站原产地声明",
+      "detail": "核对重点ASIN的country of origin字段、详情页文案、图片、A+、包装和广告；对“Made in USA”声明保留符合FTC标准的供应链证据。",
       "due": "本周",
-      "event_key": "amazon-mexico-prime-mega-deals-2026|schedule-october-6-10-2026|MX|2026-10-06"
+      "event_key": "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown"
     },
     {
-      "title": "小规模测试墨西哥AI视频素材",
-      "detail": "用同一受众、落地页和归因窗口对比人工与AI辅助西语素材，人工复核产品事实、商标、版权和字幕。",
+      "title": "抽查购物AI回答一致性",
+      "detail": "用Alexa for Shopping查询重点ASIN原产地，记录时间、ASIN、收货地区和页面证据；回答与详情页不一致时向Seller Support留痕。",
       "due": "本周",
-      "event_key": "amazon-ads-mexico-sme-ai-research|publish-ai-adoption-and-streaming-tv-study-2026|MX|unknown"
-    },
-    {
-      "title": "分离三站促销日历",
-      "detail": "US/CA按10月6—7日、MX按10月6—10日维护独立库存、价格、Coupon和广告计划，不跨站复用截止日或活动资格。",
-      "due": "立即",
-      "event_key": "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
+      "event_key": "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-19",
-  "content_updated_at": "2026-09-19T01:07:44.000Z",
+  "report_date": "2026-09-21",
+  "content_updated_at": "2026-09-21T01:10:29.000Z",
   "new_event_keys": [
-    "amazon-mexico-prime-mega-deals-2026|schedule-october-6-10-2026|MX|2026-10-06",
-    "amazon-ads-mexico-sme-ai-research|publish-ai-adoption-and-streaming-tv-study-2026|MX|unknown"
+    "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown"
   ],
-  "updated_event_keys": [
-    "amazon-prime-big-deal-days-2026|schedule-october-6-7-2026|CA+US|2026-10-06"
-  ],
+  "updated_event_keys": [],
   "counts": {
-    "new": 2,
-    "updated": 1,
+    "new": 1,
+    "updated": 0,
     "merged": 0,
     "deduplicated": 0
   }
