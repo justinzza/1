@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-21T01:10:29.000Z",
+  "content_updated_at": "2026-09-22T01:11:12.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -2040,6 +2040,48 @@
       "event_key": "amazon-alexa-shopping-made-in-usa-scrutiny|request-ftc-investigation-2026|US|unknown",
       "id": "evt-3432c3979a3ca4ae",
       "primary_source_url": "https://law-and-economy.law.columbia.edu/content/made-america-hidden-ai-ai-shopping-chatbots-reveal-how-amazon-and-walmart-hurt-american"
+    },
+    {
+      "subject_key": "amazon-delivery-service-partner-program",
+      "action_key": "invest-and-roll-out-safety-ai-tools-2026",
+      "marketplaces": [
+        "CA",
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "Amazon美加DSP追加19亿美元投入，并推进AI路由与配送安全工具",
+      "summary": "Amazon于2026年9月21日宣布追加19亿美元投入Delivery Service Partner（DSP）计划，并面向美国、加拿大DSP网络推进多项工具：配送App新增动态道路危险提醒与恶劣天气自动改线，使用AI识别事故风险驾驶趋势，继续扩展Wellspring生成式AI地图与Smart Delivery Glasses。环视摄像头计划在2026年底覆盖网络中50%的Rivian电动配送车，智能眼镜预计到2027年底部署超过20,000台。",
+      "impact": "这是Amazon美加末端配送网络的重大投入与技术升级，可能提高包裹投递准确性、路线适应性和安全性，但公告没有改变第三方卖家的FBA费率、赔付规则、配送承诺或Seller Central操作流程。墨西哥DSP网络未被该原文明确纳入，不能跨站套用。",
+      "action": "美国、加拿大卖家把该变化作为末端履约能力信号而非卖家新规：持续按站点监控Late Delivery、丢件、错投、退货与客户投诉，记录升级前后的趋势；出现地址识别或投递证据异常时保留订单、时间、收货地区与照片并通过Seller Support申诉。不要据此提前承诺更快时效，也不要把投入金额直接视为FBA成本下降。",
+      "category": "ai",
+      "priority": "P1",
+      "original_published_at": "2026-09-21",
+      "original_date_note": "Amazon官方文章发表于2026-09-21。公告包含持续投入、2026年底摄像头覆盖目标和2027年底智能眼镜部署目标，没有统一的日级生效日期，因此effective_date保留unknown，并按原始发布日期归档。",
+      "first_seen_at": "2026-09-22T01:11:12.000Z",
+      "last_material_update_at": "2026-09-22T01:11:12.000Z",
+      "history_dates": [
+        "2026-09-22"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/transportation/amazon-dsp-program-investment-2026",
+          "publisher": "Amazon",
+          "kind": "official",
+          "published_at": "2026-09-21",
+          "verified_at": "2026-09-22T01:11:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.com/news/transportation/amazon-dsp-program-investment-2026"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-delivery-service-partner-program|invest-and-roll-out-safety-ai-tools-2026|CA+US|unknown",
+      "id": "evt-ffb1502001775a67",
+      "primary_source_url": "https://www.aboutamazon.com/news/transportation/amazon-dsp-program-investment-2026"
     }
   ]
 }
