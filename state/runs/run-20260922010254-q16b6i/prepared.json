@@ -1,0 +1,25 @@
+{
+  "run_id": "run-20260922010254-q16b6i",
+  "status": "prepared",
+  "prepared_at": "2026-09-22T01:11:12.000Z",
+  "radar_state_lease_commit": "0e826ef95dbbc4ee9c032e632f81fba0abf729e8",
+  "main_base_commit": "9fc87189451622e8526337cdd4c8cfbcd0423562",
+  "base_registry_digest": "df5e0fb743866047bcdb6b384efb6e0ce3610ed92837aeca787f59f75ea072b5",
+  "expected_registry_digest": "96b090f54fe7b68337cdb59c2bbdc2439b48d9a0528bdc76d8e0a481c59b6109",
+  "expected_card_count": 32,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "event_keys": [
+    "amazon-delivery-service-partner-program|invest-and-roll-out-safety-ai-tools-2026|CA+US|unknown"
+  ],
+  "tests": {
+    "node_test": "22 passed",
+    "registry_valid": true,
+    "render_matches": true,
+    "daily_briefing_absent": true
+  }
+}

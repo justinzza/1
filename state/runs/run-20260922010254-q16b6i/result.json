@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-delivery-service-partner-program|invest-and-roll-out-safety-ai-tools-2026|CA+US|unknown"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-delivery-service-partner-program|invest-and-roll-out-safety-ai-tools-2026|CA+US|unknown",
+      "action": "new",
+      "review": "已逐条比较现有38条事件及31张已发布卡片的event_key、标题语义、规范化来源链接和生效日期。现库虽有Amazon Ads/DSP广告事件，但没有Delivery Service Partner末端配送计划的19亿美元投入、动态危险提醒、AI风险识别或智能眼镜扩展；本批仅此候选，不存在批内重复。"
+    }
+  ]
+}
