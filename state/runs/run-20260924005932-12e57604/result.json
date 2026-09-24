@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23",
+      "action": "new",
+      "review": "已逐条比较现有39条事件及32张已发布卡片的event_key、标题语义、规范化来源链接和生效日期，并检查本批候选。现库有Amazon Ads AI、购物AI监管及DSP配送AI事件，但没有Seller Assistant持续记忆、可执行工作流或Selling Partner plugin接入Quick/Claude的事件；标题、官方来源、主体动作和2026-09-23日期均无语义重复。"
+    }
+  ]
+}

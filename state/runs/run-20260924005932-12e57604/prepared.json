@@ -1,0 +1,27 @@
+{
+  "run_id": "run-20260924005932-12e57604",
+  "status": "prepared",
+  "prepared_at": "2026-09-24T01:07:39.000Z",
+  "radar_state_lease_commit": "fb99b3663130eaffa1b94b2b33fbdeab8abe0329",
+  "main_base_commit": "aaf7f832253217d28d5afc1c8b1147d03df5f7cd",
+  "base_registry_digest": "96b090f54fe7b68337cdb59c2bbdc2439b48d9a0528bdc76d8e0a481c59b6109",
+  "expected_registry_digest": "fda42e36d6aed907ca6e130747a7fec9cd1d70c6749f80eb3f9919870d3a1b64",
+  "expected_content_digest": "a79a851763953918c91d4fffbe188a0b919c10315c1bc47257a9ef77bfbacd8c",
+  "expected_html_sha256": "cb402ae5ebe78f240fca9c16e7d27000005c6f39ffdeaaa35b17549c001a0c28",
+  "expected_card_count": 33,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "event_keys": [
+    "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+  ],
+  "tests": {
+    "node_test": "22 passed",
+    "registry_valid": true,
+    "render_matches": true,
+    "daily_briefing_absent": true
+  }
+}

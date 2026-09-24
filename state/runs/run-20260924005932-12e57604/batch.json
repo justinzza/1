@@ -1,0 +1,95 @@
+{
+  "base_digest": "96b090f54fe7b68337cdb59c2bbdc2439b48d9a0528bdc76d8e0a481c59b6109",
+  "checked_at": "2026-09-24T01:07:39.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-seller-assistant-and-selling-partner-plugin",
+        "action_key": "add-persistent-memory-workflows-and-us-plugin-beta-2026",
+        "marketplaces": [
+          "GLOBAL",
+          "US"
+        ],
+        "effective_date": "2026-09-23",
+        "deadline": "2026-12-31",
+        "title": "Seller Assistant新增持续工作流；Quick/Claude插件先在美国站Beta",
+        "summary": "Amazon于2026年9月23日宣布Seller Assistant新增持续记忆与工作流，可持续监测补货、定价、Account Health和Listing，并在卖家设定的护栏内提出或执行操作，所有动作保留审计记录且需卖家批准。新的Selling Partner plugin可把这些卖家数据与操作接入Amazon Quick和Claude，目前插件Beta仅面向Amazon美国站；Seller Assistant核心能力已覆盖全球90%以上卖家。全球Primary Account Holder还可在2026年12月31日前免费登记12个月Amazon Quick Plus，并指定两名同事。",
+        "impact": "这把Seller Assistant从按需问答推进到可持续监控和可执行工作流，可能减少补货、价格与账户健康的重复检查，也显著提高权限、价格护栏和错误操作风险。美国站插件Beta不能据此套用于加拿大或墨西哥站；全球覆盖指Seller Assistant核心能力，不等于Quick/Claude插件全球开放。",
+        "action": "先在低风险SKU和只读提醒场景测试，明确最低售价、最大调价幅度、补货上限、可修改字段和审批人；对所有自动建议保留人工批准并定期审计操作日志、应用权限和数据范围。美国站Primary Account Holder如需试用Quick Plus，应在12月31日前确认资格并登记；加拿大、墨西哥站等待官方插件开放证据，不要录入受限客户数据。",
+        "category": "ai",
+        "priority": "P0",
+        "original_published_at": "2026-09-23",
+        "original_date_note": "Amazon官方文章发表于2026-09-23，并称Selling Partner plugin现处于美国站Beta，故以9月23日作为该Beta及新工作流公开可用日期。2026-12-31是免费12个月Amazon Quick Plus的登记截止日，不代表插件在其他站点的开放日期。",
+        "first_seen_at": "2026-09-24T01:07:39.000Z",
+        "last_material_update_at": "2026-09-24T01:07:39.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude",
+            "publisher": "Amazon",
+            "kind": "official",
+            "published_at": "2026-09-23",
+            "verified_at": "2026-09-24T01:07:39.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "96b090f54fe7b68337cdb59c2bbdc2439b48d9a0528bdc76d8e0a481c59b6109",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比较现有39条事件及32张已发布卡片的event_key、标题语义、规范化来源链接和生效日期，并检查本批候选。现库有Amazon Ads AI、购物AI监管及DSP配送AI事件，但没有Seller Assistant持续记忆、可执行工作流或Selling Partner plugin接入Quick/Claude的事件；标题、官方来源、主体动作和2026-09-23日期均无语义重复。",
+        "distinct_event_reason": "本事件直接改变Seller Central运营辅助能力及可执行工作流，区别于现有广告创意AI、消费者购物AI监管和末端配送AI；GLOBAL表示Seller Assistant核心能力范围，US单独标识插件Beta范围，正文明确不把插件套用于CA/MX。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "category_notes": {
+      "policy": "US、CA、MX公开来源未确认新的卖家政策、费率或合规规则；Seller Central动态列表及墨西哥部分监管入口只能完成公开检索覆盖。",
+      "ads": "未确认新的广告产品或投放机制；Amazon Ads What's New公开结果为旧功能或既有事项，动态列表未能完整遍历。",
+      "ai": "新增Seller Assistant持续记忆、工作流及Selling Partner plugin；插件Beta仅确认美国站，核心Seller Assistant能力为全球范围。",
+      "opportunities": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少US、CA、MX连续关键词、类目与转化数据，未生成趋势结论。",
+      "competitors": "未指定可比ASIN，三站价格、Coupon、BSR和页面变化缺少同ASIN、变体、地域连续快照；首次公开样本不计作变化。"
+    },
+    "coverage_note": "已按各来源既有窗口检查US、CA、MX Seller Central公开检索、Amazon Global Selling、Amazon Ads、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体与指定公众号公开索引，并分别搜索三站汽配重点词。Seller Central和Amazon Ads动态列表、部分监管及行业站点、公众号只能取得公开摘要、旧文、无结果或受限页面，不能声称逐篇完整遍历。新增事件按Amazon官方原始发布日期2026-09-23归档，并分别说明全球核心能力与美国站插件Beta范围。",
+    "action_items": [
+      {
+        "title": "用只读模式试运行Seller Assistant工作流",
+        "detail": "先选择低风险SKU，只启用补货、价格和Account Health提醒；记录建议质量后再决定是否开放执行权限。",
+        "due": "本周",
+        "event_key": "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+      },
+      {
+        "title": "建立AI操作护栏与审计",
+        "detail": "明确最低售价、最大调价幅度、补货上限、可修改字段与审批人，定期检查操作日志、插件权限和数据范围。",
+        "due": "启用前",
+        "event_key": "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+      },
+      {
+        "title": "核对美国站Quick Plus登记",
+        "detail": "美国站Primary Account Holder如需使用Quick/Claude插件，确认Beta资格并在2026年12月31日前评估免费12个月Quick Plus登记；CA、MX不套用插件范围。",
+        "due": "2026-12-31",
+        "event_key": "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+      }
+    ]
+  }
+}
