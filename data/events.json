@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-22T01:11:12.000Z",
+  "content_updated_at": "2026-09-24T01:07:39.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -2082,6 +2082,48 @@
       "event_key": "amazon-delivery-service-partner-program|invest-and-roll-out-safety-ai-tools-2026|CA+US|unknown",
       "id": "evt-ffb1502001775a67",
       "primary_source_url": "https://www.aboutamazon.com/news/transportation/amazon-dsp-program-investment-2026"
+    },
+    {
+      "subject_key": "amazon-seller-assistant-and-selling-partner-plugin",
+      "action_key": "add-persistent-memory-workflows-and-us-plugin-beta-2026",
+      "marketplaces": [
+        "GLOBAL",
+        "US"
+      ],
+      "effective_date": "2026-09-23",
+      "deadline": "2026-12-31",
+      "title": "Seller Assistant新增持续工作流；Quick/Claude插件先在美国站Beta",
+      "summary": "Amazon于2026年9月23日宣布Seller Assistant新增持续记忆与工作流，可持续监测补货、定价、Account Health和Listing，并在卖家设定的护栏内提出或执行操作，所有动作保留审计记录且需卖家批准。新的Selling Partner plugin可把这些卖家数据与操作接入Amazon Quick和Claude，目前插件Beta仅面向Amazon美国站；Seller Assistant核心能力已覆盖全球90%以上卖家。全球Primary Account Holder还可在2026年12月31日前免费登记12个月Amazon Quick Plus，并指定两名同事。",
+      "impact": "这把Seller Assistant从按需问答推进到可持续监控和可执行工作流，可能减少补货、价格与账户健康的重复检查，也显著提高权限、价格护栏和错误操作风险。美国站插件Beta不能据此套用于加拿大或墨西哥站；全球覆盖指Seller Assistant核心能力，不等于Quick/Claude插件全球开放。",
+      "action": "先在低风险SKU和只读提醒场景测试，明确最低售价、最大调价幅度、补货上限、可修改字段和审批人；对所有自动建议保留人工批准并定期审计操作日志、应用权限和数据范围。美国站Primary Account Holder如需试用Quick Plus，应在12月31日前确认资格并登记；加拿大、墨西哥站等待官方插件开放证据，不要录入受限客户数据。",
+      "category": "ai",
+      "priority": "P0",
+      "original_published_at": "2026-09-23",
+      "original_date_note": "Amazon官方文章发表于2026-09-23，并称Selling Partner plugin现处于美国站Beta，故以9月23日作为该Beta及新工作流公开可用日期。2026-12-31是免费12个月Amazon Quick Plus的登记截止日，不代表插件在其他站点的开放日期。",
+      "first_seen_at": "2026-09-24T01:07:39.000Z",
+      "last_material_update_at": "2026-09-24T01:07:39.000Z",
+      "history_dates": [
+        "2026-09-24"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude",
+          "publisher": "Amazon",
+          "kind": "official",
+          "published_at": "2026-09-23",
+          "verified_at": "2026-09-24T01:07:39.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23",
+      "id": "evt-4d2abf9e542546a0",
+      "primary_source_url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude"
     }
   ]
 }
