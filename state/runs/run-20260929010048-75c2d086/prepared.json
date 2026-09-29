@@ -1,0 +1,24 @@
+{
+  "run_id": "run-20260929010048-75c2d086",
+  "prepared_at": "2026-09-29T01:12:00.000Z",
+  "main_head": "dee6398b02682a4585fe5d7e322a92c749372d08",
+  "base_registry_digest": "fda42e36d6aed907ca6e130747a7fec9cd1d70c6749f80eb3f9919870d3a1b64",
+  "expected_registry_digest": "a1b328c418789606c881ad7475f80195de1232734e3ad277f352995776228025",
+  "expected_content_digest": "2c49575e306dc7c0fe9aab4fbd738286ce5557f04ae75ea81f236a8f60073c8f",
+  "expected_html_sha256": "6d067a93fd35979c1a59a2d4f1d49067f110a6a2ef872ce9b204c4767b4a4e9d",
+  "expected_displayed_cards": 39,
+  "expected_total_events": 46,
+  "counts": {
+    "new": 6,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "tests": {
+    "node_tests": "22 passed",
+    "data_page_check": "valid",
+    "daily_briefing_absent": true,
+    "dingtalk_absent": true
+  },
+  "status": "prepared_for_main"
+}

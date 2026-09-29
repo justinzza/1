@@ -1,0 +1,51 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 6,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "us-cpsc-amazon-sold-products|issue-september-24-recalls-and-stop-sale-warnings-2026|CA+US|2026-09-24",
+    "amazon-global-selling-and-supply-chain-tools|add-unified-expansion-compliance-and-gwd-capabilities-2026|CA+GLOBAL+US|2026-09-24",
+    "amazon-us-seller-central-multichannel-tools|add-cross-channel-listing-order-and-fulfillment-management-2026|US|2026-09-24",
+    "amazon-mcf-and-prime-delivery|add-off-amazon-prime-delivery-and-preferred-pricing-2026|US|2026-09-24",
+    "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28",
+    "amazon-mexico-cross-border-delivery|add-next-day-us-to-central-mexico-shipping-2026|MX|2026-09-24"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "us-cpsc-amazon-sold-products|issue-september-24-recalls-and-stop-sale-warnings-2026|CA+US|2026-09-24",
+      "action": "new",
+      "review": "逐条与事件库既有9月10日、9月17日CPSC批次及本批候选比较；本批发布日期、涉事品牌型号和监管行动均独立，10个同日行动合并为一张新卡片。"
+    },
+    {
+      "event_key": "amazon-global-selling-and-supply-chain-tools|add-unified-expansion-compliance-and-gwd-capabilities-2026|CA+GLOBAL+US|2026-09-24",
+      "action": "new",
+      "review": "与全库的FBA、库存、合规、费用及AI事件按event_key、标题语义、规范化来源和生效日比较；未发现同一跨国扩展与GWD公告，且未与本批US多渠道管理事件混同。"
+    },
+    {
+      "event_key": "amazon-us-seller-central-multichannel-tools|add-cross-channel-listing-order-and-fulfillment-management-2026|US|2026-09-24",
+      "action": "new",
+      "review": "逐条检查既有Seller Central功能、AI工具和本批供应链/MCF候选；本事件核心是跨渠道账户连接与订单管理，未发现同一来源或语义重复。"
+    },
+    {
+      "event_key": "amazon-mcf-and-prime-delivery|add-off-amazon-prime-delivery-and-preferred-pricing-2026|US|2026-09-24",
+      "action": "new",
+      "review": "与全库FBA费用、Business Deals、Prime大促及本批多渠道管理候选逐条比较；本事件是美国站外Prime配送和MCF专项优惠，主体动作与来源均独立。"
+    },
+    {
+      "event_key": "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28",
+      "action": "new",
+      "review": "与全库Sponsored Brands迁移、ChatGPT Ads试点、Seller Assistant及本批AI工具逐条比较；本事件是独立的广告分析Closed Beta，三站范围和生效日均无重复。"
+    },
+    {
+      "event_key": "amazon-mexico-cross-border-delivery|add-next-day-us-to-central-mexico-shipping-2026|MX|2026-09-24",
+      "action": "new",
+      "review": "与全库墨西哥新卖家费用减免、Prime大促和本批全球供应链事件比较；本事件是面向墨西哥中部指定城市的美国仓次日跨境配送，动作、范围和来源独立。"
+    }
+  ]
+}
