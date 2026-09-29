@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-24T01:07:39.000Z",
+  "content_updated_at": "2026-09-29T01:12:00.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -2124,6 +2124,378 @@
       "event_key": "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23",
       "id": "evt-4d2abf9e542546a0",
       "primary_source_url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude"
+    },
+    {
+      "subject_key": "us-cpsc-amazon-sold-products",
+      "action_key": "issue-september-24-recalls-and-stop-sale-warnings-2026",
+      "marketplaces": [
+        "CA",
+        "US"
+      ],
+      "effective_date": "2026-09-24",
+      "deadline": null,
+      "title": "美加监管机构集中发布10项Amazon.com在售商品安全行动",
+      "summary": "美国CPSC于2026年9月24日集中发布Kesyup和Emerspring及WinxMatrs床垫、5Color儿童头盔、INMO Air3智能眼镜、Hyperfuels燃料容器、Blue Cactus躺椅电池、Aitjunz抽屉柜、NEWDERY充电宝和FOTING压力清洗机等10项召回或停用警告，相关商品均明确曾在Amazon.com销售。INMO Air3同时由Health Canada联合召回，官方记录加拿大售出120件、美国售出1,643件；其余9项仅按美国证据处理。ABC发光玩具未在Amazon销售，未并入本卡片。",
+      "impact": "命中品牌、型号或订单的卖家面临立即停售、隔离库存、通知消费者、退款或修复及监管记录保存要求。加拿大站范围只适用于INMO Air3，不得把其余美国行动自动套用于Amazon.ca；FOTING为CPSC停止使用警告且公司未同意召回，仍需按监管原文执行风险隔离。",
+      "action": "立即用品牌、型号、供应商、ASIN和历史订单筛查US库存、在途和已售商品；命中后暂停销售并分别执行CPSC的退款、修复、销毁或停止使用要求。INMO Air3在CA同步停售并更新至固件3.16后再恢复；保存监管通知、批次、客户沟通、退款和处置证据，不将其他9项扩展到CA或MX。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": "2026-09-24",
+      "original_date_note": "10项CPSC行动及INMO Air3加拿大联合召回均发布于2026-09-24；以监管发布日期作为事件日期，不以本次发现时间代替。",
+      "first_seen_at": "2026-09-29T01:12:00.000Z",
+      "last_material_update_at": "2026-09-29T01:12:00.000Z",
+      "history_dates": [
+        "2026-09-29"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/ZCK01-Recalls-Kesyup-Mattresses-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violate-Mandatory-Standard-for-Mattress-Flammability",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2026/ZCK01-Recalls-Kesyup-Mattresses-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violate-Mandatory-Standard-for-Mattress-Flammability"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/5Color-Recalls-Childrens-Bicycle-Helmet-and-Pads-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violate-Mandatory-Standard-for-Bicycle-Helmets",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2026/5Color-Recalls-Childrens-Bicycle-Helmet-and-Pads-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violate-Mandatory-Standard-for-Bicycle-Helmets"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/Style-Homeware-Recalls-Emerspring-Mattresses-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violate-Mandatory-Standard-for-Mattress-Flammability",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2026/Style-Homeware-Recalls-Emerspring-Mattresses-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violate-Mandatory-Standard-for-Mattress-Flammability"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/Xinan-Home-Recalls-WinxMatrs-Mattresses-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violate-Mandatory-Standard-for-Mattress-Flammability",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2026/Xinan-Home-Recalls-WinxMatrs-Mattresses-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violate-Mandatory-Standard-for-Mattress-Flammability"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/INMO-International-Technology-Limited-Recalls-INMO-Air3-Smart-Glasses-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-Hazard",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2026/INMO-International-Technology-Limited-Recalls-INMO-Air3-Smart-Glasses-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-Hazard"
+        },
+        {
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/inmo-air3-smart-glasses-recalled-due-burn-hazard",
+          "publisher": "Health Canada",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://recalls-rappels.canada.ca/en/alert-recall/inmo-air3-smart-glasses-recalled-due-burn-hazard"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/Hyperfuels-Recalls-Methanol-and-Ethanol-Fuel-Containers-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-and-Flame-Jetting-Violates-Multiple-Federal-Safety-Standards",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2026/Hyperfuels-Recalls-Methanol-and-Ethanol-Fuel-Containers-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-and-Flame-Jetting-Violates-Multiple-Federal-Safety-Standards"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/The-Blue-Cactus-Company-Reclining-Chair-Battery-Packs-Recalled-Due-to-Fire-and-Burn-Hazards-Sold-on-Amazon",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2026/The-Blue-Cactus-Company-Reclining-Chair-Battery-Packs-Recalled-Due-to-Fire-and-Burn-Hazards-Sold-on-Amazon"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/Yuyitop-Recalls-Aitjunz-8-Drawer-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2026/Yuyitop-Recalls-Aitjunz-8-Drawer-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/NEWDERY-Power-Banks-Recalled-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-Sold-on-Amazon",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2026/NEWDERY-Power-Banks-Recalled-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-Sold-on-Amazon"
+        },
+        {
+          "url": "https://www.cpsc.gov/Warnings/2026/CPSC-Warns-Consumers-to-Stop-Using-FOTING-Pressure-Washers-Immediately-Due-to-Serious-Shock-and-Electrocution-Hazards-Risk-of-Serious-Injury-or-Death",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator",
+          "canonical_url": "https://www.cpsc.gov/Warnings/2026/CPSC-Warns-Consumers-to-Stop-Using-FOTING-Pressure-Washers-Immediately-Due-to-Serious-Shock-and-Electrocution-Hazards-Risk-of-Serious-Injury-or-Death"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "us-cpsc-amazon-sold-products|issue-september-24-recalls-and-stop-sale-warnings-2026|CA+US|2026-09-24",
+      "id": "evt-9a0d40a5dfaa627b",
+      "primary_source_url": "https://recalls-rappels.canada.ca/en/alert-recall/inmo-air3-smart-glasses-recalled-due-burn-hazard"
+    },
+    {
+      "subject_key": "amazon-global-selling-and-supply-chain-tools",
+      "action_key": "add-unified-expansion-compliance-and-gwd-capabilities-2026",
+      "marketplaces": [
+        "CA",
+        "GLOBAL",
+        "US"
+      ],
+      "effective_date": "2026-09-24",
+      "deadline": null,
+      "title": "Amazon公布统一跨国扩展、合规提交与Global Warehousing能力路线图",
+      "summary": "Amazon于2026年9月24日公布跨国销售与供应链能力：Sell Globally已面向FBA卖家提供统一扩展视图，首版覆盖美国、欧洲和日本并计划年内增加国家；合规单次提交先从玩具开始，电子和婴童品类计划年内加入；Global Warehousing and Distribution当前连接美国，计划年内扩展至包括加拿大在内的7个国家。Amazon称试点合规成本最高可降低60%，GWD仓储成本相较美国AWD最高可低45%、补货最快可提速5天；这些是官方所述上限，不是所有卖家的保证。",
+      "impact": "跨站库存、合规和扩展决策可逐步集中管理，但不同能力处于已上线、逐步推出或年内计划阶段。加拿大只确认GWD被列入年内扩展，不代表现在已可用；墨西哥未获该路线图的明确GWD范围证据，不能套用。",
+      "action": "在Seller Central核对账户实际出现的Sell Globally、合规和供应链入口，先以US现有能力建立商品、库存和认证映射；玩具卖家整理可复用的检测与合规文件。CA等待账户开放证据后再迁移库存流程，MX保持独立合规与库存计划；成本测算使用自身报价，不直接采用官方最高节省比例。",
+      "category": "opportunities",
+      "priority": "P0",
+      "original_published_at": "2026-09-24",
+      "original_date_note": "Amazon官方文章发表于2026-09-24；该日期用于记录公告，具体功能分别处于已上线、未来数周/月推出或2026年内扩展阶段。",
+      "first_seen_at": "2026-09-29T01:12:00.000Z",
+      "last_material_update_at": "2026-09-29T01:12:00.000Z",
+      "history_dates": [
+        "2026-09-29"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/amazon-sellers-global-expansion-tools",
+          "publisher": "Amazon",
+          "kind": "official",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.com/news/innovation-at-amazon/amazon-sellers-global-expansion-tools"
+        },
+        {
+          "url": "https://sellingpartners.aboutamazon.com/amazons-growth-playbook-with-ai",
+          "publisher": "Amazon Selling Partners",
+          "kind": "official",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellingpartners.aboutamazon.com/amazons-growth-playbook-with-ai"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-global-selling-and-supply-chain-tools|add-unified-expansion-compliance-and-gwd-capabilities-2026|CA+GLOBAL+US|2026-09-24",
+      "id": "evt-cbbbd24e7690edcb",
+      "primary_source_url": "https://sellingpartners.aboutamazon.com/amazons-growth-playbook-with-ai"
+    },
+    {
+      "subject_key": "amazon-us-seller-central-multichannel-tools",
+      "action_key": "add-cross-channel-listing-order-and-fulfillment-management-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-09-24",
+      "deadline": null,
+      "title": "美国站Seller Central逐步上线跨渠道Listing、订单与履约管理",
+      "summary": "Amazon于2026年9月24日宣布在美国站Seller Central逐步推出多渠道管理工具，卖家可连接eBay、Shopify、TikTok和Walmart账户，导入或关联Listing、查看跨渠道销售与订单，并通过Amazon履约其他渠道订单，卖家无需额外支付工具费用。部分Listing同步、AI优化和盈利分析仍属后续能力，不能当作当前全量开放。",
+      "impact": "可减少多平台Listing、订单和库存管理的切换成本，但处于美国站渐进式上线且账户可见性可能不同。站外渠道数据由卖家控制，连接权限、SKU映射和库存同步错误会直接影响超卖、价格和履约。",
+      "action": "先用少量非核心SKU连接一个渠道，核对SKU映射、库存扣减、订单回传、税务和取消流程；保存连接权限和审计记录。只有在账户实际看到同步与AI功能后再启用，CA、MX继续使用各自现有流程。",
+      "category": "ai",
+      "priority": "P1",
+      "original_published_at": "2026-09-24",
+      "original_date_note": "Amazon官方文章发表于2026-09-24并称工具正在美国站逐步推出；该日期不是所有账户同时开放的承诺。",
+      "first_seen_at": "2026-09-29T01:12:00.000Z",
+      "last_material_update_at": "2026-09-29T01:12:00.000Z",
+      "history_dates": [
+        "2026-09-29"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/small-business/amazon-seller-central-multichannel-selling-tools",
+          "publisher": "Amazon",
+          "kind": "official",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.com/news/small-business/amazon-seller-central-multichannel-selling-tools"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-seller-central-multichannel-tools|add-cross-channel-listing-order-and-fulfillment-management-2026|US|2026-09-24",
+      "id": "evt-51a1646d4a6b3a60",
+      "primary_source_url": "https://www.aboutamazon.com/news/small-business/amazon-seller-central-multichannel-selling-tools"
+    },
+    {
+      "subject_key": "amazon-mcf-and-prime-delivery",
+      "action_key": "add-off-amazon-prime-delivery-and-preferred-pricing-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-09-24",
+      "deadline": null,
+      "title": "美国MCF上线站外Prime配送，并为FBA卖家提供6个月优惠价",
+      "summary": "Amazon于2026年9月24日宣布，美国Multi-Channel Fulfillment客户可在自有网站添加Prime配送，除标准MCF费用外不另收该功能费用；同时FBA卖家可申请MCF Preferred Pricing Program，通过折扣和FBA抵扣在前6个月节省15%至25%的履约费，且无需长期承诺。",
+      "impact": "自建站可借助Prime配送提高履约一致性，FBA卖家可能降低首6个月MCF成本，但优惠资格、费率和抵扣必须以账户报价为准，且不代表FBA费率普遍下降。该公告仅确认美国，不适用于CA或MX。",
+      "action": "在美国Seller Central核对Preferred Pricing资格、计费起始日、适用订单和抵扣方式；用真实SKU比较MCF、3PL和自发货的仓储、拣配、运费、退货及平台费用。先在少量自建站订单验证库存同步、承诺时效和售后，再扩大范围。",
+      "category": "opportunities",
+      "priority": "P0",
+      "original_published_at": "2026-09-24",
+      "original_date_note": "Amazon官方新闻稿发表于2026-09-24并称相关美国服务现已提供；6个月指优惠期，不是统一截止日。",
+      "first_seen_at": "2026-09-29T01:12:00.000Z",
+      "last_material_update_at": "2026-09-29T01:12:00.000Z",
+      "history_dates": [
+        "2026-09-29"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://press.aboutamazon.com/2026/9/merchants-can-now-add-fast-free-prime-delivery-to-their-websites-and-save-up-to-25-on-fulfillment-fees-with-amazon-supply-chain-services",
+          "publisher": "Amazon",
+          "kind": "official",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://press.aboutamazon.com/2026/9/merchants-can-now-add-fast-free-prime-delivery-to-their-websites-and-save-up-to-25-on-fulfillment-fees-with-amazon-supply-chain-services"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-mcf-and-prime-delivery|add-off-amazon-prime-delivery-and-preferred-pricing-2026|US|2026-09-24",
+      "id": "evt-37b33f2d58054b0d",
+      "primary_source_url": "https://press.aboutamazon.com/2026/9/merchants-can-now-add-fast-free-prime-delivery-to-their-websites-and-save-up-to-25-on-fulfillment-fees-with-amazon-supply-chain-services"
+    },
+    {
+      "subject_key": "amazon-ads-agent-analytics",
+      "action_key": "add-conversational-analytics-closed-beta-2026",
+      "marketplaces": [
+        "CA",
+        "MX",
+        "US"
+      ],
+      "effective_date": "2026-09-28",
+      "deadline": null,
+      "title": "Amazon Ads Agent开放自然语言广告分析Closed Beta，覆盖美加墨",
+      "summary": "Amazon Ads于2026年9月28日公布对话式广告分析与交互式可视化工作区，可用自然语言查询Unified Reporting数据和Amazon第一方购物信号，并生成图表和后续分析。官方可用地区包含美国、加拿大和墨西哥，但目前仅对符合条件、由人工操作账户的广告主提供Closed Beta，需通过代表或候补名单申请。",
+      "impact": "可缩短跨活动报告、分群和趋势分析时间，但Closed Beta不等于三站所有账户已开放，也不替代广告归因、利润和库存约束。自然语言结论仍需回到原始报表复核。",
+      "action": "分别向US、CA、MX Amazon Ads代表确认资格和数据范围；获批后先用固定问题对照Unified Reporting原表，核验币种、时区、归因窗口、站点和活动层级。保存查询、图表与导出证据，不把AI解释直接当作预算调整指令。",
+      "category": "ads",
+      "priority": "P0",
+      "original_published_at": "2026-09-28",
+      "original_date_note": "Amazon Ads What's New页面标注2026-09-28；该日期为Closed Beta公告/可申请日期，不代表全量上线。",
+      "first_seen_at": "2026-09-29T01:12:00.000Z",
+      "last_material_update_at": "2026-09-29T01:12:00.000Z",
+      "history_dates": [
+        "2026-09-29"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new/analytics",
+          "publisher": "Amazon Ads",
+          "kind": "official",
+          "published_at": "2026-09-28",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://advertising.amazon.com/resources/whats-new/analytics"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28",
+      "id": "evt-423f0d6fa6cef898",
+      "primary_source_url": "https://advertising.amazon.com/resources/whats-new/analytics"
+    },
+    {
+      "subject_key": "amazon-mexico-cross-border-delivery",
+      "action_key": "add-next-day-us-to-central-mexico-shipping-2026",
+      "marketplaces": [
+        "MX"
+      ],
+      "effective_date": "2026-09-24",
+      "deadline": null,
+      "title": "Amazon墨西哥上线美国仓商品次日跨境配送至中部三城",
+      "summary": "Amazon Mexico于2026年9月24日宣布，符合条件、从美国运营中心发往墨西哥的数十万件商品可次日送达墨西哥城、普埃布拉和托卢卡，覆盖电子、家居、美妆、时尚和玩具等品类。Prime Mexico会员对符合条件的次日国际商品享免费配送，非Prime按标准运费计费。",
+      "impact": "美国库存面向墨西哥消费者的到货速度和Prime体验改善，可能扩大跨境商品曝光与转化机会，但仅限符合条件的商品和指定地区，不是卖家可自行承诺的全国SLA，也不代表税费或进口合规发生变化。",
+      "action": "用墨西哥城、普埃布拉、托卢卡地址分别检查重点ASIN是否出现次日跨境标识、MXN到手价、税费和Prime配送；记录ASIN、变体、地址和时间建立基线。仅对实际符合条件的商品调整广告和库存计划，不宣传全国次日达。",
+      "category": "opportunities",
+      "priority": "P1",
+      "original_published_at": "2026-09-24",
+      "original_date_note": "Amazon Mexico官方文章发表于2026-09-24，并称该服务已在墨西哥中部指定城市上线。",
+      "first_seen_at": "2026-09-29T01:12:00.000Z",
+      "last_material_update_at": "2026-09-29T01:12:00.000Z",
+      "history_dates": [
+        "2026-09-29"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/enviados-desde-estados-unidos-en-tu-puerta-al-dia-siguiente-amazon-lanza-entregas-internacionales-en-24-horas-al-centro-de-mexico",
+          "publisher": "Amazon Mexico",
+          "kind": "official",
+          "published_at": "2026-09-24",
+          "verified_at": "2026-09-29T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/enviados-desde-estados-unidos-en-tu-puerta-al-dia-siguiente-amazon-lanza-entregas-internacionales-en-24-horas-al-centro-de-mexico"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-mexico-cross-border-delivery|add-next-day-us-to-central-mexico-shipping-2026|MX|2026-09-24",
+      "id": "evt-f17172e08a267959",
+      "primary_source_url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/enviados-desde-estados-unidos-en-tu-puerta-al-dia-siguiente-amazon-lanza-entregas-internacionales-en-24-horas-al-centro-de-mexico"
     }
   ]
 }

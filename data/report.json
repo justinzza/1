@@ -1,7 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+    "us-cpsc-amazon-sold-products|issue-september-24-recalls-and-stop-sale-warnings-2026|CA+US|2026-09-24",
+    "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28",
+    "amazon-global-selling-and-supply-chain-tools|add-unified-expansion-compliance-and-gwd-capabilities-2026|CA+GLOBAL+US|2026-09-24"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,42 +13,65 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "US、CA、MX公开来源未确认新的卖家政策、费率或合规规则；Seller Central动态列表及墨西哥部分监管入口只能完成公开检索覆盖。",
-    "ads": "未确认新的广告产品或投放机制；Amazon Ads What's New公开结果为旧功能或既有事项，动态列表未能完整遍历。",
-    "ai": "新增Seller Assistant持续记忆、工作流及Selling Partner plugin；插件Beta仅确认美国站，核心Seller Assistant能力为全球范围。",
-    "opportunities": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少US、CA、MX连续关键词、类目与转化数据，未生成趋势结论。",
-    "competitors": "未指定可比ASIN，三站价格、Coupon、BSR和页面变化缺少同ASIN、变体、地域连续快照；首次公开样本不计作变化。"
+    "policy": "新增9月24日美加监管批次；US、CA、MX Seller Central动态入口和部分墨西哥监管页面只能完成公开检索，未声称逐篇完整遍历。",
+    "ads": "新增Amazon Ads Agent自然语言分析Closed Beta，官方地区包含US、CA、MX，但仅限符合条件账户。",
+    "ai": "新增美国Seller Central跨渠道管理工具；部分同步、AI优化和盈利分析仍属后续功能，未作为当前全量开放。",
+    "opportunities": "新增全球扩展/合规/GWD路线图、美国MCF优惠及墨西哥次日跨境配送；燃油管、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续数据。",
+    "competitors": "未指定可比ASIN；US、CA、MX价格、Coupon、BSR与页面变化缺少同ASIN、变体、地域连续快照，首次公开观察不计变化。"
   },
-  "coverage_note": "已按各来源既有窗口检查US、CA、MX Seller Central公开检索、Amazon Global Selling、Amazon Ads、Amazon US/CA/MX新闻页、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体与指定公众号公开索引，并分别搜索三站汽配重点词。Seller Central和Amazon Ads动态列表、部分监管及行业站点、公众号只能取得公开摘要、旧文、无结果或受限页面，不能声称逐篇完整遍历。新增事件按Amazon官方原始发布日期2026-09-23归档，并分别说明全球核心能力与美国站插件Beta范围。",
+  "coverage_note": "已按各来源窗口检查US、CA、MX Amazon官方新闻、Seller Central公开索引、Amazon Ads、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体、指定公众号公开索引和三站汽配重点词。确认6项非重复官方增量；另排除Amazon Ads范围外DSP地区扩展、旧FTC事项、非实质活动报道和缺少新官方证据的Seller Central改版转载。Seller Central动态列表、部分行业站和公众号只能取得公开摘要、无结果或受限页面，不能声称完整遍历。",
   "action_items": [
     {
-      "title": "用只读模式试运行Seller Assistant工作流",
-      "detail": "先选择低风险SKU，只启用补货、价格和Account Health提醒；记录建议质量后再决定是否开放执行权限。",
+      "title": "筛查9月24日美加商品安全行动",
+      "detail": "按10项品牌、型号、供应商、ASIN和订单核查库存与在途；INMO Air3在CA同步执行固件3.16要求，其余9项不跨站套用。",
+      "due": "立即",
+      "event_key": "us-cpsc-amazon-sold-products|issue-september-24-recalls-and-stop-sale-warnings-2026|CA+US|2026-09-24"
+    },
+    {
+      "title": "申请并校验Amazon Ads分析Beta",
+      "detail": "分别确认US、CA、MX资格；用固定问题与Unified Reporting原表对照币种、时区、归因窗口和层级。",
       "due": "本周",
-      "event_key": "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+      "event_key": "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28"
     },
     {
-      "title": "建立AI操作护栏与审计",
-      "detail": "明确最低售价、最大调价幅度、补货上限、可修改字段与审批人，定期检查操作日志、插件权限和数据范围。",
+      "title": "核对跨国扩展工具实际开放范围",
+      "detail": "在账户内确认Sell Globally、合规单次提交与GWD入口；CA仅按年内路线图准备，MX维持独立流程。",
+      "due": "本周",
+      "event_key": "amazon-global-selling-and-supply-chain-tools|add-unified-expansion-compliance-and-gwd-capabilities-2026|CA+GLOBAL+US|2026-09-24"
+    },
+    {
+      "title": "小范围测试美国跨渠道管理",
+      "detail": "选择非核心SKU连接一个渠道，核对SKU映射、库存扣减、订单回传、税务与取消流程。",
       "due": "启用前",
-      "event_key": "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+      "event_key": "amazon-us-seller-central-multichannel-tools|add-cross-channel-listing-order-and-fulfillment-management-2026|US|2026-09-24"
     },
     {
-      "title": "核对美国站Quick Plus登记",
-      "detail": "美国站Primary Account Holder如需使用Quick/Claude插件，确认Beta资格并在2026年12月31日前评估免费12个月Quick Plus登记；CA、MX不套用插件范围。",
-      "due": "2026-12-31",
-      "event_key": "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+      "title": "测算美国MCF优惠真实成本",
+      "detail": "在Seller Central核对资格与6个月起算规则，用实际SKU比较MCF、3PL及自发货全成本。",
+      "due": "申请前",
+      "event_key": "amazon-mcf-and-prime-delivery|add-off-amazon-prime-delivery-and-preferred-pricing-2026|US|2026-09-24"
+    },
+    {
+      "title": "建立墨西哥次日跨境配送基线",
+      "detail": "分别用墨西哥城、普埃布拉、托卢卡地址记录重点ASIN、变体、MXN到手价、税费和配送承诺。",
+      "due": "本周",
+      "event_key": "amazon-mexico-cross-border-delivery|add-next-day-us-to-central-mexico-shipping-2026|MX|2026-09-24"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-24",
-  "content_updated_at": "2026-09-24T01:07:39.000Z",
+  "report_date": "2026-09-29",
+  "content_updated_at": "2026-09-29T01:12:00.000Z",
   "new_event_keys": [
-    "amazon-seller-assistant-and-selling-partner-plugin|add-persistent-memory-workflows-and-us-plugin-beta-2026|GLOBAL+US|2026-09-23"
+    "us-cpsc-amazon-sold-products|issue-september-24-recalls-and-stop-sale-warnings-2026|CA+US|2026-09-24",
+    "amazon-global-selling-and-supply-chain-tools|add-unified-expansion-compliance-and-gwd-capabilities-2026|CA+GLOBAL+US|2026-09-24",
+    "amazon-us-seller-central-multichannel-tools|add-cross-channel-listing-order-and-fulfillment-management-2026|US|2026-09-24",
+    "amazon-mcf-and-prime-delivery|add-off-amazon-prime-delivery-and-preferred-pricing-2026|US|2026-09-24",
+    "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28",
+    "amazon-mexico-cross-border-delivery|add-next-day-us-to-central-mexico-shipping-2026|MX|2026-09-24"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 1,
+    "new": 6,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0
