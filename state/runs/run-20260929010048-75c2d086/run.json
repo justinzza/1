@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "run-20260929010048-75c2d086",
+  "base_state_digest": "b92c4ecbb58707b46f53235d9e9c7be0e5593b0a29657414f8a7f43d88afcc63",
+  "started_at": "2026-09-29T01:00:48.000Z",
+  "finished_at": "2026-09-29T01:20:34.000Z",
+  "backfill_complete": false,
+  "material_changed": true,
+  "counts": {
+    "new": 6,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0,
+    "excluded_duplicates": 6
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "75bd6ccade07071695128a673faf31a3c39181fe",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "2c49575e306dc7c0fe9aab4fbd738286ce5557f04ae75ea81f236a8f60073c8f",
+    "observed_digest": "2c49575e306dc7c0fe9aab4fbd738286ce5557f04ae75ea81f236a8f60073c8f",
+    "verified_at": "2026-09-29T01:20:34.000Z",
+    "note": "GitHub中精确生产提交75bd6cc的Vercel状态为success；正式域名完整DOM的data-content-digest与暂存结果一致，展示39张US/CA/MX事件卡片，本批6个event_key均存在，DAILY BRIEFING、分类摘要锚点及钉钉代码均不存在。"
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-09-21T00:00:00.000Z",
+      "checked_through": "2026-09-29T01:20:34.000Z",
+      "note": "美国Seller Central动态列表无法公开完整遍历；公开检索确认9月24日美国跨渠道管理和MCF能力，未将后续路线图包装成全量上线。",
+      "evidence": [{"url":"https://www.aboutamazon.com/news/small-business/amazon-seller-central-multichannel-selling-tools","note":"Amazon美国多渠道Seller Central工具官方说明。"},{"url":"https://press.aboutamazon.com/2026/9/merchants-can-now-add-fast-free-prime-delivery-to-their-websites-and-save-up-to-25-on-fulfillment-fees-with-amazon-supply-chain-services","note":"Amazon美国MCF Prime配送和优惠价官方说明。"}],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-09-21T00:00:00.000Z",
+      "checked_through": "2026-09-29T01:20:34.000Z",
+      "note": "检查Amazon全球开店及Selling Partners公开结果，确认统一跨国扩展、合规提交与GWD路线图；活动报道和旧文未收录。",
+      "evidence": [{"url":"https://www.aboutamazon.com/news/innovation-at-amazon/amazon-sellers-global-expansion-tools","note":"Amazon 9月24日全球扩展工具官方公告。"},{"url":"https://sellingpartners.aboutamazon.com/amazons-growth-playbook-with-ai","note":"Amazon Selling Partners对已上线与年内计划的补充说明。"}],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-09-21T00:00:00.000Z",
+      "checked_through": "2026-09-29T01:20:34.000Z",
+      "note": "Amazon Ads动态列表只能完成公开检索；确认9月28日对话式广告分析Closed Beta，另一个DSP地区扩展不适用于US/CA/MX而排除。",
+      "evidence": [{"url":"https://advertising.amazon.com/resources/whats-new/analytics","note":"Amazon Ads自然语言分析Closed Beta官方页面，地区包含US、CA、MX。"}],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-09-21T00:00:00.000Z",
+      "checked_through": "2026-09-29T01:20:34.000Z",
+      "note": "检查CPSC、FTC等公开入口；确认9月24日10项明确在Amazon.com销售的召回或警告，FTC旧事项未作为新事件。",
+      "evidence": [{"url":"https://www.cpsc.gov/Recalls","note":"CPSC召回与警告公开索引，逐条核对9月24日批次的销售渠道。"}],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-09-21T00:00:00.000Z",
+      "checked_through": "2026-09-29T01:20:34.000Z",
+      "note": "Amazon.ca Seller Central动态入口无法公开完整遍历；加拿大官方新闻页未确认新的独立卖家费率或政策，GWD仅记录为年内路线图。",
+      "evidence": [{"url":"https://www.aboutamazon.ca/news","note":"Amazon Canada公开新闻索引检查。"}],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-09-21T00:00:00.000Z",
+      "checked_through": "2026-09-29T01:20:34.000Z",
+      "note": "Amazon.com.mx Seller Central动态入口无法公开完整遍历；Amazon Mexico官方页确认美国仓商品次日配送至墨西哥中部三城。",
+      "evidence": [{"url":"https://www.aboutamazon.mx/noticias/noticias-de-la-compania/enviados-desde-estados-unidos-en-tu-puerta-al-dia-siguiente-amazon-lanza-entregas-internacionales-en-24-horas-al-centro-de-mexico","note":"Amazon Mexico 9月24日次日跨境配送官方公告。"}],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-09-21T00:00:00.000Z",
+      "checked_through": "2026-09-29T01:20:34.000Z",
+      "note": "检查Health Canada近期召回，确认INMO Air3与CPSC联合召回；其余近期条目未获得Amazon.ca销售证据。",
+      "evidence": [{"url":"https://recalls-rappels.canada.ca/en/alert-recall/inmo-air3-smart-glasses-recalled-due-burn-hazard","note":"Health Canada 9月24日INMO Air3联合召回，记录加拿大售出120件。"}],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-09-21T00:00:00.000Z",
+      "checked_through": "2026-09-29T01:20:34.000Z",
+      "note": "检查PROFECO、SAT、ANAM及gob.mx公开结果；部分入口只能取得摘要或无结果，未确认新的Amazon.com.mx监管规则。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {"id":"crossborder_headlines","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索跨境头条；结果为无结果、旧文或对本批官方公告的转载，未新增独立事件。","evidence":[],"cursor_advanced":false},
+    {"id":"crossborder_briefs","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索跨境快讯；未找到可独立核验的US/CA/MX实质增量。","evidence":[],"cursor_advanced":false},
+    {"id":"wearesellers","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索知无不言公开结果；未取得稳定可读且非重复的新事件。","evidence":[],"cursor_advanced":false},
+    {"id":"tt123","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索TT123/AMZ123；多渠道管理内容与Amazon官方公告重复，已升级到官方来源而未另建卡片。","evidence":[],"cursor_advanced":false},
+    {"id":"brand_ark","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索品牌方舟；未发现窗口内可核验的US/CA/MX Amazon运营实质增量。","evidence":[],"cursor_advanced":false},
+    {"id":"seller_home","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"卖家之家仅能取得公开摘要；Seller Central改版报道缺少新的稳定官方生效证据，未作为新政策收录。","evidence":[],"cursor_advanced":false},
+    {"id":"wechat_dabao","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索大宝站外推广公开页面与索引；未返回窗口内可完整核验的新文。","evidence":[],"cursor_advanced":false},
+    {"id":"wechat_huluwa","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索葫芦娃站外推广公开页面与索引；无公开可核验增量。","evidence":[],"cursor_advanced":false},
+    {"id":"wechat_santou","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索三头六臂跨境电商公开页面与索引；无公开可核验增量。","evidence":[],"cursor_advanced":false},
+    {"id":"wechat_crossborder_headlines","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索跨境头条公众号公开索引；无结果或只有摘要，无法完整遍历。","evidence":[],"cursor_advanced":false},
+    {"id":"wechat_crossborder_briefs","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索跨境快讯公众号公开索引；无结果或只有摘要，无法完整遍历。","evidence":[],"cursor_advanced":false},
+    {"id":"wechat_wearesellers","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索知无不言公众号公开索引；未返回可核验的新文章。","evidence":[],"cursor_advanced":false},
+    {"id":"wechat_tt123","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索TT123公众号公开索引；未返回可核验的新文章。","evidence":[],"cursor_advanced":false},
+    {"id":"wechat_brand_ark","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索品牌方舟公众号公开索引；未返回可核验的新文章。","evidence":[],"cursor_advanced":false},
+    {"id":"wechat_seller_home","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"单独检索卖家之家公众号公开索引；仅有摘要或无结果，无法完整遍历。","evidence":[],"cursor_advanced":false},
+    {"id":"amazon_category_competitors","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"检查Amazon.com fuel line、CPE braided hose、AN fittings、exhaust clamp公开结果；缺少同ASIN、变体、地区连续快照。","evidence":[],"cursor_advanced":false},
+    {
+      "id":"industry_wechat_ca",
+      "status":"public_search_only",
+      "window_start":"2026-09-21T00:00:00.000Z",
+      "checked_through":"2026-09-29T01:20:34.000Z",
+      "note":"逐一检查include_source_ids全部15个来源；TT123和卖家之家出现官方公告转载，其余为无结果、旧文或公开摘要，无一次概括搜索冒充完整覆盖。",
+      "evidence":[],
+      "included_source_results":{"crossborder_headlines":"no_public_result","crossborder_briefs":"no_public_result","wearesellers":"no_public_result","tt123":"duplicate_official_story","brand_ark":"no_public_result","seller_home":"duplicate_or_unverified_rollout","wechat_dabao":"no_public_result","wechat_huluwa":"no_public_result","wechat_santou":"no_public_result","wechat_crossborder_headlines":"no_public_result","wechat_crossborder_briefs":"no_public_result","wechat_wearesellers":"no_public_result","wechat_tt123":"no_public_result","wechat_brand_ark":"no_public_result","wechat_seller_home":"public_summary_only"},
+      "cursor_advanced":false
+    },
+    {
+      "id":"industry_wechat_mx",
+      "status":"public_search_only",
+      "window_start":"2026-09-21T00:00:00.000Z",
+      "checked_through":"2026-09-29T01:20:34.000Z",
+      "note":"逐一检查include_source_ids全部15个来源；墨西哥次日跨境配送线索已升级到Amazon Mexico官方原文，其余为无结果、旧文或公开摘要。",
+      "evidence":[{"url":"https://www.aboutamazon.mx/noticias/noticias-de-la-compania/enviados-desde-estados-unidos-en-tu-puerta-al-dia-siguiente-amazon-lanza-entregas-internacionales-en-24-horas-al-centro-de-mexico","note":"行业线索最终由Amazon Mexico官方原文确认。"}],
+      "included_source_results":{"crossborder_headlines":"no_public_result","crossborder_briefs":"no_public_result","wearesellers":"no_public_result","tt123":"duplicate_or_old","brand_ark":"no_public_result","seller_home":"public_summary_only","wechat_dabao":"no_public_result","wechat_huluwa":"no_public_result","wechat_santou":"no_public_result","wechat_crossborder_headlines":"no_public_result","wechat_crossborder_briefs":"no_public_result","wechat_wearesellers":"no_public_result","wechat_tt123":"no_public_result","wechat_brand_ark":"no_public_result","wechat_seller_home":"no_public_result"},
+      "cursor_advanced":false
+    },
+    {"id":"amazon_category_competitors_ca","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"检查Amazon.ca四组重点汽配关键词；缺少同ASIN、变体、收货地区和时间的连续快照，首次观察不计变化。","evidence":[],"cursor_advanced":false},
+    {"id":"amazon_category_competitors_mx","status":"public_search_only","window_start":"2026-09-21T00:00:00.000Z","checked_through":"2026-09-29T01:20:34.000Z","note":"检查Amazon.com.mx四组重点汽配关键词；缺少同ASIN、变体、收货地区和时间的连续快照，首次观察不计变化。","evidence":[],"cursor_advanced":false}
+  ],
+  "deferred_metadata": null
+}
