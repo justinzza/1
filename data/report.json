@@ -1,9 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "us-cpsc-amazon-sold-products|issue-september-24-recalls-and-stop-sale-warnings-2026|CA+US|2026-09-24",
-    "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28",
-    "amazon-global-selling-and-supply-chain-tools|add-unified-expansion-compliance-and-gwd-capabilities-2026|CA+GLOBAL+US|2026-09-24"
+    "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -13,65 +11,36 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "新增9月24日美加监管批次；US、CA、MX Seller Central动态入口和部分墨西哥监管页面只能完成公开检索，未声称逐篇完整遍历。",
-    "ads": "新增Amazon Ads Agent自然语言分析Closed Beta，官方地区包含US、CA、MX，但仅限符合条件账户。",
-    "ai": "新增美国Seller Central跨渠道管理工具；部分同步、AI优化和盈利分析仍属后续功能，未作为当前全量开放。",
-    "opportunities": "新增全球扩展/合规/GWD路线图、美国MCF优惠及墨西哥次日跨境配送；燃油管、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续数据。",
-    "competitors": "未指定可比ASIN；US、CA、MX价格、Coupon、BSR与页面变化缺少同ASIN、变体、地域连续快照，首次公开观察不计变化。"
+    "policy": "未确认新的可靠政策增量；AMZ123提到10月26日起新增危险品合规问题，但公开摘要没有列出四项问题，也未取得稳定Seller Central原文，因此仅作为待核线索。",
+    "ads": "Amazon Ads公开动态未确认9月28日自然语言分析Closed Beta之后的新产品上线；unBoxed主题演讲仍属活动预告，不把预告当功能发布。",
+    "ai": "补收Amazon阻止Meta Muse访问Amazon.com并代用户购物的平台访问限制；按9月21日原始报道归档，并醒目标注为行业报道而非Amazon正式规则公告。",
+    "opportunities": "GWD、Seller Assistant/Claude插件等结果与9月29日已发布事件重复；燃油管、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续可比数据。",
+    "competitors": "未指定可比ASIN；US、CA、MX价格、Coupon、BSR和页面变化缺少同ASIN、变体、收货地区和时间的连续快照，公开样本不能作为变化结论。"
   },
-  "coverage_note": "已按各来源窗口检查US、CA、MX Amazon官方新闻、Seller Central公开索引、Amazon Ads、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体、指定公众号公开索引和三站汽配重点词。确认6项非重复官方增量；另排除Amazon Ads范围外DSP地区扩展、旧FTC事项、非实质活动报道和缺少新官方证据的Seller Central改版转载。Seller Central动态列表、部分行业站和公众号只能取得公开摘要、无结果或受限页面，不能声称完整遍历。",
+  "coverage_note": "按72小时重叠并回看未完成补查窗口，检查US、CA、MX Amazon官方新闻、Seller Central公开索引、Amazon Ads、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体、指定公众号公开索引和三站汽配重点词。确认1项此前漏收且非重复的美国站平台访问限制；Seller Central动态列表、部分监管入口、行业站和公众号只能取得公开摘要、无结果或受限页面，不能声称完整遍历。",
   "action_items": [
     {
-      "title": "筛查9月24日美加商品安全行动",
-      "detail": "按10项品牌、型号、供应商、ASIN和订单核查库存与在途；INMO Air3在CA同步执行固件3.16要求，其余9项不跨站套用。",
+      "title": "停止把Muse视为Amazon.com可用代购入口",
+      "detail": "继续使用Amazon允许的广告、联盟和站外引流；如测试外部AI发现重点ASIN，保存工具、ASIN、地区、时间和失败提示，并等待正式接入规则。",
       "due": "立即",
-      "event_key": "us-cpsc-amazon-sold-products|issue-september-24-recalls-and-stop-sale-warnings-2026|CA+US|2026-09-24"
+      "event_key": "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20"
     },
     {
-      "title": "申请并校验Amazon Ads分析Beta",
-      "detail": "分别确认US、CA、MX资格；用固定问题与Unified Reporting原表对照币种、时区、归因窗口和层级。",
+      "title": "核对危险品四项问题线索",
+      "detail": "仅在Seller Central账户内看到原始通知后，记录适用站点、四项问题、通知日期和2026-10-26生效证据；在此之前不据摘要修改合规流程。",
       "due": "本周",
-      "event_key": "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28"
-    },
-    {
-      "title": "核对跨国扩展工具实际开放范围",
-      "detail": "在账户内确认Sell Globally、合规单次提交与GWD入口；CA仅按年内路线图准备，MX维持独立流程。",
-      "due": "本周",
-      "event_key": "amazon-global-selling-and-supply-chain-tools|add-unified-expansion-compliance-and-gwd-capabilities-2026|CA+GLOBAL+US|2026-09-24"
-    },
-    {
-      "title": "小范围测试美国跨渠道管理",
-      "detail": "选择非核心SKU连接一个渠道，核对SKU映射、库存扣减、订单回传、税务与取消流程。",
-      "due": "启用前",
-      "event_key": "amazon-us-seller-central-multichannel-tools|add-cross-channel-listing-order-and-fulfillment-management-2026|US|2026-09-24"
-    },
-    {
-      "title": "测算美国MCF优惠真实成本",
-      "detail": "在Seller Central核对资格与6个月起算规则，用实际SKU比较MCF、3PL及自发货全成本。",
-      "due": "申请前",
-      "event_key": "amazon-mcf-and-prime-delivery|add-off-amazon-prime-delivery-and-preferred-pricing-2026|US|2026-09-24"
-    },
-    {
-      "title": "建立墨西哥次日跨境配送基线",
-      "detail": "分别用墨西哥城、普埃布拉、托卢卡地址记录重点ASIN、变体、MXN到手价、税费和配送承诺。",
-      "due": "本周",
-      "event_key": "amazon-mexico-cross-border-delivery|add-next-day-us-to-central-mexico-shipping-2026|MX|2026-09-24"
+      "event_key": null
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-29",
-  "content_updated_at": "2026-09-29T01:12:00.000Z",
+  "report_date": "2026-09-30",
+  "content_updated_at": "2026-09-30T01:10:25.000Z",
   "new_event_keys": [
-    "us-cpsc-amazon-sold-products|issue-september-24-recalls-and-stop-sale-warnings-2026|CA+US|2026-09-24",
-    "amazon-global-selling-and-supply-chain-tools|add-unified-expansion-compliance-and-gwd-capabilities-2026|CA+GLOBAL+US|2026-09-24",
-    "amazon-us-seller-central-multichannel-tools|add-cross-channel-listing-order-and-fulfillment-management-2026|US|2026-09-24",
-    "amazon-mcf-and-prime-delivery|add-off-amazon-prime-delivery-and-preferred-pricing-2026|US|2026-09-24",
-    "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28",
-    "amazon-mexico-cross-border-delivery|add-next-day-us-to-central-mexico-shipping-2026|MX|2026-09-24"
+    "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 6,
+    "new": 1,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0

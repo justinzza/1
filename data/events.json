@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-09-29T01:12:00.000Z",
+  "content_updated_at": "2026-09-30T01:10:25.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -2496,6 +2496,58 @@
       "event_key": "amazon-mexico-cross-border-delivery|add-next-day-us-to-central-mexico-shipping-2026|MX|2026-09-24",
       "id": "evt-f17172e08a267959",
       "primary_source_url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/enviados-desde-estados-unidos-en-tu-puerta-al-dia-siguiente-amazon-lanza-entregas-internacionales-en-24-horas-al-centro-de-mexico"
+    },
+    {
+      "subject_key": "amazon-us-agentic-commerce-access",
+      "action_key": "block-meta-muse-shopping-agent-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-09-20",
+      "deadline": null,
+      "title": "Amazon阻止Meta Muse代理访问Amazon.com并代用户购物",
+      "summary": "Axios与TechCrunch于2026年9月21日报道，Amazon已阻止Meta的Muse AI代理浏览Amazon.com并代用户下单；Muse用户看到的提示称，未经授权的AI代理继续访问违反Amazon使用条件。Amazon表示Meta未事先告知或取得访问客户账户、抓取数据和处理交易的授权，并要求第三方代理公开身份、尊重服务提供方是否参与的选择。Meta当时未回应媒体置评请求。",
+      "impact": "Muse目前不能作为Amazon.com的外部商品发现或代购入口，反映Amazon对第三方agentic commerce的访问、数据和交易控制趋严，可能影响外部AI带来的流量与归因；这不是Seller Central账户政策、FBA费率或卖家履约规则变化，也没有加拿大或墨西哥站适用证据。",
+      "action": "不要把Muse列为Amazon.com可用的代购渠道；继续使用Amazon允许的广告、联盟和站外引流方式。若测试外部AI发现重点ASIN，记录工具、ASIN、地区、时间及失败提示，并关注Amazon后续是否发布面向第三方购物代理的正式接入规则；暂不套用于Amazon.ca或Amazon.com.mx。",
+      "category": "ai",
+      "priority": "P1",
+      "original_published_at": "2026-09-21",
+      "original_date_note": "Axios与TechCrunch均发表于2026-09-21；TechCrunch称用户从前一晚开始看到阻止提示，因此以2026-09-20记录实际限制日期。",
+      "first_seen_at": "2026-09-30T01:10:25.000Z",
+      "last_material_update_at": "2026-09-30T01:10:25.000Z",
+      "history_dates": [
+        "2026-09-30"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.axios.com/2026/09/21/amazon-meta-muse-ai-agentic-shopping",
+          "publisher": "Axios",
+          "kind": "industry_original",
+          "published_at": "2026-09-21",
+          "verified_at": "2026-09-30T01:10:25.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry_original",
+          "canonical_url": "https://www.axios.com/2026/09/21/amazon-meta-muse-ai-agentic-shopping"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+          "publisher": "TechCrunch",
+          "kind": "industry_original",
+          "published_at": "2026-09-21",
+          "verified_at": "2026-09-30T01:10:25.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry_original",
+          "canonical_url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20",
+      "id": "evt-4b55f0f3b4aaaf2e",
+      "primary_source_url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com"
     }
   ]
 }
