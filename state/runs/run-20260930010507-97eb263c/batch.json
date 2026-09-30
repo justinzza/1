@@ -1,0 +1,98 @@
+{
+  "base_digest": "a1b328c418789606c881ad7475f80195de1232734e3ad277f352995776228025",
+  "checked_at": "2026-09-30T01:10:25.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-agentic-commerce-access",
+        "action_key": "block-meta-muse-shopping-agent-2026",
+        "marketplaces": ["US"],
+        "effective_date": "2026-09-20",
+        "deadline": null,
+        "title": "Amazon阻止Meta Muse代理访问Amazon.com并代用户购物",
+        "summary": "Axios与TechCrunch于2026年9月21日报道，Amazon已阻止Meta的Muse AI代理浏览Amazon.com并代用户下单；Muse用户看到的提示称，未经授权的AI代理继续访问违反Amazon使用条件。Amazon表示Meta未事先告知或取得访问客户账户、抓取数据和处理交易的授权，并要求第三方代理公开身份、尊重服务提供方是否参与的选择。Meta当时未回应媒体置评请求。",
+        "impact": "Muse目前不能作为Amazon.com的外部商品发现或代购入口，反映Amazon对第三方agentic commerce的访问、数据和交易控制趋严，可能影响外部AI带来的流量与归因；这不是Seller Central账户政策、FBA费率或卖家履约规则变化，也没有加拿大或墨西哥站适用证据。",
+        "action": "不要把Muse列为Amazon.com可用的代购渠道；继续使用Amazon允许的广告、联盟和站外引流方式。若测试外部AI发现重点ASIN，记录工具、ASIN、地区、时间及失败提示，并关注Amazon后续是否发布面向第三方购物代理的正式接入规则；暂不套用于Amazon.ca或Amazon.com.mx。",
+        "category": "ai",
+        "priority": "P1",
+        "original_published_at": "2026-09-21",
+        "original_date_note": "Axios与TechCrunch均发表于2026-09-21；TechCrunch称用户从前一晚开始看到阻止提示，因此以2026-09-20记录实际限制日期。",
+        "first_seen_at": "2026-09-30T01:10:25.000Z",
+        "last_material_update_at": "2026-09-30T01:10:25.000Z",
+        "history_dates": ["2026-09-30"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.axios.com/2026/09/21/amazon-meta-muse-ai-agentic-shopping",
+            "publisher": "Axios",
+            "kind": "industry_original",
+            "published_at": "2026-09-21",
+            "verified_at": "2026-09-30T01:10:25.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry_original",
+            "canonical_url": "https://www.axios.com/2026/09/21/amazon-meta-muse-ai-agentic-shopping"
+          },
+          {
+            "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+            "publisher": "TechCrunch",
+            "kind": "industry_original",
+            "published_at": "2026-09-21",
+            "verified_at": "2026-09-30T01:10:25.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry_original",
+            "canonical_url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "a1b328c418789606c881ad7475f80195de1232734e3ad277f352995776228025",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条比较现有46条事件的event_key、标题语义、规范化来源链接和生效日期：事件库已有Seller Assistant、Ads Agent分析、Alexa购物AI原产地监管等AI事项，但没有Amazon阻止外部购物代理访问和交易的事件；两家报道描述同一限制，合并为一张美国站卡片。",
+        "distinct_event_reason": "该变化针对第三方AI代理访问Amazon.com的权限边界，与Amazon自有卖家AI工具的功能上线、广告分析Beta和Made in USA监管动向在主体、动作和运营影响上均不同。"
+      },
+      "material_update": false,
+      "update_reason": null
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "category_notes": {
+      "policy": "未确认新的可靠政策增量；AMZ123提到10月26日起新增危险品合规问题，但公开摘要没有列出四项问题，也未取得稳定Seller Central原文，因此仅作为待核线索。",
+      "ads": "Amazon Ads公开动态未确认9月28日自然语言分析Closed Beta之后的新产品上线；unBoxed主题演讲仍属活动预告，不把预告当功能发布。",
+      "ai": "补收Amazon阻止Meta Muse访问Amazon.com并代用户购物的平台访问限制；按9月21日原始报道归档，并醒目标注为行业报道而非Amazon正式规则公告。",
+      "opportunities": "GWD、Seller Assistant/Claude插件等结果与9月29日已发布事件重复；燃油管、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续可比数据。",
+      "competitors": "未指定可比ASIN；US、CA、MX价格、Coupon、BSR和页面变化缺少同ASIN、变体、收货地区和时间的连续快照，公开样本不能作为变化结论。"
+    },
+    "coverage_note": "按72小时重叠并回看未完成补查窗口，检查US、CA、MX Amazon官方新闻、Seller Central公开索引、Amazon Ads、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体、指定公众号公开索引和三站汽配重点词。确认1项此前漏收且非重复的美国站平台访问限制；Seller Central动态列表、部分监管入口、行业站和公众号只能取得公开摘要、无结果或受限页面，不能声称完整遍历。",
+    "action_items": [
+      {
+        "title": "停止把Muse视为Amazon.com可用代购入口",
+        "detail": "继续使用Amazon允许的广告、联盟和站外引流；如测试外部AI发现重点ASIN，保存工具、ASIN、地区、时间和失败提示，并等待正式接入规则。",
+        "due": "立即",
+        "event_key": "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20"
+      },
+      {
+        "title": "核对危险品四项问题线索",
+        "detail": "仅在Seller Central账户内看到原始通知后，记录适用站点、四项问题、通知日期和2026-10-26生效证据；在此之前不据摘要修改合规流程。",
+        "due": "本周",
+        "event_key": null
+      }
+    ]
+  }
+}

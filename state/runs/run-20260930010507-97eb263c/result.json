@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20",
+      "action": "new",
+      "review": "逐条比较现有46条事件的event_key、标题语义、规范化来源链接和生效日期：事件库已有Seller Assistant、Ads Agent分析、Alexa购物AI原产地监管等AI事项，但没有Amazon阻止外部购物代理访问和交易的事件；两家报道描述同一限制，合并为一张美国站卡片。"
+    }
+  ]
+}
