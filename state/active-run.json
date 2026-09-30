@@ -1,12 +1,21 @@
 {
   "schema_version": 1,
   "run_id": "run-20260930010507-97eb263c",
-  "status": "active",
+  "status": "released",
   "acquired_at": "2026-09-30T01:05:22.000Z",
   "expires_at": "2026-09-30T02:35:22.000Z",
   "previous_radar_state_head": "c80e1d8f1f033f2a5baf23dc1ce61d0f1bb6a032",
   "takeover_reason": null,
-  "released_at": null,
-  "release_run_record": null,
-  "publication": null
+  "released_at": "2026-09-30T01:20:29.000Z",
+  "release_run_record": "state/runs/run-20260930010507-97eb263c/run.json",
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "bffdb240a71fc45606f9c8a6b1b0ccf36ab1cf59",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "bc3f18f196820bb4377fb5ef47b9714c2511eaf830ef91db00a821ebb3d01ab4",
+    "observed_digest": "bc3f18f196820bb4377fb5ef47b9714c2511eaf830ef91db00a821ebb3d01ab4",
+    "verified_at": "2026-09-30T01:20:29.000Z",
+    "note": "GitHub中精确生产提交bffdb24的Vercel状态为success；正式域名DOM的data-content-digest与暂存结果一致，新增Muse事件存在并展示40张US/CA/MX事件卡片，DAILY BRIEFING、分类摘要锚点及钉钉内容均不存在。"
+  }
 }
