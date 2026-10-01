@@ -1,0 +1,28 @@
+{
+  "run_id": "run-20261001005956-9e454ee2",
+  "status": "prepared",
+  "prepared_at": "2026-10-01T01:12:00.000Z",
+  "main_base_head": "bffdb240a71fc45606f9c8a6b1b0ccf36ab1cf59",
+  "base_registry_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+  "expected": {
+    "registry_digest": "e3457c04ffa7d3017f03f944f22010bc35218d8bd86ac00d0261f525c37691b2",
+    "events_sha256": "01479320e310b4e673f2c4693472b9b4fbabb39ad624688f2f6cc4517f38195b",
+    "report_sha256": "3eb89ff8f1fb17fab7b7ac2be8a4131e2603a8e66efe96651b0315c357d5601c",
+    "html_sha256": "eb1d6619f50d63c4ac5167351f7a518a312afe3d993dc1b9c64648a579a34fc2",
+    "event_count": 56,
+    "displayed_card_count": 49,
+    "counts": {
+      "new": 9,
+      "updated": 1,
+      "merged": 1,
+      "deduplicated": 0
+    }
+  },
+  "validation": {
+    "tests_passed": 22,
+    "tests_failed": 0,
+    "page_data_consistent": true,
+    "daily_briefing_absent": true,
+    "dingtalk_absent": true
+  }
+}

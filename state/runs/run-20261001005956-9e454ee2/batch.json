@@ -1,0 +1,662 @@
+{
+  "base_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+  "checked_at": "2026-10-01T01:10:00.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-na-dangerous-goods-listings",
+        "action_key": "require-new-category-compliance-questions-2026",
+        "marketplaces": [
+          "US",
+          "CA",
+          "MX"
+        ],
+        "effective_date": "2026-10-26",
+        "deadline": null,
+        "title": "美加墨站10月26日起新增四类危险品Listing必答字段",
+        "summary": "Amazon Seller Central官方公告确认，自2026年10月26日起，在美国、加拿大和墨西哥站新建或编辑指定类目Listing时，必须回答新的危险品合规问题。范围包括冰箱、空调、冷冻柜等制冷设备的制冷剂属性；减震器和悬架举升支撑件的减震机制；记号笔与书写工具的墨水属性；泳池及SPA水处理产品的化学成分与包装。公告明确这些问题会在下一次创建或编辑Listing时出现。",
+        "impact": "汽配卖家中的减震器、悬架支撑件直接命中；回答不准确或不完整可能拖延Listing上线，并影响可用配送方式或产生不必要的危险品处置费用。三站公告的变化动作和生效日期一致，因此合并为一张多站卡片；不能据此扩大到燃油管、AN接头或排气卡箍。",
+        "action": "在10月26日前筛出US、CA、MX站涉及制冷设备、减震器/悬架支撑件、书写工具和泳池化学品的ASIN；准备制冷剂、结构机制、墨水和化学成分/包装资料。编辑Listing前先在测试SKU核对必答字段，并保存站点、ASIN、字段与提交结果。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-09-27",
+        "original_date_note": "US、CA、MX Seller Central公告均在2026-09-27至28日前后公开，生效日一致为2026-10-26；公告中关于既有Listing无需提前操作的日期表述存在模板不一致，未把该异常日期作为截止日。",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/ad12f62b-df95-42bf-a342-10fd3ddad196",
+            "publisher": "Amazon Seller Central US",
+            "kind": "official",
+            "published_at": "2026-09-28",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/ad12f62b-df95-42bf-a342-10fd3ddad196"
+          },
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/9d989276-cb81-40ed-a9d7-2967f2415116",
+            "publisher": "Amazon Seller Central CA",
+            "kind": "official",
+            "published_at": "2026-09-27",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/9d989276-cb81-40ed-a9d7-2967f2415116"
+          },
+          {
+            "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/03c50d23-ac2b-45a8-9dd9-7a3e3b44c401",
+            "publisher": "Amazon Seller Central MX",
+            "kind": "official",
+            "published_at": "2026-09-28",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/03c50d23-ac2b-45a8-9dd9-7a3e3b44c401"
+          }
+        ],
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": [
+          "2026-10-01"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "与全库47条事件逐条比较event_key、标题语义、规范化链接和生效日：现有事件没有危险品Listing四类必答字段。US、CA、MX三份官方公告动作和2026-10-26生效日一致，合并为一张多站卡片。",
+        "distinct_event_reason": "与现有商业责任险、AI人物标记、捆绑包装和商品安全召回在主体、字段和生效日上均不同。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-fba-export",
+        "action_key": "expand-more-than-175-destinations-2026",
+        "marketplaces": [
+          "US",
+          "CA",
+          "MX"
+        ],
+        "effective_date": null,
+        "deadline": null,
+        "title": "美加墨FBA Export扩展至175个以上新目的地，既有用户将自动启用",
+        "summary": "Amazon Seller Central官方公告称，FBA Export将扩展至175个以上新目的地，受影响账户会在未来30天内完成更新。已使用FBA Export的卖家，除非此前禁用了特定国家或商品，新目的地将在未来8天内自动启用；未使用该计划的账户设置不变。国际买家承担国际运费和关税，Amazon负责符合条件商品的履约、进口税费和清关流程。",
+        "impact": "US、CA、MX库存可能在无需逐国开店的情况下获得更多国际订单，但自动扩围会改变可售目的地和退货/合规暴露。公告没有给每个账户统一的日级完成时间，因此生效日记为unknown，不以抓取日代替。",
+        "action": "8天内分别检查US、CA、MX的Export settings与Restricted countries，确认品牌授权、目的国合规、保修和退货承受能力；不希望自动扩展的国家或商品应主动禁用。以站点、ASIN、目的国、启用时间和订单币种建立记录。",
+        "category": "opportunities",
+        "priority": "P0",
+        "original_published_at": "2026-10-01",
+        "original_date_note": "三站官方公告于2026-10-01公开；账户更新最长30天、既有用户目的地启用约8天，未给统一完成日期，effective_date为null。",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f1711305-4d93-4b42-93c1-64be9bceac9e",
+            "publisher": "Amazon Seller Central US",
+            "kind": "official",
+            "published_at": "2026-10-01",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f1711305-4d93-4b42-93c1-64be9bceac9e"
+          },
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/20bf49c2-c5f9-4504-8679-80cd9cebdd66",
+            "publisher": "Amazon Seller Central CA",
+            "kind": "official",
+            "published_at": "2026-10-01",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/20bf49c2-c5f9-4504-8679-80cd9cebdd66"
+          },
+          {
+            "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/50853080-c78e-43de-81b7-dc6c7b0941eb",
+            "publisher": "Amazon Seller Central MX",
+            "kind": "official",
+            "published_at": "2026-10-01",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/50853080-c78e-43de-81b7-dc6c7b0941eb"
+          }
+        ],
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": [
+          "2026-10-01"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库已有GWD、AWD、美国仓直发墨西哥等物流事件，但没有FBA Export扩展175个以上目的地及自动启用设置变化；三站同一动作、同一滚动时间口径合并。",
+        "distinct_event_reason": "FBA Export是面向国际买家的跨境订单履约计划，与GWD库存调拨、美国仓次日达墨西哥和Remote Fulfillment不是同一产品或动作。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-main-image-listing-check",
+        "action_key": "add-pre-submit-detection-and-fix-2026",
+        "marketplaces": [
+          "US",
+          "CA",
+          "MX"
+        ],
+        "effective_date": "2026-10-01",
+        "deadline": null,
+        "title": "美加墨Seller Central上线单个Listing主图预检与修正入口",
+        "summary": "Amazon在US、CA、MX Seller Central公告上线单个商品创建流程的主图合规预检。桌面端或移动端上传主图时，系统会检查非白底、文字、Logo、图形或水印；命中后显示Issue detected/Problema detectado，卖家可使用系统提供的修正版、上传自有合规图，或选择Fix later确认问题后继续提交。",
+        "impact": "该工具把主图问题前置到提交阶段，但Fix later并不豁免图片规范；带缺陷图片的Listing仍可能被搜索结果抑制。功能处于逐步放量，不能声称三站所有账户同时可见。",
+        "action": "新建或编辑汽配Listing时优先检查主图是否纯白底、无文字/Logo/水印；若采用系统修正图，人工核对产品颜色、接口、尺寸和配件数量后再提交。记录站点、ASIN、原图、修正图与预检结果。",
+        "category": "ai",
+        "priority": "P1",
+        "original_published_at": "2026-10-01",
+        "original_date_note": "三站公告于2026-10-01公开并称功能已推出，但同时说明仍在逐步放量；以公告日记录功能推出，不代表所有账户已开放。",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/00a45644-544d-4288-b966-a2fabff048bd",
+            "publisher": "Amazon Seller Central US",
+            "kind": "official",
+            "published_at": "2026-10-01",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/00a45644-544d-4288-b966-a2fabff048bd"
+          },
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/52fce4af-d720-4a1f-963f-c15cbd217c39",
+            "publisher": "Amazon Seller Central CA",
+            "kind": "official",
+            "published_at": "2026-10-01",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/52fce4af-d720-4a1f-963f-c15cbd217c39"
+          },
+          {
+            "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/50b6328c-056e-4334-834a-fd4f4f9b5867",
+            "publisher": "Amazon Seller Central MX",
+            "kind": "official",
+            "published_at": "2026-10-01",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/50b6328c-056e-4334-834a-fd4f4f9b5867"
+          }
+        ],
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": [
+          "2026-10-01"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库存在AI生成内容披露、Seller Assistant与Listing内容工具，但没有上传主图时的缺陷检测、修正或延后确认流程；三站公告描述同一动作，合并。",
+        "distinct_event_reason": "该事件改变单个Listing主图提交工作流，与AI人物元数据披露、标题长度或A+内容审核不是同一要求。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-us-business-hour-delivery-rate",
+        "action_key": "require-90-percent-for-business-mfn-2026",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-09-30",
+        "deadline": "2026-10-30",
+        "title": "美国站Amazon Business自配送订单BHDR须达90%",
+        "summary": "Amazon美国站官方公告确认，自2026年9月30日起，面向Amazon Business客户的Seller Fulfilled订单须在滚动14天内保持至少90%的Business Hour Delivery Rate。9月30日低于90%的卖家会收到通知和改进建议；如到10月30日仍未改善，相关自配送Offer可能对Amazon Business客户停用。FBA及普通零售Offer资格不受此规则直接影响。",
+        "impact": "企业购FBM卖家的承运商表现和客户营业时间将直接影响B2B流量资格。Amazon说明同时使用Automated Handling Time、Shipping Settings Automation和Amazon Buy Shipping的相关货件可获得该指标保护；目前官方正文只确认美国站，不能因加拿大或墨西哥论坛镜像页面而跨站套用。",
+        "action": "立即在Account Health检查BHDR及滚动14天明细；核对handling/transit time、承运商和企业客户营业时段。评估同时启用AHT、SSA和Buy Shipping，并在10月30日前把未达标SKU、承运商和订单逐项整改。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-06-30",
+        "original_date_note": "官方公告约于2026-06-30发布，2026-09-30开始考核，2026-10-30为未改善后可能停用企业购自配送Offer的节点；本次按生效节点补收，不包装成10月1日新公告。",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/57222b70-40df-4574-aa0f-9f815c197987",
+            "publisher": "Amazon Seller Central US",
+            "kind": "official",
+            "published_at": "2026-06-30",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/57222b70-40df-4574-aa0f-9f815c197987"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/help/hub/reference/external/GQHQGBTD7XB7EECN?langue=en_US",
+            "publisher": "Amazon Seller Central Help",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.com/help/hub/reference/external/GQHQGBTD7XB7EECN?langue=en_US"
+          },
+          {
+            "url": "https://www.amz123.com/t/TR8I7L5g",
+            "publisher": "AMZ123",
+            "kind": "industry_original",
+            "published_at": "2026-09-29",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry_original",
+            "canonical_url": "https://www.amz123.com/t/TR8I7L5g"
+          }
+        ],
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": [
+          "2026-10-01"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条复核全库未发现BHDR或营业时间送达率事件。虽然规则公告较早，但2026-09-30刚进入执行阶段，且本轮行业媒体再次提示，作为生效节点补收。",
+        "distinct_event_reason": "BHDR只针对美国站Amazon Business自配送订单，与ODTR、FBM Offer级绩效停用机制和普通零售履约指标不同。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-full-funnel-campaigns",
+        "action_key": "launch-open-beta-2026",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-09-29",
+        "deadline": null,
+        "title": "Amazon Ads Full-Funnel Campaigns美国站开放Beta",
+        "summary": "Amazon Ads于2026年9月29日在美国推出Full-Funnel Campaigns开放Beta，卖家、供应商、代理商及其他在Amazon销售的广告主可用一个预算和一个优化引擎协调Sponsored Ads、Display、Video与Streaming TV。广告主输入商品、预算及可选ROAS阈值后，系统用AI分配漏斗阶段、受众、格式和素材，并提供Long-Term Sales等指标。",
+        "impact": "广告主可在不重建现有Campaign的情况下测试跨漏斗增量，但该功能仅确认美国站开放Beta。官方所称67%更高Long-Term ROAS及29%更低新客购买成本来自2026年6—8月内部Beta样本，个体结果可能不同，不能当作效果保证。",
+        "action": "仅在美国站选择少量ASIN建立独立测试，预先固定预算、ROAS下限、增量销售与新客成本口径；与现有Campaign设置隔离对照，并把Amazon内部Beta数据当参考而非预算承诺。",
+        "category": "ads",
+        "priority": "P1",
+        "original_published_at": "2026-09-29",
+        "original_date_note": "Amazon Ads页面标注2026-09-29并明确美国站Open Beta，当日作为推出日期。",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/resources/whats-new/full-funnel-campaigns-from-discovery-to-sales",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": "2026-09-29",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://advertising.amazon.com/resources/whats-new/full-funnel-campaigns-from-discovery-to-sales"
+          }
+        ],
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": [
+          "2026-10-01"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库已有Sponsored Brands collections、Ads Agent分析和ChatGPT Ads试点，但没有一个预算协调Sponsored Ads、Display、Video与STV的Full-Funnel Campaigns。",
+        "distinct_event_reason": "该产品是独立的跨漏斗Campaign类型，与DVA+的多媒体程序化Campaign、Ads Agent对话界面和ChatGPT Ads库存均不同。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-dva-plus",
+        "action_key": "launch-extended-closed-beta-2026",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-09-29",
+        "deadline": null,
+        "title": "Amazon Ads DVA+在美国进入Extended Closed Beta",
+        "summary": "Amazon Ads于2026年9月29日宣布DVA+在美国进入Extended Closed Beta。该工具在Amazon Ads Agent中用四步创建Display、Video和Audio Campaign，可覆盖Streaming TV、Online Video、Display与Audio，AI负责目标、受众、库存、格式、竞价、创意和持续优化；有程序化经验的广告主可进入advanced settings保留定向、频控、Deals和自定义竞价控制。",
+        "impact": "DVA+降低多媒体程序化投放门槛，但当前美国Closed Beta仅支持invoice付款，Open Beta预计2026年10月下旬，国际扩展计划在Q4，35个市场全面可用目标为2027年Q1；这些是计划时间，不代表CA/MX已上线。官方效果数字均为内部样本，不保证个体结果。",
+        "action": "美国站符合资格的账户向Ads account manager确认Closed Beta、invoice与advanced settings权限；先用小预算验证站内外Publisher、频控、素材和归因。CA/MX等待当地正式可用证据后再建档。",
+        "category": "ads",
+        "priority": "P1",
+        "original_published_at": "2026-09-29",
+        "original_date_note": "2026-09-29为美国Extended Closed Beta公告日；Open Beta、国际扩展和API均为计划时间，不作为已生效日期。",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/resources/whats-new/dva-plus-display-video-audio-campaigns",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": "2026-09-29",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://advertising.amazon.com/resources/whats-new/dva-plus-display-video-audio-campaigns"
+          }
+        ],
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": [
+          "2026-10-01"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库没有DVA+或统一Display/Video/Audio四步建Campaign事件，逐条审阅标题和来源后确认非重复。",
+        "distinct_event_reason": "DVA+面向跨Display、Video、Audio的程序化投放，和Full-Funnel Campaigns协调Sponsored Ads到STV的总销售优化目标不同，不能合并。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-review-requests",
+        "action_key": "launch-open-beta-2026",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": null,
+        "deadline": null,
+        "title": "Amazon Ads将于10月底至11月在美国测试Review Requests广告",
+        "summary": "Amazon Ads于2026年9月29日公布Review Requests：向近期已验证购买者展示原生邀请，让其提交星级、文字、图片或视频评论。符合条件的美国站卖家和供应商须有状态良好且无活动中的政策违规，商品总Ratings与Reviews少于1,000；达到1,000后Campaign自动暂停。可通过Amazon Ads Agent和Unified API管理。",
+        "impact": "这是付费广告形式的评论邀请，并未改变评论真实性和操纵评论政策。官方What’s New写明Open Beta在10月下旬，新闻稿写明11月，日级时间尚不一致，因此effective_date保留unknown。三倍周度评论增长来自2026年6月美国Closed Beta内部测试，不能作为效果保证。",
+        "action": "先筛选美国站评论数少于1,000且账户无活动违规的新品，等待Ads Console实际出现入口后再投放；建立广告花费、每新增Rating成本、自然评论基线与政策审计，不向CA/MX套用。",
+        "category": "ads",
+        "priority": "P1",
+        "original_published_at": "2026-09-29",
+        "original_date_note": "两份Amazon Ads官方页面均发表于2026-09-29，但一份写Open Beta在late October、另一份写November；未强行选择日期，effective_date为null。",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/resources/whats-new/get-product-reviews-faster-with-review-requests",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": "2026-09-29",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://advertising.amazon.com/resources/whats-new/get-product-reviews-faster-with-review-requests"
+          },
+          {
+            "url": "https://advertising.amazon.com/library/news/branded-conversations-review-requests",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": "2026-09-29",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://advertising.amazon.com/library/news/branded-conversations-review-requests"
+          }
+        ],
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": [
+          "2026-10-01"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库没有付费Review Requests广告；现有评论与Vine相关风险事件不包含面向已验证购买者的广告邀请产品。",
+        "distinct_event_reason": "该事件是新广告产品与资格阈值，不等于Vine、Request a Review按钮或评论政策变化。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-branded-conversations",
+        "action_key": "launch-sponsored-alexa-shopping-conversations-2027",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": null,
+        "deadline": null,
+        "title": "Amazon Ads计划2027年1月在美国推出Branded Conversations",
+        "summary": "Amazon Ads宣布Branded Conversations将于2027年1月在美国上线。该产品是Sponsored Brands prompts的延伸，品牌可向Alexa for Shopping提供产品差异、适用需求和互补商品等专业知识；消费者点击Sponsored提示后，可在明确标注为Sponsored的对话中获得更深入的品牌内选购建议。",
+        "impact": "品牌提供的结构化知识可能影响Alexa购物对话中的商品比较与组合推荐，但官方只给出2027年1月，没有日级日期，且未确认加拿大或墨西哥上线。早期约20%继续对话数据来自Amazon测试，不代表卖家转化率。",
+        "action": "整理美国站重点ASIN的适用场景、差异点、兼容性和互补商品证据，避免绝对化或无法证明的主张；等待具体资格、计费和上线日期后再投放，不向CA/MX提前套用。",
+        "category": "ads",
+        "priority": "P2",
+        "original_published_at": "2026-09-29",
+        "original_date_note": "官方新闻发表于2026-09-29，仅给出2027年1月上线窗口，没有日级日期，因此effective_date为null。",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/library/news/branded-conversations-review-requests",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": "2026-09-29",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://advertising.amazon.com/library/news/branded-conversations-review-requests"
+          }
+        ],
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": [
+          "2026-10-01"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库没有品牌向Alexa for Shopping提供知识并形成Sponsored对话的事件；逐条审阅与现有Sponsored Brands和Alexa事件后确认非重复。",
+        "distinct_event_reason": "Branded Conversations是品牌知识驱动的Sponsored购物对话，与Review Requests、ChatGPT Ads试点和Ads Agent后台助手动作不同。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-canada-quebec-french-labeling-guidance",
+        "action_key": "publish-product-packaging-guidance-2026",
+        "marketplaces": [
+          "CA"
+        ],
+        "effective_date": null,
+        "deadline": null,
+        "title": "Amazon加拿大发布魁北克商品与包装法语要求指引",
+        "summary": "Amazon.ca于2026年9月20日发布魁北克法语要求指引，提醒卖家确保商品本体、包装和随附文档上的全部文字均提供法语，且法语至少与其他语言同等醒目。公告要求卖家复核标签、包装和随附资料，并链接到更详细的Quebec French language product packaging and labeling requirements。",
+        "impact": "这是对既有魁北克《法语宪章》要求的Amazon执行指引，不是9月20日新立法。公告没有给出新的统一生效日、自动下架范围或处罚数字，不能把卖家论坛回复中的推测当官方政策。",
+        "action": "盘点发往魁北克的加拿大站ASIN，逐项检查商品本体、外包装、说明书、保修卡和随附文档的法语版本及显著性；对商标例外或专业术语有疑问时依据魁北克官方法规和专业意见确认，不套用到US/MX。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-09-20",
+        "original_date_note": "Amazon Seller Central公告发表于2026-09-20；公告是既有法律的执行指引且未给新生效日，effective_date为null。",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/f5bb7d40-5e63-4d6c-a434-1bddef517b4d",
+            "publisher": "Amazon Seller Central CA",
+            "kind": "official",
+            "published_at": "2026-09-20",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/f5bb7d40-5e63-4d6c-a434-1bddef517b4d"
+          }
+        ],
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": [
+          "2026-10-01"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库未见魁北克法语商品、包装和随附文档要求。标题语义明确为Amazon发布指引，不把既有法律包装成新规。",
+        "distinct_event_reason": "该事件仅限加拿大魁北克法语标签与包装合规，和通用Listing标题、AI人物标记或危险品字段不同。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-agent-analytics",
+        "action_key": "add-conversational-analytics-closed-beta-2026",
+        "marketplaces": [
+          "CA",
+          "MX",
+          "US"
+        ],
+        "effective_date": "2026-09-28",
+        "deadline": null,
+        "title": "Amazon Ads Agent扩展自然语言规划、管理与分析Closed Beta，覆盖美加墨",
+        "summary": "Amazon Ads于9月28日公布对话式广告分析与可视化工作区，9月29日进一步确认Amazon Ads Agent的自然语言能力扩展到媒体规划、Campaign管理与优化、故障排查、绩效趋势、Benchmark和可视化分析。官方可用地区包括美国、加拿大和墨西哥，但仍只对符合资格的自助及Managed Service广告主开放Closed Beta，能力、语言、Campaign类型和站点可用性可能不同。",
+        "impact": "该更新把原卡片从分析查询扩展为规划、操作和优化闭环，但仍不代表三站所有账户都能使用，也不应让AI建议绕过币种、时区、归因、利润、库存和品牌安全复核。",
+        "action": "分别向US、CA、MX Amazon Ads代表确认资格、可操作Campaign类型与语言；获批后用固定问题对照Unified Reporting原表，并为预算、Bid和Targeting变更设置人工审批、金额上限与回滚记录。",
+        "category": "ads",
+        "priority": "P0",
+        "original_published_at": "2026-09-28",
+        "original_date_note": "原分析Closed Beta页面发表于2026-09-28；9月29日的新官方页面补充规划、Campaign管理和优化能力，保留原事件身份与生效日。",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/en-ca/resources/whats-new/conversational-experience-amazon-ads-agent",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": "2026-09-29",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://advertising.amazon.com/en-ca/resources/whats-new/conversational-experience-amazon-ads-agent"
+          }
+        ],
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": [
+          "2026-10-01"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0167f04683d08c9a7a5203bf78e68c186eb78014ece78093a1c10681e9010289",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28",
+        "reason": "人工逐条审阅确认新页面描述同一Amazon Ads Agent Closed Beta，只是从分析扩展到规划、管理、优化和排障；更新原卡片并合并官方来源。",
+        "distinct_event_reason": ""
+      },
+      "material_update": true,
+      "update_reason": "Amazon Ads在2026-09-29新增官方页面，确认自然语言能力已从分析扩展到媒体规划、Campaign管理/优化和故障排查，并再次明确US/CA/MX为可用地区。"
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26",
+      "amazon-fba-export|expand-more-than-175-destinations-2026|CA+MX+US|unknown",
+      "amazon-ads-full-funnel-campaigns|launch-open-beta-2026|US|2026-09-29"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "category_notes": {
+      "policy": "新增美加墨危险品Listing四类必答字段、美国Amazon Business自配送BHDR 90%执行节点、魁北克法语包装指引；主图合规预检另归AI工具栏。监管公开入口未发现新的Amazon直接行动。",
+      "ads": "新增美国Full-Funnel Campaigns Open Beta、DVA+ Extended Closed Beta、Review Requests与Branded Conversations计划；实质更新Ads Agent三站Closed Beta。内部测试数据仅作参考，不作为效果承诺。",
+      "ai": "新增美加墨单个Listing主图预检与修正入口；Fix later不豁免图片规范，功能仍在逐步放量。",
+      "opportunities": "新增美加墨FBA Export扩展至175个以上目的地并对既有用户自动启用；重点汽配中减震器/悬架支撑件直接命中危险品字段。燃油管、CPE braided fuel hose、AN fittings、exhaust clamp仍无三站连续可比趋势。",
+      "competitors": "未指定固定可比ASIN；US、CA、MX价格、Coupon、BSR与页面变化缺少同ASIN、变体、收货地区和时间的连续快照。公开搜索样本未作为价格或排名变化结论。"
+    },
+    "coverage_note": "按各来源未完成补查窗口并保留72小时重叠，核验US、CA、MX Seller Central公开公告、Amazon Ads What’s New/官方新闻、Amazon全球开店、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体、指定公众号公开索引及三站汽配重点词。Seller Central动态页、部分行业站与公众号只能通过公开索引或搜索摘要访问，不能声称完整遍历；各来源成功游标不因本次部分覆盖推进。",
+    "action_items": [
+      {
+        "title": "准备危险品四类新字段",
+        "detail": "在10月26日前筛出三站相关ASIN，优先处理减震器与悬架支撑件，准备机制、材料和包装证据。",
+        "due": "2026-10-26前",
+        "event_key": "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26"
+      },
+      {
+        "title": "检查FBA Export自动扩围",
+        "detail": "8天内分别检查US、CA、MX Export settings与Restricted countries，排除不具备品牌授权、合规或售后能力的目的地。",
+        "due": "8天内",
+        "event_key": "amazon-fba-export|expand-more-than-175-destinations-2026|CA+MX+US|unknown"
+      },
+      {
+        "title": "整改美国站BHDR",
+        "detail": "在Account Health核对滚动14天BHDR，调整AHT、SSA、Buy Shipping与承运商，避免10月30日后企业购Offer停用。",
+        "due": "2026-10-30前",
+        "event_key": "amazon-us-business-hour-delivery-rate|require-90-percent-for-business-mfn-2026|US|2026-09-30"
+      },
+      {
+        "title": "建立广告Beta隔离测试",
+        "detail": "美国站对Full-Funnel、DVA+和Review Requests分别设置预算、对照组、归因与人工审批，不把内部测试比例当效果保证。",
+        "due": "本周",
+        "event_key": "amazon-ads-full-funnel-campaigns|launch-open-beta-2026|US|2026-09-29"
+      }
+    ]
+  }
+}
