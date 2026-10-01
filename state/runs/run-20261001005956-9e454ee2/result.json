@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261001005956-9e454ee2",
+  "status": "finalized",
+  "finalized_at": "2026-10-01T01:19:56.121Z",
+  "main_commit": "2fe4b6abf7b21eebbac2031c68f855d5fcbb9f5e",
+  "publication_verified": true,
+  "production_url": "https://amazon-ops-radar-vercel.vercel.app/",
+  "expected_digest": "efcd0b6aba76f90a0718283a830773c9b5dacd0b53e9dfcfc34aaf48825fbc30",
+  "observed_digest": "efcd0b6aba76f90a0718283a830773c9b5dacd0b53e9dfcfc34aaf48825fbc30",
+  "displayed_cards": 49,
+  "counts": {
+    "new": 9,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0,
+    "excluded_duplicates": 6
+  },
+  "tests": {
+    "passed": 22,
+    "failed": 0
+  },
+  "coverage": {
+    "US": "partial_public",
+    "CA": "partial_public",
+    "MX": "partial_public"
+  },
+  "notes": [
+    "所有28个来源均记录本次公开检索范围；公开动态列表和公众号无法完整遍历，因此不推进任何成功游标。",
+    "正式页面与暂存摘要一致，DAILY BRIEFING和钉钉内容不存在。"
+  ]
+}
