@@ -1,7 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20"
+    "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26",
+    "amazon-fba-export|expand-more-than-175-destinations-2026|CA+MX+US|unknown",
+    "amazon-ads-full-funnel-campaigns|launch-open-beta-2026|US|2026-09-29"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,38 +13,60 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "未确认新的可靠政策增量；AMZ123提到10月26日起新增危险品合规问题，但公开摘要没有列出四项问题，也未取得稳定Seller Central原文，因此仅作为待核线索。",
-    "ads": "Amazon Ads公开动态未确认9月28日自然语言分析Closed Beta之后的新产品上线；unBoxed主题演讲仍属活动预告，不把预告当功能发布。",
-    "ai": "补收Amazon阻止Meta Muse访问Amazon.com并代用户购物的平台访问限制；按9月21日原始报道归档，并醒目标注为行业报道而非Amazon正式规则公告。",
-    "opportunities": "GWD、Seller Assistant/Claude插件等结果与9月29日已发布事件重复；燃油管、CPE braided fuel hose、AN fittings、exhaust clamp仍缺少三站连续可比数据。",
-    "competitors": "未指定可比ASIN；US、CA、MX价格、Coupon、BSR和页面变化缺少同ASIN、变体、收货地区和时间的连续快照，公开样本不能作为变化结论。"
+    "policy": "新增美加墨危险品Listing四类必答字段、美国Amazon Business自配送BHDR 90%执行节点、魁北克法语包装指引；主图合规预检另归AI工具栏。监管公开入口未发现新的Amazon直接行动。",
+    "ads": "新增美国Full-Funnel Campaigns Open Beta、DVA+ Extended Closed Beta、Review Requests与Branded Conversations计划；实质更新Ads Agent三站Closed Beta。内部测试数据仅作参考，不作为效果承诺。",
+    "ai": "新增美加墨单个Listing主图预检与修正入口；Fix later不豁免图片规范，功能仍在逐步放量。",
+    "opportunities": "新增美加墨FBA Export扩展至175个以上目的地并对既有用户自动启用；重点汽配中减震器/悬架支撑件直接命中危险品字段。燃油管、CPE braided fuel hose、AN fittings、exhaust clamp仍无三站连续可比趋势。",
+    "competitors": "未指定固定可比ASIN；US、CA、MX价格、Coupon、BSR与页面变化缺少同ASIN、变体、收货地区和时间的连续快照。公开搜索样本未作为价格或排名变化结论。"
   },
-  "coverage_note": "按72小时重叠并回看未完成补查窗口，检查US、CA、MX Amazon官方新闻、Seller Central公开索引、Amazon Ads、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体、指定公众号公开索引和三站汽配重点词。确认1项此前漏收且非重复的美国站平台访问限制；Seller Central动态列表、部分监管入口、行业站和公众号只能取得公开摘要、无结果或受限页面，不能声称完整遍历。",
+  "coverage_note": "按各来源未完成补查窗口并保留72小时重叠，核验US、CA、MX Seller Central公开公告、Amazon Ads What’s New/官方新闻、Amazon全球开店、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体、指定公众号公开索引及三站汽配重点词。Seller Central动态页、部分行业站与公众号只能通过公开索引或搜索摘要访问，不能声称完整遍历；各来源成功游标不因本次部分覆盖推进。",
   "action_items": [
     {
-      "title": "停止把Muse视为Amazon.com可用代购入口",
-      "detail": "继续使用Amazon允许的广告、联盟和站外引流；如测试外部AI发现重点ASIN，保存工具、ASIN、地区、时间和失败提示，并等待正式接入规则。",
-      "due": "立即",
-      "event_key": "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20"
+      "title": "准备危险品四类新字段",
+      "detail": "在10月26日前筛出三站相关ASIN，优先处理减震器与悬架支撑件，准备机制、材料和包装证据。",
+      "due": "2026-10-26前",
+      "event_key": "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26"
     },
     {
-      "title": "核对危险品四项问题线索",
-      "detail": "仅在Seller Central账户内看到原始通知后，记录适用站点、四项问题、通知日期和2026-10-26生效证据；在此之前不据摘要修改合规流程。",
+      "title": "检查FBA Export自动扩围",
+      "detail": "8天内分别检查US、CA、MX Export settings与Restricted countries，排除不具备品牌授权、合规或售后能力的目的地。",
+      "due": "8天内",
+      "event_key": "amazon-fba-export|expand-more-than-175-destinations-2026|CA+MX+US|unknown"
+    },
+    {
+      "title": "整改美国站BHDR",
+      "detail": "在Account Health核对滚动14天BHDR，调整AHT、SSA、Buy Shipping与承运商，避免10月30日后企业购Offer停用。",
+      "due": "2026-10-30前",
+      "event_key": "amazon-us-business-hour-delivery-rate|require-90-percent-for-business-mfn-2026|US|2026-09-30"
+    },
+    {
+      "title": "建立广告Beta隔离测试",
+      "detail": "美国站对Full-Funnel、DVA+和Review Requests分别设置预算、对照组、归因与人工审批，不把内部测试比例当效果保证。",
       "due": "本周",
-      "event_key": null
+      "event_key": "amazon-ads-full-funnel-campaigns|launch-open-beta-2026|US|2026-09-29"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-09-30",
-  "content_updated_at": "2026-09-30T01:10:25.000Z",
+  "report_date": "2026-10-01",
+  "content_updated_at": "2026-10-01T01:10:00.000Z",
   "new_event_keys": [
-    "amazon-us-agentic-commerce-access|block-meta-muse-shopping-agent-2026|US|2026-09-20"
+    "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26",
+    "amazon-fba-export|expand-more-than-175-destinations-2026|CA+MX+US|unknown",
+    "amazon-main-image-listing-check|add-pre-submit-detection-and-fix-2026|CA+MX+US|2026-10-01",
+    "amazon-us-business-hour-delivery-rate|require-90-percent-for-business-mfn-2026|US|2026-09-30",
+    "amazon-ads-full-funnel-campaigns|launch-open-beta-2026|US|2026-09-29",
+    "amazon-ads-dva-plus|launch-extended-closed-beta-2026|US|2026-09-29",
+    "amazon-ads-review-requests|launch-open-beta-2026|US|unknown",
+    "amazon-ads-branded-conversations|launch-sponsored-alexa-shopping-conversations-2027|US|unknown",
+    "amazon-canada-quebec-french-labeling-guidance|publish-product-packaging-guidance-2026|CA|unknown"
   ],
-  "updated_event_keys": [],
+  "updated_event_keys": [
+    "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28"
+  ],
   "counts": {
-    "new": 1,
-    "updated": 0,
-    "merged": 0,
+    "new": 9,
+    "updated": 1,
+    "merged": 1,
     "deduplicated": 0
   }
 }
