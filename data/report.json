@@ -1,9 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26",
-    "amazon-fba-export|expand-more-than-175-destinations-2026|CA+MX+US|unknown",
-    "amazon-ads-full-funnel-campaigns|launch-open-beta-2026|US|2026-09-29"
+    "amazon-na-childrens-jewelry-compliance|add-direct-validation-enforcement-2026|CA+US|2026-09-14",
+    "amazon-ads-mcp-expert-tools|launch-amc-sql-generator-closed-beta-2026|US|2026-09-30",
+    "amazon-send-china-to-mexico-air|add-360lion-route-2026|MX|2026-09-22"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -13,60 +13,54 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "新增美加墨危险品Listing四类必答字段、美国Amazon Business自配送BHDR 90%执行节点、魁北克法语包装指引；主图合规预检另归AI工具栏。监管公开入口未发现新的Amazon直接行动。",
-    "ads": "新增美国Full-Funnel Campaigns Open Beta、DVA+ Extended Closed Beta、Review Requests与Branded Conversations计划；实质更新Ads Agent三站Closed Beta。内部测试数据仅作参考，不作为效果承诺。",
-    "ai": "新增美加墨单个Listing主图预检与修正入口；Fix later不豁免图片规范，功能仍在逐步放量。",
-    "opportunities": "新增美加墨FBA Export扩展至175个以上目的地并对既有用户自动启用；重点汽配中减震器/悬架支撑件直接命中危险品字段。燃油管、CPE braided fuel hose、AN fittings、exhaust clamp仍无三站连续可比趋势。",
-    "competitors": "未指定固定可比ASIN；US、CA、MX价格、Coupon、BSR与页面变化缺少同ASIN、变体、收货地区和时间的连续快照。公开搜索样本未作为价格或排名变化结论。"
+    "policy": "新增美加站儿童首饰Direct Validation分阶段管控；Amazon帮助页确认政策，统一时间线来自Amazon认可TIC Intertek，具体ASIN截止日以Account Health为准。三站监管公开入口未发现新的Amazon直接行动。",
+    "ads": "新增美国Sponsored Services服务广告；只确认Unified API于2026年第四季度开放、广告控制台计划2027年上线，未给日级生效日。",
+    "ai": "新增美国Amazon Ads MCP Server的AMC SQL Generator Closed Beta，并补收Seller Central导航、书签和批量选择体验改进；后者仍保留Shipping Template未修复限制。",
+    "opportunities": "新增墨西哥SEND中国空运线路行业线索，尚无稳定可引用的Amazon线路公告；重点汽配词仍缺少US、CA、MX连续可比趋势。",
+    "competitors": "未指定固定可比ASIN；US、CA、MX价格、Coupon、BSR与页面变化仍缺少同ASIN、变体、收货地区和时间的连续快照，首次公开样本未计作变化。"
   },
-  "coverage_note": "按各来源未完成补查窗口并保留72小时重叠，核验US、CA、MX Seller Central公开公告、Amazon Ads What’s New/官方新闻、Amazon全球开店、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体、指定公众号公开索引及三站汽配重点词。Seller Central动态页、部分行业站与公众号只能通过公开索引或搜索摘要访问，不能声称完整遍历；各来源成功游标不因本次部分覆盖推进。",
+  "coverage_note": "按各来源未完成补查窗口并保留72小时重叠，核验US、CA、MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体、指定公众号公开索引及三站汽配重点词。Seller Central动态页、部分行业站和全部指定公众号仅能通过公开索引或搜索摘要覆盖，不能声称完整遍历；各来源成功游标不因本次部分覆盖推进。",
   "action_items": [
     {
-      "title": "准备危险品四类新字段",
-      "detail": "在10月26日前筛出三站相关ASIN，优先处理减震器与悬架支撑件，准备机制、材料和包装证据。",
-      "due": "2026-10-26前",
-      "event_key": "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26"
+      "title": "核查儿童首饰DV提示",
+      "detail": "在US、CA Account Health逐个检查儿童首饰ASIN和账户截止日，按TRF ID准备TIC验证资料。",
+      "due": "立即",
+      "event_key": "amazon-na-childrens-jewelry-compliance|add-direct-validation-enforcement-2026|CA+US|2026-09-14"
     },
     {
-      "title": "检查FBA Export自动扩围",
-      "detail": "8天内分别检查US、CA、MX Export settings与Restricted countries，排除不具备品牌授权、合规或售后能力的目的地。",
-      "due": "8天内",
-      "event_key": "amazon-fba-export|expand-more-than-175-destinations-2026|CA+MX+US|unknown"
-    },
-    {
-      "title": "整改美国站BHDR",
-      "detail": "在Account Health核对滚动14天BHDR，调整AHT、SSA、Buy Shipping与承运商，避免10月30日后企业购Offer停用。",
-      "due": "2026-10-30前",
-      "event_key": "amazon-us-business-hour-delivery-rate|require-90-percent-for-business-mfn-2026|US|2026-09-30"
-    },
-    {
-      "title": "建立广告Beta隔离测试",
-      "detail": "美国站对Full-Funnel、DVA+和Review Requests分别设置预算、对照组、归因与人工审批，不把内部测试比例当效果保证。",
+      "title": "申请AMC SQL工具测试",
+      "detail": "具备美国AMC实例、开发者账户和Ads API权限时申请Closed Beta，并保留人工SQL审核。",
       "due": "本周",
-      "event_key": "amazon-ads-full-funnel-campaigns|launch-open-beta-2026|US|2026-09-29"
+      "event_key": "amazon-ads-mcp-expert-tools|launch-amc-sql-generator-closed-beta-2026|US|2026-09-30"
+    },
+    {
+      "title": "验证墨西哥SEND线路",
+      "detail": "在自身账户核对360Lion线路、5kg门槛、计费与时效；保存同口径报价作为MXN基线。",
+      "due": "下次墨西哥补货前",
+      "event_key": "amazon-send-china-to-mexico-air|add-360lion-route-2026|MX|2026-09-22"
+    },
+    {
+      "title": "复核Seller Central批量编辑",
+      "detail": "美国站跨搜索批量勾选后复核数量与Shipping Template，异常时保存ASIN和截图。",
+      "due": "本周",
+      "event_key": "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-01",
-  "content_updated_at": "2026-10-01T01:10:00.000Z",
+  "report_date": "2026-10-02",
+  "content_updated_at": "2026-10-02T01:12:51.000Z",
   "new_event_keys": [
-    "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26",
-    "amazon-fba-export|expand-more-than-175-destinations-2026|CA+MX+US|unknown",
-    "amazon-main-image-listing-check|add-pre-submit-detection-and-fix-2026|CA+MX+US|2026-10-01",
-    "amazon-us-business-hour-delivery-rate|require-90-percent-for-business-mfn-2026|US|2026-09-30",
-    "amazon-ads-full-funnel-campaigns|launch-open-beta-2026|US|2026-09-29",
-    "amazon-ads-dva-plus|launch-extended-closed-beta-2026|US|2026-09-29",
-    "amazon-ads-review-requests|launch-open-beta-2026|US|unknown",
-    "amazon-ads-branded-conversations|launch-sponsored-alexa-shopping-conversations-2027|US|unknown",
-    "amazon-canada-quebec-french-labeling-guidance|publish-product-packaging-guidance-2026|CA|unknown"
+    "amazon-na-childrens-jewelry-compliance|add-direct-validation-enforcement-2026|CA+US|2026-09-14",
+    "amazon-ads-mcp-expert-tools|launch-amc-sql-generator-closed-beta-2026|US|2026-09-30",
+    "amazon-ads-sponsored-services|launch-outcome-optimized-service-ads-2026|US|unknown",
+    "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown",
+    "amazon-send-china-to-mexico-air|add-360lion-route-2026|MX|2026-09-22"
   ],
-  "updated_event_keys": [
-    "amazon-ads-agent-analytics|add-conversational-analytics-closed-beta-2026|CA+MX+US|2026-09-28"
-  ],
+  "updated_event_keys": [],
   "counts": {
-    "new": 9,
-    "updated": 1,
-    "merged": 1,
+    "new": 5,
+    "updated": 0,
+    "merged": 0,
     "deduplicated": 0
   }
 }
