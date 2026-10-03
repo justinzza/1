@@ -1,0 +1,285 @@
+{
+  "base_digest": "16cde85443c31b39e2f7195b670e2c3fe1ced105bdf388d2bdb4183c952fda10",
+  "checked_at": "2026-10-03T01:04:04.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-express-payout",
+        "action_key": "enable-default-free-instant-bank-payout-2026",
+        "marketplaces": ["US"],
+        "effective_date": "2026-09-21",
+        "deadline": null,
+        "title": "美国站Express Payout默认免费启用：符合条件的回款24小时内到账",
+        "summary": "Amazon美国Seller Central官方公告确认，自2026年9月21日起，Express Payout对符合条件的卖家默认免费启用。Amazon发起回款后，支持即时转账的美国银行账户可在24小时内（包括周末和节假日）到账；企业地址须位于美国50州且单笔不超过1,000万美元。美国发行的Mastercard或Visa借记卡也可使用，5万美元以内可在24小时内到账。",
+        "impact": "符合条件的美国卖家可将标准3—5个工作日的回款周期缩短到24小时，但这不是所有账户的统一承诺：银行不支持即时转账、金额超限或即时投递失败时仍走标准到账路径。没有加拿大或墨西哥适用证据。",
+        "action": "在美国站Payments dashboard检查Express Payout状态、绑定银行是否支持instant transfers及实际到账时间；以回款ID、金额、发起时间和到账时间建立对账记录，不因公告提前改变CA/MX现金流假设。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": null,
+        "original_date_note": "官方论坛页面抓取时仅显示相对时间“3 days ago”，无法可靠确定日级发布日期；公告明确生效日为2026-09-21，未用发现日代替发布时间。",
+        "sources": [{
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/95ccbab5-2a61-430a-817c-d8bcb0d1fa10",
+          "publisher": "Amazon Seller Central US",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-10-03T01:04:04.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/95ccbab5-2a61-430a-817c-d8bcb0d1fa10"
+        }],
+        "first_seen_at": "2026-10-03T01:04:04.000Z",
+        "last_material_update_at": "2026-10-03T01:04:04.000Z",
+        "history_dates": ["2026-10-03"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "16cde85443c31b39e2f7195b670e2c3fe1ced105bdf388d2bdb4183c952fda10",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库没有Express Payout、免费即时银行回款或24小时到账记录；与账户回款、税务及费用事件逐条比较后，主体与变化动作均不同。",
+        "distinct_event_reason": "本事件改变美国卖家回款速度与默认状态，不是广告、FBA费率或账户绩效规则。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-data-manager",
+        "action_key": "redesign-and-expand-first-party-data-management-2026",
+        "marketplaces": ["US", "CA", "MX"],
+        "effective_date": "2026-09-28",
+        "deadline": null,
+        "title": "Amazon Ads Data Manager重构并扩展至美加墨全部广告客户",
+        "summary": "Amazon Ads于2026年9月28日发布新版Ads data manager（ADM），将一方数据的连接、治理与激活集中到Sources、Datasets和Destinations三个工作区，并新增跨区域共享、连接器库、数据质量诊断、无代码Amazon Ad Tag事件构建及自定义schema/API。官方确认美国、加拿大、墨西哥均可用，Advertiser Account与Manager Account客户可覆盖Sponsored Ads、Display、Video、Audio和Full-Funnel Campaigns。",
+        "impact": "三站广告团队可在一个入口管理受众和转化数据，并将其激活到Amazon Ads Agent和Amazon Marketing Cloud；但Data Quality Insights、Manager Account的Ad Tag创建及token认证仍需联系Account Executive取得early access。官方内部ROAS数据不是卖家效果保证。",
+        "action": "分别盘点US/CA/MX现有一方数据源、同意与保留规则，先接入低风险数据集并核对match rate、freshness和consent coverage；为跨区域共享设置最小权限，不把美国受众数据直接复制到加墨。",
+        "category": "ads",
+        "priority": "P0",
+        "original_published_at": "2026-09-28",
+        "original_date_note": "Amazon Ads What's New页面标注2026-09-28，并明确US、CA、MX可用；以官方发布日期作为生效日。",
+        "sources": [{
+          "url": "https://advertising.amazon.com/resources/whats-new/new-ads-data-manager-experience",
+          "publisher": "Amazon Ads",
+          "kind": "official",
+          "published_at": "2026-09-28",
+          "verified_at": "2026-10-03T01:04:04.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://advertising.amazon.com/resources/whats-new/new-ads-data-manager-experience"
+        }],
+        "first_seen_at": "2026-10-03T01:04:04.000Z",
+        "last_material_update_at": "2026-10-03T01:04:04.000Z",
+        "history_dates": ["2026-10-03"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "16cde85443c31b39e2f7195b670e2c3fe1ced105bdf388d2bdb4183c952fda10",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "既有Ads Agent、Full-Funnel、DVA+与MCP事件均未记录一方数据连接、Datasets治理、Destinations激活和ADM跨区域共享，本事件是独立数据基础设施更新。",
+        "distinct_event_reason": "与本批GIA品牌渗透指数和Alexa+广告位分别属于数据管理、地域优化和媒体展示三种不同动作。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-alexa-plus-home-screen-video",
+        "action_key": "launch-silent-full-screen-autoplay-placement-2026",
+        "marketplaces": ["US"],
+        "effective_date": "2026-09-30",
+        "deadline": null,
+        "title": "Amazon DSP在美国上线Alexa+全屏静音自动播放视频广告",
+        "summary": "Amazon Ads于2026年9月30日为Alexa+ Echo Show Home Screen上线Silent Autoplay Native Video Ad。Amazon DSP广告主可复用现有15秒Assets Based Creative视频，无需新增素材或设置；Alexa默认包含在Display Media Type line items中，用户可点击或通过Alexa播放有声完整版并进入落地页。",
+        "impact": "这是美国Amazon DSP的新设备展示位置，会自动继承既有ABC视频和默认媒体设置；广告主若不希望新增Alexa+曝光，需要检查line item的媒体与版位控制。没有加拿大或墨西哥上线证据。",
+        "action": "检查美国DSP的Display Media Type line items及Alexa版位状态，确认15秒视频在静音首帧、字幕、品牌露出和落地页上的体验；单独观察Alexa+曝光、点击与转化，不把CA/MX纳入同一测试。",
+        "category": "ads",
+        "priority": "P1",
+        "original_published_at": "2026-09-30",
+        "original_date_note": "Amazon Ads What's New页面标注2026-09-30，并明确北美仅美国可用。",
+        "sources": [{
+          "url": "https://advertising.amazon.com/resources/whats-new/full-screen-autoplay-ads-on-alexa-plus",
+          "publisher": "Amazon Ads",
+          "kind": "official",
+          "published_at": "2026-09-30",
+          "verified_at": "2026-10-03T01:04:04.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://advertising.amazon.com/resources/whats-new/full-screen-autoplay-ads-on-alexa-plus"
+        }],
+        "first_seen_at": "2026-10-03T01:04:04.000Z",
+        "last_material_update_at": "2026-10-03T01:04:04.000Z",
+        "history_dates": ["2026-10-03"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "16cde85443c31b39e2f7195b670e2c3fe1ced105bdf388d2bdb4183c952fda10",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库没有Alexa+ Echo Show Home Screen的全屏静音自动播放DSP版位；Review Requests和Branded Conversations虽涉及Alexa购物，但广告形态、入口和用户动作不同。",
+        "distinct_event_reason": "本事件是DSP设备媒体版位，不是对话式购物广告或Seller Central功能。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-geographic-insights-activation",
+        "action_key": "add-prebuilt-brand-penetration-indices-2026",
+        "marketplaces": ["US", "CA"],
+        "effective_date": "2026-10-02",
+        "deadline": null,
+        "title": "Amazon Ads GIA为美加DVA+新增品牌渗透指数与地域优化",
+        "summary": "Amazon Ads于2026年10月2日在Geographic Insights and Activation（GIA）中加入预构建品牌渗透指数。DVA+ advanced settings可依据广告主跟踪的ASIN，用Amazon第一方零售数据比较品牌与类目在各地区的渗透程度，并直接选择高/低渗透区域优化；指数每周刷新，也可通过Public API在ad group层级激活。",
+        "impact": "美国、加拿大的自助广告主和技术服务商可不经Amazon Marketing Cloud建模，直接把地域洞察转成DVA+优化策略；这不是搜索量或销量报告，也没有墨西哥可用证据。",
+        "action": "为US、CA分别选定ASIN集合和类目，记录启用前的地区预算、触达与转化基线；先小预算测试低渗透与高渗透策略，按站点独立评估，不把指数解释为市场份额或MX机会。",
+        "category": "ads",
+        "priority": "P1",
+        "original_published_at": "2026-10-02",
+        "original_date_note": "Amazon Ads What's New页面标注2026-10-02，并明确仅US、CA在北美可用。",
+        "sources": [{
+          "url": "https://advertising.amazon.com/resources/whats-new/geographic-insights-activation-pre-built-indices",
+          "publisher": "Amazon Ads",
+          "kind": "official",
+          "published_at": "2026-10-02",
+          "verified_at": "2026-10-03T01:04:04.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://advertising.amazon.com/resources/whats-new/geographic-insights-activation-pre-built-indices"
+        }],
+        "first_seen_at": "2026-10-03T01:04:04.000Z",
+        "last_material_update_at": "2026-10-03T01:04:04.000Z",
+        "history_dates": ["2026-10-03"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "16cde85443c31b39e2f7195b670e2c3fe1ced105bdf388d2bdb4183c952fda10",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "既有DVA+事件记录统一广告工作流，没有GIA预构建品牌渗透指数、每周刷新或基于指数的地域优化；本事件是在DVA+ advanced settings中的新增能力。",
+        "distinct_event_reason": "与本批ADM的一方数据治理、Alexa+设备版位均不重复，且仅US/CA适用。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "na-regulators-amazon-sold-products",
+        "action_key": "issue-october-1-recalls-and-stop-sale-warnings-2026",
+        "marketplaces": ["US", "CA"],
+        "effective_date": "2026-10-01",
+        "deadline": null,
+        "title": "美加监管机构发布6项Amazon在售商品安全行动",
+        "summary": "美国CPSC于2026年10月1日发布与Amazon.com销售直接相关的6项行动：LandTale成人床护栏、GBYMIUY磁性人偶、ZAREI便携淋浴器、Agrish成人床护栏、Bonnlo双层床及HotHands充电暖手器。前五项仅确认美国，HotHands由CPSC与Health Canada联合召回，涉及美国77,000件、加拿大72件；其余非Amazon销售的同日行动未并入。",
+        "impact": "命中品牌、型号或包装标识的库存、在途与历史订单需要立即停售、隔离并按监管指引处理。Bonnlo已报告9起床板失效，其中3起上铺坍塌；Agrish扩展召回包含此前已召回的部分数量。该批次不能整体套用于加拿大，CA仅确认HotHands。",
+        "action": "按LandTale EBR001、GBYMIUY X004TVHD2Z、ZAREI淋浴器、Agrish AG-12011/12014/12016、Bonnlo双层床和HotHands H163650及批次号检查US库存、在途和历史订单；加拿大仅核查HotHands。命中后立即停售并保存ASIN、SKU、批次、采购与通知证据。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-10-01",
+        "original_date_note": "CPSC与Health Canada原文均标注2026-10-01；同日Amazon相关行动按一张批次卡片合并，未把非Amazon销售项目纳入。",
+        "sources": [
+          {"url":"https://www.cpsc.gov/Recalls/2027/YunHeng-Recalls-LandTale-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails","publisher":"U.S. CPSC","kind":"regulator","published_at":"2026-10-01","verified_at":"2026-10-03T01:04:04.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"regulator","canonical_url":"https://www.cpsc.gov/Recalls/2027/YunHeng-Recalls-LandTale-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails"},
+          {"url":"https://www.cpsc.gov/Recalls/2027/GBYMIUY-Recalls-Magnetic-Stick-Figure-Toy-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys","publisher":"U.S. CPSC","kind":"regulator","published_at":"2026-10-01","verified_at":"2026-10-03T01:04:04.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"regulator","canonical_url":"https://www.cpsc.gov/Recalls/2027/GBYMIUY-Recalls-Magnetic-Stick-Figure-Toy-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys"},
+          {"url":"https://www.cpsc.gov/Recalls/2027/Golden-Resale-Recalls-Portable-Camping-Showers-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard","publisher":"U.S. CPSC","kind":"regulator","published_at":"2026-10-01","verified_at":"2026-10-03T01:04:04.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"regulator","canonical_url":"https://www.cpsc.gov/Recalls/2027/Golden-Resale-Recalls-Portable-Camping-Showers-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard"},
+          {"url":"https://www.cpsc.gov/Recalls/2027/Agrish-Reannounces-and-Expands-Recall-of-Adult-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Additional-Units-Added","publisher":"U.S. CPSC","kind":"regulator","published_at":"2026-10-01","verified_at":"2026-10-03T01:04:04.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"regulator","canonical_url":"https://www.cpsc.gov/Recalls/2027/Agrish-Reannounces-and-Expands-Recall-of-Adult-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Additional-Units-Added"},
+          {"url":"https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-Bonnlo-Bunk-Beds-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Asphyxiation-and-Injury-Hazards","publisher":"U.S. CPSC","kind":"regulator","published_at":"2026-10-01","verified_at":"2026-10-03T01:04:04.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"regulator","canonical_url":"https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-Bonnlo-Bunk-Beds-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Asphyxiation-and-Injury-Hazards"},
+          {"url":"https://www.cpsc.gov/Recalls/2027/Kobayashi-Recalls-Rechargeable-Hand-Warmers-Due-to-Risk-of-Serious-Injury-from-Fire-and-Burn-Hazards","publisher":"U.S. CPSC","kind":"regulator","published_at":"2026-10-01","verified_at":"2026-10-03T01:04:04.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"regulator","canonical_url":"https://www.cpsc.gov/Recalls/2027/Kobayashi-Recalls-Rechargeable-Hand-Warmers-Due-to-Risk-of-Serious-Injury-from-Fire-and-Burn-Hazards"},
+          {"url":"https://recalls-rappels.canada.ca/en/alert-recall/hothands-rechargeable-hand-warmers-recalled-due-burn-hazard","publisher":"Health Canada","kind":"regulator","published_at":"2026-10-01","verified_at":"2026-10-03T01:04:04.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"regulator","canonical_url":"https://recalls-rappels.canada.ca/en/alert-recall/hothands-rechargeable-hand-warmers-recalled-due-burn-hazard"}
+        ],
+        "first_seen_at": "2026-10-03T01:04:04.000Z",
+        "last_material_update_at": "2026-10-03T01:04:04.000Z",
+        "history_dates": ["2026-10-03"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "16cde85443c31b39e2f7195b670e2c3fe1ced105bdf388d2bdb4183c952fda10",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库已有9月10、17、24的CPSC批次，但没有10月1日六项产品、对应型号或Health Canada HotHands联合召回；按日期与行动批次新建，不更新旧批次。",
+        "distinct_event_reason": "六项同日监管行动人工合并为一张卡片；非Amazon销售的Mbabyjon等同日项目未纳入，HotHands的CA适用性由Health Canada独立原文确认。"
+      },
+      "material_update": false,
+      "update_reason": null
+    },
+    {
+      "event": {
+        "subject_key": "amazon-na-2026-holiday-peak-fees-and-deadlines",
+        "action_key": "apply-q4-fba-fees-and-inbound-cutoffs-2026",
+        "marketplaces": ["US", "CA"],
+        "effective_date": "2026-10-15",
+        "deadline": "2026-10-28",
+        "title": "美加站10月15日起收取2026旺季FBA配送费；加拿大BFCM入仓截止10月28日",
+        "summary": "Amazon全球开店公开的2026购物季规则显示，美国、加拿大FBA旺季配送费适用期为2026年10月15日至2027年1月14日，平均每件分别增加0.32美元和0.39加元。Amazon.ca官方社区同时列出加拿大Q4节点：BFCM库存应在10月28日前到仓，活动期为11月19—30日，Deal sourcing于11月13日截止；价格折扣需至少低于经验证参考价15%。",
+        "impact": "US与CA应独立把旺季费率计入毛利和促销预算；10月28日是加拿大确保BFCM Prime资格的入仓节点，不代表晚到库存一定无法销售。墨西哥本地FBA费率没有被该证据确认，不能套用USD/CAD涨幅。",
+        "action": "用美国站Revenue Calculator与Fee and Economics Preview按USD重算FBA、MCF和Buy with Prime成本；加拿大按CAD重算FBA/MCF并在10月28日前完成BFCM入仓，11月13日前核对Deal提交。墨西哥继续按MXN单独核验。",
+        "category": "opportunities",
+        "priority": "P0",
+        "original_published_at": "2026-07-08",
+        "original_date_note": "全球开店购物季页面发表于2026-07-08；加拿大Seller Central帖子抓取时仅显示相对发布时间，故不猜日级日期。旺季费从2026-10-15生效，10月28日是CA BFCM入仓截止。",
+        "sources": [
+          {"url":"https://globalselling.amazon.com/news/news-brand-260708","publisher":"Amazon全球开店","kind":"official","published_at":"2026-07-08","verified_at":"2026-10-03T01:04:04.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official","canonical_url":"https://globalselling.amazon.com/news/news-brand-260708"},
+          {"url":"https://sellercentral.amazon.ca/seller-forums/discussions/t/36ee73e3-e83b-4e4d-860c-f9c5fcdc3ff8","publisher":"Amazon Seller Central CA","kind":"official","published_at":null,"verified_at":"2026-10-03T01:04:04.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official-community-manager","canonical_url":"https://sellercentral.amazon.ca/seller-forums/discussions/t/36ee73e3-e83b-4e4d-860c-f9c5fcdc3ff8"}
+        ],
+        "first_seen_at": "2026-10-03T01:04:04.000Z",
+        "last_material_update_at": "2026-10-03T01:04:04.000Z",
+        "history_dates": ["2026-10-03"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "16cde85443c31b39e2f7195b670e2c3fe1ced105bdf388d2bdb4183c952fda10",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库仅有USPS旺季包裹费率和Prime活动日期，没有Amazon US/CA 2026 FBA旺季配送费、CA BFCM入仓与Deal截止日；四重比对无同一事件。",
+        "distinct_event_reason": "USPS承运商临时费率与Amazon FBA/MCF旺季费是不同主体和计费动作；Prime活动日期卡片也未包含BFCM入仓/Deal节点。"
+      },
+      "material_update": false,
+      "update_reason": null
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "na-regulators-amazon-sold-products|issue-october-1-recalls-and-stop-sale-warnings-2026|CA+US|2026-10-01",
+      "amazon-us-express-payout|enable-default-free-instant-bank-payout-2026|US|2026-09-21",
+      "amazon-ads-data-manager|redesign-and-expand-first-party-data-management-2026|CA+MX+US|2026-09-28"
+    ],
+    "category_coverage": {"policy":"partial","ads":"partial","ai":"partial","opportunities":"partial","competitors":"partial"},
+    "category_notes": {
+      "policy": "新增美加10月1日监管安全批次及美国Express Payout。Seller Central动态列表、监管索引和部分帮助页仍属于公开部分覆盖。",
+      "ads": "新增美加墨Ads data manager、美加GIA品牌渗透指数及美国Alexa+全屏自动播放DSP版位；均按官方明确市场记录，未跨站套用。",
+      "ai": "ADM和GIA含AI/自动优化能力，但本轮未确认独立于广告工作流的卖家AI工具新增；公开动态入口无法证明完整遍历。",
+      "opportunities": "补收美加旺季FBA费用与加拿大BFCM入仓/Deal节点；事件按原始7月公告归档。重点汽配词仍缺少三站连续可比快照。",
+      "competitors": "US、CA、MX未指定固定可比ASIN；公开结果缺少同ASIN、变体、收货地区和时间的连续快照，未生成价格、Coupon、BSR或关键词趋势。"
+    },
+    "coverage_note": "保留72小时重叠并继续从bootstrap_window_start补查。核验US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO/SAT/ANAM公开结果、既定行业媒体、15个指定行业/公众号入口及三站汽配重点词。Seller Central动态页、部分行业网站和全部指定公众号只能通过公开索引或搜索摘要覆盖，不能声称完整遍历，成功游标不推进。",
+    "action_items": [
+      {"title":"核查监管命中SKU","detail":"按六项品牌、型号和批次核查US库存、在途及历史订单；CA仅核查HotHands H163650。","due":"立即","event_key":"na-regulators-amazon-sold-products|issue-october-1-recalls-and-stop-sale-warnings-2026|CA+US|2026-10-01"},
+      {"title":"确认美国回款状态","detail":"在Payments dashboard核对Express Payout、银行即时转账支持和实际到账时间。","due":"今日","event_key":"amazon-us-express-payout|enable-default-free-instant-bank-payout-2026|US|2026-09-21"},
+      {"title":"建立三站一方数据清单","detail":"为US、CA、MX分别盘点数据源、consent、权限和Destinations，先小范围接入ADM。","due":"本周","event_key":"amazon-ads-data-manager|redesign-and-expand-first-party-data-management-2026|CA+MX+US|2026-09-28"},
+      {"title":"锁定加拿大BFCM节点","detail":"CA库存按10月28日入仓、Deal按11月13日截止倒排，并用CAD重算旺季费。","due":"2026-10-28","event_key":"amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15"},
+      {"title":"检查广告默认与地域设置","detail":"审查美国Alexa+ DSP版位，并为US、CA分别建立GIA启用前基线。","due":"本周","event_key":"amazon-ads-geographic-insights-activation|add-prebuilt-brand-penetration-indices-2026|CA+US|2026-10-02"}
+    ]
+  }
+}

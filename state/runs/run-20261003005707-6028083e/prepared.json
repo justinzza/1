@@ -1,0 +1,30 @@
+{
+  "run_id": "run-20261003005707-6028083e",
+  "status": "prepared",
+  "prepared_at": "2026-10-03T01:10:00.000Z",
+  "main_base_head": "abd01c6359f8e19ff3f189de61eb0a075dfe2cc7",
+  "base_registry_digest": "16cde85443c31b39e2f7195b670e2c3fe1ced105bdf388d2bdb4183c952fda10",
+  "expected": {
+    "registry_digest": "f850e9c072f05222888f41e4844c07617e940278e012178f8dcc5ebe16984e76",
+    "content_digest": "e9071d633bc9e508a9076f5d4bfd8ddc2ad2c6715055891b67fd6b632f0b9c64",
+    "events_sha256": "dce8c628e030c4ca6576138d8c7a477f7fbf2869930dc5104ceafe5b604b858e",
+    "report_sha256": "349076bdd71ec89bc80bdf8624a727d668e221e2ed0df48f28c1031203580737",
+    "html_sha256": "be92188f9dd5b68f1f279e8bf58b0a17e4c53623606147eb76370d946203c390",
+    "event_count": 67,
+    "displayed_card_count": 60,
+    "counts": {
+      "new": 6,
+      "updated": 0,
+      "merged": 0,
+      "deduplicated": 0
+    }
+  },
+  "excluded_duplicates_or_unverified": 8,
+  "validation": {
+    "tests_passed": 22,
+    "tests_failed": 0,
+    "page_data_consistent": true,
+    "daily_briefing_absent": true,
+    "dingtalk_absent": true
+  }
+}
