@@ -1,0 +1,13 @@
+{
+  "material_changed": false,
+  "metadata_changed": false,
+  "counts": {
+    "new": 0,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [],
+  "updated_event_keys": [],
+  "decisions": []
+}

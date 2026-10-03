@@ -1,12 +1,15 @@
 {
   "schema_version": 1,
   "run_id": "run-20261003012824-9ac2e7d1",
-  "status": "active",
+  "status": "released",
   "acquired_at": "2026-10-03T01:28:24.000Z",
   "expires_at": "2026-10-03T02:58:24.000Z",
   "previous_radar_state_head": "ea8c29a4f87a71f860be848d29e22fab107f33a9",
   "takeover_reason": null,
-  "released_at": null,
-  "release_run_record": null,
-  "publication": null
+  "released_at": "2026-10-03T01:38:00.000Z",
+  "release_run_record": "state/runs/run-20261003012824-9ac2e7d1/run.json",
+  "publication": {
+    "status": "not_needed",
+    "note": "No material change; main and production unchanged."
+  }
 }

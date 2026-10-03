@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "id": "run-20261003012824-9ac2e7d1",
+  "base_state_digest": "b9f0b22ff04493bfae67b306155e89ac4d9cf9c7dfbff3ecff6ee2520ae5f6eb",
+  "started_at": "2026-10-03T01:28:24.000Z",
+  "finished_at": "2026-10-03T01:38:00.000Z",
+  "backfill_complete": false,
+  "material_changed": false,
+  "counts": {
+    "new": 0,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0,
+    "excluded_duplicates": 8
+  },
+  "publication": {
+    "status": "not_needed",
+    "note": "前一已验收发布后约8分钟启动复查；事件库无新增或实质更新，未提交main、未刷新网页时间、未触发Vercel部署。"
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "前次发布后重新检查Amazon.com Seller Central公开公告与论坛索引；结果均为既有公告、旧内容或无法完整遍历的动态入口，未确认新增或实质更新。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "前次发布后重新检查Amazon全球开店公开新闻入口；未发现晚于前次截止且非重复的US/CA/MX运营更新，动态索引仍不能证明完整遍历。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "前次发布后重新检查Amazon Ads What’s New公开结果；命中项均已在前次发布收录或为旧内容，动态列表仍不能证明完整遍历。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "重新检查CPSC公开召回与警告结果；未发现晚于前次截止且与Amazon.com销售直接相关的新行动。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "重新检查Amazon.ca Seller Central公开结果；未确认新的独立费用、物流、促销或账户政策，动态入口无法公开完整遍历。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "重新检查Amazon.com.mx卖家公开入口；未确认新的独立费用、物流、促销或账户政策，动态入口无法公开完整遍历。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "重新检查Health Canada公开召回结果；未发现晚于前次截止且与Amazon.ca直接相关的新行动。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "重新检查PROFECO及墨西哥政府公开结果；未确认新的Amazon.com.mx监管规则或执法行动。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该行业媒体公开结果；无公开结果或仅有旧内容，未取得可完整核验且非重复的新事件。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该行业媒体公开结果；无公开结果或仅有旧内容，未取得可完整核验且非重复的新事件。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查知无不言公开结果；当前公开讨论未提供可作为事件入库的官方或监管直接证据。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查TT123/AMZ123公开结果；命中项为前次已收录事项、旧闻或摘要，未新增卡片。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该行业媒体公开结果；无公开结果或仅有旧内容，未取得可完整核验且非重复的新事件。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查卖家之家公开结果；Alexa生成描述线索只有行业摘要且在前次窗口已可见，缺少官方原文与实质变化证据，未收录。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该公众号的公开可检索结果；搜索无结果或仅返回旧摘要，无法完整遍历，未确认非重复增量。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该公众号的公开可检索结果；搜索无结果或仅返回旧摘要，无法完整遍历，未确认非重复增量。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该公众号的公开可检索结果；搜索无结果或仅返回旧摘要，无法完整遍历，未确认非重复增量。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该公众号的公开可检索结果；搜索无结果或仅返回旧摘要，无法完整遍历，未确认非重复增量。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该公众号的公开可检索结果；搜索无结果或仅返回旧摘要，无法完整遍历，未确认非重复增量。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该公众号的公开可检索结果；搜索无结果或仅返回旧摘要，无法完整遍历，未确认非重复增量。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该公众号的公开可检索结果；搜索无结果或仅返回旧摘要，无法完整遍历，未确认非重复增量。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该公众号的公开可检索结果；搜索无结果或仅返回旧摘要，无法完整遍历，未确认非重复增量。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "单独复查该公众号的公开可检索结果；搜索无结果或仅返回旧摘要，无法完整遍历，未确认非重复增量。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "重新检索Amazon.com的fuel line、CPE braided fuel hose、AN fittings、exhaust clamp公开结果；缺少同ASIN、变体、地区和时间的连续USD快照，未生成变化结论。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "按include_source_ids逐一复查15个行业媒体与公众号公开入口；无公开结果、仅摘要、旧闻或重复，未确认CA独立增量，不能视为完整覆盖。",
+      "evidence": [],
+      "included_source_results": {
+        "crossborder_headlines": "no_public_result",
+        "crossborder_briefs": "no_public_result",
+        "wearesellers": "summary_only_unverified",
+        "tt123": "duplicate_or_summary_only",
+        "brand_ark": "no_public_result",
+        "seller_home": "public_summary_only",
+        "wechat_dabao": "no_public_result",
+        "wechat_huluwa": "no_public_result",
+        "wechat_santou": "no_public_result",
+        "wechat_crossborder_headlines": "no_public_result",
+        "wechat_crossborder_briefs": "no_public_result",
+        "wechat_wearesellers": "no_public_result",
+        "wechat_tt123": "no_public_result",
+        "wechat_brand_ark": "no_public_result",
+        "wechat_seller_home": "no_public_result"
+      },
+      "cursor_advanced": false
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "按include_source_ids逐一复查15个行业媒体与公众号公开入口；无公开结果、仅摘要、旧闻或重复，未确认MX独立增量，不能视为完整覆盖。",
+      "evidence": [],
+      "included_source_results": {
+        "crossborder_headlines": "no_public_result",
+        "crossborder_briefs": "no_public_result",
+        "wearesellers": "summary_only_unverified",
+        "tt123": "duplicate_or_summary_only",
+        "brand_ark": "no_public_result",
+        "seller_home": "public_summary_only",
+        "wechat_dabao": "no_public_result",
+        "wechat_huluwa": "no_public_result",
+        "wechat_santou": "no_public_result",
+        "wechat_crossborder_headlines": "no_public_result",
+        "wechat_crossborder_briefs": "no_public_result",
+        "wechat_wearesellers": "no_public_result",
+        "wechat_tt123": "no_public_result",
+        "wechat_brand_ark": "no_public_result",
+        "wechat_seller_home": "no_public_result"
+      },
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "重新检索Amazon.ca四组重点汽配词；缺少同ASIN、变体、收货地区和时间的连续CAD快照，未生成变化结论。",
+      "evidence": [],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-03T01:38:00.000Z",
+      "note": "重新检索Amazon.com.mx四组重点汽配词；公开搜索结果不相关且缺少同ASIN、变体、收货地区和时间的连续MXN快照，未生成变化结论。",
+      "evidence": [],
+      "cursor_advanced": false
+    }
+  ]
+}
