@@ -1,9 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-na-childrens-jewelry-compliance|add-direct-validation-enforcement-2026|CA+US|2026-09-14",
-    "amazon-ads-mcp-expert-tools|launch-amc-sql-generator-closed-beta-2026|US|2026-09-30",
-    "amazon-send-china-to-mexico-air|add-360lion-route-2026|MX|2026-09-22"
+    "na-regulators-amazon-sold-products|issue-october-1-recalls-and-stop-sale-warnings-2026|CA+US|2026-10-01",
+    "amazon-us-express-payout|enable-default-free-instant-bank-payout-2026|US|2026-09-21",
+    "amazon-ads-data-manager|redesign-and-expand-first-party-data-management-2026|CA+MX+US|2026-09-28"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -13,52 +13,59 @@
     "competitors": "partial"
   },
   "category_notes": {
-    "policy": "新增美加站儿童首饰Direct Validation分阶段管控；Amazon帮助页确认政策，统一时间线来自Amazon认可TIC Intertek，具体ASIN截止日以Account Health为准。三站监管公开入口未发现新的Amazon直接行动。",
-    "ads": "新增美国Sponsored Services服务广告；只确认Unified API于2026年第四季度开放、广告控制台计划2027年上线，未给日级生效日。",
-    "ai": "新增美国Amazon Ads MCP Server的AMC SQL Generator Closed Beta，并补收Seller Central导航、书签和批量选择体验改进；后者仍保留Shipping Template未修复限制。",
-    "opportunities": "新增墨西哥SEND中国空运线路行业线索，尚无稳定可引用的Amazon线路公告；重点汽配词仍缺少US、CA、MX连续可比趋势。",
-    "competitors": "未指定固定可比ASIN；US、CA、MX价格、Coupon、BSR与页面变化仍缺少同ASIN、变体、收货地区和时间的连续快照，首次公开样本未计作变化。"
+    "policy": "新增美加10月1日监管安全批次及美国Express Payout。Seller Central动态列表、监管索引和部分帮助页仍属于公开部分覆盖。",
+    "ads": "新增美加墨Ads data manager、美加GIA品牌渗透指数及美国Alexa+全屏自动播放DSP版位；均按官方明确市场记录，未跨站套用。",
+    "ai": "ADM和GIA含AI/自动优化能力，但本轮未确认独立于广告工作流的卖家AI工具新增；公开动态入口无法证明完整遍历。",
+    "opportunities": "补收美加旺季FBA费用与加拿大BFCM入仓/Deal节点；事件按原始7月公告归档。重点汽配词仍缺少三站连续可比快照。",
+    "competitors": "US、CA、MX未指定固定可比ASIN；公开结果缺少同ASIN、变体、收货地区和时间的连续快照，未生成价格、Coupon、BSR或关键词趋势。"
   },
-  "coverage_note": "按各来源未完成补查窗口并保留72小时重叠，核验US、CA、MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、墨西哥监管公开入口、既定行业媒体、指定公众号公开索引及三站汽配重点词。Seller Central动态页、部分行业站和全部指定公众号仅能通过公开索引或搜索摘要覆盖，不能声称完整遍历；各来源成功游标不因本次部分覆盖推进。",
+  "coverage_note": "保留72小时重叠并继续从bootstrap_window_start补查。核验US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO/SAT/ANAM公开结果、既定行业媒体、15个指定行业/公众号入口及三站汽配重点词。Seller Central动态页、部分行业网站和全部指定公众号只能通过公开索引或搜索摘要覆盖，不能声称完整遍历，成功游标不推进。",
   "action_items": [
     {
-      "title": "核查儿童首饰DV提示",
-      "detail": "在US、CA Account Health逐个检查儿童首饰ASIN和账户截止日，按TRF ID准备TIC验证资料。",
+      "title": "核查监管命中SKU",
+      "detail": "按六项品牌、型号和批次核查US库存、在途及历史订单；CA仅核查HotHands H163650。",
       "due": "立即",
-      "event_key": "amazon-na-childrens-jewelry-compliance|add-direct-validation-enforcement-2026|CA+US|2026-09-14"
+      "event_key": "na-regulators-amazon-sold-products|issue-october-1-recalls-and-stop-sale-warnings-2026|CA+US|2026-10-01"
     },
     {
-      "title": "申请AMC SQL工具测试",
-      "detail": "具备美国AMC实例、开发者账户和Ads API权限时申请Closed Beta，并保留人工SQL审核。",
+      "title": "确认美国回款状态",
+      "detail": "在Payments dashboard核对Express Payout、银行即时转账支持和实际到账时间。",
+      "due": "今日",
+      "event_key": "amazon-us-express-payout|enable-default-free-instant-bank-payout-2026|US|2026-09-21"
+    },
+    {
+      "title": "建立三站一方数据清单",
+      "detail": "为US、CA、MX分别盘点数据源、consent、权限和Destinations，先小范围接入ADM。",
       "due": "本周",
-      "event_key": "amazon-ads-mcp-expert-tools|launch-amc-sql-generator-closed-beta-2026|US|2026-09-30"
+      "event_key": "amazon-ads-data-manager|redesign-and-expand-first-party-data-management-2026|CA+MX+US|2026-09-28"
     },
     {
-      "title": "验证墨西哥SEND线路",
-      "detail": "在自身账户核对360Lion线路、5kg门槛、计费与时效；保存同口径报价作为MXN基线。",
-      "due": "下次墨西哥补货前",
-      "event_key": "amazon-send-china-to-mexico-air|add-360lion-route-2026|MX|2026-09-22"
+      "title": "锁定加拿大BFCM节点",
+      "detail": "CA库存按10月28日入仓、Deal按11月13日截止倒排，并用CAD重算旺季费。",
+      "due": "2026-10-28",
+      "event_key": "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15"
     },
     {
-      "title": "复核Seller Central批量编辑",
-      "detail": "美国站跨搜索批量勾选后复核数量与Shipping Template，异常时保存ASIN和截图。",
+      "title": "检查广告默认与地域设置",
+      "detail": "审查美国Alexa+ DSP版位，并为US、CA分别建立GIA启用前基线。",
       "due": "本周",
-      "event_key": "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown"
+      "event_key": "amazon-ads-geographic-insights-activation|add-prebuilt-brand-penetration-indices-2026|CA+US|2026-10-02"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-02",
-  "content_updated_at": "2026-10-02T01:12:51.000Z",
+  "report_date": "2026-10-03",
+  "content_updated_at": "2026-10-03T01:04:04.000Z",
   "new_event_keys": [
-    "amazon-na-childrens-jewelry-compliance|add-direct-validation-enforcement-2026|CA+US|2026-09-14",
-    "amazon-ads-mcp-expert-tools|launch-amc-sql-generator-closed-beta-2026|US|2026-09-30",
-    "amazon-ads-sponsored-services|launch-outcome-optimized-service-ads-2026|US|unknown",
-    "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown",
-    "amazon-send-china-to-mexico-air|add-360lion-route-2026|MX|2026-09-22"
+    "amazon-us-express-payout|enable-default-free-instant-bank-payout-2026|US|2026-09-21",
+    "amazon-ads-data-manager|redesign-and-expand-first-party-data-management-2026|CA+MX+US|2026-09-28",
+    "amazon-ads-alexa-plus-home-screen-video|launch-silent-full-screen-autoplay-placement-2026|US|2026-09-30",
+    "amazon-ads-geographic-insights-activation|add-prebuilt-brand-penetration-indices-2026|CA+US|2026-10-02",
+    "na-regulators-amazon-sold-products|issue-october-1-recalls-and-stop-sale-warnings-2026|CA+US|2026-10-01",
+    "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 5,
+    "new": 6,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0
