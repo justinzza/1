@@ -1,0 +1,51 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 6,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-express-payout|enable-default-free-instant-bank-payout-2026|US|2026-09-21",
+    "amazon-ads-data-manager|redesign-and-expand-first-party-data-management-2026|CA+MX+US|2026-09-28",
+    "amazon-ads-alexa-plus-home-screen-video|launch-silent-full-screen-autoplay-placement-2026|US|2026-09-30",
+    "amazon-ads-geographic-insights-activation|add-prebuilt-brand-penetration-indices-2026|CA+US|2026-10-02",
+    "na-regulators-amazon-sold-products|issue-october-1-recalls-and-stop-sale-warnings-2026|CA+US|2026-10-01",
+    "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-express-payout|enable-default-free-instant-bank-payout-2026|US|2026-09-21",
+      "action": "new",
+      "review": "全库没有Express Payout、免费即时银行回款或24小时到账记录；与账户回款、税务及费用事件逐条比较后，主体与变化动作均不同。"
+    },
+    {
+      "event_key": "amazon-ads-data-manager|redesign-and-expand-first-party-data-management-2026|CA+MX+US|2026-09-28",
+      "action": "new",
+      "review": "既有Ads Agent、Full-Funnel、DVA+与MCP事件均未记录一方数据连接、Datasets治理、Destinations激活和ADM跨区域共享，本事件是独立数据基础设施更新。"
+    },
+    {
+      "event_key": "amazon-ads-alexa-plus-home-screen-video|launch-silent-full-screen-autoplay-placement-2026|US|2026-09-30",
+      "action": "new",
+      "review": "全库没有Alexa+ Echo Show Home Screen的全屏静音自动播放DSP版位；Review Requests和Branded Conversations虽涉及Alexa购物，但广告形态、入口和用户动作不同。"
+    },
+    {
+      "event_key": "amazon-ads-geographic-insights-activation|add-prebuilt-brand-penetration-indices-2026|CA+US|2026-10-02",
+      "action": "new",
+      "review": "既有DVA+事件记录统一广告工作流，没有GIA预构建品牌渗透指数、每周刷新或基于指数的地域优化；本事件是在DVA+ advanced settings中的新增能力。"
+    },
+    {
+      "event_key": "na-regulators-amazon-sold-products|issue-october-1-recalls-and-stop-sale-warnings-2026|CA+US|2026-10-01",
+      "action": "new",
+      "review": "全库已有9月10、17、24的CPSC批次，但没有10月1日六项产品、对应型号或Health Canada HotHands联合召回；按日期与行动批次新建，不更新旧批次。"
+    },
+    {
+      "event_key": "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15",
+      "action": "new",
+      "review": "全库仅有USPS旺季包裹费率和Prime活动日期，没有Amazon US/CA 2026 FBA旺季配送费、CA BFCM入仓与Deal截止日；四重比对无同一事件。"
+    }
+  ]
+}
