@@ -1,17 +1,12 @@
 {
   "schema_version": 1,
-  "run_id": "run-20261003005707-6028083e",
-  "status": "released",
-  "acquired_at": "2026-10-03T00:57:07.221Z",
-  "expires_at": "2026-10-03T02:27:07.221Z",
-  "previous_radar_state_head": "35c25db329616ba3ecd0a923e09f30c3a9b6ede7",
+  "run_id": "run-20261003012824-9ac2e7d1",
+  "status": "active",
+  "acquired_at": "2026-10-03T01:28:24.000Z",
+  "expires_at": "2026-10-03T02:58:24.000Z",
+  "previous_radar_state_head": "ea8c29a4f87a71f860be848d29e22fab107f33a9",
   "takeover_reason": null,
-  "released_at": "2026-10-03T01:20:00.000Z",
-  "release_run_record": "state/runs/run-20261003005707-6028083e/run.json",
-  "publication": {
-    "status": "verified",
-    "commit_sha": "7e32a9f8dd934991c3e7b19fddfaa418868224a4",
-    "url": "https://amazon-ops-radar-vercel.vercel.app/",
-    "content_digest": "e9071d633bc9e508a9076f5d4bfd8ddc2ad2c6715055891b67fd6b632f0b9c64"
-  }
+  "released_at": null,
+  "release_run_record": null,
+  "publication": null
 }
