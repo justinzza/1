@@ -1,0 +1,28 @@
+{
+  "run_id": "run-20261004005531-4f9c2a71",
+  "status": "prepared",
+  "prepared_at": "2026-10-04T01:02:55.000Z",
+  "radar_state_lease_commit": "20a544d3a78015de9e86cfd04d57f6d28336f585",
+  "main_base_commit": "7e32a9f8dd934991c3e7b19fddfaa418868224a4",
+  "base_registry_digest": "f850e9c072f05222888f41e4844c07617e940278e012178f8dcc5ebe16984e76",
+  "expected_registry_digest": "f0a830a9af74222b70a5d6228c583d79dd3c344a59d7bbf9a77f44cbc5ca1039",
+  "expected_content_digest": "5219fdce56b14a97e7b4d1df12e7bebff15e0d543f56b772f1023333a54de686",
+  "expected_card_count": 62,
+  "counts": {
+    "new": 2,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "event_keys": [
+    "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown",
+    "amazon-buy-shipping-heavy-bulky|add-ltl-labels-and-regional-pricing-2026|US|unknown",
+    "amazon-usps-pm-delivery-pilot|launch-afternoon-drop-same-day-pilot-2026|US|2026-09-29"
+  ],
+  "tests": {
+    "node_test": "22 passed",
+    "registry_valid": true,
+    "render_matches": true,
+    "daily_briefing_absent": true
+  }
+}

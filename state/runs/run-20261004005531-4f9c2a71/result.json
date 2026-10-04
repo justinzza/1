@@ -1,0 +1,41 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-buy-shipping-heavy-bulky|add-ltl-labels-and-regional-pricing-2026|US|unknown",
+    "amazon-usps-pm-delivery-pilot|launch-afternoon-drop-same-day-pilot-2026|US|2026-09-29"
+  ],
+  "updated_event_keys": [
+    "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": true,
+        "effective_date": false
+      },
+      "review": "逐条比对全库后确认与既有美国Seller Central体验改造为同一事项。新公告把原先导航和批量操作改进扩展为工作区、全局Seller Assistant、跨站视图及模块化首页，属于实质新信息，应更新原卡片并合并官方来源。"
+    },
+    {
+      "event_key": "amazon-buy-shipping-heavy-bulky|add-ltl-labels-and-regional-pricing-2026|US|unknown",
+      "action": "new",
+      "review": "全库没有以Buy Shipping购买LTL标签、重货区域运费或本地重货承运商为核心动作的事件；标题、规范化来源和生效日期均不与现有卡片重合。"
+    },
+    {
+      "event_key": "amazon-usps-pm-delivery-pilot|launch-afternoon-drop-same-day-pilot-2026|US|2026-09-29",
+      "action": "new",
+      "review": "全库没有Amazon与USPS下午二次交接、三城同日达试点这一主体和动作组合；两条来源URL均未出现，生效日也不与现有物流事件重合。"
+    }
+  ]
+}
