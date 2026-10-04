@@ -1,12 +1,17 @@
 {
   "schema_version": 1,
   "run_id": "run-20261004005531-4f9c2a71",
-  "status": "active",
+  "status": "released",
   "acquired_at": "2026-10-04T00:55:31.000Z",
   "expires_at": "2026-10-04T02:25:31.000Z",
   "previous_radar_state_head": "bdbabc6e577977722433b6955c5bbcc45a7eaf3b",
   "takeover_reason": null,
-  "released_at": null,
-  "release_run_record": null,
-  "publication": null
+  "released_at": "2026-10-04T01:12:59.000Z",
+  "release_run_record": "state/runs/run-20261004005531-4f9c2a71/run.json",
+  "publication": {
+    "status": "verified",
+    "commit_sha": "8de1e2e2de839c622be067153a49f84cfa3756b2",
+    "expected_digest": "5219fdce56b14a97e7b4d1df12e7bebff15e0d543f56b772f1023333a54de686",
+    "observed_digest": "5219fdce56b14a97e7b4d1df12e7bebff15e0d543f56b772f1023333a54de686"
+  }
 }
