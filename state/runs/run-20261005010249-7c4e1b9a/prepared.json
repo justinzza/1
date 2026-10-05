@@ -1,0 +1,26 @@
+{
+  "run_id": "run-20261005010249-7c4e1b9a",
+  "status": "prepared",
+  "prepared_at": "2026-10-05T01:10:04.000Z",
+  "radar_state_lease_commit": "1708a354871bdce63a777ad079f62bb9fcb96d18",
+  "main_base_commit": "8de1e2e2de839c622be067153a49f84cfa3756b2",
+  "base_registry_digest": "f0a830a9af74222b70a5d6228c583d79dd3c344a59d7bbf9a77f44cbc5ca1039",
+  "expected_registry_digest": "3d7ec095219f0e4911948d43164679f9cfa8e55143cd8fb4445d95ea230763b2",
+  "expected_content_digest": "f69e18d7f9776f2da85a8a5ceeafc8d6785d7f1604a21ca5947f8299ab3d4285",
+  "expected_card_count": 63,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "event_keys": [
+    "amazon-ca-gas-fueled-outdoor-heaters|add-direct-validation-and-testing-requirements-2026|CA|2026-09-23"
+  ],
+  "tests": {
+    "node_test": "22 passed",
+    "registry_valid": true,
+    "render_matches": true,
+    "daily_briefing_absent": true
+  }
+}

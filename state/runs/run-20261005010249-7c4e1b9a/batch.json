@@ -1,0 +1,83 @@
+{
+  "base_digest": "f0a830a9af74222b70a5d6228c583d79dd3c344a59d7bbf9a77f44cbc5ca1039",
+  "checked_at": "2026-10-05T01:10:04.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-ca-gas-fueled-outdoor-heaters",
+        "action_key": "add-direct-validation-and-testing-requirements-2026",
+        "marketplaces": ["CA"],
+        "effective_date": "2026-09-23",
+        "deadline": null,
+        "title": "加拿大站燃气户外加热产品启用Direct Validation与逐型号检测",
+        "summary": "Amazon加拿大Seller Central社区经理公告确认，自2026年9月23日起，Amazon.ca销售的燃气火盆、户外壁炉和露台加热器须通过Amazon授权的第三方Testing, Inspection and Certification（TIC）机构验证。燃气火盆及户外壁炉适用CSA 2.41 / ANSI Z21.97，露台加热器适用CSA 2.37 / ANSI Z83.26；每个ASIN型号均需检测或验证，露台加热器还须执行Clause 5.18与5.22测试。证书需来自ISO 17025认可实验室并由TIC提交，详情页应显示型号及制造商或品牌，图片须覆盖产品各面、警示与合规标识。",
+        "impact": "未合规Listing可能立即停用，完成TIC流程前不会恢复；Amazon还会进行周期性及随机监督测试。该变化仅有加拿大站证据，不能套用于US或MX。",
+        "action": "立即在Amazon.ca Account Health筛查燃气火盆、户外壁炉及propane/natural gas patio heater ASIN；逐型号核对CSA/ANSI标准、ISO 17025实验室、CoC、警示标签、铭牌、品牌及型号字段和全角度图片。收到受影响通知后通过Amazon授权TIC提交，不要自行把文件直接上传给Amazon；留存ASIN、型号、样品、测试和提交回执。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-10-01",
+        "original_date_note": "Amazon.ca Seller Central社区经理于2026-10-01公开说明要求；规则自2026-09-23起生效。本次按原始公开日期归档，不以发现日代替发布日期。",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/fc1c0476-4850-4bd6-9b26-e6f3541df92d",
+            "publisher": "Amazon Seller Central CA",
+            "kind": "official",
+            "published_at": "2026-10-01",
+            "verified_at": "2026-10-05T01:10:04.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official-community-manager"
+          }
+        ],
+        "first_seen_at": "2026-10-05T01:10:04.000Z",
+        "last_material_update_at": "2026-10-05T01:10:04.000Z",
+        "history_dates": ["2026-10-05"],
+        "verification_status": "reviewed",
+        "key_aliases": []
+      },
+      "dedupe_review": {
+        "compared_digest": "f0a830a9af74222b70a5d6228c583d79dd3c344a59d7bbf9a77f44cbc5ca1039",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条检查全库event_key、标题语义、规范化来源链接和生效日期后，未发现加拿大燃气火盆、户外壁炉或露台加热器Direct Validation与逐型号检测事件；来源URL亦未出现。",
+        "distinct_event_reason": "它不同于美加儿童首饰Direct Validation及美加墨危险品Listing必答字段：本事件限定加拿大燃气户外加热产品，适用CSA 2.41/ANSI Z21.97和CSA 2.37/ANSI Z83.26，并要求授权TIC逐型号验证及额外稳定性/容量测试。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-ca-gas-fueled-outdoor-heaters|add-direct-validation-and-testing-requirements-2026|CA|2026-09-23"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "保留72小时重叠并补查延迟收录。检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO/SAT/ANAM公开结果、既定行业媒体、15个指定行业/公众号入口及三站汽配重点词。补收加拿大燃气户外加热产品合规要求；Seller Central动态页、部分行业站和公众号只能通过公开索引或搜索摘要覆盖。US/CA/MX仍缺少相同ASIN、变体、地区和时间的连续可比快照，未生成价格、Coupon、BSR或关键词趋势结论。",
+    "action_items": [
+      {
+        "title": "筛查加拿大燃气加热产品",
+        "detail": "在Account Health按ASIN和型号筛查燃气火盆、户外壁炉及露台加热器，确认是否收到Direct Validation通知。",
+        "due": "今日",
+        "event_key": "amazon-ca-gas-fueled-outdoor-heaters|add-direct-validation-and-testing-requirements-2026|CA|2026-09-23"
+      },
+      {
+        "title": "准备逐型号TIC证据",
+        "detail": "核对适用CSA/ANSI标准、ISO 17025实验室、CoC、Clause 5.18/5.22测试、铭牌、警示及详情页字段，并由Amazon授权TIC提交。",
+        "due": "收到Account Health通知后立即",
+        "event_key": "amazon-ca-gas-fueled-outdoor-heaters|add-direct-validation-and-testing-requirements-2026|CA|2026-09-23"
+      },
+      {
+        "title": "维持三站汽配独立基线",
+        "detail": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp继续按US/CA/MX的ASIN、变体、地区、币种和时间分别记录；首次观察不算变化。",
+        "due": "持续",
+        "event_key": null
+      }
+    ]
+  }
+}
