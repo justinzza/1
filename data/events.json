@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-04T01:02:55.000Z",
+  "content_updated_at": "2026-10-05T01:10:04.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -3738,6 +3738,47 @@
       "event_key": "amazon-usps-pm-delivery-pilot|launch-afternoon-drop-same-day-pilot-2026|US|2026-09-29",
       "id": "evt-de03848496bdcd5f",
       "primary_source_url": "https://postaltimes.com/new-usps-pilot-amazon-pm-delivery",
+      "revisions": []
+    },
+    {
+      "subject_key": "amazon-ca-gas-fueled-outdoor-heaters",
+      "action_key": "add-direct-validation-and-testing-requirements-2026",
+      "marketplaces": [
+        "CA"
+      ],
+      "effective_date": "2026-09-23",
+      "deadline": null,
+      "title": "加拿大站燃气户外加热产品启用Direct Validation与逐型号检测",
+      "summary": "Amazon加拿大Seller Central社区经理公告确认，自2026年9月23日起，Amazon.ca销售的燃气火盆、户外壁炉和露台加热器须通过Amazon授权的第三方Testing, Inspection and Certification（TIC）机构验证。燃气火盆及户外壁炉适用CSA 2.41 / ANSI Z21.97，露台加热器适用CSA 2.37 / ANSI Z83.26；每个ASIN型号均需检测或验证，露台加热器还须执行Clause 5.18与5.22测试。证书需来自ISO 17025认可实验室并由TIC提交，详情页应显示型号及制造商或品牌，图片须覆盖产品各面、警示与合规标识。",
+      "impact": "未合规Listing可能立即停用，完成TIC流程前不会恢复；Amazon还会进行周期性及随机监督测试。该变化仅有加拿大站证据，不能套用于US或MX。",
+      "action": "立即在Amazon.ca Account Health筛查燃气火盆、户外壁炉及propane/natural gas patio heater ASIN；逐型号核对CSA/ANSI标准、ISO 17025实验室、CoC、警示标签、铭牌、品牌及型号字段和全角度图片。收到受影响通知后通过Amazon授权TIC提交，不要自行把文件直接上传给Amazon；留存ASIN、型号、样品、测试和提交回执。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": "2026-10-01",
+      "original_date_note": "Amazon.ca Seller Central社区经理于2026-10-01公开说明要求；规则自2026-09-23起生效。本次按原始公开日期归档，不以发现日代替发布日期。",
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/fc1c0476-4850-4bd6-9b26-e6f3541df92d",
+          "publisher": "Amazon Seller Central CA",
+          "kind": "official",
+          "published_at": "2026-10-01",
+          "verified_at": "2026-10-05T01:10:04.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official-community-manager",
+          "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/fc1c0476-4850-4bd6-9b26-e6f3541df92d"
+        }
+      ],
+      "first_seen_at": "2026-10-05T01:10:04.000Z",
+      "last_material_update_at": "2026-10-05T01:10:04.000Z",
+      "history_dates": [
+        "2026-10-05"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "event_key": "amazon-ca-gas-fueled-outdoor-heaters|add-direct-validation-and-testing-requirements-2026|CA|2026-09-23",
+      "id": "evt-04b751c72adfb0ff",
+      "primary_source_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/fc1c0476-4850-4bd6-9b26-e6f3541df92d",
       "revisions": []
     }
   ]
