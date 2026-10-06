@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-na-electric-cutting-tools|require-direct-validation-and-tic-review-2026|CA+US|unknown"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-na-electric-cutting-tools|require-direct-validation-and-tic-review-2026|CA+US|unknown",
+      "action": "new",
+      "review": "逐条检查全库event_key、标题语义、规范化来源链接和生效日期后，未发现美加电动切割工具Direct Validation/TIC事件；官方帮助页G47MZUS764W88ZRP及行业日期来源均未出现在事件库。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "run-20261006005926-a7762424",
+  "status": "prepared",
+  "prepared_at": "2026-10-06T01:05:24.000Z",
+  "radar_state_lease_commit": "a859b5f0bce9b6e8d4292ba9047f7824e95769ea",
+  "main_base_commit": "c2438c38e2d5769ba81375444aa20dbe634898f4",
+  "base_registry_digest": "3d7ec095219f0e4911948d43164679f9cfa8e55143cd8fb4445d95ea230763b2",
+  "expected_registry_digest": "fc2ecfc298a5ca92a06464d9beb209436f2217c786e2d1fd32f79d7933f2ace7",
+  "expected_content_digest": "ab2caa343ffebf85d09a72251e04ed569f3b19ce0c40956c329a420e2632dec8",
+  "expected_card_count": 60,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "event_keys": [
+    "amazon-na-electric-cutting-tools|require-direct-validation-and-tic-review-2026|CA+US|unknown"
+  ],
+  "tests": {
+    "node_test": "22 passed",
+    "registry_valid": true,
+    "render_matches": true,
+    "daily_briefing_absent": true
+  }
+}
