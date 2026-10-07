@@ -1,7 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-na-electric-cutting-tools|require-direct-validation-and-tic-review-2026|CA+US|unknown"
+    "amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01",
+    "amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08",
+    "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -10,38 +12,57 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "保留72小时重叠并补查延迟收录。检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO公开结果、既定行业媒体、15个指定行业/公众号入口及三站汽配重点词。补收美加电动切割工具Direct Validation要求；10月19日下架时点仅有行业材料支持，已与官方要求分层标注。Seller Central动态页、部分行业站和公众号只能通过公开索引或搜索摘要覆盖。US/CA/MX仍缺少相同ASIN、变体、地区和时间的连续可比快照，未生成价格、Coupon、BSR或关键词趋势结论。",
+  "coverage_note": "保留72小时重叠并补查bootstrap窗口。检查US/CA/MX Seller Central公开公告、Amazon Ads What's New与支持中心、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、指定公众号公开入口及三站汽配重点词。新增服务商权限安全、Fire TV计量、REC创意、MX Easy Ship、Premium Shipping和CA/MX Coupon工作流，并将新版Seller Central原卡片扩展到CA/MX。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；US/CA/MX缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
   "action_items": [
     {
-      "title": "筛查美加电动切割工具ASIN",
-      "detail": "分别检查US、CA Account Health中的电动锯、角磨机、砂光机、修边机、劈木机和剪切机，保存各ASIN的Address issue by日期。",
+      "title": "核对三站服务商授权",
+      "detail": "导出US、CA、MX服务商与权限，记录企业验证、365天到期日和续授权负责人；按最小权限处理Action Center任务。",
+      "due": "收到通知前",
+      "event_key": "amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01"
+    },
+    {
+      "title": "标记Fire TV计量断点",
+      "detail": "保存10月8日前后三站Fire TV placement级报表，在趋势分析中单独标记计量方法变化。",
+      "due": "2026-10-08",
+      "event_key": "amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08"
+    },
+    {
+      "title": "小预算测试REC新创意",
+      "detail": "分站测试video、carousel和rich media；US专属brand controls与Alexa prompts不得套用于CA/MX。",
+      "due": "本周",
+      "event_key": "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30"
+    },
+    {
+      "title": "复核墨西哥Easy Ship交件点",
+      "detail": "逐单确认Amazon Logistics或DHL、追踪号和交件点，并在16:00 CST前交件。",
+      "due": "每个工作日",
+      "event_key": "amazon-mexico-easy-ship-carriers|add-amazon-logistics-drop-off-delivery-2026|MX|2026-08-31"
+    },
+    {
+      "title": "检查Premium Shipping手动注册",
+      "detail": "三站新达标账户分别确认资格、模板与绩效要求，验证一日/两日承诺。",
       "due": "今日",
-      "event_key": "amazon-na-electric-cutting-tools|require-direct-validation-and-tic-review-2026|CA+US|unknown"
-    },
-    {
-      "title": "推进TIC直接验证",
-      "detail": "收到通知后立即创建TRF并选择授权TIC；分站核对报告、UN 38.3/BTS、图片、警示、合规标识及美国COI，避免等待行业所称10月19日节点。",
-      "due": "以Account Health日期为准",
-      "event_key": "amazon-na-electric-cutting-tools|require-direct-validation-and-tic-review-2026|CA+US|unknown"
-    },
-    {
-      "title": "维持三站汽配独立基线",
-      "detail": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp继续按US/CA/MX的ASIN、变体、地区、币种和时间分别记录；首次观察不算变化。",
-      "due": "持续",
-      "event_key": null
+      "event_key": "amazon-premium-shipping-enrollment|require-manual-enrollment-for-newly-eligible-sellers-2026|CA+MX+US|unknown"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-06",
-  "content_updated_at": "2026-10-06T01:05:24.000Z",
+  "report_date": "2026-10-07",
+  "content_updated_at": "2026-10-07T01:03:47.000Z",
   "new_event_keys": [
-    "amazon-na-electric-cutting-tools|require-direct-validation-and-tic-review-2026|CA+US|unknown"
+    "amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01",
+    "amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08",
+    "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30",
+    "amazon-mexico-easy-ship-carriers|add-amazon-logistics-drop-off-delivery-2026|MX|2026-08-31",
+    "amazon-premium-shipping-enrollment|require-manual-enrollment-for-newly-eligible-sellers-2026|CA+MX+US|unknown",
+    "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown"
   ],
-  "updated_event_keys": [],
+  "updated_event_keys": [
+    "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown"
+  ],
   "counts": {
-    "new": 1,
-    "updated": 0,
-    "merged": 0,
+    "new": 6,
+    "updated": 1,
+    "merged": 1,
     "deduplicated": 0
   }
 }
