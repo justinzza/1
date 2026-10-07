@@ -1,0 +1,59 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 6,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01",
+    "amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08",
+    "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30",
+    "amazon-mexico-easy-ship-carriers|add-amazon-logistics-drop-off-delivery-2026|MX|2026-08-31",
+    "amazon-premium-shipping-enrollment|require-manual-enrollment-for-newly-eligible-sellers-2026|CA+MX+US|unknown",
+    "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown"
+  ],
+  "updated_event_keys": [
+    "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01",
+      "action": "new",
+      "review": "全库event_key、标题语义、规范化来源链接与生效日均未出现服务商企业验证、365天到期和续授权机制；三站官方公告动作与生效日一致，批内合并为一张卡片。"
+    },
+    {
+      "event_key": "amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08",
+      "action": "new",
+      "review": "事件库没有Fire TV展示/点击计量口径调整，亦无相同支持链接或2026-10-08生效日；与Alexa+视频广告和Responsive eCommerce Creative属于不同广告产品与变化动作。"
+    },
+    {
+      "event_key": "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30",
+      "action": "new",
+      "review": "全库没有Responsive eCommerce Creative重构、in-banner video或multi-image carousel事件，也没有该官方链接；与Fire TV计量口径调整和Alexa+单一视频版位语义不同。"
+    },
+    {
+      "event_key": "amazon-mexico-easy-ship-carriers|add-amazon-logistics-drop-off-delivery-2026|MX|2026-08-31",
+      "action": "new",
+      "review": "事件库虽提及墨西哥新卖家可免Easy Ship费用，但没有Easy Ship新增Amazon Logistics承运商、交件点核对或16:00 CST交件要求；主体、动作、来源和生效日均独立。"
+    },
+    {
+      "event_key": "amazon-premium-shipping-enrollment|require-manual-enrollment-for-newly-eligible-sellers-2026|CA+MX+US|unknown",
+      "action": "new",
+      "review": "全库无Premium Shipping从自动加入改为新达标卖家手动注册的事件或三站来源；与FBM绩效处置、Easy Ship和大促配送准备不同。"
+    },
+    {
+      "event_key": "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown",
+      "action": "new",
+      "review": "全库无Coupon创建自动保存、实时预览、克隆和分步进度事件，也无两条官方链接；与Prime Deal档期、参考价异常和Ads创意功能不同。"
+    },
+    {
+      "event_key": "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown",
+      "action": "update",
+      "axes": {},
+      "review": "CA、MX官方公告描述的工作区、Seller Assistant、跨站视图、模块化首页和流程提速与现有美国卡片为同一变化，故更新原卡片marketplaces并合并来源，不新增重复卡。"
+    }
+  ]
+}

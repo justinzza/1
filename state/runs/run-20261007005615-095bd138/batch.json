@@ -1,0 +1,146 @@
+{
+  "base_digest": "fc2ecfc298a5ca92a06464d9beb209436f2217c786e2d1fd32f79d7933f2ace7",
+  "checked_at": "2026-10-07T01:03:47.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-seller-central-service-provider-access",
+        "action_key": "require-business-verification-and-annual-reauthorization-2026",
+        "marketplaces": ["CA", "MX", "US"],
+        "effective_date": "2026-09-01",
+        "deadline": null,
+        "title": "美加墨Seller Central服务商权限改为企业验证与365天续授权",
+        "summary": "Amazon在US、CA、MX Seller Central由News_Amazon发布一致公告：自2026年9月1日起，帮助管理账户的agency、freelancer或virtual assistant须完成Business Verification后才能重新获得服务授权；授权有效期改为365天，卖家可按服务商选择具体权限。需要续授权时，Amazon会通过邮件和Seller Central Action Center给出办理日期。",
+        "impact": "未在通知日期前续授权的服务商会失去账户访问权，直到卖家恢复授权；这可能中断广告、Listing、订单、财务或客服代运营。公告明确未收到邮件时无需立即操作，但三站均应独立核对通知和权限，不能把一个站点的授权状态视为其他站点已完成。",
+        "action": "在US、CA、MX分别导出当前服务商、用户与权限清单，确认企业验证状态、授权到期日和业务负责人；收到邮件或Action Center任务后，在截止日前按最小权限原则续授权。对停用合作方立即撤销访问，并保留授权、变更和撤销记录。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-10-06",
+        "original_date_note": "三站官方论坛在2026-10-06至10-07公开公告，规则追溯至2026-09-01生效；未把发现日当作生效日。",
+        "sources": [
+          {"url":"https://sellercentral.amazon.com/seller-forums/discussions/t/439b42ab-7bae-4674-b5fb-3a39f5078ac2","publisher":"Amazon Seller Central US","kind":"official","published_at":"2026-10-06","verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"},
+          {"url":"https://sellercentral.amazon.ca/seller-forums/discussions/t/6c8ce572-ed01-4f67-b282-d73e73fc3942","publisher":"Amazon Seller Central CA","kind":"official","published_at":"2026-10-06","verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"},
+          {"url":"https://sellercentral.amazon.com.mx/seller-forums/discussions/t/15fd2cd3-fa8f-4775-bc52-cb2d691060a9","publisher":"Amazon Seller Central MX","kind":"official","published_at":"2026-10-06","verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"}
+        ],
+        "first_seen_at":"2026-10-07T01:03:47.000Z","last_material_update_at":"2026-10-07T01:03:47.000Z","history_dates":["2026-10-07"],"verification_status":"reviewed","key_aliases":[]
+      },
+      "dedupe_review": {"compared_digest":"fc2ecfc298a5ca92a06464d9beb209436f2217c786e2d1fd32f79d7933f2ace7","title_semantics_reviewed":true,"batch_semantics_reviewed":true,"matches_event_key":null,"reason":"全库event_key、标题语义、规范化来源链接与生效日均未出现服务商企业验证、365天到期和续授权机制；三站官方公告动作与生效日一致，批内合并为一张卡片。","distinct_event_reason":"该事项是第三方服务商访问控制，不是新版Seller Central界面改造或普通子用户权限功能。"},
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key":"amazon-ads-fire-tv-measurement","action_key":"update-impression-and-click-reporting-methodology-2026","marketplaces":["CA","MX","US"],"effective_date":"2026-10-08","deadline":null,
+        "title":"Fire TV广告10月8日起更新展示与点击计量口径",
+        "summary":"Amazon Ads官方支持提示确认，自2026年10月8日起，Fire TV display supply的报表将排除不符合更新后计量标准的impressions和clicks。Amazon估算整体Fire TV display supply约15%的展示和11%的点击会受影响，具体幅度因Campaign、marketplace和placement而异；预测工具也会同步更新。",
+        "impact":"报表展示量和点击量可能出现一次性口径下降，但这不等于广告投放或真实流量按同一比例下降。Fire TV广告官方可用范围包含US、CA、MX；15%和11%是Amazon对整体供给的估计，不能直接当作单账户预期。",
+        "action":"在10月8日前后分别保存US、CA、MX Fire TV Campaign的placement、impressions、clicks、CTR、spend和转化基线，并在周环比分析中标注计量口径变更；不要因展示或点击突然下降立即扩预算，先结合spend、reach和转化验证是否只是报表重述。",
+        "category":"ads","priority":"P0","original_published_at":null,"original_date_note":"Amazon Ads支持中心公开提示给出2026-10-08实施日，但未显示日级发布日期；未以本次发现日代替。",
+        "sources":[
+          {"url":"https://advertising.amazon.com/help/ref=ams_head_help","publisher":"Amazon Ads Support Center","kind":"official","published_at":null,"verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official-support-banner"},
+          {"url":"https://advertising.amazon.com/en-ca/channels/fire-tv","publisher":"Amazon Ads","kind":"official","published_at":null,"verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official-market-availability"}
+        ],
+        "first_seen_at":"2026-10-07T01:03:47.000Z","last_material_update_at":"2026-10-07T01:03:47.000Z","history_dates":["2026-10-07"],"verification_status":"reviewed","key_aliases":[]
+      },
+      "dedupe_review":{"compared_digest":"fc2ecfc298a5ca92a06464d9beb209436f2217c786e2d1fd32f79d7933f2ace7","title_semantics_reviewed":true,"batch_semantics_reviewed":true,"matches_event_key":null,"reason":"事件库没有Fire TV展示/点击计量口径调整，亦无相同支持链接或2026-10-08生效日；与Alexa+视频广告和Responsive eCommerce Creative属于不同广告产品与变化动作。","distinct_event_reason":"本事件改变Fire TV报表计量，不是新广告版位或创意格式上线。"},
+      "material_update":false
+    },
+    {
+      "event": {
+        "subject_key":"amazon-ads-responsive-ecommerce-creative","action_key":"add-video-carousel-and-rich-media-layouts-2026","marketplaces":["CA","MX","US"],"effective_date":"2026-09-30","deadline":null,
+        "title":"Amazon Ads重构Responsive eCommerce Creative，美加墨新增视频、轮播与富媒体布局",
+        "summary":"Amazon Ads于2026年9月30日重构Responsive eCommerce Creative（REC）：US、CA、MX均可使用in-banner video、3至6个商品的multi-image carousel、Rich Media Layouts、Preview/Advanced Preview及Alexa+版位。Brand identity controls和Alexa for Shopping互动prompts目前仅美国可用；REC面向endemic advertisers的managed-service与self-service广告主、卖家、供应商和代理商。",
+        "impact":"三站广告主可用同一创意系统覆盖更多站内外display与设备版位，但功能范围并不完全相同，尤其品牌控制和对话式prompt不能从美国套用到加拿大、墨西哥。官方14% CTR和7.2% ROAS提升来自Amazon内部汇总数据，不是账户效果承诺。",
+        "action":"分别在US、CA、MX Ads Console检查REC可见功能，用同一ASIN组小预算测试静态、video与carousel；美国站另核对brand controls和Alexa prompts。上线前逐站预览语言、价格、主图、变体和品牌资产，并以本账户CTR、ROAS与转化数据判断效果。",
+        "category":"ads","priority":"P1","original_published_at":"2026-09-30","original_date_note":"Amazon Ads官方Launch announcement标注2026-09-30；各功能可用地区按页面逐项记录，未把美国专属功能扩大到CA/MX。",
+        "sources":[{"url":"https://advertising.amazon.com/resources/whats-new/unboxed-2026-responsive-ecommerce-creative","publisher":"Amazon Ads","kind":"official","published_at":"2026-09-30","verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"}],
+        "first_seen_at":"2026-10-07T01:03:47.000Z","last_material_update_at":"2026-10-07T01:03:47.000Z","history_dates":["2026-10-07"],"verification_status":"reviewed","key_aliases":[]
+      },
+      "dedupe_review":{"compared_digest":"fc2ecfc298a5ca92a06464d9beb209436f2217c786e2d1fd32f79d7933f2ace7","title_semantics_reviewed":true,"batch_semantics_reviewed":true,"matches_event_key":null,"reason":"全库没有Responsive eCommerce Creative重构、in-banner video或multi-image carousel事件，也没有该官方链接；与Fire TV计量口径调整和Alexa+单一视频版位语义不同。","distinct_event_reason":"本事件是跨版位创意生成与控制能力扩展，不是媒体规划Agent或单独设备广告版位。"},
+      "material_update":false
+    },
+    {
+      "event": {
+        "subject_key":"amazon-mexico-easy-ship-carriers","action_key":"add-amazon-logistics-drop-off-delivery-2026","marketplaces":["MX"],"effective_date":"2026-08-31","deadline":null,
+        "title":"墨西哥Easy Ship新增Amazon Logistics承运，交件点须逐单核对",
+        "summary":"Amazon Mexico Seller Central公告确认，自2026年8月31日起，Easy Ship除DHL外新增Amazon Logistics作为包裹配送选项。卖家需在订单详情查看承运商和追踪号，首次交件前核实最新交件点，并在每天16:00 CST前把包裹送达指定地点。",
+        "impact":"承运商与交件点可能因订单而异，沿用旧交件地址可能导致延误或包裹丢失，并影响准时送达率。该公告仅确认墨西哥Easy Ship，不适用于US或CA。",
+        "action":"为墨西哥Easy Ship订单增加逐单承运商核对步骤，保存Amazon Logistics或DHL、追踪号、交件点和交件时间；首次使用新交件点前完成地址验证，并将内部截单时间提前到16:00 CST之前。",
+        "category":"policy","priority":"P1","original_published_at":"2026-08-31","original_date_note":"Amazon Mexico官方公告发表于并自2026-08-31起实施；此次为bootstrap待补查窗口漏项，按原始日期归档，不作为10月新发布。",
+        "sources":[{"url":"https://sellercentral.amazon.com.mx/seller-forums/discussions/t/6a7e4dfd-bf44-4e94-bf6e-942f1e85bc71","publisher":"Amazon Seller Central MX","kind":"official","published_at":"2026-08-31","verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"}],
+        "first_seen_at":"2026-10-07T01:03:47.000Z","last_material_update_at":"2026-10-07T01:03:47.000Z","history_dates":["2026-10-07"],"verification_status":"reviewed","key_aliases":[]
+      },
+      "dedupe_review":{"compared_digest":"fc2ecfc298a5ca92a06464d9beb209436f2217c786e2d1fd32f79d7933f2ace7","title_semantics_reviewed":true,"batch_semantics_reviewed":true,"matches_event_key":null,"reason":"事件库虽提及墨西哥新卖家可免Easy Ship费用，但没有Easy Ship新增Amazon Logistics承运商、交件点核对或16:00 CST交件要求；主体、动作、来源和生效日均独立。","distinct_event_reason":"费用减免与承运商/交件流程变化是不同事件。"},
+      "material_update":false
+    },
+    {
+      "event": {
+        "subject_key":"amazon-premium-shipping-enrollment","action_key":"require-manual-enrollment-for-newly-eligible-sellers-2026","marketplaces":["CA","MX","US"],"effective_date":null,"deadline":null,
+        "title":"美加墨新达标卖家需手动注册Premium Shipping",
+        "summary":"Amazon在US、CA、MX Seller Central公告：新达到Premium Shipping资格的卖家不再自动加入，必须在Shipping Settings中确认资格、在Shipping Template启用Premium Shipping并接受绩效要求，才能向客户提供one-day和two-day配送。已完成注册的卖家无需重复操作。",
+        "impact":"新达标但未手动启用的FBM卖家无法展示Premium Shipping，可能影响配送承诺和竞争力；公告未给统一日级生效时间，因此不以发现日替代。三站须分别检查资格与模板。",
+        "action":"分别检查US、CA、MX Shipping Settings中的Premium Shipping资格和现有模板；新达标账户完成手动注册、接受绩效要求，并在上线前验证cutoff、handling time、承运商和覆盖区域。保留注册结果及站点级绩效基线。",
+        "category":"policy","priority":"P1","original_published_at":"2026-09-09","original_date_note":"美国官方页标注2026-09-09；加拿大、墨西哥发布相同动作但公开页面仅显示相对时间。未获得统一生效日，effective_date为null。",
+        "sources":[
+          {"url":"https://sellercentral.amazon.com/seller-forums/discussions/t/8dd108ac-3c11-4b4f-9afc-d5990a54ebc7","publisher":"Amazon Seller Central US","kind":"official","published_at":"2026-09-09","verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"},
+          {"url":"https://sellercentral.amazon.ca/seller-forums/discussions/t/836a55a3-3f87-4269-b9bf-397f6cf6cb44","publisher":"Amazon Seller Central CA","kind":"official","published_at":null,"verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"},
+          {"url":"https://sellercentral.amazon.com.mx/seller-forums/discussions/t/35212a02-8b84-42ae-aaa5-4cffa34651c0","publisher":"Amazon Seller Central MX","kind":"official","published_at":null,"verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"}
+        ],
+        "first_seen_at":"2026-10-07T01:03:47.000Z","last_material_update_at":"2026-10-07T01:03:47.000Z","history_dates":["2026-10-07"],"verification_status":"reviewed","key_aliases":[]
+      },
+      "dedupe_review":{"compared_digest":"fc2ecfc298a5ca92a06464d9beb209436f2217c786e2d1fd32f79d7933f2ace7","title_semantics_reviewed":true,"batch_semantics_reviewed":true,"matches_event_key":null,"reason":"全库无Premium Shipping从自动加入改为新达标卖家手动注册的事件或三站来源；与FBM绩效处置、Easy Ship和大促配送准备不同。","distinct_event_reason":"本事件是Premium Shipping资格启用流程，不是普通Shipping Template设置或Easy Ship承运商变化。"},
+      "material_update":false
+    },
+    {
+      "event": {
+        "subject_key":"amazon-seller-central-coupon-creation","action_key":"add-autosave-preview-and-clone-workflow-2026","marketplaces":["CA","MX"],"effective_date":null,"deadline":null,
+        "title":"加墨Seller Central优惠券创建新增自动保存、预览与克隆",
+        "summary":"Amazon在加拿大、墨西哥Seller Central公告更新Coupon创建流程：草稿自动保存，提交前可实时预览完整设置与商品，既有Coupon配置可克隆复用，并增加分步进度指引。当前直接证据仅覆盖CA、MX，未据此扩展到US。",
+        "impact":"可减少重复录入和中断丢失，但克隆旧配置也可能复制错误的ASIN、折扣、预算或日期；首次使用应按站点、币种和税费口径复核。公告未显示可靠日级生效日。",
+        "action":"在CA、MX各用一个低风险Coupon测试自动保存、预览与克隆，提交前逐项核对ASIN、变体、CAD/MXN折扣、预算、开始/结束时间和叠加促销；保存预览与发布结果。美国站等待直接官方证据。",
+        "category":"ads","priority":"P2","original_published_at":null,"original_date_note":"加拿大、墨西哥官方论坛仅显示相对发布时间，无法可靠确定日级日期；未用抓取日替代，effective_date为null。",
+        "sources":[
+          {"url":"https://sellercentral.amazon.ca/seller-forums/discussions/t/41d86fd6-d09e-43f0-9ef8-e61ceceeb639","publisher":"Amazon Seller Central CA","kind":"official","published_at":null,"verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"},
+          {"url":"https://sellercentral.amazon.com.mx/seller-forums/discussions/t/5b72535c-27cc-45d6-a746-16fe1648f379","publisher":"Amazon Seller Central MX","kind":"official","published_at":null,"verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"}
+        ],
+        "first_seen_at":"2026-10-07T01:03:47.000Z","last_material_update_at":"2026-10-07T01:03:47.000Z","history_dates":["2026-10-07"],"verification_status":"reviewed","key_aliases":[]
+      },
+      "dedupe_review":{"compared_digest":"fc2ecfc298a5ca92a06464d9beb209436f2217c786e2d1fd32f79d7933f2ace7","title_semantics_reviewed":true,"batch_semantics_reviewed":true,"matches_event_key":null,"reason":"全库无Coupon创建自动保存、实时预览、克隆和分步进度事件，也无两条官方链接；与Prime Deal档期、参考价异常和Ads创意功能不同。","distinct_event_reason":"本事件改变Seller Central促销创建工作流，不是广告Creative或活动日期。"},
+      "material_update":false
+    },
+    {
+      "event": {
+        "subject_key":"amazon-us-seller-central-experience","action_key":"add-navigation-and-workflow-persistence-2026","marketplaces":["CA","MX","US"],"effective_date":null,"deadline":null,
+        "title":"美加墨新版Seller Central整合工作区、Seller Assistant与跨站视图",
+        "summary":"Amazon在US、CA、MX官方公告确认新版Seller Central：供应链、订单、营销、财务等工具按工作区组织；Seller Assistant嵌入页面；卖家可查看跨商城业务、定制模块化首页，并缩短商品设置与创建Coupon等流程。美国站此前公布的导航搜索、书签、My Business组件持久化及Manage Products跨搜索保留批量选择属于同一轮体验改造。",
+        "impact":"新版后台改变三站日常入口与操作路径，跨站团队可减少商城切换；但功能按账户放量，不能假设所有账号界面完全一致。美国公开讨论下的加载、入口和数据反馈不自动代表CA或MX已确认同类故障。",
+        "action":"US、CA、MX分别回归测试商品创建、Coupon、FBA库存、订单、财务报告、Brand Registry和Account Health入口，保存站点与账号角色差异。对待办计数、Listing状态或库存不一致保留ASIN、页面、时间和截图并通过反馈或Seller Support留痕；批量编辑仍在提交前复核Shipping Template。",
+        "category":"ai","priority":"P1","original_published_at":"2026-10-01","original_date_note":"加拿大官方公告约于2026-10-01发布，美国于2026-10-03补充，墨西哥于2026-10-07发布同一变化；作为原卡片跨站扩展保留原事件身份并增加规范键别名。",
+        "sources":[
+          {"url":"https://sellercentral.amazon.ca/seller-forums/discussions/t/5b0fcdb8-009a-41a2-9d91-99a19df33e95","publisher":"Amazon Seller Central CA","kind":"official","published_at":"2026-10-01","verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"},
+          {"url":"https://sellercentral.amazon.com.mx/seller-forums/discussions/t/124f4d39-bc30-4dbe-8767-1aced84ef07a","publisher":"Amazon Seller Central MX","kind":"official","published_at":"2026-10-07","verified_at":"2026-10-07T01:03:47.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"official"}
+        ],
+        "first_seen_at":"2026-10-02T01:12:51.000Z","last_material_update_at":"2026-10-04T01:02:55.000Z","history_dates":["2026-10-02","2026-10-04"],"verification_status":"reviewed","key_aliases":[]
+      },
+      "dedupe_review":{"compared_digest":"fc2ecfc298a5ca92a06464d9beb209436f2217c786e2d1fd32f79d7933f2ace7","title_semantics_reviewed":true,"batch_semantics_reviewed":true,"matches_event_key":"amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown","reason":"CA、MX官方公告描述的工作区、Seller Assistant、跨站视图、模块化首页和流程提速与现有美国卡片为同一变化，故更新原卡片marketplaces并合并来源，不新增重复卡。"},
+      "material_update":true,
+      "update_reason":"加拿大和墨西哥Seller Central官方公告直接确认同一新版后台变化，扩展原卡片适用站点并补充两条官方来源。"
+    }
+  ],
+  "report": {
+    "status":"partial",
+    "top_changes":[
+      "amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01",
+      "amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08",
+      "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30"
+    ],
+    "category_coverage":{"policy":"partial","ads":"partial","ai":"partial","opportunities":"partial","competitors":"partial"},
+    "coverage_note":"保留72小时重叠并补查bootstrap窗口。检查US/CA/MX Seller Central公开公告、Amazon Ads What's New与支持中心、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、指定公众号公开入口及三站汽配重点词。新增服务商权限安全、Fire TV计量、REC创意、MX Easy Ship、Premium Shipping和CA/MX Coupon工作流，并将新版Seller Central原卡片扩展到CA/MX。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；US/CA/MX缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
+    "action_items":[
+      {"title":"核对三站服务商授权","detail":"导出US、CA、MX服务商与权限，记录企业验证、365天到期日和续授权负责人；按最小权限处理Action Center任务。","due":"收到通知前","event_key":"amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01"},
+      {"title":"标记Fire TV计量断点","detail":"保存10月8日前后三站Fire TV placement级报表，在趋势分析中单独标记计量方法变化。","due":"2026-10-08","event_key":"amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08"},
+      {"title":"小预算测试REC新创意","detail":"分站测试video、carousel和rich media；US专属brand controls与Alexa prompts不得套用于CA/MX。","due":"本周","event_key":"amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30"},
+      {"title":"复核墨西哥Easy Ship交件点","detail":"逐单确认Amazon Logistics或DHL、追踪号和交件点，并在16:00 CST前交件。","due":"每个工作日","event_key":"amazon-mexico-easy-ship-carriers|add-amazon-logistics-drop-off-delivery-2026|MX|2026-08-31"},
+      {"title":"检查Premium Shipping手动注册","detail":"三站新达标账户分别确认资格、模板与绩效要求，验证一日/两日承诺。","due":"今日","event_key":"amazon-premium-shipping-enrollment|require-manual-enrollment-for-newly-eligible-sellers-2026|CA+MX+US|unknown"}
+    ]
+  }
+}

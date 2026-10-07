@@ -1,0 +1,33 @@
+{
+  "run_id": "run-20261007005615-095bd138",
+  "status": "prepared",
+  "prepared_at": "2026-10-07T01:03:47.000Z",
+  "radar_state_lease_commit": "9d0c6730b61f7b4045f2961b6fdf2704ffd637d1",
+  "main_base_commit": "83a2c4ca0adfd130e38267d39e2ddcb6056c501e",
+  "base_registry_digest": "fc2ecfc298a5ca92a06464d9beb209436f2217c786e2d1fd32f79d7933f2ace7",
+  "expected_registry_digest": "ee4abc3ff40ce70a0f4c248ca616c7e2f0104e468660163271fe960f9ed54e86",
+  "expected_content_digest": "68299610449665adc893a906191c85d2dbc38ff48dc5ee790eca5a150186dcb2",
+  "expected_html_sha256": "cb878002b451a494b655268fa6854b1bc2ce8545e74d2680463f23430201e4b4",
+  "expected_card_count": 77,
+  "counts": {
+    "new": 6,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "event_keys": [
+    "amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01",
+    "amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08",
+    "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30",
+    "amazon-mexico-easy-ship-carriers|add-amazon-logistics-drop-off-delivery-2026|MX|2026-08-31",
+    "amazon-premium-shipping-enrollment|require-manual-enrollment-for-newly-eligible-sellers-2026|CA+MX+US|unknown",
+    "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown",
+    "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown"
+  ],
+  "tests": {
+    "node_test": "22 passed",
+    "registry_valid": true,
+    "render_matches": true,
+    "daily_briefing_absent": true
+  }
+}
