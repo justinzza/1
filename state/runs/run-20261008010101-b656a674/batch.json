@@ -1,0 +1,18 @@
+{
+  "base_digest": "ee4abc3ff40ce70a0f4c248ca616c7e2f0104e468660163271fe960f9ed54e86",
+  "checked_at": "2026-10-08T01:07:16.000Z",
+  "candidates": [],
+  "report": {
+    "status": "partial",
+    "top_changes": [],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "检查US、CA、MX官方公开入口、监管来源、行业媒体、指定公众号公开索引及三站重点汽配词，并保留72小时重叠。Amazon Ads的agentic media planning页面属于既有Ads Agent事件的同日细分说明；USPS与Amazon当日达试点亦已入库，均不重复建卡。未发现可可靠核验的新增或实质更新。Seller Central与Amazon Ads动态列表、部分行业站点及公众号无法公开完整遍历；汽配公开结果缺少同ASIN、变体、收货地区、税费/运费口径和时间的连续快照，因此不形成趋势、价格、Coupon或BSR变化结论。",
+    "action_items": []
+  }
+}
