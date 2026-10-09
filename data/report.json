@@ -1,9 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01",
-    "amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08",
-    "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30"
+    "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08",
+    "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,57 +11,39 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "保留72小时重叠并补查bootstrap窗口。检查US/CA/MX Seller Central公开公告、Amazon Ads What's New与支持中心、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、指定公众号公开入口及三站汽配重点词。新增服务商权限安全、Fire TV计量、REC创意、MX Easy Ship、Premium Shipping和CA/MX Coupon工作流，并将新版Seller Central原卡片扩展到CA/MX。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；US/CA/MX缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
+  "coverage_note": "保留72小时重叠并继续补查bootstrap窗口。检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、industry_wechat_ca/mx中每个指定行业与公众号入口，以及三站汽配重点词。确认10月8日美国CPSC三项Amazon.com商品召回，并收录涉及Selling Partner Services的Amazon Stores组织调整媒体报道。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；US/CA/MX仍缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
   "action_items": [
     {
-      "title": "核对三站服务商授权",
-      "detail": "导出US、CA、MX服务商与权限，记录企业验证、365天到期日和续授权负责人；按最小权限处理Action Center任务。",
-      "due": "收到通知前",
-      "event_key": "amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01"
+      "title": "筛查三项美国CPSC召回",
+      "detail": "按品牌、型号、供应商、ASIN与FNSKU核查ONTHEWEI浴椅、PACEARTH秋千座椅及Romorgniz六斗柜，命中后立即停售、隔离并按召回要求处理。",
+      "due": "立即",
+      "event_key": "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08"
     },
     {
-      "title": "标记Fire TV计量断点",
-      "detail": "保存10月8日前后三站Fire TV placement级报表，在趋势分析中单独标记计量方法变化。",
-      "due": "2026-10-08",
-      "event_key": "amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08"
+      "title": "保留卖家支持Case基线",
+      "detail": "记录Seller Support、Account Health、Brand Registry及合规Case的提交时间、回复时长和升级路径；没有连续数据前不推断服务系统性变化。",
+      "due": "未来两周",
+      "event_key": "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07"
     },
     {
-      "title": "小预算测试REC新创意",
-      "detail": "分站测试video、carousel和rich media；US专属brand controls与Alexa prompts不得套用于CA/MX。",
-      "due": "本周",
-      "event_key": "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30"
-    },
-    {
-      "title": "复核墨西哥Easy Ship交件点",
-      "detail": "逐单确认Amazon Logistics或DHL、追踪号和交件点，并在16:00 CST前交件。",
-      "due": "每个工作日",
-      "event_key": "amazon-mexico-easy-ship-carriers|add-amazon-logistics-drop-off-delivery-2026|MX|2026-08-31"
-    },
-    {
-      "title": "检查Premium Shipping手动注册",
-      "detail": "三站新达标账户分别确认资格、模板与绩效要求，验证一日/两日承诺。",
-      "due": "今日",
-      "event_key": "amazon-premium-shipping-enrollment|require-manual-enrollment-for-newly-eligible-sellers-2026|CA+MX+US|unknown"
+      "title": "维持三站汽配独立基线",
+      "detail": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp继续按US/CA/MX的ASIN、变体、地区、币种和时间分别记录；首次观察不算变化。",
+      "due": "持续",
+      "event_key": null
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-07",
-  "content_updated_at": "2026-10-07T01:03:47.000Z",
+  "report_date": "2026-10-09",
+  "content_updated_at": "2026-10-09T01:01:12.000Z",
   "new_event_keys": [
-    "amazon-seller-central-service-provider-access|require-business-verification-and-annual-reauthorization-2026|CA+MX+US|2026-09-01",
-    "amazon-ads-fire-tv-measurement|update-impression-and-click-reporting-methodology-2026|CA+MX+US|2026-10-08",
-    "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30",
-    "amazon-mexico-easy-ship-carriers|add-amazon-logistics-drop-off-delivery-2026|MX|2026-08-31",
-    "amazon-premium-shipping-enrollment|require-manual-enrollment-for-newly-eligible-sellers-2026|CA+MX+US|unknown",
-    "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown"
+    "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08",
+    "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07"
   ],
-  "updated_event_keys": [
-    "amazon-us-seller-central-experience|add-navigation-and-workflow-persistence-2026|US|unknown"
-  ],
+  "updated_event_keys": [],
   "counts": {
-    "new": 6,
-    "updated": 1,
-    "merged": 1,
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
     "deduplicated": 0
   }
 }

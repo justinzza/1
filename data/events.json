@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-07T01:03:47.000Z",
+  "content_updated_at": "2026-10-09T01:01:12.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -4211,6 +4211,110 @@
       "event_key": "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown",
       "id": "evt-be5f9955a307cd16",
       "primary_source_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/41d86fd6-d09e-43f0-9ef8-e61ceceeb639",
+      "revisions": []
+    },
+    {
+      "subject_key": "us-cpsc-amazon-products-october-8-batch",
+      "action_key": "recall-onthewei-pacearth-and-romorgniz-products-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-10-08",
+      "deadline": null,
+      "title": "美国CPSC发布3项Amazon.com商品召回：婴儿浴椅、秋千座椅与六斗柜",
+      "summary": "美国CPSC于2026年10月8日集中发布三项直接涉及Amazon.com在售商品的召回：ONTHEWEI MY002婴儿浴椅约2,140件，因不稳定、可能倾覆并造成溺水风险；PACEARTH秋千座椅约110,550件，座椅、连接件或织带可能断裂，已收到至少30起跌落报告和至少9起受伤报告；Romorgniz六斗柜约12,078件，未固定于墙面时存在倾倒和儿童夹困风险并违反STURDY Act强制标准。三项措施均要求停止使用并申请退款。",
+      "impact": "美国站销售或曾销售相关品牌、型号及同供应链商品的卖家，需要立即停售、冻结补货并核查库存、在途和历史订单。三项监管行动仅有美国证据，不能扩展为加拿大或墨西哥召回；同日其他CPSC行动未显示通过Amazon.com销售，未纳入本卡片。",
+      "action": "按ONTHEWEI MY002、PACEARTH swing seat和Romorgniz six-drawer dresser筛查美国站ASIN、FNSKU、供应商、在库、在途及历史订单；命中后立即停售并隔离库存，保存CPSC召回号27-018、27-019、27-020及退款、客户通知和销毁记录，同时排查同结构、同工厂或共享零部件商品。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": "2026-10-08",
+      "original_date_note": "三份CPSC原文的Recall Date均为2026-10-08；官网路径中的2027为CPSC财政年度编号，不作为发布日期。三项均明确列出Amazon.com销售记录，合并为一张监管批次卡片。",
+      "sources": [
+        {
+          "url": "https://www.cpsc.gov/Recalls/2027/ONTHEWEI-Recalls-Baby-Bath-Seats-Due-to-Risk-of-Serious-Injury-or-Death-to-Children-from-Drowning-Violate-Mandatory-Standard-for-Infant-Bath-Seats",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-10-08",
+          "verified_at": "2026-10-09T01:01:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator-original",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2027/ONTHEWEI-Recalls-Baby-Bath-Seats-Due-to-Risk-of-Serious-Injury-or-Death-to-Children-from-Drowning-Violate-Mandatory-Standard-for-Infant-Bath-Seats"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2027/Pacearth-Direct-Recalls-PACEARTH-Swing-Seats-Due-to-Risk-of-Serious-Injury-from-Fall-Hazard",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-10-08",
+          "verified_at": "2026-10-09T01:01:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator-original",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2027/Pacearth-Direct-Recalls-PACEARTH-Swing-Seats-Due-to-Risk-of-Serious-Injury-from-Fall-Hazard"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2027/Romorgniz-Recalls-Six-Drawer-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-10-08",
+          "verified_at": "2026-10-09T01:01:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator-original",
+          "canonical_url": "https://www.cpsc.gov/Recalls/2027/Romorgniz-Recalls-Six-Drawer-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units"
+        }
+      ],
+      "first_seen_at": "2026-10-09T01:01:12.000Z",
+      "last_material_update_at": "2026-10-09T01:01:12.000Z",
+      "history_dates": [
+        "2026-10-09"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "event_key": "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08",
+      "id": "evt-265303bd5840cbeb",
+      "primary_source_url": "https://www.cpsc.gov/Recalls/2027/ONTHEWEI-Recalls-Baby-Bath-Seats-Due-to-Risk-of-Serious-Injury-or-Death-to-Children-from-Drowning-Violate-Mandatory-Standard-for-Infant-Bath-Seats",
+      "revisions": []
+    },
+    {
+      "subject_key": "amazon-stores-organization",
+      "action_key": "cut-corporate-jobs-including-selling-partner-services-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-10-07",
+      "deadline": null,
+      "title": "Amazon Stores裁减少量岗位，Selling Partner Services被报道涉及｜公司动向",
+      "summary": "Reuters报道并获Amazon确认，公司调整Stores业务结构并裁减少量岗位；知情人士称白领岗位少于1,000个。报道援引内部信息称受影响部门包括customer service与selling partner services，涉及美国、印度和英国员工。Amazon仅确认组织调整，没有公布卖家支持功能、SLA、费用或政策变化。",
+      "impact": "Selling Partner Services涉及卖家服务生态，但现有证据不足以判断Seller Support、Account Health、合规审核或广告服务会出现何种具体变化。运营团队应把它视为公司组织风险信号，而不是已发生的服务降级或新政策；加拿大、墨西哥站也没有独立影响证据。",
+      "action": "近期对重要Seller Support、Brand Registry、Account Health和合规Case保存提交时间、Case ID、回复时长与升级路径；若出现处理延迟，只以账户级连续数据确认，不将单个Case或本次裁员报道直接推断为平台系统性变化。",
+      "category": "policy",
+      "priority": "P2",
+      "original_published_at": "2026-10-08",
+      "original_date_note": "Reuters发表于2026-10-08并报道Amazon于2026-10-07确认调整；effective_date以确认当天记录。该信息属于媒体报道的公司组织动向，不是Amazon卖家政策公告。",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/world-at-work/amazon-makes-fresh-job-cuts-mainly-retail-division-2026-10-08/",
+          "publisher": "Reuters",
+          "kind": "industry_original",
+          "published_at": "2026-10-08T01:16:00Z",
+          "verified_at": "2026-10-09T01:01:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "media-report",
+          "canonical_url": "https://www.reuters.com/business/world-at-work/amazon-makes-fresh-job-cuts-mainly-retail-division-2026-10-08"
+        }
+      ],
+      "first_seen_at": "2026-10-09T01:01:12.000Z",
+      "last_material_update_at": "2026-10-09T01:01:12.000Z",
+      "history_dates": [
+        "2026-10-09"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "event_key": "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07",
+      "id": "evt-efe739bd8a366cf2",
+      "primary_source_url": "https://www.reuters.com/business/world-at-work/amazon-makes-fresh-job-cuts-mainly-retail-division-2026-10-08",
       "revisions": []
     }
   ]
