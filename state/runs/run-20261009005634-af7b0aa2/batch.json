@@ -1,0 +1,90 @@
+{
+  "base_digest": "ee4abc3ff40ce70a0f4c248ca616c7e2f0104e468660163271fe960f9ed54e86",
+  "checked_at": "2026-10-09T01:01:12.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "us-cpsc-amazon-products-october-8-batch",
+        "action_key": "recall-onthewei-pacearth-and-romorgniz-products-2026",
+        "marketplaces": ["US"],
+        "effective_date": "2026-10-08",
+        "deadline": null,
+        "title": "美国CPSC发布3项Amazon.com商品召回：婴儿浴椅、秋千座椅与六斗柜",
+        "summary": "美国CPSC于2026年10月8日集中发布三项直接涉及Amazon.com在售商品的召回：ONTHEWEI MY002婴儿浴椅约2,140件，因不稳定、可能倾覆并造成溺水风险；PACEARTH秋千座椅约110,550件，座椅、连接件或织带可能断裂，已收到至少30起跌落报告和至少9起受伤报告；Romorgniz六斗柜约12,078件，未固定于墙面时存在倾倒和儿童夹困风险并违反STURDY Act强制标准。三项措施均要求停止使用并申请退款。",
+        "impact": "美国站销售或曾销售相关品牌、型号及同供应链商品的卖家，需要立即停售、冻结补货并核查库存、在途和历史订单。三项监管行动仅有美国证据，不能扩展为加拿大或墨西哥召回；同日其他CPSC行动未显示通过Amazon.com销售，未纳入本卡片。",
+        "action": "按ONTHEWEI MY002、PACEARTH swing seat和Romorgniz six-drawer dresser筛查美国站ASIN、FNSKU、供应商、在库、在途及历史订单；命中后立即停售并隔离库存，保存CPSC召回号27-018、27-019、27-020及退款、客户通知和销毁记录，同时排查同结构、同工厂或共享零部件商品。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-10-08",
+        "original_date_note": "三份CPSC原文的Recall Date均为2026-10-08；官网路径中的2027为CPSC财政年度编号，不作为发布日期。三项均明确列出Amazon.com销售记录，合并为一张监管批次卡片。",
+        "sources": [
+          {"url":"https://www.cpsc.gov/Recalls/2027/ONTHEWEI-Recalls-Baby-Bath-Seats-Due-to-Risk-of-Serious-Injury-or-Death-to-Children-from-Drowning-Violate-Mandatory-Standard-for-Infant-Bath-Seats","publisher":"U.S. Consumer Product Safety Commission","kind":"regulator","published_at":"2026-10-08","verified_at":"2026-10-09T01:01:12.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"regulator-original"},
+          {"url":"https://www.cpsc.gov/Recalls/2027/Pacearth-Direct-Recalls-PACEARTH-Swing-Seats-Due-to-Risk-of-Serious-Injury-from-Fall-Hazard","publisher":"U.S. Consumer Product Safety Commission","kind":"regulator","published_at":"2026-10-08","verified_at":"2026-10-09T01:01:12.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"regulator-original"},
+          {"url":"https://www.cpsc.gov/Recalls/2027/Romorgniz-Recalls-Six-Drawer-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units","publisher":"U.S. Consumer Product Safety Commission","kind":"regulator","published_at":"2026-10-08","verified_at":"2026-10-09T01:01:12.000Z","supports_event":true,"authority_confirmed":true,"claimed_kind":"regulator-original"}
+        ],
+        "first_seen_at": "2026-10-09T01:01:12.000Z",
+        "last_material_update_at": "2026-10-09T01:01:12.000Z",
+        "history_dates": ["2026-10-09"],
+        "verification_status": "reviewed",
+        "key_aliases": []
+      },
+      "dedupe_review": {
+        "compared_digest": "ee4abc3ff40ce70a0f4c248ca616c7e2f0104e468660163271fe960f9ed54e86",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条比对event_key、标题语义、规范化来源链接和生效日期，既有CPSC卡片不包含ONTHEWEI、PACEARTH或Romorgniz，三份10月8日原文链接也未入库。",
+        "distinct_event_reason": "本事件是2026-10-08新监管批次，产品、召回号和发布日均不同于已收录批次；同日三项动作相同且适用站点一致，故合并为一张卡片。"
+      },
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key": "amazon-stores-organization",
+        "action_key": "cut-corporate-jobs-including-selling-partner-services-2026",
+        "marketplaces": ["US"],
+        "effective_date": "2026-10-07",
+        "deadline": null,
+        "title": "Amazon Stores裁减少量岗位，Selling Partner Services被报道涉及｜公司动向",
+        "summary": "Reuters报道并获Amazon确认，公司调整Stores业务结构并裁减少量岗位；知情人士称白领岗位少于1,000个。报道援引内部信息称受影响部门包括customer service与selling partner services，涉及美国、印度和英国员工。Amazon仅确认组织调整，没有公布卖家支持功能、SLA、费用或政策变化。",
+        "impact": "Selling Partner Services涉及卖家服务生态，但现有证据不足以判断Seller Support、Account Health、合规审核或广告服务会出现何种具体变化。运营团队应把它视为公司组织风险信号，而不是已发生的服务降级或新政策；加拿大、墨西哥站也没有独立影响证据。",
+        "action": "近期对重要Seller Support、Brand Registry、Account Health和合规Case保存提交时间、Case ID、回复时长与升级路径；若出现处理延迟，只以账户级连续数据确认，不将单个Case或本次裁员报道直接推断为平台系统性变化。",
+        "category": "policy",
+        "priority": "P2",
+        "original_published_at": "2026-10-08",
+        "original_date_note": "Reuters发表于2026-10-08并报道Amazon于2026-10-07确认调整；effective_date以确认当天记录。该信息属于媒体报道的公司组织动向，不是Amazon卖家政策公告。",
+        "sources": [
+          {"url":"https://www.reuters.com/business/world-at-work/amazon-makes-fresh-job-cuts-mainly-retail-division-2026-10-08/","publisher":"Reuters","kind":"industry_original","published_at":"2026-10-08T01:16:00Z","verified_at":"2026-10-09T01:01:12.000Z","supports_event":true,"authority_confirmed":false,"claimed_kind":"media-report"}
+        ],
+        "first_seen_at": "2026-10-09T01:01:12.000Z",
+        "last_material_update_at": "2026-10-09T01:01:12.000Z",
+        "history_dates": ["2026-10-09"],
+        "verification_status": "reviewed",
+        "key_aliases": []
+      },
+      "dedupe_review": {
+        "compared_digest": "ee4abc3ff40ce70a0f4c248ca616c7e2f0104e468660163271fe960f9ed54e86",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库未发现Amazon Stores本轮岗位调整或Selling Partner Services人员变动事件，Reuters规范化链接也未出现。",
+        "distinct_event_reason": "该事件是2026-10-07确认的公司组织调整，与既有Seller Assistant、Seller Central重构或服务商权限事件的变化主体和动作不同；报道没有支持任何卖家功能或规则改变。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08",
+      "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07"
+    ],
+    "category_coverage": {"policy":"partial","ads":"partial","ai":"partial","opportunities":"partial","competitors":"partial"},
+    "coverage_note": "保留72小时重叠并继续补查bootstrap窗口。检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、industry_wechat_ca/mx中每个指定行业与公众号入口，以及三站汽配重点词。确认10月8日美国CPSC三项Amazon.com商品召回，并收录涉及Selling Partner Services的Amazon Stores组织调整媒体报道。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；US/CA/MX仍缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
+    "action_items": [
+      {"title":"筛查三项美国CPSC召回","detail":"按品牌、型号、供应商、ASIN与FNSKU核查ONTHEWEI浴椅、PACEARTH秋千座椅及Romorgniz六斗柜，命中后立即停售、隔离并按召回要求处理。","due":"立即","event_key":"us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08"},
+      {"title":"保留卖家支持Case基线","detail":"记录Seller Support、Account Health、Brand Registry及合规Case的提交时间、回复时长和升级路径；没有连续数据前不推断服务系统性变化。","due":"未来两周","event_key":"amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07"},
+      {"title":"维持三站汽配独立基线","detail":"fuel line、CPE braided fuel hose、AN fittings、exhaust clamp继续按US/CA/MX的ASIN、变体、地区、币种和时间分别记录；首次观察不算变化。","due":"持续","event_key":null}
+    ]
+  }
+}

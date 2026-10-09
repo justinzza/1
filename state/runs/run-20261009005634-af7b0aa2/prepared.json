@@ -1,0 +1,23 @@
+{
+  "run_id": "run-20261009005634-af7b0aa2",
+  "status": "prepared",
+  "prepared_at": "2026-10-09T01:01:12.000Z",
+  "radar_state_lease_commit": "b01ee61155ee1acce68db0259a3c437a9bf20db8",
+  "main_base_commit": "f6b16487ac191cc6e55cc498e2aef12e50bf8a0a",
+  "base_registry_digest": "ee4abc3ff40ce70a0f4c248ca616c7e2f0104e468660163271fe960f9ed54e86",
+  "expected_registry_digest": "ad329d323eab3a7a37dcea4b9c588f61894e3445b3dbc61dbd6aa05fa36a180c",
+  "expected_content_digest": "44b2449b8e8e573b19f358ed9dd7ccce937b2ea62b3c222dc66cf970050097a7",
+  "expected_html_sha256": "3e224d4d1e2c1df4dd66d356a689c1877ed2b3beb971aa1762a782684700238e",
+  "expected_card_count": 72,
+  "counts": {"new":2,"updated":0,"merged":0,"deduplicated":0},
+  "event_keys": [
+    "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08",
+    "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07"
+  ],
+  "tests": {
+    "node_test": "22 passed",
+    "registry_valid": true,
+    "render_matches": true,
+    "daily_briefing_absent": true
+  }
+}

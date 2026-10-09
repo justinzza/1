@@ -1,0 +1,27 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08",
+    "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08",
+      "action": "new",
+      "review": "逐条比对event_key、标题语义、规范化来源链接和生效日期，既有CPSC卡片不包含ONTHEWEI、PACEARTH或Romorgniz，三份10月8日原文链接也未入库。"
+    },
+    {
+      "event_key": "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07",
+      "action": "new",
+      "review": "全库未发现Amazon Stores本轮岗位调整或Selling Partner Services人员变动事件，Reuters规范化链接也未出现。"
+    }
+  ]
+}
