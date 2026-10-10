@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261010010131-9e159ef8",
+  "status": "prepared",
+  "prepared_at": "2026-10-10T01:08:34.000Z",
+  "production_base_sha": "ee8e12b790123b3053e395a19aad0c93a1f03c3a",
+  "baseline_registry_digest": "ad329d323eab3a7a37dcea4b9c588f61894e3445b3dbc61dbd6aa05fa36a180c",
+  "expected_content_digest": "19199ce138884c08d6beb326d2fb46e32d0deec211b381208a9bf49db7b2da3b",
+  "expected_registry_events": 80,
+  "expected_visible_cards": 73,
+  "counts": {
+    "new": 1,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "tests": {
+    "passed": 22,
+    "failed": 0,
+    "data_page_consistency": true,
+    "daily_briefing_absent": true
+  }
+}

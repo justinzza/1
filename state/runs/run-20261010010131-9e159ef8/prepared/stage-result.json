@@ -1,0 +1,35 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "us-prime-big-deal-days-2026-performance|report-window-online-spend-and-basket-metrics-2026|US|2026-10-07"
+  ],
+  "updated_event_keys": [
+    "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
+  ],
+  "decisions": [
+    {
+      "event_key": "us-prime-big-deal-days-2026-performance|report-window-online-spend-and-basket-metrics-2026|US|2026-10-07",
+      "action": "new",
+      "review": "逐条核对79条基线事件及本批另一候选。现有美加和墨西哥Prime卡片记录的是活动档期与站点差异，本候选记录活动结束后的美国消费和Amazon买家篮子结果，变化动作、适用站点和生效日期均不同；未发现相同event_key、标题语义、规范化来源链接或同一结果事件。"
+    },
+    {
+      "event_key": "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": false,
+        "effective_date": false
+      },
+      "review": "逐条核对79条基线事件及本批候选后，确认新报道与现有9月14日美加订单/结账异常卡片在核心主体和变化动作上相同，属于复发及恢复信息补充；保留原event_key并更新标题、摘要、影响、行动和来源。"
+    }
+  ]
+}
