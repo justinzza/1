@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-09T01:01:12.000Z",
+  "content_updated_at": "2026-10-10T01:08:34.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -1586,18 +1586,19 @@
       ],
       "effective_date": null,
       "deadline": null,
-      "title": "美加站出现订单数据延迟及部分结账异常，随后逐步恢复（行业线索）",
-      "summary": "AMZ123于2026年9月14日报道，美国站和加拿大站部分卖家经历数小时订单数据不更新，部分FBA数据缺失而FBM仍有上报，广告继续消耗；另有卖家测试前台Buy now时遇到无库存或无法付款。报道援引卖家反馈称，异常约从美国时间9月13日下午2点开始，到北京时间9月14日上午已持续数小时，之后订单数据陆续回补。Amazon截至报道发布时未公开回应，原因、影响账号范围及订单是否完整恢复均未得到官方确认，因此仅作为行业线索。",
-      "impact": "订单仪表板延迟可能造成短时误判销量、库存和广告归因，结账异常则可能影响实际转化。由于公开监测没有确认全站重大故障，不能把同期流量或订单下滑全部归因于平台，也不能假定所有延迟订单已经回补；墨西哥站没有可靠受影响证据。",
-      "action": "对美国、加拿大站按站点分别保存9月13—14日订单、Payments、Business Reports和广告归因快照，重点核对FBA/FBM订单时间、取消、库存扣减及广告销售额；异常订单不要重复发货。若前后台仍不一致，以单一ASIN、订单时间段和截图开Seller Support case，并在恢复后重新计算该时段的TACOS、CVR与库存可售天数。",
+      "title": "美加订单数据延迟线索：美国站10月7日再现约1小时订单不更新",
+      "summary": "9月14日行业报道曾记录美国、加拿大站部分卖家订单数据延迟及少量结账异常。10月9日发布的AMZ123稿件又记录，美国东部时间10月7日晚约7时，多名美国站卖家称后台长时间不出单、刷新后订单未更新，约1小时后部分账号数据恢复。Amazon截至报道发布时仍未公开说明原因、影响范围或恢复完整性；本次复发线索仅确认美国站，未发现加拿大或墨西哥的同期证据。",
+      "impact": "订单仪表板延迟可能导致短时误判销量、库存和广告归因；连续两次行业线索提示运营团队应建立前后台与Payments交叉核对流程。但两次报道均缺少Amazon状态页或官方事故说明，不能认定为全站故障，也不能把Prime活动期间的订单或转化波动全部归因于系统异常。",
+      "action": "对美国站保存10月7日18:00—21:00 ET的Manage Orders、Order Reports、Payments、Business Reports、广告和库存快照，核对订单创建时间、显示时间、扣库存及回补；对加拿大站仅延续原有基线，不把美国复发直接外推。出现前后台不一致时，以ASIN、时间段和截图开Seller Support case，恢复后重算该时段TACOS、CVR和库存可售天数，避免重复发货。",
       "category": "competitors",
       "priority": "P1",
       "original_published_at": "2026-09-14",
-      "original_date_note": "AMZ123文章发表于2026-09-14 07:46，并被出海网9月14日晚报/9月15早报汇总；本卡按原始报道日期9月14日归档，不作为9月15日新发生事件。Amazon未公布精确事故开始日或正式状态页，effective_date保留unknown。",
+      "original_date_note": "原卡按首次行业报道日期2026-09-14归档，effective_date因Amazon未公布正式事故时间而保留unknown。2026-10-09的行业稿件新增美国站10月7日晚约1小时订单不更新及部分恢复线索，作为同一系统异常事件的实质更新，不另建重复卡片。",
       "first_seen_at": "2026-09-15T01:06:52.000Z",
-      "last_material_update_at": "2026-09-15T01:06:52.000Z",
+      "last_material_update_at": "2026-10-10T01:08:34.000Z",
       "history_dates": [
-        "2026-09-15"
+        "2026-09-15",
+        "2026-10-10"
       ],
       "verification_status": "reviewed",
       "sources": [
@@ -1622,10 +1623,43 @@
           "authority_confirmed": false,
           "claimed_kind": "industry",
           "canonical_url": "https://www.chwang.com/daily/20260914"
+        },
+        {
+          "url": "https://www.baijing.cn/article/56928",
+          "publisher": "白鲸出海（转载AMZ123）",
+          "kind": "aggregator",
+          "published_at": "2026-10-09",
+          "verified_at": "2026-10-10T01:08:34.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://www.baijing.cn/article/56928"
         }
       ],
       "key_aliases": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "at": "2026-10-10T01:08:34.000Z",
+          "reason": "10月9日行业报道新增美国站在10月7日晚再次出现约1小时订单不更新、随后部分恢复的具体时间与复发事实；更新原卡而非新增重复事件，并明确本次没有CA/MX证据及Amazon未官方确认。",
+          "previous": {
+            "title": "美加站出现订单数据延迟及部分结账异常，随后逐步恢复（行业线索）",
+            "summary": "AMZ123于2026年9月14日报道，美国站和加拿大站部分卖家经历数小时订单数据不更新，部分FBA数据缺失而FBM仍有上报，广告继续消耗；另有卖家测试前台Buy now时遇到无库存或无法付款。报道援引卖家反馈称，异常约从美国时间9月13日下午2点开始，到北京时间9月14日上午已持续数小时，之后订单数据陆续回补。Amazon截至报道发布时未公开回应，原因、影响账号范围及订单是否完整恢复均未得到官方确认，因此仅作为行业线索。",
+            "impact": "订单仪表板延迟可能造成短时误判销量、库存和广告归因，结账异常则可能影响实际转化。由于公开监测没有确认全站重大故障，不能把同期流量或订单下滑全部归因于平台，也不能假定所有延迟订单已经回补；墨西哥站没有可靠受影响证据。",
+            "action": "对美国、加拿大站按站点分别保存9月13—14日订单、Payments、Business Reports和广告归因快照，重点核对FBA/FBM订单时间、取消、库存扣减及广告销售额；异常订单不要重复发货。若前后台仍不一致，以单一ASIN、订单时间段和截图开Seller Support case，并在恢复后重新计算该时段的TACOS、CVR与库存可售天数。",
+            "category": "competitors",
+            "priority": "P1",
+            "marketplaces": [
+              "CA",
+              "US"
+            ],
+            "effective_date": null,
+            "deadline": null,
+            "original_published_at": "2026-09-14",
+            "original_date_note": "AMZ123文章发表于2026-09-14 07:46，并被出海网9月14日晚报/9月15早报汇总；本卡按原始报道日期9月14日归档，不作为9月15日新发生事件。Amazon未公布精确事故开始日或正式状态页，effective_date保留unknown。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "event_key": "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown",
       "id": "evt-aed215d55e3ced1f",
       "primary_source_url": "https://www.amz123.com/t/TWOq3YK7"
@@ -4316,6 +4350,58 @@
       "id": "evt-efe739bd8a366cf2",
       "primary_source_url": "https://www.reuters.com/business/world-at-work/amazon-makes-fresh-job-cuts-mainly-retail-division-2026-10-08",
       "revisions": []
+    },
+    {
+      "subject_key": "us-prime-big-deal-days-2026-performance",
+      "action_key": "report-window-online-spend-and-basket-metrics-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-10-07",
+      "deadline": null,
+      "title": "美国Prime大促窗口带动全网线上消费9.86B，Amazon买家户均支出回升（行业数据）",
+      "summary": "Adobe Analytics数据显示，2026年10月6—7日Prime Big Deal Days窗口内，美国零售网站线上消费合计98.6亿美元，同比2025年的90.9亿美元增长约8.5%；该口径覆盖美国线上零售商，并非Amazon单个平台GMV。Numerator基于80,872笔活动订单、34,573个家庭及5,346名经核验买家的追踪显示，Amazon活动期户均支出为114.01美元，高于上年104.69美元，平均订单金额为48.74美元，高于上年45.42美元。",
+      "impact": "宏观消费和Amazon买家篮子均显示活动需求存在，但不能据此推断单个卖家销量、利润或汽配类目增长。行业卖家反馈同时出现单量、广告成本和ACOS分化，说明应以账户级净利润、退货和广告归因复盘，而不是用全网消费额替代Amazon GMV或自身业绩。现有公开结果主要支持美国站，不能直接套用于加拿大或墨西哥。",
+      "action": "按美国站10月6—7日分别导出Business Reports、广告、订单、Coupon/Deal费用、退款及库存数据；用同口径对比2025活动期和2026活动前7天，计算净销售额、CVR、CPC、ACOS/TACOS、毛利和售后成本。燃油管、CPE braided fuel hose、AN fittings与exhaust clamp按ASIN和变体独立复盘，不把全网98.6亿美元当作Amazon销售额。",
+      "category": "opportunities",
+      "priority": "P1",
+      "original_published_at": "2026-10-08",
+      "original_date_note": "Digital Commerce 360于2026-10-08发布Adobe事后数据；Numerator结果经Drug Store News于10月8日报道。本卡按10月8日归档，effective_date使用活动结束日2026-10-07。Adobe数字是美国线上零售商合计，不是Amazon GMV；Numerator样本和口径单独标示。",
+      "first_seen_at": "2026-10-10T01:08:34.000Z",
+      "last_material_update_at": "2026-10-10T01:08:34.000Z",
+      "history_dates": [
+        "2026-10-10"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.digitalcommerce360.com/2026/10/08/amazon-prime-day-big-deal-days-sales-2026/",
+          "publisher": "Digital Commerce 360",
+          "kind": "industry_original",
+          "published_at": "2026-10-08",
+          "verified_at": "2026-10-10T01:08:34.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://www.digitalcommerce360.com/2026/10/08/amazon-prime-day-big-deal-days-sales-2026"
+        },
+        {
+          "url": "https://drugstorenews.com/amazon-primes-big-deal-days-generates-9-spending-growth",
+          "publisher": "Drug Store News",
+          "kind": "industry_original",
+          "published_at": "2026-10-08",
+          "verified_at": "2026-10-10T01:08:34.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry",
+          "canonical_url": "https://drugstorenews.com/amazon-primes-big-deal-days-generates-9-spending-growth"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "us-prime-big-deal-days-2026-performance|report-window-online-spend-and-basket-metrics-2026|US|2026-10-07",
+      "id": "evt-70578675b5a984ea",
+      "primary_source_url": "https://drugstorenews.com/amazon-primes-big-deal-days-generates-9-spending-growth"
     }
   ]
 }

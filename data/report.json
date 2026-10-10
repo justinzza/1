@@ -1,8 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08",
-    "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07"
+    "us-prime-big-deal-days-2026-performance|report-window-online-spend-and-basket-metrics-2026|US|2026-10-07",
+    "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,19 +11,19 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "保留72小时重叠并继续补查bootstrap窗口。检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、industry_wechat_ca/mx中每个指定行业与公众号入口，以及三站汽配重点词。确认10月8日美国CPSC三项Amazon.com商品召回，并收录涉及Selling Partner Services的Amazon Stores组织调整媒体报道。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；US/CA/MX仍缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
+  "coverage_note": "保留72小时重叠并继续补查bootstrap窗口。逐项检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、industry_wechat_ca/mx所含每个行业与公众号入口，以及三站汽配重点词。确认美国Prime Big Deal Days活动窗口的全网线上消费与Amazon买家篮子事后数据，并更新美国站订单展示延迟复发线索。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；三站仍缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
   "action_items": [
     {
-      "title": "筛查三项美国CPSC召回",
-      "detail": "按品牌、型号、供应商、ASIN与FNSKU核查ONTHEWEI浴椅、PACEARTH秋千座椅及Romorgniz六斗柜，命中后立即停售、隔离并按召回要求处理。",
-      "due": "立即",
-      "event_key": "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08"
+      "title": "复盘美国Prime活动净利润",
+      "detail": "按10月6—7日导出销售、广告、Deal/Coupon费用、退款与库存数据，对比去年活动期和活动前7天；不要把美国全网98.6亿美元当作Amazon GMV。",
+      "due": "今日",
+      "event_key": "us-prime-big-deal-days-2026-performance|report-window-online-spend-and-basket-metrics-2026|US|2026-10-07"
     },
     {
-      "title": "保留卖家支持Case基线",
-      "detail": "记录Seller Support、Account Health、Brand Registry及合规Case的提交时间、回复时长和升级路径；没有连续数据前不推断服务系统性变化。",
-      "due": "未来两周",
-      "event_key": "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07"
+      "title": "核对美国站订单回补",
+      "detail": "交叉检查10月7日晚Manage Orders、Order Reports、Payments、Business Reports、广告和库存数据，保存异常时间段证据并避免重复发货。",
+      "due": "今日",
+      "event_key": "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
     },
     {
       "title": "维持三站汽配独立基线",
@@ -33,17 +33,18 @@
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-09",
-  "content_updated_at": "2026-10-09T01:01:12.000Z",
+  "report_date": "2026-10-10",
+  "content_updated_at": "2026-10-10T01:08:34.000Z",
   "new_event_keys": [
-    "us-cpsc-amazon-products-october-8-batch|recall-onthewei-pacearth-and-romorgniz-products-2026|US|2026-10-08",
-    "amazon-stores-organization|cut-corporate-jobs-including-selling-partner-services-2026|US|2026-10-07"
+    "us-prime-big-deal-days-2026-performance|report-window-online-spend-and-basket-metrics-2026|US|2026-10-07"
   ],
-  "updated_event_keys": [],
+  "updated_event_keys": [
+    "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
+  ],
   "counts": {
-    "new": 2,
-    "updated": 0,
-    "merged": 0,
+    "new": 1,
+    "updated": 1,
+    "merged": 1,
     "deduplicated": 0
   }
 }
