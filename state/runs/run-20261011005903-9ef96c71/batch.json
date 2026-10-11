@@ -1,0 +1,78 @@
+{
+  "base_digest": "e806a29f152141efd32120002848f68c39501cc3038750d316c5f2d2bd330bff",
+  "checked_at": "2026-10-11T01:04:08.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-mexico-holiday-operations-capacity",
+        "action_key": "add-eleven-thousand-seasonal-jobs-2026",
+        "marketplaces": [
+          "MX"
+        ],
+        "effective_date": null,
+        "deadline": null,
+        "title": "Amazon墨西哥新增逾11,000个旺季临时岗位以加强物流网络",
+        "summary": "Amazon Mexico于2026年10月5日宣布，为年末旺季新增超过11,000个临时岗位，覆盖配送中心、配送站与分拣中心。岗位主要集中在墨西哥城（逾4,000个）、蒙特雷（逾3,000个）和瓜达拉哈拉（逾1,000个），其他运营站点也有增员；Amazon称其墨西哥网络现有40多个运营站点并覆盖500多个城市。",
+        "impact": "这是墨西哥站旺季履约容量的官方投入信号，可能缓解订单高峰的人力压力，但不是卖家可用的FBA容量承诺、配送SLA或费用调整，也不能据此推断具体ASIN会获得更快入仓或派送。美国、加拿大没有找到与该公告同批且可合并的2026年官方证据，因此仅标记MX。",
+        "action": "为墨西哥站年末订单分别建立入仓预约、Receive时间、承诺送达、延迟配送和丢件基线；重点汽配ASIN按墨西哥城、蒙特雷、瓜达拉哈拉收货地址抽查到货承诺。不要因招聘规模提前承诺全国时效，也不要把岗位数量当成FBA可用库容。",
+        "category": "opportunities",
+        "priority": "P2",
+        "original_published_at": "2026-10-05",
+        "original_date_note": "Amazon Mexico官方文章发表于2026-10-05；公告说明岗位已开放，但未给出统一上岗或扩容完成日期，因此effective_date为null，不以抓取日代替。",
+        "first_seen_at": "2026-10-11T01:04:08.000Z",
+        "last_material_update_at": "2026-10-11T01:04:08.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/mas-de-14-000-personas-se-sumaran-a-amazon-mexico-esta-temporada-de-fin-de-ano",
+            "publisher": "Amazon Mexico",
+            "kind": "official",
+            "published_at": "2026-10-05",
+            "verified_at": "2026-10-11T01:04:08.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "e806a29f152141efd32120002848f68c39501cc3038750d316c5f2d2bd330bff",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "逐条对照80条既有事件：现有墨西哥次日跨境配送、Easy Ship承运商、新卖家费减与Prime档期卡片均描述服务或政策变化，本候选描述Amazon Mexico为年末高峰新增11,000余个临时运营岗位，是独立的物流容量投入信号。event_key、标题语义、规范化官方来源和生效日期四轴均未命中；本批仅此一项，不存在批内重复。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "保留72小时重叠并继续补查bootstrap窗口。逐项检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、industry_wechat_ca/mx所含每个行业与公众号入口，以及三站汽配重点词。补收Amazon Mexico 10月5日官方旺季招聘与物流容量信号；其余命中为既有事件、旧内容或不适用范围。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；三站仍缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
+    "action_items": [
+      {
+        "title": "建立墨西哥旺季履约基线",
+        "detail": "按墨西哥城、蒙特雷、瓜达拉哈拉分别记录重点汽配ASIN的入仓、承诺送达、延迟与丢件数据；招聘规模不是FBA容量或配送SLA保证。",
+        "due": "今日",
+        "event_key": "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown"
+      },
+      {
+        "title": "维持三站汽配独立基线",
+        "detail": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp继续按US/CA/MX的ASIN、变体、地区、币种和时间分别记录；首次观察不算变化。",
+        "due": "持续",
+        "event_key": null
+      }
+    ]
+  }
+}

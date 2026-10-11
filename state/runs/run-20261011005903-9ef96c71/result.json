@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown",
+      "action": "new",
+      "review": "逐条对照80条既有事件：现有墨西哥次日跨境配送、Easy Ship承运商、新卖家费减与Prime档期卡片均描述服务或政策变化，本候选描述Amazon Mexico为年末高峰新增11,000余个临时运营岗位，是独立的物流容量投入信号。event_key、标题语义、规范化官方来源和生效日期四轴均未命中；本批仅此一项，不存在批内重复。"
+    }
+  ]
+}
