@@ -1,8 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "us-prime-big-deal-days-2026-performance|report-window-online-spend-and-basket-metrics-2026|US|2026-10-07",
-    "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
+    "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,19 +10,13 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "保留72小时重叠并继续补查bootstrap窗口。逐项检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、industry_wechat_ca/mx所含每个行业与公众号入口，以及三站汽配重点词。确认美国Prime Big Deal Days活动窗口的全网线上消费与Amazon买家篮子事后数据，并更新美国站订单展示延迟复发线索。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；三站仍缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
+  "coverage_note": "保留72小时重叠并继续补查bootstrap窗口。逐项检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、industry_wechat_ca/mx所含每个行业与公众号入口，以及三站汽配重点词。补收Amazon Mexico 10月5日官方旺季招聘与物流容量信号；其余命中为既有事件、旧内容或不适用范围。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；三站仍缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
   "action_items": [
     {
-      "title": "复盘美国Prime活动净利润",
-      "detail": "按10月6—7日导出销售、广告、Deal/Coupon费用、退款与库存数据，对比去年活动期和活动前7天；不要把美国全网98.6亿美元当作Amazon GMV。",
+      "title": "建立墨西哥旺季履约基线",
+      "detail": "按墨西哥城、蒙特雷、瓜达拉哈拉分别记录重点汽配ASIN的入仓、承诺送达、延迟与丢件数据；招聘规模不是FBA容量或配送SLA保证。",
       "due": "今日",
-      "event_key": "us-prime-big-deal-days-2026-performance|report-window-online-spend-and-basket-metrics-2026|US|2026-10-07"
-    },
-    {
-      "title": "核对美国站订单回补",
-      "detail": "交叉检查10月7日晚Manage Orders、Order Reports、Payments、Business Reports、广告和库存数据，保存异常时间段证据并避免重复发货。",
-      "due": "今日",
-      "event_key": "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
+      "event_key": "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown"
     },
     {
       "title": "维持三站汽配独立基线",
@@ -33,18 +26,16 @@
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-10",
-  "content_updated_at": "2026-10-10T01:08:34.000Z",
+  "report_date": "2026-10-11",
+  "content_updated_at": "2026-10-11T01:04:08.000Z",
   "new_event_keys": [
-    "us-prime-big-deal-days-2026-performance|report-window-online-spend-and-basket-metrics-2026|US|2026-10-07"
+    "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown"
   ],
-  "updated_event_keys": [
-    "amazon-north-america-order-and-checkout-systems|seller-reports-order-display-and-checkout-outage-2026-09-14|CA+US|unknown"
-  ],
+  "updated_event_keys": [],
   "counts": {
     "new": 1,
-    "updated": 1,
-    "merged": 1,
+    "updated": 0,
+    "merged": 0,
     "deduplicated": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-10T01:08:34.000Z",
+  "content_updated_at": "2026-10-11T01:04:08.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -4402,6 +4402,47 @@
       "event_key": "us-prime-big-deal-days-2026-performance|report-window-online-spend-and-basket-metrics-2026|US|2026-10-07",
       "id": "evt-70578675b5a984ea",
       "primary_source_url": "https://drugstorenews.com/amazon-primes-big-deal-days-generates-9-spending-growth"
+    },
+    {
+      "subject_key": "amazon-mexico-holiday-operations-capacity",
+      "action_key": "add-eleven-thousand-seasonal-jobs-2026",
+      "marketplaces": [
+        "MX"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "Amazon墨西哥新增逾11,000个旺季临时岗位以加强物流网络",
+      "summary": "Amazon Mexico于2026年10月5日宣布，为年末旺季新增超过11,000个临时岗位，覆盖配送中心、配送站与分拣中心。岗位主要集中在墨西哥城（逾4,000个）、蒙特雷（逾3,000个）和瓜达拉哈拉（逾1,000个），其他运营站点也有增员；Amazon称其墨西哥网络现有40多个运营站点并覆盖500多个城市。",
+      "impact": "这是墨西哥站旺季履约容量的官方投入信号，可能缓解订单高峰的人力压力，但不是卖家可用的FBA容量承诺、配送SLA或费用调整，也不能据此推断具体ASIN会获得更快入仓或派送。美国、加拿大没有找到与该公告同批且可合并的2026年官方证据，因此仅标记MX。",
+      "action": "为墨西哥站年末订单分别建立入仓预约、Receive时间、承诺送达、延迟配送和丢件基线；重点汽配ASIN按墨西哥城、蒙特雷、瓜达拉哈拉收货地址抽查到货承诺。不要因招聘规模提前承诺全国时效，也不要把岗位数量当成FBA可用库容。",
+      "category": "opportunities",
+      "priority": "P2",
+      "original_published_at": "2026-10-05",
+      "original_date_note": "Amazon Mexico官方文章发表于2026-10-05；公告说明岗位已开放，但未给出统一上岗或扩容完成日期，因此effective_date为null，不以抓取日代替。",
+      "first_seen_at": "2026-10-11T01:04:08.000Z",
+      "last_material_update_at": "2026-10-11T01:04:08.000Z",
+      "history_dates": [
+        "2026-10-11"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/mas-de-14-000-personas-se-sumaran-a-amazon-mexico-esta-temporada-de-fin-de-ano",
+          "publisher": "Amazon Mexico",
+          "kind": "official",
+          "published_at": "2026-10-05",
+          "verified_at": "2026-10-11T01:04:08.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/mas-de-14-000-personas-se-sumaran-a-amazon-mexico-esta-temporada-de-fin-de-ano"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown",
+      "id": "evt-1d88e1dbb0967896",
+      "primary_source_url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/mas-de-14-000-personas-se-sumaran-a-amazon-mexico-esta-temporada-de-fin-de-ano"
     }
   ]
 }
