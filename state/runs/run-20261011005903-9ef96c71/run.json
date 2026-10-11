@@ -1,0 +1,458 @@
+{
+  "schema_version": 1,
+  "id": "run-20261011005903-9ef96c71",
+  "base_state_digest": "7457ef0f1dd992df204a6b132e0603ef9706e1cbd4bc0292a0df6b03adaa8cd2",
+  "started_at": "2026-10-11T00:59:03.557Z",
+  "finished_at": "2026-10-11T01:07:56.000Z",
+  "backfill_complete": false,
+  "material_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0,
+    "excluded_duplicates": 6
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "bab591d2710ca41b3ca6a80498021d9feffc8d90",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "6c02613b29d7f2ff07053b1ca2a8e4a5d20d854760b58de80b7e18b206cd3233",
+    "observed_digest": "6c02613b29d7f2ff07053b1ca2a8e4a5d20d854760b58de80b7e18b206cd3233",
+    "verified_at": "2026-10-11T01:07:56.000Z",
+    "deployment_id": "dpl_H1D9YCKxawHRZSh65jnZWYn7FyF7",
+    "deployment_state": "READY",
+    "observed_card_count": 74,
+    "daily_briefing_present": false,
+    "note": "GitHub精确提交Vercel状态为success，生产部署READY且绑定提交bab591d2；正式域名完整HTML与staging逐字节一致，data-content-digest、新事件路径、74张US/CA/MX卡片及DAILY BRIEFING缺失状态均已验收。"
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "检查Amazon.com Seller Central公开公告、News and Announcements论坛及72小时重叠窗口；可见内容为既有公告、活动点播或卖家讨论，动态入口无法完整遍历。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums",
+          "note": "美国站公开论坛索引；仅完成无需登录的公开覆盖。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "检查Amazon全球开店新闻中心及公开知识页；未发现晚于既有事件且适用US/CA/MX的非重复实质变化。",
+      "evidence": [
+        {
+          "url": "https://globalselling.amazon.com/news-center",
+          "note": "全球开店公开新闻中心；最新卖家相关条目未形成新的三站政策事件。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "检查Amazon Ads What’s New与公开支持页；Review Requests、DVA+、GIA、Responsive e-commerce creative等命中均已入库，未确认10月10日后的新机制。",
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new",
+          "note": "Amazon Ads公开更新入口；本期命中均为已收录条目或不构成新变化。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "检查CPSC、FTC与美国相关公开监管入口；10月8日Amazon.com三项召回已在事件库，未发现10月9日至10日新的直接Amazon.com行动。",
+      "evidence": [
+        {
+          "url": "https://www.cpsc.gov/Recalls",
+          "note": "CPSC公开召回列表；最近相关批次已收录，未重复展示。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "检查Amazon.ca Seller Central公开论坛、Amazon Ads加拿大更新与About Amazon Canada；未确认新的加拿大卖家政策或费率变化。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums",
+          "note": "加拿大站公开论坛索引；仅完成无需登录的公开覆盖。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "检查Amazon.com.mx Seller Central公开论坛、Amazon Ads与Amazon Mexico新闻；确认10月5日官方旺季招聘和物流容量信号并纳入本批，未将其解释为FBA费率或SLA变化。",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.mx/noticias/noticias-de-la-compania/mas-de-14-000-personas-se-sumaran-a-amazon-mexico-esta-temporada-de-fin-de-ano",
+          "note": "Amazon Mexico官方原文，支持超过11,000个旺季临时岗位及地域分布。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "检查Health Canada公开召回与安全警示；未确认新的Amazon.ca直接销售关联行动，公开检索不等于完整监管覆盖。",
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en",
+          "note": "Health Canada公开召回入口；未取得新的Amazon.ca直接关联证据。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "检查PROFECO公开公告与新闻档案；未确认新的Amazon.com.mx监管规则或执法行动。",
+      "evidence": [
+        {
+          "url": "https://www.gob.mx/profeco/archivo/prensa",
+          "note": "PROFECO公开新闻档案；本期未见Amazon相关增量。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检查跨境头条及公开转载结果；命中Prime活动复盘、订单延迟等既有事件或重复稿件，未新增独立卡片。",
+      "evidence": [
+        {
+          "url": "https://www.baijing.cn/article/56928",
+          "note": "公开转载页对应既有订单延迟与活动复盘事件。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检查跨境快讯公开入口；命中Prime档期、跨境配送等既有事件或旧摘要，未确认独立增量。",
+      "evidence": [
+        {
+          "url": "https://m.cifnews.com/intelligence/platform/1087",
+          "note": "公开快讯汇总页；本期结果为既有或旧内容。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检查知无不言公开社区与活动入口；最新公开内容为活动、讨论或运营经验，未取得可直接支持新规则的证据。",
+      "evidence": [
+        {
+          "url": "https://a.wearesellers.com/activity/recommend/index?page=1",
+          "note": "知无不言公开活动入口，不代表登录后社区完整覆盖。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检查TT123/AMZ123公开快讯和周报；Review Requests、GWD、LTL及Prime结果等命中均已收录或语义重复。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/zb-1",
+          "note": "AMZ123公开早报入口；候选均与事件库逐条比对。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检查品牌方舟公开检索结果；未发现10月10日后直接影响US/CA/MX Amazon卖家运营的可靠增量。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com",
+          "note": "品牌方舟公开入口；本期仅取得公开索引覆盖。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检查卖家之家公开结果；10月11日“美国站10月新规”汇总中的危险品问题、主图预检等均已在事件库，按语义重复排除。",
+      "evidence": [
+        {
+          "url": "https://mjzj.com/article/g0ozb486cs8w",
+          "note": "公开汇总文章；所述Amazon规则逐项对照现有事件，未重复建卡。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检索“大宝站外推广”公开可访问入口；未取得本期无需登录的新文章，无法完整遍历。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-9392",
+          "note": "公开作者索引；不代表公众号完整覆盖。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检索“葫芦娃站外推广”公开可访问入口；未取得本期无需登录的新文章，无法完整遍历。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-61871",
+          "note": "公开作者索引；不代表公众号完整覆盖。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检索“三头六臂跨境电商”公开可访问入口；未取得本期无需登录的新文章，无法完整遍历。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-97",
+          "note": "公开作者索引；可见内容早于本期窗口。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检索跨境头条对应公众号；取得公开转载页但无法完整遍历公众号文章列表，相关内容已与行业来源去重。",
+      "evidence": [
+        {
+          "url": "https://www.baijing.cn/article/56928",
+          "note": "公开转载页；不作为独立公众号证据重复计数。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检索跨境快讯对应公众号；仅有公开摘要或汇总入口，无法完整遍历且未发现独立增量。",
+      "evidence": [
+        {
+          "url": "https://m.cifnews.com/intelligence/platform/1087",
+          "note": "公开快讯入口；不代表公众号完整覆盖。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检索知无不言对应公众号；仅有公开社区和活动索引，无法完整遍历公众号文章。",
+      "evidence": [
+        {
+          "url": "https://a.wearesellers.com/activity/recommend/index?page=1",
+          "note": "公开活动索引；不代表公众号完整覆盖。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检索TT123/AMZ123对应公众号与公开索引；相关内容已与行业页合并核验，未作为独立证据重复计数。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com",
+          "note": "公开站点入口；公众号本身无法完整遍历。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检索品牌方舟对应公众号；未取得无需登录且可完整核验的本期新文章。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com",
+          "note": "公开站点入口；公众号仍仅公开检索覆盖。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "单独检索卖家之家对应公众号；命中10月新规汇总但所述事件均已入库，公众号列表无法完整遍历。",
+      "evidence": [
+        {
+          "url": "https://mjzj.com/article/g0ozb486cs8w",
+          "note": "公开文章用于语义去重；不代表公众号完整覆盖。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "分别检索美国站fuel line、CPE braided fuel hose、AN fittings、exhaust clamp公开结果；缺少同ASIN、变体、收货地区和时间的连续USD快照，首次观察不计变化。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com",
+          "note": "美国站公开商品入口；无指定ASIN和可比历史快照。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "逐一检查include_source_ids全部15个来源；仅取得公开索引、旧摘要、重复事件或访问受限结果，未确认加拿大站独立增量，不能声称完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums",
+          "note": "加拿大公开论坛用于交叉核对；行业与公众号仍仅公开搜索覆盖。"
+        }
+      ],
+      "cursor_advanced": false,
+      "included_source_results": {
+        "crossborder_headlines": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "crossborder_briefs": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wearesellers": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "tt123": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "brand_ark": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "seller_home": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_dabao": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_huluwa": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_santou": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_crossborder_headlines": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_crossborder_briefs": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_wearesellers": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_tt123": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_brand_ark": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_seller_home": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited"
+      }
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "逐一检查include_source_ids全部15个来源；Amazon Mexico官方旺季招聘经独立官方入口确认，其他行业和公众号结果为旧闻、重复或访问受限，不能声称完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.aboutamazon.mx/noticias",
+          "note": "Amazon Mexico公开新闻索引用于交叉核对；15个行业与公众号入口仍逐项记录为公开搜索覆盖。"
+        }
+      ],
+      "cursor_advanced": false,
+      "included_source_results": {
+        "crossborder_headlines": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "crossborder_briefs": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wearesellers": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "tt123": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "brand_ark": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "seller_home": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_dabao": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_huluwa": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_santou": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_crossborder_headlines": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_crossborder_briefs": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_wearesellers": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_tt123": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_brand_ark": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited",
+        "wechat_seller_home": "public_search_checked_individually_no_independent_increment_or_old_duplicate_or_access_limited"
+      }
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "分别检索加拿大站四组重点汽配词；没有同ASIN、变体、收货地区、税费/运费口径和时间的连续CAD快照，未生成变化结论。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.ca",
+          "note": "加拿大站公开商品入口；无指定ASIN和可比历史快照。"
+        }
+      ],
+      "cursor_advanced": false
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-11T01:07:56.000Z",
+      "note": "分别检索墨西哥站四组重点汽配词；没有同ASIN、变体、收货地区、税费/运费口径和时间的连续MXN快照，未生成变化结论。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com.mx",
+          "note": "墨西哥站公开商品入口；无指定ASIN和可比历史快照。"
+        }
+      ],
+      "cursor_advanced": false
+    }
+  ]
+}
