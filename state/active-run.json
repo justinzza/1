@@ -1,12 +1,25 @@
 {
   "schema_version": 1,
   "run_id": "run-20261012010241-6791c397",
-  "status": "active",
+  "status": "released",
   "acquired_at": "2026-10-12T01:02:41.577Z",
   "expires_at": "2026-10-12T02:32:41.578Z",
   "previous_radar_state_head": "ce49b03812e5a960c6a74ad9b6a6de5331b42291",
   "takeover_reason": null,
-  "released_at": null,
-  "release_run_record": null,
-  "publication": null
+  "released_at": "2026-10-12T01:14:59.000Z",
+  "release_run_record": "state/runs/run-20261012010241-6791c397/run.json",
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "29fbf4390ac2714b66f3fa5597037aa5d9423e27",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "0f01b97c1f3333e75faf1fc19b28021817150c099c52c119724eb9b7d6b7344c",
+    "observed_digest": "0f01b97c1f3333e75faf1fc19b28021817150c099c52c119724eb9b7d6b7344c",
+    "verified_at": "2026-10-12T01:14:59.000Z",
+    "deployment_id": "dpl_xbZAfdUcxA9xx53EQfFhYSonLUbQ",
+    "deployment_state": "READY",
+    "observed_card_count": 75,
+    "daily_briefing_present": false,
+    "note": "GitHub精确提交Vercel状态为success，Vercel生产部署READY且绑定提交29fbf439；项目内容读取接口返回权限型403后，按备用路径直接读取正式域名，核对data-content-digest、新事件路径、75张US/CA/MX卡片及DAILY BRIEFING缺失状态均与预期一致。"
+  }
 }
