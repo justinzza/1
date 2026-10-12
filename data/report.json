@@ -1,7 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown"
+    "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -10,26 +10,32 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "保留72小时重叠并继续补查bootstrap窗口。逐项检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO、既定行业媒体、industry_wechat_ca/mx所含每个行业与公众号入口，以及三站汽配重点词。补收Amazon Mexico 10月5日官方旺季招聘与物流容量信号；其余命中为既有事件、旧内容或不适用范围。Seller Central动态页、部分行业站和公众号仍只能通过公开索引或摘要覆盖；三站仍缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线。",
+  "coverage_note": "保留72小时重叠并继续补查bootstrap窗口。逐项检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO/SAT/ANAM、既定行业媒体、industry_wechat_ca/mx所含每个行业与公众号入口，以及三站汽配重点词。补收9月1日Amazon全球开店官方解释的2026 FBA New Selection Program美加站升级与10月31日重新注册截止日；其余命中为既有事件、旧内容、非实质变化或不适用范围。Seller Central动态页、部分监管/行业站和公众号仍只能通过公开索引或摘要覆盖；8月29、30日待补查标记未清除。三站仍缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线，首次公开样本不计变化。",
   "action_items": [
     {
-      "title": "建立墨西哥旺季履约基线",
-      "detail": "按墨西哥城、蒙特雷、瓜达拉哈拉分别记录重点汽配ASIN的入仓、承诺送达、延迟与丢件数据；招聘规模不是FBA容量或配送SLA保证。",
-      "due": "今日",
-      "event_key": "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown"
+      "title": "10月31日前重新注册FBA新品计划",
+      "detail": "在Seller Benefits页面确认2026 New Selection Program状态；旧版参与者必须重新注册，INACTIVE或ACTIVE均可代表注册成功，PROVISIONAL表示仍在过渡期。",
+      "due": "2026-10-31",
+      "event_key": "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30"
+    },
+    {
+      "title": "分别筛查US与CA合格父ASIN",
+      "detail": "按站点核对Brand Registry、专业销售计划、IPI、过去12个月FBA入仓历史和排除类目；同一品牌父ASIN在US、CA的资格独立判断。",
+      "due": "本周",
+      "event_key": "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30"
     },
     {
       "title": "维持三站汽配独立基线",
-      "detail": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp继续按US/CA/MX的ASIN、变体、地区、币种和时间分别记录；首次观察不算变化。",
+      "detail": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp继续按US/CA/MX的ASIN、变体、地区、币种和时间分别记录；本次US公开样本B0CQK3G9JP仅作为首次观察，不计价格变化。",
       "due": "持续",
       "event_key": null
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-11",
-  "content_updated_at": "2026-10-11T01:04:08.000Z",
+  "report_date": "2026-10-12",
+  "content_updated_at": "2026-10-12T01:09:44.000Z",
   "new_event_keys": [
-    "amazon-mexico-holiday-operations-capacity|add-eleven-thousand-seasonal-jobs-2026|MX|unknown"
+    "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30"
   ],
   "updated_event_keys": [],
   "counts": {
