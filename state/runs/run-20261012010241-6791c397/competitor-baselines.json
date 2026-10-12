@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-12T01:09:44.000Z",
+  "purpose": "首次公开样本，仅建立US站基线，不计为价格、Coupon、BSR或关键词变化。",
+  "samples": [
+    {
+      "marketplace": "US",
+      "asin": "B0CQK3G9JP",
+      "title": "EVIL ENERGY 6AN Fuel Line Kit CPE Nylon Braided Fuel Hose Fitting Kit 16FT",
+      "variant": "6AN / 16FT",
+      "region": "公开检索；未指定收货邮编",
+      "currency": "USD",
+      "observed_price": 63.99,
+      "tax_included": "unknown",
+      "shipping_included": "unknown",
+      "coupon": "unknown",
+      "bsr": "unknown",
+      "source_url": "https://pricehistory.app/p/evil-energy-6an-fuel-line-kit-6an-7QPUnsw8",
+      "first_observation": true,
+      "eligible_for_change_detection": false,
+      "note": "第三方公开价格历史摘要；需下次以相同ASIN、变体、地域、税费和运费口径复核后才可计算变化。"
+    }
+  ],
+  "ca_status": "未取得同ASIN、变体、地区和时间的连续CAD样本。",
+  "mx_status": "未取得同ASIN、变体、地区和时间的连续MXN样本。"
+}

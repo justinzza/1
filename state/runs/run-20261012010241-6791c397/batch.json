@@ -1,0 +1,95 @@
+{
+  "base_digest": "6503d39f93cb0b2ef664d801259df90eb52015684f787aee8f2f537d9560aca7",
+  "checked_at": "2026-10-12T01:09:44.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-fba-new-selection-program-2026",
+        "action_key": "upgrade-brand-new-parent-asin-benefits-and-require-reenrollment",
+        "marketplaces": [
+          "US",
+          "CA"
+        ],
+        "effective_date": "2026-07-30",
+        "deadline": "2026-10-31",
+        "title": "美加站2026 FBA新品入仓优惠升级：旧版卖家须10月31日前重新注册",
+        "summary": "Amazon确认，2026 FBA New Selection Program于7月30日升级，美国、加拿大站均适用。升级版面向专业销售计划中符合IPI条件、已完成Brand Registry且过去12个月没有任何卖家向FBA发送该父ASIN货件的品牌新品；旧版登记不会自动延续。旧版参与者仅获过渡资格至2026年10月31日，逾期未重新注册的，之后新入仓ASIN不再享受该计划福利。",
+        "impact": "符合条件的父ASIN在首件到仓后120天内，前200件可获得阶梯式销售佣金减免，并免除月度仓储费、仓储利用率附加费、低量库存费、退货处理费和批量清货费；可售日起60天内另有Vine与Coupon费用优惠。福利按US、CA站点分别判定，但注册一次覆盖全部适用站点。该官方升级范围没有包含墨西哥站，不能把美加资格或费率直接套用于MX。",
+        "action": "立即进入Seller Central的Seller Benefits页面查看2026 New Selection Program状态；旧版参与者最迟在2026年10月31日前重新注册。分别导出US、CA计划上线后的品牌父ASIN，核对过去12个月FBA入仓历史、Brand Registry、IPI与排除类目，并以USD、CAD分别测算前200件及120天窗口内的实际节省。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-09-01",
+        "original_date_note": "Amazon全球开店官方文章发表于2026-09-01，明确升级版自2026-07-30起适用；旧版参与者的过渡注册截止日为2026-10-31。事件按官方生效日建档，不以本次发现日替代。",
+        "first_seen_at": "2026-10-12T01:09:44.000Z",
+        "last_material_update_at": "2026-10-12T01:09:44.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://globalselling.amazon.com/news/news-brand-260901",
+            "publisher": "Amazon Global Selling",
+            "kind": "official",
+            "published_at": "2026-09-01",
+            "verified_at": "2026-10-12T01:09:44.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          },
+          {
+            "url": "https://globalselling.amazon.com/news/news-brand-260731",
+            "publisher": "Amazon Global Selling",
+            "kind": "official",
+            "published_at": "2026-07-31",
+            "verified_at": "2026-10-12T01:09:44.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "6503d39f93cb0b2ef664d801259df90eb52015684f787aee8f2f537d9560aca7",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "逐条对照81条既有事件及网页卡片：现有NSI新卖家激励、FBA费率、旺季附加费和MX新卖家费减均不是FBA New Selection Program的2026升级。本候选的核心主体、升级动作、US+CA适用范围、2026-07-30生效日、2026-10-31重新注册截止日与官方来源均未命中；本批仅此一项，不存在批内重复。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "保留72小时重叠并继续补查bootstrap窗口。逐项检查US/CA/MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO/SAT/ANAM、既定行业媒体、industry_wechat_ca/mx所含每个行业与公众号入口，以及三站汽配重点词。补收9月1日Amazon全球开店官方解释的2026 FBA New Selection Program美加站升级与10月31日重新注册截止日；其余命中为既有事件、旧内容、非实质变化或不适用范围。Seller Central动态页、部分监管/行业站和公众号仍只能通过公开索引或摘要覆盖；8月29、30日待补查标记未清除。三站仍缺少相同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线，首次公开样本不计变化。",
+    "action_items": [
+      {
+        "title": "10月31日前重新注册FBA新品计划",
+        "detail": "在Seller Benefits页面确认2026 New Selection Program状态；旧版参与者必须重新注册，INACTIVE或ACTIVE均可代表注册成功，PROVISIONAL表示仍在过渡期。",
+        "due": "2026-10-31",
+        "event_key": "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30"
+      },
+      {
+        "title": "分别筛查US与CA合格父ASIN",
+        "detail": "按站点核对Brand Registry、专业销售计划、IPI、过去12个月FBA入仓历史和排除类目；同一品牌父ASIN在US、CA的资格独立判断。",
+        "due": "本周",
+        "event_key": "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30"
+      },
+      {
+        "title": "维持三站汽配独立基线",
+        "detail": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp继续按US/CA/MX的ASIN、变体、地区、币种和时间分别记录；本次US公开样本B0CQK3G9JP仅作为首次观察，不计价格变化。",
+        "due": "持续",
+        "event_key": null
+      }
+    ]
+  }
+}

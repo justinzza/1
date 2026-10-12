@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30",
+      "action": "new",
+      "review": "逐条对照81条既有事件及网页卡片：现有NSI新卖家激励、FBA费率、旺季附加费和MX新卖家费减均不是FBA New Selection Program的2026升级。本候选的核心主体、升级动作、US+CA适用范围、2026-07-30生效日、2026-10-31重新注册截止日与官方来源均未命中；本批仅此一项，不存在批内重复。"
+    }
+  ]
+}
