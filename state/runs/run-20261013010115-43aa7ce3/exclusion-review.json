@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-10-13T01:06:49.000Z",
+  "excluded_duplicates": [
+    {
+      "matches_event_key": "amazon-business-deals",
+      "title_semantics_reviewed": true,
+      "source_url_reviewed": true,
+      "effective_date_reviewed": true,
+      "reason": "Sell on Amazon 9月23日公告与既有Amazon Business Deals事件主体、动作和站点一致。"
+    },
+    {
+      "matches_event_key": "amazon-fba-new-selection-program-2026",
+      "title_semantics_reviewed": true,
+      "source_url_reviewed": true,
+      "effective_date_reviewed": true,
+      "reason": "全球开店公开命中与10月12日已发布卡片一致。"
+    },
+    {
+      "matches_event_key": "amazon-na-2026-holiday-peak-fees-and-deadlines",
+      "title_semantics_reviewed": true,
+      "source_url_reviewed": true,
+      "effective_date_reviewed": true,
+      "reason": "加拿大论坛旺季费用和截止日摘要已在既有卡片。"
+    },
+    {
+      "matches_event_key": "amazon-mexico-prime-mega-deals-2026",
+      "title_semantics_reviewed": true,
+      "source_url_reviewed": true,
+      "effective_date_reviewed": true,
+      "reason": "墨西哥Prime 10月6—10日活动已入库。"
+    },
+    {
+      "matches_event_key": "amazon-ads-agent-analytics",
+      "title_semantics_reviewed": true,
+      "source_url_reviewed": true,
+      "effective_date_reviewed": true,
+      "reason": "Amazon Ads近期AI工具命中已按美加墨卡片入库。"
+    },
+    {
+      "matches_event_key": "us-cpsc-amazon-products-october-8-batch",
+      "title_semantics_reviewed": true,
+      "source_url_reviewed": true,
+      "effective_date_reviewed": true,
+      "reason": "CPSC最近Amazon.com批次已于10月8日建档。"
+    },
+    {
+      "matches_event_key": "amazon-mexico-holiday-operations-capacity",
+      "title_semantics_reviewed": true,
+      "source_url_reviewed": true,
+      "effective_date_reviewed": true,
+      "reason": "墨西哥旺季临时岗位官方内容已入库。"
+    }
+  ],
+  "excluded_out_of_scope": [
+    {
+      "title": "S1 Dry Flush Sealing Toilet recall",
+      "reason": "Health Canada原文未提供Amazon.ca销售关联，不纳入Amazon生态事件。",
+      "url": "https://recalls-rappels.canada.ca/en/alert-recall/s1-dry-flush-sealing-toilet-and-s1-adapter-kit-recalled-due-fire-hazard"
+    }
+  ]
+}

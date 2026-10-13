@@ -1,0 +1,31 @@
+{
+  "base_digest": "453461e28c8bdb66e94f8fcb0c4484d9c6784b1cf06764c4639b935135773b59",
+  "checked_at": "2026-10-13T01:06:49.000Z",
+  "candidates": [],
+  "report": {
+    "status": "partial",
+    "top_changes": [],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "保留72小时重叠并继续从2026-08-28 bootstrap起点补查。逐项检查US/CA/MX Seller Central公开入口、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、PROFECO/SAT/ANAM、既定行业媒体、industry_wechat_ca/mx包含的15个独立入口，以及三站汽配重点词。未确认可靠新增或既有事件的实质更新；Seller Central动态页、部分监管/行业站和公众号仍只能通过公开索引或摘要覆盖，8月29、30日待补查标记不清除。三站缺少同ASIN、变体、地区和时间的连续价格、Coupon、BSR与关键词基线，首次或非同口径观察不计变化。",
+    "action_items": [
+      {
+        "title": "准备美加旺季FBA费用切换",
+        "detail": "继续按已收录事件核对10月15日起的US/CA旺季FBA配送费和加拿大BFCM入仓截止日，不把既有截止日重复包装为今日新闻。",
+        "due": "2026-10-15",
+        "event_key": "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15"
+      },
+      {
+        "title": "维持三站汽配独立基线",
+        "detail": "fuel line、CPE braided fuel hose、AN fittings、exhaust clamp继续按US/CA/MX的ASIN、变体、地区、币种、税费/运费口径和时间分别记录；本次没有可比变化。",
+        "due": "持续",
+        "event_key": null
+      }
+    ]
+  }
+}
