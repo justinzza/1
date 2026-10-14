@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-14T01:10:00.000Z",
+  "excluded_duplicates": [
+    {
+      "matches_event_key": "amazon-send-china-to-mexico-air|add-360lion-route-2026|MX|2026-09-22",
+      "title_semantics_reviewed": true,
+      "source_url_reviewed": true,
+      "effective_date_reviewed": true,
+      "reason": "10月13日行业文章复述Amazon SEND中国至墨西哥空运线路，与既有事件的主体、动作、站点和生效日一致。"
+    }
+  ],
+  "excluded_out_of_scope": [
+    {
+      "title": "Amazon reportedly in talks to acquire Decart",
+      "reason": "路透报道为未确认谈判，尚无交易完成、卖家规则或已落地Amazon产品变化，不作为运营事件。",
+      "url": "https://www.reuters.com/technology/amazon-talks-buy-ai-startup-decart-about-7-billion-information-reports-2026-10-11/"
+    },
+    {
+      "title": "Amazon Accelerate 2026 on-demand sessions",
+      "reason": "仅为会议回放可用性，没有确认新的政策、费率或卖家功能上线。",
+      "url": "https://sell.amazon.com/blog/announcements"
+    },
+    {
+      "title": "Amazon passkey articles",
+      "reason": "官方上线信息发布于2026年6—7月，早于bootstrap起点且本期没有实质更新。",
+      "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f89e1c8e-b0cd-4cb7-9f89-1c9bf22ab671"
+    },
+    {
+      "title": "UK marketplace VAT proposal",
+      "reason": "适用英国市场，不属于本雷达US/CA/MX范围。",
+      "url": "https://www.reuters.com/world/uk/uk-tax-authority-may-make-online-marketplaces-liable-vat-2026-10-12/"
+    },
+    {
+      "title": "US/CA/MX automotive keyword pages",
+      "reason": "没有同站点、类目、ASIN、变体、地区和时间的连续可比快照，首次观察不计趋势或变化。",
+      "url": "https://www.amazon.com"
+    }
+  ]
+}
