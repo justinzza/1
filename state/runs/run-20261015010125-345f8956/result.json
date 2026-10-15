@@ -1,0 +1,27 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-fba-peak-intake-congestion-2026|report-core-warehouse-appointment-delays|US|unknown",
+    "amazon-grocery-partner-storefronts|transition-away-from-partner-specific-storefronts|US|unknown"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-fba-peak-intake-congestion-2026|report-core-warehouse-appointment-delays|US|unknown",
+      "action": "new",
+      "review": "已逐条比对82条事件。既有2026旺季费与入仓截止日卡片是官方费率/计划节点，本候选是10月12日出现的实际预约拥堵行业线索，主体、动作、生效日期和来源均不同；两家媒体内容高度同源，合并在一张卡片且不把转载数量当作独立确认。"
+    },
+    {
+      "event_key": "amazon-grocery-partner-storefronts|transition-away-from-partner-specific-storefronts|US|unknown",
+      "action": "new",
+      "review": "已逐条比对82条事件及本批FBA拥堵候选。现有事件没有杂货合作伙伴专属Amazon.com店面关闭；它也不同于2026年1月Amazon Fresh/Go实体店关闭和Seller Central店铺功能调整。来源、动作和适用对象均独立。"
+    }
+  ]
+}
