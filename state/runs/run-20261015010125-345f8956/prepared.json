@@ -11,7 +11,7 @@
     "data/report.json": "8d85b13a12c6affeee35489a4de672ad61dc4fc70087126b76cfe9b7913b7584",
     "index.html": "8bec84363d3dc0a9ea801410e4400d597bf718100e23ca5c1706981b2c539ec4"
   },
-  "expected_content_digest": "0e0792888db68e5cffdd4a4e4307ddb36a26a1259fa0deeb01901165855e0d8f",
+  "expected_content_digest": "849c45e52623c096b4c3697b9cac0fab77eb5cbcee4a68f477e7e92204c8580e",
   "counts": {
     "new": 2,
     "updated": 0,
