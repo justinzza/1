@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261016005655-ce85cb3a",
+  "status": "prepared",
+  "prepared_at": "2026-10-16T01:06:28.000Z",
+  "base_main_commit": "1c78225f946701d66e44b6883b805a9b332bb919",
+  "base_registry_digest": "0e0792888db68e5cffdd4a4e4307ddb36a26a1259fa0deeb01901165855e0d8f",
+  "expected_registry_digest": "737fd08611b504fad744aa31507e6a95795bdf9a989cdff7d0fe54f7bbc540f7",
+  "expected_file_sha256": {
+    "data/events.json": "cf2e0b8ea52966d5afba8538ddac9e0264bda8a1d076105168b0405bab9b0605",
+    "data/report.json": "eb127fff94fffd3dd717c0da60e4ec324d17ccc28ff141d8595955d58b3ecb64",
+    "index.html": "2e22bdf5a2cc253b0aa1bb38bcbff6708e25985cd10ce5ad98d9c280e887c962"
+  },
+  "expected_content_digest": "8e263406bde26bd820ee73f1e124091ce53cda432c81c898839e37ba59804473",
+  "counts": {
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "prepared",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "base_digest": "0e0792888db68e5cffdd4a4e4307ddb36a26a1259fa0deeb01901165855e0d8f",
+  "checked_at": "2026-10-16T01:05:00.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "us-cpsc-amazon-products-2026-10-15",
+        "action_key": "recall-or-warn-five-amazon-sold-products",
+        "marketplaces": ["US"],
+        "effective_date": "2026-10-15",
+        "deadline": null,
+        "title": "美国CPSC发布5项Amazon.com商品召回或停用警告：层压机、床边床、床护栏及两类厨电",
+        "summary": "美国CPSC于2026年10月15日发布5项直接涉及Amazon.com销售商品的行动：Scotch TL1302Z层压机召回约53,634件，已有63起过热、冒烟或熔化报告，其中5起着火；Papablic PAPA03001AI床边床召回约248件；usOpal Xalirium成人便携床护栏召回约200件；另要求消费者立即停用Kalorik MAXX/MAXX Advance法式门空气炸锅烤箱和Tristar Y6D-36六夸脱Power Quick Pot压力锅。后两项为企业未提供完整召回补救时的CPSC警告，不能与自愿召回混称。",
+        "impact": "命中品牌、型号或同供应链商品的美国站卖家，应立即停止销售和广告、隔离在库与在途商品，并按每份监管原文处理退款、销毁、客户通知或停止使用。Tristar压力锅约393,000件且CPSC记录24起热内容物喷出并造成严重灼伤；Kalorik页面记录多起灼伤报告。现有证据只支持美国，不得自动扩展为加拿大或墨西哥召回。",
+        "action": "按Scotch TL1302Z、Papablic PAPA03001AI、Xalirium、Kalorik MAXX/MAXX Advance及Tristar Y6D-36筛查US站ASIN、FNSKU、供应商、FBA/FBM库存、在途和历史订单；命中后立即停售并冻结补货，保存CPSC召回号27-024、27-027、27-029及警告号27-033、27-030，分别执行品牌/CPSC补救要求并留存客户沟通、退款和处置证据。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-10-15",
+        "original_date_note": "5份CPSC原文均标注2026-10-15；同日、同站点且均与Amazon.com销售直接相关，按一张监管批次卡片合并。CPSC网页路径中的2027是财政年度编号，不作为发布日期。",
+        "first_seen_at": "2026-10-16T01:05:00.000Z",
+        "last_material_update_at": "2026-10-16T01:05:00.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/3M-Company-Recalls-ScotchTM-Thermal-Laminators-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard",
+            "publisher": "U.S. CPSC",
+            "kind": "regulator",
+            "published_at": "2026-10-15",
+            "verified_at": "2026-10-16T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/Papablic-of-USA-Recalls-Convertible-Bedside-Sleepers-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-Suffocation-and-Fall-Hazards-Violate-Mandatory-Standard-for-Play-Yards",
+            "publisher": "U.S. CPSC",
+            "kind": "regulator",
+            "published_at": "2026-10-15",
+            "verified_at": "2026-10-16T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/usOpal-Recalls-Xalirium-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails",
+            "publisher": "U.S. CPSC",
+            "kind": "regulator",
+            "published_at": "2026-10-15",
+            "verified_at": "2026-10-16T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-Kalorik-MAXX-Air-Fryer-Ovens-with-French-Doors-Due-to-Risk-of-Serious-Burn-Injury-Hazard",
+            "publisher": "U.S. CPSC",
+            "kind": "regulator",
+            "published_at": "2026-10-15",
+            "verified_at": "2026-10-16T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          },
+          {
+            "url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Immediately-Stop-Using-Tristar-Products-6-Quart-Power-Quick-Pot-Pressure-Cookers-Due-to-Risk-of-Serious-Injury-from-Burn-Hazard",
+            "publisher": "U.S. CPSC",
+            "kind": "regulator",
+            "published_at": "2026-10-15",
+            "verified_at": "2026-10-16T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0e0792888db68e5cffdd4a4e4307ddb36a26a1259fa0deeb01901165855e0d8f",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已与84条全库事件及本批候选逐条比对。库中9月10日、9月17日、9月24日、10月1日和10月8日的CPSC卡片均为不同监管发布日期及不同商品；本批5个10月15日行动没有相同event_key、标题语义、规范化来源链接或生效日期组合。",
+        "distinct_event_reason": "与既有CPSC周批次的主体相近，但监管日期、商品型号、召回/警告编号及官方原文均不同，属于独立的10月15日监管批次。"
+      },
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key": "amazon-us-holiday-beauty-event-2026",
+        "action_key": "run-two-week-category-promotion-with-rotating-flash-deals",
+        "marketplaces": ["US"],
+        "effective_date": "2026-10-19",
+        "deadline": "2026-11-01",
+        "title": "Amazon美国站Holiday Beauty Event将于10月19日启动，连续两周轮换48小时类目促销",
+        "summary": "Amazon于2026年10月14日公布第六届Holiday Beauty Event，活动从10月19日至11月1日，覆盖Beauty、Personal Care、Health & Wellness及Men's Grooming等品类。官方页面列出按两天轮换的Flash Deals：Makeup、Fragrance、Health & Wellness、Men's Grooming、Skin Care、Hair Care和Personal Care，宣称精选优惠最高可达35%至40%，整体活动商品最高约30%折扣。",
+        "impact": "这是Amazon.com面向消费者的类目促销与流量日程，可影响相关ASIN在10月19日至11月1日的自然流量、广告竞争和价格锚点；但官方消费者公告没有承诺所有卖家或ASIN自动获得活动位，也没有给出新的卖家提报窗口。汽车用品不在本次活动范围，不能把美容品类流量外推到燃油管、AN接头或排气卡箍。",
+        "action": "经营美妆、个护或健康品类的美国站团队今日核对Deal、Coupon和Ads控制台中实际资格，按官方48小时类目节奏安排预算与库存，并保存活动前价格、参考价、毛利和广告基线；未获得活动标识的ASIN不要仅凭消费者页面盲目降价。汽配团队保持原计划，不把本活动当作类目需求信号。",
+        "category": "opportunities",
+        "priority": "P1",
+        "original_published_at": "2026-10-14",
+        "original_date_note": "Amazon About页面于2026-10-14发布，活动明确从2026-10-19运行至2026-11-01；以活动开始日作为effective_date，以结束日作为deadline。页面链接和品类均指向Amazon.com，仅标记US。",
+        "first_seen_at": "2026-10-16T01:05:00.000Z",
+        "last_material_update_at": "2026-10-16T01:05:00.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.com/news/retail/amazon-holiday-beauty-event-2026",
+            "publisher": "Amazon",
+            "kind": "official",
+            "published_at": "2026-10-14",
+            "verified_at": "2026-10-16T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0e0792888db68e5cffdd4a4e4307ddb36a26a1259fa0deeb01901165855e0d8f",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已与84条全库事件及本批候选比对；既有Prime Big Deal Days、BFCM截止日和其他促销事件的活动主体、时间及品类均不同，库中没有Holiday Beauty Event 2026、相同官方链接或10月19日生效日的记录。",
+        "distinct_event_reason": "该事件是独立的Beauty/Personal Care两周促销，不是10月6日至7日Prime Big Deal Days的延期或转载。"
+      },
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key": "amazon-gxd-tianjin-dongjiang-2026",
+        "action_key": "formally-launch-north-china-origin-consolidation-hub",
+        "marketplaces": ["US"],
+        "effective_date": "2026-10-13",
+        "deadline": null,
+        "title": "天津市政府确认亚马逊GXD天津东疆仓正式落地，华北货源可经天津港直达欧美FBA｜政府信息",
+        "summary": "天津市政府与中国新闻网于2026年10月14日报道，亚马逊全球集货仓（GXD）已于10月13日在天津东疆综合保税区正式落地。该仓自7月试运营，现有货源覆盖天津、北京、河北和山西；依托Amazon Global Logistics（AGL），华北货物可由天津港起运并进入Amazon欧美FBA仓网，减少绕行南方港口。",
+        "impact": "对京津冀及华北制造商而言，新增原产地集货节点可能缩短国内段运输并集中处理入区、通关和出运，但报道没有披露账户准入、线路报价、承诺时效、赔付SLA或具体美国FBA目的仓，也没有证据证明Amazon.ca或Amazon.com.mx已可直接使用该节点。因此在本雷达三站范围内仅标记US，不外推CA/MX。",
+        "action": "华北供应链团队在AGL/GXD账户内确认天津东疆仓是否已开放给本账户，分别取得US线路的入仓地址、截单班次、计费重、报关、税费和预计到仓时效；用同一批SKU与深圳/上海或第三方头程做含国内拖车、港杂和异常费的总成本对比。首次报价只建基线，未实际验证前不要迁移全部旺季货量。",
+        "category": "opportunities",
+        "priority": "P1",
+        "original_published_at": "2026-10-14",
+        "original_date_note": "天津市政府和中国新闻网均于2026-10-14发布，报道明确启动仪式与正式落地发生在2026-10-13。7月试运营是背景，不以其替代本次正式落地日期。",
+        "first_seen_at": "2026-10-16T01:05:00.000Z",
+        "last_material_update_at": "2026-10-16T01:05:00.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.tj.gov.cn/sy/tjxw/202610/t20261014_7630062.html",
+            "publisher": "天津市人民政府",
+            "kind": "official",
+            "published_at": "2026-10-14",
+            "verified_at": "2026-10-16T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "government_official"
+          },
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714431.shtml",
+            "publisher": "中国新闻网",
+            "kind": "industry_original",
+            "published_at": "2026-10-14",
+            "verified_at": "2026-10-16T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "media"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "0e0792888db68e5cffdd4a4e4307ddb36a26a1259fa0deeb01901165855e0d8f",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已与84条全库事件及本批候选比对；库中现有GWD路线图、深圳/上海仓和跨国供应链能力记录不包含天津东疆仓正式落地，且没有相同政府/中新网链接或2026-10-13生效日。",
+        "distinct_event_reason": "该卡记录新的华北原产地集货节点正式落地，而不是9月24日GWD多国扩展路线图的改写；地点、动作和证据链均独立。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "us-cpsc-amazon-products-2026-10-15|recall-or-warn-five-amazon-sold-products|US|2026-10-15",
+      "amazon-gxd-tianjin-dongjiang-2026|formally-launch-north-china-origin-consolidation-hub|US|2026-10-13",
+      "amazon-us-holiday-beauty-event-2026|run-two-week-category-promotion-with-rotating-flash-deals|US|2026-10-19"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "完成US/CA/MX公开检索及可访问原文核验：Seller Central动态、Amazon全球开店、Amazon Ads、CPSC/FTC/CBP、Health Canada、Competition Bureau、PROFECO/SAT，以及既定行业媒体均覆盖公开入口。industry_wechat_ca与industry_wechat_mx已分别逐一检索15个include_source_ids；多数公众号仅有搜索摘要、无结果或无法公开阅读全文，故全源状态仍为public_search_only，不能宣称完整检查，8月29日至30日待补查标记继续保留。汽配关键词仅取得非连续公开结果，缺少同ASIN、变体、收货地域、币种及税费/运费口径的可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
+    "action_items": [
+      {
+        "title": "筛查10月15日CPSC涉事SKU",
+        "detail": "按5组品牌/型号核对US站Catalog、库存、在途和历史订单；命中即停售、隔离并按对应召回或警告处理。",
+        "due": "今日",
+        "event_key": "us-cpsc-amazon-products-2026-10-15|recall-or-warn-five-amazon-sold-products|US|2026-10-15"
+      },
+      {
+        "title": "核实天津GXD账户可用性",
+        "detail": "华北货源先取得US线路报价、计费和时效，再与既有头程做同批SKU总成本比较；首次报价只建基线。",
+        "due": "本周",
+        "event_key": "amazon-gxd-tianjin-dongjiang-2026|formally-launch-north-china-origin-consolidation-hub|US|2026-10-13"
+      },
+      {
+        "title": "准备Holiday Beauty Event",
+        "detail": "仅美妆、个护和健康品类核对实际Deal/Coupon/Ads资格，按48小时轮换节奏安排库存与预算。",
+        "due": "10月19日前",
+        "event_key": "amazon-us-holiday-beauty-event-2026|run-two-week-category-promotion-with-rotating-flash-deals|US|2026-10-19"
+      },
+      {
+        "title": "分站维护汽配基线",
+        "detail": "US、CA、MX分别记录ASIN、变体、收货地区、USD/CAD/MXN价格、税费、运费、Coupon和BSR；首次观察不判定变化。",
+        "due": "持续",
+        "event_key": null
+      }
+    ]
+  }
+}
