@@ -1,8 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-fba-peak-intake-congestion-2026|report-core-warehouse-appointment-delays|US|unknown",
-    "amazon-grocery-partner-storefronts|transition-away-from-partner-specific-storefronts|US|unknown"
+    "us-cpsc-amazon-products-2026-10-15|recall-or-warn-five-amazon-sold-products|US|2026-10-15",
+    "amazon-gxd-tianjin-dongjiang-2026|formally-launch-north-china-origin-consolidation-hub|US|2026-10-13",
+    "amazon-us-holiday-beauty-event-2026|run-two-week-category-promotion-with-rotating-flash-deals|US|2026-10-19"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,37 +12,44 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "完成US/CA/MX公开检索与可访问原文核验；Seller Central动态、Amazon Ads、全球开店、CPSC/FTC/CBP、Health Canada、PROFECO/SAT及既定行业媒体均已覆盖公开入口。15个行业网站/公众号已分别对CA与MX检索，但多数仅有搜索摘要、无结果或需登录，不能声称全文完整检查。汽配关键词仅获得非连续公开结果，缺少同ASIN、变体、收货地域及税费/运费口径的可比快照，未生成价格、Coupon、BSR或关键词趋势结论。",
+  "coverage_note": "完成US/CA/MX公开检索及可访问原文核验：Seller Central动态、Amazon全球开店、Amazon Ads、CPSC/FTC/CBP、Health Canada、Competition Bureau、PROFECO/SAT，以及既定行业媒体均覆盖公开入口。industry_wechat_ca与industry_wechat_mx已分别逐一检索15个include_source_ids；多数公众号仅有搜索摘要、无结果或无法公开阅读全文，故全源状态仍为public_search_only，不能宣称完整检查，8月29日至30日待补查标记继续保留。汽配关键词仅取得非连续公开结果，缺少同ASIN、变体、收货地域、币种及税费/运费口径的可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
   "action_items": [
     {
-      "title": "核对美国FBA预约延迟",
-      "detail": "按CLT2、IND9、ONT8、LAX9逐票比较预约、Checked-in与Receive时间，异常货件保留承运商及后台证据。",
+      "title": "筛查10月15日CPSC涉事SKU",
+      "detail": "按5组品牌/型号核对US站Catalog、库存、在途和历史订单；命中即停售、隔离并按对应召回或警告处理。",
       "due": "今日",
-      "event_key": "amazon-us-fba-peak-intake-congestion-2026|report-core-warehouse-appointment-delays|US|unknown"
+      "event_key": "us-cpsc-amazon-products-2026-10-15|recall-or-warn-five-amazon-sold-products|US|2026-10-15"
     },
     {
-      "title": "检查杂货合作入口",
-      "detail": "仅对涉及美国杂货合作专属店面的业务核对URL、合同、订单归因和替代入口；普通Marketplace卖家不据此下架。",
+      "title": "核实天津GXD账户可用性",
+      "detail": "华北货源先取得US线路报价、计费和时效，再与既有头程做同批SKU总成本比较；首次报价只建基线。",
       "due": "本周",
-      "event_key": "amazon-grocery-partner-storefronts|transition-away-from-partner-specific-storefronts|US|unknown"
+      "event_key": "amazon-gxd-tianjin-dongjiang-2026|formally-launch-north-china-origin-consolidation-hub|US|2026-10-13"
     },
     {
-      "title": "分站建立汽配基线",
+      "title": "准备Holiday Beauty Event",
+      "detail": "仅美妆、个护和健康品类核对实际Deal/Coupon/Ads资格，按48小时轮换节奏安排库存与预算。",
+      "due": "10月19日前",
+      "event_key": "amazon-us-holiday-beauty-event-2026|run-two-week-category-promotion-with-rotating-flash-deals|US|2026-10-19"
+    },
+    {
+      "title": "分站维护汽配基线",
       "detail": "US、CA、MX分别记录ASIN、变体、收货地区、USD/CAD/MXN价格、税费、运费、Coupon和BSR；首次观察不判定变化。",
       "due": "持续",
       "event_key": null
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-15",
-  "content_updated_at": "2026-10-15T01:06:59.000Z",
+  "report_date": "2026-10-16",
+  "content_updated_at": "2026-10-16T01:05:00.000Z",
   "new_event_keys": [
-    "amazon-us-fba-peak-intake-congestion-2026|report-core-warehouse-appointment-delays|US|unknown",
-    "amazon-grocery-partner-storefronts|transition-away-from-partner-specific-storefronts|US|unknown"
+    "us-cpsc-amazon-products-2026-10-15|recall-or-warn-five-amazon-sold-products|US|2026-10-15",
+    "amazon-us-holiday-beauty-event-2026|run-two-week-category-promotion-with-rotating-flash-deals|US|2026-10-19",
+    "amazon-gxd-tianjin-dongjiang-2026|formally-launch-north-china-origin-consolidation-hub|US|2026-10-13"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 2,
+    "new": 3,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0
