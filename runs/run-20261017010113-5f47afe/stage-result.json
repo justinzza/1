@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27",
+      "action": "new",
+      "review": "已与87条全库事件逐条进行event_key、标题语义、规范化来源链接和生效日期四重比对，并与本批唯一候选比较。事件库没有NWD、No Wholesale Distribution、Brand Representative品牌权限收紧或2026-10-27生效的卡片；既有Brand Registry、授权销售及账户合规事件的动作和日期均不同。"
+    }
+  ]
+}

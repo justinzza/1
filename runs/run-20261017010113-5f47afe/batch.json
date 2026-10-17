@@ -1,0 +1,98 @@
+{
+  "base_digest": "737fd08611b504fad744aa31507e6a95795bdf9a989cdff7d0fe54f7bbc540f7",
+  "checked_at": "2026-10-17T01:05:00.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-nwd-brand-gating-2026",
+        "action_key": "restrict-notified-brands-to-brand-representative-accounts",
+        "marketplaces": ["US"],
+        "effective_date": "2026-10-27",
+        "deadline": "2026-10-27",
+        "title": "美国站多名卖家收到NWD权限收紧通知：10月27日起仅Brand Representative可继续销售｜行业线索",
+        "summary": "多名Amazon.com卖家在Seller Central论坛展示内容一致的No Wholesale Distribution（NWD）通知：被点名品牌的商品自2026年10月27日起仅允许具备Brand Representative角色的账号继续销售；非品牌代表卖家需要在日期前处理库存。AMZ123于10月15日报道同一批通知。公开来源尚未发现Amazon面向全站发布的正式公告，因此本卡只记录收到通知的品牌和账号，不将其扩写为所有品牌或所有美国站卖家的统一新规。",
+        "impact": "收到通知的经销卖家可能面临Listing移除以及FBA库存清货、移除或弃置风险；论坛中也有自有品牌卖家称角色已正确配置仍收到通知，显示Brand Registry与销售账号角色识别可能存在同步或群发误差。现有证据仅指向Amazon.com，不能外推加拿大或墨西哥站。",
+        "action": "立即在美国站消息中心与注册邮箱检索NWD通知，导出受影响ASIN、FNSKU和库存；在Brand Registry核对销售账号是否已连接目标品牌并拥有Brand Representative角色，同时核对merchant token。已具备角色仍收到通知的账号应在10月27日前开英文Case并保存角色截图、通知、ASIN和Case记录；无授权的经销账号先与品牌方确认资格，再按毛利和时效选择清货或创建移除订单，不要等到系统处置库存。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-10-15",
+        "original_date_note": "AMZ123原文发布于2026-10-15，并称卖家于10月14日起集中收到通知；两条Amazon Seller Central卖家论坛帖在10月15日至16日前后公开，均指向2026-10-27处理/移除日期。论坛内容为卖家陈述，未发现Amazon版主确认或公开全站公告，故标注行业线索。",
+        "first_seen_at": "2026-10-17T01:05:00.000Z",
+        "last_material_update_at": "2026-10-17T01:05:00.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.amz123.com/t/POQxCDAu",
+            "publisher": "AMZ123跨境电商",
+            "kind": "industry_original",
+            "published_at": "2026-10-15",
+            "verified_at": "2026-10-17T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry_original"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f80f44ee-3f4c-4782-b2ca-1100a18af238",
+            "publisher": "Amazon Seller Central卖家论坛",
+            "kind": "seller_forum",
+            "published_at": "2026-10-16",
+            "verified_at": "2026-10-17T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "seller_post"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/56ed9f10-95a1-4db5-9ef2-63feceea0635",
+            "publisher": "Amazon Seller Central卖家论坛",
+            "kind": "seller_forum",
+            "published_at": "2026-10-15",
+            "verified_at": "2026-10-17T01:05:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "seller_post"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "737fd08611b504fad744aa31507e6a95795bdf9a989cdff7d0fe54f7bbc540f7",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已与87条全库事件逐条进行event_key、标题语义、规范化来源链接和生效日期四重比对，并与本批唯一候选比较。事件库没有NWD、No Wholesale Distribution、Brand Representative品牌权限收紧或2026-10-27生效的卡片；既有Brand Registry、授权销售及账户合规事件的动作和日期均不同。",
+        "distinct_event_reason": "该线索记录特定账号收到的NWD品牌销售权限通知及10月27日库存处理节点，不是既有通用Brand Registry角色说明或危险品问卷事件的转载。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "完成US、CA、MX公开入口增量核验：Seller Central动态、Amazon全球开店、Amazon Ads、CPSC/FTC/CBP、Health Canada、Competition Bureau、PROFECO/SAT及既定行业媒体均按可访问范围检查。industry_wechat_ca与industry_wechat_mx分别逐一检索15个include_source_ids；多数公众号仅有搜索摘要、无结果或无法公开阅读全文，因此均记为public_search_only，不宣称完整覆盖，8月29日至30日待补查标记继续保留。10月16日行业文章提及的四类危险品问卷已与事件库四重比对，确认是10月1日已发布事件的转载，排除重复。汽配关键词公开检索缺少同ASIN、变体、收货地域、币种、税费及运费口径的连续可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
+    "action_items": [
+      {
+        "title": "核对NWD通知与品牌角色",
+        "detail": "US站逐账号检索通知，导出受影响ASIN/FNSKU并核对Brand Representative、账号连接及merchant token；异常账号在10月27日前开Case留证。",
+        "due": "今日",
+        "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
+      },
+      {
+        "title": "分站维护汽配基线",
+        "detail": "US、CA、MX分别记录ASIN、变体、收货地区、USD/CAD/MXN价格、税费、运费、Coupon和BSR；首次观察不判定变化。",
+        "due": "持续",
+        "event_key": null
+      }
+    ]
+  }
+}
