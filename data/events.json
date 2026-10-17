@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-16T01:05:00.000Z",
+  "content_updated_at": "2026-10-17T01:05:00.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -4767,6 +4767,69 @@
       "event_key": "amazon-gxd-tianjin-dongjiang-2026|formally-launch-north-china-origin-consolidation-hub|US|2026-10-13",
       "id": "evt-b25bc26bd9df7770",
       "primary_source_url": "https://www.tj.gov.cn/sy/tjxw/202610/t20261014_7630062.html"
+    },
+    {
+      "subject_key": "amazon-us-nwd-brand-gating-2026",
+      "action_key": "restrict-notified-brands-to-brand-representative-accounts",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-10-27",
+      "deadline": "2026-10-27",
+      "title": "美国站多名卖家收到NWD权限收紧通知：10月27日起仅Brand Representative可继续销售｜行业线索",
+      "summary": "多名Amazon.com卖家在Seller Central论坛展示内容一致的No Wholesale Distribution（NWD）通知：被点名品牌的商品自2026年10月27日起仅允许具备Brand Representative角色的账号继续销售；非品牌代表卖家需要在日期前处理库存。AMZ123于10月15日报道同一批通知。公开来源尚未发现Amazon面向全站发布的正式公告，因此本卡只记录收到通知的品牌和账号，不将其扩写为所有品牌或所有美国站卖家的统一新规。",
+      "impact": "收到通知的经销卖家可能面临Listing移除以及FBA库存清货、移除或弃置风险；论坛中也有自有品牌卖家称角色已正确配置仍收到通知，显示Brand Registry与销售账号角色识别可能存在同步或群发误差。现有证据仅指向Amazon.com，不能外推加拿大或墨西哥站。",
+      "action": "立即在美国站消息中心与注册邮箱检索NWD通知，导出受影响ASIN、FNSKU和库存；在Brand Registry核对销售账号是否已连接目标品牌并拥有Brand Representative角色，同时核对merchant token。已具备角色仍收到通知的账号应在10月27日前开英文Case并保存角色截图、通知、ASIN和Case记录；无授权的经销账号先与品牌方确认资格，再按毛利和时效选择清货或创建移除订单，不要等到系统处置库存。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": "2026-10-15",
+      "original_date_note": "AMZ123原文发布于2026-10-15，并称卖家于10月14日起集中收到通知；两条Amazon Seller Central卖家论坛帖在10月15日至16日前后公开，均指向2026-10-27处理/移除日期。论坛内容为卖家陈述，未发现Amazon版主确认或公开全站公告，故标注行业线索。",
+      "first_seen_at": "2026-10-17T01:05:00.000Z",
+      "last_material_update_at": "2026-10-17T01:05:00.000Z",
+      "history_dates": [
+        "2026-10-17"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.amz123.com/t/POQxCDAu",
+          "publisher": "AMZ123跨境电商",
+          "kind": "industry_original",
+          "published_at": "2026-10-15",
+          "verified_at": "2026-10-17T01:05:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry_original",
+          "canonical_url": "https://www.amz123.com/t/POQxCDAu"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f80f44ee-3f4c-4782-b2ca-1100a18af238",
+          "publisher": "Amazon Seller Central卖家论坛",
+          "kind": "seller_forum",
+          "published_at": "2026-10-16",
+          "verified_at": "2026-10-17T01:05:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "seller_post",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f80f44ee-3f4c-4782-b2ca-1100a18af238"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/56ed9f10-95a1-4db5-9ef2-63feceea0635",
+          "publisher": "Amazon Seller Central卖家论坛",
+          "kind": "seller_forum",
+          "published_at": "2026-10-15",
+          "verified_at": "2026-10-17T01:05:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "seller_post",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/56ed9f10-95a1-4db5-9ef2-63feceea0635"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27",
+      "id": "evt-21486374c121debd",
+      "primary_source_url": "https://www.amz123.com/t/POQxCDAu"
     }
   ]
 }

@@ -1,9 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "us-cpsc-amazon-products-2026-10-15|recall-or-warn-five-amazon-sold-products|US|2026-10-15",
-    "amazon-gxd-tianjin-dongjiang-2026|formally-launch-north-china-origin-consolidation-hub|US|2026-10-13",
-    "amazon-us-holiday-beauty-event-2026|run-two-week-category-promotion-with-rotating-flash-deals|US|2026-10-19"
+    "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,25 +10,13 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "完成US/CA/MX公开检索及可访问原文核验：Seller Central动态、Amazon全球开店、Amazon Ads、CPSC/FTC/CBP、Health Canada、Competition Bureau、PROFECO/SAT，以及既定行业媒体均覆盖公开入口。industry_wechat_ca与industry_wechat_mx已分别逐一检索15个include_source_ids；多数公众号仅有搜索摘要、无结果或无法公开阅读全文，故全源状态仍为public_search_only，不能宣称完整检查，8月29日至30日待补查标记继续保留。汽配关键词仅取得非连续公开结果，缺少同ASIN、变体、收货地域、币种及税费/运费口径的可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
+  "coverage_note": "完成US、CA、MX公开入口增量核验：Seller Central动态、Amazon全球开店、Amazon Ads、CPSC/FTC/CBP、Health Canada、Competition Bureau、PROFECO/SAT及既定行业媒体均按可访问范围检查。industry_wechat_ca与industry_wechat_mx分别逐一检索15个include_source_ids；多数公众号仅有搜索摘要、无结果或无法公开阅读全文，因此均记为public_search_only，不宣称完整覆盖，8月29日至30日待补查标记继续保留。10月16日行业文章提及的四类危险品问卷已与事件库四重比对，确认是10月1日已发布事件的转载，排除重复。汽配关键词公开检索缺少同ASIN、变体、收货地域、币种、税费及运费口径的连续可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
   "action_items": [
     {
-      "title": "筛查10月15日CPSC涉事SKU",
-      "detail": "按5组品牌/型号核对US站Catalog、库存、在途和历史订单；命中即停售、隔离并按对应召回或警告处理。",
+      "title": "核对NWD通知与品牌角色",
+      "detail": "US站逐账号检索通知，导出受影响ASIN/FNSKU并核对Brand Representative、账号连接及merchant token；异常账号在10月27日前开Case留证。",
       "due": "今日",
-      "event_key": "us-cpsc-amazon-products-2026-10-15|recall-or-warn-five-amazon-sold-products|US|2026-10-15"
-    },
-    {
-      "title": "核实天津GXD账户可用性",
-      "detail": "华北货源先取得US线路报价、计费和时效，再与既有头程做同批SKU总成本比较；首次报价只建基线。",
-      "due": "本周",
-      "event_key": "amazon-gxd-tianjin-dongjiang-2026|formally-launch-north-china-origin-consolidation-hub|US|2026-10-13"
-    },
-    {
-      "title": "准备Holiday Beauty Event",
-      "detail": "仅美妆、个护和健康品类核对实际Deal/Coupon/Ads资格，按48小时轮换节奏安排库存与预算。",
-      "due": "10月19日前",
-      "event_key": "amazon-us-holiday-beauty-event-2026|run-two-week-category-promotion-with-rotating-flash-deals|US|2026-10-19"
+      "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
     },
     {
       "title": "分站维护汽配基线",
@@ -40,16 +26,14 @@
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-16",
-  "content_updated_at": "2026-10-16T01:05:00.000Z",
+  "report_date": "2026-10-17",
+  "content_updated_at": "2026-10-17T01:05:00.000Z",
   "new_event_keys": [
-    "us-cpsc-amazon-products-2026-10-15|recall-or-warn-five-amazon-sold-products|US|2026-10-15",
-    "amazon-us-holiday-beauty-event-2026|run-two-week-category-promotion-with-rotating-flash-deals|US|2026-10-19",
-    "amazon-gxd-tianjin-dongjiang-2026|formally-launch-north-china-origin-consolidation-hub|US|2026-10-13"
+    "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 3,
+    "new": 1,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0
