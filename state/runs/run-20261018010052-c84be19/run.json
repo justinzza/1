@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "id": "run-20261018010052-c84be19",
+  "base_state_digest": "d015dec1f90ebd74ae84eda840fe20568dee8abcf0c5e269225fc49bdd9d0381",
+  "started_at": "2026-10-18T01:00:52.000Z",
+  "finished_at": "2026-10-18T01:05:12.000Z",
+  "material_changed": false,
+  "counts": {
+    "new": 0,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 4
+  },
+  "publication": {
+    "status": "not_needed"
+  },
+  "backfill_complete": false,
+  "deferred_metadata": null,
+  "coverage": {
+    "US": {
+      "status": "partial",
+      "note": "Tier 1/2 public sources and automotive queries checked; Seller Central login-only stream and public WeChat limitations remain."
+    },
+    "CA": {
+      "status": "partial",
+      "note": "Independent CA official/regulatory/industry/WeChat/automotive queries checked from bootstrap; public-search-only limitations remain."
+    },
+    "MX": {
+      "status": "partial",
+      "note": "Independent MX official/regulatory/industry/WeChat/automotive queries checked from bootstrap; public-search-only limitations remain."
+    }
+  },
+  "review": {
+    "title_semantic_review": "Empty candidate batch followed manual comparison of all surfaced items against the full 88-event registry and current batch by event_key, title semantics, normalized source URLs and effective date.",
+    "excluded": [
+      "NWD articles and seller discussions repeated the existing US event effective 2026-10-27.",
+      "Holiday peak fees and Amazon Business Hour Delivery Rate were already represented in the registry.",
+      "Mexico next-day cross-border delivery and US Prime/MCF off-Amazon fulfilment matched existing event cards.",
+      "Automotive third-party estimates and price pages lacked comparable marketplace-specific ASIN/variant/region/currency/tax/shipping baselines."
+    ]
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "Amazon Seller Central US：检查公开公告索引、卖家论坛及72小时重叠窗口；检出的Business Hour Delivery Rate与NWD通知均已在事件库，登录后完整公告流不可公开遍历。"
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [
+        {
+          "url": "https://globalselling.amazon.com/news/summary",
+          "note": "公开新闻中心索引检查；未发现独立新增。"
+        }
+      ],
+      "note": "Amazon全球开店新闻中心：检查公开索引与近期页面；命中的旺季费率、Prime/MCF履约等内容均已入库或属于旧资料，公开索引不等于完整栏目。"
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "Amazon Ads What's New：检查近期公开索引；命中页面为既有功能或历史页面，未发现可核验新变化，未能证明完整栏目覆盖。"
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "美国监管：检查CPSC、FTC、CBP等公开结果；未发现晚于现有记录且直接影响Amazon.com卖家的可靠增量。"
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "Amazon.ca官方公告、Amazon Ads Canada与全球开店加拿大更新：检查公开索引；旺季配送费等命中已在既有事件中，未覆盖登录后完整公告流。"
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "Amazon.com.mx官方公告、Amazon Ads Mexico与全球开店墨西哥更新：检查公开索引；美国仓次日跨境配送与税务帮助页均已入库或为旧资料，未覆盖登录后完整公告流。"
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "加拿大监管：公开检索Health Canada、Competition Bureau及税务/海关线索；未检出可核验增量，公开检索不代表完整覆盖。"
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "墨西哥监管：公开检索PROFECO、SAT及产品合规/海关线索；未检出可核验增量，公开检索不代表完整覆盖。"
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/t/POQxCDAu",
+          "note": "NWD线索已于前次发布，本次相关转载不另建卡片。"
+        }
+      ],
+      "note": "跨境头条/AMZ123：检查10月17日前后公开页面；NWD改写稿与既有10月27日事件语义相同，未重复建档。"
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "跨境快讯：检查公开网页与搜索摘要；只确认可公开索引内容，未声称完整站内覆盖。"
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "知无不言：检查公开活动页、社区索引和摘要；登录内容未绕过，未检出可核验独立增量。"
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/kx/3fdW1pDC",
+          "note": "大促档期信息为已知活动安排，不构成新变化。"
+        }
+      ],
+      "note": "TT123卖家导航：检查公开页面与快讯索引；命中大促日历和导航内容不构成新的平台变化。"
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "品牌方舟：检查公开首页与文章索引；近期内容未发现直接影响US/CA/MX Amazon运营的可靠增量。"
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "卖家之家：检查公开页面和搜索摘要；NWD等改标题转载与现有事件相同，未重复建档。"
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "大宝站外推广：逐一公开检索；未找到可无需登录完整核验的新文章，仅公开摘要/无结果。"
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "葫芦娃站外推广：逐一公开检索；未找到可无需登录完整核验的新文章，仅公开摘要/无结果。"
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "三头六臂跨境电商：逐一公开检索；未找到可无需登录完整核验的新文章，仅公开摘要/无结果。"
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "跨境头条对应公众号：公开检索并核对账号线索；未取得可公开阅读全文的新证据。"
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "跨境快讯对应公众号：公开检索并核对账号线索；未取得可公开阅读全文的新证据。"
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "知无不言对应公众号：公开检索并核对账号线索；未取得可公开阅读全文的新证据。"
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "TT123卖家导航对应公众号：公开检索并核对账号线索；未取得可公开阅读全文的新证据。"
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "品牌方舟对应公众号：公开检索并核对账号线索；未取得可公开阅读全文的新证据。"
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "卖家之家对应公众号：公开检索并核对账号线索；未取得可公开阅读全文的新证据。"
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [
+        {
+          "url": "https://pricehistory.app/p/evil-energy-6an-hose-end-fitting-straight-qoW59IIm",
+          "note": "第三方价格历史样本缺少统一收货地区、税费和运费口径，仅作公开线索，不认定变化。"
+        }
+      ],
+      "note": "Amazon.com汽配重点词：检查fuel line、CPE braided fuel hose、AN fittings、exhaust clamp公开结果；第三方估算及价格页缺少同ASIN/变体/地域/税费运费口径的连续基线，不判定变化。"
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "加拿大行业媒体/公众号：逐一使用CA/Amazon.ca词检查15个include_source_ids（6个行业站+9个公众号）；多数仅有搜索摘要或无结果，独立CA游标不推进。"
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "墨西哥行业媒体/公众号：逐一使用MX/Amazon.com.mx/México词检查15个include_source_ids（6个行业站+9个公众号）；多数仅有搜索摘要或无结果，独立MX游标不推进。"
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "Amazon.ca汽配重点词：公开检索未取得同ASIN、变体、收货地域、CAD税费/运费口径的连续可比快照；首次观察不判定变化。"
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-18T01:05:12.000Z",
+      "evidence": [],
+      "note": "Amazon.com.mx汽配重点词：公开检索未取得同ASIN、变体、收货地域、MXN税费/运费口径的连续可比快照；首次观察不判定变化。"
+    }
+  ]
+}
