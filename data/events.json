@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-19T01:28:00.000Z",
+  "content_updated_at": "2026-10-19T01:16:00.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -2675,7 +2675,7 @@
           "publisher": "AMZ123跨境电商",
           "kind": "aggregator",
           "published_at": "2026-10-14",
-          "verified_at": "2026-10-19T01:28:00.000Z",
+          "verified_at": "2026-10-19T01:16:00.000Z",
           "supports_event": true,
           "authority_confirmed": false,
           "claimed_kind": "industry_aggregation",
@@ -4858,8 +4858,8 @@
       "priority": "P1",
       "original_published_at": "2026-09-29",
       "original_date_note": "Amazon Selling Partners官方Accelerate 2026回顾发布于2026-09-29；原文只给出美国站在2026年底前完成覆盖的路线节点，没有单一启用日，因此effective_date保留null，并把2026-12-31作为覆盖目标截止节点。2027年全球扩展未给出CA/MX落地日，本卡当前仅标记US。",
-      "first_seen_at": "2026-10-19T01:28:00.000Z",
-      "last_material_update_at": "2026-10-19T01:28:00.000Z",
+      "first_seen_at": "2026-10-19T01:16:00.000Z",
+      "last_material_update_at": "2026-10-19T01:16:00.000Z",
       "history_dates": [
         "2026-10-19"
       ],
@@ -4870,7 +4870,7 @@
           "publisher": "Amazon Selling Partners",
           "kind": "official",
           "published_at": "2026-09-29",
-          "verified_at": "2026-10-19T01:28:00.000Z",
+          "verified_at": "2026-10-19T01:16:00.000Z",
           "supports_event": true,
           "authority_confirmed": true,
           "claimed_kind": "official",
