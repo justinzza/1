@@ -1,0 +1,458 @@
+{
+  "id": "run-20261019010417-6e91b72",
+  "base_state_digest": "7c48bdd9e046a902e627ecc004fd5f86f5d614c3a6cad5a9ae85b45f2857785c",
+  "started_at": "2026-10-19T01:04:17.000Z",
+  "finished_at": "2026-10-19T01:20:00.000Z",
+  "material_changed": true,
+  "backfill_complete": false,
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查公开Seller Central动态和官方作者页面；危险品问卷为已发布事件，Listing Protection线索转由Amazon官方Accelerate原文核验。Seller Central索引并非完整可枚举新闻流，故仅记公开搜索覆盖。",
+      "queries_checked": [
+        "site:sellercentral.amazon.com News and Announcements"
+      ],
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/ad12f62b-df95-42bf-a342-10fd3ddad196",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查Amazon全球开店公开新闻与Amazon Selling Partners官方更新；核验Listing Protection美国AHA覆盖路线。公开索引无法证明所有地区文章均被枚举。",
+      "queries_checked": [
+        "site:globalselling.amazon.com 新闻 公告"
+      ],
+      "evidence": [
+        {
+          "url": "https://sellingpartners.aboutamazon.com/accelerate-2026-recap",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查Amazon Ads What’s New公开索引及US/CA/MX相关查询；未发现可直接支持的新变化，但动态索引覆盖不完整。",
+      "queries_checked": [
+        "site:advertising.amazon.com whats-new"
+      ],
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按站点检查产品安全、税务、海关、消费者保护等监管机构公开结果；未发现达到收录标准的可靠增量，检索不等于完整机构数据库检查。",
+      "queries_checked": [
+        "Amazon seller United States CPSC FTC CBP IRS USPTO regulation"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cpsc.gov/Recalls",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查该行业来源的公开索引与Amazon相关增量；发现的危险品问卷转载已与既有多站事件四重匹配，只合并来源并排除重复。公开索引不保证完整文章覆盖。",
+      "queries_checked": [
+        "site:sellercentral.amazon.ca News and Announcements",
+        "site:advertising.amazon.com whats-new Canada",
+        "site:globalselling.amazon.com 加拿大"
+      ],
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查该行业来源的公开索引与Amazon相关增量；发现的危险品问卷转载已与既有多站事件四重匹配，只合并来源并排除重复。公开索引不保证完整文章覆盖。",
+      "queries_checked": [
+        "site:sellercentral.amazon.com.mx noticias anuncios News_Amazon",
+        "site:advertising.amazon.com whats-new Mexico",
+        "site:globalselling.amazon.com 墨西哥"
+      ],
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com.mx/seller-forums",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按站点检查产品安全、税务、海关、消费者保护等监管机构公开结果；未发现达到收录标准的可靠增量，检索不等于完整机构数据库检查。",
+      "queries_checked": [
+        "Amazon Canada seller regulatory tax customs product safety official"
+      ],
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按站点检查产品安全、税务、海关、消费者保护等监管机构公开结果；未发现达到收录标准的可靠增量，检索不等于完整机构数据库检查。",
+      "queries_checked": [
+        "Amazon México vendedores impuestos aduanas cumplimiento normativa oficial"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.gob.mx/profeco",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查该行业来源的公开索引与Amazon相关增量；发现的危险品问卷转载已与既有多站事件四重匹配，只合并来源并排除重复。公开索引不保证完整文章覆盖。",
+      "queries_checked": [
+        "跨境头条 亚马逊"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.chwang.com/",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查该行业来源的公开索引与Amazon相关增量；发现的危险品问卷转载已与既有多站事件四重匹配，只合并来源并排除重复。公开索引不保证完整文章覆盖。",
+      "queries_checked": [
+        "跨境快讯 亚马逊"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查该行业来源的公开索引与Amazon相关增量；发现的危险品问卷转载已与既有多站事件四重匹配，只合并来源并排除重复。公开索引不保证完整文章覆盖。",
+      "queries_checked": [
+        "知无不言 亚马逊"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wearesellers.com/",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查该行业来源的公开索引与Amazon相关增量；发现的危险品问卷转载已与既有多站事件四重匹配，只合并来源并排除重复。公开索引不保证完整文章覆盖。",
+      "queries_checked": [
+        "TT123 卖家导航 亚马逊"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查该行业来源的公开索引与Amazon相关增量；发现的危险品问卷转载已与既有多站事件四重匹配，只合并来源并排除重复。公开索引不保证完整文章覆盖。",
+      "queries_checked": [
+        "品牌方舟 亚马逊"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "检查该行业来源的公开索引与Amazon相关增量；发现的危险品问卷转载已与既有多站事件四重匹配，只合并来源并排除重复。公开索引不保证完整文章覆盖。",
+      "queries_checked": [
+        "卖家之家 亚马逊"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.sellerhome.com/",
+          "note": "本轮公开检查入口或直接核验页面"
+        }
+      ],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按指定公众号名称与Amazon关键词逐项检索公开可访问结果；未取得可公开阅读全文的可靠新增，未登录、未绕过验证码或访问限制。",
+      "queries_checked": [
+        "site:mp.weixin.qq.com 大宝站外推广"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按指定公众号名称与Amazon关键词逐项检索公开可访问结果；未取得可公开阅读全文的可靠新增，未登录、未绕过验证码或访问限制。",
+      "queries_checked": [
+        "site:mp.weixin.qq.com 葫芦娃站外推广"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按指定公众号名称与Amazon关键词逐项检索公开可访问结果；未取得可公开阅读全文的可靠新增，未登录、未绕过验证码或访问限制。",
+      "queries_checked": [
+        "site:mp.weixin.qq.com 三头六臂跨境电商"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按指定公众号名称与Amazon关键词逐项检索公开可访问结果；未取得可公开阅读全文的可靠新增，未登录、未绕过验证码或访问限制。",
+      "queries_checked": [
+        "site:mp.weixin.qq.com 跨境头条 亚马逊"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按指定公众号名称与Amazon关键词逐项检索公开可访问结果；未取得可公开阅读全文的可靠新增，未登录、未绕过验证码或访问限制。",
+      "queries_checked": [
+        "site:mp.weixin.qq.com 跨境快讯 亚马逊"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按指定公众号名称与Amazon关键词逐项检索公开可访问结果；未取得可公开阅读全文的可靠新增，未登录、未绕过验证码或访问限制。",
+      "queries_checked": [
+        "site:mp.weixin.qq.com 知无不言 亚马逊"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按指定公众号名称与Amazon关键词逐项检索公开可访问结果；未取得可公开阅读全文的可靠新增，未登录、未绕过验证码或访问限制。",
+      "queries_checked": [
+        "site:mp.weixin.qq.com TT123 卖家导航"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按指定公众号名称与Amazon关键词逐项检索公开可访问结果；未取得可公开阅读全文的可靠新增，未登录、未绕过验证码或访问限制。",
+      "queries_checked": [
+        "site:mp.weixin.qq.com 品牌方舟 亚马逊"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按指定公众号名称与Amazon关键词逐项检索公开可访问结果；未取得可公开阅读全文的可靠新增，未登录、未绕过验证码或访问限制。",
+      "queries_checked": [
+        "site:mp.weixin.qq.com 卖家之家 亚马逊"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按对应站点检查燃油管、CPE编织油管、AN接头、排气卡箍关键词与公开竞品样本；缺少同ASIN、变体、地区、币种、税费、运费和时间的连续可比基线，首次观察不判定变化。",
+      "queries_checked": [
+        "site:amazon.com fuel hose CPE braided AN fittings exhaust clamp"
+      ],
+      "evidence": [],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "逐一检索include_source_ids全部15个来源：crossborder_headlines、crossborder_briefs、wearesellers、tt123、brand_ark、seller_home、wechat_dabao、wechat_huluwa、wechat_santou、wechat_crossborder_headlines、wechat_crossborder_briefs、wechat_wearesellers、wechat_tt123、wechat_brand_ark、wechat_seller_home。部分仅有摘要、无结果或正文受公开访问限制；未登录、未绕过限制，因此状态为public_search_only。",
+      "queries_checked": [
+        "亚马逊 加拿大站 Amazon.ca 加拿大"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "逐一检索include_source_ids全部15个来源：crossborder_headlines、crossborder_briefs、wearesellers、tt123、brand_ark、seller_home、wechat_dabao、wechat_huluwa、wechat_santou、wechat_crossborder_headlines、wechat_crossborder_briefs、wechat_wearesellers、wechat_tt123、wechat_brand_ark、wechat_seller_home。部分仅有摘要、无结果或正文受公开访问限制；未登录、未绕过限制，因此状态为public_search_only。",
+      "queries_checked": [
+        "亚马逊 墨西哥站 Amazon.com.mx México"
+      ],
+      "evidence": [],
+      "failure_reason": "公开检索结果不完整，部分正文不可公开访问"
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按对应站点检查燃油管、CPE编织油管、AN接头、排气卡箍关键词与公开竞品样本；缺少同ASIN、变体、地区、币种、税费、运费和时间的连续可比基线，首次观察不判定变化。",
+      "queries_checked": [
+        "site:amazon.ca fuel hose CPE braided AN fittings exhaust clamp"
+      ],
+      "evidence": [],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-19T01:20:00.000Z",
+      "note": "按对应站点检查燃油管、CPE编织油管、AN接头、排气卡箍关键词与公开竞品样本；缺少同ASIN、变体、地区、币种、税费、运费和时间的连续可比基线，首次观察不判定变化。",
+      "queries_checked": [
+        "site:amazon.com.mx manguera combustible CPE conexiones AN abrazadera escape"
+      ],
+      "evidence": [],
+      "failure_reason": "公开搜索/索引无法证明全量枚举，不能推进成功游标"
+    }
+  ],
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 1,
+    "deduplicated": 1
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "2155fc58cbfc869a941510f23b13bc1cda4e5410",
+    "expected_digest": "729671263e3c786d9e29696373777233e6a2cb91f3c0fde4b25f83397e5b4572",
+    "observed_digest": "729671263e3c786d9e29696373777233e6a2cb91f3c0fde4b25f83397e5b4572",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "verified_at": "2026-10-19T01:20:00.000Z",
+    "vercel_deployment_id": "dpl_88VJ4wyWet2vEK3qu1URLUnR5246",
+    "vercel_state": "READY",
+    "observed_title": "亚马逊运营雷达",
+    "observed_event_key": "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown",
+    "daily_briefing_absent": true
+  },
+  "summary": {
+    "markets": {
+      "US": "partial",
+      "CA": "partial",
+      "MX": "partial"
+    },
+    "new_event_keys": [
+      "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown"
+    ],
+    "updated_event_keys": [],
+    "merged_event_keys": [
+      "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26"
+    ],
+    "deduplicated_reasons": [
+      "10月14日行业转载与10月1日危险品问卷多站卡片主体、动作、站点和生效日一致"
+    ],
+    "tests": "22 passed; page/data consistency passed"
+  }
+}
