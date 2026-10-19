@@ -1,15 +1,12 @@
 {
   "schema_version": 1,
-  "run_id": "run-20261018010052-c84be19",
-  "status": "released",
-  "acquired_at": "2026-10-18T01:00:52.000Z",
-  "expires_at": "2026-10-18T02:30:52.000Z",
-  "previous_radar_state_head": "4b25a44b2d15ebadbf74467923f832c110879aa0",
+  "run_id": "run-20261019010417-6e91b72",
+  "status": "active",
+  "acquired_at": "2026-10-19T01:04:17.000Z",
+  "expires_at": "2026-10-19T02:34:17.000Z",
+  "previous_radar_state_head": "bb117f7a1abb64ffe808bd37b8aa398915f1d967",
   "takeover_reason": null,
-  "released_at": "2026-10-18T01:05:12.000Z",
-  "release_run_record": "state/runs/run-20261018010052-c84be19/run.json",
-  "publication": {
-    "status": "not_needed",
-    "reason": "No new or materially updated event; main and production were intentionally unchanged."
-  }
+  "released_at": null,
+  "release_run_record": null,
+  "publication": null
 }
