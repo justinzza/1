@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261019010417-6e91b72",
+  "status": "prepared",
+  "prepared_at": "2026-10-19T01:30:00.000Z",
+  "base_main_sha": "2ece7f8db84e67633db5438d1ea42a1bdb0b3cdf",
+  "base_events_digest": "f807edddf7ad05276474354b509782e5af522ebfda00a504cdb79943b566fdd7",
+  "expected": {
+    "content_digest": "01366e41f23ef428978448ff6d2da485b0021f013047fa1fa2afa5f71ba18805",
+    "index_sha256": "c22f81fb1a14b157d26c5def485b3ddfc3dc8de861e7a4a3e7d7065d124f79b7",
+    "events_file_sha256": "9b1ca86482987c9906a2edf096db3035f78d62a8b0b0406d39b052cc4aec333b",
+    "report_file_sha256": "13816c3bf309b1f07c8369a50ee262759e57949502ced78742350f9f00fe09ff",
+    "events_registry_digest": "9074a743b82d82c1ee119cc6a73ab2546e326a443332fb9e9ab4d0697a2d2a42",
+    "event_count": 89
+  },
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 1,
+    "deduplicated": 1
+  },
+  "new_event_keys": [
+    "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown"
+  ],
+  "updated_event_keys": [],
+  "tests": {
+    "node_tests": "22 passed",
+    "data_page_consistency": "passed"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "base_digest": "f807edddf7ad05276474354b509782e5af522ebfda00a504cdb79943b566fdd7",
+  "checked_at": "2026-10-19T01:28:00.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-listing-protection",
+        "action_key": "keep-most-aha-listings-active-during-compliance-review",
+        "marketplaces": ["US"],
+        "effective_date": null,
+        "deadline": "2026-12-31",
+        "title": "Amazon计划年底前向全美AHA卖家开放Listing Protection，合规复核期间多数商品保持在售",
+        "summary": "Amazon在Accelerate 2026官方回顾中公布，Listing Protection计划于2026年底前覆盖美国所有Account Health Assurance（AHA）卖家，并在2027年扩展至全球。符合条件的Listing被系统标记潜在违规时，Amazon将给出处理步骤或申诉入口；在多数情况下，商品会在Amazon作出决定前保持在售。官方没有公布美国站的单一启用日，也未确认加拿大或墨西哥站的具体上线时间。",
+        "impact": "这项机制可降低AHA卖家因待审合规问题而立即丢失流量和销售的风险，但它并非违规豁免，也不保证所有Listing在调查期间持续销售。当前直接证据只确认美国AHA卖家在年底前覆盖，不能把2027年全球路线提前当作CA或MX已上线。",
+        "action": "美国站团队先在Account Health页面确认账号是否已具备AHA资格，并记录Listing Protection入口、受保护ASIN、问题类型、整改步骤和申诉时限；对被标记商品仍按通知要求及时补交资料，不因Listing暂时在线而延迟处理。加拿大与墨西哥团队只记录官方路线，不改变现有合规流程，待当地明确上线证据后再更新。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": "2026-09-29",
+        "original_date_note": "Amazon Selling Partners官方Accelerate 2026回顾发布于2026-09-29；原文只给出美国站在2026年底前完成覆盖的路线节点，没有单一启用日，因此effective_date保留null，并把2026-12-31作为覆盖目标截止节点。2027年全球扩展未给出CA/MX落地日，本卡当前仅标记US。",
+        "first_seen_at": "2026-10-19T01:28:00.000Z",
+        "last_material_update_at": "2026-10-19T01:28:00.000Z",
+        "history_dates": ["2026-10-19"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://sellingpartners.aboutamazon.com/accelerate-2026-recap",
+            "publisher": "Amazon Selling Partners",
+            "kind": "official",
+            "published_at": "2026-09-29",
+            "verified_at": "2026-10-19T01:28:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "f807edddf7ad05276474354b509782e5af522ebfda00a504cdb79943b566fdd7",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "逐条检查88条事件的event_key、标题语义、规范化来源链接和生效日期；现有事件没有Listing Protection或AHA复核期间保持Listing在售的同义事件。本批另一候选是既有危险品问卷转载，主体、动作和日期均不同。",
+        "matches_event_key": null,
+        "distinct_event_reason": "官方Accelerate回顾同页包含多项产品路线，但本卡只记录Listing Protection；它与事件库中的FBM迟发货Offer停用、NWD品牌权限和Account Health历史记录均为不同机制。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-na-dangerous-goods-listings",
+        "action_key": "require-new-category-compliance-questions-2026",
+        "marketplaces": ["CA", "MX", "US"],
+        "effective_date": "2026-10-26",
+        "deadline": null,
+        "title": "美加墨站10月26日起新增四类危险品Listing必答字段",
+        "summary": "Amazon Seller Central官方公告确认，自2026年10月26日起，在美国、加拿大和墨西哥站新建或编辑指定类目Listing时，必须回答新的危险品合规问题。范围包括冰箱、空调、冷冻柜等制冷设备的制冷剂属性；减震器和悬架举升支撑件的减震机制；记号笔与书写工具的墨水属性；泳池及SPA水处理产品的化学成分与包装。公告明确这些问题会在下一次创建或编辑Listing时出现。",
+        "impact": "汽配卖家中的减震器、悬架支撑件直接命中；回答不准确或不完整可能拖延Listing上线，并影响可用配送方式或产生不必要的危险品处置费用。三站公告的变化动作和生效日期一致，因此合并为一张多站卡片；不能据此扩大到燃油管、AN接头或排气卡箍。",
+        "action": "在10月26日前筛出US、CA、MX站涉及制冷设备、减震器/悬架支撑件、书写工具和泳池化学品的ASIN；准备制冷剂、结构机制、墨水和化学成分/包装资料。编辑Listing前先在测试SKU核对必答字段，并保存站点、ASIN、字段与提交结果。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-09-27",
+        "original_date_note": "US、CA、MX Seller Central公告均在2026-09-27至28日前后公开，生效日一致为2026-10-26；公告中关于既有Listing无需提前操作的日期表述存在模板不一致，未把该异常日期作为截止日。",
+        "first_seen_at": "2026-10-01T01:10:00.000Z",
+        "last_material_update_at": "2026-10-01T01:10:00.000Z",
+        "history_dates": ["2026-10-01"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/ad12f62b-df95-42bf-a342-10fd3ddad196",
+            "publisher": "Amazon Seller Central US",
+            "kind": "official",
+            "published_at": "2026-09-28",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          },
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/9d989276-cb81-40ed-a9d7-2967f2415116",
+            "publisher": "Amazon Seller Central CA",
+            "kind": "official",
+            "published_at": "2026-09-27",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          },
+          {
+            "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/03c50d23-ac2b-45a8-9dd9-7a3e3b44c401",
+            "publisher": "Amazon Seller Central MX",
+            "kind": "official",
+            "published_at": "2026-09-28",
+            "verified_at": "2026-10-01T01:10:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          },
+          {
+            "url": "https://www.amz123.com/t/gt26nKaO",
+            "publisher": "AMZ123跨境电商",
+            "kind": "aggregator",
+            "published_at": "2026-10-14",
+            "verified_at": "2026-10-19T01:28:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry_aggregation"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "f807edddf7ad05276474354b509782e5af522ebfda00a504cdb79943b566fdd7",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "10月14日行业文章与10月1日已发布多站卡片在核心主体、四类问卷动作、US/CA/MX适用范围和10月26日生效日完全一致；仅合并迟到转载来源，不新建卡片、不改新闻日期。",
+        "matches_event_key": "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26"
+      }
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "完成US、CA、MX公开入口增量核验：Seller Central动态、Amazon全球开店、Amazon Ads、CPSC/FTC/CBP、Health Canada/Competition Bureau、PROFECO/SAT及既定行业媒体均按可访问范围检查。industry_wechat_ca与industry_wechat_mx分别逐一检索全部15个include_source_ids；US指定公众号及行业媒体公众号也逐项检索。多数公众号只有搜索摘要、无结果或无法公开阅读全文，因此记录为public_search_only，不宣称完整覆盖，8月29日至30日待补查标记继续保留。10月14日行业文章所述四类危险品问卷与10月1日多站事件四重匹配，本次只合并来源并排除重复。汽配关键词公开检索缺少同ASIN、变体、收货地域、币种、税费与运费口径的连续可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
+    "action_items": [
+      {
+        "title": "确认美国站AHA与Listing Protection状态",
+        "detail": "逐账号检查Account Health Assurance资格及Listing Protection入口；保存受保护ASIN、问题类型、整改步骤和申诉时限，被标记后仍按通知及时补交资料。",
+        "due": "今日",
+        "event_key": "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown"
+      },
+      {
+        "title": "准备10月26日危险品Listing字段",
+        "detail": "US/CA/MX分别筛查制冷设备、减震器/悬架支撑件、书写工具和泳池化学品ASIN，编辑前准备并复核合规属性。",
+        "due": "2026-10-26前",
+        "event_key": "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26"
+      },
+      {
+        "title": "分站维护汽配可比基线",
+        "detail": "US、CA、MX分别记录ASIN、变体、收货地区、USD/CAD/MXN价格、税费、运费、Coupon和BSR；首次观察不判定变化。",
+        "due": "持续",
+        "event_key": null
+      }
+    ]
+  }
+}
