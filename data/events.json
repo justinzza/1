@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-17T01:05:00.000Z",
+  "content_updated_at": "2026-10-19T01:28:00.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -2669,6 +2669,17 @@
           "authority_confirmed": true,
           "claimed_kind": "official",
           "canonical_url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/03c50d23-ac2b-45a8-9dd9-7a3e3b44c401"
+        },
+        {
+          "url": "https://www.amz123.com/t/gt26nKaO",
+          "publisher": "AMZ123跨境电商",
+          "kind": "aggregator",
+          "published_at": "2026-10-14",
+          "verified_at": "2026-10-19T01:28:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry_aggregation",
+          "canonical_url": "https://www.amz123.com/t/gt26nKaO"
         }
       ],
       "first_seen_at": "2026-10-01T01:10:00.000Z",
@@ -4830,6 +4841,47 @@
       "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27",
       "id": "evt-21486374c121debd",
       "primary_source_url": "https://www.amz123.com/t/POQxCDAu"
+    },
+    {
+      "subject_key": "amazon-us-listing-protection",
+      "action_key": "keep-most-aha-listings-active-during-compliance-review",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": "2026-12-31",
+      "title": "Amazon计划年底前向全美AHA卖家开放Listing Protection，合规复核期间多数商品保持在售",
+      "summary": "Amazon在Accelerate 2026官方回顾中公布，Listing Protection计划于2026年底前覆盖美国所有Account Health Assurance（AHA）卖家，并在2027年扩展至全球。符合条件的Listing被系统标记潜在违规时，Amazon将给出处理步骤或申诉入口；在多数情况下，商品会在Amazon作出决定前保持在售。官方没有公布美国站的单一启用日，也未确认加拿大或墨西哥站的具体上线时间。",
+      "impact": "这项机制可降低AHA卖家因待审合规问题而立即丢失流量和销售的风险，但它并非违规豁免，也不保证所有Listing在调查期间持续销售。当前直接证据只确认美国AHA卖家在年底前覆盖，不能把2027年全球路线提前当作CA或MX已上线。",
+      "action": "美国站团队先在Account Health页面确认账号是否已具备AHA资格，并记录Listing Protection入口、受保护ASIN、问题类型、整改步骤和申诉时限；对被标记商品仍按通知要求及时补交资料，不因Listing暂时在线而延迟处理。加拿大与墨西哥团队只记录官方路线，不改变现有合规流程，待当地明确上线证据后再更新。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-09-29",
+      "original_date_note": "Amazon Selling Partners官方Accelerate 2026回顾发布于2026-09-29；原文只给出美国站在2026年底前完成覆盖的路线节点，没有单一启用日，因此effective_date保留null，并把2026-12-31作为覆盖目标截止节点。2027年全球扩展未给出CA/MX落地日，本卡当前仅标记US。",
+      "first_seen_at": "2026-10-19T01:28:00.000Z",
+      "last_material_update_at": "2026-10-19T01:28:00.000Z",
+      "history_dates": [
+        "2026-10-19"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://sellingpartners.aboutamazon.com/accelerate-2026-recap",
+          "publisher": "Amazon Selling Partners",
+          "kind": "official",
+          "published_at": "2026-09-29",
+          "verified_at": "2026-10-19T01:28:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellingpartners.aboutamazon.com/accelerate-2026-recap"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown",
+      "id": "evt-a8c79b7db67386b7",
+      "primary_source_url": "https://sellingpartners.aboutamazon.com/accelerate-2026-recap"
     }
   ]
 }
