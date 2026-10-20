@@ -1,7 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown"
+    "us-cbp-entry-type-13|extend-mandatory-compliance-deadline-2026|US|2027-01-20",
+    "us-cbp-low-value-shipments|propose-electronic-filing-bond-and-entry-type-13-rules-2026|US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -10,19 +11,19 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "完成US、CA、MX公开入口增量核验：Seller Central动态、Amazon全球开店、Amazon Ads、CPSC/FTC/CBP、Health Canada/Competition Bureau、PROFECO/SAT及既定行业媒体均按可访问范围检查。industry_wechat_ca与industry_wechat_mx分别逐一检索全部15个include_source_ids；US指定公众号及行业媒体公众号也逐项检索。多数公众号只有搜索摘要、无结果或无法公开阅读全文，因此记录为public_search_only，不宣称完整覆盖，8月29日至30日待补查标记继续保留。10月14日行业文章所述四类危险品问卷与10月1日多站事件四重匹配，本次只合并来源并排除重复。汽配关键词公开检索缺少同ASIN、变体、收货地域、币种、税费与运费口径的连续可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
+  "coverage_note": "完成US、CA、MX公开入口增量核验：Seller Central动态、Amazon全球开店、Amazon Ads、CBP/CPSC及加墨监管公开页按可访问范围检查；既定行业媒体与US指定公众号逐项检索。industry_wechat_ca与industry_wechat_mx分别逐一检索全部15个include_source_ids。公众号多数只有公开搜索摘要、无结果或无法阅读全文，均记为public_search_only，不宣称完整覆盖，8月29日至30日待补查标记继续保留。汽配关键词与竞品公开检索未形成同站点、同ASIN、同变体、同收货地域及同税费/运费口径的连续可比快照，未据此生成价格、Coupon、BSR或关键词变化结论。",
   "action_items": [
     {
-      "title": "确认美国站AHA与Listing Protection状态",
-      "detail": "逐账号检查Account Health Assurance资格及Listing Protection入口；保存受保护ASIN、问题类型、整改步骤和申诉时限，被标记后仍按通知及时补交资料。",
-      "due": "今日",
-      "event_key": "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown"
+      "title": "核对美国邮政进口Entry Type 13准备",
+      "detail": "逐线路确认是否涉及Section 201/232/301或PGA监管，并与报关行核对IOR、10位HTSUS、追踪号、ACE数据和bond责任。",
+      "due": "2027-01-20前",
+      "event_key": "us-cbp-entry-type-13|extend-mandatory-compliance-deadline-2026|US|2027-01-20"
     },
     {
-      "title": "准备10月26日危险品Listing字段",
-      "detail": "US/CA/MX分别筛查制冷设备、减震器/悬架支撑件、书写工具和泳池化学品ASIN，编辑前准备并复核合规属性。",
-      "due": "2026-10-26前",
-      "event_key": "amazon-na-dangerous-goods-listings|require-new-category-compliance-questions-2026|CA+MX+US|2026-10-26"
+      "title": "评估CBP低价值包裹拟议规则",
+      "detail": "梳理2,500美元及以下美国进口包裹的Entry Type 11/13、电子申报和保证金成本；如受影响，可向USCBP-2026-0298提交有数据支持的意见。",
+      "due": "2026-12-07前",
+      "event_key": "us-cbp-low-value-shipments|propose-electronic-filing-bond-and-entry-type-13-rules-2026|US|unknown"
     },
     {
       "title": "分站维护汽配可比基线",
@@ -32,16 +33,17 @@
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-19",
-  "content_updated_at": "2026-10-19T01:16:00.000Z",
+  "report_date": "2026-10-20",
+  "content_updated_at": "2026-10-20T01:12:00.000Z",
   "new_event_keys": [
-    "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown"
+    "us-cbp-entry-type-13|extend-mandatory-compliance-deadline-2026|US|2027-01-20",
+    "us-cbp-low-value-shipments|propose-electronic-filing-bond-and-entry-type-13-rules-2026|US|unknown"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 1,
+    "new": 2,
     "updated": 0,
-    "merged": 1,
-    "deduplicated": 1
+    "merged": 0,
+    "deduplicated": 0
   }
 }

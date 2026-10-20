@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-19T01:16:00.000Z",
+  "content_updated_at": "2026-10-20T01:12:00.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -4882,6 +4882,97 @@
       "event_key": "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown",
       "id": "evt-a8c79b7db67386b7",
       "primary_source_url": "https://sellingpartners.aboutamazon.com/accelerate-2026-recap"
+    },
+    {
+      "subject_key": "us-cbp-entry-type-13",
+      "action_key": "extend-mandatory-compliance-deadline-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2027-01-20",
+      "deadline": "2027-01-20",
+      "title": "美国CBP将国际邮件Entry Type 13强制合规日延至2027年1月20日",
+      "summary": "美国海关与边境保护局（CBP）将国际邮件电子非正式申报 Entry Type 13 的强制合规日从2026年10月22日延后90天至2027年1月20日。该流程针对受Section 201/232/301关税或Partner Government Agency（PGA）管辖的相关国际邮政包裹；过渡期内仍鼓励自愿使用。",
+      "impact": "使用国际邮政渠道进入美国的卖家及物流商获得额外准备期，但延期不等于恢复de minimis免税，也未取消ACE电子申报、进口商身份、海关编码和保证金等准备事项。",
+      "action": "逐条识别美国邮政进口线路是否涉及Section 201/232/301或PGA监管；与报关行、邮政承运商确认IOR、10位HTSUS、追踪号、ACE数据和bond责任，按2027年1月20日前完成联调。",
+      "priority": "P0",
+      "category": "policy",
+      "original_published_at": "2026-10-14",
+      "original_date_note": "CBP新闻稿日期为2026-10-14；官方页面本次直读返回403，但其固定链接、延期日期和适用范围由Reuters及Expeditors公开报道交叉核验。",
+      "first_seen_at": "2026-10-20T01:12:00.000Z",
+      "last_material_update_at": "2026-10-20T01:12:00.000Z",
+      "verification_status": "reviewed",
+      "history_dates": [
+        "2026-10-20"
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.cbp.gov/newsroom/national-media-release/international-mail-entry-type-13-mandatory-implementation-date",
+          "publisher": "U.S. Customs and Border Protection",
+          "kind": "regulator",
+          "published_at": "2026-10-14",
+          "verified_at": "2026-10-20T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "access_note": "官方页面直读403；通过Reuters及Expeditors对同一CBP新闻稿、固定URL和关键日期交叉核验。",
+          "canonical_url": "https://www.cbp.gov/newsroom/national-media-release/international-mail-entry-type-13-mandatory-implementation-date"
+        },
+        {
+          "url": "https://www.reuters.com/legal/government/us-delays-small-imports-rule-that-raised-alarm-over-prescription-drug-costs-2026-10-15/",
+          "publisher": "Reuters",
+          "kind": "industry_original",
+          "published_at": "2026-10-15",
+          "verified_at": "2026-10-20T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "canonical_url": "https://www.reuters.com/legal/government/us-delays-small-imports-rule-that-raised-alarm-over-prescription-drug-costs-2026-10-15"
+        }
+      ],
+      "event_key": "us-cbp-entry-type-13|extend-mandatory-compliance-deadline-2026|US|2027-01-20",
+      "id": "evt-5cda39ec62dc2cdb",
+      "primary_source_url": "https://www.cbp.gov/newsroom/national-media-release/international-mail-entry-type-13-mandatory-implementation-date"
+    },
+    {
+      "subject_key": "us-cbp-low-value-shipments",
+      "action_key": "propose-electronic-filing-bond-and-entry-type-13-rules-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": "2026-12-07",
+      "title": "美国CBP拟收紧2,500美元以下低价值包裹申报：电子申报、保证金与Entry Type 13",
+      "summary": "CBP于2026年10月8日发布拟议规则，拟要求价值2,500美元及以下的informal entry在进口日或之前电子提交；为国际邮件建立Entry Type 13，并增加承运商追踪号数据及部分保证金要求。意见提交截止2026年12月7日；目前属于Notice of Proposed Rulemaking，尚未作为最终规则生效。",
+      "impact": "若最终规则落地，原de minimis取消后进入美国的低价值包裹将更依赖ACE数据、持牌报关行、保证金和按时申报，邮政线路、低客单直发及受PGA监管的汽配相关商品需提前评估成本与责任。",
+      "action": "按美国进口线路梳理不超过2,500美元的包裹、IOR与报关行安排；让物流商模拟Entry Type 11/13数据、bond和追踪号匹配。若规则将显著增加成本，可在2026年12月7日前向USCBP-2026-0298提交有数据支持的意见。",
+      "priority": "P1",
+      "category": "policy",
+      "original_published_at": "2026-10-08",
+      "original_date_note": "Federal Register于2026-10-08发布NPRM；意见截止2026-12-07，未公布最终生效日期。",
+      "first_seen_at": "2026-10-20T01:12:00.000Z",
+      "last_material_update_at": "2026-10-20T01:12:00.000Z",
+      "verification_status": "reviewed",
+      "history_dates": [
+        "2026-10-20"
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20650/low-value-shipments",
+          "publisher": "U.S. Customs and Border Protection / Federal Register",
+          "kind": "regulator",
+          "published_at": "2026-10-08",
+          "verified_at": "2026-10-20T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "canonical_url": "https://www.federalregister.gov/documents/2026/10/08/2026-20650/low-value-shipments"
+        }
+      ],
+      "event_key": "us-cbp-low-value-shipments|propose-electronic-filing-bond-and-entry-type-13-rules-2026|US|unknown",
+      "id": "evt-6bed87b1e8fb0e26",
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/08/2026-20650/low-value-shipments"
     }
   ]
 }
