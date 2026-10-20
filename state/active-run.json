@@ -1,12 +1,28 @@
 {
   "schema_version": 1,
   "run_id": "run-20261020005903-a2f81c7",
-  "status": "active",
+  "status": "released",
   "acquired_at": "2026-10-20T00:59:03.000Z",
   "expires_at": "2026-10-20T02:29:03.000Z",
   "previous_radar_state_head": "069d5089b9e9100e27b82b2f499915723acd59b3",
   "takeover_reason": null,
-  "released_at": null,
-  "release_run_record": null,
-  "publication": null
+  "released_at": "2026-10-20T01:13:00.000Z",
+  "release_run_record": "state/runs/run-20261020005903-a2f81c7/final.json",
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "afa81d40c33ce978759b650dd6105473b5a18fb1",
+    "expected_digest": "b3828405349470a9a815716e97d12c9ddcb69638bda1f4fd88ab66ba7a5a5ab4",
+    "observed_digest": "b3828405349470a9a815716e97d12c9ddcb69638bda1f4fd88ab66ba7a5a5ab4",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "verified_at": "2026-10-20T01:13:00.000Z",
+    "vercel_deployment_id": "dpl_G24g58N4DkUn2R6vSGp4dabShM51",
+    "vercel_state": "READY",
+    "observed_title": "亚马逊运营雷达",
+    "observed_event_key": "us-cbp-entry-type-13|extend-mandatory-compliance-deadline-2026|US|2027-01-20",
+    "daily_briefing_absent": true,
+    "http_status": 200,
+    "full_html_sha256": "a5b3e8cd399dac807bbcbd06666a9e05ce8b7e720bd27580b1fa70900324e2a0",
+    "full_html_equal_expected": true
+  }
 }

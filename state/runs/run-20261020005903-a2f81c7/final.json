@@ -1,0 +1,291 @@
+{
+  "id": "run-20261020005903-a2f81c7",
+  "started_at": "2026-10-20T00:59:03.000Z",
+  "finished_at": "2026-10-20T01:13:00.000Z",
+  "base_state_digest": "f69d8c609c09615cb5083ab086a5827f0141b6266f19c6c21c3c32e23ebb8a52",
+  "material_changed": true,
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "afa81d40c33ce978759b650dd6105473b5a18fb1",
+    "expected_digest": "b3828405349470a9a815716e97d12c9ddcb69638bda1f4fd88ab66ba7a5a5ab4",
+    "observed_digest": "b3828405349470a9a815716e97d12c9ddcb69638bda1f4fd88ab66ba7a5a5ab4",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "verified_at": "2026-10-20T01:13:00.000Z",
+    "vercel_deployment_id": "dpl_G24g58N4DkUn2R6vSGp4dabShM51",
+    "vercel_state": "READY",
+    "observed_title": "亚马逊运营雷达",
+    "observed_event_key": "us-cbp-entry-type-13|extend-mandatory-compliance-deadline-2026|US|2027-01-20",
+    "daily_briefing_absent": true,
+    "http_status": 200,
+    "full_html_sha256": "a5b3e8cd399dac807bbcbd06666a9e05ce8b7e720bd27580b1fa70900324e2a0",
+    "full_html_equal_expected": true
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "公开检索Amazon Seller Central News与卖家论坛动态；未取得需登录后台的完整公告清单，故仅记public_search_only。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "公开检索Amazon全球开店新闻中心；可访问结果未发现比已发布事件更新的可靠增量，未声称完整归档覆盖。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "公开检索Amazon Ads What's New；结果主要为已入库功能，公开入口未形成完整时间窗核验。",
+      "evidence": []
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "核验CBP、Federal Register与CPSC公开入口；收录ET13延期及低价值包裹NPRM，CPSC最新可见批次与既有事件重复；仍未完成全部历史窗口。",
+      "evidence": [
+        {
+          "url": "https://www.cbp.gov/newsroom/national-media-release/international-mail-entry-type-13-mandatory-implementation-date",
+          "note": "CBP ET13强制合规日期延期的固定官方新闻稿链接。"
+        },
+        {
+          "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20650/low-value-shipments",
+          "note": "CBP低价值包裹拟议规则原文。"
+        },
+        {
+          "url": "https://www.reuters.com/legal/government/us-delays-small-imports-rule-that-raised-alarm-over-prescription-drug-costs-2026-10-15/",
+          "note": "Reuters对CBP延期的交叉核验。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "公开检索Amazon.ca Seller Central论坛/帮助与About Amazon Canada；未取得需登录公告全集。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "公开检索Amazon.com.mx Seller Central论坛/帮助与About Amazon México；结果多为既有活动、税务帮助或卖家个案。",
+      "evidence": []
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "检索Health Canada与加拿大相关监管公开页；10月19日可见召回与本任务品类/平台运营无直接新增，未完成完整历史窗口。",
+      "evidence": []
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "检索PROFECO、SAT及墨西哥公开监管入口；未发现可核实的Amazon运营新规，公开检索范围有限。",
+      "evidence": []
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项检索跨境头条公开网页；发现的CBP延期线索已升级到官方/Reuters来源。",
+      "evidence": []
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项检索跨境快讯公开网页；未发现独立于本批及既有事件的可靠增量。",
+      "evidence": []
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "检查知无不言公开首页和搜索摘要；主要为卖家讨论/活动，未把个案当平台事实。",
+      "evidence": []
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "检查TT123/AMZ123公开导航与文章摘要；未发现独立可靠增量。",
+      "evidence": []
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "检查品牌方舟公开搜索结果；新结果与Amazon三站运营范围无直接重要增量。",
+      "evidence": []
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "检查卖家之家公开搜索结果；未发现比既有事件更新的可靠增量。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项公开检索微信公众号“大宝站外推广”；无可公开阅读全文的新结果。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项公开检索微信公众号“葫芦娃站外推广”；无可公开阅读全文的新结果。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项公开检索微信公众号“三头六臂跨境电商”；无可公开阅读全文的新结果。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项公开检索跨境头条对应公众号；只有公开搜索范围，未声称完整覆盖。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项公开检索跨境快讯对应公众号；只有公开搜索范围，未声称完整覆盖。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项公开检索知无不言对应公众号；只有公开搜索范围，未声称完整覆盖。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项公开检索TT123卖家导航公众号；无可公开阅读全文的新结果。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项公开检索品牌方舟公众号；无可公开阅读全文的新结果。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "逐项公开检索卖家之家公众号；无可公开阅读全文的新结果。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "公开检索美国站燃油管、CPE编织油管、AN接头和排气卡箍；仅见第三方历史样本，缺少同ASIN/变体/地域连续基线，不判定变化。",
+      "evidence": []
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "按include_source_ids逐一检索6个行业媒体和9个公众号的加拿大/Amazon.ca内容；多数无结果或仅摘要，故不标完整覆盖。",
+      "evidence": []
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "按include_source_ids逐一检索6个行业媒体和9个公众号的墨西哥/Amazon.com.mx内容；多数无结果或仅摘要，故不标完整覆盖。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "公开检索加拿大站目标汽配关键词与竞品；无同ASIN、变体、收货地域、CAD税费/运费口径的连续快照。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-20T01:13:00.000Z",
+      "note": "公开检索墨西哥站目标汽配关键词与竞品；无同ASIN、变体、收货地域、MXN税费/运费口径的连续快照。",
+      "evidence": []
+    }
+  ],
+  "backfill_complete": false,
+  "deferred_metadata": null,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "marketplace_coverage": {
+    "US": "partial_public_search_with_two_verified_regulatory_updates",
+    "CA": "public_search_only_no_reliable_increment",
+    "MX": "public_search_only_no_reliable_increment"
+  },
+  "limitations": [
+    "本地exec环境连接失败，使用Vercel Sandbox执行snapshot、stage、测试与页面验收。",
+    "公众号与部分Seller Central内容仅限公开搜索结果，未绕过登录或访问限制。",
+    "8月29日至30日待补查标记未清除。"
+  ],
+  "finalize": {
+    "status": "partial",
+    "full_coverage": false,
+    "publish_verified": true,
+    "cursors_advanced": 0,
+    "pending_backfill_dates": [
+      "2026-08-29",
+      "2026-08-30"
+    ]
+  }
+}
