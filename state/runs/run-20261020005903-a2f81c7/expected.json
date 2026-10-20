@@ -1,0 +1,28 @@
+{
+  "run_id": "run-20261020005903-a2f81c7",
+  "prepared_at": "2026-10-20T01:13:00.000Z",
+  "base_main_commit": "2155fc58cbfc869a941510f23b13bc1cda4e5410",
+  "base_digest": "0b62e6b060de679e1657a08e04e9da7c5e6390bf4ab319e154ea11f01dea47b1",
+  "expected_registry_digest": "efe4bef8f63e25703cabd3a29948b79094eee87ea40b273801c014efc36dddad",
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "tests": {
+    "node_test": {
+      "passed": 22,
+      "failed": 0
+    },
+    "radar_check": {
+      "valid": true,
+      "events": 91
+    },
+    "git_diff_check": "passed"
+  },
+  "candidate_keys": [
+    "us-cbp-entry-type-13|extend-mandatory-compliance-deadline-2026|US|2027-01-20",
+    "us-cbp-low-value-shipments|propose-electronic-filing-bond-and-entry-type-13-rules-2026|US|unknown"
+  ]
+}
