@@ -1,0 +1,94 @@
+{
+  "base_digest": "efe4bef8f63e25703cabd3a29948b79094eee87ea40b273801c014efc36dddad",
+  "checked_at": "2026-10-22T01:07:25.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-holiday-operations-capacity",
+        "action_key": "add-three-hundred-thousand-seasonal-and-operations-jobs-2026",
+        "marketplaces": ["US"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "Amazon美国旺季运营网络招聘逾30万人，三年来首次增加季节性招聘规模",
+        "summary": "Amazon于2026年10月20日宣布，2026年假日季将在美国核心运营网络招聘超过300,000名季节性、兼职和全职员工；Reuters指出，过去三年每年均招聘250,000人，本次为三年来首次增加季节性招聘规模。",
+        "impact": "这是美国假日季履约与配送网络的人力容量投入信号，可能有助于应对订单高峰，但不是具体FBA库容、入仓预约、配送SLA或费率变化承诺；没有证据将该招聘计划扩展至加拿大或墨西哥。",
+        "action": "继续按美国站货件ID和仓库记录入仓预约、Checked-in、Receive及承诺送达时长；旺季补货仍以账户容量和实际仓库数据为准，不因招聘规模放松安全库存或向买家额外承诺时效。",
+        "category": "opportunities",
+        "priority": "P2",
+        "original_published_at": "2026-10-20",
+        "original_date_note": "Amazon官方文章发表于2026-10-20；岗位从10月至12月滚动发布，未给出统一上岗完成日，因此effective_date为null，不以发现日代替生效日。",
+        "first_seen_at": "2026-10-22T01:07:25.000Z",
+        "last_material_update_at": "2026-10-22T01:07:25.000Z",
+        "history_dates": ["2026-10-22"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.com/news/workplace/amazon-holiday-jobs-2026-seasonal-hiring-healthcare",
+            "publisher": "Amazon",
+            "kind": "official",
+            "published_at": "2026-10-20",
+            "verified_at": "2026-10-22T01:07:25.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          },
+          {
+            "url": "https://www.reuters.com/legal/litigation/amazon-recruit-over-300000-workers-holiday-season-first-hiring-jump-three-years-2026-10-20/",
+            "publisher": "Reuters",
+            "kind": "industry_original",
+            "published_at": "2026-10-20",
+            "verified_at": "2026-10-22T01:07:25.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry_original"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": [],
+        "event_key": "amazon-us-holiday-operations-capacity|add-three-hundred-thousand-seasonal-and-operations-jobs-2026|US|unknown"
+      },
+      "dedupe_review": {
+        "compared_digest": "efe4bef8f63e25703cabd3a29948b79094eee87ea40b273801c014efc36dddad",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条与91条事件的event_key、标题语义、规范化来源链接和生效日期比较；现有墨西哥旺季招聘卡片是独立地区公告，现有美国FBA拥堵及CBP事件也不包含本次全国运营网络招聘动作，本批仅此一项。",
+        "distinct_event_reason": "本事件是美国2026假日季独立招聘计划，适用站点、岗位规模与Amazon Mexico 2026旺季招聘公告均不同，不能合并为同一张多站卡片。"
+      }
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-holiday-operations-capacity|add-three-hundred-thousand-seasonal-and-operations-jobs-2026|US|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "按公开可访问范围核验US、CA、MX Seller Central、Amazon全球开店、Amazon Ads及相关监管机构，并检查既定行业媒体和公开公众号。industry_wechat_ca与industry_wechat_mx分别逐一检索全部15个include_source_ids；公众号多数仅有公开搜索摘要、无结果或无法阅读全文，均按public_search_only记录，不宣称完整覆盖。8月29日至30日历史窗口仍未对每个来源完整核验，待补查标记继续保留。汽配关键词及竞品未形成同站点、同ASIN、同变体、同收货地域、同时间及同税费/运费口径的连续可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
+    "action_items": [
+      {
+        "title": "监控美国旺季履约实绩",
+        "detail": "按货件ID和仓库记录入仓预约、Checked-in、Receive、承诺送达和延误，不把招聘人数当作FBA库容或SLA保证。",
+        "due": "旺季期间持续",
+        "event_key": "amazon-us-holiday-operations-capacity|add-three-hundred-thousand-seasonal-and-operations-jobs-2026|US|unknown"
+      },
+      {
+        "title": "核对美国邮政进口Entry Type 13准备",
+        "detail": "逐线路确认是否涉及Section 201/232/301或PGA监管，并与报关行核对IOR、10位HTSUS、追踪号、ACE数据和bond责任。",
+        "due": "2027-01-20前",
+        "event_key": "us-cbp-entry-type-13|extend-mandatory-compliance-deadline-2026|US|2027-01-20"
+      },
+      {
+        "title": "分站维护汽配可比基线",
+        "detail": "US、CA、MX分别记录ASIN、变体、收货地区、USD/CAD/MXN价格、税费、运费、Coupon和BSR；首次观察不判定变化。",
+        "due": "持续",
+        "event_key": null
+      }
+    ]
+  }
+}

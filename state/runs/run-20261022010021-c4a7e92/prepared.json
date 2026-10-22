@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261022010021-c4a7e92",
+  "status": "prepared",
+  "prepared_at": "2026-10-22T01:07:25.000Z",
+  "base_main_sha": "afa81d40c33ce978759b650dd6105473b5a18fb1",
+  "base_event_digest": "efe4bef8f63e25703cabd3a29948b79094eee87ea40b273801c014efc36dddad",
+  "batch_sha256": "ea1dd64fdd3a7d939bdbc12002591ca5d72bc0d6309fe49d74ea1fea3f4bb0f1",
+  "result": {
+    "material_changed": true,
+    "metadata_changed": true,
+    "counts": {
+      "new": 1,
+      "updated": 0,
+      "merged": 0,
+      "deduplicated": 0
+    },
+    "new_event_keys": [
+      "amazon-us-holiday-operations-capacity|add-three-hundred-thousand-seasonal-and-operations-jobs-2026|US|unknown"
+    ],
+    "updated_event_keys": []
+  },
+  "expected": {
+    "event_registry_digest": "8e2c4d9b8fd04d6983a32a6953607f7e6f76d1a9fb57638d36b1e21e50ca82a7",
+    "content_digest": "19c33ed48a301bc97d42a27fb440ed7ae932d2d5e9fccee50bed4c6f53b8092d",
+    "events_json_sha256": "0776ee249dc5be8777935396bba811f387467007c5ea81b9d949bcc7fcf060aa",
+    "report_json_sha256": "f74c30c848f90f24838e82713977220424c27e92de8112a02872e6098908ded7",
+    "index_html_sha256": "fc589a8d5df49584fb423bd295c86aedfa3dd28092ed6b395b392d9aebfe798e"
+  },
+  "verification": {
+    "tests_passed": 22,
+    "radar_check_valid": true,
+    "daily_briefing_absent": true
+  }
+}
