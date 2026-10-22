@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-20T01:12:00.000Z",
+  "content_updated_at": "2026-10-22T01:07:25.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -4973,6 +4973,58 @@
       "event_key": "us-cbp-low-value-shipments|propose-electronic-filing-bond-and-entry-type-13-rules-2026|US|unknown",
       "id": "evt-6bed87b1e8fb0e26",
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/08/2026-20650/low-value-shipments"
+    },
+    {
+      "subject_key": "amazon-us-holiday-operations-capacity",
+      "action_key": "add-three-hundred-thousand-seasonal-and-operations-jobs-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "Amazon美国旺季运营网络招聘逾30万人，三年来首次增加季节性招聘规模",
+      "summary": "Amazon于2026年10月20日宣布，2026年假日季将在美国核心运营网络招聘超过300,000名季节性、兼职和全职员工；Reuters指出，过去三年每年均招聘250,000人，本次为三年来首次增加季节性招聘规模。",
+      "impact": "这是美国假日季履约与配送网络的人力容量投入信号，可能有助于应对订单高峰，但不是具体FBA库容、入仓预约、配送SLA或费率变化承诺；没有证据将该招聘计划扩展至加拿大或墨西哥。",
+      "action": "继续按美国站货件ID和仓库记录入仓预约、Checked-in、Receive及承诺送达时长；旺季补货仍以账户容量和实际仓库数据为准，不因招聘规模放松安全库存或向买家额外承诺时效。",
+      "category": "opportunities",
+      "priority": "P2",
+      "original_published_at": "2026-10-20",
+      "original_date_note": "Amazon官方文章发表于2026-10-20；岗位从10月至12月滚动发布，未给出统一上岗完成日，因此effective_date为null，不以发现日代替生效日。",
+      "first_seen_at": "2026-10-22T01:07:25.000Z",
+      "last_material_update_at": "2026-10-22T01:07:25.000Z",
+      "history_dates": [
+        "2026-10-22"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/workplace/amazon-holiday-jobs-2026-seasonal-hiring-healthcare",
+          "publisher": "Amazon",
+          "kind": "official",
+          "published_at": "2026-10-20",
+          "verified_at": "2026-10-22T01:07:25.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://www.aboutamazon.com/news/workplace/amazon-holiday-jobs-2026-seasonal-hiring-healthcare"
+        },
+        {
+          "url": "https://www.reuters.com/legal/litigation/amazon-recruit-over-300000-workers-holiday-season-first-hiring-jump-three-years-2026-10-20/",
+          "publisher": "Reuters",
+          "kind": "industry_original",
+          "published_at": "2026-10-20",
+          "verified_at": "2026-10-22T01:07:25.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry_original",
+          "canonical_url": "https://www.reuters.com/legal/litigation/amazon-recruit-over-300000-workers-holiday-season-first-hiring-jump-three-years-2026-10-20"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-holiday-operations-capacity|add-three-hundred-thousand-seasonal-and-operations-jobs-2026|US|unknown",
+      "id": "evt-e7d24433d3e6e09d",
+      "primary_source_url": "https://www.aboutamazon.com/news/workplace/amazon-holiday-jobs-2026-seasonal-hiring-healthcare"
     }
   ]
 }
