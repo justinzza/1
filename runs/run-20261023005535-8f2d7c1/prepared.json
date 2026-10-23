@@ -1,0 +1,27 @@
+{
+  "run_id": "run-20261023005535-8f2d7c1",
+  "status": "prepared",
+  "prepared_at": "2026-10-23T01:00:27.000Z",
+  "base_main_sha": "06efe8967f9d1de11e7f5b0b935562a21e60d47c",
+  "base_registry_digest": "8e2c4d9b8fd04d6983a32a6953607f7e6f76d1a9fb57638d36b1e21e50ca82a7",
+  "expected_registry_digest": "2bab9004c649095bda29b4d8ba440bff9768e06c60ea4951a0a4307cc45b8749",
+  "expected_page_content_digest": "d4184c92c3443d51ff229b2d1a0a74adc03f7197460de49364f06ab399251009",
+  "expected_file_sha256": {
+    "data/events.json": "906e8de0a9f5951b0c704a90fa39cbf70ac23fd13d7d0e3306c55267ec712112",
+    "data/report.json": "25e74aba301a4cb81a67e14bd39705026fd9ddfd4d54922e41dab34c0f473ffe",
+    "index.html": "b791a83c88cf0ea5fe000263098c9d15eb31ced8e48538d40b0ed486881418d2"
+  },
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "tests": {
+    "node_test": "22 passed",
+    "radar_check": "valid",
+    "events": 94,
+    "daily_briefing_absent": true
+  },
+  "publication_status": "not_started"
+}

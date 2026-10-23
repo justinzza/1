@@ -1,0 +1,27 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-extended-holiday-returns-2026|extend-return-window-for-november-december-purchases|US|2026-11-01",
+    "amazon-us-fba-customized-return-grading|allow-seller-defined-return-grading-criteria|US|unknown"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-extended-holiday-returns-2026|extend-return-window-for-november-december-purchases|US|2026-11-01",
+      "action": "new",
+      "review": "逐条核对92条基线及本批两条候选：基线无同一退货窗口、同一Amazon.com适用范围、同一2026-11-01生效日或同一官方链接；既有旺季费用、促销和退货流程卡片不包含本次节日退货期限，因此是独立新事件。"
+    },
+    {
+      "event_key": "amazon-us-fba-customized-return-grading|allow-seller-defined-return-grading-criteria|US|unknown",
+      "action": "new",
+      "review": "逐条核对92条基线及本批两条候选：基线无FBA退货自定义分级设置、同一主体动作或官方链接；它不同于节日退货期限，也不同于既有退货政策与Grade and Resell一般说明，属于新的卖家后台处置能力。"
+    }
+  ]
+}
