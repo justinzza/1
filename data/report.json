@@ -1,7 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-holiday-operations-capacity|add-three-hundred-thousand-seasonal-and-operations-jobs-2026|US|unknown"
+    "amazon-us-extended-holiday-returns-2026|extend-return-window-for-november-december-purchases|US|2026-11-01",
+    "amazon-us-fba-customized-return-grading|allow-seller-defined-return-grading-criteria|US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -13,16 +14,22 @@
   "coverage_note": "按公开可访问范围核验US、CA、MX Seller Central、Amazon全球开店、Amazon Ads及相关监管机构，并检查既定行业媒体和公开公众号。industry_wechat_ca与industry_wechat_mx分别逐一检索全部15个include_source_ids；公众号多数仅有公开搜索摘要、无结果或无法阅读全文，均按public_search_only记录，不宣称完整覆盖。8月29日至30日历史窗口仍未对每个来源完整核验，待补查标记继续保留。汽配关键词及竞品未形成同站点、同ASIN、同变体、同收货地域、同时间及同税费/运费口径的连续可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
   "action_items": [
     {
-      "title": "监控美国旺季履约实绩",
-      "detail": "按货件ID和仓库记录入仓预约、Checked-in、Receive、承诺送达和延误，不把招聘人数当作FBA库容或SLA保证。",
-      "due": "旺季期间持续",
-      "event_key": "amazon-us-holiday-operations-capacity|add-three-hundred-thousand-seasonal-and-operations-jobs-2026|US|unknown"
+      "title": "建立美国站节日退货准备金与排班",
+      "detail": "将11—12月订单按一般商品与Apple例外分组，分别跟踪至2027年1月31日与1月15日，并预留退款、质检和逆向物流能力。",
+      "due": "2026-11-01前",
+      "event_key": "amazon-us-extended-holiday-returns-2026|extend-return-window-for-november-december-purchases|US|2026-11-01"
     },
     {
-      "title": "核对美国邮政进口Entry Type 13准备",
-      "detail": "逐线路确认是否涉及Section 201/232/301或PGA监管，并与报关行核对IOR、10位HTSUS、追踪号、ACE数据和bond责任。",
-      "due": "2027-01-20前",
-      "event_key": "us-cbp-entry-type-13|extend-mandatory-compliance-deadline-2026|US|2027-01-20"
+      "title": "小范围试点FBA退货自定义分级",
+      "detail": "先选高退货或高客单ASIN设置包装、附件、真伪与功能标准，记录恢复可售率和损失，再决定是否全目录启用。",
+      "due": "本周",
+      "event_key": "amazon-us-fba-customized-return-grading|allow-seller-defined-return-grading-criteria|US|unknown"
+    },
+    {
+      "title": "处理已收到的美国站NWD通知",
+      "detail": "逐ASIN核对Brand Representative角色；受影响且无豁免证据的库存应在10月27日前清货或创建移除订单。",
+      "due": "2026-10-27前",
+      "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
     },
     {
       "title": "分站维护汽配可比基线",
@@ -32,14 +39,15 @@
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-22",
-  "content_updated_at": "2026-10-22T01:07:25.000Z",
+  "report_date": "2026-10-23",
+  "content_updated_at": "2026-10-23T01:00:27.000Z",
   "new_event_keys": [
-    "amazon-us-holiday-operations-capacity|add-three-hundred-thousand-seasonal-and-operations-jobs-2026|US|unknown"
+    "amazon-us-extended-holiday-returns-2026|extend-return-window-for-november-december-purchases|US|2026-11-01",
+    "amazon-us-fba-customized-return-grading|allow-seller-defined-return-grading-criteria|US|unknown"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 1,
+    "new": 2,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0

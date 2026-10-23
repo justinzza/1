@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-22T01:07:25.000Z",
+  "content_updated_at": "2026-10-23T01:00:27.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -5025,6 +5025,88 @@
       "event_key": "amazon-us-holiday-operations-capacity|add-three-hundred-thousand-seasonal-and-operations-jobs-2026|US|unknown",
       "id": "evt-e7d24433d3e6e09d",
       "primary_source_url": "https://www.aboutamazon.com/news/workplace/amazon-holiday-jobs-2026-seasonal-hiring-healthcare"
+    },
+    {
+      "subject_key": "amazon-us-extended-holiday-returns-2026",
+      "action_key": "extend-return-window-for-november-december-purchases",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-11-01",
+      "deadline": "2027-01-31",
+      "title": "美国站2026节日退货期延长：11—12月订单最晚可退至1月31日",
+      "summary": "Amazon美国站官方公告确认，2026年11月1日至12月31日期间购买的商品可退至2027年1月31日；Apple品牌商品的截止日为2027年1月15日。延长窗口自动适用于Amazon.com上的FBA与FBM商品，无需卖家操作，现有退货和退款条件不变；Amazon同时表示该季节性安排今后每年适用。",
+      "impact": "节日订单的潜在退款、逆向物流与可售库存恢复周期将延长到次年1月，FBA和FBM都需要为更晚发生的退货保留现金与客服能力。公告只明确Amazon.com，不能据此套用CA或MX。",
+      "action": "将2026年11—12月美国站订单单独标记，按一般商品1月31日、Apple商品1月15日配置客服口径、退款准备和退货质检排班；FBM卖家复核退货地址与授权流程，财务在1月结算前保留退货准备金。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-10-15",
+      "original_date_note": "Seller Central官方News_Amazon公告发表于2026-10-15；生效日按公告中的购买窗口起始日2026-11-01记录，deadline记录一般商品最晚退货日2027-01-31，Apple例外截止日为2027-01-15。",
+      "first_seen_at": "2026-10-23T01:00:27.000Z",
+      "last_material_update_at": "2026-10-23T01:00:27.000Z",
+      "history_dates": [
+        "2026-10-23"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/fcc4e6f3-5e86-4b04-be84-82f9bcc2558a",
+          "publisher": "Amazon Seller Central / News_Amazon",
+          "kind": "official",
+          "published_at": "2026-10-15",
+          "verified_at": "2026-10-23T01:00:27.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/fcc4e6f3-5e86-4b04-be84-82f9bcc2558a"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-extended-holiday-returns-2026|extend-return-window-for-november-december-purchases|US|2026-11-01",
+      "id": "evt-453c6fc3774e1d50",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/fcc4e6f3-5e86-4b04-be84-82f9bcc2558a"
+    },
+    {
+      "subject_key": "amazon-us-fba-customized-return-grading",
+      "action_key": "allow-seller-defined-return-grading-criteria",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美国站FBA开放退货自定义分级标准，可按ASIN设置复售与翻新规则",
+      "summary": "Amazon美国站官方公告显示，卖家现可为FBA客户退货提供自定义分级标准，说明何种状态可作为新品销售、何时允许恢复为新品或转为二手。规则可按封签与包装、配件、真伪标识、设备功能等维度提交，并可应用于指定ASIN、全目录或CSV批量范围；卖家还可设置二手条件对应的价格百分比。Amazon会把这些规则作为标准分级流程的指导，未覆盖ASIN仍使用默认流程。",
+      "impact": "卖家可更细化退货库存的复售、翻新与二手处置口径，有机会减少误判和不可售损失，但Amazon明确这些标准只是分级指导，并非卖家可直接决定最终结果。公告未给出CA、MX适用证据。",
+      "action": "先从高退货率、高客单价或包装完整性敏感的美国站ASIN试点；按包装、附件、防伪、功能测试和成色编写可审计标准，设定二手价格比例，保留设置截图并对比分级结果、恢复率和退款损失，再决定是否扩至全目录。",
+      "category": "opportunities",
+      "priority": "P1",
+      "original_published_at": null,
+      "original_date_note": "公开Seller Central页面核验时仅显示相对发布时间，未提供可独立确认的绝对发布日期，因此original_published_at留空；功能在公告发布时已表述为可用，未给出统一生效日。",
+      "first_seen_at": "2026-10-23T01:00:27.000Z",
+      "last_material_update_at": "2026-10-23T01:00:27.000Z",
+      "history_dates": [
+        "2026-10-23"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/731e6e69-5bfa-4a4f-9685-acb9da76153b",
+          "publisher": "Amazon Seller Central / News_Amazon",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-10-23T01:00:27.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/731e6e69-5bfa-4a4f-9685-acb9da76153b"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-fba-customized-return-grading|allow-seller-defined-return-grading-criteria|US|unknown",
+      "id": "evt-6bc927617d8992fb",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/731e6e69-5bfa-4a4f-9685-acb9da76153b"
     }
   ]
 }
