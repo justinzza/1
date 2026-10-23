@@ -1,0 +1,11 @@
+{
+  "run_id": "run-20261023005535-8f2d7c1",
+  "status": "partial",
+  "finished_at": "2026-10-23T01:04:42.000Z",
+  "counts": {"new": 2, "updated": 0, "merged": 0, "deduplicated": 0},
+  "main_commit": "0a9785ae3c633f939d39fec034c47fa1a20e38a3",
+  "publication_status": "verified",
+  "expected_digest": "d4184c92c3443d51ff229b2d1a0a74adc03f7197460de49364f06ab399251009",
+  "observed_digest": "d4184c92c3443d51ff229b2d1a0a74adc03f7197460de49364f06ab399251009",
+  "coverage": "All 28 configured sources recorded; all remain public_search_only, so successful cursors and the Aug 29-30 backfill markers were not advanced."
+}
