@@ -1,0 +1,39 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 4,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "us-cpsc-amazon-products-2026-10-22|recall-or-warn-five-amazon-sold-products|US|2026-10-22",
+    "health-canada-jkmax-heated-products|warn-stop-use-and-remove-amazon-ca-listings|CA|2026-10-22",
+    "canada-competition-bureau-environmental-claims-guidance|publish-testing-and-substantiation-guidelines|CA|unknown",
+    "amazon-mexico-tlajomulco-logistics-expansion|expand-operations-center-and-add-thirteen-hundred-jobs|MX|unknown"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "us-cpsc-amazon-products-2026-10-22|recall-or-warn-five-amazon-sold-products|US|2026-10-22",
+      "action": "new",
+      "review": "逐条与94条事件的event_key、标题语义、规范化来源链接和生效日期比较；虽与10月8日、10月15日CPSC批次同类，但发布日期、品牌型号、风险对象和监管行动均不同，因此是新的10月22日独立批次。"
+    },
+    {
+      "event_key": "health-canada-jkmax-heated-products|warn-stop-use-and-remove-amazon-ca-listings|CA|2026-10-22",
+      "action": "new",
+      "review": "逐条与94条事件及本批候选比较，未发现相同JKMAX主体、五个型号、Amazon.ca下架或2026-10-22加拿大警告；不是既有Health Canada平台安全年度报告或其他商品召回的改标题转载。"
+    },
+    {
+      "event_key": "canada-competition-bureau-environmental-claims-guidance|publish-testing-and-substantiation-guidelines|CA|unknown",
+      "action": "new",
+      "review": "逐条与94条事件及本批候选比较，未发现加拿大竞争局2026-10-23环保宣称指南或相同测试/佐证行动；与美国FTC评论规则、加拿大平台安全报告及商品召回均属不同主体和变化动作。"
+    },
+    {
+      "event_key": "amazon-mexico-tlajomulco-logistics-expansion|expand-operations-center-and-add-thirteen-hundred-jobs|MX|unknown",
+      "action": "new",
+      "review": "逐条与94条事件及本批候选比较；既有墨西哥旺季临时用工卡片是全国年末季节性增员，本事件是Tlajomulco单一运营中心2027年扩建和约1,300个岗位，主体地点、动作、时间窗口及来源均不同。"
+    }
+  ]
+}

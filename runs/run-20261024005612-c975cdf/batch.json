@@ -1,0 +1,273 @@
+{
+  "base_digest": "2bab9004c649095bda29b4d8ba440bff9768e06c60ea4951a0a4307cc45b8749",
+  "checked_at": "2026-10-24T01:00:56.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "us-cpsc-amazon-products-2026-10-22",
+        "action_key": "recall-or-warn-five-amazon-sold-products",
+        "marketplaces": ["US"],
+        "effective_date": "2026-10-22",
+        "deadline": null,
+        "title": "美国CPSC发布5项Amazon.com商品召回或停用警告：指灯、儿童服饰、床护栏、压力清洗机与燃气取暖器",
+        "summary": "美国CPSC于2026年10月22日发布5项直接涉及Amazon.com销售商品的行动：BAMAMON LED投影指灯玩具召回约6,533件；CIYTI发光公主服召回约94件；VQQQ天然气露台取暖器召回约100件；另要求立即停用Reliancer成人便携床护栏（约237件）和PowRyte压力清洗机。两项停用警告不等同于企业提供完整补救的自愿召回。",
+        "category": "policy",
+        "priority": "P0",
+        "impact": "命中品牌、型号或同供应链商品的美国站卖家，应立即停售并暂停广告，隔离FBA、FBM与在途库存，按各份监管原文分别执行退款、销毁、客户通知或停止使用。指灯与服饰涉及纽扣电池吞咽风险，床护栏涉及夹困、窒息和跌落，压力清洗机缺少GFCI而有触电风险，燃气取暖器可能释放燃气并引发火灾或灼伤。现有证据只支持美国站，不得自动扩展至加拿大或墨西哥。",
+        "action": "按BAMAMON指灯、CIYTI发光公主服、Reliancer床护栏、PowRyte压力清洗机及VQQQ-A1/VQQQ-001取暖器筛查US站ASIN、FNSKU、供应商、库存、在途与历史订单；命中后立即停售并冻结补货，保存CPSC原文与批次证据，逐产品执行对应补救并留存客户沟通、退款和处置记录。",
+        "original_published_at": "2026-10-22",
+        "original_date_note": "5份CPSC原文均标注2026-10-22；同日、同站点且均与Amazon.com销售直接相关，按一张监管批次卡片合并。CPSC网页路径中的2027是财政年度编号，不作为发布日期。",
+        "first_seen_at": "2026-10-24T01:00:56.000Z",
+        "last_material_update_at": "2026-10-24T01:00:56.000Z",
+        "history_dates": ["2026-10-24"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/BAMAMON-Recalls-LED-Projecting-Finger-Light-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
+            "publisher": "U.S. CPSC",
+            "kind": "regulator",
+            "published_at": "2026-10-22",
+            "verified_at": "2026-10-24T01:00:56.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取CPSC公开原文并核对销售渠道、数量与纽扣电池风险。"
+          },
+          {
+            "url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-PowRyte-Pressure-Washers-Immediately-Due-to-Serious-Shock-and-Electrocution-Hazards-Risk-of-Serious-Injury-or-Death",
+            "publisher": "U.S. CPSC",
+            "kind": "regulator",
+            "published_at": "2026-10-22",
+            "verified_at": "2026-10-24T01:00:56.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取CPSC公开警告并核对Amazon.com销售渠道、GFCI缺失及停用要求。"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/VQQQ-Gas-Patio-Heaters-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards",
+            "publisher": "U.S. CPSC",
+            "kind": "regulator",
+            "published_at": "2026-10-22",
+            "verified_at": "2026-10-24T01:00:56.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取CPSC公开原文并核对型号、Amazon.com销售渠道及火灾灼伤风险。"
+          },
+          {
+            "url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-Reliancer-Adult-Portable-Bed-Rails-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails",
+            "publisher": "U.S. CPSC",
+            "kind": "regulator",
+            "published_at": "2026-10-22",
+            "verified_at": "2026-10-24T01:00:56.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取CPSC公开警告并核对Amazon.com销售渠道、数量及立即停用要求。"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/FoShanShiNanHaiQuNuoAiTongZhuangShangHang-Recalls-CIYTI-Light-Up-Princess-Costumes-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
+            "publisher": "U.S. CPSC",
+            "kind": "regulator",
+            "published_at": "2026-10-22",
+            "verified_at": "2026-10-24T01:00:56.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取CPSC公开原文并核对Amazon.com销售渠道、数量与纽扣电池风险。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "2bab9004c649095bda29b4d8ba440bff9768e06c60ea4951a0a4307cc45b8749",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条与94条事件的event_key、标题语义、规范化来源链接和生效日期比较；虽与10月8日、10月15日CPSC批次同类，但发布日期、品牌型号、风险对象和监管行动均不同，因此是新的10月22日独立批次。",
+        "distinct_event_reason": "同类CPSC批次不共享品牌型号、来源页面或生效日期。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "health-canada-jkmax-heated-products",
+        "action_key": "warn-stop-use-and-remove-amazon-ca-listings",
+        "marketplaces": ["CA"],
+        "effective_date": "2026-10-22",
+        "deadline": null,
+        "title": "Health Canada警告JKMAX电热毯与加热垫存在火灾及灼伤风险，Amazon.ca已下架",
+        "summary": "Health Canada于2026年10月22日警告消费者立即停止使用JKMAX电热毯和加热垫，涉及JKMAX-002、JKMAX-7284B、JKMAX-6284B、JKMAX-10090B及JKMAX-8490B。监管机构认定产品存在火灾与灼伤风险；页面称产品此前在Amazon.ca销售，平台已下架。2024年9月至2026年9月在加拿大约售出74件，截至2026年10月15日未收到事故报告，境外销售方未回应监管联系。",
+        "category": "policy",
+        "priority": "P0",
+        "impact": "加拿大站命中品牌、型号或同供应链加热产品的卖家需要立即停止销售和广告，隔离FBA/FBM库存与在途货，并核查历史订单。Amazon.ca下架并不替代卖家对召回、客户通知、退款和产品合规文件的责任。该警告只适用于加拿大已确认范围，不能据此宣称美国或墨西哥已采取同样行动。",
+        "action": "按5个JKMAX型号筛查Amazon.ca的ASIN、SKU、FNSKU、供应商和历史订单；命中后立即停售、冻结补货并隔离库存，保留Health Canada警告与下架证据，联系加拿大产品安全部门确认处置、客户通知和退款安排，同时检查同工厂其他电热产品的认证、温控与阻燃测试。",
+        "original_published_at": "2026-10-22",
+        "original_date_note": "Health Canada页面标注2026-10-22，页面更新基于截至2026-10-15的事故报告数据。",
+        "first_seen_at": "2026-10-24T01:00:56.000Z",
+        "last_material_update_at": "2026-10-24T01:00:56.000Z",
+        "history_dates": ["2026-10-24"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://recalls-rappels.canada.ca/en/alert-recall/health-canada-warns-jkmax-heated-blankets-and-heating-pads-previously-available",
+            "publisher": "Health Canada",
+            "kind": "regulator",
+            "published_at": "2026-10-22",
+            "verified_at": "2026-10-24T01:00:56.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取加拿大政府公开警告并核对型号、风险、Amazon.ca下架、销量与事故数据。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "2bab9004c649095bda29b4d8ba440bff9768e06c60ea4951a0a4307cc45b8749",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条与94条事件及本批候选比较，未发现相同JKMAX主体、五个型号、Amazon.ca下架或2026-10-22加拿大警告；不是既有Health Canada平台安全年度报告或其他商品召回的改标题转载。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "canada-competition-bureau-environmental-claims-guidance",
+        "action_key": "publish-testing-and-substantiation-guidelines",
+        "marketplaces": ["CA"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "加拿大竞争局发布环保宣称指南：Amazon.ca Listing与广告的绿色卖点须有测试或充分佐证",
+        "summary": "加拿大竞争局于2026年10月23日发布环保宣称指南，说明《竞争法》对产品和业务环境宣称的适用方式。产品效益宣称须在发布前完成adequate and proper testing，企业或业务活动的环保效益宣称须有adequate and proper substantiation；评估也会看广告、包装及线上营销形成的general impression。指南还明确，向加拿大受众营销的境外企业同样适用。",
+        "category": "policy",
+        "priority": "P1",
+        "impact": "Amazon.ca的标题、五点、A+、图片文字、Store和广告若使用eco-friendly、green、sustainable、carbon neutral、recyclable等表述，不能只凭供应商口头承诺或模糊图标。产品功效类主张需要与具体商品和宣称范围相匹配的测试，企业层面的环境主张也需要充分、适当且可验证的证据。该文件是执法指南，不是2026年10月23日新生效的独立法案。",
+        "action": "建立加拿大站环保宣称清单，逐ASIN列出原文、适用产品/包装、证据类型、测试日期与负责人；删除或限定无证据、范围过宽或可能形成误导性整体印象的绿色表述。新品上线和广告审批时把测试/佐证材料设为必填，并让法务复核高风险碳中和、可回收、无毒和可持续来源声明。",
+        "original_published_at": "2026-10-23",
+        "original_date_note": "竞争局页面标注2026-10-23；指南解释现行《竞争法》环境宣称要求，本身不是新规则生效通知，因此effective_date留空。",
+        "first_seen_at": "2026-10-24T01:00:56.000Z",
+        "last_material_update_at": "2026-10-24T01:00:56.000Z",
+        "history_dates": ["2026-10-24"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/publications/environmental-claims-and-competition-act-0",
+            "publisher": "Competition Bureau Canada",
+            "kind": "regulator",
+            "published_at": "2026-10-23",
+            "verified_at": "2026-10-24T01:00:56.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取加拿大竞争局公开指南，核对测试、佐证、整体印象、线上营销及境外企业适用范围，并保留其非法律意见的边界。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "2bab9004c649095bda29b4d8ba440bff9768e06c60ea4951a0a4307cc45b8749",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条与94条事件及本批候选比较，未发现加拿大竞争局2026-10-23环保宣称指南或相同测试/佐证行动；与美国FTC评论规则、加拿大平台安全报告及商品召回均属不同主体和变化动作。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-mexico-tlajomulco-logistics-expansion",
+        "action_key": "expand-operations-center-and-add-thirteen-hundred-jobs",
+        "marketplaces": ["MX"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "Amazon Mexico计划2027年扩建Tlajomulco运营中心并新增约1,300个岗位",
+        "summary": "Tlajomulco市政府于2026年10月19日公布，Amazon Mexico计划在2027年扩建位于El Zapote的运营中心，预计新增约1,300个岗位。行业媒体补充称项目约40,000平方米、靠近瓜达拉哈拉机场；这些信息反映墨西哥西部物流网络扩张信号，但公开材料没有宣布新的FBA费率、入仓规则、仓容保证或具体投运日期。",
+        "category": "opportunities",
+        "priority": "P2",
+        "impact": "Jalisco及墨西哥西部卖家可把该项目视为未来履约基础设施信号，但不能提前假定2027年一定改善接收、配送时效或仓储容量。它与Amazon Mexico在2026年旺季新增逾11,000个临时岗位的事件不同：本次是Tlajomulco单一运营中心的中期扩建计划。",
+        "action": "为墨西哥站单独记录Tlajomulco/Guadalajara区域的入仓、接收、配送承诺与实际到货时效；在Amazon公布具体节点、承运范围或FBA规则前，不据此调整全国安全库存。汽配卖家可评估西部需求与进口路径，但继续以MXN、当地税费和实际配送数据决策。",
+        "original_published_at": "2026-10-19",
+        "original_date_note": "Tlajomulco市政府页面标注2026-10-19；仅确认计划于2027年扩建，未给出精确投运日，因此effective_date留空。",
+        "first_seen_at": "2026-10-24T01:00:56.000Z",
+        "last_material_update_at": "2026-10-24T01:00:56.000Z",
+        "history_dates": ["2026-10-24"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://www.tlajomulco.gob.mx/comunicacion-institucional/amazon-mexico-ampliara-operaciones-en-tlajomulco-y-generara-mil-300",
+            "publisher": "Gobierno de Tlajomulco",
+            "kind": "official",
+            "published_at": "2026-10-19",
+            "verified_at": "2026-10-24T01:00:56.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取市政府公开原文并核对Amazon Mexico、Tlajomulco、2027年计划与约1,300个岗位。政府公告可证明当地公布事项，但不替代Amazon卖家政策原文。"
+          },
+          {
+            "url": "https://www.amz123.com/t/Pmi5uXhN",
+            "publisher": "AMZ123",
+            "kind": "aggregator",
+            "published_at": "2026-10-21",
+            "verified_at": "2026-10-24T01:00:56.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "行业媒体用于补充约40,000平方米、El Zapote及机场邻近信息；主事件仍以市政府原文为准。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "2bab9004c649095bda29b4d8ba440bff9768e06c60ea4951a0a4307cc45b8749",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条与94条事件及本批候选比较；既有墨西哥旺季临时用工卡片是全国年末季节性增员，本事件是Tlajomulco单一运营中心2027年扩建和约1,300个岗位，主体地点、动作、时间窗口及来源均不同。"
+      }
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "us-cpsc-amazon-products-2026-10-22|recall-or-warn-five-amazon-sold-products|US|2026-10-22",
+      "health-canada-jkmax-heated-products|warn-stop-use-and-remove-amazon-ca-listings|CA|2026-10-22",
+      "canada-competition-bureau-environmental-claims-guidance|publish-testing-and-substantiation-guidelines|CA|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "按公开可访问范围核验US、CA、MX Seller Central、Amazon全球开店、Amazon Ads及相关监管机构，并检查既定行业媒体和公开公众号。industry_wechat_ca与industry_wechat_mx分别逐一检索全部15个include_source_ids；公众号多数仅有公开搜索摘要、无结果或无法阅读全文，均按public_search_only记录，不宣称完整覆盖。8月29日至30日历史窗口仍未对每个来源完整核验，待补查标记继续保留。汽车用品关键词及竞品没有同站点、同ASIN、同变体、同收货地域、同时间及同税费/运费口径的连续可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
+    "action_items": [
+      {
+        "title": "立即筛查10月22日美国CPSC批次",
+        "detail": "按BAMAMON、CIYTI、Reliancer、PowRyte和VQQQ型号排查US站库存、在途与历史订单；命中后停售、隔离并逐项执行召回或停用要求。",
+        "due": "立即",
+        "event_key": "us-cpsc-amazon-products-2026-10-22|recall-or-warn-five-amazon-sold-products|US|2026-10-22"
+      },
+      {
+        "title": "清理Amazon.ca的JKMAX及同供应链电热产品",
+        "detail": "核对5个型号与供应商，命中后冻结库存和广告，并联系Health Canada确认客户通知、退款和处置。",
+        "due": "立即",
+        "event_key": "health-canada-jkmax-heated-products|warn-stop-use-and-remove-amazon-ca-listings|CA|2026-10-22"
+      },
+      {
+        "title": "审计加拿大站环保宣称",
+        "detail": "逐ASIN盘点Listing、A+、Store和广告中的绿色表述，绑定测试或充分佐证；删除范围过宽或可能形成误导性整体印象的内容。",
+        "due": "本周",
+        "event_key": "canada-competition-bureau-environmental-claims-guidance|publish-testing-and-substantiation-guidelines|CA|unknown"
+      },
+      {
+        "title": "建立Tlajomulco物流观察项",
+        "detail": "单独记录墨西哥西部入仓、接收和配送指标；在Amazon公布具体投运节点前不据扩建计划调整全国库存。",
+        "due": "持续",
+        "event_key": "amazon-mexico-tlajomulco-logistics-expansion|expand-operations-center-and-add-thirteen-hundred-jobs|MX|unknown"
+      },
+      {
+        "title": "分站维护汽配可比基线",
+        "detail": "US、CA、MX分别记录ASIN、变体、收货地区、USD/CAD/MXN价格、税费、运费、Coupon和BSR；首次观察不判定变化。",
+        "due": "持续",
+        "event_key": null
+      }
+    ]
+  }
+}
