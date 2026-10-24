@@ -1,8 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-extended-holiday-returns-2026|extend-return-window-for-november-december-purchases|US|2026-11-01",
-    "amazon-us-fba-customized-return-grading|allow-seller-defined-return-grading-criteria|US|unknown"
+    "us-cpsc-amazon-products-2026-10-22|recall-or-warn-five-amazon-sold-products|US|2026-10-22",
+    "health-canada-jkmax-heated-products|warn-stop-use-and-remove-amazon-ca-listings|CA|2026-10-22",
+    "canada-competition-bureau-environmental-claims-guidance|publish-testing-and-substantiation-guidelines|CA|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,25 +12,31 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "按公开可访问范围核验US、CA、MX Seller Central、Amazon全球开店、Amazon Ads及相关监管机构，并检查既定行业媒体和公开公众号。industry_wechat_ca与industry_wechat_mx分别逐一检索全部15个include_source_ids；公众号多数仅有公开搜索摘要、无结果或无法阅读全文，均按public_search_only记录，不宣称完整覆盖。8月29日至30日历史窗口仍未对每个来源完整核验，待补查标记继续保留。汽配关键词及竞品未形成同站点、同ASIN、同变体、同收货地域、同时间及同税费/运费口径的连续可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
+  "coverage_note": "按公开可访问范围核验US、CA、MX Seller Central、Amazon全球开店、Amazon Ads及相关监管机构，并检查既定行业媒体和公开公众号。industry_wechat_ca与industry_wechat_mx分别逐一检索全部15个include_source_ids；公众号多数仅有公开搜索摘要、无结果或无法阅读全文，均按public_search_only记录，不宣称完整覆盖。8月29日至30日历史窗口仍未对每个来源完整核验，待补查标记继续保留。汽车用品关键词及竞品没有同站点、同ASIN、同变体、同收货地域、同时间及同税费/运费口径的连续可比快照，未生成价格、Coupon、BSR或关键词变化结论。",
   "action_items": [
     {
-      "title": "建立美国站节日退货准备金与排班",
-      "detail": "将11—12月订单按一般商品与Apple例外分组，分别跟踪至2027年1月31日与1月15日，并预留退款、质检和逆向物流能力。",
-      "due": "2026-11-01前",
-      "event_key": "amazon-us-extended-holiday-returns-2026|extend-return-window-for-november-december-purchases|US|2026-11-01"
+      "title": "立即筛查10月22日美国CPSC批次",
+      "detail": "按BAMAMON、CIYTI、Reliancer、PowRyte和VQQQ型号排查US站库存、在途与历史订单；命中后停售、隔离并逐项执行召回或停用要求。",
+      "due": "立即",
+      "event_key": "us-cpsc-amazon-products-2026-10-22|recall-or-warn-five-amazon-sold-products|US|2026-10-22"
     },
     {
-      "title": "小范围试点FBA退货自定义分级",
-      "detail": "先选高退货或高客单ASIN设置包装、附件、真伪与功能标准，记录恢复可售率和损失，再决定是否全目录启用。",
+      "title": "清理Amazon.ca的JKMAX及同供应链电热产品",
+      "detail": "核对5个型号与供应商，命中后冻结库存和广告，并联系Health Canada确认客户通知、退款和处置。",
+      "due": "立即",
+      "event_key": "health-canada-jkmax-heated-products|warn-stop-use-and-remove-amazon-ca-listings|CA|2026-10-22"
+    },
+    {
+      "title": "审计加拿大站环保宣称",
+      "detail": "逐ASIN盘点Listing、A+、Store和广告中的绿色表述，绑定测试或充分佐证；删除范围过宽或可能形成误导性整体印象的内容。",
       "due": "本周",
-      "event_key": "amazon-us-fba-customized-return-grading|allow-seller-defined-return-grading-criteria|US|unknown"
+      "event_key": "canada-competition-bureau-environmental-claims-guidance|publish-testing-and-substantiation-guidelines|CA|unknown"
     },
     {
-      "title": "处理已收到的美国站NWD通知",
-      "detail": "逐ASIN核对Brand Representative角色；受影响且无豁免证据的库存应在10月27日前清货或创建移除订单。",
-      "due": "2026-10-27前",
-      "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
+      "title": "建立Tlajomulco物流观察项",
+      "detail": "单独记录墨西哥西部入仓、接收和配送指标；在Amazon公布具体投运节点前不据扩建计划调整全国库存。",
+      "due": "持续",
+      "event_key": "amazon-mexico-tlajomulco-logistics-expansion|expand-operations-center-and-add-thirteen-hundred-jobs|MX|unknown"
     },
     {
       "title": "分站维护汽配可比基线",
@@ -39,15 +46,17 @@
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-23",
-  "content_updated_at": "2026-10-23T01:00:27.000Z",
+  "report_date": "2026-10-24",
+  "content_updated_at": "2026-10-24T01:00:56.000Z",
   "new_event_keys": [
-    "amazon-us-extended-holiday-returns-2026|extend-return-window-for-november-december-purchases|US|2026-11-01",
-    "amazon-us-fba-customized-return-grading|allow-seller-defined-return-grading-criteria|US|unknown"
+    "us-cpsc-amazon-products-2026-10-22|recall-or-warn-five-amazon-sold-products|US|2026-10-22",
+    "health-canada-jkmax-heated-products|warn-stop-use-and-remove-amazon-ca-listings|CA|2026-10-22",
+    "canada-competition-bureau-environmental-claims-guidance|publish-testing-and-substantiation-guidelines|CA|unknown",
+    "amazon-mexico-tlajomulco-logistics-expansion|expand-operations-center-and-add-thirteen-hundred-jobs|MX|unknown"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 2,
+    "new": 4,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0
