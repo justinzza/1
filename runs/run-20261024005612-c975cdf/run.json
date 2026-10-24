@@ -1,0 +1,332 @@
+{
+  "id": "run-20261024005612-c975cdf",
+  "base_state_digest": "56a68a65a7ad8ec3949ca5f09e2ad69ded28f4ab799aa704c13689cb370cfd02",
+  "started_at": "2026-10-24T00:56:12.000Z",
+  "finished_at": "2026-10-24T01:05:11.000Z",
+  "material_changed": true,
+  "backfill_complete": false,
+  "counts": {
+    "new": 4,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "verified",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "commit_sha": "fb5b13437a481425c9083e50ab6c65afe98a77e9",
+    "github_status": "success",
+    "deployment_id": "dpl_B3cfqboBv6kHdn9EvpxUm2RikP3f",
+    "expected_digest": "9adeb45bbe44d7f65908bacc949a0bdb80b1ea58831afcdcf05dabb34950aae1",
+    "observed_digest": "9adeb45bbe44d7f65908bacc949a0bdb80b1ea58831afcdcf05dabb34950aae1",
+    "verified_at": "2026-10-24T01:05:11.000Z",
+    "verification_note": "GitHub Vercel status for the exact commit succeeded. Vercel project-list visibility did not expose the project, so the approved fallback was used: the production domain was opened and its full rendered DOM confirmed report date 2026-10-24, the exact data-content-digest, all four new stable event keys, four current cards, and no DAILY BRIEFING/category-summary markers."
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "公开检索美国站Seller Central News and Announcements；发现内容均已收录或无可公开读取的新公告，登录墙外无法逐页核验，故不记完整成功。"
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "检索Amazon全球开店公开新闻中心及美加墨相关更新；没有找到可直接支持新增运营规则的公开原文，未完成全历史窗口逐页核验。"
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "检查Amazon Ads What's New公开结果；Review Requests、DVA+与Ads Agent等命中内容已在事件库，公开搜索不能保证完整列表。"
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [
+        {
+          "url": "https://www.cpsc.gov/Recalls/2027/BAMAMON-Recalls-LED-Projecting-Finger-Light-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
+          "note": "2026-10-22 CPSC批次代表性原文；本批另核验四份CPSC原文。"
+        }
+      ],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "读取2026-10-22五份CPSC直接原文并收录美国站批次；其他监管范围仅公开检索，不能声称全部检查完成。"
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "公开检索加拿大Seller Central、Amazon Ads与全球开店加拿大内容；未发现未收录的可靠官方公告，受公开索引覆盖限制。"
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "公开检索墨西哥Seller Central、Amazon Ads与全球开店墨西哥内容；未发现未收录的可靠卖家公告，受公开索引覆盖限制。"
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/health-canada-warns-jkmax-heated-blankets-and-heating-pads-previously-available",
+          "note": "Health Canada JKMAX公开警告。"
+        },
+        {
+          "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/publications/environmental-claims-and-competition-act-0",
+          "note": "加拿大竞争局环保宣称指南。"
+        }
+      ],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "读取Health Canada JKMAX警告及加拿大竞争局环保宣称指南原文并收录；其他加拿大监管机构仅公开检索。"
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [
+        {
+          "url": "https://www.tlajomulco.gob.mx/comunicacion-institucional/amazon-mexico-ampliara-operaciones-en-tlajomulco-y-generara-mil-300",
+          "note": "Tlajomulco市政府公开原文。"
+        }
+      ],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "读取Tlajomulco市政府Amazon Mexico扩建公告并核对行业补充；未完成墨西哥全部税务、海关和产品监管档案逐页核验。"
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "单独公开检索跨境头条及US/CA/MX相关内容；未获得可独立核验的新事件原文。"
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "单独公开检索跨境快讯及US/CA/MX相关内容；未获得可独立核验的新事件原文。"
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "单独公开检索知无不言；实时聊天与AI摘要等卖家讨论缺少可靠官方 corroboration，未发布。"
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "单独公开检索TT123卖家导航；未获得可直接支持新增事件的可靠原文。"
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "单独公开检索品牌方舟；未获得可直接支持新增事件的可靠原文。"
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "单独公开检索卖家之家；未获得可直接支持新增事件的可靠原文。"
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "逐一检索公众号“大宝站外推广”；公开搜索无可读取的新文章，未绕过登录或访问限制。"
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "逐一检索公众号“葫芦娃站外推广”；公开搜索无可读取的新文章，未绕过登录或访问限制。"
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "逐一检索公众号“三头六臂跨境电商”；公开搜索无可读取的新文章，未绕过登录或访问限制。"
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "逐一检索跨境头条对应公众号；未找到可确认账号身份且可阅读全文的新文章。"
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "逐一检索跨境快讯对应公众号；未找到可确认账号身份且可阅读全文的新文章。"
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "逐一检索知无不言对应公众号；未找到可确认账号身份且可阅读全文的新文章。"
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "逐一检索TT123卖家导航对应公众号；未找到可确认账号身份且可阅读全文的新文章。"
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "逐一检索品牌方舟对应公众号；未找到可确认账号身份且可阅读全文的新文章。"
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "逐一检索卖家之家对应公众号；未找到可确认账号身份且可阅读全文的新文章。"
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "检索美国站燃油管、CPE编织油管、AN接头与排气卡箍公开页面；缺少同ASIN、变体、地域和时间的可比基线，未判定变化。"
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "按include_source_ids逐一检查6个行业网站与9个公众号的加拿大相关公开结果；多为无结果、摘要或受限阅读，不能记完整覆盖。"
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/t/Pmi5uXhN",
+          "note": "AMZ123对Tlajomulco扩建的行业补充。"
+        }
+      ],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "按include_source_ids逐一检查6个行业网站与9个公众号的墨西哥相关公开结果；AMZ123提供Tlajomulco补充线索，其余多为无结果、摘要或受限阅读。"
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "检索加拿大站四类汽配公开页面；缺少同ASIN、变体、收货地域、CAD税费/运费口径和时间的可比快照。"
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "planned_window_start": "2026-08-28T00:00:00+08:00",
+      "inspected_recent_window_start": "2026-10-20T00:00:00+08:00",
+      "checked_through": "2026-10-24T01:05:11.000Z",
+      "evidence": [],
+      "failure_reason": "公开搜索、索引覆盖或访问限制不足以证明从bootstrap窗口起逐页完整核验；保留旧游标和8月29—30日待补查。",
+      "note": "检索墨西哥站四类汽配公开页面；缺少同ASIN、变体、收货地域、MXN税费/运费口径和时间的可比快照。"
+    }
+  ]
+}
+

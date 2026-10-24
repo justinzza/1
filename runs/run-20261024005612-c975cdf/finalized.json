@@ -1,0 +1,21 @@
+{
+  "run_id": "run-20261024005612-c975cdf",
+  "status": "finalized",
+  "finished_at": "2026-10-24T01:05:11.000Z",
+  "result": "partial",
+  "counts": {
+    "new": 4,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "production_commit": "fb5b13437a481425c9083e50ab6c65afe98a77e9",
+  "deployment_id": "dpl_B3cfqboBv6kHdn9EvpxUm2RikP3f",
+  "content_digest": "9adeb45bbe44d7f65908bacc949a0bdb80b1ea58831afcdcf05dabb34950aae1",
+  "pending_publication": null,
+  "cursor_advanced": false,
+  "pending_backfill_dates": [
+    "2026-08-29",
+    "2026-08-30"
+  ]
+}
