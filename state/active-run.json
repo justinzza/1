@@ -1,17 +1,8 @@
 {
-  "run_id": "run-20261023005535-8f2d7c1",
-  "status": "released",
-  "acquired_at": "2026-10-23T00:55:35.000Z",
-  "expires_at": "2026-10-23T02:25:35.000Z",
-  "previous_radar_state_head": "80bda78f1b3611bcade97de15fe72d9e0683ca81",
-  "takeover_reason": null,
-  "released_at": "2026-10-23T01:04:42.000Z",
-  "release_run_record": "runs/run-20261023005535-8f2d7c1/run.json",
-  "publication": {
-    "status": "verified",
-    "commit_sha": "0a9785ae3c633f939d39fec034c47fa1a20e38a3",
-    "deployment_id": "dpl_5D2rGGakawKxrnx9kQPg4aR2FKc2",
-    "content_digest": "d4184c92c3443d51ff229b2d1a0a74adc03f7197460de49364f06ab399251009",
-    "verified_at": "2026-10-23T01:04:42.000Z"
-  }
+  "run_id": "run-20261024005612-c975cdf",
+  "status": "active",
+  "acquired_at": "2026-10-24T00:56:12.000Z",
+  "expires_at": "2026-10-24T02:26:12.000Z",
+  "previous_radar_state_head": "2201761b2f953c974c7c335c5a75fb36c23eb056",
+  "takeover_reason": null
 }
