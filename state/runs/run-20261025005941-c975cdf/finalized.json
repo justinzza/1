@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261025005941-c975cdf",
+  "status": "finalized",
+  "finished_at": "2026-10-25T01:07:13.000Z",
+  "last_run_status": "partial",
+  "material_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "screened_out": {
+    "existing_event_duplicates": 6,
+    "old_or_non_material": 2
+  },
+  "production": {
+    "commit_sha": "4f1d409a4286cbb1efb750a25c4dfacaf6838f5b",
+    "github_status": "success",
+    "deployment_id": "dpl_FRpGJVRJpBSJJp8gBgi1VUEHLT5b",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "231aef2e70685cff111d7a73ddbe695fec24d23a4824069b400e1e85e7f251cc",
+    "observed_digest": "231aef2e70685cff111d7a73ddbe695fec24d23a4824069b400e1e85e7f251cc",
+    "verified_at": "2026-10-25T01:07:13.000Z"
+  },
+  "cursor_policy": "All 28 sources remained public_search_only, so no successful source cursor or global success time advanced. Pending Aug 29/30 backfill markers remain.",
+  "lease_release": "included_atomically_with_checkpoint_and_run_record"
+}
