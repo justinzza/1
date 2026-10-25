@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261025011019-2-c975cdf",
+  "status": "finalized",
+  "finished_at": "2026-10-25T01:15:30.000Z",
+  "last_run_status": "partial",
+  "material_changed": false,
+  "counts": {
+    "new": 0,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "screened_out": {
+    "existing_event_duplicates": 8,
+    "old_or_non_material": 4
+  },
+  "production": {
+    "status": "not_needed",
+    "baseline_commit_sha": "4f1d409a4286cbb1efb750a25c4dfacaf6838f5b",
+    "baseline_content_digest": "231aef2e70685cff111d7a73ddbe695fec24d23a4824069b400e1e85e7f251cc"
+  },
+  "cursor_policy": "All 28 sources remained public_search_only, so no successful source cursor or global success time advanced. Pending Aug 29/30 backfill markers remain.",
+  "lease_release": "included_atomically_with_checkpoint_and_run_record"
+}

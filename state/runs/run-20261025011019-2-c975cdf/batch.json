@@ -1,0 +1,18 @@
+{
+  "base_digest": "02427ec6e3d5e78c990465116bf8c7259c7201352c054d471c0d3240a48cbf81",
+  "checked_at": "2026-10-25T01:15:30.000Z",
+  "candidates": [],
+  "report": {
+    "status": "partial",
+    "top_changes": [],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "本次为上一轮已验收发布后约8分钟内的重复增量检查。重新检索US、CA、MX公开可见的Amazon Seller Central、Amazon Ads、全球开店、监管索引、既定行业媒体、公开公众号线索及汽车用品关键词；命中内容均早于上一轮截止时间或已在事件库。公众号与部分Seller Central页面仍仅能读取公开索引或摘要，因此不宣称完整检查；竞品仍缺少指定ASIN和可比快照，未据单次结果声称价格、Coupon、BSR或关键词变化。",
+    "action_items": []
+  }
+}
