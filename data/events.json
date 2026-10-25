@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-24T01:00:56.000Z",
+  "content_updated_at": "2026-10-25T01:03:27.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -5326,6 +5326,69 @@
       "event_key": "amazon-mexico-tlajomulco-logistics-expansion|expand-operations-center-and-add-thirteen-hundred-jobs|MX|unknown",
       "id": "evt-c299285918639796",
       "primary_source_url": "https://www.tlajomulco.gob.mx/comunicacion-institucional/amazon-mexico-ampliara-operaciones-en-tlajomulco-y-generara-mil-300"
+    },
+    {
+      "subject_key": "amazon-us-3d-printers-fee-category",
+      "action_key": "create-separate-referral-fee-category-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-10-31",
+      "deadline": null,
+      "title": "Amazon美国站10月31日新增“3D Printers”费用分类，超过200美元部分佣金降至5%",
+      "summary": "Amazon Seller Central帮助页明确，2026年10月31日起新增独立的“3D Printers”费用分类。符合条件的3D打印机和3D打印笔从Business, Industrial, and Scientific Supplies等原费用分类转入新分类；喷嘴、耗材和打印丝等配件仍保留在原分类。美国站费用表显示，新分类Referral Fee为总销售价前200美元部分12%、超过200美元部分5%，每件最低0.30美元。",
+      "category": "policy",
+      "priority": "P1",
+      "impact": "对售价超过200美元的3D打印机或3D打印笔，新分类会降低超过200美元部分的Referral Fee；200美元以内部分仍为12%。卖家不能把整套3D打印相关目录统一套用新费率，因为喷嘴、耗材和打印丝等配件不在新分类内。该变化目前仅核验美国站，不能外推加拿大或墨西哥站。",
+      "action": "在10月31日前导出美国站Fee Preview并筛选3D打印机、3D打印笔及套装ASIN，逐个核对费用分类；用Revenue Calculator按“前200美元12%+超过部分5%”重算毛利。把喷嘴、耗材、打印丝与主机拆开复核，分类错误时通过Seller Support提交费用分类争议并保存截图与case记录。",
+      "original_published_at": null,
+      "original_date_note": "Amazon公开帮助页未显示可核实的首次发布日期；页面明确生效日为2026-10-31。行业原创报道于2026-10-22发布，仅用于补充发现时间，不替代官方规则。",
+      "first_seen_at": "2026-10-25T01:03:27.000Z",
+      "last_material_update_at": "2026-10-25T01:03:27.000Z",
+      "history_dates": [
+        "2026-10-25"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/help/hub/reference/external/GFD6HLGAEZC9VBGJ",
+          "publisher": "Amazon Seller Central",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-10-25T01:03:27.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "公开帮助页的搜索摘要明确标注3D Printers为2026-10-31生效的新费用分类，并说明此前归入Business, Industrial, and Scientific Supplies。",
+          "canonical_url": "https://sellercentral.amazon.com/help/hub/reference/external/GFD6HLGAEZC9VBGJ"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/help/hub/reference/external/G200336920?locale=en_US",
+          "publisher": "Amazon Seller Central",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-10-25T01:03:27.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "美国站官方费用表列明3D Printers的Referral Fee为前200美元部分12%、超过200美元部分5%，每件最低0.30美元。",
+          "canonical_url": "https://sellercentral.amazon.com/help/hub/reference/external/G200336920?locale=en_US"
+        },
+        {
+          "url": "https://www.niceggie.com/en/news/amazon-us-to-add-3d-printers-fee-category-on-october-31-2026-6adaa19a1bc406cba408df67",
+          "publisher": "Niceggie",
+          "kind": "industry_original",
+          "published_at": "2026-10-22T23:51:00Z",
+          "verified_at": "2026-10-25T01:03:27.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "verification_note": "行业原创报道用于补充适用商品与配件边界及公开发现时间；核心生效日和费率均回到Amazon官方帮助页核验。",
+          "canonical_url": "https://www.niceggie.com/en/news/amazon-us-to-add-3d-printers-fee-category-on-october-31-2026-6adaa19a1bc406cba408df67"
+        }
+      ],
+      "event_key": "amazon-us-3d-printers-fee-category|create-separate-referral-fee-category-2026|US|2026-10-31",
+      "id": "evt-76e0478595ced88c",
+      "primary_source_url": "https://sellercentral.amazon.com/help/hub/reference/external/G200336920?locale=en_US"
     }
   ]
 }
