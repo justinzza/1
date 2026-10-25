@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261025005941-c975cdf",
+  "status": "prepared",
+  "prepared_at": "2026-10-25T01:03:27.000Z",
+  "base_main_head": "fb5b13437a481425c9083e50ab6c65afe98a77e9",
+  "base_registry_digest": "688861dbfcd5dfae620ff9192a63be515a143e14ca510c1ac47a37d994447016",
+  "expected_registry_digest": "02427ec6e3d5e78c990465116bf8c7259c7201352c054d471c0d3240a48cbf81",
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-3d-printers-fee-category|create-separate-referral-fee-category-2026|US|2026-10-31"
+  ],
+  "excluded_after_semantic_review": {
+    "duplicate_existing_events": 6,
+    "old_or_non_material_items": 2,
+    "notes": [
+      "USPS/Amazon afternoon same-day pilot already exists in the registry.",
+      "NWD restriction, Express Payout, Holiday Beauty and FBA congestion were already published.",
+      "AI product-summary/Alexa item referred to an older May rollout without evidence of a new material launch."
+    ]
+  },
+  "staged_files": [
+    "data/events.json",
+    "data/report.json",
+    "index.html"
+  ],
+  "tests": {
+    "node_test": "passed:22",
+    "radar_check": "passed",
+    "daily_briefing_absent": true
+  },
+  "publication": {
+    "status": "pending_main_commit"
+  }
+}
