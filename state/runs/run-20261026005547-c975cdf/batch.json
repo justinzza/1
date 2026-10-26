@@ -1,0 +1,18 @@
+{
+  "base_digest": "02427ec6e3d5e78c990465116bf8c7259c7201352c054d471c0d3240a48cbf81",
+  "checked_at": "2026-10-26T01:00:49.802Z",
+  "candidates": [],
+  "report": {
+    "status": "partial",
+    "top_changes": [],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "本次逐项复查US、CA、MX公开可见的Seller Central、Amazon Ads、全球开店、监管机构、既定行业媒体、15个公众号/媒体加墨分组及汽车用品关键词。命中均为既有事件、旧政策重述或缺少可比基线的首次观察。公众号与部分Seller Central页面仍仅能读取公开索引或摘要，因此不宣称完整检查；竞品未指定ASIN，未据单次结果声称价格、Coupon、BSR或关键词变化。",
+    "action_items": []
+  }
+}
