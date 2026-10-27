@@ -1,0 +1,18 @@
+{
+  "base_digest": "02427ec6e3d5e78c990465116bf8c7259c7201352c054d471c0d3240a48cbf81",
+  "checked_at": "2026-10-27T01:05:54.659Z",
+  "candidates": [],
+  "report": {
+    "status": "partial",
+    "top_changes": [],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "本次按US、CA、MX分别复查Seller Central、Amazon Ads、全球开店、监管机构、既定行业媒体、15个公众号/媒体加墨分组及汽车用品关键词。10月26日可见的新转载均为既有危险品问卷、NWD权限等已入库事项；Seller Central实时聊天Beta仅有行业报道，且报道明确未披露适用站点、资格、覆盖和Amazon官方公告，未纳入三站事件库。公众号与部分Seller Central页面只能读取公开索引或摘要，因此不宣称完整检查；竞品未指定ASIN且缺少同口径可比快照，未据单次结果声称价格、Coupon、BSR或关键词变化。",
+    "action_items": []
+  }
+}
