@@ -1,7 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-3d-printers-fee-category|create-separate-referral-fee-category-2026|US|2026-10-31"
+    "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27",
+    "amazon-north-america-dangerous-goods-listing-questions|require-category-specific-compliance-answers-2026|CA+MX+US|2026-10-26"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -10,26 +11,34 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "已核验US、CA、MX公开可检索的Amazon Seller Central、全球开店、Amazon Ads、监管机构、既定行业网站及九个公众号身份线索。公众号与部分Seller Central页面仅能读取公开搜索摘要，未登录受限内容，因此不宣称完整检查；CA/MX分别补查官方、监管、行业/公众号及汽车用品关键词。汽车用品检索缺少指定ASIN和可比快照，未据此声称价格、Coupon、BSR或关键词变化。USPS同日达试点、NWD限售、Express Payout等线索已存在事件库；商品页AI摘要线索对应5月旧发布，均未重复建档。",
+  "coverage_note": "已核验US/CA/MX Seller Central公开公告、Amazon Ads What's New、亚马逊全球开店公开新闻页、CPSC、Health Canada及墨西哥PROFECO公开结果，并逐项检索既定行业媒体和15个公开公众号入口。部分Seller Central页面仅公开相对日期，行业站点与公众号多为搜索摘要或入口页，不能声称全文完整检查；汽车用品未提供指定ASIN及可比快照，未把首次公开观察解释为价格、Coupon或BSR变化。8月29—30日历史补查标记继续保留。",
   "action_items": [
     {
-      "title": "复核3D打印ASIN费用分类",
-      "detail": "导出美国站Fee Preview，逐ASIN确认3D打印机、3D打印笔与配件是否进入正确费用分类，并按新阶梯费率重算毛利。",
-      "due": "2026-10-31前",
-      "event_key": "amazon-us-3d-printers-fee-category|create-separate-referral-fee-category-2026|US|2026-10-31"
+      "title": "复核NWD品牌角色与库存",
+      "detail": "逐品牌确认美国站销售账号的Brand Representative角色；无角色按通知处理库存，有角色但受限则带ASIN、错误码及角色证据开案。",
+      "due": "立即",
+      "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
+    },
+    {
+      "title": "建立三站危险品字段资料包",
+      "detail": "优先为减震器与悬挂支撑收集结构/材料证明，并按US、CA、MX分别保存字段答案、SDS及审核结果。",
+      "due": "下次创建或编辑Listing前",
+      "event_key": "amazon-north-america-dangerous-goods-listing-questions|require-category-specific-compliance-answers-2026|CA+MX+US|2026-10-26"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-25",
-  "content_updated_at": "2026-10-25T01:03:27.000Z",
+  "report_date": "2026-10-28",
+  "content_updated_at": "2026-10-28T01:05:48.000Z",
   "new_event_keys": [
-    "amazon-us-3d-printers-fee-category|create-separate-referral-fee-category-2026|US|2026-10-31"
+    "amazon-north-america-dangerous-goods-listing-questions|require-category-specific-compliance-answers-2026|CA+MX+US|2026-10-26"
   ],
-  "updated_event_keys": [],
+  "updated_event_keys": [
+    "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
+  ],
   "counts": {
     "new": 1,
-    "updated": 0,
-    "merged": 0,
+    "updated": 1,
+    "merged": 1,
     "deduplicated": 0
   }
 }
