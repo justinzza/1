@@ -1,0 +1,319 @@
+{
+  "id": "run-20261028010155-c975cdf",
+  "started_at": "2026-10-28T01:01:55.000Z",
+  "finished_at": "2026-10-28T01:11:31.000Z",
+  "base_state_digest": "3664737cf7596a974a0d9c327094850765ef2b5cd3ce3d4f30b4d74aab0fcd56",
+  "material_changed": true,
+  "metadata_changed": true,
+  "backfill_complete": false,
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/56ed9f10-95a1-4db5-9ef2-63feceea0635",
+          "note": "Amazon moderator Glenn_Amazon clarified NWD Brand Representative handling on 2026-10-28."
+        },
+        {
+          "url": "https://sellercentral.amazon.com/help/hub/reference/external/GK9HGPH98L5XBS2P",
+          "note": "Official NWD help page documents notice, sell-through, inventory, role, and appeal paths."
+        },
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e71bb5b8-e611-464e-afbd-9e4bd16ff27f",
+          "note": "US News_Amazon dangerous-goods Listing questions effective 2026-10-26."
+        }
+      ],
+      "note": "已直接核验本批命中的Amazon官方公告/版主澄清并形成可发布证据；但未完成该来源从bootstrap窗口至今的全部公告逐页覆盖，故仅记public_search_only且不推进成功游标。"
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [
+        {
+          "url": "https://gs.amazon.cn/news",
+          "note": "Public Global Selling news search checked; no reliable new US/CA/MX policy increment identified."
+        }
+      ],
+      "note": "已检查该来源公开索引/搜索结果；未完整核验从来源独立成功窗口起的全部内容，故记public_search_only且不推进成功游标。"
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new",
+          "note": "Public What’s New/feature index checked; no reliable 2026-10-27/28 US/CA/MX increment identified."
+        }
+      ],
+      "note": "已检查该来源公开索引/搜索结果；未完整核验从来源独立成功窗口起的全部内容，故记public_search_only且不推进成功游标。"
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [
+        {
+          "url": "https://www.cpsc.gov/Recalls",
+          "note": "CPSC public recall index checked; latest relevant Amazon-sold recall already in event store."
+        }
+      ],
+      "note": "已检查对应监管机构公开索引与检索结果；未完成bootstrap窗口内所有主题的穷尽核验，故记public_search_only，不将读取限制误报为无新增。"
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/9d989276-cb81-40ed-a9d7-2967f2415116",
+          "note": "CA News_Amazon dangerous-goods Listing questions effective 2026-10-26."
+        }
+      ],
+      "note": "已直接核验本批命中的Amazon官方公告/版主澄清并形成可发布证据；但未完成该来源从bootstrap窗口至今的全部公告逐页覆盖，故仅记public_search_only且不推进成功游标。"
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/03c50d23-ac2b-45a8-9dd9-7a3e3b44c401",
+          "note": "MX News_Amazon dangerous-goods Listing questions effective 2026-10-26."
+        }
+      ],
+      "note": "已直接核验本批命中的Amazon官方公告/版主澄清并形成可发布证据；但未完成该来源从bootstrap窗口至今的全部公告逐页覆盖，故仅记public_search_only且不推进成功游标。"
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en",
+          "note": "Health Canada public recall index checked; latest Amazon-specific item was already represented."
+        }
+      ],
+      "note": "已检查对应监管机构公开索引与检索结果；未完成bootstrap窗口内所有主题的穷尽核验，故记public_search_only，不将读取限制误报为无新增。"
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [
+        {
+          "url": "https://www.gob.mx/profeco",
+          "note": "PROFECO public search checked; no new Amazon-specific official item selected."
+        }
+      ],
+      "note": "已检查对应监管机构公开索引与检索结果；未完成bootstrap窗口内所有主题的穷尽核验，故记public_search_only，不将读取限制误报为无新增。"
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已按该媒体或公众号名称执行独立公开检索；仅取得公开搜索摘要、入口页或受限片段，未能完整读取自上次成功点以来的全部文章，因此标记public_search_only，不推进游标。危险品线索已回溯并以三站Amazon官方公告合并核验。"
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已执行该站点汽车用品关键词公开检索；缺少用户指定ASIN和可比历史快照，未把首次观察或单次页面结果当作价格、Coupon、BSR或排名变化，状态保持public_search_only。"
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已逐一对include_source_ids中的15个行业媒体与公众号附加对应站点词执行公开检索；覆盖为公开搜索摘要级，未完整读取全部文章，故不推进独立CA/MX游标。"
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已逐一对include_source_ids中的15个行业媒体与公众号附加对应站点词执行公开检索；覆盖为公开搜索摘要级，未完整读取全部文章，故不推进独立CA/MX游标。"
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已执行该站点汽车用品关键词公开检索；缺少用户指定ASIN和可比历史快照，未把首次观察或单次页面结果当作价格、Coupon、BSR或排名变化，状态保持public_search_only。"
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": null,
+      "evidence": [],
+      "note": "已执行该站点汽车用品关键词公开检索；缺少用户指定ASIN和可比历史快照，未把首次观察或单次页面结果当作价格、Coupon、BSR或排名变化，状态保持public_search_only。"
+    }
+  ],
+  "coverage": {
+    "US": "partial: official evidence verified; source-wide bootstrap window incomplete",
+    "CA": "partial: official dangerous-goods notice verified; regulator/industry/search coverage incomplete",
+    "MX": "partial: official dangerous-goods notice verified; regulator/industry/search coverage incomplete"
+  },
+  "counts": {
+    "added": 1,
+    "materially_updated": 1,
+    "sources_merged": 1,
+    "deduplicated": 0,
+    "total_events": 100
+  },
+  "semantic_reviews": [
+    {
+      "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27",
+      "disposition": "update_existing",
+      "reason": "Same subject, action, marketplace, effective date and underlying NWD notice; Amazon moderator clarification materially upgrades official status and operational handling, so the existing card was updated rather than duplicated."
+    },
+    {
+      "event_key": "amazon-dangerous-goods-listing-questions-2026|require-category-specific-dangerous-goods-answers|CA-MX-US|2026-10-26",
+      "disposition": "new_multimarket_event",
+      "reason": "US, CA and MX official notices describe the same required Listing questions and same effective date; one multi-market card avoids three semantic duplicates."
+    }
+  ],
+  "publication": {
+    "status": "verified",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "commit_sha": "e90c0b602fb15975e5542c60a77d1e977b8c7002",
+    "github_status": "success",
+    "deployment_id": "dpl_Hv5xRqPuiwdtfAXjbUbW3aoUdgDs",
+    "expected_digest": "2f0b5ea63a66aa5a06de7b38c40eca46a5deda688de0545948ae9bf27312208e",
+    "observed_digest": "2f0b5ea63a66aa5a06de7b38c40eca46a5deda688de0545948ae9bf27312208e",
+    "verified_at": "2026-10-28T01:11:31.000Z",
+    "verification_note": "Exact main commit GitHub Vercel status succeeded. Vercel project read API returned 403, so verification used the documented fallback: the formal domain rendered report date 2026-10-28, both expected current event titles, the exact data-content-digest, and no DAILY BRIEFING/分类摘要."
+  },
+  "deferred_metadata": null
+}
