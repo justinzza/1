@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261028010155-c975cdf",
+  "status": "prepared",
+  "prepared_at": "2026-10-28T01:05:48.000Z",
+  "base_radar_state_head": "13efc65664058e2e64f7997829bdf84727768b09",
+  "base_main_commit": "4f1d409a4286cbb1efb750a25c4dfacaf6838f5b",
+  "base_registry_digest": "02427ec6e3d5e78c990465116bf8c7259c7201352c054d471c0d3240a48cbf81",
+  "expected_registry_digest": "574970173640be229019ab64b9a170f4eab96353eb968b976494d4c5a072e790",
+  "expected_content_digest": "074a47781fc9e14d03bf0cb6aa9f6bb6a2fbb71cc7c7a28f279129a8f4e115d4",
+  "counts": {
+    "new": 1,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "tests": {
+    "node_tests": 22,
+    "passed": 22,
+    "failed": 0,
+    "page_consistency": true,
+    "daily_briefing_absent": true
+  }
+}

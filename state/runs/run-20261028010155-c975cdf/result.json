@@ -1,0 +1,35 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-north-america-dangerous-goods-listing-questions|require-category-specific-compliance-answers-2026|CA+MX+US|2026-10-26"
+  ],
+  "updated_event_keys": [
+    "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": true,
+        "effective_date": true
+      },
+      "review": "主体、动作、美国站范围、生效日及论坛链接均与10月17日已收录NWD卡片相同；10月28日Amazon管理员回复是对原事项的官方澄清，必须更新原卡并升级证据，不能新增重复卡片。"
+    },
+    {
+      "event_key": "amazon-north-america-dangerous-goods-listing-questions|require-category-specific-compliance-answers-2026|CA+MX+US|2026-10-26",
+      "action": "new",
+      "review": "全库未发现同一主体、同一危险品问题动作、三站范围和2026-10-26生效日的事件；三条官方公告内容、动作和日期一致，按规则合并为一张US/CA/MX卡片。"
+    }
+  ]
+}

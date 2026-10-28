@@ -1,0 +1,149 @@
+{
+  "base_digest": "02427ec6e3d5e78c990465116bf8c7259c7201352c054d471c0d3240a48cbf81",
+  "checked_at": "2026-10-28T01:05:48.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-nwd-brand-gating-2026",
+        "action_key": "restrict-notified-brands-to-brand-representative-accounts",
+        "marketplaces": ["US"],
+        "effective_date": "2026-10-27",
+        "deadline": "2026-10-27",
+        "title": "Amazon确认美国站NWD品牌权限规则：无Brand Representative角色须停止销售；有角色收到通知属误发",
+        "summary": "Amazon Seller Forums管理员Glenn_Amazon于2026年10月28日明确确认：收到通知意味着Amazon把相关品牌识别为No Wholesale Distribution（NWD）；在通知规定的sell-through period结束后，没有Brand Representative角色的卖家必须停止销售，有该角色的卖家若收到通知则属于误发。该澄清把此前的卖家通知线索升级为Amazon官方确认，但只适用于被识别为NWD并收到通知的品牌，不代表美国站所有品牌统一禁售经销商。",
+        "impact": "非品牌代表账号在通知宽限期结束后继续销售受影响NWD品牌将面临Listing限制和FBA库存处置风险；品牌方或已具备Brand Representative角色的账号不应仅因通用通知就仓促移除全部库存，但仍需确认销售账号与Brand Registry角色同步。现有官方帮助页明确NWD错误5465/6045仅允许品牌创建或更新Listing，角色更新后通常需等待48小时。",
+        "action": "美国站立即逐品牌核对消息中心通知、Brand Registry中的Brand Representative角色、销售账号和merchant token。无该角色的账号按通知中的sell-through period停止销售并处理FBA库存；已具备角色但Listing仍受限的账号，保存角色截图、ASIN、错误码5465/6045和通知，向Brand Registry/Seller Support开案，不要仅凭误发通知批量移除库存。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-10-15",
+        "original_date_note": "卖家通知与原始论坛讨论在2026-10-15前后公开；Amazon论坛管理员Glenn_Amazon于2026-10-28补充官方澄清。本卡保留原事件发布日期，并把10月28日记录为实质更新，不把旧通知包装为当天新规。",
+        "first_seen_at": "2026-10-17T01:05:00.000Z",
+        "last_material_update_at": "2026-10-17T01:05:00.000Z",
+        "history_dates": ["2026-10-17"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/56ed9f10-95a1-4db5-9ef2-63feceea0635",
+            "publisher": "Amazon Seller Forums（Glenn_Amazon）",
+            "kind": "official",
+            "published_at": "2026-10-28",
+            "verified_at": "2026-10-28T01:05:48.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official_moderator_reply"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/help/hub/reference/external/GK9HGPH98L5XBS2P",
+            "publisher": "Amazon Seller Central Help",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-10-28T01:05:48.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official_help"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "02427ec6e3d5e78c990465116bf8c7259c7201352c054d471c0d3240a48cbf81",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27",
+        "reason": "主体、动作、美国站范围、生效日及论坛链接均与10月17日已收录NWD卡片相同；10月28日Amazon管理员回复是对原事项的官方澄清，必须更新原卡并升级证据，不能新增重复卡片。"
+      },
+      "material_update": true,
+      "update_reason": "2026-10-28 Amazon论坛管理员Glenn_Amazon首次明确确认：无Brand Representative角色的通知为有意发送并须停售，有该角色时收到通知属于误发；该信息把原行业线索升级为官方确认并改变品牌方处置建议。"
+    },
+    {
+      "event": {
+        "subject_key": "amazon-north-america-dangerous-goods-listing-questions",
+        "action_key": "require-category-specific-compliance-answers-2026",
+        "marketplaces": ["CA", "MX", "US"],
+        "effective_date": "2026-10-26",
+        "deadline": null,
+        "title": "美加墨10月26日起新增危险品Listing必答项：减震器、制冷设备、书写工具及泳池化学品受影响",
+        "summary": "Amazon美国、加拿大和墨西哥Seller Central官方公告分别确认，自2026年10月26日起，新建或编辑指定类目Listing时必须回答新增危险品合规问题。适用品类包括冰箱、空调、冷冻设备等制冷产品（制冷剂属性），减震器及悬挂支撑（减震机制），马克笔及书写工具（墨水属性），以及泳池和SPA水处理化学品（成分与包装）。现有Listing无需仅因日期到来而主动重建，但下次创建或编辑时会出现必答项。",
+        "impact": "三站同日启用且规则动作一致，因此合并为一张多站卡片。对汽车用品卖家最直接的是shock absorbers与suspension lift supports：资料不完整可能导致Listing发布延迟，危险品信息缺失、矛盾或分类错误还可能影响FBA入仓、配送方式及库存处置成本。该公告不等于fuel line、CPE braided fuel hose、AN fittings或exhaust clamp自动被归类为危险品，仍须按产品材料、液体残留和具体属性判断。",
+        "action": "按US/CA/MX分别导出受影响ASIN与草稿Listing，先向工厂收集减震结构、制冷剂型号与充注量、墨水成分、泳池化学品成分/包装及适用SDS；在正式编辑前用测试SKU核对站点字段和单位，避免为非相关ASIN误填危险品属性。汽车用品团队优先筛查减震器与悬挂支撑，并把三站答案、SDS版本和审核结果分开留档。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": null,
+        "original_date_note": "三站官方论坛公开页在核验时仅显示相对时间（约一个月前），无法可靠确定日级发布日期，故original_published_at保留unknown；2026-10-28为首次核验入库日，不替代原始发布日期。官方页面均明确2026-10-26为规则生效日。",
+        "first_seen_at": "2026-10-28T01:05:48.000Z",
+        "last_material_update_at": "2026-10-28T01:05:48.000Z",
+        "history_dates": ["2026-10-28"],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e71bb5b8-e611-464e-afbd-9e4bd16ff27f",
+            "publisher": "Amazon Seller Central US（News_Amazon）",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-10-28T01:05:48.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official_announcement"
+          },
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/9d989276-cb81-40ed-a9d7-2967f2415116",
+            "publisher": "Amazon Seller Central CA（News_Amazon）",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-10-28T01:05:48.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official_announcement"
+          },
+          {
+            "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/03c50d23-ac2b-45a8-9dd9-7a3e3b44c401",
+            "publisher": "Amazon Seller Central MX（News_Amazon）",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-10-28T01:05:48.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official_announcement"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "02427ec6e3d5e78c990465116bf8c7259c7201352c054d471c0d3240a48cbf81",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库未发现同一主体、同一危险品问题动作、三站范围和2026-10-26生效日的事件；三条官方公告内容、动作和日期一致，按规则合并为一张US/CA/MX卡片。",
+        "distinct_event_reason": "与既有危险品召回、锂电池合规、保险要求及NWD品牌权限事件的主体和动作不同；本事件专指创建或编辑四类Listing时新增的危险品合规问答。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27",
+      "amazon-north-america-dangerous-goods-listing-questions|require-category-specific-compliance-answers-2026|CA+MX+US|2026-10-26"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "已核验US/CA/MX Seller Central公开公告、Amazon Ads What's New、亚马逊全球开店公开新闻页、CPSC、Health Canada及墨西哥PROFECO公开结果，并逐项检索既定行业媒体和15个公开公众号入口。部分Seller Central页面仅公开相对日期，行业站点与公众号多为搜索摘要或入口页，不能声称全文完整检查；汽车用品未提供指定ASIN及可比快照，未把首次公开观察解释为价格、Coupon或BSR变化。8月29—30日历史补查标记继续保留。",
+    "action_items": [
+      {
+        "title": "复核NWD品牌角色与库存",
+        "detail": "逐品牌确认美国站销售账号的Brand Representative角色；无角色按通知处理库存，有角色但受限则带ASIN、错误码及角色证据开案。",
+        "due": "立即",
+        "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
+      },
+      {
+        "title": "建立三站危险品字段资料包",
+        "detail": "优先为减震器与悬挂支撑收集结构/材料证明，并按US、CA、MX分别保存字段答案、SDS及审核结果。",
+        "due": "下次创建或编辑Listing前",
+        "event_key": "amazon-north-america-dangerous-goods-listing-questions|require-category-specific-compliance-answers-2026|CA+MX+US|2026-10-26"
+      }
+    ]
+  }
+}

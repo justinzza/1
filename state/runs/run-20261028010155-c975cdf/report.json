@@ -1,0 +1,44 @@
+{
+  "status": "partial",
+  "top_changes": [
+    "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27",
+    "amazon-north-america-dangerous-goods-listing-questions|require-category-specific-compliance-answers-2026|CA+MX+US|2026-10-26"
+  ],
+  "category_coverage": {
+    "policy": "partial",
+    "ads": "partial",
+    "ai": "partial",
+    "opportunities": "partial",
+    "competitors": "partial"
+  },
+  "coverage_note": "已核验US/CA/MX Seller Central公开公告、Amazon Ads What's New、亚马逊全球开店公开新闻页、CPSC、Health Canada及墨西哥PROFECO公开结果，并逐项检索既定行业媒体和15个公开公众号入口。部分Seller Central页面仅公开相对日期，行业站点与公众号多为搜索摘要或入口页，不能声称全文完整检查；汽车用品未提供指定ASIN及可比快照，未把首次公开观察解释为价格、Coupon或BSR变化。8月29—30日历史补查标记继续保留。",
+  "action_items": [
+    {
+      "title": "复核NWD品牌角色与库存",
+      "detail": "逐品牌确认美国站销售账号的Brand Representative角色；无角色按通知处理库存，有角色但受限则带ASIN、错误码及角色证据开案。",
+      "due": "立即",
+      "event_key": "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
+    },
+    {
+      "title": "建立三站危险品字段资料包",
+      "detail": "优先为减震器与悬挂支撑收集结构/材料证明，并按US、CA、MX分别保存字段答案、SDS及审核结果。",
+      "due": "下次创建或编辑Listing前",
+      "event_key": "amazon-north-america-dangerous-goods-listing-questions|require-category-specific-compliance-answers-2026|CA+MX+US|2026-10-26"
+    }
+  ],
+  "schema_version": 1,
+  "report_date": "2026-10-28",
+  "content_updated_at": "2026-10-28T01:05:48.000Z",
+  "new_event_keys": [
+    "amazon-north-america-dangerous-goods-listing-questions|require-category-specific-compliance-answers-2026|CA+MX+US|2026-10-26"
+  ],
+  "updated_event_keys": [
+    "amazon-us-nwd-brand-gating-2026|restrict-notified-brands-to-brand-representative-accounts|US|2026-10-27"
+  ],
+  "counts": {
+    "new": 1,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  }
+}
