@@ -1,0 +1,193 @@
+{
+  "base_digest": "574970173640be229019ab64b9a170f4eab96353eb968b976494d4c5a072e790",
+  "checked_at": "2026-10-29T01:03:44.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-fba-new-selection-program-2026",
+        "action_key": "upgrade-brand-new-parent-asin-benefits-and-require-reenrollment",
+        "marketplaces": ["CA", "US"],
+        "effective_date": "2026-07-30",
+        "deadline": "2027-03-31",
+        "title": "美加站2026 FBA新品入仓计划旧版参与者确认期限延至2027年3月31日",
+        "summary": "Amazon更新美国、加拿大FBA New Selection Program说明：旧版参与者现可自动获得升级版福利至2027年3月31日，原先2026年10月31日的过渡期限已延长。若要在2027年3月31日后继续让新ASIN获得福利，须在期限前接受更新后的计划条款；未确认者在该日后新ASIN停止获得福利，已符合资格的ASIN仍按各自福利窗口继续。",
+        "impact": "延期为旧版参与者增加约5个月确认时间，降低旺季前误失资格风险，但并非永久自动续期。符合条件的品牌新父ASIN仍可获得前200件阶梯式销售佣金减免、120天部分FBA费用减免及Vine/Coupon费用优惠；US和CA金额、币种及资格仍需分别核对，不能套用于MX。",
+        "action": "在Seller Benefits页面核对US、CA账号的New Selection Program状态，并把接受更新条款的内部截止日改为2027年3月31日前；保存确认回执。分别按USD/CAD复核父ASIN资格、首件到仓日、前200件及120天窗口；不要再按旧的2026年10月31日截止日判断失效。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-09-01",
+        "original_date_note": "计划升级自2026-07-30起适用；Amazon于2026-10-28更新官方公告和帮助页，将旧版参与者的确认期限由2026-10-31延至2027-03-31。事件继续按原生效日建档。",
+        "first_seen_at": "2026-10-12T01:09:44.000Z",
+        "last_material_update_at": "2026-10-29T01:03:44.000Z",
+        "history_dates": ["2026-10-12", "2026-10-29"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/gp/help/external/GB36EVK8V94P8J5D",
+            "publisher": "Amazon Seller Central US",
+            "kind": "official",
+            "published_at": "2026-10-28",
+            "verified_at": "2026-10-29T01:03:44.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "官方帮助页明确旧版参与者的临时资格延至2027-03-31，并说明逾期未接受新条款对新ASIN和既有合格ASIN的不同影响。"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/0350c06a-2b11-4a24-b489-f608fb83fc47",
+            "publisher": "Amazon Seller Central US",
+            "kind": "official",
+            "published_at": "2026-10-28",
+            "verified_at": "2026-10-29T01:03:44.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "Amazon News公告明确美国站注册窗口延长至2027-03-31。"
+          },
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/0350c06a-2b11-4a24-b489-f608fb83fc47",
+            "publisher": "Amazon Seller Central CA",
+            "kind": "official",
+            "published_at": "2026-10-28",
+            "verified_at": "2026-10-29T01:03:44.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "Amazon News公告明确加拿大站注册窗口延长至2027-03-31。"
+          }
+        ]
+      },
+      "material_update": true,
+      "update_reason": "Amazon官方将旧版参与者的确认期限从2026-10-31实质延长至2027-03-31，并补充逾期对新ASIN与既有合格ASIN的不同处理，需修正旧卡片的截止日、影响和动作。",
+      "dedupe_review": {
+        "compared_digest": "574970173640be229019ab64b9a170f4eab96353eb968b976494d4c5a072e790",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30",
+        "reason": "标题、核心主体、变化动作、适用站点和原生效日均与既有FBA New Selection卡片相同；本次是确认期限与后续资格规则的实质更新，必须更新原卡而非新增。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-seller-central-coupon-creation",
+        "action_key": "add-autosave-preview-and-clone-workflow-2026",
+        "marketplaces": ["CA", "MX", "US"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "美加墨Seller Central优惠券创建新增自动保存、预览与克隆",
+        "summary": "Amazon在美国站补充发布与加墨站相同的Coupon创建流程：草稿自动保存，提交前可实时预览完整设置与商品，既有Coupon配置可克隆复用，并提供分步进度指引。直接官方证据现覆盖US、CA、MX，原卡片从加墨两站扩展为北美三站。",
+        "impact": "可减少重复录入和中断丢失，但克隆旧配置也可能复制错误ASIN、折扣、预算或日期。三站功能动作一致，仍须按USD、CAD、MXN及各站税费、折扣门槛和促销叠加规则分别复核；公告未给出可靠日级生效日。",
+        "action": "在US、CA、MX各用一个低风险Coupon测试自动保存、预览与克隆，提交前逐项核对ASIN、变体、站点币种折扣、预算、开始/结束时间和叠加促销；保存预览与发布结果，避免跨站复制金额和日期。",
+        "category": "ads",
+        "priority": "P2",
+        "original_published_at": null,
+        "original_date_note": "三站官方论坛均只显示相对发布时间，无法可靠确定日级生效日；未用抓取日替代，effective_date保持null。美国站直接证据于2026-10-29核验。",
+        "first_seen_at": "2026-10-07T01:03:47.000Z",
+        "last_material_update_at": "2026-10-29T01:03:44.000Z",
+        "history_dates": ["2026-10-07", "2026-10-29"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/5e0d4e74-d613-4db2-b7bd-e4f8ed5d6e35",
+            "publisher": "Amazon Seller Central US",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-10-29T01:03:44.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "Amazon News_Amazon官方帖直接说明美国站Coupon创建的自动保存、实时预览、克隆和进度指引。"
+          }
+        ]
+      },
+      "material_update": true,
+      "update_reason": "新增美国站官方直接证据，适用站点由CA+MX扩展为CA+MX+US；按同一变化动作和未知生效日更新原卡并保留稳定event_key。",
+      "dedupe_review": {
+        "compared_digest": "574970173640be229019ab64b9a170f4eab96353eb968b976494d4c5a072e790",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown",
+        "reason": "美国帖描述的主体、功能动作、界面流程与既有加墨Coupon卡片完全一致，仅新增有证据的适用站点；按规则更新原卡marketplaces并保存新规范键为别名。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "health-canada-plastic-balloons-b0bv8b1hd3",
+        "action_key": "recall-solvent-balloon-kit-sold-on-amazon-ca",
+        "marketplaces": ["CA"],
+        "effective_date": "2026-10-26",
+        "deadline": null,
+        "title": "Health Canada召回Amazon.ca在售Plastic Balloons吹气套装：含禁售溶剂",
+        "summary": "Health Canada于2026年10月26日召回Plastic Balloons balloon blowing kit，涉事Amazon.ca ASIN为B0BV8B1HD3，2026年8月至10月在加拿大销售。监管机构指出该儿童溶剂型吹气套装在加拿大属于禁止销售产品，吸入溶剂蒸气可能造成中枢神经系统影响。",
+        "impact": "加拿大站销售该ASIN或同类溶剂型儿童吹气套装的卖家面临停售、库存隔离、召回与合规风险；召回产品不得在加拿大重新分销、销售或赠送。该监管结论仅确认CA范围，不能据此宣称US或MX已采取相同措施。",
+        "action": "立即按ASIN B0BV8B1HD3、品名、供应商和成分筛查Amazon.ca的Listing、FBA/FBM库存、在途货及历史订单；命中后停售并隔离库存，停止广告和补货，按Health Canada指引安排危险废物处置并确认客户通知、退款与召回记录，同时审查同工厂类似套装。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-10-26",
+        "original_date_note": "Health Canada公开召回页面标注2026-10-26；事件按监管召回日建档。",
+        "first_seen_at": "2026-10-29T01:03:44.000Z",
+        "last_material_update_at": "2026-10-29T01:03:44.000Z",
+        "history_dates": ["2026-10-29"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://recalls-rappels.canada.ca/en/alert-recall/plastic-balloons-balloon-blowing-kit-recalled-due-chemical-hazard",
+            "publisher": "Health Canada",
+            "kind": "regulator",
+            "published_at": "2026-10-26",
+            "verified_at": "2026-10-29T01:03:44.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已核对监管页面中的产品、ASIN、Amazon.ca销售窗口、化学风险、禁售性质和处置要求。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "574970173640be229019ab64b9a170f4eab96353eb968b976494d4c5a072e790",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "已逐条检查事件库和本批候选；不存在相同ASIN、Plastic Balloons产品、同一Health Canada召回动作或相同监管链接。JKMAX等既有Health Canada卡片为不同产品和风险，故建新卡。",
+        "distinct_event_reason": "与其他加拿大召回仅共享监管机构与市场，不共享产品、ASIN、变化动作、生效日或来源链接，是独立召回事件。"
+      }
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30",
+      "health-canada-plastic-balloons-b0bv8b1hd3|recall-solvent-balloon-kit-sold-on-amazon-ca|CA|2026-10-26",
+      "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "已核验US/CA/MX Seller Central公开公告、Amazon Ads What's New、亚马逊全球开店公开新闻页、CPSC、Health Canada、CBP及墨西哥PROFECO公开结果，并逐项检索既定行业媒体和15个公开公众号入口。部分Seller Central页面仅公开相对日期，行业站点与公众号多为搜索摘要或入口页，不能声称全文完整检查；汽车用品未提供指定ASIN及同站点可比快照，未把首次公开观察解释为价格、Coupon或BSR变化。8月29—30日历史补查标记继续保留。",
+    "action_items": [
+      {
+        "title": "更新FBA New Selection确认期限",
+        "detail": "把US、CA账号接受更新条款的内部截止日改为2027年3月31日前，并在Seller Benefits保存确认回执。",
+        "due": "2027-03-31前",
+        "event_key": "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30"
+      },
+      {
+        "title": "筛查加拿大Plastic Balloons召回",
+        "detail": "按ASIN B0BV8B1HD3、供应商和成分筛查Amazon.ca库存与订单，命中后停售、隔离并按监管要求处置。",
+        "due": "立即",
+        "event_key": "health-canada-plastic-balloons-b0bv8b1hd3|recall-solvent-balloon-kit-sold-on-amazon-ca|CA|2026-10-26"
+      },
+      {
+        "title": "三站复核Coupon克隆",
+        "detail": "在US、CA、MX分别用低风险Coupon测试自动保存、预览与克隆，逐站核对币种、预算、ASIN和日期。",
+        "due": "下次创建Coupon前",
+        "event_key": "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 2,
+    "merged": 2,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "health-canada-plastic-balloons-b0bv8b1hd3|recall-solvent-balloon-kit-sold-on-amazon-ca|CA|2026-10-26"
+  ],
+  "updated_event_keys": [
+    "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30",
+    "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": false,
+        "effective_date": true
+      },
+      "review": "标题、核心主体、变化动作、适用站点和原生效日均与既有FBA New Selection卡片相同；本次是确认期限与后续资格规则的实质更新，必须更新原卡而非新增。"
+    },
+    {
+      "event_key": "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown",
+      "action": "update",
+      "axes": {},
+      "review": "美国帖描述的主体、功能动作、界面流程与既有加墨Coupon卡片完全一致，仅新增有证据的适用站点；按规则更新原卡marketplaces并保存新规范键为别名。"
+    },
+    {
+      "event_key": "health-canada-plastic-balloons-b0bv8b1hd3|recall-solvent-balloon-kit-sold-on-amazon-ca|CA|2026-10-26",
+      "action": "new",
+      "review": "已逐条检查事件库和本批候选；不存在相同ASIN、Plastic Balloons产品、同一Health Canada召回动作或相同监管链接。JKMAX等既有Health Canada卡片为不同产品和风险，故建新卡。"
+    }
+  ]
+}

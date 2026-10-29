@@ -1,0 +1,23 @@
+{
+  "run_id": "run-20261029010049-c975cdf",
+  "base_main_commit": "e90c0b602fb15975e5542c60a77d1e977b8c7002",
+  "prepared_at": "2026-10-29T01:03:44.000Z",
+  "counts": {
+    "new": 1,
+    "updated": 2,
+    "merged": 2,
+    "deduplicated": 0
+  },
+  "event_registry_digest": "36f58aac5ea413cafdccad14afe3ba785f0d557dfbc06453ba21a19440aaca70",
+  "data_content_digest": "9edf74fcbdf06fa6c5ae6144d0c9c795ee84024cb26e0a9faf046c4a2ea96cea",
+  "file_sha256": {
+    "data/events.json": "d66c3485b1e676bc2472f82efef1c16cba5d5f5f8d08c1874c6810a5cbc4109f",
+    "data/report.json": "d7590e98e6655e98bd171c1e3a61e60c6b2df61feb1231303a2e6eea13a687db",
+    "index.html": "f3569f0c3a1a5848b853a94e10b30af884f9fd16bb475114f8eecc508a45fb56"
+  },
+  "tests": {
+    "node_tests": "22 passed",
+    "radar_check": "valid",
+    "daily_briefing_removed": true
+  }
+}
