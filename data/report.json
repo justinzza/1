@@ -1,9 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30",
-    "health-canada-plastic-balloons-b0bv8b1hd3|recall-solvent-balloon-kit-sold-on-amazon-ca|CA|2026-10-26",
-    "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown"
+    "us-cpsc-amazon-products-2026-10-29|recall-or-warn-ten-amazon-sold-products|US|2026-10-29",
+    "amazon-mexico-income-tax-withholding|apply-and-display-withholding-per-order-2026|MX|2026-11-07",
+    "health-canada-amazon-balloon-blowing-kits-2024-alert|expand-alert-with-three-additional-amazon-ca-products-2026|CA|2026-10-29"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,41 +12,40 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "已核验US/CA/MX Seller Central公开公告、Amazon Ads What's New、亚马逊全球开店公开新闻页、CPSC、Health Canada、CBP及墨西哥PROFECO公开结果，并逐项检索既定行业媒体和15个公开公众号入口。部分Seller Central页面仅公开相对日期，行业站点与公众号多为搜索摘要或入口页，不能声称全文完整检查；汽车用品未提供指定ASIN及同站点可比快照，未把首次公开观察解释为价格、Coupon或BSR变化。8月29—30日历史补查标记继续保留。",
+  "coverage_note": "已核验US/CA/MX Seller Central公开公告、Amazon Ads What's New、全球开店公开结果、CPSC、Health Canada及墨西哥公开税务/监管结果，并对industry_wechat_ca与industry_wechat_mx的15个include_source_ids逐一进行公开检索。部分Seller Central登录后内容、行业站点和公众号正文仅能获得搜索摘要或入口页，故不声称完整检查且不推进成功游标；8月29—30日补查标记继续保留。汽车用品检索缺少同ASIN、变体、站点、地域、时间与税费/运费一致的可比快照，未把首次观察解释为价格、Coupon、BSR或关键词变化。",
   "action_items": [
     {
-      "title": "更新FBA New Selection确认期限",
-      "detail": "把US、CA账号接受更新条款的内部截止日改为2027年3月31日前，并在Seller Benefits保存确认回执。",
-      "due": "2027-03-31前",
-      "event_key": "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30"
-    },
-    {
-      "title": "筛查加拿大Plastic Balloons召回",
-      "detail": "按ASIN B0BV8B1HD3、供应商和成分筛查Amazon.ca库存与订单，命中后停售、隔离并按监管要求处置。",
+      "title": "筛查美国CPSC十组商品",
+      "detail": "按品牌、型号、包装代码和供应链筛查US Listing、库存、在途与历史订单，命中后区分recall与stop-use warning执行停售、停广告、隔离及客户处理。",
       "due": "立即",
-      "event_key": "health-canada-plastic-balloons-b0bv8b1hd3|recall-solvent-balloon-kit-sold-on-amazon-ca|CA|2026-10-26"
+      "event_key": "us-cpsc-amazon-products-2026-10-29|recall-or-warn-ten-amazon-sold-products|US|2026-10-29"
     },
     {
-      "title": "三站复核Coupon克隆",
-      "detail": "在US、CA、MX分别用低风险Coupon测试自动保存、预览与克隆，逐站核对币种、预算、ASIN和日期。",
-      "due": "下次创建Coupon前",
-      "event_key": "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown"
+      "title": "准备墨西哥订单级所得税预扣对账",
+      "detail": "11月7日前验证ERP和报表导入能否识别订单级income tax withholding，并将其与VAT及平台费用分开映射。",
+      "due": "2026-11-07前",
+      "event_key": "amazon-mexico-income-tax-withholding|apply-and-display-withholding-per-order-2026|MX|2026-11-07"
+    },
+    {
+      "title": "扩展加拿大吹气套装筛查",
+      "detail": "除B0BV8B1HD3外，再按Health Canada扩展警示中的6个ASIN和同供应链商品核查Amazon.ca库存、订单与广告。",
+      "due": "立即",
+      "event_key": "health-canada-amazon-balloon-blowing-kits-2024-alert|expand-alert-with-three-additional-amazon-ca-products-2026|CA|2026-10-29"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-10-29",
-  "content_updated_at": "2026-10-29T01:03:44.000Z",
+  "report_date": "2026-10-30",
+  "content_updated_at": "2026-10-30T01:12:00.000Z",
   "new_event_keys": [
-    "health-canada-plastic-balloons-b0bv8b1hd3|recall-solvent-balloon-kit-sold-on-amazon-ca|CA|2026-10-26"
+    "amazon-mexico-income-tax-withholding|apply-and-display-withholding-per-order-2026|MX|2026-11-07",
+    "us-cpsc-amazon-products-2026-10-29|recall-or-warn-ten-amazon-sold-products|US|2026-10-29",
+    "health-canada-amazon-balloon-blowing-kits-2024-alert|expand-alert-with-three-additional-amazon-ca-products-2026|CA|2026-10-29"
   ],
-  "updated_event_keys": [
-    "amazon-fba-new-selection-program-2026|upgrade-brand-new-parent-asin-benefits-and-require-reenrollment|CA+US|2026-07-30",
-    "amazon-seller-central-coupon-creation|add-autosave-preview-and-clone-workflow-2026|CA+MX|unknown"
-  ],
+  "updated_event_keys": [],
   "counts": {
-    "new": 1,
-    "updated": 2,
-    "merged": 2,
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
     "deduplicated": 0
   }
 }
