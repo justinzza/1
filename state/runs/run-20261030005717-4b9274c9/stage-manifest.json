@@ -1,0 +1,19 @@
+{
+  "run_id": "run-20261030005717-4b9274c9",
+  "status": "staged",
+  "acquired_radar_state_head": "65cdecf0f09f2cec16596fd116d886399bb3095a",
+  "lease_commit": "8309424ef6919d9afb07d7592b7713207d16cf2f",
+  "base_main_head": "7b56dd36e8928810f2ade42d4679e7ebe8f26417",
+  "checked_at": "2026-10-30T01:12:00.000Z",
+  "expected_counts": {
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "staged_sha256": [
+    "450135720697b8ed484fa92d22943cba4e8ee940ffc8519d9003e8eef79c3097  /workspace/scratch/c975cdf7e0b3/run-20261030-stage-CzOArC/events.json",
+    "0cc644c03e4153258220e58f8d85d0065cd64b4225ca79cee1d28fd83977a613  /workspace/scratch/c975cdf7e0b3/run-20261030-stage-CzOArC/report.json",
+    "788163734adf004f3633c95e695bd5aed32c187b2a0835e75f60191568b55e44  /workspace/scratch/c975cdf7e0b3/run-20261030-stage-CzOArC/index.html"
+  ]
+}
