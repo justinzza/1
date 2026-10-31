@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-30T01:12:00.000Z",
+  "content_updated_at": "2026-10-31T01:02:23.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -3696,9 +3696,9 @@
       "effective_date": "2026-10-15",
       "deadline": "2026-10-28",
       "title": "美加站10月15日起收取2026旺季FBA配送费；加拿大BFCM入仓截止10月28日",
-      "summary": "Amazon全球开店公开的2026购物季规则显示，美国、加拿大FBA旺季配送费适用期为2026年10月15日至2027年1月14日，平均每件分别增加0.32美元和0.39加元。Amazon.ca官方社区同时列出加拿大Q4节点：BFCM库存应在10月28日前到仓，活动期为11月19—30日，Deal sourcing于11月13日截止；价格折扣需至少低于经验证参考价15%。",
-      "impact": "US与CA应独立把旺季费率计入毛利和促销预算；10月28日是加拿大确保BFCM Prime资格的入仓节点，不代表晚到库存一定无法销售。墨西哥本地FBA费率没有被该证据确认，不能套用USD/CAD涨幅。",
-      "action": "用美国站Revenue Calculator与Fee and Economics Preview按USD重算FBA、MCF和Buy with Prime成本；加拿大按CAD重算FBA/MCF并在10月28日前完成BFCM入仓，11月13日前核对Deal提交。墨西哥继续按MXN单独核验。",
+      "summary": "Amazon全球开店公开的2026购物季规则显示，美国、加拿大FBA旺季配送费适用期为2026年10月15日至2027年1月14日，平均每件分别增加0.32美元和0.39加元。Amazon.ca官方社区列出加拿大BFCM库存10月28日前到仓、活动期11月19—30日及Deal sourcing 11月13日截止；Amazon.com随后把美国站Black Friday/Cyber Monday Deal sourcing截止从10月20日延长至11月13日。",
+      "impact": "US与CA应独立把旺季费率计入毛利和促销预算；10月28日是加拿大确保BFCM Prime资格的入仓节点，不代表晚到库存一定无法销售。美国站Deal延期只改变促销提报窗口，不延长FBA入仓截止。墨西哥本地FBA费率和提报日期没有被本卡证据确认。",
+      "action": "美国站在2026年11月13日前复核Deal推荐、ASIN资格、价格与库存，并在Q4 Peak Readiness Playbook核对原入仓节点；加拿大按CAD重算FBA/MCF并复核10月28日入仓与11月13日Deal截止。墨西哥继续按MXN和后台通知单独核验。",
       "category": "opportunities",
       "priority": "P0",
       "original_published_at": "2026-07-08",
@@ -3725,16 +3725,50 @@
           "authority_confirmed": true,
           "claimed_kind": "official-community-manager",
           "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/36ee73e3-e83b-4e4d-860c-f9c5fcdc3ff8"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/18142cfc-2700-4fb5-974a-dae42a2f241a",
+          "publisher": "Amazon Seller Central US（News_Amazon）",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-10-31T01:02:23.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "核对美国站Black Friday/Cyber Monday Deal sourcing截止延长至2026-11-13；页面未给可独立确认的绝对原始发布日期。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/18142cfc-2700-4fb5-974a-dae42a2f241a"
         }
       ],
       "first_seen_at": "2026-10-03T01:04:04.000Z",
-      "last_material_update_at": "2026-10-03T01:04:04.000Z",
+      "last_material_update_at": "2026-10-31T01:02:23.000Z",
       "history_dates": [
-        "2026-10-03"
+        "2026-10-03",
+        "2026-10-31"
       ],
       "verification_status": "reviewed",
       "key_aliases": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "at": "2026-10-31T01:02:23.000Z",
+          "reason": "新增美国站官方确认：2026年Black Friday/Cyber Monday Deal sourcing截止延长至11月13日，改变原卡片中美国站10月20日旧节点。",
+          "previous": {
+            "title": "美加站10月15日起收取2026旺季FBA配送费；加拿大BFCM入仓截止10月28日",
+            "summary": "Amazon全球开店公开的2026购物季规则显示，美国、加拿大FBA旺季配送费适用期为2026年10月15日至2027年1月14日，平均每件分别增加0.32美元和0.39加元。Amazon.ca官方社区同时列出加拿大Q4节点：BFCM库存应在10月28日前到仓，活动期为11月19—30日，Deal sourcing于11月13日截止；价格折扣需至少低于经验证参考价15%。",
+            "impact": "US与CA应独立把旺季费率计入毛利和促销预算；10月28日是加拿大确保BFCM Prime资格的入仓节点，不代表晚到库存一定无法销售。墨西哥本地FBA费率没有被该证据确认，不能套用USD/CAD涨幅。",
+            "action": "用美国站Revenue Calculator与Fee and Economics Preview按USD重算FBA、MCF和Buy with Prime成本；加拿大按CAD重算FBA/MCF并在10月28日前完成BFCM入仓，11月13日前核对Deal提交。墨西哥继续按MXN单独核验。",
+            "category": "opportunities",
+            "priority": "P0",
+            "marketplaces": [
+              "CA",
+              "US"
+            ],
+            "effective_date": "2026-10-15",
+            "deadline": "2026-10-28",
+            "original_published_at": "2026-07-08",
+            "original_date_note": "全球开店购物季页面发表于2026-07-08；加拿大Seller Central帖子抓取时仅显示相对发布时间，故不猜日级日期。旺季费从2026-10-15生效，10月28日是CA BFCM入仓截止。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "event_key": "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15",
       "id": "evt-7f782ea0128f76f0",
       "primary_source_url": "https://globalselling.amazon.com/news/news-brand-260708"
@@ -5854,6 +5888,164 @@
       "event_key": "health-canada-amazon-balloon-blowing-kits-2024-alert|expand-alert-with-three-additional-amazon-ca-products-2026|CA|2026-10-29",
       "id": "evt-cef0720972d2701d",
       "primary_source_url": "https://recalls-rappels.canada.ca/en/alert-recall/expanded-alert-health-canada-warns-balloon-blowing-kits-previously-available-amazonca"
+    },
+    {
+      "subject_key": "amazon-us-international-fba-peak-shipments",
+      "action_key": "temporarily-extend-multi-destination-arrival-and-closure-windows-2026",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-08-01",
+      "deadline": "2026-11-30",
+      "title": "美国站国际FBA旺季货件临时放宽：关联到仓窗口延至45天、自动关闭延至90天",
+      "summary": "Amazon美国站News_Amazon于2026年10月30日公告：针对2026年8月1日至11月30日创建的国际FBA货件计划，多目的地计划中其余关联货件在首票完成接收后的允许到仓窗口由30天临时延长至45天；自动关闭窗口临时延长至90天。符合条件的货件即使Inbound Performance Dashboard仍显示defect，也免收deleted or abandoned defect fee；已收取的符合条件费用将自动报销。",
+      "impact": "对海运、港口延误或清关受阻的美国站国际FBA补货，短期内降低因关联货件晚到和自动关闭导致的缺陷费用风险，但不代表货件可无限延期，也不消除Dashboard缺陷标记。公告只直接确认美国站，不能据此套用加拿大或墨西哥站。",
+      "action": "按创建日期筛选2026年8月1日至11月30日的美国站国际FBA货件计划，逐票记录首票Receive日期、其余货件预计到仓日及自动关闭日；对已收取的deleted or abandoned defect fee核对Reimbursement report。仍应保留船期、港口与清关证据，不因费用豁免停止跟踪。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": "2026-10-30",
+      "original_date_note": "Seller Central官方帖子于2026-10-30发布；适用范围追溯至2026-08-01创建的计划，event_key使用明确的适用起始日，不把发现日当生效日。",
+      "first_seen_at": "2026-10-31T01:02:23.000Z",
+      "last_material_update_at": "2026-10-31T01:02:23.000Z",
+      "history_dates": [
+        "2026-10-31"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f25ba535-e06e-4fa3-8bb0-cb3a095fd696",
+          "publisher": "Amazon Seller Central US（News_Amazon）",
+          "kind": "official",
+          "published_at": "2026-10-30",
+          "verified_at": "2026-10-31T01:02:23.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "逐项核对适用计划创建窗口、45天关联到仓窗口、90天自动关闭窗口、费用豁免及自动报销说明。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f25ba535-e06e-4fa3-8bb0-cb3a095fd696"
+        }
+      ],
+      "event_key": "amazon-us-international-fba-peak-shipments|temporarily-extend-multi-destination-arrival-and-closure-windows-2026|US|2026-08-01",
+      "id": "evt-e6917d68ab07eef3",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f25ba535-e06e-4fa3-8bb0-cb3a095fd696"
+    },
+    {
+      "subject_key": "amazon-fba-partial-refunds",
+      "action_key": "add-return-reason-and-asin-controls-2026",
+      "marketplaces": [
+        "CA",
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美加FBA Partial Refunds新增退货原因与ASIN级配置",
+      "summary": "Amazon在美国、加拿大Seller Central公告，FBA卖家现可决定哪些买家退货原因适用Partial Refunds。卖家可为全部ASIN按退货原因设置最多三组部分退款比例，或通过Excel为指定ASIN、退货原因与比例建立清单；未纳入的商品或原因继续按标准退货流程处理。已加入计划的卖家在主动调整前，仍会对全部符合条件的退货原因沿用原设置。",
+      "impact": "该功能让美加站卖家按商品毛利、回运与处理成本控制“留货+部分退款”范围，但Amazon仍会按买家画像和购买历史判定客户资格，不能把设置比例视为每笔退货必然执行。墨西哥站未被官方公告列入本次范围。",
+      "action": "分别导出美国、加拿大站过去90天的ASIN级退货原因、回运费、处理费与可恢复价值，先在低货值或回运成本高的商品做小范围配置；保存Excel版本和生效时间，并对部分退款率、全额退货率及退款后投诉按站点独立复盘。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-10-09",
+      "original_date_note": "第三方获授权转载页明确标注Amazon Seller Central原公告发表于2026-10-09；本卡以Amazon Seller Central美加官方页面核验功能范围，未给统一生效日期，effective_date为null。",
+      "first_seen_at": "2026-10-31T01:02:23.000Z",
+      "last_material_update_at": "2026-10-31T01:02:23.000Z",
+      "history_dates": [
+        "2026-10-31"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/ffe58695-e1e4-42a2-831d-357263b85d97",
+          "publisher": "Amazon Seller Central US（News_Amazon）",
+          "kind": "official",
+          "published_at": "2026-10-09",
+          "verified_at": "2026-10-31T01:02:23.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "核对US/CA等七个市场、退货原因控制、全部或指定ASIN两种配置以及客户资格判定。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/ffe58695-e1e4-42a2-831d-357263b85d97"
+        },
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/ffe58695-e1e4-42a2-831d-357263b85d97",
+          "publisher": "Amazon Seller Central CA（News_Amazon）",
+          "kind": "official",
+          "published_at": "2026-10-09",
+          "verified_at": "2026-10-31T01:02:23.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "加拿大站官方页面复核同一功能已覆盖CA。",
+          "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/ffe58695-e1e4-42a2-831d-357263b85d97"
+        }
+      ],
+      "event_key": "amazon-fba-partial-refunds|add-return-reason-and-asin-controls-2026|CA+US|unknown",
+      "id": "evt-4bf761ab73457b77",
+      "primary_source_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/ffe58695-e1e4-42a2-831d-357263b85d97"
+    },
+    {
+      "subject_key": "amazon-returns-and-recovery-insights",
+      "action_key": "add-return-frequency-badges-in-new-seller-central-2026",
+      "marketplaces": [
+        "CA",
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美加新版Seller Central上线Returns and Recovery Insights退货频率标签",
+      "summary": "Amazon在美国、加拿大Seller Central公告，Returns and Recovery Insights现可同时查看FBA与Seller-Fulfilled订单的退货指标、主要退货原因和改进建议。Returns页新增Low（Frequently Kept）、High（Frequently Returned）与At Risk标签；标签只统计可归因于卖家的部分买家发起退货并按月更新，而总体退货率按日刷新。",
+      "impact": "卖家可在同一工具定位高退货风险ASIN，但月更标签与日更总体退货率口径不同，且标签排除部分不可归因退货；不能直接用标签替代完整退货率或作为销量/质量因果结论。",
+      "action": "在US、CA分别导出Returns页与总体退货率，按ASIN建立月度Low/High/At Risk快照；对高频退货SKU结合具体原因、变体和批次核查Listing、包装及质量，不跨站合并阈值。",
+      "category": "ai",
+      "priority": "P1",
+      "original_published_at": null,
+      "original_date_note": "公开Seller Central页面仅显示相对发布时间，未发现可独立确认的绝对发布日期；功能已表述为可用但无统一生效日，故日期字段为null。",
+      "first_seen_at": "2026-10-31T01:02:23.000Z",
+      "last_material_update_at": "2026-10-31T01:02:23.000Z",
+      "history_dates": [
+        "2026-10-31"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/39415e92-d2ee-4ca9-8784-fa0a91edca75",
+          "publisher": "Amazon Seller Central US（News_Amazon）",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-10-31T01:02:23.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "核对FBA/FBM范围、三类退货频率标签及月更/日更口径差异。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/39415e92-d2ee-4ca9-8784-fa0a91edca75"
+        },
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/671cca1b-57b2-4d8b-98a1-5f385857b4e3",
+          "publisher": "Amazon Seller Central CA（News_Amazon）",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-10-31T01:02:23.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "加拿大站官方页面复核相同工具与指标说明。",
+          "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/671cca1b-57b2-4d8b-98a1-5f385857b4e3"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/help/hub/reference/external/GJZZMPZRJ3M2LREK",
+          "publisher": "Amazon Seller Central Help",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-10-31T01:02:23.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "帮助页复核标签仅计入部分买家发起且可归因于卖家的退货。",
+          "canonical_url": "https://sellercentral.amazon.com/help/hub/reference/external/GJZZMPZRJ3M2LREK"
+        }
+      ],
+      "event_key": "amazon-returns-and-recovery-insights|add-return-frequency-badges-in-new-seller-central-2026|CA+US|unknown",
+      "id": "evt-74353ace246ed09a",
+      "primary_source_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/671cca1b-57b2-4d8b-98a1-5f385857b4e3"
     }
   ]
 }
