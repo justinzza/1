@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "id": "run-20261031005805-c7a41e2b",
+  "started_at": "2026-10-31T00:58:05.000Z",
+  "finished_at": "2026-10-31T01:08:27.239Z",
+  "base_state_digest": "95fae364390179572ee70138a6b342a34f39b18b5394af0e869dfa3136b3234c",
+  "material_changed": true,
+  "counts": {
+    "new": 3,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "source_merges": 1,
+  "semantic_review": {
+    "completed": true,
+    "note": "Each candidate was reviewed against event_key, title semantics, canonical source URL, effective date, the existing library, and the current batch. Three events were new, one existing holiday event was updated, one source was merged, and no duplicate card was emitted."
+  },
+  "coverage": {
+    "US": "partial_public_search_with_direct_official_verification",
+    "CA": "partial_public_search_with_direct_official_verification",
+    "MX": "partial_public_search_no_new_directly_verified_event",
+    "backfill": "2026-08-29 and 2026-08-30 remain pending because every configured source was not fully checked from the bootstrap window."
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f25ba535-e06e-4fa3-8bb0-cb3a095fd696",
+          "note": "Public Seller Central announcements and indexed forum pages were reviewed for US changes. New international FBA peak shipment extensions, the BFCM deal deadline extension, Partial Refund controls, and Returns and Recovery Insights were verified, but the authenticated archive and the full bootstrap window were not exhaustively accessible."
+        }
+      ],
+      "note": "Public Seller Central announcements and indexed forum pages were reviewed for US changes. New international FBA peak shipment extensions, the BFCM deal deadline extension, Partial Refund controls, and Returns and Recovery Insights were verified, but the authenticated archive and the full bootstrap window were not exhaustively accessible."
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://globalselling.amazon.com/news",
+          "note": "Amazon Global Selling public news and indexed results were reviewed for US, CA, and MX. No additional independently verifiable material event was found; access was limited to public pages and search results."
+        }
+      ],
+      "note": "Amazon Global Selling public news and indexed results were reviewed for US, CA, and MX. No additional independently verifiable material event was found; access was limited to public pages and search results."
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/library/news",
+          "note": "Amazon Ads public What’s New results were reviewed for the current overlap window. No additional material seller event was verified, and the full archive was not exhaustively accessible."
+        }
+      ],
+      "note": "Amazon Ads public What’s New results were reviewed for the current overlap window. No additional material seller event was verified, and the full archive was not exhaustively accessible."
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://www.cpsc.gov/Recalls",
+          "note": "Public CPSC and related US regulator results were reviewed. Recent automotive-product items were already represented in the event library; no later reliable increment was found. This was not a complete regulator archive crawl."
+        }
+      ],
+      "note": "Public CPSC and related US regulator results were reviewed. Recent automotive-product items were already represented in the event library; no later reliable increment was found. This was not a complete regulator archive crawl."
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/671cca1b-57b2-4d8b-98a1-5f385857b4e3",
+          "note": "Public Amazon.ca Seller Forums announcements were reviewed. CA applicability for Partial Refund controls and Returns and Recovery Insights was directly verified, but the authenticated announcement archive and bootstrap window were not exhaustively accessible."
+        }
+      ],
+      "note": "Public Amazon.ca Seller Forums announcements were reviewed. CA applicability for Partial Refund controls and Returns and Recovery Insights was directly verified, but the authenticated announcement archive and bootstrap window were not exhaustively accessible."
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions",
+          "note": "Public Amazon.com.mx Seller Central and indexed announcement results were searched. No material MX-specific increment was directly verified; restricted or unindexed content prevented a complete check."
+        }
+      ],
+      "note": "Public Amazon.com.mx Seller Central and indexed announcement results were searched. No material MX-specific increment was directly verified; restricted or unindexed content prevented a complete check."
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en",
+          "note": "Health Canada public recall and safety results were reviewed. Recent relevant items were already represented in the event library; no later reliable increment was found. This was not a complete archive crawl."
+        }
+      ],
+      "note": "Health Canada public recall and safety results were reviewed. Recent relevant items were already represented in the event library; no later reliable increment was found. This was not a complete archive crawl."
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://www.gob.mx/profeco",
+          "note": "Public Mexican regulator results were searched for seller, tax, safety, and automotive-product changes. No material increment was directly verified; public indexing did not provide complete source coverage."
+        }
+      ],
+      "note": "Public Mexican regulator results were searched for seller, tax, safety, and automotive-product changes. No material increment was directly verified; public indexing did not provide complete source coverage."
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/topics/amazon",
+          "note": "Public Cross-border Headlines pages and indexed results were searched for US, CA, and MX developments. No independent material increment beyond official-source events was verified."
+        }
+      ],
+      "note": "Public Cross-border Headlines pages and indexed results were searched for US, CA, and MX developments. No independent material increment beyond official-source events was verified."
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/",
+          "note": "Public Cross-border Briefs pages and indexed results were searched for US, CA, and MX developments. No independent material increment beyond official-source events was verified."
+        }
+      ],
+      "note": "Public Cross-border Briefs pages and indexed results were searched for US, CA, and MX developments. No independent material increment beyond official-source events was verified."
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://www.wearesellers.com/",
+          "note": "Public Zhihu/Waresellers pages and indexed results were searched. No independently verified material increment was found, and login-restricted content was not accessed."
+        }
+      ],
+      "note": "Public Zhihu/Waresellers pages and indexed results were searched. No independently verified material increment was found, and login-restricted content was not accessed."
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/",
+          "note": "Public TT123 pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used."
+        }
+      ],
+      "note": "Public TT123 pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used."
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/",
+          "note": "Public BrandArk pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used."
+        }
+      ],
+      "note": "Public BrandArk pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used."
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://www.sellerhome.com/",
+          "note": "Public Seller Home pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used."
+        }
+      ],
+      "note": "Public Seller Home pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used."
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "Publicly indexed pages for the 大宝站外推广 account were searched without bypassing login or access controls. No directly accessible material increment was verified."
+        }
+      ],
+      "note": "Publicly indexed pages for the 大宝站外推广 account were searched without bypassing login or access controls. No directly accessible material increment was verified."
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "Publicly indexed pages for the 葫芦娃站外推广 account were searched without bypassing login or access controls. No directly accessible material increment was verified."
+        }
+      ],
+      "note": "Publicly indexed pages for the 葫芦娃站外推广 account were searched without bypassing login or access controls. No directly accessible material increment was verified."
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "Publicly indexed pages for the 三头六臂跨境电商 account were searched without bypassing login or access controls. No directly accessible material increment was verified."
+        }
+      ],
+      "note": "Publicly indexed pages for the 三头六臂跨境电商 account were searched without bypassing login or access controls. No directly accessible material increment was verified."
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for the Cross-border Headlines source were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for the Cross-border Headlines source were searched. No independently verified material increment was found."
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for the Cross-border Briefs source were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for the Cross-border Briefs source were searched. No independently verified material increment was found."
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for Waresellers were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for Waresellers were searched. No independently verified material increment was found."
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for TT123 were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for TT123 were searched. No independently verified material increment was found."
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for BrandArk were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for BrandArk were searched. No independently verified material increment was found."
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for Seller Home were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for Seller Home were searched. No independently verified material increment was found."
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com/",
+          "note": "Public Amazon.com and search-index samples for fuel hose, CPE braided fuel line, AN fittings, and exhaust clamps were reviewed. No specified ASIN set or comparable prior snapshot existed, so no price, Coupon, BSR, or page-change claim was made."
+        }
+      ],
+      "note": "Public Amazon.com and search-index samples for fuel hose, CPE braided fuel line, AN fittings, and exhaust clamps were reviewed. No specified ASIN set or comparable prior snapshot existed, so no price, Coupon, BSR, or page-change claim was made."
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "Each configured include_source_id was searched individually with Canada terms using public web and WeChat indexing. Only public summaries or entry pages were available for several sources, so CA industry and WeChat coverage remains partial."
+        }
+      ],
+      "note": "Each configured include_source_id was searched individually with Canada terms using public web and WeChat indexing. Only public summaries or entry pages were available for several sources, so CA industry and WeChat coverage remains partial."
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "Each configured include_source_id was searched individually with Mexico terms using public web and WeChat indexing. Only public summaries or entry pages were available for several sources, so MX industry and WeChat coverage remains partial."
+        }
+      ],
+      "note": "Each configured include_source_id was searched individually with Mexico terms using public web and WeChat indexing. Only public summaries or entry pages were available for several sources, so MX industry and WeChat coverage remains partial."
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://www.amazon.ca/",
+          "note": "Public Amazon.ca and search-index samples for the four automotive product groups were reviewed. No same-ASIN comparable prior snapshot existed, so the first observation was not treated as a change."
+        }
+      ],
+      "note": "Public Amazon.ca and search-index samples for the four automotive product groups were reviewed. No same-ASIN comparable prior snapshot existed, so the first observation was not treated as a change."
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:08:27.239Z",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com.mx/",
+          "note": "Public Amazon.com.mx and search-index samples for the four automotive product groups were reviewed. No same-ASIN comparable prior snapshot existed, so the first observation was not treated as a change."
+        }
+      ],
+      "note": "Public Amazon.com.mx and search-index samples for the four automotive product groups were reviewed. No same-ASIN comparable prior snapshot existed, so the first observation was not treated as a change."
+    }
+  ],
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "6520fe1b603ff58e9df6d1993adbcf1ffebdfdb7",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "7ef434737db8fa545a3fea1a7c23f549483adaed16eda3fea32b78e19dcb4dbf",
+    "observed_digest": "7ef434737db8fa545a3fea1a7c23f549483adaed16eda3fea32b78e19dcb4dbf",
+    "verified_at": "2026-10-31T01:08:27.239Z",
+    "observed_report_date": "2026-10-31",
+    "vercel_deployment_id": "dpl_EE5rpBZfPfEhvQeUUuUr7sERb3CN",
+    "vercel_state": "READY",
+    "daily_briefing_present": false,
+    "observed_events": [
+      "amazon-us-international-fba-peak-shipments|temporarily-extend-multi-destination-arrival-and-closure-windows-2026|US|2026-08-01",
+      "amazon-fba-partial-refunds|add-return-reason-and-asin-controls-2026|CA+US|unknown",
+      "amazon-returns-and-recovery-insights|add-return-frequency-badges-in-new-seller-central-2026|CA+US|unknown"
+    ]
+  },
+  "deferred_metadata": null,
+  "backfill_complete": false,
+  "result": {
+    "status": "partial",
+    "publication_verified": true,
+    "checkpoint_advanced": false,
+    "pending_backfill_dates": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "note": "Publication was verified, but all source statuses remained public_search_only; successful source cursors and the global successful-run cursor were not advanced."
+  }
+}
