@@ -1,0 +1,47 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 3,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-international-fba-peak-shipments|temporarily-extend-multi-destination-arrival-and-closure-windows-2026|US|2026-08-01",
+    "amazon-fba-partial-refunds|add-return-reason-and-asin-controls-2026|CA+US|unknown",
+    "amazon-returns-and-recovery-insights|add-return-frequency-badges-in-new-seller-central-2026|CA+US|unknown"
+  ],
+  "updated_event_keys": [
+    "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-us-international-fba-peak-shipments|temporarily-extend-multi-destination-arrival-and-closure-windows-2026|US|2026-08-01",
+      "action": "new",
+      "review": "逐条审阅104条既有事件及本批候选；现有旺季费、入仓截止、危险品和国际物流卡片均未记录美国站这一临时货件窗口与缺陷费用豁免，主体、动作、适用站点和日期均可区分。"
+    },
+    {
+      "event_key": "amazon-fba-partial-refunds|add-return-reason-and-asin-controls-2026|CA+US|unknown",
+      "action": "new",
+      "review": "现有事件库只有退货配件补发、退款规则和退货洞察相关事项，没有Partial Refunds按退货原因/ASIN配置的同一动作；两个站点公告为同一功能，合并为一张美加卡片。"
+    },
+    {
+      "event_key": "amazon-returns-and-recovery-insights|add-return-frequency-badges-in-new-seller-central-2026|CA+US|unknown",
+      "action": "new",
+      "review": "现有新版Seller Central工作区卡片记录后台布局和Seller Assistant，不包含退货频率标签与指标刷新口径；Partial Refunds候选是退款执行配置，二者主体相关但动作独立。"
+    },
+    {
+      "event_key": "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": true,
+        "identity": true,
+        "source": true,
+        "effective_date": true
+      },
+      "review": "标题语义、主体、站点和旺季周期与既有美加旺季费/截止卡片一致，不能新建重复卡；新证据只补充美国站Deal截止延期，故更新原卡片并保持event_key。"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "run_id": "run-20261031005805-c7a41e2b",
+  "status": "prepared",
+  "prepared_at": "2026-10-31T01:04:00.000Z",
+  "base_main_commit": "e89659c0332e3f7473ec448150f603f0bd242e44",
+  "base_events_digest": "8a998bd5083e11ac4816208a2a1989f3e86943ae10cabc2b250ba8e6f9304f20",
+  "expected_content_digest": "7ef434737db8fa545a3fea1a7c23f549483adaed16eda3fea32b78e19dcb4dbf",
+  "counts": {
+    "new": 3,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "artifact_sha256": {
+    "data/events.json": "6e695bb5068c77741f4b09bb9822df2a1133cb7e197982282e2a70153d3b1a3e",
+    "data/report.json": "1366f2180d37d9b121dadb38a7e6ab356063cbbd09c1d9092bc4f8a5277fbcff",
+    "index.html": "161accd60a57a2e37def1db8195275a4f67a24eeffa1368bd9cdfa896c6989bb"
+  }
+}
