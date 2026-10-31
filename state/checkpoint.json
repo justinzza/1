@@ -7,24 +7,22 @@
     "2026-08-30"
   ],
   "last_successful_run_at": null,
-  "last_run_id": "run-20261031005805-c7a41e2b",
+  "last_run_id": "run-20261031011018-9b480a32",
   "last_run_status": "partial",
   "last_verified_publication": {
     "status": "verified",
     "github_status": "success",
-    "commit_sha": "6520fe1b603ff58e9df6d1993adbcf1ffebdfdb7",
+    "commit_sha": "a4d62bc7c3827c3e79435cd65e814d9691f433f0",
     "url": "https://amazon-ops-radar-vercel.vercel.app/",
-    "expected_digest": "7ef434737db8fa545a3fea1a7c23f549483adaed16eda3fea32b78e19dcb4dbf",
-    "observed_digest": "7ef434737db8fa545a3fea1a7c23f549483adaed16eda3fea32b78e19dcb4dbf",
-    "verified_at": "2026-10-31T01:08:27.239Z",
+    "expected_digest": "b8ecda6e26acffa3794ffeee91ac80fb82593fa82500f8d7016e9394101ba1fa",
+    "observed_digest": "b8ecda6e26acffa3794ffeee91ac80fb82593fa82500f8d7016e9394101ba1fa",
+    "verified_at": "2026-10-31T01:16:28.398Z",
     "observed_report_date": "2026-10-31",
-    "vercel_deployment_id": "dpl_EE5rpBZfPfEhvQeUUuUr7sERb3CN",
+    "vercel_deployment_id": "dpl_2QRtD2jeWpvN7NDRnnWMTZDwQWsi",
     "vercel_state": "READY",
     "daily_briefing_present": false,
     "observed_events": [
-      "amazon-us-international-fba-peak-shipments|temporarily-extend-multi-destination-arrival-and-closure-windows-2026|US|2026-08-01",
-      "amazon-fba-partial-refunds|add-return-reason-and-asin-controls-2026|CA+US|unknown",
-      "amazon-returns-and-recovery-insights|add-return-frequency-badges-in-new-seller-central-2026|CA+US|unknown"
+      "mexico-sat-anam-electronic-value-declaration|phase-in-mve-transmission-by-customs-regime-2026|MX|2026-11-01"
     ]
   },
   "pending_publication": null,
@@ -32,169 +30,169 @@
   "sources": {
     "amazon_seller_news": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_global_selling_news": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_ads_whats_new": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "relevant_regulators": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_seller_news_ca": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_seller_news_mx": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "relevant_regulators_ca": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "relevant_regulators_mx": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "crossborder_headlines": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "crossborder_briefs": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wearesellers": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "tt123": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "brand_ark": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "seller_home": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_dabao": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_huluwa": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_santou": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_crossborder_headlines": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_crossborder_briefs": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_wearesellers": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_tt123": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_brand_ark": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_seller_home": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_category_competitors": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "industry_wechat_ca": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "industry_wechat_mx": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_category_competitors_ca": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_category_competitors_mx": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-10-31T01:08:27.239Z",
+      "last_attempt_at": "2026-10-31T01:16:28.398Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     }

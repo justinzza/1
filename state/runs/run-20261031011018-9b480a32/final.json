@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "id": "run-20261031011018-9b480a32",
+  "started_at": "2026-10-31T01:10:18.769Z",
+  "finished_at": "2026-10-31T01:16:28.398Z",
+  "base_state_digest": "cd4f3f8545f9a7c4cf0768bcf153085902d55f5c100a027a3281223485d6c64b",
+  "material_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "source_merges": 0,
+  "semantic_review": {
+    "completed": true,
+    "note": "The MVE candidate was manually reviewed against event_key, title semantics, canonical source URL, effective dates, the 108-card staged library, and the current batch. It is distinct from Amazon MX income-tax withholding, marketplace fees, and FBA rules, so one new card was emitted without duplicates."
+  },
+  "coverage": {
+    "US": "partial_public_search_no_new_directly_verified_event",
+    "CA": "partial_public_search_no_new_directly_verified_event",
+    "MX": "partial_public_search_with_direct_official_regulator_verification",
+    "backfill": "2026-08-29 and 2026-08-30 remain pending because every configured source was not fully checked from the bootstrap window."
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f25ba535-e06e-4fa3-8bb0-cb3a095fd696",
+          "note": "Public Seller Central announcements and indexed forum pages were reviewed for US changes. New international FBA peak shipment extensions, the BFCM deal deadline extension, Partial Refund controls, and Returns and Recovery Insights were verified, but the authenticated archive and the full bootstrap window were not exhaustively accessible."
+        }
+      ],
+      "note": "Public Seller Central announcements and indexed forum pages were reviewed for US changes. New international FBA peak shipment extensions, the BFCM deal deadline extension, Partial Refund controls, and Returns and Recovery Insights were verified, but the authenticated archive and the full bootstrap window were not exhaustively accessible. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://globalselling.amazon.com/news",
+          "note": "Amazon Global Selling public news and indexed results were reviewed for US, CA, and MX. No additional independently verifiable material event was found; access was limited to public pages and search results."
+        }
+      ],
+      "note": "Amazon Global Selling public news and indexed results were reviewed for US, CA, and MX. No additional independently verifiable material event was found; access was limited to public pages and search results. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/library/news",
+          "note": "Amazon Ads public What’s New results were reviewed for the current overlap window. No additional material seller event was verified, and the full archive was not exhaustively accessible."
+        }
+      ],
+      "note": "Amazon Ads public What’s New results were reviewed for the current overlap window. No additional material seller event was verified, and the full archive was not exhaustively accessible. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://www.cpsc.gov/Recalls",
+          "note": "Public CPSC and related US regulator results were reviewed. Recent automotive-product items were already represented in the event library; no later reliable increment was found. This was not a complete regulator archive crawl."
+        }
+      ],
+      "note": "Public CPSC and related US regulator results were reviewed. Recent automotive-product items were already represented in the event library; no later reliable increment was found. This was not a complete regulator archive crawl. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/671cca1b-57b2-4d8b-98a1-5f385857b4e3",
+          "note": "Public Amazon.ca Seller Forums announcements were reviewed. CA applicability for Partial Refund controls and Returns and Recovery Insights was directly verified, but the authenticated announcement archive and bootstrap window were not exhaustively accessible."
+        }
+      ],
+      "note": "Public Amazon.ca Seller Forums announcements were reviewed. CA applicability for Partial Refund controls and Returns and Recovery Insights was directly verified, but the authenticated announcement archive and bootstrap window were not exhaustively accessible. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions",
+          "note": "Public Amazon.com.mx Seller Central and indexed announcement results were searched. No material MX-specific increment was directly verified; restricted or unindexed content prevented a complete check."
+        }
+      ],
+      "note": "Public Amazon.com.mx Seller Central and indexed announcement results were searched. No additional Amazon marketplace rule was directly verified; the MVE event comes from Mexican customs authorities and is recorded under relevant_regulators_mx."
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en",
+          "note": "Health Canada public recall and safety results were reviewed. Recent relevant items were already represented in the event library; no later reliable increment was found. This was not a complete archive crawl."
+        }
+      ],
+      "note": "Health Canada public recall and safety results were reviewed. Recent relevant items were already represented in the event library; no later reliable increment was found. This was not a complete archive crawl. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://www.gob.mx/sat/prensa/sat-anam-y-atdt-amplian-al-31-de-octubre-plazo-para-presentar-manifestacion-de-valor-electronica",
+          "note": "Direct SAT/ANAM/ATDT announcement dated 2026-10-02 lists the customs-regime phase-in dates and the transition extension through 2026-10-31."
+        }
+      ],
+      "note": "SAT, ANAM, ATDT and other public Mexican regulator sources were searched. A direct official 2026-10-02 announcement verified the electronic customs value declaration (MVE) transition schedule, including the 2026-11-01 first phase and 2027-01-15 definitive-import phase. This was a public-source review, not a complete regulator archive crawl."
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/topics/amazon",
+          "note": "Public Cross-border Headlines pages and indexed results were searched for US, CA, and MX developments. No independent material increment beyond official-source events was verified."
+        }
+      ],
+      "note": "Public Cross-border Headlines pages and indexed results were searched for US, CA, and MX developments. No independent material increment beyond official-source events was verified. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/",
+          "note": "Public Cross-border Briefs pages and indexed results were searched for US, CA, and MX developments. No independent material increment beyond official-source events was verified."
+        }
+      ],
+      "note": "Public Cross-border Briefs pages and indexed results were searched for US, CA, and MX developments. No independent material increment beyond official-source events was verified. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://www.wearesellers.com/",
+          "note": "Public Zhihu/Waresellers pages and indexed results were searched. No independently verified material increment was found, and login-restricted content was not accessed."
+        }
+      ],
+      "note": "Public Zhihu/Waresellers pages and indexed results were searched. No independently verified material increment was found, and login-restricted content was not accessed. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/",
+          "note": "Public TT123 pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used."
+        }
+      ],
+      "note": "Public TT123 pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/",
+          "note": "Public BrandArk pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used."
+        }
+      ],
+      "note": "Public BrandArk pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://www.sellerhome.com/",
+          "note": "Public Seller Home pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used."
+        }
+      ],
+      "note": "Public Seller Home pages and indexed results were searched. No independently verified material increment was found; only publicly accessible results were used. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "Publicly indexed pages for the 大宝站外推广 account were searched without bypassing login or access controls. No directly accessible material increment was verified."
+        }
+      ],
+      "note": "Publicly indexed pages for the 大宝站外推广 account were searched without bypassing login or access controls. No directly accessible material increment was verified. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "Publicly indexed pages for the 葫芦娃站外推广 account were searched without bypassing login or access controls. No directly accessible material increment was verified."
+        }
+      ],
+      "note": "Publicly indexed pages for the 葫芦娃站外推广 account were searched without bypassing login or access controls. No directly accessible material increment was verified. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "Publicly indexed pages for the 三头六臂跨境电商 account were searched without bypassing login or access controls. No directly accessible material increment was verified."
+        }
+      ],
+      "note": "Publicly indexed pages for the 三头六臂跨境电商 account were searched without bypassing login or access controls. No directly accessible material increment was verified. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for the Cross-border Headlines source were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for the Cross-border Headlines source were searched. No independently verified material increment was found. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for the Cross-border Briefs source were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for the Cross-border Briefs source were searched. No independently verified material increment was found. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for Waresellers were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for Waresellers were searched. No independently verified material increment was found. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for TT123 were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for TT123 were searched. No independently verified material increment was found. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for BrandArk were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for BrandArk were searched. No independently verified material increment was found. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "The public WeChat identity and indexed articles for Seller Home were searched. No independently verified material increment was found."
+        }
+      ],
+      "note": "The public WeChat identity and indexed articles for Seller Home were searched. No independently verified material increment was found. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com/",
+          "note": "Public Amazon.com and search-index samples for fuel hose, CPE braided fuel line, AN fittings, and exhaust clamps were reviewed. No specified ASIN set or comparable prior snapshot existed, so no price, Coupon, BSR, or page-change claim was made."
+        }
+      ],
+      "note": "Public Amazon.com and search-index samples for fuel hose, CPE braided fuel line, AN fittings, and exhaust clamps were reviewed. No specified ASIN set or comparable prior snapshot existed, so no price, Coupon, BSR, or page-change claim was made. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "Each configured include_source_id was searched individually with Canada terms using public web and WeChat indexing. Only public summaries or entry pages were available for several sources, so CA industry and WeChat coverage remains partial."
+        }
+      ],
+      "note": "Each configured include_source_id was searched individually with Canada terms using public web and WeChat indexing. Only public summaries or entry pages were available for several sources, so CA industry and WeChat coverage remains partial. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://weixin.sogou.com/",
+          "note": "Each configured include_source_id was searched individually with Mexico terms using public web and WeChat indexing. Only public summaries or entry pages were available for several sources, so MX industry and WeChat coverage remains partial."
+        }
+      ],
+      "note": "Each configured include_source_id was searched individually with Mexico terms using public web and WeChat indexing. Industry pages corroborated the customs-compliance topic, but the official SAT/ANAM/ATDT announcement was retained as the primary evidence; several account archives remained inaccessible or unindexed."
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://www.amazon.ca/",
+          "note": "Public Amazon.ca and search-index samples for the four automotive product groups were reviewed. No same-ASIN comparable prior snapshot existed, so the first observation was not treated as a change."
+        }
+      ],
+      "note": "Public Amazon.ca and search-index samples for the four automotive product groups were reviewed. No same-ASIN comparable prior snapshot existed, so the first observation was not treated as a change. Rechecked during this run; no later independently verifiable material increment was found."
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-10-31T01:16:28.398Z",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com.mx/",
+          "note": "Public Amazon.com.mx and search-index samples for the four automotive product groups were reviewed. No same-ASIN comparable prior snapshot existed, so the first observation was not treated as a change."
+        }
+      ],
+      "note": "Public Amazon.com.mx and search-index samples for fuel hose, CPE braided fuel line, AN fittings, and exhaust clamps were reviewed. No same-ASIN comparable prior snapshot existed, so the first observation was not treated as a price, Coupon, BSR, or page change."
+    }
+  ],
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "a4d62bc7c3827c3e79435cd65e814d9691f433f0",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "b8ecda6e26acffa3794ffeee91ac80fb82593fa82500f8d7016e9394101ba1fa",
+    "observed_digest": "b8ecda6e26acffa3794ffeee91ac80fb82593fa82500f8d7016e9394101ba1fa",
+    "verified_at": "2026-10-31T01:16:28.398Z",
+    "observed_report_date": "2026-10-31",
+    "vercel_deployment_id": "dpl_2QRtD2jeWpvN7NDRnnWMTZDwQWsi",
+    "vercel_state": "READY",
+    "daily_briefing_present": false,
+    "observed_events": [
+      "mexico-sat-anam-electronic-value-declaration|phase-in-mve-transmission-by-customs-regime-2026|MX|2026-11-01"
+    ]
+  },
+  "deferred_metadata": null,
+  "backfill_complete": false,
+  "result": {
+    "status": "partial",
+    "publication_verified": true,
+    "checkpoint_advanced": false,
+    "pending_backfill_dates": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "note": "Publication was verified, but all configured source statuses remained public_search_only; successful source cursors and the global successful-run cursor were not advanced."
+  }
+}
