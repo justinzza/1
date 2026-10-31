@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261031011018-9b480a32",
+  "status": "prepared",
+  "prepared_at": "2026-10-31T01:13:00.066Z",
+  "base_main_head": "6520fe1b603ff58e9df6d1993adbcf1ffebdfdb7",
+  "base_events_digest": "5a881fcb9765e9649199994d267f464f9bb72a1fc26c0c38c70e00320dc51c89",
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "mexico-sat-anam-electronic-value-declaration|phase-in-mve-transmission-by-customs-regime-2026|MX|2026-11-01"
+  ],
+  "updated_event_keys": [],
+  "expected_content_digest": "b8ecda6e26acffa3794ffeee91ac80fb82593fa82500f8d7016e9394101ba1fa",
+  "files": {
+    "data/events.json": {
+      "sha256": "f957a7ae9233553dff66386f519693b9c2603500a25825b63985a7d2f50dfc1b"
+    },
+    "data/report.json": {
+      "sha256": "f5249eb61c26bdfbefd8fe82468fa98e75e15787936a8dd91da2e61ee231caec"
+    },
+    "index.html": {
+      "sha256": "74106217ed80987418fdee2705dd77741c5745b145f71e861b284095db110df7"
+    }
+  },
+  "tests": {
+    "status": "passed",
+    "node_tests": 22,
+    "daily_briefing_present": false
+  },
+  "publication": null
+}

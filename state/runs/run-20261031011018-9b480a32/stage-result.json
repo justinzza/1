@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "mexico-sat-anam-electronic-value-declaration|phase-in-mve-transmission-by-customs-regime-2026|MX|2026-11-01"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "mexico-sat-anam-electronic-value-declaration|phase-in-mve-transmission-by-customs-regime-2026|MX|2026-11-01",
+      "action": "new",
+      "review": "逐条检查107条现有事件；事件库包含墨西哥站所得税预扣、危险品字段、费率与跨境配送事件，但没有SAT/ANAM关于MVE海关估值电子申报的分阶段强制时间表。主体、合规动作、生效日期和官方链接均不与现有卡片重合。"
+    }
+  ]
+}
