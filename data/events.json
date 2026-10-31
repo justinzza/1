@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-10-31T01:02:23.000Z",
+  "content_updated_at": "2026-10-31T01:12:41.578Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -6046,6 +6046,58 @@
       "event_key": "amazon-returns-and-recovery-insights|add-return-frequency-badges-in-new-seller-central-2026|CA+US|unknown",
       "id": "evt-74353ace246ed09a",
       "primary_source_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/671cca1b-57b2-4d8b-98a1-5f385857b4e3"
+    },
+    {
+      "subject_key": "mexico-sat-anam-electronic-value-declaration",
+      "action_key": "phase-in-mve-transmission-by-customs-regime-2026",
+      "marketplaces": [
+        "MX"
+      ],
+      "effective_date": "2026-11-01",
+      "deadline": "2026-10-31",
+      "title": "墨西哥MVE自11月1日起分阶段电子化：一般进口最终于2027年1月15日切换",
+      "summary": "墨西哥SAT、ANAM与ATDT于2026年10月2日宣布，将Manifestación de Valor Electrónica（MVE，电子价值申报）过渡期延至10月31日，并从11月1日起按海关制度通过VUTCE分阶段强制传输：保税场所加工/修理11月1日、战略保税区11月15日、货物过境12月1日、保税仓储12月15日、临时进口2027年1月1日、一般进口（importación definitiva）2027年1月15日。公告保留部分便利措施，包括运输单据、原产地证书等可随pedimento附送，以及可提交合同一般信息格式而无需逐份上传合同。",
+      "impact": "该变化影响把商品进口到墨西哥并作为进口人或通过代理完成报关的Amazon.com.mx卖家，重点是海关估值资料、MVE、COVE、pedimento及合同/付款/运输证据的一致性。11月1日不是所有卖家的统一切换日；多数常规正式进口应重点准备2027年1月15日节点，但实际日期必须按货件使用的海关制度由报关行确认。该规定是墨西哥海关合规要求，不是Amazon平台费率或FBA政策。",
+      "action": "立即向墨西哥报关行确认每条FBA、本地仓及自发货进口线路使用的海关制度，并把对应MVE切换日期写入货件SOP。对一般进口按2027年1月15日前完成VUTCE/E2字段、估值方法、合同、付款、运输、原产地、COVE与pedimento数据联调；对保税加工、战略保税区、过境、保税仓储或临时进口线路按更早日期执行。保存代理确认和首次成功传输回执，不把Amazon订单金额直接当海关完税价格。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": "2026-10-02",
+      "original_date_note": "SAT官方联合公告发布于2026-10-02；2026-10-31为过渡期截止，2026-11-01为分阶段实施的首个日期，并非所有进口制度统一生效日。",
+      "first_seen_at": "2026-10-31T01:12:41.578Z",
+      "last_material_update_at": "2026-10-31T01:12:41.578Z",
+      "history_dates": [
+        "2026-10-31"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.gob.mx/sat/prensa/sat-anam-y-atdt-amplian-al-31-de-octubre-plazo-para-presentar-manifestacion-de-valor-electronica",
+          "publisher": "Servicio de Administración Tributaria / ANAM / ATDT",
+          "kind": "regulator",
+          "published_at": "2026-10-02",
+          "verified_at": "2026-10-31T01:12:41.578Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "官方联合公告明确过渡期截止日、六类海关制度的分阶段日期、VUTCE传输要求及保留的便利措施。",
+          "canonical_url": "https://www.gob.mx/sat/prensa/sat-anam-y-atdt-amplian-al-31-de-octubre-plazo-para-presentar-manifestacion-de-valor-electronica"
+        },
+        {
+          "url": "https://www.gob.mx/sat/prensa/manifestacion-de-valor-electronica",
+          "publisher": "Servicio de Administración Tributaria / ANAM",
+          "kind": "regulator",
+          "published_at": "2026-06-02",
+          "verified_at": "2026-10-31T01:12:41.578Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "官方背景公告解释MVE用于在通关前电子提交进口货物海关估值信息，并说明其降低申报错误、处罚与查验滞留风险的目的。",
+          "canonical_url": "https://www.gob.mx/sat/prensa/manifestacion-de-valor-electronica"
+        }
+      ],
+      "event_key": "mexico-sat-anam-electronic-value-declaration|phase-in-mve-transmission-by-customs-regime-2026|MX|2026-11-01",
+      "id": "evt-78c43173a7f9346f",
+      "primary_source_url": "https://www.gob.mx/sat/prensa/manifestacion-de-valor-electronica"
     }
   ]
 }

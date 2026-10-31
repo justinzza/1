@@ -1,9 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-international-fba-peak-shipments|temporarily-extend-multi-destination-arrival-and-closure-windows-2026|US|2026-08-01",
-    "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15",
-    "amazon-fba-partial-refunds|add-return-reason-and-asin-controls-2026|CA+US|unknown"
+    "mexico-sat-anam-electronic-value-declaration|phase-in-mve-transmission-by-customs-regime-2026|MX|2026-11-01"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,42 +10,32 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "已核验US/CA/MX Seller Central公开公告、Amazon Ads What's New、全球开店公开结果、CPSC、Health Canada及墨西哥公开监管结果；并对industry_wechat_ca与industry_wechat_mx的15个include_source_ids逐一公开检索。部分Seller Central登录后内容、行业站点和公众号正文仅能获得搜索摘要或入口页，因此不声称完整检查且不推进成功游标；8月29—30日补查标记继续保留。汽车用品检索仍缺少同ASIN、变体、站点、地域、时间与税费/运费一致的可比快照，未把首次观察解释为价格、Coupon、BSR或关键词变化。",
+  "coverage_note": "本次在上一轮正式验收后立即执行增量复核，核验US/CA/MX Seller Central公开结果、Amazon Ads、全球开店、CPSC、Health Canada和墨西哥监管原文；对industry_wechat_ca/mx的15个include_source_ids逐一执行公开检索。发现并补录SAT/ANAM MVE官方事件。登录后公告、部分行业站点与公众号正文仍无法完整读取，因此仅为公开搜索级部分覆盖，不推进成功游标；8月29—30日补查标记继续保留。三站汽车用品仍缺少同ASIN、变体、地域、币种、时间及税费/运费一致的连续快照，不宣称价格、Coupon、BSR或关键词变化。",
   "action_items": [
     {
-      "title": "复核国际FBA旺季货件窗口",
-      "detail": "筛选8月1日至11月30日创建的US国际FBA计划，核对45天关联到仓、90天自动关闭与Reimbursement report。",
-      "due": "立即",
-      "event_key": "amazon-us-international-fba-peak-shipments|temporarily-extend-multi-destination-arrival-and-closure-windows-2026|US|2026-08-01"
+      "title": "确认墨西哥进口线路的MVE切换日",
+      "detail": "逐条向报关行确认FBA、本地仓和自发货线路使用的海关制度；一般进口按2027年1月15日前完成VUTCE/E2、估值证据、COVE及pedimento联调，其他制度按更早节点执行。",
+      "due": "立即启动；按海关制度截止日前完成",
+      "event_key": "mexico-sat-anam-electronic-value-declaration|phase-in-mve-transmission-by-customs-regime-2026|MX|2026-11-01"
     },
     {
-      "title": "完成美国BFCM Deal复核",
-      "detail": "11月13日前核对推荐ASIN、促销价格、库存与广告预热；延期不代表入仓截止同步延长。",
-      "due": "2026-11-13前",
-      "event_key": "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15"
-    },
-    {
-      "title": "测算美加Partial Refunds",
-      "detail": "按ASIN和退货原因测算部分退款与全额退货的净成本，先小范围配置并保留站点独立基线。",
-      "due": "本周",
-      "event_key": "amazon-fba-partial-refunds|add-return-reason-and-asin-controls-2026|CA+US|unknown"
+      "title": "保留MVE申报证据",
+      "detail": "保存估值方法、合同、付款、运输、原产地、代理确认及首次成功传输回执，避免Amazon订单金额与海关完税价格口径混用。",
+      "due": "首次适用货件申报前",
+      "event_key": "mexico-sat-anam-electronic-value-declaration|phase-in-mve-transmission-by-customs-regime-2026|MX|2026-11-01"
     }
   ],
   "schema_version": 1,
   "report_date": "2026-10-31",
-  "content_updated_at": "2026-10-31T01:02:23.000Z",
+  "content_updated_at": "2026-10-31T01:12:41.578Z",
   "new_event_keys": [
-    "amazon-us-international-fba-peak-shipments|temporarily-extend-multi-destination-arrival-and-closure-windows-2026|US|2026-08-01",
-    "amazon-fba-partial-refunds|add-return-reason-and-asin-controls-2026|CA+US|unknown",
-    "amazon-returns-and-recovery-insights|add-return-frequency-badges-in-new-seller-central-2026|CA+US|unknown"
+    "mexico-sat-anam-electronic-value-declaration|phase-in-mve-transmission-by-customs-regime-2026|MX|2026-11-01"
   ],
-  "updated_event_keys": [
-    "amazon-na-2026-holiday-peak-fees-and-deadlines|apply-q4-fba-fees-and-inbound-cutoffs-2026|CA+US|2026-10-15"
-  ],
+  "updated_event_keys": [],
   "counts": {
-    "new": 3,
-    "updated": 1,
-    "merged": 1,
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
     "deduplicated": 0
   }
 }
