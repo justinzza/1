@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-01T01:06:34.000Z",
+  "content_updated_at": "2026-11-01T01:10:22.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -6103,20 +6103,21 @@
       "subject_key": "amazon-brand-registry-report-a-violation",
       "action_key": "expand-report-types-and-add-ai-report-assistant-2026",
       "marketplaces": [
-        "GLOBAL"
+        "GLOBAL",
+        "US"
       ],
       "effective_date": null,
       "deadline": null,
       "title": "Amazon Brand Registry扩展Report a Violation并加入AI Report Assistant",
-      "summary": "Amazon全球开店公开资讯页显示Brand Registry的Report a Violation新版已上线；公开转载的官方内容列明，举报范围由商标、版权和专利等IP侵权扩展到五类：IP侵权、商品信息违规、商品信息被改成其他商品、实物与描述不符、法规或安全风险，并保留“其他”入口。Report Infringement模块同时新增AI Report Assistant，可在举报过程中解释规则、ASIN检索和证据要求。",
-      "impact": "品牌方可在同一工具内处理更多Listing和商品风险，并用AI减少举报类别或证据准备错误；同时，被举报商品的变体、分类、内容、实物一致性和安全合规风险更容易被结构化提交。公开资料未给出US、CA、MX分别上线的日级时间，不能把该功能视为三站全部账户已开放。",
-      "action": "品牌团队登录Brand Registry核对账户是否出现新版入口，先用只读方式记录可选举报类型；对高风险ASIN整理权利证明、商品页面快照、订单/实物证据和安全文件。提交前人工复核AI回答与证据链，避免误报、重复报或超出权利范围。",
+      "summary": "Amazon美国站Sell on Amazon于2026年7月31日确认，Brand Registry的Report a Violation已把IP侵权、店铺政策违规与监管合规举报整合到一个引导式流程，并新增Submission History。Amazon全球开店10月公开资讯进一步列出AI Report Assistant更新；公开转载的官方内容显示，该助手可在Report Infringement流程中解释规则、ASIN检索和证据要求。",
+      "impact": "美国站品牌方可在同一工具内处理更多Listing和商品风险，并用AI减少举报类别或证据准备错误；同时，被举报商品的变体、分类、内容、实物一致性和安全合规风险更容易被结构化提交。US工具整合已有官方页面支持，但AI助手是否已出现在具体账户仍需登录核对；没有证据把该功能直接套用到CA或MX。",
+      "action": "美国站品牌团队登录Brand Registry核对账户是否出现新版入口与AI Report Assistant，先记录可选举报类型；对高风险ASIN整理权利证明、商品页面快照、订单/实物证据和安全文件。提交前人工复核AI回答与证据链；CA、MX等待各自账户或当地官方证据。",
       "category": "ai",
       "priority": "P0",
-      "original_published_at": "2026-10-16",
-      "original_date_note": "Amazon全球开店公开资讯页已列出该更新；可访问的转载页面发表于2026-10-16并完整转载功能说明。官方摘要没有给出日级生效时间，因此effective_date保留null。",
+      "original_published_at": "2026-07-31",
+      "original_date_note": "美国站Sell on Amazon官方页面发表于2026-07-31，确认Report a Violation整合举报流程；Amazon全球开店10月公开资讯确认AI Report Assistant后续更新，但未给出日级生效时间，因此effective_date保留null。",
       "first_seen_at": "2026-11-01T01:06:34.000Z",
-      "last_material_update_at": "2026-11-01T01:06:34.000Z",
+      "last_material_update_at": "2026-11-01T01:10:22.000Z",
       "history_dates": [
         "2026-11-01"
       ],
@@ -6143,10 +6144,44 @@
           "authority_confirmed": false,
           "claimed_kind": "official_repost",
           "canonical_url": "https://www.chwang.com/article/211093940966"
+        },
+        {
+          "url": "https://sell.amazon.com/blog/announcements/report-a-violation",
+          "publisher": "Amazon Sell on Amazon",
+          "kind": "official",
+          "published_at": "2026-07-31",
+          "verified_at": "2026-11-01T01:10:22.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sell.amazon.com/blog/announcements/report-a-violation"
         }
       ],
-      "key_aliases": [],
-      "revisions": [],
+      "key_aliases": [
+        "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL+US|unknown"
+      ],
+      "revisions": [
+        {
+          "at": "2026-11-01T01:10:22.000Z",
+          "reason": "新增美国站Sell on Amazon直接证据，并将适用范围从未落站的GLOBAL修正为GLOBAL+US；同时区分美国站已确认的工具整合与仍需账户核对的AI助手入口。",
+          "previous": {
+            "title": "Amazon Brand Registry扩展Report a Violation并加入AI Report Assistant",
+            "summary": "Amazon全球开店公开资讯页显示Brand Registry的Report a Violation新版已上线；公开转载的官方内容列明，举报范围由商标、版权和专利等IP侵权扩展到五类：IP侵权、商品信息违规、商品信息被改成其他商品、实物与描述不符、法规或安全风险，并保留“其他”入口。Report Infringement模块同时新增AI Report Assistant，可在举报过程中解释规则、ASIN检索和证据要求。",
+            "impact": "品牌方可在同一工具内处理更多Listing和商品风险，并用AI减少举报类别或证据准备错误；同时，被举报商品的变体、分类、内容、实物一致性和安全合规风险更容易被结构化提交。公开资料未给出US、CA、MX分别上线的日级时间，不能把该功能视为三站全部账户已开放。",
+            "action": "品牌团队登录Brand Registry核对账户是否出现新版入口，先用只读方式记录可选举报类型；对高风险ASIN整理权利证明、商品页面快照、订单/实物证据和安全文件。提交前人工复核AI回答与证据链，避免误报、重复报或超出权利范围。",
+            "category": "ai",
+            "priority": "P0",
+            "marketplaces": [
+              "GLOBAL"
+            ],
+            "effective_date": null,
+            "deadline": null,
+            "original_published_at": "2026-10-16",
+            "original_date_note": "Amazon全球开店公开资讯页已列出该更新；可访问的转载页面发表于2026-10-16并完整转载功能说明。官方摘要没有给出日级生效时间，因此effective_date保留null。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "event_key": "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
       "id": "evt-dd65979239810884",
       "primary_source_url": "https://globalselling.amazon.com/news/summary"
@@ -6155,20 +6190,22 @@
       "subject_key": "amazon-q3-2026-results",
       "action_key": "report-retail-growth-and-q4-advertising-outlook",
       "marketplaces": [
-        "GLOBAL"
+        "CA",
+        "MX",
+        "US"
       ],
       "effective_date": "2026-10-29",
       "deadline": null,
-      "title": "Amazon公布2026年第三季度结果与第四季度广告增长预期",
-      "summary": "Amazon于2026年10月29日公布第三季度结果：净销售额同比增长12%至2019亿美元；North America分部销售额同比增长6%至1129亿美元，International分部按报告口径增长5%至431亿美元。公司同时预计第四季度净销售额同比增长12%—16%，并预计第四季度广告收入同比增速将达到高十几位数。",
-      "impact": "这是Amazon公司与广告生态的官方经营信号，不是单个卖家的销量保证，也不能替代US、CA、MX各站点和类目的真实流量、转化与利润数据。Prime Day跨季度导致同比口径受时间错位影响，不能直接把公司增速当作旺季备货比例。",
+      "title": "Amazon公布2026年第三季度北美业务结果与第四季度广告增长预期",
+      "summary": "Amazon于2026年10月29日公布第三季度结果：净销售额同比增长12%至2019亿美元；North America分部销售额同比增长6%至1129亿美元。Amazon向SEC提交的季度报告确认，加拿大与墨西哥业务计入North America分部。公司同时预计第四季度净销售额同比增长12%—16%，并预计第四季度广告收入同比增速将达到高十几位数。",
+      "impact": "这是覆盖US、CA、MX的公司与广告生态经营信号，不是单个卖家的销量保证，也不能替代各站点和类目的真实流量、转化与利润数据。Prime Day跨季度导致同比口径受时间错位影响，不能直接把公司增速当作旺季备货比例。",
       "action": "将该结果作为宏观情景输入，不直接提高采购量；分别用US、CA、MX近8周会话、转化、广告归因、库存周转和毛利重做Black Friday/Cyber Monday滚动预测，并为广告预算设置站点级上限与补货触发条件。",
       "category": "opportunities",
       "priority": "P1",
       "original_published_at": "2026-10-29",
-      "original_date_note": "Amazon Investor Relations新闻稿发表于2026-10-29；该日期是财务结果公告日，不是任何卖家政策的生效日。",
+      "original_date_note": "Amazon Investor Relations新闻稿发表于2026-10-29；SEC Form 10-Q于同日获接受并于2026-10-30显示归档。该日期是财务结果公告日，不是卖家政策生效日。",
       "first_seen_at": "2026-11-01T01:06:34.000Z",
-      "last_material_update_at": "2026-11-01T01:06:34.000Z",
+      "last_material_update_at": "2026-11-01T01:10:22.000Z",
       "history_dates": [
         "2026-11-01"
       ],
@@ -6184,10 +6221,44 @@
           "authority_confirmed": true,
           "claimed_kind": "official",
           "canonical_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "kind": "regulator",
+          "published_at": "2026-10-30",
+          "verified_at": "2026-11-01T01:10:22.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "regulator_filing",
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
         }
       ],
-      "key_aliases": [],
-      "revisions": [],
+      "key_aliases": [
+        "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|CA+MX+US|2026-10-29"
+      ],
+      "revisions": [
+        {
+          "at": "2026-11-01T01:10:22.000Z",
+          "reason": "新增SEC Form 10-Q直接证据，确认North America分部包含加拿大与墨西哥，并把原GLOBAL适用范围更正为CA+MX+US。",
+          "previous": {
+            "title": "Amazon公布2026年第三季度结果与第四季度广告增长预期",
+            "summary": "Amazon于2026年10月29日公布第三季度结果：净销售额同比增长12%至2019亿美元；North America分部销售额同比增长6%至1129亿美元，International分部按报告口径增长5%至431亿美元。公司同时预计第四季度净销售额同比增长12%—16%，并预计第四季度广告收入同比增速将达到高十几位数。",
+            "impact": "这是Amazon公司与广告生态的官方经营信号，不是单个卖家的销量保证，也不能替代US、CA、MX各站点和类目的真实流量、转化与利润数据。Prime Day跨季度导致同比口径受时间错位影响，不能直接把公司增速当作旺季备货比例。",
+            "action": "将该结果作为宏观情景输入，不直接提高采购量；分别用US、CA、MX近8周会话、转化、广告归因、库存周转和毛利重做Black Friday/Cyber Monday滚动预测，并为广告预算设置站点级上限与补货触发条件。",
+            "category": "opportunities",
+            "priority": "P1",
+            "marketplaces": [
+              "GLOBAL"
+            ],
+            "effective_date": "2026-10-29",
+            "deadline": null,
+            "original_published_at": "2026-10-29",
+            "original_date_note": "Amazon Investor Relations新闻稿发表于2026-10-29；该日期是财务结果公告日，不是任何卖家政策的生效日。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "event_key": "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29",
       "id": "evt-ee08d3075198d915",
       "primary_source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results"
