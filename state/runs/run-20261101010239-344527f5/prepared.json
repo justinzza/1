@@ -1,0 +1,24 @@
+{
+  "run_id": "run-20261101010239-344527f5",
+  "status": "prepared",
+  "prepared_at": "2026-11-01T01:06:34.000Z",
+  "base_main_sha": "a4d62bc7c3827c3e79435cd65e814d9691f433f0",
+  "base_registry_digest": "dbb83aa13fa05c2d191abd7da7435140b1e7cfcc49450e04f21b61fbf80af86a",
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "expected_registry_digest": "e6b67feb529c6acea7cc898af8751cb37ce6bfa81ccc1edb5cb2355a2881a072",
+  "expected_page_sha256": "7b88064752486b4c288ff048184c56cec0be29e535f79711522c58bd2c4e0e39",
+  "candidate_event_keys": [
+    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
+    "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29"
+  ],
+  "tests": {
+    "node_tests": "22 passed",
+    "data_page_consistency": "passed",
+    "daily_briefing_absent": true
+  }
+}

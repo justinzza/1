@@ -1,0 +1,27 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
+    "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
+      "action": "new",
+      "review": "逐条比对108条基准记录后，没有同一主体、同一动作或同一规范化来源链接的事件；既有重复ASIN执法线索和旧版举报权限记录都不是此次Brand Registry工具功能扩展。"
+    },
+    {
+      "event_key": "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29",
+      "action": "new",
+      "review": "逐条比对108条基准记录后，没有2026年第三季度财务结果或同一Investor Relations来源；Ads Agent、Full-Funnel Campaigns等既有卡片是具体产品发布，不与公司季度经营结果合并。"
+    }
+  ]
+}
