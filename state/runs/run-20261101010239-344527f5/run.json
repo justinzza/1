@@ -1,0 +1,535 @@
+{
+  "id": "run-20261101010239-344527f5",
+  "started_at": "2026-11-01T01:02:39.201Z",
+  "finished_at": "2026-11-01T01:13:33.173Z",
+  "base_state_digest": "c9689d01a9a49b2d6a8247462feeff8f65a5ee8a17440d1b9b9f480c8fe8259e",
+  "material_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "verified",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "commit_sha": "c60d68c66c5b0e697260c184500f4b3739969f02",
+    "github_status": "success",
+    "deployment_status_url": "https://vercel.com/amz-ce8f/amazon-ops-radar-vercel/H5zWa8vDDvLE24zGKXydmx6qm6P8",
+    "expected_digest": "f4ad4e85bdd57ef18b9b1ed35eb13a8cb423b804fec09bb52b9a5095fc868440",
+    "observed_digest": "f4ad4e85bdd57ef18b9b1ed35eb13a8cb423b804fec09bb52b9a5095fc868440",
+    "verified_at": "2026-11-01T01:13:10.000Z",
+    "verification_note": "精确main提交的GitHub Vercel状态为success；Vercel部署列表接口返回403，按手册用精确GitHub状态与正式域名完整页面内容路径验收。正式页显示两条预期重点变化，data-content-digest完全一致，且无DAILY BRIEFING/分类摘要。"
+  },
+  "coverage": {
+    "US": "partial_public_search_only",
+    "CA": "partial_public_search_only",
+    "MX": "partial_public_search_only"
+  },
+  "tests": {
+    "node_tests": "22 passed",
+    "data_page_consistency": "passed",
+    "daily_briefing_absent": true
+  },
+  "evidence_summary": {
+    "added_event_keys": [
+      "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
+      "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29"
+    ],
+    "expected_registry_digest": "10fd358df5f282be60bb92db621bcff5e458ba9877f13137b01cc7f65ee056e8",
+    "expected_content_digest": "f4ad4e85bdd57ef18b9b1ed35eb13a8cb423b804fec09bb52b9a5095fc868440",
+    "title_semantic_review": "逐条人工核对：两条均为新主题；未与事件库现有政策、财务或广告事件语义重复。修正适用站点仅更新本次新卡片，未生成副本。",
+    "limitations": "所有28个来源均仅达到公开搜索层级，无法证明全历史窗口完整读取；2026-08-29与2026-08-30待补查标记保留。竞品缺少同站点同ASIN/变体/地域/时间可比快照。"
+  },
+  "backfill_complete": false,
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions",
+          "note": "检查美国站公开 News and Announcements 入口与索引结果；未绕过登录。"
+        }
+      ],
+      "note": "公开Seller Central搜索与可访问公告已检查；受登录与索引完整性限制，不能声称全量检查，旧游标不推进。"
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://globalselling.amazon.com/news/summary",
+          "note": "公开检索到Report a Violation与AI Report Assistant更新标题，并追溯美国站官方页面。"
+        },
+        {
+          "url": "https://sell.amazon.com/blog/announcements/report-a-violation",
+          "note": "美国站官方页面确认Report a Violation整合IP、店铺政策与监管合规举报。"
+        }
+      ],
+      "note": "已核验本次收录事件，但新闻中心历史索引无法证明从bootstrap窗口逐页完整读取，旧游标不推进。"
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new",
+          "note": "检查What's New公开索引及US/CA/MX关键词结果。"
+        }
+      ],
+      "note": "未发现可确认的独立增量；公开索引无法证明全量完整读取，旧游标不推进。"
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+          "note": "SEC Form 10-Q用于核验North America分部及CA/MX口径。"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls",
+          "note": "检查CPSC公开召回结果。"
+        }
+      ],
+      "note": "核验SEC原文并检查美国监管公开结果；来源集合与历史窗口仍非可证明全量覆盖，旧游标不推进。"
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions",
+          "note": "检查加拿大站公开官方公告入口及当地关键词结果。"
+        }
+      ],
+      "note": "公开加拿大Seller Central与当地Amazon更新已检查；受登录与索引完整性限制，旧游标不推进。"
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions",
+          "note": "检查墨西哥站公开官方公告入口及西语关键词结果。"
+        }
+      ],
+      "note": "公开墨西哥Seller Central与当地Amazon更新已检查；受登录与索引完整性限制，旧游标不推进。"
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en",
+          "note": "检查Health Canada公开召回与产品安全结果。"
+        }
+      ],
+      "note": "加拿大监管公开结果已检查，未发现超出现有事件库的可靠增量；无法证明全量覆盖，旧游标不推进。"
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.sat.gob.mx/",
+          "note": "检查SAT公开税务与海关更新。"
+        },
+        {
+          "url": "https://www.gob.mx/profeco/archivo/prensa",
+          "note": "检查PROFECO公开新闻与召回结果。"
+        }
+      ],
+      "note": "墨西哥监管公开结果已检查，未发现超出现有事件库的可靠增量；无法证明全量覆盖，旧游标不推进。"
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=%E8%B7%A8%E5%A2%83%E5%A4%B4%E6%9D%A1%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "逐项执行公开搜索，仅获得入口、摘要或无结果；不能声称全文与历史窗口完整检查，旧游标不推进。"
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=%E8%B7%A8%E5%A2%83%E5%BF%AB%E8%AE%AF%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "逐项执行公开搜索，仅获得入口、摘要或无结果；不能声称全文与历史窗口完整检查，旧游标不推进。"
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=%E7%9F%A5%E6%97%A0%E4%B8%8D%E8%A8%80%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "逐项执行公开搜索，仅获得入口、摘要或无结果；不能声称全文与历史窗口完整检查，旧游标不推进。"
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=TT123%20%E5%8D%96%E5%AE%B6%E5%AF%BC%E8%88%AA%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "逐项执行公开搜索，仅获得入口、摘要或无结果；不能声称全文与历史窗口完整检查，旧游标不推进。"
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=%E5%93%81%E7%89%8C%E6%96%B9%E8%88%9F%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "逐项执行公开搜索，仅获得入口、摘要或无结果；不能声称全文与历史窗口完整检查，旧游标不推进。"
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=%E5%8D%96%E5%AE%B6%E4%B9%8B%E5%AE%B6%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "逐项执行公开搜索，仅获得入口、摘要或无结果；不能声称全文与历史窗口完整检查，旧游标不推进。"
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E5%A4%A7%E5%AE%9D%E7%AB%99%E5%A4%96%E6%8E%A8%E5%B9%BF",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "公开可检索入口已单独检查，未绕过登录、验证码、访问限制或付费墙；仅有摘要、入口或未检索到，旧游标不推进。"
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E8%91%AB%E8%8A%A6%E5%A8%83%E7%AB%99%E5%A4%96%E6%8E%A8%E5%B9%BF",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "公开可检索入口已单独检查，未绕过登录、验证码、访问限制或付费墙；仅有摘要、入口或未检索到，旧游标不推进。"
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E4%B8%89%E5%A4%B4%E5%85%AD%E8%87%82%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "公开可检索入口已单独检查，未绕过登录、验证码、访问限制或付费墙；仅有摘要、入口或未检索到，旧游标不推进。"
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E8%B7%A8%E5%A2%83%E5%A4%B4%E6%9D%A1%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "公开可检索入口已单独检查，未绕过登录、验证码、访问限制或付费墙；仅有摘要、入口或未检索到，旧游标不推进。"
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E8%B7%A8%E5%A2%83%E5%BF%AB%E8%AE%AF%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "公开可检索入口已单独检查，未绕过登录、验证码、访问限制或付费墙；仅有摘要、入口或未检索到，旧游标不推进。"
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E7%9F%A5%E6%97%A0%E4%B8%8D%E8%A8%80%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "公开可检索入口已单独检查，未绕过登录、验证码、访问限制或付费墙；仅有摘要、入口或未检索到，旧游标不推进。"
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20TT123%20%E5%8D%96%E5%AE%B6%E5%AF%BC%E8%88%AA",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "公开可检索入口已单独检查，未绕过登录、验证码、访问限制或付费墙；仅有摘要、入口或未检索到，旧游标不推进。"
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E5%93%81%E7%89%8C%E6%96%B9%E8%88%9F%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "公开可检索入口已单独检查，未绕过登录、验证码、访问限制或付费墙；仅有摘要、入口或未检索到，旧游标不推进。"
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E5%8D%96%E5%AE%B6%E4%B9%8B%E5%AE%B6%20%E4%BA%9A%E9%A9%AC%E9%80%8A",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "公开可检索入口已单独检查，未绕过登录、验证码、访问限制或付费墙；仅有摘要、入口或未检索到，旧游标不推进。"
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com/s?k=fuel+hose+CPE+braided+AN+fittings+exhaust+clamp",
+          "note": "按燃油管、CPE编织油管、AN接头、排气卡箍执行美国站公开检索。"
+        }
+      ],
+      "note": "缺少指定ASIN、变体、地域与可比历史快照；未声称USD价格、Coupon、BSR或页面变化，旧游标不推进。"
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=%E8%B7%A8%E5%A2%83%E5%A4%B4%E6%9D%A1%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%E8%B7%A8%E5%A2%83%E5%BF%AB%E8%AE%AF%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%E7%9F%A5%E6%97%A0%E4%B8%8D%E8%A8%80%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=TT123%20%E5%8D%96%E5%AE%B6%E5%AF%BC%E8%88%AA%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%E5%93%81%E7%89%8C%E6%96%B9%E8%88%9F%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%E5%8D%96%E5%AE%B6%E4%B9%8B%E5%AE%B6%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E5%A4%A7%E5%AE%9D%E7%AB%99%E5%A4%96%E6%8E%A8%E5%B9%BF%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E8%91%AB%E8%8A%A6%E5%A8%83%E7%AB%99%E5%A4%96%E6%8E%A8%E5%B9%BF%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E4%B8%89%E5%A4%B4%E5%85%AD%E8%87%82%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E8%B7%A8%E5%A2%83%E5%A4%B4%E6%9D%A1%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E8%B7%A8%E5%A2%83%E5%BF%AB%E8%AE%AF%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E7%9F%A5%E6%97%A0%E4%B8%8D%E8%A8%80%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20TT123%20%E5%8D%96%E5%AE%B6%E5%AF%BC%E8%88%AA%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E5%93%81%E7%89%8C%E6%96%B9%E8%88%9F%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E5%8D%96%E5%AE%B6%E4%B9%8B%E5%AE%B6%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20Amazon.ca",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "已分别检查include_source_ids：crossborder_headlines、crossborder_briefs、wearesellers、tt123、brand_ark、seller_home、wechat_dabao、wechat_huluwa、wechat_santou、wechat_crossborder_headlines、wechat_crossborder_briefs、wechat_wearesellers、wechat_tt123、wechat_brand_ark、wechat_seller_home；均仅公开搜索摘要、入口或无结果，未绕过限制，旧游标不推进。"
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.bing.com/search?q=%E8%B7%A8%E5%A2%83%E5%A4%B4%E6%9D%A1%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%E8%B7%A8%E5%A2%83%E5%BF%AB%E8%AE%AF%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%E7%9F%A5%E6%97%A0%E4%B8%8D%E8%A8%80%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=TT123%20%E5%8D%96%E5%AE%B6%E5%AF%BC%E8%88%AA%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%E5%93%81%E7%89%8C%E6%96%B9%E8%88%9F%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%E5%8D%96%E5%AE%B6%E4%B9%8B%E5%AE%B6%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E5%A4%A7%E5%AE%9D%E7%AB%99%E5%A4%96%E6%8E%A8%E5%B9%BF%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E8%91%AB%E8%8A%A6%E5%A8%83%E7%AB%99%E5%A4%96%E6%8E%A8%E5%B9%BF%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E4%B8%89%E5%A4%B4%E5%85%AD%E8%87%82%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E8%B7%A8%E5%A2%83%E5%A4%B4%E6%9D%A1%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E8%B7%A8%E5%A2%83%E5%BF%AB%E8%AE%AF%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E7%9F%A5%E6%97%A0%E4%B8%8D%E8%A8%80%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20TT123%20%E5%8D%96%E5%AE%B6%E5%AF%BC%E8%88%AA%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E5%93%81%E7%89%8C%E6%96%B9%E8%88%9F%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=site%3Amp.weixin.qq.com%20%E5%8D%96%E5%AE%B6%E4%B9%8B%E5%AE%B6%20%E4%BA%9A%E9%A9%AC%E9%80%8A%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20Amazon.com.mx%20M%C3%A9xico",
+          "note": "保留本次公开搜索查询入口；仅将可访问正文或可靠原文用于事件证据，摘要不当作全文。"
+        }
+      ],
+      "note": "已分别检查include_source_ids：crossborder_headlines、crossborder_briefs、wearesellers、tt123、brand_ark、seller_home、wechat_dabao、wechat_huluwa、wechat_santou、wechat_crossborder_headlines、wechat_crossborder_briefs、wechat_wearesellers、wechat_tt123、wechat_brand_ark、wechat_seller_home；均仅公开搜索摘要、入口或无结果，未绕过限制，旧游标不推进。"
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.amazon.ca/s?k=fuel+hose+CPE+braided+AN+fittings+exhaust+clamp",
+          "note": "按四类汽车用品执行加拿大站公开检索。"
+        }
+      ],
+      "note": "缺少指定ASIN、变体、地域与同站点可比快照；未声称CAD价格、Coupon、BSR或页面变化，旧游标不推进。"
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-01T01:13:33.173Z",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com.mx/s?k=manguera+combustible+CPE+conexiones+AN+abrazadera+escape",
+          "note": "按四类汽车用品执行墨西哥站公开检索。"
+        }
+      ],
+      "note": "缺少指定ASIN、变体、地域与同站点可比快照；未声称MXN价格、Coupon、BSR或页面变化，旧游标不推进。"
+    }
+  ]
+}
