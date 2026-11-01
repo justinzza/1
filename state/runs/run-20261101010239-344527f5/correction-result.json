@@ -1,0 +1,41 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 0,
+    "updated": 2,
+    "merged": 2,
+    "deduplicated": 0
+  },
+  "new_event_keys": [],
+  "updated_event_keys": [
+    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
+    "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
+      "action": "update",
+      "axes": {
+        "event_key": false,
+        "title": false,
+        "identity": false,
+        "source": true,
+        "effective_date": false
+      },
+      "review": "正式页验收发现GLOBAL-only记录不会进入三站展示；美国站官方页面直接支持Report a Violation整合，因此更新原卡片适用范围为GLOBAL+US并保留原event_key/新别名，不为US复制新卡。"
+    },
+    {
+      "event_key": "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29",
+      "action": "update",
+      "axes": {
+        "event_key": false,
+        "title": false,
+        "identity": false,
+        "source": true,
+        "effective_date": true
+      },
+      "review": "SEC季度报告确认加拿大与墨西哥计入North America分部，故将原GLOBAL卡片修正为US+CA+MX；保持同一主体、动作和日期，保留原event_key与新别名，不复制三站卡片。"
+    }
+  ]
+}

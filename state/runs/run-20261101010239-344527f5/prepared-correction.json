@@ -1,0 +1,31 @@
+{
+  "run_id": "run-20261101010239-344527f5",
+  "status": "prepared_correction",
+  "prepared_at": "2026-11-01T01:10:22.000Z",
+  "base_main_sha": "cb88d9ff4492f7ea6801530a72179996a0a6f2e7",
+  "reason": "Production content verification found that GLOBAL-only events were excluded by the US/CA/MX renderer; official evidence supports US applicability for Report a Violation and CA/MX/US applicability for the North America segment result.",
+  "net_run_counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "correction_stage_counts": {
+    "new": 0,
+    "updated": 2,
+    "merged": 2,
+    "deduplicated": 0
+  },
+  "expected_registry_digest": "10fd358df5f282be60bb92db621bcff5e458ba9877f13137b01cc7f65ee056e8",
+  "expected_content_digest": "f4ad4e85bdd57ef18b9b1ed35eb13a8cb423b804fec09bb52b9a5095fc868440",
+  "expected_page_sha256": "1812281aeb3270e7a484c33b26e98a9bbb33094b7d63ee0165d841eafbef54dc",
+  "candidate_event_keys": [
+    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
+    "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29"
+  ],
+  "tests": {
+    "node_tests": "22 passed",
+    "data_page_consistency": "passed",
+    "daily_briefing_absent": true
+  }
+}
