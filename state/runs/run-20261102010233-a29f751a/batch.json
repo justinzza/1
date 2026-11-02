@@ -1,0 +1,86 @@
+{
+  "base_digest": "10fd358df5f282be60bb92db621bcff5e458ba9877f13137b01cc7f65ee056e8",
+  "checked_at": "2026-11-02T01:06:23.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-bfcm-deal-sourcing-2026",
+        "action_key": "extend-deal-submission-deadline-to-november-13",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-11-13",
+        "deadline": "2026-11-13",
+        "title": "美国站2026黑五网一Deal提报截止延至11月13日",
+        "summary": "Amazon美国站News_Amazon公告，2026年Black Friday与Cyber Monday的Deal sourcing窗口延长至11月13日。延长的是Deal提报窗口，不等同于FBA到仓截止或所有促销类型的截止日；Prime Exclusive Discounts需在Seller Central的Advertising > Price Discounts中按单独流程创建。",
+        "impact": "尚未完成Best Deal、Lightning Deal等Deal提报的美国站卖家获得补报窗口，但库存到仓、价格资格、活动费和广告节奏仍按各自规则执行。该公告不能直接套用于墨西哥站；加拿大站公开页面虽镜像展示同一公告，现有活动日历本已列11月13日，未据此把加拿大站记作本次延期变化。",
+        "action": "美国站立即在Deal dashboard逐ASIN确认资格、活动价、参考价与库存，并在11月13日前完成可用Deal提报；Prime Exclusive Discounts/Price Discounts、Coupon与广告分别核对独立截止和费用。不要因提报窗口延长而推迟FBA到仓或补货决策。",
+        "category": "ads",
+        "priority": "P0",
+        "original_published_at": null,
+        "original_date_note": "公开Seller Central页面仅显示相对发布时间，未提供可独立确认的绝对发布日期；2026-11-13是Deal sourcing提报截止日，不是FBA入仓截止或统一促销生效日。",
+        "first_seen_at": "2026-11-02T01:06:23.000Z",
+        "last_material_update_at": "2026-11-02T01:06:23.000Z",
+        "history_dates": [
+          "2026-11-02"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/18142cfc-2700-4fb5-974a-dae42a2f241a",
+            "publisher": "Amazon Seller Central US（News_Amazon）",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-02T01:06:23.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "官方公告明确BFCM Deal sourcing窗口延长至11月13日，并区分库存截止、Deal、PED/Price Discounts与广告准备。"
+          },
+          {
+            "url": "https://www.chwang.com/daily",
+            "publisher": "出海网",
+            "kind": "aggregator",
+            "published_at": "2026-11-02",
+            "verified_at": "2026-11-02T01:06:23.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "行业汇总指向美国站并说明原截止日为10月20日；仅作为站点与旧日期的辅助线索，核心变化以官方公告为准。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "10fd358df5f282be60bb92db621bcff5e458ba9877f13137b01cc7f65ee056e8",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已对110条全库及本批候选逐条比较event_key、标题语义、规范化来源链接与日期。现有北美旺季卡片记录FBA/AWD到仓截止、旺季履约费和退货窗口，未记录美国站BFCM Deal sourcing提报延期；本候选的主体、动作、11月13日截止与官方来源均无现有匹配，因此是独立促销提报变化，不是旧卡片转载或日期修订。",
+        "distinct_event_reason": "出海网daily汇总页被其他事件作为辅助来源使用，但本候选由独立的Amazon News_Amazon官方讨论页直接确认，变化动作是BFCM Deal sourcing延期至11月13日；它与同一日报中的危险品、清关或其他平台事项互不相同，也不共享这些事件的主体、动作或生效/截止日期。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "US、CA、MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店、CPSC、Health Canada、SAT/ANAM与既定行业媒体/公众号的公开检索结果；industry_wechat_ca和industry_wechat_mx的15个include_source_ids均逐一检索，但多数只能访问搜索摘要、公开列表或无结果，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开结果；没有指定竞品ASIN，也未获得同ASIN、同变体、同地域、同时间口径的前后快照，因此缺少可比价格、Coupon和BSR基线，首次或不完整观察未计为变化。8月29—30日补查仍未达到逐来源完整核验标准。",
+    "action_items": [
+      {
+        "title": "在11月13日前完成美国站BFCM Deal复核与提报",
+        "detail": "逐ASIN核对Best Deal/Lightning Deal等可用资格、活动价、参考价、库存与费用；PED/Price Discounts、Coupon、广告和FBA到仓分别按独立节点执行。",
+        "due": "2026-11-13",
+        "event_key": "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+      }
+    ]
+  }
+}

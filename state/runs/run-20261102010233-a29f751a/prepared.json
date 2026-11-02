@@ -1,0 +1,24 @@
+{
+  "run_id": "run-20261102010233-a29f751a",
+  "status": "prepared",
+  "prepared_at": "2026-11-02T01:06:23.000Z",
+  "base_main_sha": "c60d68c66c5b0e697260c184500f4b3739969f02",
+  "base_registry_digest": "10fd358df5f282be60bb92db621bcff5e458ba9877f13137b01cc7f65ee056e8",
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "expected_registry_digest": "eb7efe5a8f8dfe6a498de03345722f844b30c2c02b669e74906f820a73f4f6ce",
+  "expected_page_sha256": "c5558256a387fde17bb81db1f359163fca356873fc8fbd821afc8823f4c8aea5",
+  "expected_content_digest": "a4f8f3a44b96d665cae5d6ab92c7a7ae7612a01bf3cdf5d0f2a06adb55c6d244",
+  "candidate_event_keys": [
+    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+  ],
+  "tests": {
+    "node_tests": "22 passed",
+    "data_page_consistency": "passed",
+    "daily_briefing_absent": true
+  }
+}

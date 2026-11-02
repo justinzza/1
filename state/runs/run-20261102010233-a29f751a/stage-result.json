@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13",
+      "action": "new",
+      "review": "已对110条全库及本批候选逐条比较event_key、标题语义、规范化来源链接与日期。现有北美旺季卡片记录FBA/AWD到仓截止、旺季履约费和退货窗口，未记录美国站BFCM Deal sourcing提报延期；本候选的主体、动作、11月13日截止与官方来源均无现有匹配，因此是独立促销提报变化，不是旧卡片转载或日期修订。"
+    }
+  ]
+}
