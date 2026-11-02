@@ -1,8 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
-    "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29"
+    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,33 +10,26 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "US、CA、MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店、CPSC、Health Canada、SAT/ANAM与既定行业/公众号公开检索结果；industry_wechat_ca和industry_wechat_mx的15个include_source_ids均逐一检索，但多数仅能访问搜索摘要或公开列表，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开结果；没有指定竞品ASIN，也未获得同ASIN、同变体、同地域、同时间口径的前后快照，因此缺少可比价格、Coupon和BSR基线，首次或不完整观察未计为变化。8月29—30日补查仍未达到逐来源完整核验标准。",
+  "coverage_note": "US、CA、MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店、CPSC、Health Canada、SAT/ANAM与既定行业媒体/公众号的公开检索结果；industry_wechat_ca和industry_wechat_mx的15个include_source_ids均逐一检索，但多数只能访问搜索摘要、公开列表或无结果，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开结果；没有指定竞品ASIN，也未获得同ASIN、同变体、同地域、同时间口径的前后快照，因此缺少可比价格、Coupon和BSR基线，首次或不完整观察未计为变化。8月29—30日补查仍未达到逐来源完整核验标准。",
   "action_items": [
     {
-      "title": "核对美国站Brand Registry新版举报入口",
-      "detail": "确认Report a Violation整合入口、Submission History和AI Report Assistant是否出现；整理重点ASIN的权利、页面、订单与安全合规证据，AI回答必须人工复核。",
-      "due": "本周",
-      "event_key": "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
-    },
-    {
-      "title": "用站点实绩重做旺季滚动预测",
-      "detail": "Q3公司数据只作情景输入；分别按US、CA、MX近8周会话、转化、广告归因、毛利和库存周转设置预算上限与补货触发条件。",
-      "due": "Black Friday/Cyber Monday预算锁定前",
-      "event_key": "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29"
+      "title": "在11月13日前完成美国站BFCM Deal复核与提报",
+      "detail": "逐ASIN核对Best Deal/Lightning Deal等可用资格、活动价、参考价、库存与费用；PED/Price Discounts、Coupon、广告和FBA到仓分别按独立节点执行。",
+      "due": "2026-11-13",
+      "event_key": "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-01",
-  "content_updated_at": "2026-11-01T01:10:22.000Z",
-  "new_event_keys": [],
-  "updated_event_keys": [
-    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
-    "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29"
+  "report_date": "2026-11-02",
+  "content_updated_at": "2026-11-02T01:06:23.000Z",
+  "new_event_keys": [
+    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
   ],
+  "updated_event_keys": [],
   "counts": {
-    "new": 0,
-    "updated": 2,
-    "merged": 2,
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
     "deduplicated": 0
   }
 }

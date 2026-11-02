@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-01T01:10:22.000Z",
+  "content_updated_at": "2026-11-02T01:06:23.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -6262,6 +6262,58 @@
       "event_key": "amazon-q3-2026-results|report-retail-growth-and-q4-advertising-outlook|GLOBAL|2026-10-29",
       "id": "evt-ee08d3075198d915",
       "primary_source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results"
+    },
+    {
+      "subject_key": "amazon-us-bfcm-deal-sourcing-2026",
+      "action_key": "extend-deal-submission-deadline-to-november-13",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-11-13",
+      "deadline": "2026-11-13",
+      "title": "美国站2026黑五网一Deal提报截止延至11月13日",
+      "summary": "Amazon美国站News_Amazon公告，2026年Black Friday与Cyber Monday的Deal sourcing窗口延长至11月13日。延长的是Deal提报窗口，不等同于FBA到仓截止或所有促销类型的截止日；Prime Exclusive Discounts需在Seller Central的Advertising > Price Discounts中按单独流程创建。",
+      "impact": "尚未完成Best Deal、Lightning Deal等Deal提报的美国站卖家获得补报窗口，但库存到仓、价格资格、活动费和广告节奏仍按各自规则执行。该公告不能直接套用于墨西哥站；加拿大站公开页面虽镜像展示同一公告，现有活动日历本已列11月13日，未据此把加拿大站记作本次延期变化。",
+      "action": "美国站立即在Deal dashboard逐ASIN确认资格、活动价、参考价与库存，并在11月13日前完成可用Deal提报；Prime Exclusive Discounts/Price Discounts、Coupon与广告分别核对独立截止和费用。不要因提报窗口延长而推迟FBA到仓或补货决策。",
+      "category": "ads",
+      "priority": "P0",
+      "original_published_at": null,
+      "original_date_note": "公开Seller Central页面仅显示相对发布时间，未提供可独立确认的绝对发布日期；2026-11-13是Deal sourcing提报截止日，不是FBA入仓截止或统一促销生效日。",
+      "first_seen_at": "2026-11-02T01:06:23.000Z",
+      "last_material_update_at": "2026-11-02T01:06:23.000Z",
+      "history_dates": [
+        "2026-11-02"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/18142cfc-2700-4fb5-974a-dae42a2f241a",
+          "publisher": "Amazon Seller Central US（News_Amazon）",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-02T01:06:23.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "官方公告明确BFCM Deal sourcing窗口延长至11月13日，并区分库存截止、Deal、PED/Price Discounts与广告准备。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/18142cfc-2700-4fb5-974a-dae42a2f241a"
+        },
+        {
+          "url": "https://www.chwang.com/daily",
+          "publisher": "出海网",
+          "kind": "aggregator",
+          "published_at": "2026-11-02",
+          "verified_at": "2026-11-02T01:06:23.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "verification_note": "行业汇总指向美国站并说明原截止日为10月20日；仅作为站点与旧日期的辅助线索，核心变化以官方公告为准。",
+          "canonical_url": "https://www.chwang.com/daily"
+        }
+      ],
+      "event_key": "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13",
+      "id": "evt-2957a7adbdfa2ebe",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/18142cfc-2700-4fb5-974a-dae42a2f241a"
     }
   ]
 }
