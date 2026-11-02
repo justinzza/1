@@ -1,0 +1,849 @@
+{
+  "id": "run-20261102010233-a29f751a",
+  "base_state_digest": "a6a9cc0183ac50880a4122f115bddb033955e4f702cd8420f9a19b92fd351701",
+  "started_at": "2026-11-02T01:02:33.324Z",
+  "finished_at": "2026-11-02T01:09:28.000Z",
+  "material_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "653eaa32df57cd49303aa12356373f2566fb542b",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "a4f8f3a44b96d665cae5d6ab92c7a7ae7612a01bf3cdf5d0f2a06adb55c6d244",
+    "observed_digest": "a4f8f3a44b96d665cae5d6ab92c7a7ae7612a01bf3cdf5d0f2a06adb55c6d244",
+    "verified_at": "2026-11-02T01:09:28.000Z",
+    "verification_note": "Vercel combined status for the exact commit is success; production main[data-content-digest] exactly matches staging, the new event is visible, and DAILY BRIEFING is absent."
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查US News and Announcements及72小时重叠窗口；发现并核验BFCM Deal提报延期，历史回补仍未完整。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions?categories%5B%5D=announcements",
+          "note": "检查US News and Announcements及72小时重叠窗口；发现并核验BFCM Deal提报延期，历史回补仍未完整。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查Amazon全球开店公开资讯汇总，未发现除已收录事项外的新三站官方变化。",
+      "evidence": [
+        {
+          "url": "https://globalselling.amazon.com/news/summary",
+          "note": "检查Amazon全球开店公开资讯汇总，未发现除已收录事项外的新三站官方变化。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查Amazon Ads What’s New公开索引；DVA+、Review Requests、Branded Conversations与responsive eCommerce等近期条目均已收录。",
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new",
+          "note": "检查Amazon Ads What’s New公开索引；DVA+、Review Requests、Branded Conversations与responsive eCommerce等近期条目均已收录。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查CPSC近期召回与公开检索结果；未发现晚于已收录10月29日批次的可靠增量。",
+      "evidence": [
+        {
+          "url": "https://www.cpsc.gov/Recalls",
+          "note": "检查CPSC近期召回与公开检索结果；未发现晚于已收录10月29日批次的可靠增量。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查CA News and Announcements；镜像页显示11月13日Deal节点，但加拿大既有活动日历已列该日，未作为本次延期增量。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions?categories%5B%5D=announcements",
+          "note": "检查CA News and Announcements；镜像页显示11月13日Deal节点，但加拿大既有活动日历已列该日，未作为本次延期增量。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查MX公告公开检索；税款逐单代扣及MVE等近期事项已收录，未发现可独立确认的新变化。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions?categories%5B%5D=announcements",
+          "note": "检查MX公告公开检索；税款逐单代扣及MVE等近期事项已收录，未发现可独立确认的新变化。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查Health Canada公开召回/安全警示；未发现晚于已收录气球与JKMAX事项的可靠增量。",
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en",
+          "note": "检查Health Canada公开召回/安全警示；未发现晚于已收录气球与JKMAX事项的可靠增量。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查SAT/ANAM公开公告；墨西哥税务代扣及MVE分阶段实施均已收录，未发现新官方增量。",
+      "evidence": [
+        {
+          "url": "https://www.gob.mx/sat/prensa",
+          "note": "检查SAT/ANAM公开公告；墨西哥税务代扣及MVE分阶段实施均已收录，未发现新官方增量。"
+        }
+      ]
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查出海网近期日报；BFCM Deal延期为本期唯一新增，其他相关事项已收录或不属于Amazon三站。",
+      "evidence": [
+        {
+          "url": "https://www.chwang.com/daily",
+          "note": "检查出海网近期日报；BFCM Deal延期为本期唯一新增，其他相关事项已收录或不属于Amazon三站。"
+        }
+      ]
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查跨境快讯/公开摘要，未发现独立于本期官方事件及现有事件库的可靠增量。",
+      "evidence": [
+        {
+          "url": "https://www.chwang.com/",
+          "note": "检查跨境快讯/公开摘要，未发现独立于本期官方事件及现有事件库的可靠增量。"
+        }
+      ]
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查知无不言公开可检索结果；未登录、未绕过限制，未发现可核验的新三站事件。",
+      "evidence": [
+        {
+          "url": "https://www.wearesellers.com/",
+          "note": "检查知无不言公开可检索结果；未登录、未绕过限制，未发现可核验的新三站事件。"
+        }
+      ]
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查TT123卖家导航公开检索结果；未发现可由官方原文独立确认的新三站变化。",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/",
+          "note": "检查TT123卖家导航公开检索结果；未发现可由官方原文独立确认的新三站变化。"
+        }
+      ]
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查品牌方舟公开检索结果；未发现相关Amazon US/CA/MX可靠增量。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/",
+          "note": "检查品牌方舟公开检索结果；未发现相关Amazon US/CA/MX可靠增量。"
+        }
+      ]
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "检查卖家之家公开首页与搜索摘要；确认BFCM线索但正文读取超时，未将其作为主证据。",
+      "evidence": [
+        {
+          "url": "https://mjzj.com/",
+          "note": "检查卖家之家公开首页与搜索摘要；确认BFCM线索但正文读取超时，未将其作为主证据。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "逐名检索“大宝站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。",
+      "evidence": [
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索“大宝站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "逐名检索“葫芦娃站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。",
+      "evidence": [
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索“葫芦娃站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "逐名检索“三头六臂跨境电商”；公开搜索无可核验相关文章，未登录或绕过限制。",
+      "evidence": [
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索“三头六臂跨境电商”；公开搜索无可核验相关文章，未登录或绕过限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "逐名检索跨境头条对应公众号；公开搜索无可核验增量。",
+      "evidence": [
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索跨境头条对应公众号；公开搜索无可核验增量。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "逐名检索跨境快讯对应公众号；公开搜索无可核验增量。",
+      "evidence": [
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索跨境快讯对应公众号；公开搜索无可核验增量。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "逐名检索知无不言对应公众号；公开搜索无可核验增量。",
+      "evidence": [
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索知无不言对应公众号；公开搜索无可核验增量。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "逐名检索TT123卖家导航对应公众号；公开搜索无可核验增量。",
+      "evidence": [
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索TT123卖家导航对应公众号；公开搜索无可核验增量。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "逐名检索品牌方舟对应公众号；公开搜索无可核验增量。",
+      "evidence": [
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索品牌方舟对应公众号；公开搜索无可核验增量。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "逐名检索卖家之家对应公众号；公开搜索无可核验增量。",
+      "evidence": [
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索卖家之家对应公众号；公开搜索无可核验增量。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp检查US公开结果；缺少指定ASIN及同口径前后快照，未判定价格、Coupon或BSR变化。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com/",
+          "note": "按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp检查US公开结果；缺少指定ASIN及同口径前后快照，未判定价格、Coupon或BSR变化。"
+        }
+      ]
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "CA行业媒体与公众号组的15个include_source_ids已逐一公开检索；多数只能访问摘要、公开列表或无结果，因此组状态不标checked且不推进游标。",
+      "evidence": [
+        {
+          "url": "https://www.chwang.com/daily",
+          "note": "检查出海网近期日报；BFCM Deal延期为本期唯一新增，其他相关事项已收录或不属于Amazon三站。"
+        },
+        {
+          "url": "https://www.chwang.com/",
+          "note": "检查跨境快讯/公开摘要，未发现独立于本期官方事件及现有事件库的可靠增量。"
+        },
+        {
+          "url": "https://www.wearesellers.com/",
+          "note": "检查知无不言公开可检索结果；未登录、未绕过限制，未发现可核验的新三站事件。"
+        },
+        {
+          "url": "https://www.tt123.com/",
+          "note": "检查TT123卖家导航公开检索结果；未发现可由官方原文独立确认的新三站变化。"
+        },
+        {
+          "url": "https://www.brandark.com/",
+          "note": "检查品牌方舟公开检索结果；未发现相关Amazon US/CA/MX可靠增量。"
+        },
+        {
+          "url": "https://mjzj.com/",
+          "note": "检查卖家之家公开首页与搜索摘要；确认BFCM线索但正文读取超时，未将其作为主证据。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索“大宝站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索“葫芦娃站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索“三头六臂跨境电商”；公开搜索无可核验相关文章，未登录或绕过限制。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索跨境头条对应公众号；公开搜索无可核验增量。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索跨境快讯对应公众号；公开搜索无可核验增量。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索知无不言对应公众号；公开搜索无可核验增量。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索TT123卖家导航对应公众号；公开搜索无可核验增量。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索品牌方舟对应公众号；公开搜索无可核验增量。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索卖家之家对应公众号；公开搜索无可核验增量。"
+        }
+      ],
+      "included_source_checks": [
+        {
+          "id": "crossborder_headlines",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://www.chwang.com/daily",
+              "note": "检查出海网近期日报；BFCM Deal延期为本期唯一新增，其他相关事项已收录或不属于Amazon三站。"
+            }
+          ]
+        },
+        {
+          "id": "crossborder_briefs",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://www.chwang.com/",
+              "note": "检查跨境快讯/公开摘要，未发现独立于本期官方事件及现有事件库的可靠增量。"
+            }
+          ]
+        },
+        {
+          "id": "wearesellers",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://www.wearesellers.com/",
+              "note": "检查知无不言公开可检索结果；未登录、未绕过限制，未发现可核验的新三站事件。"
+            }
+          ]
+        },
+        {
+          "id": "tt123",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://www.tt123.com/",
+              "note": "检查TT123卖家导航公开检索结果；未发现可由官方原文独立确认的新三站变化。"
+            }
+          ]
+        },
+        {
+          "id": "brand_ark",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://www.brandark.com/",
+              "note": "检查品牌方舟公开检索结果；未发现相关Amazon US/CA/MX可靠增量。"
+            }
+          ]
+        },
+        {
+          "id": "seller_home",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mjzj.com/",
+              "note": "检查卖家之家公开首页与搜索摘要；确认BFCM线索但正文读取超时，未将其作为主证据。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_dabao",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索“大宝站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_huluwa",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索“葫芦娃站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_santou",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索“三头六臂跨境电商”；公开搜索无可核验相关文章，未登录或绕过限制。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_crossborder_headlines",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索跨境头条对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_crossborder_briefs",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索跨境快讯对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_wearesellers",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索知无不言对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_tt123",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索TT123卖家导航对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_brand_ark",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索品牌方舟对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_seller_home",
+          "status": "public_search_only",
+          "note": "CA范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索卖家之家对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "MX行业媒体与公众号组的15个include_source_ids已逐一公开检索；多数只能访问摘要、公开列表或无结果，因此组状态不标checked且不推进游标。",
+      "evidence": [
+        {
+          "url": "https://www.chwang.com/daily",
+          "note": "检查出海网近期日报；BFCM Deal延期为本期唯一新增，其他相关事项已收录或不属于Amazon三站。"
+        },
+        {
+          "url": "https://www.chwang.com/",
+          "note": "检查跨境快讯/公开摘要，未发现独立于本期官方事件及现有事件库的可靠增量。"
+        },
+        {
+          "url": "https://www.wearesellers.com/",
+          "note": "检查知无不言公开可检索结果；未登录、未绕过限制，未发现可核验的新三站事件。"
+        },
+        {
+          "url": "https://www.tt123.com/",
+          "note": "检查TT123卖家导航公开检索结果；未发现可由官方原文独立确认的新三站变化。"
+        },
+        {
+          "url": "https://www.brandark.com/",
+          "note": "检查品牌方舟公开检索结果；未发现相关Amazon US/CA/MX可靠增量。"
+        },
+        {
+          "url": "https://mjzj.com/",
+          "note": "检查卖家之家公开首页与搜索摘要；确认BFCM线索但正文读取超时，未将其作为主证据。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索“大宝站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索“葫芦娃站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索“三头六臂跨境电商”；公开搜索无可核验相关文章，未登录或绕过限制。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索跨境头条对应公众号；公开搜索无可核验增量。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索跨境快讯对应公众号；公开搜索无可核验增量。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索知无不言对应公众号；公开搜索无可核验增量。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索TT123卖家导航对应公众号；公开搜索无可核验增量。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索品牌方舟对应公众号；公开搜索无可核验增量。"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/",
+          "note": "逐名检索卖家之家对应公众号；公开搜索无可核验增量。"
+        }
+      ],
+      "included_source_checks": [
+        {
+          "id": "crossborder_headlines",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://www.chwang.com/daily",
+              "note": "检查出海网近期日报；BFCM Deal延期为本期唯一新增，其他相关事项已收录或不属于Amazon三站。"
+            }
+          ]
+        },
+        {
+          "id": "crossborder_briefs",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://www.chwang.com/",
+              "note": "检查跨境快讯/公开摘要，未发现独立于本期官方事件及现有事件库的可靠增量。"
+            }
+          ]
+        },
+        {
+          "id": "wearesellers",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://www.wearesellers.com/",
+              "note": "检查知无不言公开可检索结果；未登录、未绕过限制，未发现可核验的新三站事件。"
+            }
+          ]
+        },
+        {
+          "id": "tt123",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://www.tt123.com/",
+              "note": "检查TT123卖家导航公开检索结果；未发现可由官方原文独立确认的新三站变化。"
+            }
+          ]
+        },
+        {
+          "id": "brand_ark",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://www.brandark.com/",
+              "note": "检查品牌方舟公开检索结果；未发现相关Amazon US/CA/MX可靠增量。"
+            }
+          ]
+        },
+        {
+          "id": "seller_home",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mjzj.com/",
+              "note": "检查卖家之家公开首页与搜索摘要；确认BFCM线索但正文读取超时，未将其作为主证据。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_dabao",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索“大宝站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_huluwa",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索“葫芦娃站外推广”；公开搜索无可核验相关文章，未登录或绕过限制。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_santou",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索“三头六臂跨境电商”；公开搜索无可核验相关文章，未登录或绕过限制。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_crossborder_headlines",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索跨境头条对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_crossborder_briefs",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索跨境快讯对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_wearesellers",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索知无不言对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_tt123",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索TT123卖家导航对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_brand_ark",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索品牌方舟对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        },
+        {
+          "id": "wechat_seller_home",
+          "status": "public_search_only",
+          "note": "MX范围已对该独立来源逐一执行公开检索；仅获得公开摘要、列表或无结果，未声明完整读取历史。",
+          "evidence": [
+            {
+              "url": "https://mp.weixin.qq.com/",
+              "note": "逐名检索卖家之家对应公众号；公开搜索无可核验增量。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "按相同四类关键词检查CA公开结果；缺少ASIN/变体/地域/时间可比基线，首次或不完整观察不计变化。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.ca/",
+          "note": "按相同四类关键词检查CA公开结果；缺少ASIN/变体/地域/时间可比基线，首次或不完整观察不计变化。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-02T01:09:28.000Z",
+      "note": "按西语燃油管、CPE编织油管、AN接头、排气卡箍检查MX公开结果；缺少MXN含税/运费同口径基线，未判定变化。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com.mx/",
+          "note": "按西语燃油管、CPE编织油管、AN接头、排气卡箍检查MX公开结果；缺少MXN含税/运费同口径基线，未判定变化。"
+        }
+      ]
+    }
+  ],
+  "backfill_complete": false,
+  "coverage_by_marketplace": {
+    "US": "公开来源部分覆盖；Seller Central、Ads、监管与行业来源已检索，但历史回补和受限公众号未完整。",
+    "CA": "公开来源部分覆盖；15个行业/公众号子来源逐一检索，未获得完整账号历史。",
+    "MX": "公开来源部分覆盖；15个行业/公众号子来源逐一检索，未获得完整账号历史。"
+  },
+  "candidate_summary": {
+    "new": [
+      "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+    ],
+    "updated": [],
+    "merged": [],
+    "deduplicated": []
+  }
+}
