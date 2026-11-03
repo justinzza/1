@@ -1,0 +1,96 @@
+{
+  "base_digest": "eb7efe5a8f8dfe6a498de03345722f844b30c2c02b669e74906f820a73f4f6ce",
+  "checked_at": "2026-11-03T01:05:37.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-alexa-for-shopping-100-actions",
+        "action_key": "add-conversational-list-subscription-and-account-actions",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-10-29",
+        "deadline": null,
+        "title": "美国站Alexa for Shopping新增100+项购物与账户操作能力",
+        "summary": "Amazon于2026年10月29日宣布，Alexa for Shopping现可通过对话完成100多项Amazon购物与账户操作，包括创建和编辑Lists/Registries、管理Subscribe & Save配送频率、查询Prime权益、更新配送说明、处理账单问题及追踪退款。官方确认这些能力已向所有美国Amazon客户开放，可在Amazon Shopping App或桌面端使用。",
+        "impact": "这是美国站消费者发现、复购和售后路径的实质变化：商品可能更容易通过Lists、Registries、Subscribe & Save与对话式任务被加入、调整或再次购买，但官方没有宣布新的Listing字段、卖家费用或排名规则。该能力未被官方确认覆盖Amazon.ca或Amazon.com.mx，不能向加拿大或墨西哥站套用。",
+        "action": "抽查美国站重点ASIN在Alexa for Shopping中的商品识别、规格回答、兼容性、Subscribe & Save资格及Lists/Registries场景；优先修正标题、五点、属性和变体中的可验证信息，并保存ASIN、地域、时间和回答证据。不要把消费者功能上线直接当作流量或销量提升，继续用会话、转化与订阅复购数据验证。",
+        "category": "ai",
+        "priority": "P1",
+        "original_published_at": "2026-10-29",
+        "original_date_note": "About Amazon公告发表于2026-10-29；该日也是官方帮助文章更新并确认全部美国客户可用的日期，作为功能上线日。没有日级办理截止。",
+        "first_seen_at": "2026-11-03T01:05:37.000Z",
+        "last_material_update_at": "2026-11-03T01:05:37.000Z",
+        "history_dates": [
+          "2026-11-03"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities",
+            "publisher": "About Amazon",
+            "kind": "official",
+            "published_at": "2026-10-29",
+            "verified_at": "2026-11-03T01:05:37.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "Amazon官方公告直接确认新增100多项能力、具体操作范围，以及已向所有美国Amazon客户开放。"
+          },
+          {
+            "url": "https://www.aboutamazon.com/news/retail/how-to-use-amazon-shopping-ai-assistant",
+            "publisher": "About Amazon",
+            "kind": "official",
+            "published_at": "2026-10-29",
+            "verified_at": "2026-11-03T01:05:37.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "Amazon官方功能指南于2026-10-29更新，复核美国适用范围、入口及Lists、Subscribe & Save、退款和账户操作示例。"
+          },
+          {
+            "url": "https://www.amz123.com/kx",
+            "publisher": "AMZ123跨境快讯",
+            "kind": "aggregator",
+            "published_at": "2026-11-02",
+            "verified_at": "2026-11-03T01:05:37.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "行业快讯作为发现线索；事件事实、日期与适用范围均以About Amazon原文为准。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "eb7efe5a8f8dfe6a498de03345722f844b30c2c02b669e74906f820a73f4f6ce",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已对111条全库与本批候选按event_key、标题语义、规范化来源链接及生效日期四重比较。现有Alexa for Shopping事件涉及美国原产地监管调查、REC广告Prompt和2027年Branded Conversations，均未记录2026-10-29面向全部美国客户开放的100多项Lists、Registries、Subscribe & Save及账户操作，因此不是已有卡片的转载或来源补充。",
+        "distinct_event_reason": "该事件的主体是美国消费者端Alexa for Shopping，变化动作是新增100多项对话式购物和账户操作并立即开放；它与广告产品、监管请求、卖家政策和BFCM促销节点在动作、适用范围和日期上均独立。AMZ123仅为线索来源，不另建重复卡片。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "US、CA、MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店、CPSC、Health Canada、SAT/ANAM与既定行业媒体/公众号的公开检索结果；industry_wechat_ca和industry_wechat_mx的15个include_source_ids均逐一检索，但多数只能访问搜索摘要、公开列表或无结果，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开结果；没有指定竞品ASIN，也未获得同ASIN、同变体、同地域、同时间口径的前后快照，因此缺少可比价格、Coupon和BSR基线，首次或不完整观察未计为变化。8月29—30日补查仍未达到逐来源完整核验标准。",
+    "action_items": [
+      {
+        "title": "抽查美国站重点ASIN在Alexa for Shopping中的可读性",
+        "detail": "逐ASIN记录Alexa对规格、兼容性、Lists/Registries与Subscribe & Save的回答，核对标题、五点、属性和变体；只按真实会话、转化和复购数据评估影响。",
+        "due": null,
+        "event_key": "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29"
+      }
+    ]
+  }
+}

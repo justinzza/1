@@ -1,0 +1,28 @@
+{
+  "run_id": "run-20261103010155-9314e88e",
+  "status": "prepared",
+  "prepared_at": "2026-11-03T01:05:37.000Z",
+  "main_base_commit": "653eaa32df57cd49303aa12356373f2566fb542b",
+  "radar_state_lease_commit": "b5917034bcb40b7d589cc451e27c81bc258895bc",
+  "base_content_digest": "eb7efe5a8f8dfe6a498de03345722f844b30c2c02b669e74906f820a73f4f6ce",
+  "expected_content_digest": "42aecafc67906201816be67588c64026173af9bcbc623f0d0c90f9797a220d1c",
+  "expected_files": {
+    "data/events.json": "a3af75199776a9fd45ada99335c29de115b64654338b9b6d9e261d8b42608d9f",
+    "data/report.json": "c6bdcc143902d68536727ee36fb316d5403599fb73acca8116616c5776094a73",
+    "index.html": "c4a057b9971d1a9301b3c6cac757191b4d9574a0fe776ece748936896a4d876a"
+  },
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "event_keys": [
+    "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29"
+  ],
+  "verification": {
+    "tests": "22 passed",
+    "data_page_consistency": "passed",
+    "daily_briefing_absent": true
+  }
+}

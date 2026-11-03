@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29",
+      "action": "new",
+      "review": "已对111条全库与本批候选按event_key、标题语义、规范化来源链接及生效日期四重比较。现有Alexa for Shopping事件涉及美国原产地监管调查、REC广告Prompt和2027年Branded Conversations，均未记录2026-10-29面向全部美国客户开放的100多项Lists、Registries、Subscribe & Save及账户操作，因此不是已有卡片的转载或来源补充。"
+    }
+  ]
+}
