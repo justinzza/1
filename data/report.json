@@ -1,7 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+    "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -13,17 +13,17 @@
   "coverage_note": "US、CA、MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店、CPSC、Health Canada、SAT/ANAM与既定行业媒体/公众号的公开检索结果；industry_wechat_ca和industry_wechat_mx的15个include_source_ids均逐一检索，但多数只能访问搜索摘要、公开列表或无结果，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开结果；没有指定竞品ASIN，也未获得同ASIN、同变体、同地域、同时间口径的前后快照，因此缺少可比价格、Coupon和BSR基线，首次或不完整观察未计为变化。8月29—30日补查仍未达到逐来源完整核验标准。",
   "action_items": [
     {
-      "title": "在11月13日前完成美国站BFCM Deal复核与提报",
-      "detail": "逐ASIN核对Best Deal/Lightning Deal等可用资格、活动价、参考价、库存与费用；PED/Price Discounts、Coupon、广告和FBA到仓分别按独立节点执行。",
-      "due": "2026-11-13",
-      "event_key": "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+      "title": "抽查美国站重点ASIN在Alexa for Shopping中的可读性",
+      "detail": "逐ASIN记录Alexa对规格、兼容性、Lists/Registries与Subscribe & Save的回答，核对标题、五点、属性和变体；只按真实会话、转化和复购数据评估影响。",
+      "due": null,
+      "event_key": "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-02",
-  "content_updated_at": "2026-11-02T01:06:23.000Z",
+  "report_date": "2026-11-03",
+  "content_updated_at": "2026-11-03T01:05:37.000Z",
   "new_event_keys": [
-    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+    "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29"
   ],
   "updated_event_keys": [],
   "counts": {
