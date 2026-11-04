@@ -1,0 +1,27 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18",
+    "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18",
+      "action": "new",
+      "review": "已对112条事件及本批候选按event_key、标题语义、规范化来源链接和生效日期四重比对。库内已有2026年2月高价值商品APRL要求及假日延长退货窗口等事件，但没有2026-12-18起地址型未付费标签失效、7天处理时限和自动免退货退款风险这一独立变化。"
+    },
+    {
+      "event_key": "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29",
+      "action": "new",
+      "review": "已对112条事件及本批候选四重比对。库内有Amazon Bazaar低价专区、墨西哥跨境次日达、黑五档期和广告功能事件，但没有Premium Hub邀请制高端品牌入口及品牌独立展示空间；来源链接、主体动作和生效日均不与现有卡片重合。"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "run_id": "run-20261104010233-229188ae",
+  "status": "prepared",
+  "prepared_at": "2026-11-04T01:08:30.000Z",
+  "base_main_commit": "5fa11db5bd7b05efed33785023a22551241b2e28",
+  "base_events_digest": "42aecafc67906201816be67588c64026173af9bcbc623f0d0c90f9797a220d1c",
+  "expected_content_digest": "2ed9012105d0871d75a3152f1bd4f79fd4980d1184869f363edaad0fa0db193d",
+  "counts": {"new": 2, "updated": 0, "merged": 0, "deduplicated": 0},
+  "candidate_event_keys": [
+    "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18",
+    "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29"
+  ],
+  "tests": {"status": "passed", "count": 22},
+  "ui_checks": {
+    "daily_briefing_absent": true,
+    "category_summary_absent": true,
+    "staged_event_count": 114
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "base_digest": "42aecafc67906201816be67588c64026173af9bcbc623f0d0c90f9797a220d1c",
+  "checked_at": "2026-11-04T01:07:50.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-seller-fulfilled-returns",
+        "action_key": "require-prepaid-return-label-with-seven-day-response-2026",
+        "marketplaces": ["US"],
+        "effective_date": "2026-12-18",
+        "deadline": null,
+        "title": "美国站FBM退货12月18日起须提供预付标签：7天未处理可被免退货退款",
+        "summary": "Amazon确认，自2026年12月18日起，美国站卖家自配送订单的所有合规退货（暂时豁免重型和大件商品）都必须使用预付退货标签；仅提供由买家支付邮费的地址标签不再合规。卖家须在退货请求后7个自然日内，通过Manage seller-fulfilled returns上传预付标签，或全额退款且无需买家退货；超时Amazon可自动执行免退货退款并从卖家账户扣款。Amazon论坛团队进一步确认，现有由Amazon自动生成的预付标签不会取消，Custom、Handmade、Dangerous Goods等商品的现行退货资格规则也未被本次公告改变。",
+        "impact": "使用地址标签、国际退货地址或依赖人工授权的FBM卖家面临新的硬性处理时限和现金损失风险；站内信或站外发送的标签不计入合规。该变化只确认适用于Amazon.com美国站，未确认适用于Amazon.ca或Amazon.com.mx。",
+        "action": "在12月18日前导出并逐SKU检查美国站FBM退货标签设置、国内退货地址和Amazon Prepaid Return Label覆盖；为未自动生成标签的合规退货建立7天内上传Merchant Prepaid Return Label或批准免退货全额退款的工单SLA，并保留Manage Returns上传时间和费用责任证据。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": null,
+        "original_date_note": "Amazon面向卖家的通知原始发送日未在公开页面标明；公开Seller Forums帖子在本次核验时显示约一周前，故不以抓取日代替发布日期。2026-12-18是明确生效日。",
+        "first_seen_at": "2026-11-04T01:07:50.000Z",
+        "last_material_update_at": "2026-11-04T01:07:50.000Z",
+        "history_dates": ["2026-11-04"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/b765c206-6f84-4baf-9388-3f33a614454c",
+            "publisher": "Amazon Seller Forums",
+            "kind": "seller_forum",
+            "published_at": null,
+            "verified_at": "2026-11-04T01:07:50.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "公开帖子完整转载Amazon Services team发给卖家的通知；原始邮件发送日期未公开，因此不把论坛相对时间当作正式发布日期。"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/60d44d60-a781-4e6b-8a61-166ff5fa082d",
+            "publisher": "Amazon Seller Forums - KJ_Amazon",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-04T01:07:50.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "Amazon官方论坛团队称已向Returns Team核实，并确认本次变化只取消地址型未付费标签；既有Amazon自动预付标签和现行退货资格规则不变。"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/help/hub/reference/external/G202072200?langue=en_US",
+            "publisher": "Amazon Seller Central Help",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-04T01:07:50.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "官方帮助页用于复核美国站Amazon Prepaid Return Label现行流程和退货地址要求。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "42aecafc67906201816be67588c64026173af9bcbc623f0d0c90f9797a220d1c",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已对112条事件及本批候选按event_key、标题语义、规范化来源链接和生效日期四重比对。库内已有2026年2月高价值商品APRL要求及假日延长退货窗口等事件，但没有2026-12-18起地址型未付费标签失效、7天处理时限和自动免退货退款风险这一独立变化。",
+        "distinct_event_reason": "该事件改变的是美国站FBM退货标签合规与处理SLA，不是FBA退货窗口、部分退款功能或高价值商品旧规则的转载；适用对象、动作和生效日期均不同。"
+      },
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key": "amazon-mexico-premium-hub",
+        "action_key": "launch-invite-only-premium-brand-destination-2026",
+        "marketplaces": ["MX"],
+        "effective_date": "2026-10-29",
+        "deadline": null,
+        "title": "媒体报道：Amazon墨西哥上线Premium Hub，受邀品牌获独立高端展示空间",
+        "summary": "多家墨西哥媒体于2026年10月29日至11月3日报道，Amazon.com.mx已上线Premium Hub，将美妆、时尚、电子、家电、运动、相机、科技以及葡萄酒和烈酒等高端品牌集中在一个常年入口。报道援引Amazon México管理层及发布材料称，该专区按邀请制选取品牌，为品牌提供保留视觉身份的独立空间、内容更丰富的商品页面与季节性分类。未检索到Amazon自有新闻站的对应公开原文，因此本条按媒体报道记录，不升级为官方确认。",
+        "impact": "Premium Hub为墨西哥站高端品牌提供新的发现与陈列入口，可能提高品牌资产、富内容页面和节庆主题运营的重要性，但不等于所有卖家或汽车用品类目均可加入，也没有公开流量、费用、销售额或排名增量数据。",
+        "action": "墨西哥站品牌卖家向账户经理确认Premium Hub邀请资格、可用类目、页面资产标准、费用和归因口径；若获得资格，先以MXN含税价格、墨西哥本地库存与转化数据建立专区前后基线。燃油管、CPE编织油管、AN接头和排气卡箍未被报道列入专区，不据此推断汽车用品机会。",
+        "category": "opportunities",
+        "priority": "P1",
+        "original_published_at": "2026-10-29",
+        "original_date_note": "最早可公开访问的发布材料标注2026-10-29；Reporte Indigo等后续报道发表于2026-11-02，网经社摘要发表于2026-11-03。",
+        "first_seen_at": "2026-11-04T01:07:50.000Z",
+        "last_material_update_at": "2026-11-04T01:07:50.000Z",
+        "history_dates": ["2026-11-04"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://www.reporteindigo.com/geek/noticia/amazon-premium-hub-mexico-marcas-productos-premium-20261102-0015.html",
+            "publisher": "Reporte Indigo",
+            "kind": "industry_original",
+            "published_at": "2026-11-02",
+            "verified_at": "2026-11-04T01:07:50.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "可公开读取的独立报道，援引Amazon México管理层并说明邀请制、品牌独立空间、富内容页面和类目范围。"
+          },
+          {
+            "url": "https://imgs-b2b.100ec.cn/detail--6665353.html",
+            "publisher": "网经社",
+            "kind": "aggregator",
+            "published_at": "2026-11-03",
+            "verified_at": "2026-11-04T01:07:50.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "行业摘要确认Amazon墨西哥站推出Premium Hub及主要类目；仅作为交叉线索。"
+          },
+          {
+            "url": "https://24-horas.mx/negocios/amazon-expande-su-premium-hub-con-nuevas-categorias-de-lujo-en-mexico/",
+            "publisher": "24 Horas",
+            "kind": "industry_original",
+            "published_at": "2026-11-02",
+            "verified_at": "2026-11-04T01:07:50.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "墨西哥媒体对The Box 2026发布活动和Premium Hub扩展类目的独立报道。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "42aecafc67906201816be67588c64026173af9bcbc623f0d0c90f9797a220d1c",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已对112条事件及本批候选四重比对。库内有Amazon Bazaar低价专区、墨西哥跨境次日达、黑五档期和广告功能事件，但没有Premium Hub邀请制高端品牌入口及品牌独立展示空间；来源链接、主体动作和生效日均不与现有卡片重合。",
+        "distinct_event_reason": "该事件是Amazon.com.mx零售发现与品牌陈列入口变化，与美国站FBM退货政策候选在主体、站点、动作和日期上完全独立；同一Premium Hub的多家媒体报道已合并到一张卡片。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18",
+      "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "分别检查US、CA、MX Seller Central公开公告、Amazon Ads What’s New、Amazon全球开店、CPSC、Health Canada、SAT/ANAM以及既定行业媒体和公开公众号检索。industry_wechat_ca与industry_wechat_mx的15个include_source_ids均逐一检索，但多数仅能获得搜索摘要、公开列表或无结果，未绕过登录和访问限制，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开结果；没有指定竞品ASIN，也没有同ASIN、同变体、同地域和同时间口径的前后快照，缺少可比价格、Coupon及BSR基线，首次或不完整观察不计变化。8月29—30日历史补查仍未达到逐来源完整核验标准。",
+    "action_items": [
+      {
+        "title": "建立美国站FBM退货7天SLA",
+        "detail": "在12月18日前核查未被Amazon自动预付标签覆盖的SKU和退货请求；只通过Manage seller-fulfilled returns上传预付标签，或执行合规的全额免退货退款。",
+        "due": "2026-12-18",
+        "event_key": "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18"
+      },
+      {
+        "title": "确认墨西哥Premium Hub资格与数据口径",
+        "detail": "向账户经理确认邀请制、类目、费用、页面资产和归因要求；获得资格后用MXN含税价格及墨西哥本地库存建立前后基线。",
+        "due": null,
+        "event_key": "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29"
+      }
+    ]
+  }
+}
