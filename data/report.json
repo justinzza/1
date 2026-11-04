@@ -1,7 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29"
+    "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18",
+    "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -10,24 +11,31 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "US、CA、MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店、CPSC、Health Canada、SAT/ANAM与既定行业媒体/公众号的公开检索结果；industry_wechat_ca和industry_wechat_mx的15个include_source_ids均逐一检索，但多数只能访问搜索摘要、公开列表或无结果，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开结果；没有指定竞品ASIN，也未获得同ASIN、同变体、同地域、同时间口径的前后快照，因此缺少可比价格、Coupon和BSR基线，首次或不完整观察未计为变化。8月29—30日补查仍未达到逐来源完整核验标准。",
+  "coverage_note": "分别检查US、CA、MX Seller Central公开公告、Amazon Ads What’s New、Amazon全球开店、CPSC、Health Canada、SAT/ANAM以及既定行业媒体和公开公众号检索。industry_wechat_ca与industry_wechat_mx的15个include_source_ids均逐一检索，但多数仅能获得搜索摘要、公开列表或无结果，未绕过登录和访问限制，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开结果；没有指定竞品ASIN，也没有同ASIN、同变体、同地域和同时间口径的前后快照，缺少可比价格、Coupon及BSR基线，首次或不完整观察不计变化。8月29—30日历史补查仍未达到逐来源完整核验标准。",
   "action_items": [
     {
-      "title": "抽查美国站重点ASIN在Alexa for Shopping中的可读性",
-      "detail": "逐ASIN记录Alexa对规格、兼容性、Lists/Registries与Subscribe & Save的回答，核对标题、五点、属性和变体；只按真实会话、转化和复购数据评估影响。",
+      "title": "建立美国站FBM退货7天SLA",
+      "detail": "在12月18日前核查未被Amazon自动预付标签覆盖的SKU和退货请求；只通过Manage seller-fulfilled returns上传预付标签，或执行合规的全额免退货退款。",
+      "due": "2026-12-18",
+      "event_key": "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18"
+    },
+    {
+      "title": "确认墨西哥Premium Hub资格与数据口径",
+      "detail": "向账户经理确认邀请制、类目、费用、页面资产和归因要求；获得资格后用MXN含税价格及墨西哥本地库存建立前后基线。",
       "due": null,
-      "event_key": "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29"
+      "event_key": "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-03",
-  "content_updated_at": "2026-11-03T01:05:37.000Z",
+  "report_date": "2026-11-04",
+  "content_updated_at": "2026-11-04T01:07:50.000Z",
   "new_event_keys": [
-    "amazon-us-alexa-for-shopping-100-actions|add-conversational-list-subscription-and-account-actions|US|2026-10-29"
+    "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18",
+    "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 1,
+    "new": 2,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0
