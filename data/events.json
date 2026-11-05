@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-04T01:07:50.000Z",
+  "content_updated_at": "2026-11-05T01:12:00.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -6103,23 +6103,24 @@
       "subject_key": "amazon-brand-registry-report-a-violation",
       "action_key": "expand-report-types-and-add-ai-report-assistant-2026",
       "marketplaces": [
-        "GLOBAL",
+        "CA",
         "US"
       ],
       "effective_date": null,
       "deadline": null,
-      "title": "Amazon Brand Registry扩展Report a Violation并加入AI Report Assistant",
-      "summary": "Amazon美国站Sell on Amazon于2026年7月31日确认，Brand Registry的Report a Violation已把IP侵权、店铺政策违规与监管合规举报整合到一个引导式流程，并新增Submission History。Amazon全球开店10月公开资讯进一步列出AI Report Assistant更新；公开转载的官方内容显示，该助手可在Report Infringement流程中解释规则、ASIN检索和证据要求。",
-      "impact": "美国站品牌方可在同一工具内处理更多Listing和商品风险，并用AI减少举报类别或证据准备错误；同时，被举报商品的变体、分类、内容、实物一致性和安全合规风险更容易被结构化提交。US工具整合已有官方页面支持，但AI助手是否已出现在具体账户仍需登录核对；没有证据把该功能直接套用到CA或MX。",
-      "action": "美国站品牌团队登录Brand Registry核对账户是否出现新版入口与AI Report Assistant，先记录可选举报类型；对高风险ASIN整理权利证明、商品页面快照、订单/实物证据和安全文件。提交前人工复核AI回答与证据链；CA、MX等待各自账户或当地官方证据。",
+      "title": "美加站Brand Registry Reporter Assistant确认上线：仅限权利人或注册代理权限",
+      "summary": "Amazon美国站和加拿大站News_Amazon已确认，Brand Registry中具备Rights Owner或Registered Agent权限的用户现在可以使用AI驱动的Reporter Assistant。该助手在Report Infringement流程中逐步提示侵权类型、所需证据、正确举报路径和表单错误处理，并允许输入问题或选择建议提示；它不会改变案件裁决流程，所有举报仍按标准程序审核。此前事件仅能确认Report a Violation整合及AI助手资讯，本次补足美加站实际可用范围、权限条件和流程边界。",
+      "impact": "美国站与加拿大站品牌团队可减少侵权举报的分类和证据准备错误，但没有Rights Owner或Registered Agent权限的普通卖家不能据此使用该助手；AI提示也不是举报成功保证，更不能代替权利基础、测试购买、页面和实物证据。墨西哥站尚未取得当地官方开放证据，不跨站套用。",
+      "action": "分别登录US和CA Brand Registry核对用户角色及Report Infringement页面是否出现Ask Reporter Assistant；由权利人或注册代理账户试跑一笔不提交的流程，记录侵权类型、证据要求与错误提示。正式提交前由人工复核权利证明、ASIN、页面快照、测试购买和实物证据；MX继续等待当地公告或账户证据。",
       "category": "ai",
       "priority": "P0",
       "original_published_at": "2026-07-31",
-      "original_date_note": "美国站Sell on Amazon官方页面发表于2026-07-31，确认Report a Violation整合举报流程；Amazon全球开店10月公开资讯确认AI Report Assistant后续更新，但未给出日级生效时间，因此effective_date保留null。",
+      "original_date_note": "Report a Violation整合流程的美国站官方原文发表于2026-07-31；美加站Reporter Assistant公告在本次核验时分别显示约数小时至2天前，但公开页面未提供可稳定复核的绝对发布时间，因此不把抓取日冒充生效日，effective_date继续保留null。",
       "first_seen_at": "2026-11-01T01:06:34.000Z",
-      "last_material_update_at": "2026-11-01T01:10:22.000Z",
+      "last_material_update_at": "2026-11-05T01:12:00.000Z",
       "history_dates": [
-        "2026-11-01"
+        "2026-11-01",
+        "2026-11-05"
       ],
       "verification_status": "reviewed",
       "sources": [
@@ -6155,10 +6156,33 @@
           "authority_confirmed": true,
           "claimed_kind": "official",
           "canonical_url": "https://sell.amazon.com/blog/announcements/report-a-violation"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions?categories%5B%5D=amzn1.spce.category.8b1ad9d2&dateRange=threeMonths&replies=repliesAll&sortBy=lastActivityTime",
+          "publisher": "Amazon Seller Central US - News_Amazon",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-05T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "美国站News_Amazon公告明确Reporter Assistant现已可用、适用角色、操作入口及标准审核流程不变；公开列表仅显示相对发布时间。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions?categories%5B%5D=amzn1.spce.category.8b1ad9d2&dateRange=threeMonths&replies=repliesAll&sortBy=lastActivityTime"
+        },
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/6ed67ed2-bda5-4587-8b23-09b55b413f29",
+          "publisher": "Amazon Seller Central CA - News_Amazon",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-05T01:12:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "加拿大站官方独立公告确认相同权限条件、逐步引导能力和标准审核流程边界；公开页面显示相对时间，未以抓取日代替发布日期。",
+          "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/6ed67ed2-bda5-4587-8b23-09b55b413f29"
         }
       ],
       "key_aliases": [
-        "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL+US|unknown"
+        "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL+US|unknown",
+        "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|CA+US|unknown"
       ],
       "revisions": [
         {
@@ -6178,6 +6202,27 @@
             "deadline": null,
             "original_published_at": "2026-10-16",
             "original_date_note": "Amazon全球开店公开资讯页已列出该更新；可访问的转载页面发表于2026-10-16并完整转载功能说明。官方摘要没有给出日级生效时间，因此effective_date保留null。",
+            "verification_status": "reviewed"
+          }
+        },
+        {
+          "at": "2026-11-05T01:12:00.000Z",
+          "reason": "Amazon美国站和加拿大站官方公告确认Reporter Assistant已可用，补足明确站点、适用权限、操作入口和案件仍走标准审核流程的边界；适用范围由泛化GLOBAL+US修正为有直接证据的CA+US，保留原event_key及新规范键别名。",
+          "previous": {
+            "title": "Amazon Brand Registry扩展Report a Violation并加入AI Report Assistant",
+            "summary": "Amazon美国站Sell on Amazon于2026年7月31日确认，Brand Registry的Report a Violation已把IP侵权、店铺政策违规与监管合规举报整合到一个引导式流程，并新增Submission History。Amazon全球开店10月公开资讯进一步列出AI Report Assistant更新；公开转载的官方内容显示，该助手可在Report Infringement流程中解释规则、ASIN检索和证据要求。",
+            "impact": "美国站品牌方可在同一工具内处理更多Listing和商品风险，并用AI减少举报类别或证据准备错误；同时，被举报商品的变体、分类、内容、实物一致性和安全合规风险更容易被结构化提交。US工具整合已有官方页面支持，但AI助手是否已出现在具体账户仍需登录核对；没有证据把该功能直接套用到CA或MX。",
+            "action": "美国站品牌团队登录Brand Registry核对账户是否出现新版入口与AI Report Assistant，先记录可选举报类型；对高风险ASIN整理权利证明、商品页面快照、订单/实物证据和安全文件。提交前人工复核AI回答与证据链；CA、MX等待各自账户或当地官方证据。",
+            "category": "ai",
+            "priority": "P0",
+            "marketplaces": [
+              "GLOBAL",
+              "US"
+            ],
+            "effective_date": null,
+            "deadline": null,
+            "original_published_at": "2026-07-31",
+            "original_date_note": "美国站Sell on Amazon官方页面发表于2026-07-31，确认Report a Violation整合举报流程；Amazon全球开店10月公开资讯确认AI Report Assistant后续更新，但未给出日级生效时间，因此effective_date保留null。",
             "verification_status": "reviewed"
           }
         }

@@ -1,8 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18",
-    "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29"
+    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,33 +10,26 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "分别检查US、CA、MX Seller Central公开公告、Amazon Ads What’s New、Amazon全球开店、CPSC、Health Canada、SAT/ANAM以及既定行业媒体和公开公众号检索。industry_wechat_ca与industry_wechat_mx的15个include_source_ids均逐一检索，但多数仅能获得搜索摘要、公开列表或无结果，未绕过登录和访问限制，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开结果；没有指定竞品ASIN，也没有同ASIN、同变体、同地域和同时间口径的前后快照，缺少可比价格、Coupon及BSR基线，首次或不完整观察不计变化。8月29—30日历史补查仍未达到逐来源完整核验标准。",
+  "coverage_note": "分别检查US、CA、MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、加拿大竞争局、SAT/ANAM及既定行业媒体和公开公众号。industry_wechat_ca与industry_wechat_mx的15个include_source_ids均逐一公开检索，但大多仅获得搜索摘要、公开列表、旧闻或无结果，未绕过登录和访问限制，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开索引；没有指定竞品ASIN，也没有同ASIN、同变体、同地域和同时间口径的前后快照，缺少可比价格、Coupon及BSR基线。8月29—30日历史补查仍未达到逐来源完整核验标准。",
   "action_items": [
     {
-      "title": "建立美国站FBM退货7天SLA",
-      "detail": "在12月18日前核查未被Amazon自动预付标签覆盖的SKU和退货请求；只通过Manage seller-fulfilled returns上传预付标签，或执行合规的全额免退货退款。",
-      "due": "2026-12-18",
-      "event_key": "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18"
-    },
-    {
-      "title": "确认墨西哥Premium Hub资格与数据口径",
-      "detail": "向账户经理确认邀请制、类目、费用、页面资产和归因要求；获得资格后用MXN含税价格及墨西哥本地库存建立前后基线。",
+      "title": "核对美加Brand Registry角色与Reporter Assistant入口",
+      "detail": "分别检查US和CA账户是否具备Rights Owner或Registered Agent权限，并在Report Infringement页面验证Ask Reporter Assistant；正式举报前人工复核全部证据。",
       "due": null,
-      "event_key": "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29"
+      "event_key": "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-04",
-  "content_updated_at": "2026-11-04T01:07:50.000Z",
-  "new_event_keys": [
-    "amazon-us-seller-fulfilled-returns|require-prepaid-return-label-with-seven-day-response-2026|US|2026-12-18",
-    "amazon-mexico-premium-hub|launch-invite-only-premium-brand-destination-2026|MX|2026-10-29"
+  "report_date": "2026-11-05",
+  "content_updated_at": "2026-11-05T01:12:00.000Z",
+  "new_event_keys": [],
+  "updated_event_keys": [
+    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
   ],
-  "updated_event_keys": [],
   "counts": {
-    "new": 2,
-    "updated": 0,
-    "merged": 0,
+    "new": 0,
+    "updated": 1,
+    "merged": 1,
     "deduplicated": 0
   }
 }
