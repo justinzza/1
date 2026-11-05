@@ -1,0 +1,22 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 0,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [],
+  "updated_event_keys": [
+    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
+      "action": "update",
+      "axes": {},
+      "review": "已与114条事件及本批候选按稳定event_key、标题语义、规范化来源链接和生效日期四重比对。该公告与11月1日已发布的Report a Violation/AI Report Assistant卡片属于同一主体和变化动作，不能新增卡片；但美加站官方公告把原先需登录确认的AI助手线索升级为明确可用，并新增Rights Owner/Registered Agent权限条件及标准审核流程不变这一实质信息，因此更新原卡片。"
+    }
+  ]
+}

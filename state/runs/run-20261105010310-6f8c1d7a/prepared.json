@@ -1,0 +1,19 @@
+{
+  "run_id": "run-20261105010310-6f8c1d7a",
+  "status": "prepared",
+  "prepared_at": "2026-11-05T01:15:30.000Z",
+  "base_main_commit": "6fa427dc2dd4cf1c772a3fb468337053f9befa96",
+  "base_events_digest": "ff09ba85dde154eeae851c1b120a3da691ae842d2eaf420c31000666c63bcc96",
+  "expected_content_digest": "36e8c9be7a5015ce6aff7f7534692730683e74308658beae3f5780c3fb10ba4a",
+  "counts": {"new": 0, "updated": 1, "merged": 1, "deduplicated": 0},
+  "candidate_event_keys": [
+    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
+  ],
+  "tests": {"status": "passed", "count": 22},
+  "ui_checks": {
+    "daily_briefing_absent": true,
+    "category_summary_absent": true,
+    "staged_event_count": 114,
+    "duplicate_event_keys": 0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "base_digest": "ff09ba85dde154eeae851c1b120a3da691ae842d2eaf420c31000666c63bcc96",
+  "checked_at": "2026-11-05T01:12:00.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-brand-registry-report-a-violation",
+        "action_key": "expand-report-types-and-add-ai-report-assistant-2026",
+        "marketplaces": ["CA", "US"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "美加站Brand Registry Reporter Assistant确认上线：仅限权利人或注册代理权限",
+        "summary": "Amazon美国站和加拿大站News_Amazon已确认，Brand Registry中具备Rights Owner或Registered Agent权限的用户现在可以使用AI驱动的Reporter Assistant。该助手在Report Infringement流程中逐步提示侵权类型、所需证据、正确举报路径和表单错误处理，并允许输入问题或选择建议提示；它不会改变案件裁决流程，所有举报仍按标准程序审核。此前事件仅能确认Report a Violation整合及AI助手资讯，本次补足美加站实际可用范围、权限条件和流程边界。",
+        "impact": "美国站与加拿大站品牌团队可减少侵权举报的分类和证据准备错误，但没有Rights Owner或Registered Agent权限的普通卖家不能据此使用该助手；AI提示也不是举报成功保证，更不能代替权利基础、测试购买、页面和实物证据。墨西哥站尚未取得当地官方开放证据，不跨站套用。",
+        "action": "分别登录US和CA Brand Registry核对用户角色及Report Infringement页面是否出现Ask Reporter Assistant；由权利人或注册代理账户试跑一笔不提交的流程，记录侵权类型、证据要求与错误提示。正式提交前由人工复核权利证明、ASIN、页面快照、测试购买和实物证据；MX继续等待当地公告或账户证据。",
+        "category": "ai",
+        "priority": "P0",
+        "original_published_at": "2026-07-31",
+        "original_date_note": "Report a Violation整合流程的美国站官方原文发表于2026-07-31；美加站Reporter Assistant公告在本次核验时分别显示约数小时至2天前，但公开页面未提供可稳定复核的绝对发布时间，因此不把抓取日冒充生效日，effective_date继续保留null。",
+        "first_seen_at": "2026-11-01T01:06:34.000Z",
+        "last_material_update_at": "2026-11-05T01:12:00.000Z",
+        "history_dates": ["2026-11-01", "2026-11-05"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions?categories%5B%5D=amzn1.spce.category.8b1ad9d2&dateRange=threeMonths&replies=repliesAll&sortBy=lastActivityTime",
+            "publisher": "Amazon Seller Central US - News_Amazon",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-05T01:12:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "美国站News_Amazon公告明确Reporter Assistant现已可用、适用角色、操作入口及标准审核流程不变；公开列表仅显示相对发布时间。"
+          },
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/6ed67ed2-bda5-4587-8b23-09b55b413f29",
+            "publisher": "Amazon Seller Central CA - News_Amazon",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-05T01:12:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "加拿大站官方独立公告确认相同权限条件、逐步引导能力和标准审核流程边界；公开页面显示相对时间，未以抓取日代替发布日期。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "ff09ba85dde154eeae851c1b120a3da691ae842d2eaf420c31000666c63bcc96",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown",
+        "reason": "已与114条事件及本批候选按稳定event_key、标题语义、规范化来源链接和生效日期四重比对。该公告与11月1日已发布的Report a Violation/AI Report Assistant卡片属于同一主体和变化动作，不能新增卡片；但美加站官方公告把原先需登录确认的AI助手线索升级为明确可用，并新增Rights Owner/Registered Agent权限条件及标准审核流程不变这一实质信息，因此更新原卡片。"
+      },
+      "material_update": true,
+      "update_reason": "Amazon美国站和加拿大站官方公告确认Reporter Assistant已可用，补足明确站点、适用权限、操作入口和案件仍走标准审核流程的边界；适用范围由泛化GLOBAL+US修正为有直接证据的CA+US，保留原event_key及新规范键别名。"
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "分别检查US、CA、MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、加拿大竞争局、SAT/ANAM及既定行业媒体和公开公众号。industry_wechat_ca与industry_wechat_mx的15个include_source_ids均逐一公开检索，但大多仅获得搜索摘要、公开列表、旧闻或无结果，未绕过登录和访问限制，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开索引；没有指定竞品ASIN，也没有同ASIN、同变体、同地域和同时间口径的前后快照，缺少可比价格、Coupon及BSR基线。8月29—30日历史补查仍未达到逐来源完整核验标准。",
+    "action_items": [
+      {
+        "title": "核对美加Brand Registry角色与Reporter Assistant入口",
+        "detail": "分别检查US和CA账户是否具备Rights Owner或Registered Agent权限，并在Report Infringement页面验证Ask Reporter Assistant；正式举报前人工复核全部证据。",
+        "due": null,
+        "event_key": "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
+      }
+    ]
+  }
+}
