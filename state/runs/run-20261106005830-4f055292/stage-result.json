@@ -1,0 +1,47 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 3,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|US|2027-01-15",
+    "us-cpsc-amazon-products-2026-11-05|recall-or-warn-six-amazon-sold-products|US|2026-11-05",
+    "health-canada-newdery-power-bank-zhx-pb22|recall-amazon-ca-power-bank-fire-hazard|CA|2026-11-05"
+  ],
+  "updated_event_keys": [
+    "us-cpsc-amazon-products-2026-10-29|recall-or-warn-ten-amazon-sold-products|US|2026-10-29"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-us-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|US|2027-01-15",
+      "action": "new",
+      "review": "已对全库event_key、标题语义、规范化来源链接和生效日期逐项比对；现有记录没有Amazon美国站2027年度Referral/FBA费用公告，本批其他候选均为监管召回，属于新增独立事项。"
+    },
+    {
+      "event_key": "us-cpsc-amazon-products-2026-11-05|recall-or-warn-six-amazon-sold-products|US|2026-11-05",
+      "action": "new",
+      "review": "逐条对比库内CPSC批次卡片、标题、来源和日期；这六项均为2026-11-05新监管行动，库内不存在对应event_key或来源。HAIARA已在2026-10-29卡片中，本候选明确排除并通过下一候选更新原卡片。"
+    },
+    {
+      "event_key": "us-cpsc-amazon-products-2026-10-29|recall-or-warn-ten-amazon-sold-products|US|2026-10-29",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": true,
+        "identity": true,
+        "source": false,
+        "effective_date": true
+      },
+      "review": "HAIARA W5 PRO已属于10月29日十项监管批次；11月5日页面为同一商品和风险的新增事实，不另建卡片，更新原event_key并合并新监管来源。"
+    },
+    {
+      "event_key": "health-canada-newdery-power-bank-zhx-pb22|recall-amazon-ca-power-bank-fire-hazard|CA|2026-11-05",
+      "action": "new",
+      "review": "全库比对未发现CA站ZHX-PB22召回或该Health Canada来源；库内美国站NEWDERY为不同型号、不同监管机构、不同站点和生效日，不能合并。"
+    }
+  ]
+}

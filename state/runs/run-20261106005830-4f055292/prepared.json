@@ -1,0 +1,16 @@
+{
+  "run_id": "run-20261106005830-4f055292",
+  "status": "prepared",
+  "prepared_at": "2026-11-06T01:04:22.000Z",
+  "base_main_head": "2045e115a5b2355744e71d62fb464ecdae71fa9d",
+  "base_state_head": "d38667fa5d7d30fc29f9e387abc9973863259461",
+  "base_events_digest": "226a5d34b54823a6fed2cb2952ab9b13d5716e97d8fceb6bec66405bff907b20",
+  "expected_registry_digest": "0556de9a11e66da4431d6512f7287bdb0a5ff07d8dd6e13cf27eb2b60e511237",
+  "expected_content_digest": "2e6ede7b753ae3e0be767a49e459d3fea076a8963e747583ba8895ade7031557",
+  "counts": {
+    "new": 3,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  }
+}

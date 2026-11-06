@@ -1,0 +1,187 @@
+{
+  "base_digest": "226a5d34b54823a6fed2cb2952ab9b13d5716e97d8fceb6bec66405bff907b20",
+  "checked_at": "2026-11-06T01:04:22.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-2027-referral-and-fba-fees",
+        "action_key": "raise-fulfillment-fees-and-simplify-storage-fees",
+        "marketplaces": ["US"],
+        "effective_date": "2027-01-15",
+        "deadline": null,
+        "title": "Amazon美国站公布2027年费用调整：FBA履约费平均每件增加0.19美元，仓储费结构同步简化",
+        "summary": "Amazon于2026年11月5日公布2027年美国站Referral与FBA费用更新，多数变化于2027年1月15日生效。FBA履约费平均每件增加0.19美元，约占平均商品售价的0.8%，但具体SKU可能上涨或下降；FBA fuel and logistics surcharge维持不变。自2027年2月1日起取消storage utilization surcharge，并把aged inventory surcharge并入按库龄计费的月仓储费；周转不足6个月的库存费用持平或下降，老龄库存费用提高。low-inventory-level fee也改为仅在库存低于28天供应量时适用，并同时参考评估日前后各4周的实际发货。",
+        "impact": "美国站FBA卖家的2027年单位履约与仓储成本会按尺寸、售价、库龄和周转速度分化，不能用0.19美元平均值直接套算全部SKU。汽车用品中的长尺寸、重件、低周转变体和老龄库存更可能出现毛利压力；CA和MX未在本公告适用范围内，不能跨站套用。",
+        "action": "立即导出美国站Fee Change Comparison dashboard与Profit Analytics数据，按ASIN逐项重算2027年1月15日后的履约成本；再以2027年2月1日为切点，分别模拟仓储库龄、低库存费、MCF和AWD变化。优先复核燃油管、CPE编织油管、AN接头和排气卡箍的尺寸分段、售价与库存周转，并在Q4补货决策中控制可能进入老龄费率的库存。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-05",
+        "original_date_note": "Amazon官方文章发表于2026-11-05；多数费用变化于2027-01-15生效，storage utilization surcharge、aged inventory fee整合及low-inventory-level fee调整于2027-02-01生效。卡片以多数变化的生效日建档，并在正文单独保留2月1日边界。",
+        "first_seen_at": "2026-11-06T01:04:22.000Z",
+        "last_material_update_at": "2026-11-06T01:04:22.000Z",
+        "history_dates": ["2026-11-06"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [{
+          "url": "https://sellingpartners.aboutamazon.com/update-to-us-referral-and-fulfillment-by-amazon-fees-for-2027",
+          "publisher": "Amazon Selling Partners",
+          "kind": "official",
+          "published_at": "2026-11-05",
+          "verified_at": "2026-11-06T01:04:22.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取Amazon官方全文，核对平均履约费变化、附加费不变、1月15日与2月1日两组生效日期及仓储和低库存费逻辑。"
+        }]
+      },
+      "dedupe_review": {
+        "compared_digest": "226a5d34b54823a6fed2cb2952ab9b13d5716e97d8fceb6bec66405bff907b20",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已对全库event_key、标题语义、规范化来源链接和生效日期逐项比对；现有记录没有Amazon美国站2027年度Referral/FBA费用公告，本批其他候选均为监管召回，属于新增独立事项。",
+        "distinct_event_reason": "与库内2026年3D Printers分类费率、2026年附加费及其他站点费用事件的适用年度、变化动作和生效日均不同。"
+      },
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key": "us-cpsc-amazon-products-2026-11-05",
+        "action_key": "recall-or-warn-six-amazon-sold-products",
+        "marketplaces": ["US"],
+        "effective_date": "2026-11-05",
+        "deadline": null,
+        "title": "美国CPSC对6组Amazon.com商品发布召回或停用警告：滑梯、哺乳枕、电池、梯子、斗柜与打火机",
+        "summary": "美国CPSC于2026年11月5日发布6组涉及Amazon.com销售证据的安全行动：Arlopu KT-CS17/LY-31儿童滑梯、X-VESOLJE NP001哺乳枕、Bose S1 Pro/S1 Pro+锂电池包、Little Giant Rapid Lock梯子、HAUOMS八抽屉斗柜及Fire Blaze多用途打火机。风险分别包括头颈夹困或缠绕、婴儿窒息、电池过热起火、坠落、倾倒夹困，以及缺少儿童防护机构导致的火灾和灼伤。",
+        "impact": "命中品牌、型号、序列号或同供应链的美国站卖家可能面临停售、召回、退款/维修、客户通知、库存隔离和广告暂停要求。六项行动的救济方式并不相同，不能把repair、refund与stop-use warning混为一套流程；本批只确认美国站Amazon.com销售证据，不外推CA或MX。",
+        "action": "立即按品牌、型号、SKU和序列号筛查美国站Listing、FBA/FBM库存、在途货及历史订单，重点匹配KT-CS17、LY-31、NP001、Bose S1电池序列前缀、Rapid Lock系列和AJ_DJ504298_1。命中后停止销售与广告、隔离库存，并逐条按CPSC页面执行维修、退款或停用处置；同时审查同工厂、同结构和同电池/儿童安全设计的相邻ASIN。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-05",
+        "original_date_note": "六项CPSC监管页面均标注2026-11-05；同日且均有Amazon.com销售证据，按一张美国站监管批次卡片归档。HAIARA W5 PRO的11月5日扩展警告作为10月29日原卡片的实质更新处理，不在本卡片重复新增。",
+        "first_seen_at": "2026-11-06T01:04:22.000Z",
+        "last_material_update_at": "2026-11-06T01:04:22.000Z",
+        "history_dates": ["2026-11-06"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {"url":"https://www.cpsc.gov/Recalls/2027/Arlopu-Recalls-Slide-Playsets-Due-to-Risk-of-Serious-Injury-and-Death-from-Head-and-Neck-Entrapment-Hazards","publisher":"U.S. Consumer Product Safety Commission","kind":"regulator","published_at":"2026-11-05","verified_at":"2026-11-06T01:04:22.000Z","supports_event":true,"authority_confirmed":true,"verification_note":"核对Arlopu型号、风险、救济方式与Amazon.com销售证据。"},
+          {"url":"https://www.cpsc.gov/Recalls/2027/Kikea-Store-Recalls-X-VESOLJE-Nursing-Pillows-Due-to-Risk-of-Serious-Injury-or-Death-from-Suffocation-Violate-Mandatory-Standards-for-Nursing-Pillows","publisher":"U.S. Consumer Product Safety Commission","kind":"regulator","published_at":"2026-11-05","verified_at":"2026-11-06T01:04:22.000Z","supports_event":true,"authority_confirmed":true,"verification_note":"核对NP001型号、窒息风险、退款方式与Amazon.com销售证据。"},
+          {"url":"https://www.cpsc.gov/Recalls/2027/Bose-Recalls-Lithium-Ion-Battery-Packs-for-S1-Pro-and-S1-Pro-Bluetooth-Speaker-Systems-Due-to-Risk-of-Injury-from-Fire-and-Overheating-Hazards","publisher":"U.S. Consumer Product Safety Commission","kind":"regulator","published_at":"2026-11-05","verified_at":"2026-11-06T01:04:22.000Z","supports_event":true,"authority_confirmed":true,"verification_note":"核对Bose S1 Pro/S1 Pro+电池包、过热起火风险与Amazon.com销售证据。"},
+          {"url":"https://www.cpsc.gov/Recalls/2027/Little-Giant-Recalls-Ladders-with-Rapid-Locks-Due-to-Risk-of-Serious-Injury-from-Fall-Hazard","publisher":"U.S. Consumer Product Safety Commission","kind":"regulator","published_at":"2026-11-05","verified_at":"2026-11-06T01:04:22.000Z","supports_event":true,"authority_confirmed":true,"verification_note":"核对Rapid Lock梯子范围、坠落风险与Amazon.com销售证据。"},
+          {"url":"https://www.cpsc.gov/Recalls/2027/Jiastfeng-Recalls-HAUOMS-Eight-drawer-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units","publisher":"U.S. Consumer Product Safety Commission","kind":"regulator","published_at":"2026-11-05","verified_at":"2026-11-06T01:04:22.000Z","supports_event":true,"authority_confirmed":true,"verification_note":"核对HAUOMS SKU、倾倒夹困风险与Amazon.com销售证据。"},
+          {"url":"https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-Fire-Blaze-Multipurpose-Lighters-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Violate-Mandatory-Standard-for-Multipurpose-Lighters","publisher":"U.S. Consumer Product Safety Commission","kind":"regulator","published_at":"2026-11-05","verified_at":"2026-11-06T01:04:22.000Z","supports_event":true,"authority_confirmed":true,"verification_note":"核对Fire Blaze打火机、儿童防护不合规、停用警告与Amazon.com销售证据。"}
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "226a5d34b54823a6fed2cb2952ab9b13d5716e97d8fceb6bec66405bff907b20",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条对比库内CPSC批次卡片、标题、来源和日期；这六项均为2026-11-05新监管行动，库内不存在对应event_key或来源。HAIARA已在2026-10-29卡片中，本候选明确排除并通过下一候选更新原卡片。",
+        "distinct_event_reason": "与2026-10-29的十项CPSC批次在商品组、监管动作发布日期和来源页面均不同；同批内六项按同日Amazon.com安全行动合并，避免六张重复运营卡片。"
+      },
+      "material_update": false
+    },
+    {
+      "event": {
+        "subject_key": "us-cpsc-amazon-products-2026-10-29",
+        "action_key": "recall-or-warn-ten-amazon-sold-products",
+        "marketplaces": ["US"],
+        "effective_date": "2026-10-29",
+        "deadline": null,
+        "title": "美国CPSC发布10项Amazon.com商品召回或停用警告：充电宝、报警器、磁性玩具等",
+        "summary": "美国CPSC于2026年10月29日对10组曾在Amazon.com销售的商品发布召回或立即停用警告，涉及HAIARA W5 PRO充电宝等。CPSC于11月5日进一步发布HAIARA停用警告并补充约600起过热、起火或爆炸报告及卖家响应差异：Mitrytech配合召回，Geralde-US未响应，Woot未同意实施CPSC认可的召回。其余九组商品和原风险范围不变。",
+        "impact": "HAIARA W5 PRO的风险信号与卖家处置差异已显著升级，持有同型号、同电芯或同供应链商品的美国站卖家应把停售、客户通知和库存隔离优先级提升到最高。CPSC对不同商品采用recall或stop-use warning，执行路径不能混用；本卡片仍仅确认Amazon.com销售证据，不外推加拿大或墨西哥站。",
+        "action": "立即用W5 PRO型号及销售账户筛查美国站Listing、FBA/FBM库存、在途货和历史订单；无论销售账户是否响应，先停止销售与广告并隔离库存。Mitrytech渠道按召回流程执行，Geralde-US和Woot相关购买记录按CPSC最新停用警告审查客户沟通与退款处置；同时复核同电芯、同工厂和同外壳设计的相邻ASIN。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-10-29",
+        "original_date_note": "原十项CPSC监管批次均发表于2026-10-29；HAIARA W5 PRO于2026-11-05新增扩展停用警告和约600起事件、卖家响应差异等实质信息，保留原event_key并更新原卡片。",
+        "first_seen_at": "2026-11-06T01:04:22.000Z",
+        "last_material_update_at": "2026-11-06T01:04:22.000Z",
+        "history_dates": ["2026-11-06"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [{
+          "url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-HAIARA-Power-Banks-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "kind": "regulator",
+          "published_at": "2026-11-05",
+          "verified_at": "2026-11-06T01:04:22.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "核对W5 PRO扩展停用警告、约600起事件及Mitrytech、Geralde-US与Woot不同响应状态。"
+        }]
+      },
+      "dedupe_review": {
+        "compared_digest": "226a5d34b54823a6fed2cb2952ab9b13d5716e97d8fceb6bec66405bff907b20",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "us-cpsc-amazon-products-2026-10-29|recall-or-warn-ten-amazon-sold-products|US|2026-10-29",
+        "reason": "HAIARA W5 PRO已属于10月29日十项监管批次；11月5日页面为同一商品和风险的新增事实，不另建卡片，更新原event_key并合并新监管来源。"
+      },
+      "material_update": true,
+      "update_reason": "CPSC新增约600起过热、起火或爆炸报告以及三类销售账户的不同响应状态，显著改变风险强度和处置优先级。"
+    },
+    {
+      "event": {
+        "subject_key": "health-canada-newdery-power-bank-zhx-pb22",
+        "action_key": "recall-amazon-ca-power-bank-fire-hazard",
+        "marketplaces": ["CA"],
+        "effective_date": "2026-11-05",
+        "deadline": null,
+        "title": "加拿大召回Amazon.ca销售的NEWDERY ZHX-PB22充电宝，购买者已通过平台退款",
+        "summary": "Health Canada于2026年11月5日召回NEWDERY ZHX-PB22充电宝，锂离子电池可能爆炸或起火，造成火灾和灼伤风险。受影响商品曾于2024年6月至11月在Amazon.ca销售，企业报告加拿大售出962件；截至2026年10月30日加拿大无事故或伤害报告。官方称受影响购买者已通过Amazon.ca退款，并要求立即停用。",
+        "impact": "加拿大站卖家若仍持有ZHX-PB22、同电芯或同供应链库存，不能因平台已退款而继续销售或转售；加拿大Consumer Product Safety Act禁止重新分销、销售或赠送被召回商品。该事件只核验CA，不把美国站NEWDERY其他型号或其他站点库存自动并入。",
+        "action": "按ZHX-PB22型号筛查Amazon.ca Listing、FBA/FBM库存、在途货和历史订单，命中即停售、停广告并隔离库存；核对Amazon.ca退款覆盖是否完整，保留客户通知与处置记录。对同电芯和同工厂的其他型号单独做合规复核，但无官方证据前不要扩大召回范围。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-05",
+        "original_date_note": "Health Canada原始发布日期、最后更新日和召回日均为2026-11-05；页面明确Amazon.ca销售、退款状态、962件销量和加拿大事故统计。",
+        "first_seen_at": "2026-11-06T01:04:22.000Z",
+        "last_material_update_at": "2026-11-06T01:04:22.000Z",
+        "history_dates": ["2026-11-06"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [{
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/newdery-power-banks-recalled-due-fire-hazard",
+          "publisher": "Health Canada",
+          "kind": "regulator",
+          "published_at": "2026-11-05",
+          "verified_at": "2026-11-06T01:04:22.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取Health Canada全文，核对型号、风险、Amazon.ca销售和退款、销量、销售期及召回日期。"
+        }]
+      },
+      "dedupe_review": {
+        "compared_digest": "226a5d34b54823a6fed2cb2952ab9b13d5716e97d8fceb6bec66405bff907b20",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库比对未发现CA站ZHX-PB22召回或该Health Canada来源；库内美国站NEWDERY为不同型号、不同监管机构、不同站点和生效日，不能合并。",
+        "distinct_event_reason": "与美国站历史NEWDERY召回的型号、站点和监管动作独立；本批CPSC候选均为US且不含ZHX-PB22。"
+      },
+      "material_update": false
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|US|2027-01-15",
+      "us-cpsc-amazon-products-2026-11-05|recall-or-warn-six-amazon-sold-products|US|2026-11-05",
+      "health-canada-newdery-power-bank-zhx-pb22|recall-amazon-ca-power-bank-fire-hazard|CA|2026-11-05"
+    ],
+    "category_coverage": {"policy":"partial","ads":"partial","ai":"partial","opportunities":"partial","competitors":"partial"},
+    "coverage_note": "US/CA/MX第一层官方及监管来源完成公开检索与原文核验，第二层行业媒体和公众号仅完成公开搜索；industry_wechat_ca/mx已逐一检索全部include_source_ids但未获得可登录外的完整文章列表。汽车用品关键词/竞品仅完成三站公开搜索，未指定ASIN且缺少可比快照，不能判断价格、Coupon、BSR或关键词趋势。历史8月29日至30日全源补查仍未完成。",
+    "action_items": [
+      {"title":"重算美国站2027费用","detail":"按ASIN导出Fee Change Comparison并分别模拟1月15日履约费和2月1日仓储/低库存费变化。","due":"本周内","event_key":"amazon-us-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|US|2027-01-15"},
+      {"title":"筛查CPSC 11月5日商品","detail":"按型号、序列号和SKU核对美国站库存与历史订单，命中即停售、隔离并按各页救济方式处置。","due":"立即","event_key":"us-cpsc-amazon-products-2026-11-05|recall-or-warn-six-amazon-sold-products|US|2026-11-05"},
+      {"title":"处置加拿大NEWDERY库存","detail":"筛查ZHX-PB22并核对Amazon.ca退款覆盖，禁止重新分销或赠送召回品。","due":"立即","event_key":"health-canada-newdery-power-bank-zhx-pb22|recall-amazon-ca-power-bank-fire-hazard|CA|2026-11-05"}
+    ]
+  }
+}
