@@ -1,7 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
+    "amazon-us-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|US|2027-01-15",
+    "us-cpsc-amazon-products-2026-11-05|recall-or-warn-six-amazon-sold-products|US|2026-11-05",
+    "health-canada-newdery-power-bank-zhx-pb22|recall-amazon-ca-power-bank-fire-hazard|CA|2026-11-05"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -10,24 +12,40 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "分别检查US、CA、MX Seller Central公开公告、Amazon Ads What's New、Amazon全球开店、CPSC、Health Canada、加拿大竞争局、SAT/ANAM及既定行业媒体和公开公众号。industry_wechat_ca与industry_wechat_mx的15个include_source_ids均逐一公开检索，但大多仅获得搜索摘要、公开列表、旧闻或无结果，未绕过登录和访问限制，不能声称完整读取账号历史。汽车用品按fuel line、CPE braided fuel hose、AN fittings、exhaust clamp及西语对应词检查三站公开索引；没有指定竞品ASIN，也没有同ASIN、同变体、同地域和同时间口径的前后快照，缺少可比价格、Coupon及BSR基线。8月29—30日历史补查仍未达到逐来源完整核验标准。",
+  "coverage_note": "US/CA/MX第一层官方及监管来源完成公开检索与原文核验，第二层行业媒体和公众号仅完成公开搜索；industry_wechat_ca/mx已逐一检索全部include_source_ids但未获得可登录外的完整文章列表。汽车用品关键词/竞品仅完成三站公开搜索，未指定ASIN且缺少可比快照，不能判断价格、Coupon、BSR或关键词趋势。历史8月29日至30日全源补查仍未完成。",
   "action_items": [
     {
-      "title": "核对美加Brand Registry角色与Reporter Assistant入口",
-      "detail": "分别检查US和CA账户是否具备Rights Owner或Registered Agent权限，并在Report Infringement页面验证Ask Reporter Assistant；正式举报前人工复核全部证据。",
-      "due": null,
-      "event_key": "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
+      "title": "重算美国站2027费用",
+      "detail": "按ASIN导出Fee Change Comparison并分别模拟1月15日履约费和2月1日仓储/低库存费变化。",
+      "due": "本周内",
+      "event_key": "amazon-us-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|US|2027-01-15"
+    },
+    {
+      "title": "筛查CPSC 11月5日商品",
+      "detail": "按型号、序列号和SKU核对美国站库存与历史订单，命中即停售、隔离并按各页救济方式处置。",
+      "due": "立即",
+      "event_key": "us-cpsc-amazon-products-2026-11-05|recall-or-warn-six-amazon-sold-products|US|2026-11-05"
+    },
+    {
+      "title": "处置加拿大NEWDERY库存",
+      "detail": "筛查ZHX-PB22并核对Amazon.ca退款覆盖，禁止重新分销或赠送召回品。",
+      "due": "立即",
+      "event_key": "health-canada-newdery-power-bank-zhx-pb22|recall-amazon-ca-power-bank-fire-hazard|CA|2026-11-05"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-05",
-  "content_updated_at": "2026-11-05T01:12:00.000Z",
-  "new_event_keys": [],
+  "report_date": "2026-11-06",
+  "content_updated_at": "2026-11-06T01:04:22.000Z",
+  "new_event_keys": [
+    "amazon-us-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|US|2027-01-15",
+    "us-cpsc-amazon-products-2026-11-05|recall-or-warn-six-amazon-sold-products|US|2026-11-05",
+    "health-canada-newdery-power-bank-zhx-pb22|recall-amazon-ca-power-bank-fire-hazard|CA|2026-11-05"
+  ],
   "updated_event_keys": [
-    "amazon-brand-registry-report-a-violation|expand-report-types-and-add-ai-report-assistant-2026|GLOBAL|unknown"
+    "us-cpsc-amazon-products-2026-10-29|recall-or-warn-ten-amazon-sold-products|US|2026-10-29"
   ],
   "counts": {
-    "new": 0,
+    "new": 3,
     "updated": 1,
     "merged": 1,
     "deduplicated": 0
