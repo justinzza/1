@@ -1,0 +1,149 @@
+{
+  "base_digest": "0556de9a11e66da4431d6512f7287bdb0a5ff07d8dd6e13cf27eb2b60e511237",
+  "checked_at": "2026-11-07T01:06:02.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-ca-2027-referral-and-fba-fees",
+        "action_key": "raise-fulfillment-fees-and-simplify-storage-fees",
+        "marketplaces": ["CA"],
+        "effective_date": "2027-01-15",
+        "deadline": null,
+        "title": "Amazon加拿大站公布2027年费用调整：FBA履约费平均每件增加0.21加元，仓储费结构同步简化",
+        "summary": "Amazon加拿大站于2026年11月6日公布2027年Referral与FBA费用更新，多数变化于2027年1月15日生效。FBA履约费平均每件增加CAD 0.21，约占平均商品售价的0.6%，但具体SKU可能上涨或下降；FBA fuel and logistics surcharge保持不变。自2027年2月1日起取消storage utilization surcharge，并把aged inventory surcharge并入按库龄计费的月仓储费；周转不足6个月的库存费用持平或下降，老龄库存费用提高。low-inventory-level fee也改为仅在库存低于28天供应量时适用，并同时参考评估日前后各4周的实际发货。",
+        "impact": "加拿大站FBA卖家的2027年单位履约与仓储成本将按尺寸、售价、库龄和周转速度分化，不能把CAD 0.21平均值直接套算全部SKU，也不能沿用美国站USD费率。汽车用品中的长尺寸、重件、低周转变体和老龄库存更可能承受毛利压力。",
+        "action": "立即在加拿大站导出Fee Change Comparison dashboard与Profit Analytics数据，逐ASIN重算2027年1月15日后的履约成本；再以2月1日为切点模拟仓储库龄、低库存费、MCF与促销费用。重点复核燃油管、CPE编织油管、AN接头和排气卡箍的尺寸分段、CAD售价和库存周转。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-06",
+        "original_date_note": "Amazon加拿大站官方News_Amazon公告于2026-11-06发布；多数变化于2027-01-15生效，仓储利用率附加费、老龄库存费整合及低库存费规则于2027-02-01生效。",
+        "first_seen_at": "2026-11-07T01:06:02.000Z",
+        "last_material_update_at": "2026-11-07T01:06:02.000Z",
+        "history_dates": ["2026-11-07"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [{
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/9408c7a8-9153-4ffe-a911-0a9d89c0fe2a",
+          "publisher": "Amazon Seller Central Canada / News_Amazon",
+          "kind": "official",
+          "published_at": "2026-11-06",
+          "verified_at": "2026-11-07T01:06:02.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已核对官方发帖身份、CAD 0.21平均变化、附加费不变、1月15日和2月1日两组日期及仓储和低库存费逻辑。"
+        }]
+      },
+      "dedupe_review": {
+        "compared_digest": "0556de9a11e66da4431d6512f7287bdb0a5ff07d8dd6e13cf27eb2b60e511237",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库仅有美国站2027费用卡片；加拿大公告使用CAD、平均增幅不同且为独立站点费率，不能合并或跨站套用。",
+        "distinct_event_reason": "与美国站同属2027费用调整，但加拿大站费率、币种和具体影响独立。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ca-cross-border-returns",
+        "action_key": "add-automatic-returnless-rules-and-default-address-policy",
+        "marketplaces": ["CA"],
+        "effective_date": "2026-11-23",
+        "deadline": null,
+        "title": "加拿大站11月23日上线自动免退货规则，并调整境外履约退货处理",
+        "summary": "Amazon加拿大站宣布，自2026年11月23日起，卖家可按价格区间、商品类别或退货原因设置automatic returnless resolution rules。同期，对从加拿大境外履约、且未设置加拿大默认退货地址的订单实施新规则：价值不超过CAD 25的退货将自动退款且无需退回；高于CAD 25时，Amazon建议卖家在48小时内提供预付退货标签，或选择免退货退款。",
+        "impact": "从境外向加拿大买家发货且没有本地默认退货地址的卖家，将面临CAD 25以下订单自动免退货退款的直接损失；高于阈值的订单也需要更快的48小时退货响应。自动规则若设置过宽，可能扩大退款损耗，但合理按品类与原因配置可降低逆向物流成本。",
+        "action": "立即检查加拿大站Return settings中的默认退货地址与Resolutions设置；按毛利、回运成本、危险品属性和欺诈风险划分CAD价格区间，谨慎建立returnless规则。为CAD 25以上订单准备48小时内可用的预付标签流程，并对境外履约SKU测算退货损耗。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-07",
+        "original_date_note": "Amazon加拿大站News_Amazon于2026-11-07发布公告，规则于2026-11-23生效。",
+        "first_seen_at": "2026-11-07T01:06:02.000Z",
+        "last_material_update_at": "2026-11-07T01:06:02.000Z",
+        "history_dates": ["2026-11-07"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [{
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/3c9f642c-ae06-420a-89ea-72cc99508bd3",
+          "publisher": "Amazon Seller Central Canada / News_Amazon",
+          "kind": "official",
+          "published_at": "2026-11-07",
+          "verified_at": "2026-11-07T01:06:02.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已核对官方发帖身份、11月23日生效、CAD 25阈值、48小时建议及规则配置入口。"
+        }]
+      },
+      "dedupe_review": {
+        "compared_digest": "0556de9a11e66da4431d6512f7287bdb0a5ff07d8dd6e13cf27eb2b60e511237",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库既有美加FBA Partial Refunds、美国FBM预付标签等事件，但没有加拿大境外履约CAD 25阈值及自动returnless规则；主体、站点、动作与生效日均不同。",
+        "distinct_event_reason": "同一官方公告的自动免退货配置和境外履约退货阈值共同构成一套加拿大站流程变化，合并为一张卡片。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    },
+    {
+      "event": {
+        "subject_key": "health-canada-klean-strip-denatured-alcohol-fuel",
+        "action_key": "recall-amazon-ca-improper-labelling",
+        "marketplaces": ["CA"],
+        "effective_date": "2026-11-06",
+        "deadline": null,
+        "title": "Health Canada召回Amazon.ca销售的Klean Strip变性酒精燃料：标签不合规",
+        "summary": "Health Canada于2026年11月6日召回Amazon.ca销售的Klean Strip Denatured Alcohol Fuel，涉及946 mL装ASIN B002MBX2QE和3.78 L装ASIN B001EMB2A0。官方认定其标签不符合Consumer Chemicals and Containers Regulations, 2001，缺少适当信息可能导致意外接触、严重疾病或伤害，甚至死亡。加拿大共售出382件；消费者应立即停用并按市政危险废物要求处置，不得退回卖家。",
+        "impact": "加拿大法律禁止重新分销、销售或赠送召回商品。命中两个ASIN或同供应链商品的卖家需立即停售、隔离库存并处理退款与客户沟通；危险化学品处置不能沿用普通退货流程。",
+        "action": "立即按B002MBX2QE、B001EMB2A0筛查Amazon.ca Listing、FBA/FBM库存、在途货和历史订单，命中即停售、停广告并隔离；按危险废物要求处置，不要求买家寄回。核对NelsonLife通过Buyer-Seller Messaging处理退款的范围，并审查同标签模板的相邻化学品ASIN。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-06",
+        "original_date_note": "Health Canada原始发布日期、最后更新日和召回日均为2026-11-06；页面明确Amazon.ca、两个ASIN、销量、风险与处置方式。",
+        "first_seen_at": "2026-11-07T01:06:02.000Z",
+        "last_material_update_at": "2026-11-07T01:06:02.000Z",
+        "history_dates": ["2026-11-07"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [{
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/klean-strip-denatured-alcohol-fuel-recalled-due-improper-labelling",
+          "publisher": "Health Canada",
+          "kind": "regulator",
+          "published_at": "2026-11-06",
+          "verified_at": "2026-11-07T01:06:02.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取监管原文，核对ASIN、容量、标签法规、风险、382件销量、销售期和危险废物处置要求。"
+        }]
+      },
+      "dedupe_review": {
+        "compared_digest": "0556de9a11e66da4431d6512f7287bdb0a5ff07d8dd6e13cf27eb2b60e511237",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "全库无Klean Strip、两个ASIN或RA-82874记录；与既有NEWDERY和气球套装召回的品牌、商品、危险类型及日期均不同。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-ca-cross-border-returns|add-automatic-returnless-rules-and-default-address-policy|CA|2026-11-23",
+      "amazon-ca-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|CA|2027-01-15",
+      "health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06"
+    ],
+    "category_coverage": {"policy":"partial","ads":"partial","ai":"partial","opportunities":"partial","competitors":"partial"},
+    "coverage_note": "US/CA/MX第一层官方及监管来源完成公开检索与3项原文核验；第二层行业媒体和公众号仅完成公开搜索。industry_wechat_ca/mx已逐一检索全部include_source_ids，但多数仅有搜索摘要或未发现公开新文，不能视为完整读取。汽车用品关键词/竞品仅完成三站公开搜索，未指定ASIN且缺少可比快照，不能判断价格、Coupon、BSR或关键词趋势。历史8月29日至30日全源补查仍未完成。",
+    "action_items": [
+      {"title":"配置加拿大站退货规则","detail":"核对加拿大默认退货地址，按毛利和回运成本配置returnless规则，并建立CAD 25以上订单48小时标签流程。","due":"11月23日前","event_key":"amazon-ca-cross-border-returns|add-automatic-returnless-rules-and-default-address-policy|CA|2026-11-23"},
+      {"title":"重算加拿大站2027费用","detail":"按ASIN导出Fee Change Comparison，分别模拟1月15日履约费与2月1日仓储和低库存费。","due":"本周内","event_key":"amazon-ca-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|CA|2027-01-15"},
+      {"title":"处置Klean Strip召回品","detail":"筛查B002MBX2QE和B001EMB2A0，命中即停售隔离，按危险废物处置且不得要求买家退回。","due":"立即","event_key":"health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06"}
+    ]
+  }
+}

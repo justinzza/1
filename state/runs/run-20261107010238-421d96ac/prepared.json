@@ -1,0 +1,14 @@
+{
+  "run_id": "run-20261107010238-421d96ac",
+  "status": "prepared",
+  "prepared_at": "2026-11-07T01:06:02.000Z",
+  "base_main_commit": "274ec1d35e96f681a1383245916de18ce90e321e",
+  "base_content_digest": "0556de9a11e66da4431d6512f7287bdb0a5ff07d8dd6e13cf27eb2b60e511237",
+  "expected_counts": {
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "note": "3条加拿大站实质更新已完成官方/监管原文核验、四重去重、stage与全量测试；等待main提交前复读租约和main HEAD。"
+}

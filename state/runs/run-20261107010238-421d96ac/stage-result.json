@@ -1,0 +1,33 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-ca-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|CA|2027-01-15",
+    "amazon-ca-cross-border-returns|add-automatic-returnless-rules-and-default-address-policy|CA|2026-11-23",
+    "health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-ca-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|CA|2027-01-15",
+      "action": "new",
+      "review": "全库仅有美国站2027费用卡片；加拿大公告使用CAD、平均增幅不同且为独立站点费率，不能合并或跨站套用。"
+    },
+    {
+      "event_key": "amazon-ca-cross-border-returns|add-automatic-returnless-rules-and-default-address-policy|CA|2026-11-23",
+      "action": "new",
+      "review": "全库既有美加FBA Partial Refunds、美国FBM预付标签等事件，但没有加拿大境外履约CAD 25阈值及自动returnless规则；主体、站点、动作与生效日均不同。"
+    },
+    {
+      "event_key": "health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06",
+      "action": "new",
+      "review": "全库无Klean Strip、两个ASIN或RA-82874记录；与既有NEWDERY和气球套装召回的品牌、商品、危险类型及日期均不同。"
+    }
+  ]
+}
