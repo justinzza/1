@@ -1,0 +1,243 @@
+{
+  "id": "run-20261107010238-421d96ac",
+  "base_state_digest": "652246d0a8d68274cba8f320a37a96a6adb838bbf84a3e54f281e49aab691a39",
+  "started_at": "2026-11-07T01:02:38.000Z",
+  "finished_at": "2026-11-07T01:13:13.000Z",
+  "material_changed": true,
+  "backfill_complete": false,
+  "counts": {
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0,
+    "research_duplicates_excluded": 2
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "a511543c00f0838394bb9e598e5268591407a66d",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "1d6933023a1dff5c57701cb698a7569d9f5f51947126f05cdcdba8238701a797",
+    "observed_digest": "1d6933023a1dff5c57701cb698a7569d9f5f51947126f05cdcdba8238701a797",
+    "verified_at": "2026-11-07T01:13:13.000Z",
+    "note": "该提交GitHub combined status中的Vercel上下文为success；正式域名main[data-content-digest]与预期一致，页面显示3条新增且DAILY BRIEFING计数为0。"
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "note": "公开搜索检查美国Seller Central近期公告；仅发现已收录的美国2027费用等旧事件，未完成bootstrap历史逐页复核。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "note": "公开搜索检查Amazon全球开店新闻中心，未发现本窗口可核验的新US/CA/MX实质变化；未完成历史补查。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "note": "已检查Amazon Ads Whats New公开索引与近期结果，未发现本窗口可核验的新三站广告机制变化；未完成历史补查。",
+      "evidence": []
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "note": "已检查美国CPSC近期公开结果，未发现晚于既有11月5日批次的新Amazon.com行动；其他监管门类与历史窗口未全量完成。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "note": "公开搜索并回读加拿大Seller Central官方公告，核验2027费用更新及11月23日returnless/境外履约退货规则；未完成bootstrap历史逐页复核。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/9408c7a8-9153-4ffe-a911-0a9d89c0fe2a",
+          "note": "加拿大站2027费用官方公告。"
+        },
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/3c9f642c-ae06-420a-89ea-72cc99508bd3",
+          "note": "11月23日returnless和境外履约退货政策官方公告。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "note": "公开搜索检查墨西哥Seller Central近期公告；11月7日所得税预扣为已收录事件，未发现新的独立变化；未完成bootstrap历史逐页复核。",
+      "evidence": []
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "note": "已检查Health Canada近期公开召回并核验Klean Strip变性酒精燃料Amazon.ca召回；其他监管门类和历史窗口未全量完成。",
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/klean-strip-denatured-alcohol-fuel-recalled-due-improper-labelling",
+          "note": "11月6日Health Canada官方召回，明确Amazon.ca和两个ASIN。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "note": "已用公开搜索检查墨西哥税务、海关、产品合规和消费者保护线索，未发现本窗口可核验的新Amazon.mx事件；未完成历史全量复核。",
+      "evidence": []
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该行业来源及US/CA/MX站点词；结果多为已收录事件、索引或摘要，未发现可独立核验的新事件。",
+      "evidence": []
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该行业来源及US/CA/MX站点词；结果多为已收录事件、索引或摘要，未发现可独立核验的新事件。",
+      "evidence": []
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该行业来源及US/CA/MX站点词；结果多为已收录事件、索引或摘要，未发现可独立核验的新事件。",
+      "evidence": []
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该行业来源及US/CA/MX站点词；结果多为已收录事件、索引或摘要，未发现可独立核验的新事件。",
+      "evidence": []
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该行业来源及US/CA/MX站点词；结果多为已收录事件、索引或摘要，未发现可独立核验的新事件。",
+      "evidence": []
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该行业来源及US/CA/MX站点词；结果多为已收录事件、索引或摘要，未发现可独立核验的新事件。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该公众号及CA/MX站点词，未获得无需登录的本窗口完整新文章；仅有摘要或未检索到，不视为完整检查。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该公众号及CA/MX站点词，未获得无需登录的本窗口完整新文章；仅有摘要或未检索到，不视为完整检查。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该公众号及CA/MX站点词，未获得无需登录的本窗口完整新文章；仅有摘要或未检索到，不视为完整检查。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该公众号及CA/MX站点词，未获得无需登录的本窗口完整新文章；仅有摘要或未检索到，不视为完整检查。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该公众号及CA/MX站点词，未获得无需登录的本窗口完整新文章；仅有摘要或未检索到，不视为完整检查。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该公众号及CA/MX站点词，未获得无需登录的本窗口完整新文章；仅有摘要或未检索到，不视为完整检查。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该公众号及CA/MX站点词，未获得无需登录的本窗口完整新文章；仅有摘要或未检索到，不视为完整检查。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该公众号及CA/MX站点词，未获得无需登录的本窗口完整新文章；仅有摘要或未检索到，不视为完整检查。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "note": "逐一公开搜索该公众号及CA/MX站点词，未获得无需登录的本窗口完整新文章；仅有摘要或未检索到，不视为完整检查。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "note": "公开搜索美国站fuel line、CPE braided fuel hose、AN fittings和exhaust clamp；缺少指定ASIN与可比快照，未形成价格/Coupon/BSR变化结论。",
+      "evidence": []
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "note": "已逐一执行15个include_source_ids的加拿大站公开搜索并分别记录public_search_only；公众号无法完整公开读取，故不推进成功游标。",
+      "included_source_checks": {
+        "crossborder_headlines": "public_search_only",
+        "crossborder_briefs": "public_search_only",
+        "wearesellers": "public_search_only",
+        "tt123": "public_search_only",
+        "brand_ark": "public_search_only",
+        "seller_home": "public_search_only",
+        "wechat_dabao": "public_search_only",
+        "wechat_huluwa": "public_search_only",
+        "wechat_santou": "public_search_only",
+        "wechat_crossborder_headlines": "public_search_only",
+        "wechat_crossborder_briefs": "public_search_only",
+        "wechat_wearesellers": "public_search_only",
+        "wechat_tt123": "public_search_only",
+        "wechat_brand_ark": "public_search_only",
+        "wechat_seller_home": "public_search_only"
+      },
+      "evidence": []
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "note": "已逐一执行15个include_source_ids的墨西哥站公开搜索并分别记录public_search_only；公众号无法完整公开读取，故不推进成功游标。",
+      "included_source_checks": {
+        "crossborder_headlines": "public_search_only",
+        "crossborder_briefs": "public_search_only",
+        "wearesellers": "public_search_only",
+        "tt123": "public_search_only",
+        "brand_ark": "public_search_only",
+        "seller_home": "public_search_only",
+        "wechat_dabao": "public_search_only",
+        "wechat_huluwa": "public_search_only",
+        "wechat_santou": "public_search_only",
+        "wechat_crossborder_headlines": "public_search_only",
+        "wechat_crossborder_briefs": "public_search_only",
+        "wechat_wearesellers": "public_search_only",
+        "wechat_tt123": "public_search_only",
+        "wechat_brand_ark": "public_search_only",
+        "wechat_seller_home": "public_search_only"
+      },
+      "evidence": []
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "note": "公开搜索Amazon.ca四组汽车用品词；结果不足以形成ASIN、变体、CAD、地域和税费运费口径一致的可比快照，未声称变化。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "note": "公开搜索Amazon.com.mx西语四组汽车用品词；结果不足以形成ASIN、变体、MXN、地域和税费运费口径一致的可比快照，未声称变化。",
+      "evidence": []
+    }
+  ]
+}
