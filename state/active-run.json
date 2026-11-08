@@ -1,12 +1,12 @@
 {
-  "run_id": "run-20261107010238-421d96ac",
-  "status": "released",
-  "acquired_at": "2026-11-07T01:02:38.000Z",
-  "expires_at": "2026-11-07T02:32:38.000Z",
-  "previous_radar_state_head": "96d90b0f9ea2035be403abd04592fe650e83a8c4",
+  "run_id": "run-20261108010313-1d3f8860",
+  "status": "active",
+  "acquired_at": "2026-11-08T01:03:13.000Z",
+  "expires_at": "2026-11-08T02:33:13.000Z",
+  "previous_radar_state_head": "c18179a479d9ec6c725532642385380140701a04",
   "takeover_reason": null,
-  "released_at": "2026-11-07T01:13:13.000Z",
-  "release_reason": "发布验收完成并已持久化finalize状态",
-  "final_status": "partial",
-  "production_commit": "a511543c00f0838394bb9e598e5268591407a66d"
+  "released_at": null,
+  "release_reason": null,
+  "final_status": null,
+  "production_commit": null
 }
