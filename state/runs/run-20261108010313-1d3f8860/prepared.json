@@ -1,0 +1,18 @@
+{
+  "run_id": "run-20261108010313-1d3f8860",
+  "status": "prepared",
+  "prepared_at": "2026-11-08T01:06:13.000Z",
+  "base_main_commit": "a511543c00f0838394bb9e598e5268591407a66d",
+  "base_content_digest": "b9c678f094b6b33daa491456827bc7cad12be79af14f4688644aafdffd28baab",
+  "expected_content_digest": "4528d0f1bea8848f53b33a94f32447698c9440a44b915e3e0730b20b668cb989",
+  "expected_counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "expected_event_keys": [
+    "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10"
+  ],
+  "note": "候选批次已按main全库四重比对并在临时目录stage；22项测试通过，DAILY BRIEFING保持移除。"
+}

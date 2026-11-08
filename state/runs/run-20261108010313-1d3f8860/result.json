@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10",
+      "action": "new",
+      "review": "已逐条检索全库的Section 301、178项、关税排除、11月9日和1月9日语义；现有记录仅涉及邮政Entry Type 13与Section 301申报，不包含USTR延长178项排除。本批只有这一候选，官方链接、动作和生效窗口均为独立新增事件。"
+    }
+  ]
+}

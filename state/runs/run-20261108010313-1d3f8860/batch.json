@@ -1,0 +1,80 @@
+{
+  "base_digest": "b9c678f094b6b33daa491456827bc7cad12be79af14f4688644aafdffd28baab",
+  "checked_at": "2026-11-08T01:06:13.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "us-section-301-china-product-exclusions",
+        "action_key": "extend-178-exclusions-through-january-9-2027",
+        "marketplaces": ["US"],
+        "effective_date": "2026-11-10",
+        "deadline": "2027-01-09T23:59:00-05:00",
+        "title": "美国USTR将178项对华Section 301关税排除延长至2027年1月9日",
+        "summary": "美国贸易代表办公室（USTR）于2026年11月6日发布正式通知，将现行178项中国商品Section 301附加关税排除全部再延长两个月。延长期适用于2026年11月10日00:01（美国东部时间）起报关进口或从仓库提取消费、且在2027年1月9日23:59（美国东部时间）前完成的货物；涉及HTSUS 9903.88.69和9903.88.70及对应注释。",
+        "impact": "命中排除描述的中国进口商品在延长期内可继续免于相应Section 301附加税，直接影响Amazon.com卖家的到岸成本、补货报价和清关申报。排除资格由十位HTSUS统计号与产品描述共同决定，不能把“178项延长”理解为所有中国商品普遍免税。",
+        "action": "立即让报关行按在途及计划补货SKU逐项比对HTSUS 9903.88.69、9903.88.70及U.S. notes 20(vvv)/(www)，保留产品规格和归类依据；把11月10日至1月9日的排除窗口纳入美国站到岸成本与采购排期，并在1月9日前再次确认USTR/CBP是否续期或调整。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-06",
+        "original_date_note": "USTR官方索引标注2026-11-06；正式通知明确全部178项排除延长至美国东部时间2027-01-09 23:59，并列明适用进口时间与HTSUS标题。",
+        "first_seen_at": "2026-11-08T01:06:13.000Z",
+        "last_material_update_at": "2026-11-08T01:06:13.000Z",
+        "history_dates": ["2026-11-08"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://ustr.gov/sites/default/files/files/Issue_Areas/Enforcement/Section%20301/USTR%20FRN%20Extending%20Section%20301%20China%20FTT%20Exclusions%20to%20Jan%202027.pdf",
+            "publisher": "Office of the United States Trade Representative",
+            "kind": "regulator",
+            "published_at": "2026-11-06",
+            "verified_at": "2026-11-08T01:06:13.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取USTR正式通知正文，核对178项、延长截止时间、适用进口时段及HTSUS 9903.88.69/9903.88.70。"
+          },
+          {
+            "url": "https://ustr.gov/trade-topics/enforcement/section-301-investigations/section-301-china-technology-transfer/china-section-301-tariff-actions-and-exclusion-process/reinstatement-certain-exclusions-previously-extended",
+            "publisher": "Office of the United States Trade Representative",
+            "kind": "regulator",
+            "published_at": "2026-11-06",
+            "verified_at": "2026-11-08T01:06:13.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "USTR官方Section 301索引列出2026-11-06的两个月排除延长通知并直接链接正式文件。"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "b9c678f094b6b33daa491456827bc7cad12be79af14f4688644aafdffd28baab",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条检索全库的Section 301、178项、关税排除、11月9日和1月9日语义；现有记录仅涉及邮政Entry Type 13与Section 301申报，不包含USTR延长178项排除。本批只有这一候选，官方链接、动作和生效窗口均为独立新增事件。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": ["us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10"],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "US/CA/MX官方卖家公告、Amazon Ads、全球开店、CPSC、Health Canada、USTR及墨西哥公开监管入口已做公开检索；行业站点和15个行业/公众号标识逐项检索，但多数组合仅有搜索摘要或旧内容，故均不记为完整读取。汽车用品四组关键词按US/CA/MX公开检索，缺少指定ASIN和可比快照，不把首次样本或第三方估算作为价格、销量、BSR变化。除USTR正式延长关税排除外，其余新命中均为既有事件、转载或不足以官方确认的卖家线索。",
+    "action_items": [
+      {
+        "title": "核对178项Section 301排除是否命中在途SKU",
+        "detail": "让报关行按十位HTSUS号与产品描述逐项核对，更新11月10日至1月9日美国站进口成本与补货排期。",
+        "due": "2026-11-10前",
+        "event_key": "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10"
+      }
+    ]
+  }
+}
