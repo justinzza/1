@@ -1,9 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-ca-cross-border-returns|add-automatic-returnless-rules-and-default-address-policy|CA|2026-11-23",
-    "amazon-ca-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|CA|2027-01-15",
-    "health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06"
+    "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,38 +10,24 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "US/CA/MX第一层官方及监管来源完成公开检索与3项原文核验；第二层行业媒体和公众号仅完成公开搜索。industry_wechat_ca/mx已逐一检索全部include_source_ids，但多数仅有搜索摘要或未发现公开新文，不能视为完整读取。汽车用品关键词/竞品仅完成三站公开搜索，未指定ASIN且缺少可比快照，不能判断价格、Coupon、BSR或关键词趋势。历史8月29日至30日全源补查仍未完成。",
+  "coverage_note": "US/CA/MX官方卖家公告、Amazon Ads、全球开店、CPSC、Health Canada、USTR及墨西哥公开监管入口已做公开检索；行业站点和15个行业/公众号标识逐项检索，但多数组合仅有搜索摘要或旧内容，故均不记为完整读取。汽车用品四组关键词按US/CA/MX公开检索，缺少指定ASIN和可比快照，不把首次样本或第三方估算作为价格、销量、BSR变化。除USTR正式延长关税排除外，其余新命中均为既有事件、转载或不足以官方确认的卖家线索。",
   "action_items": [
     {
-      "title": "配置加拿大站退货规则",
-      "detail": "核对加拿大默认退货地址，按毛利和回运成本配置returnless规则，并建立CAD 25以上订单48小时标签流程。",
-      "due": "11月23日前",
-      "event_key": "amazon-ca-cross-border-returns|add-automatic-returnless-rules-and-default-address-policy|CA|2026-11-23"
-    },
-    {
-      "title": "重算加拿大站2027费用",
-      "detail": "按ASIN导出Fee Change Comparison，分别模拟1月15日履约费与2月1日仓储和低库存费。",
-      "due": "本周内",
-      "event_key": "amazon-ca-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|CA|2027-01-15"
-    },
-    {
-      "title": "处置Klean Strip召回品",
-      "detail": "筛查B002MBX2QE和B001EMB2A0，命中即停售隔离，按危险废物处置且不得要求买家退回。",
-      "due": "立即",
-      "event_key": "health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06"
+      "title": "核对178项Section 301排除是否命中在途SKU",
+      "detail": "让报关行按十位HTSUS号与产品描述逐项核对，更新11月10日至1月9日美国站进口成本与补货排期。",
+      "due": "2026-11-10前",
+      "event_key": "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-07",
-  "content_updated_at": "2026-11-07T01:06:02.000Z",
+  "report_date": "2026-11-08",
+  "content_updated_at": "2026-11-08T01:06:13.000Z",
   "new_event_keys": [
-    "amazon-ca-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|CA|2027-01-15",
-    "amazon-ca-cross-border-returns|add-automatic-returnless-rules-and-default-address-policy|CA|2026-11-23",
-    "health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06"
+    "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 3,
+    "new": 1,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0
