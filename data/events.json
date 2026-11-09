@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-08T01:06:13.000Z",
+  "content_updated_at": "2026-11-09T01:08:56.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -6934,6 +6934,58 @@
       "event_key": "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10",
       "id": "evt-c9905e481bce7120",
       "primary_source_url": "https://ustr.gov/sites/default/files/files/Issue_Areas/Enforcement/Section%20301/USTR%20FRN%20Extending%20Section%20301%20China%20FTT%20Exclusions%20to%20Jan%202027.pdf"
+    },
+    {
+      "subject_key": "amazon-us-virtual-multipack-and-case-pack-pilots",
+      "action_key": "launch-november-2026-auto-created-pack-listings",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-11-11",
+      "deadline": null,
+      "title": "Amazon美国站11月11日上线新一轮Virtual Multipacks及Distribution Center Case Packs",
+      "summary": "Amazon美国站官方帮助页显示，平台会为部分需求较强的FBA品牌自有单件ASIN自动创建Virtual Multipack（VMP_）及Distribution Center Case Pack（VMP_DC_）Listing；本轮Listing已于10月28日前创建，并将于2026年11月11日向买家开放。两类Listing均会成为原单件ASIN的变体并消耗同一单件库存；Virtual Multipack默认按单件售价乘以件数定价，Distribution Center Case Pack默认按B2C单件价乘以件数定价，可能高于已设置Business Price的单件每件价格。",
+      "impact": "被试点选中的美国站FBA品牌卖家即使未主动创建，也可能在目录中出现新的pack ASIN、变体关系、图片和价格。若默认定价、Business Price差异或pack图片未复核，11月11日上线后可能造成企业购单位价倒挂、详情页变体异常、库存消耗加快或广告/促销口径偏差；该试点仅按美国站官方页面处理，不能外推CA或MX。",
+      "action": "今天在美国站Manage All Inventory分别筛选VMP_与VMP_DC_，逐项核对pack件数、默认价、Business Price单位价、主图、标题、变体归属和共享库存覆盖天数；需要保留的Listing只通过Edit Virtual Multipack页面修改，禁止用模板、API或其他Seller Central页面编辑。不要的Listing在买家可见前审慎删除，因为试点中删除后不能恢复；11月11日上线后复查详情页、库存扣减和广告/促销状态。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": null,
+      "original_date_note": "Amazon官方帮助页未显示日级发布日期；页面明确本轮Listing于2026-10-28前创建、2026-11-11向买家开放。本次发现日不作为原始发布日期，且官方说明可随时编辑或删除，因此deadline不虚构为11月10日。",
+      "first_seen_at": "2026-11-09T01:08:56.000Z",
+      "last_material_update_at": "2026-11-09T01:08:56.000Z",
+      "history_dates": [
+        "2026-11-09"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/help/hub/reference/external/GK2U2WZY6GSSTJZY",
+          "publisher": "Amazon Seller Central",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-09T01:08:56.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取美国站Virtual multipacks官方帮助页，核对自动创建范围、VMP_前缀、11月11日上线、默认定价、共享库存、编辑限制及删除不可恢复。",
+          "canonical_url": "https://sellercentral.amazon.com/help/hub/reference/external/GK2U2WZY6GSSTJZY"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/help/hub/reference/external/G9W6X7GYD48ZCC4N",
+          "publisher": "Amazon Seller Central",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-09T01:08:56.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取美国站Distribution center case packs官方帮助页，核对VMP_DC_前缀、11月11日上线、B2C默认价与Business Price差异、共享库存及编辑限制。",
+          "canonical_url": "https://sellercentral.amazon.com/help/hub/reference/external/G9W6X7GYD48ZCC4N"
+        }
+      ],
+      "event_key": "amazon-us-virtual-multipack-and-case-pack-pilots|launch-november-2026-auto-created-pack-listings|US|2026-11-11",
+      "id": "evt-ca72fe9ff2b01003",
+      "primary_source_url": "https://sellercentral.amazon.com/help/hub/reference/external/G9W6X7GYD48ZCC4N"
     }
   ]
 }

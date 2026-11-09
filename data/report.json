@@ -1,7 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10"
+    "amazon-us-virtual-multipack-and-case-pack-pilots|launch-november-2026-auto-created-pack-listings|US|2026-11-11"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -10,20 +10,26 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "US/CA/MX官方卖家公告、Amazon Ads、全球开店、CPSC、Health Canada、USTR及墨西哥公开监管入口已做公开检索；行业站点和15个行业/公众号标识逐项检索，但多数组合仅有搜索摘要或旧内容，故均不记为完整读取。汽车用品四组关键词按US/CA/MX公开检索，缺少指定ASIN和可比快照，不把首次样本或第三方估算作为价格、销量、BSR变化。除USTR正式延长关税排除外，其余新命中均为既有事件、转载或不足以官方确认的卖家线索。",
+  "coverage_note": "US/CA/MX均完成公开可检索范围核验；Seller Central登录后公告、全部公众号正文和各站点前台稳定价格/BSR快照不可完整访问，因此不声称全源完整检查。新增仅适用US；CA/MX近端官方与监管命中均已在库或无可靠增量。公众号逐一检索仅获得公开摘要/作者页；四组汽车用品关键词三站均缺指定ASIN、变体、地域及可比基线，未声明价格、Coupon、BSR或销量变化。",
   "action_items": [
     {
-      "title": "核对178项Section 301排除是否命中在途SKU",
-      "detail": "让报关行按十位HTSUS号与产品描述逐项核对，更新11月10日至1月9日美国站进口成本与补货排期。",
-      "due": "2026-11-10前",
-      "event_key": "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10"
+      "title": "复核自动创建的pack Listing",
+      "detail": "在美国站Manage All Inventory筛选VMP_和VMP_DC_，核对件数、价格、图片、变体、Business Price和共享库存；修改仅使用Edit Virtual Multipack页面。",
+      "due": "2026-11-10",
+      "event_key": "amazon-us-virtual-multipack-and-case-pack-pilots|launch-november-2026-auto-created-pack-listings|US|2026-11-11"
+    },
+    {
+      "title": "上线后复查详情页与库存",
+      "detail": "11月11日确认pack详情页、单位价、变体关系、库存扣减及广告/促销状态，发现异常先留截图再开Seller Support case。",
+      "due": "2026-11-11",
+      "event_key": "amazon-us-virtual-multipack-and-case-pack-pilots|launch-november-2026-auto-created-pack-listings|US|2026-11-11"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-08",
-  "content_updated_at": "2026-11-08T01:06:13.000Z",
+  "report_date": "2026-11-09",
+  "content_updated_at": "2026-11-09T01:08:56.000Z",
   "new_event_keys": [
-    "us-section-301-china-product-exclusions|extend-178-exclusions-through-january-9-2027|US|2026-11-10"
+    "amazon-us-virtual-multipack-and-case-pack-pilots|launch-november-2026-auto-created-pack-listings|US|2026-11-11"
   ],
   "updated_event_keys": [],
   "counts": {
