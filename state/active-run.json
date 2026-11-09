@@ -1,12 +1,12 @@
 {
-  "run_id": "run-20261108010313-1d3f8860",
-  "status": "released",
-  "acquired_at": "2026-11-08T01:03:13.000Z",
-  "expires_at": "2026-11-08T02:33:13.000Z",
-  "previous_radar_state_head": "c18179a479d9ec6c725532642385380140701a04",
+  "run_id": "run-20261109010238-7a4c9e21",
+  "status": "active",
+  "acquired_at": "2026-11-09T01:02:38.000Z",
+  "expires_at": "2026-11-09T02:32:38.000Z",
+  "previous_radar_state_head": "05aa93320688cfd8d782bee7760adcf4a70e6b14",
   "takeover_reason": null,
-  "released_at": "2026-11-08T01:12:41.000Z",
-  "release_reason": "本次新增1条USTR Section 301关税排除延期事件；main提交已通过Vercel状态及正式页面digest验收，运行状态已finalize。",
-  "final_status": "partial",
-  "production_commit": "648599ee2f380927e8f61758160003d8e6f246fb"
+  "released_at": null,
+  "release_reason": null,
+  "final_status": null,
+  "production_commit": null
 }
