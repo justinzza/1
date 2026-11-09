@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-virtual-multipack-and-case-pack-pilots|launch-november-2026-auto-created-pack-listings|US|2026-11-11"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-virtual-multipack-and-case-pack-pilots|launch-november-2026-auto-created-pack-listings|US|2026-11-11",
+      "action": "new",
+      "review": "已逐条比对全库121个event_key、标题语义、规范化来源链接和生效日期，并检索Virtual Multipack、VMP_、VMP_DC_、case pack及11月11日；现有Product Bundling Policy卡片讨论实体bundle且明确Virtual Bundles为例外，主体动作、生效日和来源均不同，本候选是平台自动创建同ASIN多件装/箱装Listing的独立试点。"
+    }
+  ]
+}

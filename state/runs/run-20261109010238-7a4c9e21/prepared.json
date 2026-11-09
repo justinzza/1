@@ -1,0 +1,18 @@
+{
+  "run_id": "run-20261109010238-7a4c9e21",
+  "status": "prepared",
+  "prepared_at": "2026-11-09T01:08:56.000Z",
+  "base_main_commit": "648599ee2f380927e8f61758160003d8e6f246fb",
+  "base_content_digest": "4528d0f1bea8848f53b33a94f32447698c9440a44b915e3e0730b20b668cb989",
+  "expected_content_digest": "a0f9c5f54c21b080ddde070e64f4dedac036f0adbf2af637d61c085fd07b11ae",
+  "expected_counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "expected_event_keys": [
+    "amazon-us-virtual-multipack-and-case-pack-pilots|launch-november-2026-auto-created-pack-listings|US|2026-11-11"
+  ],
+  "note": "候选批次已按main全库四重比对并在临时目录stage；22项测试通过，数据/页面digest一致，DAILY BRIEFING保持移除。"
+}
