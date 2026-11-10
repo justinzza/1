@@ -1,0 +1,19 @@
+{
+  "run_id": "run-20261110005744-c3a1de8b",
+  "status": "prepared",
+  "prepared_at": "2026-11-10T01:10:00.000Z",
+  "base_main_commit": "be45ce1737643e925bbf5de98fcbc19a50c09f92",
+  "base_content_digest": "a0f9c5f54c21b080ddde070e64f4dedac036f0adbf2af637d61c085fd07b11ae",
+  "base_state_digest": "418138d0807c43339b5afa56526ca017840f0b7e8e4e7308bb85691ec452378d",
+  "expected_content_digest": "d75855faab04440e8ac08dc6f2eb3d367fe309d400d0a5bf3b89a850eba626d8",
+  "expected_counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "expected_event_keys": [
+    "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07"
+  ],
+  "note": "候选批次已与main全库完成event_key、标题语义、规范化来源链接和生效日期四重比对；22项测试通过，数据与页面一致，DAILY BRIEFING/分类摘要保持移除。容量节点证据按行业线索发布，未冒充Amazon完整官方确认。"
+}

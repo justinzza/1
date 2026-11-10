@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07",
+      "action": "new",
+      "review": "逐条复核现有事件库：2027美国费用卡片记录FBA、仓储费与AWD费用方向，但没有11月9日两类容量分配、12月4日提额截止和2027年1月7日按容量拦截货件这一独立运营机制；现有AWD欧洲扩展、旺季使用建议及尺寸资格事件的主体动作和适用日期也不同。来源链接和生效日均未与现有卡片重复。"
+    }
+  ]
+}
