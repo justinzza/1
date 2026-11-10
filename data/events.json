@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-09T01:08:56.000Z",
+  "content_updated_at": "2026-11-10T01:10:00.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -6986,6 +6986,80 @@
       "event_key": "amazon-us-virtual-multipack-and-case-pack-pilots|launch-november-2026-auto-created-pack-listings|US|2026-11-11",
       "id": "evt-ca72fe9ff2b01003",
       "primary_source_url": "https://sellercentral.amazon.com/help/hub/reference/external/G9W6X7GYD48ZCC4N"
+    },
+    {
+      "subject_key": "amazon-us-awd-capacity-management",
+      "action_key": "split-base-capacity-and-enforce-shipment-limits-2027",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2027-01-07",
+      "deadline": "2026-12-04",
+      "title": "美国站AWD容量拆分为标准件与可托盘件：2027年1月7日起按限额拦截货件（行业线索）",
+      "summary": "行业原文根据Amazon Seller Central帮助页整理称，Amazon Warehousing and Distribution（AWD）自2026年11月9日起把base capacity分成standard facilities与palletizable facilities两类、分别以立方英尺核算；2027年1月7日起，现有库存与open shipments加上拟建货件超过base allocation与storage reservation之和时，将无法创建新货件。卖家可在2026年11月9日至12月4日通过指定邮箱申请调整base capacity。Amazon官方费用页可确认2027年将引入storage reservations，并自2月1日起调整AWD处理和运输费；卖家论坛已有账号反馈Capacity Manager出现两类容量，但公开可访问的Amazon原文尚未完整呈现全部容量节点，因此本卡片保留为行业线索。",
+      "impact": "使用AWD承接美国站汽车用品缓冲库存的卖家，需要把标准件与可托盘件分别核算，不能用一类空余容量抵消另一类超额。若1月补货计划超过后台分配量，可能在建货件阶段被拦截；付费预留空间还会增加固定仓储承诺成本。该变化没有CA或MX适用证据，不能跨站套用。",
+      "action": "立即进入Seller Central的AWD Capacity Manager，分别记录standard与palletizable allocation、已用库存、open shipments和2027年1—6月计划量；存在缺口时在12月4日前按后台或邮件通知申请提额。燃油管、CPE编织油管、AN接头和排气卡箍按包装尺寸、箱规与托盘方式逐SKU测算，未在账户看到相同规则时先向Seller Support书面确认，不仅凭行业报道预订付费空间。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-11-07",
+      "original_date_note": "行业原创于2026-11-07发布并说明核对了Seller Central帮助页；容量分配显示日期为2026-11-09，申请截止为2026-12-04，强制拦截货件日期为2027-01-07。Amazon公开费用页仅直接确认storage reservations与2027费用机制，完整容量节点仍标为行业线索。",
+      "first_seen_at": "2026-11-10T01:10:00.000Z",
+      "last_material_update_at": "2026-11-10T01:10:00.000Z",
+      "history_dates": [
+        "2026-11-10"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://ecomsellertool.com/blog/amazon-awd-capacity-allocation",
+          "publisher": "Ecom Seller Tool",
+          "kind": "industry_original",
+          "published_at": "2026-11-07",
+          "verified_at": "2026-11-10T01:10:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "verification_note": "逐项列出11月9日分配、12月4日提额截止、2027年1月7日拦截及储位预留计费，并明确其基于11月7日读取的Seller Central帮助页；非Amazon官方发布。",
+          "canonical_url": "https://ecomsellertool.com/blog/amazon-awd-capacity-allocation"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/gp/help/external/201411300/ref=suus_feechange_fba",
+          "publisher": "Amazon Seller Central",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-10T01:10:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "官方费用页确认2027年引入AWD storage reservations，并列明2027年2月1日处理费、运输费及单SKU托盘折扣；未在公开正文中完整列出容量拆分和1月7日拦截节点。",
+          "canonical_url": "https://sellercentral.amazon.com/gp/help/external/201411300/ref=suus_feechange_fba"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/357f2d8d-f03b-4b1a-b73c-e531648b840a",
+          "publisher": "Amazon Seller Forums seller post",
+          "kind": "seller_forum",
+          "published_at": null,
+          "verified_at": "2026-11-10T01:10:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "verification_note": "卖家公开反馈Capacity Manager已显示palletizable与standard facilities两类用量；帖子不是Amazon官方公告，只作界面变化旁证。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/357f2d8d-f03b-4b1a-b73c-e531648b840a"
+        },
+        {
+          "url": "https://hot.ouzhou123.com/items/q8hv7z6696e6yp5rd49aiednt",
+          "publisher": "跨境头条/CrossNow",
+          "kind": "aggregator",
+          "published_at": "2026-11-09",
+          "verified_at": "2026-11-10T01:10:00.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "verification_note": "聚合卖家之家等报道，作为二次线索，不替代官方或行业原始核验。",
+          "canonical_url": "https://hot.ouzhou123.com/items/q8hv7z6696e6yp5rd49aiednt"
+        }
+      ],
+      "event_key": "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07",
+      "primary_source_url": "https://sellercentral.amazon.com/gp/help/external/201411300/ref=suus_feechange_fba",
+      "id": "evt-f88e0b9b76746c4a"
     }
   ]
 }
