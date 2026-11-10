@@ -1,7 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07"
+    "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07",
+    "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -10,32 +11,33 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "US优先核查Seller Central公开公告、Amazon Ads、全球开店、CPSC/FTC/USTR/CBP及行业媒体；CA核查Seller Central、Health Canada和15个行业/公众号子来源；MX核查Seller Central、SAT/ANAM/PROFECO和同一组15个行业/公众号子来源。公众号仅限公开页面或搜索摘要，未绕过登录或访问限制。汽车用品三站均缺指定ASIN、变体、地域和可比价格/BSR快照，因此不声明变化。",
+  "coverage_note": "已对US、CA、MX的Amazon官方公告、Amazon Ads、全球开店、监管机构、既定行业媒体及公开可检索公众号逐项检索；部分仅获得公开搜索摘要或页面列表，不能声称完整读取。汽车用品关键词/竞品缺少指定ASIN、变体、邮编/地域与可比快照，本次未判定价格、Coupon或BSR变化。2026年8月29—30日历史补查仍未完整完成。",
   "action_items": [
     {
-      "title": "核对AWD两类容量分配",
-      "detail": "在Capacity Manager分别记录standard与palletizable容量、已用量和open shipments，并与2027年1—6月计划逐类比较。",
-      "due": "2026-11-12",
+      "title": "复核AWD两类容量",
+      "detail": "分别记录standard与palletizable allocation；对12月4日和1月7日节点向Seller Support取得书面确认。",
+      "due": "本周",
       "event_key": "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07"
     },
     {
-      "title": "必要时提交AWD提额申请",
-      "detail": "若基础容量不足，按账户通知准备merchant token、两类现有及新增需求和六个月货件计划，并在12月4日前提交。",
-      "due": "2026-12-04",
-      "event_key": "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07"
+      "title": "拆分高流量日广告表现",
+      "detail": "对普通日与大型购物日分别复核CPC、ROAS和毛利，并检查bid/budget上限。",
+      "due": "本周",
+      "event_key": "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31"
     }
   ],
   "schema_version": 1,
   "report_date": "2026-11-10",
-  "content_updated_at": "2026-11-10T01:10:00.000Z",
-  "new_event_keys": [
-    "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07"
+  "content_updated_at": "2026-11-10T01:31:17.554Z",
+  "new_event_keys": [],
+  "updated_event_keys": [
+    "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07",
+    "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31"
   ],
-  "updated_event_keys": [],
   "counts": {
-    "new": 1,
-    "updated": 0,
-    "merged": 0,
+    "new": 0,
+    "updated": 2,
+    "merged": 2,
     "deduplicated": 0
   }
 }

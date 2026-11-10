@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-10T01:10:00.000Z",
+  "content_updated_at": "2026-11-10T01:31:17.554Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -794,21 +794,43 @@
       "priority": "P0",
       "original_published_at": "2026-08-31",
       "first_seen_at": "2026-09-01T01:07:41.000Z",
-      "last_material_update_at": "2026-09-01T01:07:41.000Z",
+      "last_material_update_at": "2026-11-10T01:31:17.554Z",
       "verification_status": "reviewed",
       "history_dates": [
-        "2026-09-01"
+        "2026-09-01",
+        "2026-11-10"
       ],
       "key_aliases": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "at": "2026-11-10T01:31:17.554Z",
+          "reason": "FTC公开未删节诉状并披露新的指控幅度与历史CPC数字；卡片同步加入明确的“诉讼主张、非裁判事实”限制与运营复盘动作。",
+          "previous": {
+            "title": "FTC及22州就 Sponsored Ads 拍卖定价起诉 Amazon；Amazon否认指控",
+            "summary": "FTC诉状称，Amazon在Sponsored Products、Sponsored Brands和Display Ads拍卖中使用未充分披露的soft reserve price，使部分广告点击价格高于广告主对second-price auction的预期。Amazon公开否认误导，确认拍卖使用hard/soft reserve，并称广告主不会支付高于其出价的金额、竞价仍综合相关性和最高出价。两方说法均已保留，指控不能当作已裁定事实。",
+            "impact": "运营判断：目前没有广告控制台或计费规则立即变更，但广告主应把bid视为单次点击可能实际支付的上限，不能假定最终CPC总会只比下一名高一点。高流量日和自动调价策略的CPC、ROAS与利润保护需要更严格。",
+            "action": "导出近90天search term、placement与advertised product报告，按关键词和高流量日复核实际CPC、ROAS及毛利；为自动竞价设置可承受的bid/budget上限，并持续跟踪FTC案件和Amazon Ads Help措辞。当前不要预设可获得退款。",
+            "category": "ads",
+            "priority": "P0",
+            "marketplaces": [
+              "US"
+            ],
+            "effective_date": "2026-08-31",
+            "deadline": null,
+            "original_published_at": "2026-08-31",
+            "original_date_note": "FTC与22州于2026-08-31提起诉讼，Amazon同日发布回应。2026-08-31是诉讼事件日期，不是新的广告规则生效日；目前是监管机构指控与公司抗辩，尚无法院裁判，也没有已确认的广告主退款安排。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "subject_key": "ftc-amazon-sponsored-ads",
       "action_key": "file-auction-pricing-lawsuit-2026",
       "category": "ads",
-      "title": "FTC及22州就 Sponsored Ads 拍卖定价起诉 Amazon；Amazon否认指控",
-      "original_date_note": "FTC与22州于2026-08-31提起诉讼，Amazon同日发布回应。2026-08-31是诉讼事件日期，不是新的广告规则生效日；目前是监管机构指控与公司抗辩，尚无法院裁判，也没有已确认的广告主退款安排。",
-      "summary": "FTC诉状称，Amazon在Sponsored Products、Sponsored Brands和Display Ads拍卖中使用未充分披露的soft reserve price，使部分广告点击价格高于广告主对second-price auction的预期。Amazon公开否认误导，确认拍卖使用hard/soft reserve，并称广告主不会支付高于其出价的金额、竞价仍综合相关性和最高出价。两方说法均已保留，指控不能当作已裁定事实。",
-      "impact": "运营判断：目前没有广告控制台或计费规则立即变更，但广告主应把bid视为单次点击可能实际支付的上限，不能假定最终CPC总会只比下一名高一点。高流量日和自动调价策略的CPC、ROAS与利润保护需要更严格。",
-      "action": "导出近90天search term、placement与advertised product报告，按关键词和高流量日复核实际CPC、ROAS及毛利；为自动竞价设置可承受的bid/budget上限，并持续跟踪FTC案件和Amazon Ads Help措辞。当前不要预设可获得退款。",
+      "title": "FTC公开Amazon Ads拍卖诉讼未删节细节；Amazon此前否认指控",
+      "original_date_note": "FTC与22州于2026-08-31起诉，Amazon同日回应；FTC于2026-11-05公开未删节诉状细节。2026-08-31仍为诉讼事件日期，不是广告规则生效日；新增数字属于监管机构指控，尚无法院裁判。",
+      "summary": "FTC于2026年11月5日公开未删节诉状细节，指控Amazon在Sponsored Ads拍卖中通过内部所谓“Long-Auction”附加费用提高点击价格，并称普通日期附加幅度最高可达50%、大型购物日最高可达250%，2021年假日季平均CPC据称提高约20%。这些数字是监管机构诉讼主张，不是法院认定。Amazon在8月31日回应中否认误导，称广告主不会支付高于其出价的金额；双方立场均保留。",
+      "impact": "这是既有诉讼证据披露的实质更新，不代表Amazon Ads控制台、计费规则或广告主退款机制已经改变。高流量日的CPC、ROAS与毛利保护更值得单独复盘，但不得把FTC指控中的上限或历史均值当作所有账户的实际涨幅。",
+      "action": "按普通日与Prime Day、Black Friday等高流量日拆分近90天search term、placement和advertised product报告，核对实际CPC、ROAS及毛利，并设置可承受的bid/budget上限；持续跟踪诉讼进展和Amazon Ads Help措辞，当前不预设可获得退款。",
       "sources": [
         {
           "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme",
@@ -831,6 +853,17 @@
           "authority_confirmed": true,
           "verification_note": "已读取Amazon公开回应正文；其效果与统计数字按公司立场处理，未当作独立验证事实。",
           "canonical_url": "https://www.aboutamazon.com/company-news/amazon-ftc-sponsored-ads-lawsuit-response"
+        },
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/11/new-details-emerge-amazon-ads-auction-rigging-case",
+          "publisher": "U.S. Federal Trade Commission",
+          "kind": "regulator",
+          "published_at": "2026-11-05",
+          "verified_at": "2026-11-10T01:31:17.554Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取FTC新闻稿；其中50%、250%与2021年假日季平均CPC约20%的数字均按诉讼指控表述，不写成法院认定。",
+          "canonical_url": "https://www.ftc.gov/news-events/news/press-releases/2026/11/new-details-emerge-amazon-ads-auction-rigging-case"
         }
       ],
       "event_key": "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31",
@@ -6995,22 +7028,43 @@
       ],
       "effective_date": "2027-01-07",
       "deadline": "2026-12-04",
-      "title": "美国站AWD容量拆分为标准件与可托盘件：2027年1月7日起按限额拦截货件（行业线索）",
-      "summary": "行业原文根据Amazon Seller Central帮助页整理称，Amazon Warehousing and Distribution（AWD）自2026年11月9日起把base capacity分成standard facilities与palletizable facilities两类、分别以立方英尺核算；2027年1月7日起，现有库存与open shipments加上拟建货件超过base allocation与storage reservation之和时，将无法创建新货件。卖家可在2026年11月9日至12月4日通过指定邮箱申请调整base capacity。Amazon官方费用页可确认2027年将引入storage reservations，并自2月1日起调整AWD处理和运输费；卖家论坛已有账号反馈Capacity Manager出现两类容量，但公开可访问的Amazon原文尚未完整呈现全部容量节点，因此本卡片保留为行业线索。",
-      "impact": "使用AWD承接美国站汽车用品缓冲库存的卖家，需要把标准件与可托盘件分别核算，不能用一类空余容量抵消另一类超额。若1月补货计划超过后台分配量，可能在建货件阶段被拦截；付费预留空间还会增加固定仓储承诺成本。该变化没有CA或MX适用证据，不能跨站套用。",
-      "action": "立即进入Seller Central的AWD Capacity Manager，分别记录standard与palletizable allocation、已用库存、open shipments和2027年1—6月计划量；存在缺口时在12月4日前按后台或邮件通知申请提额。燃油管、CPE编织油管、AN接头和排气卡箍按包装尺寸、箱规与托盘方式逐SKU测算，未在账户看到相同规则时先向Seller Support书面确认，不仅凭行业报道预订付费空间。",
+      "title": "Amazon官方确认AWD容量分为标准件与可托盘件；2027年1月7日拦截节点仍待公开原文",
+      "summary": "Amazon Seller Central公开帮助页已直接确认Amazon Warehousing and Distribution（AWD）Capacity Manager把base allocation分为palletizable facilities与standard facilities两类，并说明Storage Reservation可申请4至26周、应至少在期望开始日前3周提交。行业原文此前披露的2026年12月4日提额截止及2027年1月7日超额货件拦截节点，仍未在本次可公开读取的Amazon正文中完整出现，因此这些具体日期继续按行业线索处理。",
+      "impact": "官方帮助页确认两类容量池需分别管理，使用AWD承接美国站汽车用品缓冲库存的卖家不能默认用一类空余容量抵消另一类超额；Storage Reservation还带来4至26周的提前容量承诺。1月7日拦截日期尚未获得完整公开官方正文支持，不应仅凭行业报道安排关键补货。该变化没有CA或MX适用证据。",
+      "action": "立即进入Seller Central的AWD Capacity Manager，分别记录standard与palletizable allocation、库存、open shipments及2027年1—6月计划量；需要Storage Reservation时至少提前3周申请，并保留4至26周承诺期的成本测算。对12月4日截止和1月7日拦截节点，应在账户通知或Seller Support取得书面确认后再作为硬截止执行。",
       "category": "policy",
       "priority": "P1",
       "original_published_at": "2026-11-07",
-      "original_date_note": "行业原创于2026-11-07发布并说明核对了Seller Central帮助页；容量分配显示日期为2026-11-09，申请截止为2026-12-04，强制拦截货件日期为2027-01-07。Amazon公开费用页仅直接确认storage reservations与2027费用机制，完整容量节点仍标为行业线索。",
+      "original_date_note": "行业原创于2026-11-07发布容量节点；Amazon Seller Central公开帮助页于2026-11-10核验到两类base allocation及Storage Reservation的4至26周、至少提前3周申请机制。2026-12-04提额截止和2027-01-07拦截日期仍来自行业原文，未在本次可公开读取的Amazon正文中完整出现。",
       "first_seen_at": "2026-11-10T01:10:00.000Z",
-      "last_material_update_at": "2026-11-10T01:10:00.000Z",
+      "last_material_update_at": "2026-11-10T01:31:17.554Z",
       "history_dates": [
         "2026-11-10"
       ],
       "verification_status": "reviewed",
       "key_aliases": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "at": "2026-11-10T01:31:17.554Z",
+          "reason": "Amazon Seller Central官方帮助页直接确认两类base allocation及Storage Reservation申请周期，提升了原行业线索的证据等级，同时保留具体截止/拦截日期的证据限制。",
+          "previous": {
+            "title": "美国站AWD容量拆分为标准件与可托盘件：2027年1月7日起按限额拦截货件（行业线索）",
+            "summary": "行业原文根据Amazon Seller Central帮助页整理称，Amazon Warehousing and Distribution（AWD）自2026年11月9日起把base capacity分成standard facilities与palletizable facilities两类、分别以立方英尺核算；2027年1月7日起，现有库存与open shipments加上拟建货件超过base allocation与storage reservation之和时，将无法创建新货件。卖家可在2026年11月9日至12月4日通过指定邮箱申请调整base capacity。Amazon官方费用页可确认2027年将引入storage reservations，并自2月1日起调整AWD处理和运输费；卖家论坛已有账号反馈Capacity Manager出现两类容量，但公开可访问的Amazon原文尚未完整呈现全部容量节点，因此本卡片保留为行业线索。",
+            "impact": "使用AWD承接美国站汽车用品缓冲库存的卖家，需要把标准件与可托盘件分别核算，不能用一类空余容量抵消另一类超额。若1月补货计划超过后台分配量，可能在建货件阶段被拦截；付费预留空间还会增加固定仓储承诺成本。该变化没有CA或MX适用证据，不能跨站套用。",
+            "action": "立即进入Seller Central的AWD Capacity Manager，分别记录standard与palletizable allocation、已用库存、open shipments和2027年1—6月计划量；存在缺口时在12月4日前按后台或邮件通知申请提额。燃油管、CPE编织油管、AN接头和排气卡箍按包装尺寸、箱规与托盘方式逐SKU测算，未在账户看到相同规则时先向Seller Support书面确认，不仅凭行业报道预订付费空间。",
+            "category": "policy",
+            "priority": "P1",
+            "marketplaces": [
+              "US"
+            ],
+            "effective_date": "2027-01-07",
+            "deadline": "2026-12-04",
+            "original_published_at": "2026-11-07",
+            "original_date_note": "行业原创于2026-11-07发布并说明核对了Seller Central帮助页；容量分配显示日期为2026-11-09，申请截止为2026-12-04，强制拦截货件日期为2027-01-07。Amazon公开费用页仅直接确认storage reservations与2027费用机制，完整容量节点仍标为行业线索。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "sources": [
         {
           "url": "https://ecomsellertool.com/blog/amazon-awd-capacity-allocation",
@@ -7055,10 +7109,21 @@
           "authority_confirmed": false,
           "verification_note": "聚合卖家之家等报道，作为二次线索，不替代官方或行业原始核验。",
           "canonical_url": "https://hot.ouzhou123.com/items/q8hv7z6696e6yp5rd49aiednt"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/help/hub/reference/external/GAFNWEYTJUV2GBFC?locale=en_us",
+          "publisher": "Amazon Seller Central",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-10T01:31:17.554Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "公开帮助页直接说明Capacity Manager包含palletizable与standard两类base allocation，并说明Storage Reservation可申请4至26周且至少提前3周提交；页面未完整呈现行业报道中的12月4日与1月7日节点。",
+          "canonical_url": "https://sellercentral.amazon.com/help/hub/reference/external/GAFNWEYTJUV2GBFC?locale=en_us"
         }
       ],
       "event_key": "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07",
-      "primary_source_url": "https://ecomsellertool.com/blog/amazon-awd-capacity-allocation",
+      "primary_source_url": "https://sellercentral.amazon.com/help/hub/reference/external/GAFNWEYTJUV2GBFC?locale=en_us",
       "id": "evt-f88e0b9b76746c4a"
     }
   ]
