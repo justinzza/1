@@ -38,12 +38,12 @@
           {
             "url": "https://sellercentral.amazon.com/gp/help/external/201411300/ref=suus_feechange_fba",
             "publisher": "Amazon Seller Central",
-            "kind": "official",
+            "kind": "unverified",
             "published_at": null,
             "verified_at": "2026-11-10T01:10:00.000Z",
-            "supports_event": true,
-            "authority_confirmed": true,
-            "verification_note": "官方费用页确认2027年引入AWD storage reservations，并列明2027年2月1日处理费、运输费及单SKU托盘折扣；未在公开正文中完整列出容量拆分和1月7日拦截节点。",
+            "supports_event": false,
+            "authority_confirmed": false,
+            "verification_note": "Amazon官方费用页仅确认2027年引入AWD storage reservations及2月1日处理费、运输费和单SKU托盘折扣；未在公开正文中完整列出容量拆分和1月7日拦截节点，因此只作背景链接，不直接支持本卡片核心变化。",
             "canonical_url": "https://sellercentral.amazon.com/gp/help/external/201411300/ref=suus_feechange_fba"
           },
           {
