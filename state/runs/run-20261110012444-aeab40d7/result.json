@@ -1,0 +1,41 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 0,
+    "updated": 2,
+    "merged": 2,
+    "deduplicated": 0
+  },
+  "new_event_keys": [],
+  "updated_event_keys": [
+    "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07",
+    "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": true,
+        "effective_date": true
+      },
+      "review": "逐条复核现有事件库、标题语义、规范化链接与生效日期；这是原AWD容量事件获得Amazon官方帮助页直接佐证后的证据与运营动作更新，不另建卡片。"
+    },
+    {
+      "event_key": "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": true,
+        "effective_date": true
+      },
+      "review": "逐条复核现有事件库、标题语义、规范化链接与生效日期；FTC未删节诉状细节属于8月31日同一诉讼的新证据披露，更新原卡片而非新增事件。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "run_id": "run-20261110012444-aeab40d7",
+  "status": "prepared",
+  "prepared_at": "2026-11-10T01:31:17.554Z",
+  "base_main_commit": "53b43e8a36213abfc4bfce5b1550d25784b60573",
+  "base_content_digest": "fd896f266602e362413b53d36dcda989b19059bccc704a1aa33fd18f55f616d2",
+  "base_state_digest": "fda32f1992b97f422d94e128953ce31aa1af33e45ca6539e2968259a913ab41f",
+  "expected_content_digest": "b4c07190a9b4f58584c346e5f9d2467eed33bdf3805c0389f603a91aa3b25d0f",
+  "expected_registry_digest": "d1724c0b0cfa90c52dd27f9ce173f04f826c50a762f74ae52b513b2d03341a45",
+  "expected_counts": {
+    "new": 0,
+    "updated": 2,
+    "merged": 2,
+    "deduplicated": 0
+  },
+  "expected_event_keys": [
+    "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07",
+    "ftc-amazon-sponsored-ads|file-auction-pricing-lawsuit-2026|US|2026-08-31"
+  ],
+  "note": "两项候选均匹配现有稳定event_key并更新原卡片：AWD获得Amazon官方帮助页对两类容量与Storage Reservation机制的直接支持，但具体12月4日/1月7日节点仍保留行业证据限制；FTC未删节诉状披露按监管指控表述。staged数据、报告和页面通过22项测试与一致性检查，DAILY BRIEFING/分类摘要保持移除。"
+}
