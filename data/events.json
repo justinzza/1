@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-10T01:31:17.554Z",
+  "content_updated_at": "2026-11-11T01:09:31.371Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -6883,22 +6883,44 @@
       ],
       "effective_date": "2026-11-06",
       "deadline": null,
-      "title": "Health Canada召回Amazon.ca销售的Klean Strip变性酒精燃料：标签不合规",
-      "summary": "Health Canada于2026年11月6日召回Amazon.ca销售的Klean Strip Denatured Alcohol Fuel，涉及946 mL装ASIN B002MBX2QE和3.78 L装ASIN B001EMB2A0。官方认定其标签不符合Consumer Chemicals and Containers Regulations, 2001，缺少适当信息可能导致意外接触、严重疾病或伤害，甚至死亡。加拿大共售出382件；消费者应立即停用并按市政危险废物要求处置，不得退回卖家。",
-      "impact": "加拿大法律禁止重新分销、销售或赠送召回商品。命中两个ASIN或同供应链商品的卖家需立即停售、隔离库存并处理退款与客户沟通；危险化学品处置不能沿用普通退货流程。",
-      "action": "立即按B002MBX2QE、B001EMB2A0筛查Amazon.ca Listing、FBA/FBM库存、在途货和历史订单，命中即停售、停广告并隔离；按危险废物要求处置，不要求买家寄回。核对NelsonLife通过Buyer-Seller Messaging处理退款的范围，并审查同标签模板的相邻化学品ASIN。",
+      "title": "Health Canada扩展Klean Strip召回：新增Amazon.ca卖家Express Health Supply及1,247件商品",
+      "summary": "Health Canada于2026年11月10日发布第二份Klean Strip Denatured Alcohol Fuel召回通知：Joel’s Wholesale以Amazon.ca卖家名Express Health Supply销售的946 mL装ASIN B002MBX2QE因标签不符合Consumer Chemicals and Containers Regulations, 2001被召回，报告在加拿大售出1,247件。该通知与11月6日NelsonLife销售的946 mL B002MBX2QE及3.78 L B001EMB2A0召回属于同一产品与标签风险事项，因此更新原卡片并合并来源，不重复建档。两份通知均要求立即停用并按市政危险废物要求处置。",
+      "impact": "加拿大站风险范围已从原记录的NelsonLife供应链扩展到Express Health Supply；同一ASIN B002MBX2QE出现在两个卖家召回通知中。加拿大法律禁止重新分销、销售或赠送召回商品，涉及任一卖家、ASIN或同标签模板的库存都应立即隔离，不能按普通退货重新入库。",
+      "action": "立即按B002MBX2QE、B001EMB2A0以及卖家名NelsonLife、Express Health Supply筛查Amazon.ca Listing、FBA/FBM库存、在途货和历史订单；命中即停售、停广告、隔离库存并通知相关客户。按市政危险废物要求处置，不要求买家寄回；同时审查同供应商或同标签模板的相邻燃料/化学品ASIN。",
       "category": "policy",
       "priority": "P0",
       "original_published_at": "2026-11-06",
-      "original_date_note": "Health Canada原始发布日期、最后更新日和召回日均为2026-11-06；页面明确Amazon.ca、两个ASIN、销量、风险与处置方式。",
+      "original_date_note": "Health Canada首份通知于2026-11-06发布，涉及NelsonLife销售的两个ASIN及382件；第二份通知于2026-11-10发布，涉及Joel’s Wholesale（Amazon.ca卖家名Express Health Supply）销售的946 mL ASIN B002MBX2QE及1,247件。保留原事件身份与2026-11-06 event_key，新增日期作为修订记录。",
       "first_seen_at": "2026-11-07T01:06:02.000Z",
-      "last_material_update_at": "2026-11-07T01:06:02.000Z",
+      "last_material_update_at": "2026-11-11T01:09:31.371Z",
       "history_dates": [
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-11"
       ],
       "verification_status": "reviewed",
       "key_aliases": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "at": "2026-11-11T01:09:31.371Z",
+          "reason": "Health Canada新增第二份召回通知，确认Express Health Supply销售同一946 mL ASIN并报告1,247件销量，实质扩大原卡片的供应链与受影响范围。",
+          "previous": {
+            "title": "Health Canada召回Amazon.ca销售的Klean Strip变性酒精燃料：标签不合规",
+            "summary": "Health Canada于2026年11月6日召回Amazon.ca销售的Klean Strip Denatured Alcohol Fuel，涉及946 mL装ASIN B002MBX2QE和3.78 L装ASIN B001EMB2A0。官方认定其标签不符合Consumer Chemicals and Containers Regulations, 2001，缺少适当信息可能导致意外接触、严重疾病或伤害，甚至死亡。加拿大共售出382件；消费者应立即停用并按市政危险废物要求处置，不得退回卖家。",
+            "impact": "加拿大法律禁止重新分销、销售或赠送召回商品。命中两个ASIN或同供应链商品的卖家需立即停售、隔离库存并处理退款与客户沟通；危险化学品处置不能沿用普通退货流程。",
+            "action": "立即按B002MBX2QE、B001EMB2A0筛查Amazon.ca Listing、FBA/FBM库存、在途货和历史订单，命中即停售、停广告并隔离；按危险废物要求处置，不要求买家寄回。核对NelsonLife通过Buyer-Seller Messaging处理退款的范围，并审查同标签模板的相邻化学品ASIN。",
+            "category": "policy",
+            "priority": "P0",
+            "marketplaces": [
+              "CA"
+            ],
+            "effective_date": "2026-11-06",
+            "deadline": null,
+            "original_published_at": "2026-11-06",
+            "original_date_note": "Health Canada原始发布日期、最后更新日和召回日均为2026-11-06；页面明确Amazon.ca、两个ASIN、销量、风险与处置方式。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "sources": [
         {
           "url": "https://recalls-rappels.canada.ca/en/alert-recall/klean-strip-denatured-alcohol-fuel-recalled-due-improper-labelling",
@@ -6910,6 +6932,17 @@
           "authority_confirmed": true,
           "verification_note": "已读取监管原文，核对ASIN、容量、标签法规、风险、382件销量、销售期和危险废物处置要求。",
           "canonical_url": "https://recalls-rappels.canada.ca/en/alert-recall/klean-strip-denatured-alcohol-fuel-recalled-due-improper-labelling"
+        },
+        {
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/klean-strip-denatured-alcohol-fuel-sold-joel-s-wholesale-express-health-supply",
+          "publisher": "Health Canada",
+          "kind": "regulator",
+          "published_at": "2026-11-10",
+          "verified_at": "2026-11-11T01:09:31.371Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取监管原文，核对卖家名Express Health Supply、946 mL ASIN B002MBX2QE、1,247件销量、法规风险、危险废物处置要求及禁止重新分销。",
+          "canonical_url": "https://recalls-rappels.canada.ca/en/alert-recall/klean-strip-denatured-alcohol-fuel-sold-joel-s-wholesale-express-health-supply"
         }
       ],
       "event_key": "health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06",
