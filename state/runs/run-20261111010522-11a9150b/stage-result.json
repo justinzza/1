@@ -1,0 +1,28 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 0,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [],
+  "updated_event_keys": [
+    "health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06"
+  ],
+  "decisions": [
+    {
+      "event_key": "health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": true,
+        "effective_date": true
+      },
+      "review": "逐条复核event_key、标题语义、规范化来源链接和生效日期：新通知与11月6日原卡片为相同Klean Strip产品、相同标签违规动作及重叠ASIN，仅新增Amazon.ca卖家、销量和监管发布日期，因此更新原卡片并合并官方来源。"
+    }
+  ]
+}

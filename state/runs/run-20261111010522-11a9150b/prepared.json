@@ -1,0 +1,13 @@
+{
+  "run_id": "run-20261111010522-11a9150b",
+  "prepared_at": "2026-11-11T01:10:00.000Z",
+  "base_main_commit": "ad7d6b95f46d5692215b1ec53bcb0d1d3dbe6c1b",
+  "base_state_commit": "353429addb08287f0fa713653ffd6e306e87ea6b",
+  "base_content_digest": "d1724c0b0cfa90c52dd27f9ce173f04f826c50a762f74ae52b513b2d03341a45",
+  "base_checkpoint_digest": "f334f8267e9ab0204842f8a3d9b1002079e831af536ba79b82e2a85a680daad5",
+  "expected_content_digest": "43458b8b5265b46a0faba376672d02a3d530df41b12fe7e24a5141f3b8661270",
+  "expected_html_digest": "fa15614bdef8ff3f374618eed657d7a1e7e25c128d77e2a8e949f867e9436c34",
+  "counts": {"new": 0, "updated": 1, "merged": 1, "deduplicated": 0},
+  "updated_event_keys": ["health-canada-klean-strip-denatured-alcohol-fuel|recall-amazon-ca-improper-labelling|CA|2026-11-06"],
+  "validation": {"tests_passed": 22, "tests_failed": 0, "data_page_consistent": true, "daily_briefing_absent": true}
+}
