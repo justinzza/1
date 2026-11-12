@@ -1,0 +1,21 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-ads-interactive-video-ads|extend-touch-interactivity-to-prime-video-mobile-2026|CA+MX+US|2026-11-06"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-ads-interactive-video-ads|extend-touch-interactivity-to-prime-video-mobile-2026|CA+MX+US|2026-11-06",
+      "action": "new",
+      "review": "逐条复核全库event_key、标题语义、规范化来源链接和生效日期：现有库虽包含其他Amazon Ads视频、DVA+与IVA地理个性化能力，但没有“Prime Video移动端触控交互扩展”事件；主体、动作与2026-11-06生效日均独立。"
+    }
+  ]
+}

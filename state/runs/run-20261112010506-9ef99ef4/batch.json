@@ -1,0 +1,79 @@
+{
+  "base_digest": "f879af078cca169c546f8b33e173e4c5f7190bb64e23e73938c3943130d05435",
+  "checked_at": "2026-11-12T01:08:23.859Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-ads-interactive-video-ads",
+        "action_key": "extend-touch-interactivity-to-prime-video-mobile-2026",
+        "marketplaces": [
+          "CA",
+          "MX",
+          "US"
+        ],
+        "effective_date": "2026-11-06",
+        "title": "Interactive Video Ads扩展至Prime Video移动端，覆盖美加墨",
+        "summary": "Amazon Ads于2026年11月6日将Interactive Video Ads（IVA）从客厅设备扩展至Prime Video iOS与Android移动应用。观众可在视频继续以画中画播放时，点击加入购物车或访问品牌目的地；现有IVA广告活动会自动获得移动端1P库存资格，无需另做素材或重新设置Amazon Ads Agent。",
+        "impact": "美国、加拿大和墨西哥均在官方覆盖范围内。已有IVA活动的设备流量结构、互动率与转化路径可能发生变化，但这不是Sponsored Brands Video或Sponsored Products规则调整，也不保证移动端曝光、点击或销售增长。",
+        "action": "在Campaign reporting中按device type拆分移动端与客厅设备的impressions、interactions、加购和转化；逐站检查移动端落地页、品牌目的地和商品可售状态，并对画中画场景下的字幕、关键信息安全区和点击后路径进行真机复核。",
+        "category": "ads",
+        "priority": "P1",
+        "original_published_at": "2026-11-06",
+        "original_date_note": "Amazon Ads What's New官方原文发表于2026-11-06并使用“extend”描述已上线能力，故以该日作为生效日。US、CA、MX均由正文明确列入North America；不据此扩展到Sponsored Brands Video等其他广告产品。",
+        "first_seen_at": "2026-11-12T01:08:23.859Z",
+        "last_material_update_at": "2026-11-12T01:08:23.859Z",
+        "history_dates": [
+          "2026-11-12"
+        ],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/resources/whats-new/interactive-video-ads-on-prime-video-mobile",
+            "publisher": "Amazon Ads What's New",
+            "kind": "official",
+            "published_at": "2026-11-06",
+            "verified_at": "2026-11-12T01:08:23.859Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取Amazon Ads官方公开原文，核对上线内容、适用站点、资格及无需操作说明。"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": [],
+        "event_key": "amazon-ads-interactive-video-ads|extend-touch-interactivity-to-prime-video-mobile-2026|CA+MX+US|2026-11-06"
+      },
+      "dedupe_review": {
+        "compared_digest": "f879af078cca169c546f8b33e173e4c5f7190bb64e23e73938c3943130d05435",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条复核全库event_key、标题语义、规范化来源链接和生效日期：现有库虽包含其他Amazon Ads视频、DVA+与IVA地理个性化能力，但没有“Prime Video移动端触控交互扩展”事件；主体、动作与2026-11-06生效日均独立。",
+        "distinct_event_reason": "本事件改变IVA可投放设备和互动路径；与7月地点个性化IVA、Sponsored Brands Video及9月DVA+发布不是同一变化。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-ads-interactive-video-ads|extend-touch-interactivity-to-prime-video-mobile-2026|CA+MX+US|2026-11-06"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "已公开检索US、CA、MX的Amazon Seller Central、Amazon Ads、全球开店、监管机构、既定行业媒体与公开公众号入口；部分来源仅取得搜索摘要、列表页、无结果或受robots限制，不能声称完整读取。Amazon Ads官方确认1项跨三站广告能力增量。汽车用品关键词/竞品缺少指定ASIN、变体、邮编/地域和可比快照，本次未判定价格、Coupon、BSR或关键词变化；2026年8月29—30日历史补查仍未完整完成。",
+    "action_items": [
+      {
+        "title": "按设备拆分IVA移动端表现",
+        "detail": "在US、CA、MX分别检查现有IVA活动的device type报告、移动端落地页和商品可售状态，真机复核画中画、字幕安全区与点击路径。",
+        "due": "本周",
+        "event_key": "amazon-ads-interactive-video-ads|extend-touch-interactivity-to-prime-video-mobile-2026|CA+MX+US|2026-11-06"
+      }
+    ]
+  }
+}

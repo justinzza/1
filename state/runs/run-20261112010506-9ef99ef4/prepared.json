@@ -1,0 +1,13 @@
+{
+  "run_id": "run-20261112010506-9ef99ef4",
+  "prepared_at": "2026-11-12T01:08:52.958Z",
+  "base_main_commit": "d819637b758961db2294b5fd9cba6ce29da6f52f",
+  "base_state_commit": "d9a24da7a6976432b474d0b94afc6fd16d5bae27",
+  "base_content_digest": "f879af078cca169c546f8b33e173e4c5f7190bb64e23e73938c3943130d05435",
+  "base_checkpoint_digest": "12bea19637a484e77571af699575750f675a824bc9048d470324bd78ac357ca2",
+  "expected_content_digest": "077d467ac413e2abc8182e2115be338a75889b6b8ef23959fae5f3b332f2d534",
+  "expected_html_digest": "6e306642f21a7e2974b7de29751a7e09ce45b196004688730854e7545b84c099",
+  "counts": {"new": 1, "updated": 0, "merged": 0, "deduplicated": 0},
+  "new_event_keys": ["amazon-ads-interactive-video-ads|extend-touch-interactivity-to-prime-video-mobile-2026|CA+MX+US|2026-11-06"],
+  "validation": {"tests_passed": 22, "tests_failed": 0, "data_page_consistent": true, "daily_briefing_absent": true}
+}
