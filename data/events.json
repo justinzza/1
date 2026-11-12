@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-11T01:09:31.371Z",
+  "content_updated_at": "2026-11-12T01:08:23.859Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -7158,6 +7158,48 @@
       "event_key": "amazon-us-awd-capacity-management|split-base-capacity-and-enforce-shipment-limits-2027|US|2027-01-07",
       "primary_source_url": "https://sellercentral.amazon.com/help/hub/reference/external/GAFNWEYTJUV2GBFC?locale=en_us",
       "id": "evt-f88e0b9b76746c4a"
+    },
+    {
+      "subject_key": "amazon-ads-interactive-video-ads",
+      "action_key": "extend-touch-interactivity-to-prime-video-mobile-2026",
+      "marketplaces": [
+        "CA",
+        "MX",
+        "US"
+      ],
+      "effective_date": "2026-11-06",
+      "title": "Interactive Video Ads扩展至Prime Video移动端，覆盖美加墨",
+      "summary": "Amazon Ads于2026年11月6日将Interactive Video Ads（IVA）从客厅设备扩展至Prime Video iOS与Android移动应用。观众可在视频继续以画中画播放时，点击加入购物车或访问品牌目的地；现有IVA广告活动会自动获得移动端1P库存资格，无需另做素材或重新设置Amazon Ads Agent。",
+      "impact": "美国、加拿大和墨西哥均在官方覆盖范围内。已有IVA活动的设备流量结构、互动率与转化路径可能发生变化，但这不是Sponsored Brands Video或Sponsored Products规则调整，也不保证移动端曝光、点击或销售增长。",
+      "action": "在Campaign reporting中按device type拆分移动端与客厅设备的impressions、interactions、加购和转化；逐站检查移动端落地页、品牌目的地和商品可售状态，并对画中画场景下的字幕、关键信息安全区和点击后路径进行真机复核。",
+      "category": "ads",
+      "priority": "P1",
+      "original_published_at": "2026-11-06",
+      "original_date_note": "Amazon Ads What's New官方原文发表于2026-11-06并使用“extend”描述已上线能力，故以该日作为生效日。US、CA、MX均由正文明确列入North America；不据此扩展到Sponsored Brands Video等其他广告产品。",
+      "first_seen_at": "2026-11-12T01:08:23.859Z",
+      "last_material_update_at": "2026-11-12T01:08:23.859Z",
+      "history_dates": [
+        "2026-11-12"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new/interactive-video-ads-on-prime-video-mobile",
+          "publisher": "Amazon Ads What's New",
+          "kind": "official",
+          "published_at": "2026-11-06",
+          "verified_at": "2026-11-12T01:08:23.859Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取Amazon Ads官方公开原文，核对上线内容、适用站点、资格及无需操作说明。",
+          "canonical_url": "https://advertising.amazon.com/resources/whats-new/interactive-video-ads-on-prime-video-mobile"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-ads-interactive-video-ads|extend-touch-interactivity-to-prime-video-mobile-2026|CA+MX+US|2026-11-06",
+      "id": "evt-9df0419dc8812c0d",
+      "primary_source_url": "https://advertising.amazon.com/resources/whats-new/interactive-video-ads-on-prime-video-mobile"
     }
   ]
 }
