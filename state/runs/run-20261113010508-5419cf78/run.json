@@ -1,0 +1,536 @@
+{
+  "id": "run-20261113010508-5419cf78",
+  "base_state_digest": "fcd049ad5d4c57210315c1a77d40aa7a8b821a2b326c7b5f83b362ce97226a83",
+  "started_at": "2026-11-13T01:05:08.277Z",
+  "finished_at": "2026-11-13T01:16:12.714Z",
+  "material_changed": true,
+  "backfill_complete": false,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "182d818f1cfd050cc151ea3229c15de8d0cf4027",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "25165f380c08e7b9ee6d871c51d608434cf2bf99f658c420a08b303cb3ae60fb",
+    "observed_digest": "25165f380c08e7b9ee6d871c51d608434cf2bf99f658c420a08b303cb3ae60fb",
+    "verified_at": "2026-11-13T01:16:12.714Z",
+    "summary": "GitHub精确提交182d818f的Vercel状态为success；正式域名data-content-digest与staged预期完全一致，两项新事件及行动清单可见，DAILY BRIEFING与分类摘要未恢复。"
+  },
+  "marketplace_coverage": {
+    "US": "公开复核Seller Central、Amazon Ads、全球开店、FTC/CPSC、6个行业网站、9个公开公众号入口及汽车用品关键词；CPSC确认11月12日6组Amazon.com商品召回或停用警告。部分入口仅有公开摘要或受robots限制，未达到完整覆盖。",
+    "CA": "公开复核Seller Central、Amazon Ads/全球开店当地结果、Health Canada、6个行业网站、9个公开公众号入口及汽车用品关键词；未发现可独立建档的可靠增量。公众号与部分页面只达到公开搜索级覆盖。",
+    "MX": "公开复核Seller Central、Amazon Ads/全球开店当地结果、SAT/ANAM/PROFECO、6个行业网站、9个公开公众号入口及汽车用品关键词/西语等价词；Seller Central公开公告确认FBM自定义节假日及订单报表字段更新，其他命中为既有事项、消费者提示或证据不足线索。"
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开复核美国站News_Amazon；近端命中为既有AI旺季工具、Deal截止提醒及已入库功能，未形成新的独立美国站Seller Central规则。登录后公告未完整遍历。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions?categories%5B0%5D=amzn1.spce.category.8b1ad9d2",
+          "note": "美国News_Amazon公开聚合页；只达到公开访问级覆盖。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开检索亚马逊全球开店新闻中心；11月12日行业媒体所称中国至美国空运服务对应10月已发布官方事项，属于延迟转载，未重复建档。",
+      "evidence": [
+        {
+          "url": "https://gs.amazon.cn/news",
+          "note": "全球开店公开新闻入口。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "复核Amazon Ads What's New公开结果；未发现晚于已入库11月6日IVA移动端扩展的三站独立变化，部分入口仅有公开索引或摘要。",
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new/interactive-video-ads-on-prime-video-mobile",
+          "note": "Amazon Ads官方发布：移动端触控交互、现有IVA自动获得移动1P库存资格、三站明确覆盖。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开核查FTC与CPSC；CPSC于11月12日对6组曾在Amazon.com销售的商品发布召回或立即停用警告，已按同日监管批次合并为一张新卡。",
+      "evidence": [
+        {
+          "url": "https://www.cpsc.gov/Recalls/2027/Kakgold-Recalls-4WD-Remote-Controlled-Car-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
+          "note": "Kakgold遥控特技车：纽扣电池摄入风险、Amazon.com销售及退款处置。"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2027/QIOMALA-Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards",
+          "note": "QIOMALA HWT12P清洗机：触电风险、Amazon.com销售及剪线退款。"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2027/Boshengya-Recalls-Rugs-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violate-Mandatory-Standard-for-Carpets-and-Rugs",
+          "note": "Boshengya地毯：易燃风险、Amazon.com销售及剪毁退款。"
+        },
+        {
+          "url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-Mommy-Me-Pack-Play-Mattresses-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Suffocation-Violate-Mandatory-Standard-for-Crib-Mattresses",
+          "note": "Mommy & Me游戏床垫：夹困窒息风险及立即停用警告。"
+        },
+        {
+          "url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-Certain-Discontinued-Qing-Song-Full-Face-Snorkel-Masks-Immediately-Due-to-Risk-of-Serious-Injury-and-Death-from-Drowning-Hazard",
+          "note": "Qing Song全脸潜水面罩：溺水/呼吸风险及立即停用警告。"
+        },
+        {
+          "url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-Tomreky-Adult-Portable-Bed-Rails-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails",
+          "note": "Tomreky成人床护栏：夹困窒息风险及立即停用警告。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开复核加拿大站News_Amazon；近端Ask Amazon及既有returnless/2027费用内容未形成新的独立规则。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions?categories%5B0%5D=amzn1.spce.category.8b1ad9d2&contentType=ALL&dateRange=allTime&sortBy=lastActivityTime",
+          "note": "加拿大News_Amazon公开聚合页。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "读取墨西哥站News_Amazon公开公告正文；确认FBM可设置卖家自定义节假日、订单继续进入且承诺日期自动调整，FBM订单报表新增处理与运输时长列。页面仅给相对发布时间，未编造绝对日期。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/524f59b2-ff00-455d-ac41-ae7c55cd3bc4",
+          "note": "News_Amazon公开正文；核对自定义节假日、订单/承诺日期行为及报表新增字段。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开核查Health Canada近期召回；11月12日最新条目未发现新的Amazon.ca独立事项，Klean Strip等Amazon.ca事项已在事件库。",
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en",
+          "note": "Health Canada公开召回索引；近端Amazon.ca命中为已入库Klean Strip事项。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开检索SAT、ANAM及PROFECO；11月11日网络购物策略与Buen Fin内容为一般消费者提示，不构成Amazon卖家新规。",
+      "evidence": [
+        {
+          "url": "https://www.gob.mx/profeco/prensa/profeco-orienta-a-las-y-los-internautas-que-recurriran-al-comercio-electronico-en-el-buen-fin-2026",
+          "note": "PROFECO 11月7日一般消费者电商提示；不作为Amazon卖家新规。"
+        },
+        {
+          "url": "https://www.sat.gob.mx/",
+          "note": "SAT公开入口。"
+        },
+        {
+          "url": "https://www.anam.gob.mx/",
+          "note": "ANAM公开入口。"
+        }
+      ]
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "逐项公开检索跨境头条；近端命中为既有黑五节点、FTC、费用、AGL空运转载或一般行业线索，未发现新的三站独立可靠事件。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/hot",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "逐项公开检索跨境快讯；近端命中为既有黑五节点、FTC、费用、AGL空运转载或一般行业线索，未发现新的三站独立可靠事件。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开读取知无不言首页/头条摘要；近端命中为既有黑五节点、FTC、费用、AGL空运转载或一般行业线索，未发现新的三站独立可靠事件。",
+      "evidence": [
+        {
+          "url": "https://www.wearesellers.com/headline/",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开检索TT123卖家导航；近端命中为既有黑五节点、FTC、费用、AGL空运转载或一般行业线索，未发现新的三站独立可靠事件。",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/amz",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开检索品牌方舟；近端命中为既有黑五节点、FTC、费用、AGL空运转载或一般行业线索，未发现新的三站独立可靠事件。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开检索卖家之家；近端命中为既有黑五节点、FTC、费用、AGL空运转载或一般行业线索，未发现新的三站独立可靠事件。",
+      "evidence": [
+        {
+          "url": "https://mjzj.com/",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "逐项检索“大宝站外推广”公开入口；本轮仅获得公开入口、旧文摘要、无结果或受限正文，未发现无需登录且可独立建档的新文章，未绕过访问限制。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-9392",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "逐项检索“葫芦娃站外推广”公开入口；本轮仅获得公开入口、旧文摘要、无结果或受限正文，未发现无需登录且可独立建档的新文章，未绕过访问限制。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-61871",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "逐项检索“三头六臂跨境电商”公开入口；本轮仅获得公开入口、旧文摘要、无结果或受限正文，未发现无需登录且可独立建档的新文章，未绕过访问限制。",
+      "evidence": [
+        {
+          "url": "https://www.stlb520.com/index.html",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "单独检索跨境头条对应公众号；本轮仅获得公开入口、旧文摘要、无结果或受限正文，未发现无需登录且可独立建档的新文章，未绕过访问限制。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "单独检索跨境快讯对应公众号；本轮仅获得公开入口、旧文摘要、无结果或受限正文，未发现无需登录且可独立建档的新文章，未绕过访问限制。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "单独检索知无不言对应公众号；本轮仅获得公开入口、旧文摘要、无结果或受限正文，未发现无需登录且可独立建档的新文章，未绕过访问限制。",
+      "evidence": [
+        {
+          "url": "https://www.wearesellers.com/",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "单独检索TT123对应公众号；本轮仅获得公开入口、旧文摘要、无结果或受限正文，未发现无需登录且可独立建档的新文章，未绕过访问限制。",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "单独检索品牌方舟对应公众号；本轮仅获得公开入口、旧文摘要、无结果或受限正文，未发现无需登录且可独立建档的新文章，未绕过访问限制。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/author-2",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "单独检索卖家之家对应公众号；本轮仅获得公开入口、旧文摘要、无结果或受限正文，未发现无需登录且可独立建档的新文章，未绕过访问限制。",
+      "evidence": [
+        {
+          "url": "https://mjzj.com/",
+          "note": "公开入口、摘要或无结果；未绕过登录、验证码或访问限制。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开检索Amazon.com的fuel line、CPE braided fuel hose、AN fittings、exhaust clamp；页面读取受robots限制，且没有指定ASIN、变体、邮编/地域及可比快照，本次不判定USD价格、Coupon、BSR或关键词变化。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com/",
+          "note": "Amazon.com公开站点；本轮读取受robots限制且缺稳定可比基线。"
+        }
+      ]
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "按include_source_ids逐一公开检索15个入口：crossborder_headlines、crossborder_briefs、wearesellers、tt123、brand_ark、seller_home、wechat_dabao、wechat_huluwa、wechat_santou、wechat_crossborder_headlines、wechat_crossborder_briefs、wechat_wearesellers、wechat_tt123、wechat_brand_ark、wechat_seller_home。各入口只达到公开搜索页、摘要、无结果或可访问文章级覆盖，未绕过登录/访问限制；CA组不记完整检查且不推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/hot",
+          "note": "crossborder_headlines：逐项公开检索跨境头条；命中Amazon Haul消费者促销、FTC与既有政策，未发现新的独立卖家事件。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "crossborder_briefs：逐项公开检索跨境快讯；近端命中为既有FTC、USTR、费用及旺季事项。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.wearesellers.com/headline/",
+          "note": "wearesellers：公开读取知无不言首页/头条摘要；卖家讨论缺少足以建档的官方确认。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.tt123.com/amz",
+          "note": "tt123：公开检索TT123卖家导航；未发现新的Amazon US/CA/MX可靠事件。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.brandark.com/",
+          "note": "brand_ark：公开检索品牌方舟；搜索结果未出现本期三站可靠增量。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://mjzj.com/",
+          "note": "seller_home：公开检索卖家之家；近端命中为既有Deal延期、AIA保险与转载。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.amz123.com/author-9392",
+          "note": "wechat_dabao：逐项检索“大宝站外推广”公开入口；仅获得公开作者页/旧文摘要，未找到无需登录的新文章。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.amz123.com/author-61871",
+          "note": "wechat_huluwa：逐项检索“葫芦娃站外推广”公开入口；仅获得公开作者页/旧文摘要。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.stlb520.com/index.html",
+          "note": "wechat_santou：逐项检索“三头六臂跨境电商”公开入口；公开索引无本期可靠增量。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://hot.ouzhou123.com/",
+          "note": "wechat_crossborder_headlines：单独检索跨境头条对应公众号；公开搜索无可完整读取的新公众号文章。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "wechat_crossborder_briefs：单独检索跨境快讯对应公众号；公开搜索无可完整读取的新公众号文章。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.wearesellers.com/",
+          "note": "wechat_wearesellers：单独检索知无不言对应公众号；只获得公开索引/摘要。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.tt123.com/",
+          "note": "wechat_tt123：单独检索TT123对应公众号；只获得公开页面/摘要。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://www.brandark.com/author-2",
+          "note": "wechat_brand_ark：单独检索品牌方舟对应公众号；只获得公开作者页/摘要。；本次未发现可独立建档的CA可靠增量。"
+        },
+        {
+          "url": "https://mjzj.com/",
+          "note": "wechat_seller_home：单独检索卖家之家对应公众号；只获得公开媒体页/摘要。；本次未发现可独立建档的CA可靠增量。"
+        }
+      ]
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "按include_source_ids逐一公开检索15个入口：crossborder_headlines、crossborder_briefs、wearesellers、tt123、brand_ark、seller_home、wechat_dabao、wechat_huluwa、wechat_santou、wechat_crossborder_headlines、wechat_crossborder_briefs、wechat_wearesellers、wechat_tt123、wechat_brand_ark、wechat_seller_home。各入口只达到公开搜索页、摘要、无结果或可访问文章级覆盖，未绕过登录/访问限制；MX组不记完整检查且不推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/hot",
+          "note": "crossborder_headlines：逐项公开检索跨境头条；命中Amazon Haul消费者促销、FTC与既有政策，未发现新的独立卖家事件。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "crossborder_briefs：逐项公开检索跨境快讯；近端命中为既有FTC、USTR、费用及旺季事项。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.wearesellers.com/headline/",
+          "note": "wearesellers：公开读取知无不言首页/头条摘要；卖家讨论缺少足以建档的官方确认。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.tt123.com/amz",
+          "note": "tt123：公开检索TT123卖家导航；未发现新的Amazon US/CA/MX可靠事件。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.brandark.com/",
+          "note": "brand_ark：公开检索品牌方舟；搜索结果未出现本期三站可靠增量。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://mjzj.com/",
+          "note": "seller_home：公开检索卖家之家；近端命中为既有Deal延期、AIA保险与转载。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.amz123.com/author-9392",
+          "note": "wechat_dabao：逐项检索“大宝站外推广”公开入口；仅获得公开作者页/旧文摘要，未找到无需登录的新文章。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.amz123.com/author-61871",
+          "note": "wechat_huluwa：逐项检索“葫芦娃站外推广”公开入口；仅获得公开作者页/旧文摘要。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.stlb520.com/index.html",
+          "note": "wechat_santou：逐项检索“三头六臂跨境电商”公开入口；公开索引无本期可靠增量。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://hot.ouzhou123.com/",
+          "note": "wechat_crossborder_headlines：单独检索跨境头条对应公众号；公开搜索无可完整读取的新公众号文章。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "wechat_crossborder_briefs：单独检索跨境快讯对应公众号；公开搜索无可完整读取的新公众号文章。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.wearesellers.com/",
+          "note": "wechat_wearesellers：单独检索知无不言对应公众号；只获得公开索引/摘要。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.tt123.com/",
+          "note": "wechat_tt123：单独检索TT123对应公众号；只获得公开页面/摘要。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://www.brandark.com/author-2",
+          "note": "wechat_brand_ark：单独检索品牌方舟对应公众号；只获得公开作者页/摘要。；本次未发现可独立建档的MX可靠增量。"
+        },
+        {
+          "url": "https://mjzj.com/",
+          "note": "wechat_seller_home：单独检索卖家之家对应公众号；只获得公开媒体页/摘要。；本次未发现可独立建档的MX可靠增量。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开检索Amazon.ca汽车用品关键词；缺少指定ASIN、变体、地域及可比快照，本次不判定CAD价格、税费/运费、Coupon、BSR或关键词变化。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.ca/",
+          "note": "Amazon.ca公开站点；缺稳定可比基线。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-13T01:16:12.714Z",
+      "note": "公开检索Amazon.com.mx汽车用品关键词及西语等价词；缺少指定ASIN、变体、地域及可比快照，本次不判定MXN价格、税费/运费、Coupon、BSR或关键词变化。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com.mx/",
+          "note": "Amazon.com.mx公开站点；缺稳定可比基线。"
+        }
+      ]
+    }
+  ]
+}
+
