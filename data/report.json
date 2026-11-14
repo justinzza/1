@@ -1,8 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "us-cpsc-amazon-products-2026-11-12|recall-or-warn-six-amazon-sold-products|US|2026-11-12",
-    "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown"
+    "amazon-ca-fba-returnless-resolutions|add-all-or-selected-asin-enrollment|CA|2026-11-06",
+    "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11",
+    "amazon-alexa-for-shopping|expand-text-shopping-to-all-customers|US|2026-11-13"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,33 +12,41 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "已公开检索US、CA、MX的Amazon Seller Central公告、Amazon Ads What's New、全球开店、CPSC、Health Canada、墨西哥监管原文、既定行业媒体与公开公众号入口，并对industry_wechat_ca及industry_wechat_mx的include_source_ids逐项检查。部分Seller Central登录后内容、行业站点和公众号正文仅能获得公开搜索摘要、入口页或无结果，不能声称完整检查且不推进成功游标；2026年8月29—30日历史补查仍未完整完成。汽车用品检索缺少指定ASIN、变体、邮编/地域及税费、运费口径一致的可比快照，本次未判定价格、Coupon、BSR或关键词变化。",
+  "coverage_note": "已公开核验US、CA、MX的Seller Central公告、Amazon Ads What's New、全球开店、相关监管原文、6个行业网站、9个公开公众号入口，并对industry_wechat_ca与industry_wechat_mx的15个include_source_ids逐项追加站点词检索。部分Seller Central登录后内容、行业站点和公众号正文仅能获得公开索引、搜索摘要、无结果或受限页面，不能声称完整检查且不推进任何来源成功游标；2026年8月29—30日历史补查仍未完整完成。汽车用品搜索未获得同一ASIN、变体、地域和税费/运费口径的三站可比快照，本次不判定价格、Coupon、BSR、销量或关键词变化。",
   "action_items": [
     {
-      "title": "筛查美国CPSC六组商品",
-      "detail": "按品牌、型号、包装和供应链筛查US Listing、库存、在途与历史订单，命中后区分recall与stop-use warning执行停售、停广告、隔离及处置。",
-      "due": "立即",
-      "event_key": "us-cpsc-amazon-products-2026-11-12|recall-or-warn-six-amazon-sold-products|US|2026-11-12"
+      "title": "试点加拿大FBA免退货退款",
+      "detail": "先按ASIN测算回收价值和免退货净损失，用完整CSV小范围启用并保留版本，不把11月23日境外履约规则的CAD 25阈值混入本计划。",
+      "due": "本周",
+      "event_key": "amazon-ca-fba-returnless-resolutions|add-all-or-selected-asin-enrollment|CA|2026-11-06"
     },
     {
-      "title": "配置墨西哥站FBM节假日",
-      "detail": "按实际仓库与承运能力设置停业日，并用订单报表新增的处理及运输时长列抽样验证承诺日期。",
-      "due": "下一次节假日前",
-      "event_key": "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown"
+      "title": "清理美国站不合规实体Bundle",
+      "detail": "在2027年1月11日前核对包装主体、授权书、FBA库存与例外依据，无合格授权的卖家自组Bundle优先停售、售罄或移除。",
+      "due": "2027-01-11前",
+      "event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
+    },
+    {
+      "title": "测试Alexa文本购物中的重点ASIN",
+      "detail": "用真实购买场景记录推荐、比价、变体与站外商品结果，先修正可验证的Listing数据，不因单次结果宣称排名或销量变化。",
+      "due": "本周",
+      "event_key": "amazon-alexa-for-shopping|expand-text-shopping-to-all-customers|US|2026-11-13"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-13",
-  "content_updated_at": "2026-11-13T01:10:29.453Z",
+  "report_date": "2026-11-14",
+  "content_updated_at": "2026-11-14T01:14:00.000Z",
   "new_event_keys": [
-    "us-cpsc-amazon-products-2026-11-12|recall-or-warn-six-amazon-sold-products|US|2026-11-12",
-    "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown"
+    "amazon-ca-fba-returnless-resolutions|add-all-or-selected-asin-enrollment|CA|2026-11-06",
+    "amazon-alexa-for-shopping|expand-text-shopping-to-all-customers|US|2026-11-13"
   ],
-  "updated_event_keys": [],
+  "updated_event_keys": [
+    "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
+  ],
   "counts": {
     "new": 2,
-    "updated": 0,
-    "merged": 0,
+    "updated": 1,
+    "merged": 1,
     "deduplicated": 0
   }
 }
