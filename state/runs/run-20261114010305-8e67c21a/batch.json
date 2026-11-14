@@ -1,0 +1,175 @@
+{
+  "base_digest": "01b1daf92f6edfd3d58df330cdf0cbb35bfcb545e923baf26a01a83e15a6c0ac",
+  "checked_at": "2026-11-14T01:14:00.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-ca-fba-returnless-resolutions",
+        "action_key": "add-all-or-selected-asin-enrollment",
+        "marketplaces": ["CA"],
+        "effective_date": "2026-11-06",
+        "deadline": null,
+        "title": "加拿大站FBA免退货退款支持全量或最高1万个指定ASIN加入",
+        "summary": "Amazon加拿大站News_Amazon公告确认，自2026年11月6日起，加拿大FBA卖家可加入FBA Returnless Resolutions：退款后由买家保留商品，无需实物退回。卖家可选择对全部ASIN启用，或上传CSV为最多10,000个指定ASIN启用；更新选择清单时必须重新上传包含全部目标ASIN的完整文件，未列入的ASIN继续执行退回Amazon运营中心的现有流程。",
+        "impact": "这项配置可减少高退货率商品的退货处理、仓储和移除成本，但免退货退款的商品价值由卖家承担。它与11月23日生效的加拿大境外履约退货规则是不同机制：本条针对FBA卖家主动加入的Returnless Resolutions，不应把CAD 25阈值或48小时标签要求套用到本计划。公告将低于CAD 100的商品描述为可能更具成本效益的场景，并非统一资格阈值或收益保证。",
+        "action": "按加拿大站ASIN分别计算售价、毛利、退货处理费、回运/仓储/移除成本及欺诈风险，先以CSV对低货值、低安全风险且回收价值低的少量ASIN试点；保存完整CSV版本、启用时间和ASIN清单，并跟踪免退货退款率、投诉和净损失。危险品、高价值、易滥用或可翻新转售商品不要仅因低于CAD 100就直接全量启用。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": null,
+        "original_date_note": "官方公开页仅显示相对发布时间，未给出可独立核验的绝对发布日期；功能明确自2026-11-06起可用，因此original_published_at保持null，不以发现日代替。",
+        "first_seen_at": "2026-11-14T01:14:00.000Z",
+        "last_material_update_at": "2026-11-14T01:14:00.000Z",
+        "history_dates": ["2026-11-14"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/2a5952ec-fb51-4dab-a91e-ccf0da54f4f3",
+            "publisher": "Amazon Seller Central Canada / News_Amazon",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-14T01:14:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "读取News_Amazon公开正文，核对2026-11-06起可加入、全量/指定ASIN两种模式、CSV最多10,000个ASIN及更新时需上传完整清单。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "01b1daf92f6edfd3d58df330cdf0cbb35bfcb545e923baf26a01a83e15a6c0ac",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条比较事件库和本批候选的event_key、标题语义、规范化来源链接与生效日期。既有加拿大卡片是11月23日自动免退货规则及境外履约退货处理，另有US/CA部分退款配置；本事件是加拿大FBA卖家自2026-11-06起对全部或指定ASIN加入FBA Returnless Resolutions，适用对象、操作入口和处理动作不同。",
+        "distinct_event_reason": "与加拿大11月23日MFN/境外履约退货规则不同，本事件是FBA自愿加入的免退货退款配置，并新增最多10,000个指定ASIN的CSV选择方式。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-alexa-for-shopping",
+        "action_key": "expand-text-shopping-to-all-customers",
+        "marketplaces": ["US"],
+        "effective_date": "2026-11-13",
+        "deadline": null,
+        "title": "美国Alexa for Shopping文本购物从邀请测试扩展为广泛可用",
+        "summary": "Amazon官方文章显示，Alexa for Shopping文本购物于2026年11月6日先向一小部分美国客户邀请开放，并在11月13日更新为向所有Alexa for Shopping客户广泛可用。客户可通过文本提出选购、比价、图片找相似商品、加购与经确认购买、补货、价格提醒、清单和订单查询；文本会话可与Amazon Shopping App、Amazon.com及Alexa设备衔接，并可通过Shop Direct发现站外商品。",
+        "impact": "消费者无需先打开Amazon App即可开始商品发现、比较和购买，文本会话还会沿用个人偏好和历史上下文。这提高了标题、关键属性、兼容性、图片和价格信息被AI正确理解的运营重要性，也扩大了站内商品与Shop Direct站外商品在同一对话中的竞争场景；但官方没有给出单个ASIN的曝光、排名、转化或销量增幅，不能把功能上线直接当成流量增长。",
+        "action": "用美国站重点ASIN和3至5个真实使用场景测试Alexa for Shopping的文本回答，记录日期、地域、ASIN、推荐理由、价格/变体和是否出现站外商品；发现规格、兼容性或品牌回答错误时，优先修正标题、五点、属性、图片文字和Brand Store等可验证信息。把文本入口单独纳入归因观察，不因一次被推荐或未被推荐就调整出价或宣称排名变化。",
+        "category": "ai",
+        "priority": "P1",
+        "original_published_at": "2026-11-06",
+        "original_date_note": "Amazon官方文章原发布于2026-11-06；页面于2026-11-13更新，明确文本功能已从邀请测试扩展为向所有Alexa for Shopping客户广泛可用。本事件effective_date采用这次实质扩展日期。",
+        "first_seen_at": "2026-11-14T01:14:00.000Z",
+        "last_material_update_at": "2026-11-14T01:14:00.000Z",
+        "history_dates": ["2026-11-14"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-text-to-shop",
+            "publisher": "Amazon",
+            "kind": "official",
+            "published_at": "2026-11-06",
+            "verified_at": "2026-11-14T01:14:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "读取Amazon官方文章及11月13日更新说明，核对美国文本购物能力、跨终端会话衔接、Shop Direct和从邀请测试扩展为广泛可用。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "01b1daf92f6edfd3d58df330cdf0cbb35bfcb545e923baf26a01a83e15a6c0ac",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "逐条比较事件库和本批候选的event_key、标题语义、规范化来源链接与生效日期。既有Alexa for Shopping卡片涉及10月29日新增100多项App/网页操作能力、广告对话和原产地监管争议；没有文本购物入口从邀请测试扩展为广泛可用的同义卡片。本批加拿大FBA退货和美国捆绑政策候选也不共享动作。",
+        "distinct_event_reason": "这是新的消费者文本购物入口及11月13日覆盖扩展，不是既有Alexa操作能力、广告格式或监管事件的改标题。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-us-product-bundling-policy",
+        "action_key": "expand-manufacturer-packaging-requirement-2027",
+        "marketplaces": ["US"],
+        "effective_date": "2027-01-11",
+        "deadline": "2027-01-11",
+        "title": "美国站2027年1月11日起收紧商品捆绑政策：多数实体Bundle须由原厂或品牌方包装",
+        "summary": "Amazon美国站News_Amazon官方公告确认，自2027年1月11日起，大多数以单一ASIN销售的实体Product Bundle必须由原始制造商或品牌方包装。例外包括：持有覆盖所有相关品牌且明确允许重新包装的授权书、gifting browse nodes、camera product types，以及品牌所有者或授权经销商使用Virtual Bundles工具创建的组合。Books、Music、Video、DVD、Video Games、含次要generic products或service plans、含gift cards的组合可创建；Consumables多品牌组合需有授权书。",
+        "impact": "1月11日前可继续销售现有不合规库存；此后不合规Bundle将被停用，并成为Account Health中的Listing violation，Amazon还会发送邮件通知。FBA卖家因此同时面临下架、账户健康记录和剩余库存移除风险。授权例外要求的是允许重新包装并覆盖组合中相关品牌的letter of authorization，不能用一般经销或采购凭证替代，也不能把美国站规则外推至CA或MX。",
+        "action": "立即导出美国站全部单ASIN实体Bundle，逐一标记包装主体、品牌组合、授权范围、FBA数量和预计售罄日；对卖家自行拼装且无合格授权的组合，在1月11日前停售、售罄或安排移除。对获授权重新包装的组合保存覆盖所有相关品牌的授权书，并准备在Account Health被标记时上传；Virtual Bundles、赠礼节点和相机类目例外也应按ASIN留存适用依据。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": "2026-09-11",
+        "original_date_note": "可稳定引用的行业文章发布于2026-09-11；Amazon News_Amazon公开页仅显示相对时间“2 months ago”，未提供可独立核验的绝对发布日期，因此保留原始日期并以本次官方原文升级核验状态。",
+        "first_seen_at": "2026-09-12T01:10:09.000Z",
+        "last_material_update_at": "2026-09-12T01:10:09.000Z",
+        "history_dates": ["2026-09-11"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/da850a57-839d-4e38-a96f-298dbc450b69?postId=b8f1d172-2c69-4f4b-9975-34c24acce528",
+            "publisher": "Amazon Seller Central US / News_Amazon",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-14T01:14:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "读取News_Amazon官方正文，核对2027-01-11生效、包装主体要求、授权书与三类例外、放宽范围、1月11日前库存处置及之后停用和Account Health违规。"
+          }
+        ]
+      },
+      "material_update": true,
+      "update_reason": "取得可稳定引用的News_Amazon官方原文，将既有行业线索升级为官方确认，并补全授权书覆盖要求、明确例外、允许组合范围以及2027年1月11日后停用与Account Health违规的执法口径；保留原event_key和原始事件身份。",
+      "dedupe_review": {
+        "compared_digest": "01b1daf92f6edfd3d58df330cdf0cbb35bfcb545e923baf26a01a83e15a6c0ac",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11",
+        "reason": "四重比对确认官方公告与既有卡片的规范化主体、变化动作、US适用站点和2027-01-11生效日完全一致，标题语义也是同一Product Bundling Policy扩围，不新增卡片；应在原event_key下合并官方来源并更新核验与执法细节。",
+        "distinct_event_reason": "不适用：明确更新既有卡片。"
+      }
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-ca-fba-returnless-resolutions|add-all-or-selected-asin-enrollment|CA|2026-11-06",
+      "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11",
+      "amazon-alexa-for-shopping|expand-text-shopping-to-all-customers|US|2026-11-13"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "已公开核验US、CA、MX的Seller Central公告、Amazon Ads What's New、全球开店、相关监管原文、6个行业网站、9个公开公众号入口，并对industry_wechat_ca与industry_wechat_mx的15个include_source_ids逐项追加站点词检索。部分Seller Central登录后内容、行业站点和公众号正文仅能获得公开索引、搜索摘要、无结果或受限页面，不能声称完整检查且不推进任何来源成功游标；2026年8月29—30日历史补查仍未完整完成。汽车用品搜索未获得同一ASIN、变体、地域和税费/运费口径的三站可比快照，本次不判定价格、Coupon、BSR、销量或关键词变化。",
+    "action_items": [
+      {
+        "title": "试点加拿大FBA免退货退款",
+        "detail": "先按ASIN测算回收价值和免退货净损失，用完整CSV小范围启用并保留版本，不把11月23日境外履约规则的CAD 25阈值混入本计划。",
+        "due": "本周",
+        "event_key": "amazon-ca-fba-returnless-resolutions|add-all-or-selected-asin-enrollment|CA|2026-11-06"
+      },
+      {
+        "title": "清理美国站不合规实体Bundle",
+        "detail": "在2027年1月11日前核对包装主体、授权书、FBA库存与例外依据，无合格授权的卖家自组Bundle优先停售、售罄或移除。",
+        "due": "2027-01-11前",
+        "event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
+      },
+      {
+        "title": "测试Alexa文本购物中的重点ASIN",
+        "detail": "用真实购买场景记录推荐、比价、变体与站外商品结果，先修正可验证的Listing数据，不因单次结果宣称排名或销量变化。",
+        "due": "本周",
+        "event_key": "amazon-alexa-for-shopping|expand-text-shopping-to-all-customers|US|2026-11-13"
+      }
+    ]
+  }
+}

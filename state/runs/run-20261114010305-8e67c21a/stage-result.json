@@ -1,0 +1,41 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-ca-fba-returnless-resolutions|add-all-or-selected-asin-enrollment|CA|2026-11-06",
+    "amazon-alexa-for-shopping|expand-text-shopping-to-all-customers|US|2026-11-13"
+  ],
+  "updated_event_keys": [
+    "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-ca-fba-returnless-resolutions|add-all-or-selected-asin-enrollment|CA|2026-11-06",
+      "action": "new",
+      "review": "逐条比较事件库和本批候选的event_key、标题语义、规范化来源链接与生效日期。既有加拿大卡片是11月23日自动免退货规则及境外履约退货处理，另有US/CA部分退款配置；本事件是加拿大FBA卖家自2026-11-06起对全部或指定ASIN加入FBA Returnless Resolutions，适用对象、操作入口和处理动作不同。"
+    },
+    {
+      "event_key": "amazon-alexa-for-shopping|expand-text-shopping-to-all-customers|US|2026-11-13",
+      "action": "new",
+      "review": "逐条比较事件库和本批候选的event_key、标题语义、规范化来源链接与生效日期。既有Alexa for Shopping卡片涉及10月29日新增100多项App/网页操作能力、广告对话和原产地监管争议；没有文本购物入口从邀请测试扩展为广泛可用的同义卡片。本批加拿大FBA退货和美国捆绑政策候选也不共享动作。"
+    },
+    {
+      "event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": false,
+        "effective_date": true
+      },
+      "review": "四重比对确认官方公告与既有卡片的规范化主体、变化动作、US适用站点和2027-01-11生效日完全一致，标题语义也是同一Product Bundling Policy扩围，不新增卡片；应在原event_key下合并官方来源并更新核验与执法细节。"
+    }
+  ]
+}

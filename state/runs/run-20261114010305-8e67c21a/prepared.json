@@ -1,0 +1,35 @@
+{
+  "run_id": "run-20261114010305-8e67c21a",
+  "status": "prepared",
+  "prepared_at": "2026-11-14T01:14:00.000Z",
+  "base_main_sha": "182d818f1cfd050cc151ea3229c15de8d0cf4027",
+  "base_registry_digest": "01b1daf92f6edfd3d58df330cdf0cbb35bfcb545e923baf26a01a83e15a6c0ac",
+  "counts": {
+    "new": 2,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "expected_registry_digest": "940d4adf33102d4d2486e3d3f4d52cb434bf31095c5f13137c0e6f61e4ae3715",
+  "expected_content_digest": "6e26b425b80cfb38f22f357f03f49919e46b09c021ed51085a6540b6ecc4f5fc",
+  "expected_page_sha256": "c0acd2f39a95e3ed508d1a8b9f76cb387ee39238053121610a56024104991986",
+  "expected_events_sha256": "6d66db1f51f8eb690d451d7402163832f04c489c1a5fb995ae15f406adaab751",
+  "expected_report_sha256": "6c1c97a7260cf6b1bd9f964e02959d2bfda58e7c93734ca04a4e67a46de81929",
+  "batch_sha256": "01f8dd5f20dd98455d34ad0fce260d6c42edfeaf2cbc807d9ca466626aa35e44",
+  "stage_result_sha256": "5b4a8329ae68e37a85a36d4ae761499368d77a8e58d9c7485063c642a7024007",
+  "event_count": 128,
+  "candidate_event_keys": [
+    "amazon-ca-fba-returnless-resolutions|add-all-or-selected-asin-enrollment|CA|2026-11-06",
+    "amazon-alexa-for-shopping|expand-text-shopping-to-all-customers|US|2026-11-13",
+    "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
+  ],
+  "tests": {
+    "node_tests": "22 passed",
+    "data_page_consistency": "passed",
+    "daily_briefing_absent": true
+  },
+  "publication": {
+    "status": "pending",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/"
+  }
+}
