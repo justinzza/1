@@ -1,0 +1,129 @@
+{
+  "base_digest": "940d4adf33102d4d2486e3d3f4d52cb434bf31095c5f13137c0e6f61e4ae3715",
+  "checked_at": "2026-11-15T01:01:14.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-global-test-once-electronics",
+        "action_key": "open-electronics-testing-for-sixteen-marketplaces",
+        "marketplaces": ["US", "CA", "MX"],
+        "effective_date": "2026-11-13",
+        "deadline": null,
+        "title": "亚马逊全球一测通 GTO 开放电子电器品类：一次检测可用于美加墨等16站上架审核",
+        "summary": "亚马逊全球开店于2026年11月13日宣布，Global Test Once（GTO）继玩具后开放电子电器品类。首批覆盖锂电池供电的智能家居与消费电子，如头戴式耳机、耳塞、监控摄像头和扬声器；核心为整机 IEC 62368-1 安全测试，并按目标站点叠加国家偏差和锂电池相关标准。通过GTO取得的合规数据可用于包括美国、加拿大、墨西哥在内的16个站点上架审核，首批实验室为 Intertek、SGS 与 TÜV SÜD。",
+        "impact": "适用品类的中国卖家可把美加墨等多站合规测试整合为一次送检，减少重复测试与报告准备，但GTO报告主要服务Amazon商城上架审核，不自动替代清关、当地市场准入、运输或危险品要求；未列入首批范围的电子电器也不能据此视为已开放。",
+        "action": "先按具体ASIN确认是否属于首批锂电池智能家居或消费电子范围，再向三家接入实验室索取包含目标站点、整机与电池标准、样品数量、周期、报价及补测条件的书面方案；美加墨分别核对当地准入、标签、运输和税务要求，不把一次测试等同于一次完成全部合规。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-13T12:48:00+08:00",
+        "original_date_note": "公开可检索的亚马逊全球开店文章转载标注原文于2026-11-13发布并称即日起开放；以11月13日作为公开开放日期。电子电器子品类后续扩展时间未知。",
+        "first_seen_at": "2026-11-15T01:01:14.000Z",
+        "last_material_update_at": "2026-11-15T01:01:14.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://www.chwang.com/article/212111905869",
+            "publisher": "亚马逊全球开店（公开转载）",
+            "kind": "wechat",
+            "published_at": "2026-11-13T20:20:00+08:00",
+            "verified_at": "2026-11-15T01:01:14.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "official_wechat_repost"
+          },
+          {
+            "url": "https://globalselling.amazon.com/gto",
+            "publisher": "Amazon Global Selling",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-15T01:01:14.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "940d4adf33102d4d2486e3d3f4d52cb434bf31095c5f13137c0e6f61e4ae3715",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比对现有128条事件的event_key、标题语义、规范化来源链接和生效日期，并与本批另一候选交叉比较。现库没有GTO或一次检测覆盖多站的事件；既有合规事件涉及保险、召回、锂电池验证或单站政策，不包含GTO电子电器开放这一动作。",
+        "distinct_event_reason": "本事件改变的是合规检测服务的适用品类和跨站报告用途，主体、动作与Brand Store内容规范候选不同，也不与既有单站锂电池验证事件重复。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    },
+    {
+      "event": {
+        "subject_key": "amazon-brand-store-peak-event-content",
+        "action_key": "tighten-trademark-promotion-and-featured-deals-rules",
+        "marketplaces": ["US", "CA", "MX"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "Amazon Ads 更新 Brand Store 大促内容规范：禁用Amazon商标，促销信息须走 Featured Deals",
+        "summary": "Amazon Ads 支持文档于2026年11月13日更新 Brand Store 大促合规说明：Store 页面、导航、图片文字等不得使用 Prime Day、Prime、Prime Video、Amazon Music 等Amazon商标或相关标识；不得使用制造紧迫感、具体折扣金额或比例、无法证明的比较性价格、夸张最高级等文案。促销信息只能通过 Featured Deals widget 展示，组件应直接置于页头下方并至少添加4个处于有效促销状态的商品。",
+        "impact": "黑五网一及其他大促前，Brand Store 的页面名、Hero image、导航标签和促销文案更容易因商标或价格表达被拒审；仅修改正文而遗漏图片内文字仍可能失败。该规则影响Store内容审核与促销展示，不等于商品折扣本身无效。",
+        "action": "立即审计US、CA、MX Brand Store全部页面、导航、Hero image和图片文字，移除Prime Day等Amazon商标、具体折扣数字、紧迫和夸张表达；需要展示促销时，把 Featured Deals widget 放在页头下方并加入至少4个有效Deal子ASIN，另建无促销商品区并提前至少48小时提交审核。",
+        "category": "ads",
+        "priority": "P0",
+        "original_published_at": "2026-11-13",
+        "original_date_note": "Amazon Ads支持页面标注Updated on Nov 13, 2026，但未提供首次发布日期或变更日志；因此生效日期记为unknown，不把文档更新时间替代为规则生效日。",
+        "first_seen_at": "2026-11-15T01:01:14.000Z",
+        "last_material_update_at": "2026-11-15T01:01:14.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/library/guides/black-friday-and-cyber-monday-advertising-tips",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-15T01:01:14.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official"
+          },
+          {
+            "url": "https://ppc.land/amazon-brand-stores-face-rejection-over-prime-day-wording-even-in-images/",
+            "publisher": "PPC Land",
+            "kind": "industry_original",
+            "published_at": "2026-11-14",
+            "verified_at": "2026-11-15T01:01:14.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry_original"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": []
+      },
+      "dedupe_review": {
+        "compared_digest": "940d4adf33102d4d2486e3d3f4d52cb434bf31095c5f13137c0e6f61e4ae3715",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比对现有128条事件及本批候选的event_key、标题语义、规范化来源链接和生效日期。现库包含广告产品、促销截止和Brand Registry工具，但没有Brand Store对Amazon商标、促销文案及Featured Deals布局的审核规则事件。",
+        "distinct_event_reason": "本事件是Amazon Ads对品牌旗舰店内容与组件布局的审核规则，区别于GTO合规测试服务、既有Deal提报期限和广告投放功能。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-global-test-once-electronics|open-electronics-testing-for-sixteen-marketplaces|CA+MX+US|2026-11-13",
+      "amazon-brand-store-peak-event-content|tighten-trademark-promotion-and-featured-deals-rules|CA+MX+US|unknown"
+    ],
+    "category_coverage": {"policy":"partial","ads":"partial","ai":"partial","opportunities":"partial","competitors":"partial"},
+    "coverage_note": "已按公开可访问范围核验US、CA、MX Seller Central公告、Amazon Global Selling、Amazon Ads、CPSC、Health Canada、FTC、PROFECO及既定行业媒体；industry_wechat_ca与industry_wechat_mx均对15个include_source_ids逐项追加站点词检索。部分Seller Central登录后内容、公众号正文、行业站点及监管入口只能取得公开索引、搜索摘要、无结果或受限页面，不能声称完整检查且不推进成功游标；2026年8月29—30日补查仍未完整完成。汽车用品未获得同一ASIN、变体、地域及税费/运费口径的三站可比快照，本次不判断价格、Coupon、BSR、销量或关键词变化。",
+    "action_items": [
+      {"title":"确认电子电器ASIN的GTO首批资格","detail":"按ASIN、整机与电池标准向接入实验室获取美加墨目标站点的书面测试方案，另行核对清关、标签、运输和当地准入。","due":"本周","event_key":"amazon-global-test-once-electronics|open-electronics-testing-for-sixteen-marketplaces|CA+MX+US|2026-11-13"},
+      {"title":"清理Brand Store大促违规内容","detail":"审计页面名、导航、Hero image及图片文字，移除Amazon商标、具体折扣和紧迫性文案；促销只使用置顶Featured Deals widget。","due":"下次提交审核前","event_key":"amazon-brand-store-peak-event-content|tighten-trademark-promotion-and-featured-deals-rules|CA+MX+US|unknown"}
+    ]
+  }
+}

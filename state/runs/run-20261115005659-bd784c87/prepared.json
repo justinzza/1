@@ -1,0 +1,18 @@
+{
+  "run_id": "run-20261115005659-bd784c87",
+  "status": "prepared",
+  "prepared_at": "2026-11-15T01:01:14.000Z",
+  "radar_state_lease_commit": "49a889c9eb1fcd2efe94a379a6a6b8e6218b823a",
+  "main_base_commit": "1e1bdb2493b72f7a078a3d22455bd8dba17734c5",
+  "base_registry_digest": "940d4adf33102d4d2486e3d3f4d52cb434bf31095c5f13137c0e6f61e4ae3715",
+  "expected_registry_digest": "3921560e2ad4114379e492ff61ce215e30a7aba584c1ccc1838b54697d2f1877",
+  "expected_content_digest": "dc3898404e415509129aab1c43141c7d1bb697f430db370f1d6be43ab01a85f0",
+  "expected_html_sha256": "27c0d4308d038f73a9000aa3a9b6e05b99086bd7cae85824f512d273df524791",
+  "expected_card_count": 130,
+  "counts": {"new":2,"updated":0,"merged":0,"deduplicated":0},
+  "event_keys": [
+    "amazon-global-test-once-electronics|open-electronics-testing-for-sixteen-marketplaces|CA+MX+US|2026-11-13",
+    "amazon-brand-store-peak-event-content|tighten-trademark-promotion-and-featured-deals-rules|CA+MX+US|unknown"
+  ],
+  "tests": {"node_test":"22 passed","registry_valid":true,"render_matches":true,"daily_briefing_absent":true}
+}
