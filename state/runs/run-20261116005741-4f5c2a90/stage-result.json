@@ -1,0 +1,33 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 3,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-ca-fba-returnless-resolutions|open-seller-enrollment-for-returnless-refunds|CA|2026-11-06",
+    "amazon-ca-international-seller-returns|require-local-return-option-or-auto-returnless-refund|CA|2026-11-23",
+    "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31"
+  ],
+  "updated_event_keys": [],
+  "decisions": [
+    {
+      "event_key": "amazon-ca-fba-returnless-resolutions|open-seller-enrollment-for-returnless-refunds|CA|2026-11-06",
+      "action": "new",
+      "review": "已逐条检索并语义复核现有130条事件的returnless、退货、退款与加拿大FBA相关记录，现库没有加拿大FBA卖家按全部或指定ASIN主动加入Returnless Resolutions的事件。来源链接和2026-11-06生效日也均未出现。"
+    },
+    {
+      "event_key": "amazon-ca-international-seller-returns|require-local-return-option-or-auto-returnless-refund|CA|2026-11-23",
+      "action": "new",
+      "review": "已逐条比对现有事件的event_key、退货标题语义、规范化来源链接和生效日期；现库没有2026-11-23加拿大境外自配送退货规则，也没有CAD 25自动免退货退款或48小时标签要求。CrossNow为同一官方事项的聚合线索，合并来源而不另建卡片。"
+    },
+    {
+      "event_key": "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31",
+      "action": "new",
+      "review": "已检索现有130条事件的Unified Reporting、旧报告中心、saved/scheduled reports、12月31日及相关来源链接；现库仅有统一报告分析功能和AI分析Beta，没有旧报告页面停用、数据删除与迁移截止事项。"
+    }
+  ]
+}

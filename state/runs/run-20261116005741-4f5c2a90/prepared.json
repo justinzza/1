@@ -1,0 +1,19 @@
+{
+  "run_id": "run-20261116005741-4f5c2a90",
+  "status": "prepared",
+  "prepared_at": "2026-11-16T01:02:12.000Z",
+  "radar_state_lease_commit": "63a26532e98ac449573d4334822b051730ca9f8b",
+  "main_base_commit": "2871217cb0b3ab6e34043c7bae6adacc5d3613ce",
+  "base_registry_digest": "3921560e2ad4114379e492ff61ce215e30a7aba584c1ccc1838b54697d2f1877",
+  "expected_registry_digest": "0288c3a76a9bd9d273f87317a74a07862b4204aeb0c9b87f222fac3234d01091",
+  "expected_content_digest": "7bb9768c1536b5bc94c9ab8cce37f71b8e11255ccf5c0275fb6faebdcca59516",
+  "expected_html_sha256": "4d07a7842d3d3953a707a6385b9cbc4e4d5f1429dc30ae4e34aac96261e9fb20",
+  "expected_card_count": 133,
+  "counts": {"new":3,"updated":0,"merged":0,"deduplicated":0},
+  "event_keys": [
+    "amazon-ca-fba-returnless-resolutions|open-seller-enrollment-for-returnless-refunds|CA|2026-11-06",
+    "amazon-ca-international-seller-returns|require-local-return-option-or-auto-returnless-refund|CA|2026-11-23",
+    "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31"
+  ],
+  "tests": {"node_test":"22 passed","registry_valid":true,"render_matches":true,"daily_briefing_absent":true}
+}
