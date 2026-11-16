@@ -1,8 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-global-test-once-electronics|open-electronics-testing-for-sixteen-marketplaces|CA+MX+US|2026-11-13",
-    "amazon-brand-store-peak-event-content|tighten-trademark-promotion-and-featured-deals-rules|CA+MX+US|unknown"
+    "amazon-ca-international-seller-returns|require-local-return-option-or-auto-returnless-refund|CA|2026-11-23",
+    "amazon-ca-fba-returnless-resolutions|open-seller-enrollment-for-returnless-refunds|CA|2026-11-06",
+    "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,31 +12,38 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "已按公开可访问范围核验US、CA、MX Seller Central公告、Amazon Global Selling、Amazon Ads、CPSC、Health Canada、FTC、PROFECO及既定行业媒体；industry_wechat_ca与industry_wechat_mx均对15个include_source_ids逐项追加站点词检索。部分Seller Central登录后内容、公众号正文、行业站点及监管入口只能取得公开索引、搜索摘要、无结果或受限页面，不能声称完整检查且不推进成功游标；2026年8月29—30日补查仍未完整完成。汽车用品未获得同一ASIN、变体、地域及税费/运费口径的三站可比快照，本次不判断价格、Coupon、BSR、销量或关键词变化。",
+  "coverage_note": "已在公开可访问范围核验US、CA、MX Seller Central、Amazon Ads、Amazon Global Selling、CPSC、FTC、Health Canada、PROFECO及既定行业媒体；industry_wechat_ca与industry_wechat_mx均逐一对15个include_source_ids追加站点词检索。Seller Central登录后内容、部分行业站点和公众号正文只能取得公开索引、搜索摘要、空结果或受限页面，不能声称完整检查，来源成功游标与2026年8月29—30日待补查标记不推进。汽车用品搜索受Amazon robots限制，第三方结果缺少同站点、同ASIN、同变体、同地域和税费/运费口径的可比快照，本次不判断价格、Coupon、BSR、销量或关键词变化。Amazon Ads停用日期的公开官方索引与近期行业报道存在冲突，按更早的官方公开日期提示并要求后台复核。",
   "action_items": [
     {
-      "title": "确认电子电器ASIN的GTO首批资格",
-      "detail": "按ASIN、整机与电池标准向接入实验室获取美加墨目标站点的书面测试方案，另行核对清关、标签、运输和当地准入。",
-      "due": "本周",
-      "event_key": "amazon-global-test-once-electronics|open-electronics-testing-for-sixteen-marketplaces|CA+MX+US|2026-11-13"
+      "title": "在11月23日前完成加拿大境外自配送退货审计",
+      "detail": "核对加拿大本地退货地址；按CAD 25门槛重算低货值订单，并建立48小时内预付标签或免退货退款流程。",
+      "due": "2026-11-23前",
+      "event_key": "amazon-ca-international-seller-returns|require-local-return-option-or-auto-returnless-refund|CA|2026-11-23"
     },
     {
-      "title": "清理Brand Store大促违规内容",
-      "detail": "审计页面名、导航、Hero image及图片文字，移除Amazon商标、具体折扣和紧迫性文案；促销只使用置顶Featured Deals widget。",
-      "due": "下次提交审核前",
-      "event_key": "amazon-brand-store-peak-event-content|tighten-trademark-promotion-and-featured-deals-rules|CA+MX+US|unknown"
+      "title": "按ASIN试点加拿大FBA Returnless Resolutions",
+      "detail": "比较货值、退货处理/仓储/移除费、可二次销售率和欺诈风险，只对净收益为正的ASIN启用并保存完整清单版本。",
+      "due": "本周",
+      "event_key": "amazon-ca-fba-returnless-resolutions|open-seller-enrollment-for-returnless-refunds|CA|2026-11-06"
+    },
+    {
+      "title": "备份并迁移三站Amazon Ads旧报表",
+      "detail": "在12月17日前导出旧报告定义和历史数据，迁移至Unified Reporting后逐字段核对，并以更早的12月31日完成为安全边界。",
+      "due": "2026-12-17前",
+      "event_key": "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-15",
-  "content_updated_at": "2026-11-15T01:01:14.000Z",
+  "report_date": "2026-11-16",
+  "content_updated_at": "2026-11-16T01:02:12.000Z",
   "new_event_keys": [
-    "amazon-global-test-once-electronics|open-electronics-testing-for-sixteen-marketplaces|CA+MX+US|2026-11-13",
-    "amazon-brand-store-peak-event-content|tighten-trademark-promotion-and-featured-deals-rules|CA+MX+US|unknown"
+    "amazon-ca-fba-returnless-resolutions|open-seller-enrollment-for-returnless-refunds|CA|2026-11-06",
+    "amazon-ca-international-seller-returns|require-local-return-option-or-auto-returnless-refund|CA|2026-11-23",
+    "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 2,
+    "new": 3,
     "updated": 0,
     "merged": 0,
     "deduplicated": 0

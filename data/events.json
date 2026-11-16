@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-15T01:01:14.000Z",
+  "content_updated_at": "2026-11-16T01:02:12.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -7560,6 +7560,164 @@
       "event_key": "amazon-brand-store-peak-event-content|tighten-trademark-promotion-and-featured-deals-rules|CA+MX+US|unknown",
       "id": "evt-1dbab7ff37ab52e4",
       "primary_source_url": "https://advertising.amazon.com/library/guides/black-friday-and-cyber-monday-advertising-tips"
+    },
+    {
+      "subject_key": "amazon-ca-fba-returnless-resolutions",
+      "action_key": "open-seller-enrollment-for-returnless-refunds",
+      "marketplaces": [
+        "CA"
+      ],
+      "effective_date": "2026-11-06",
+      "deadline": null,
+      "title": "Amazon加拿大站开放FBA Returnless Resolutions：卖家可按ASIN启用免退货退款",
+      "summary": "Amazon加拿大Seller Central官方公告确认，自2026年11月6日起，加拿大站FBA卖家可加入FBA Returnless Resolutions，退款后由买家保留商品。卖家可对全部ASIN启用，或上传最多10,000个ASIN的CSV清单按商品启用；未列入清单的ASIN继续要求买家退回Amazon履约中心。官方提示，该功能可能减少退货处理、仓储与移除成本，但是否适合应按商品售价、毛利和退货原因判断。",
+      "impact": "加拿大FBA卖家可以针对低货值、回运与处理成本较高的商品减少实物退回，但启用后会同时损失可二次销售的库存价值；公告提到售价低于CAD 100的商品可能更具成本优势，不代表CAD 100以内商品都会自动免退货，也不能套用到US或MX。",
+      "action": "在加拿大Seller Central进入Fulfilment by Amazon设置，先按ASIN测算商品成本、FBA退货处理费、仓储/移除费、可二次销售率与欺诈风险；仅对净收益为正的低风险ASIN试点。若按清单启用，每次修改都上传完整ASIN列表并保存版本、启用时间和退款结果，避免把增量清单误当全量清单。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": null,
+      "original_date_note": "Amazon.ca公开论坛页面在2026-11-16核验时显示约3天前发布，但未提供绝对时间戳；不猜日级发布日期。功能明确自2026-11-06开放，因此effective_date使用11月6日。",
+      "first_seen_at": "2026-11-16T01:02:12.000Z",
+      "last_material_update_at": "2026-11-16T01:02:12.000Z",
+      "history_dates": [
+        "2026-11-16"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/2a5952ec-fb51-4dab-a91e-ccf0da54f4f3",
+          "publisher": "Amazon Seller Central CA · News_Amazon",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-16T01:02:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/2a5952ec-fb51-4dab-a91e-ccf0da54f4f3"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-ca-fba-returnless-resolutions|open-seller-enrollment-for-returnless-refunds|CA|2026-11-06",
+      "id": "evt-ea43ed73e4d92877",
+      "primary_source_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/2a5952ec-fb51-4dab-a91e-ccf0da54f4f3"
+    },
+    {
+      "subject_key": "amazon-ca-international-seller-returns",
+      "action_key": "require-local-return-option-or-auto-returnless-refund",
+      "marketplaces": [
+        "CA"
+      ],
+      "effective_date": "2026-11-23",
+      "deadline": null,
+      "title": "Amazon加拿大站11月23日调整境外自配送退货：CAD 25及以下可自动免退货退款",
+      "summary": "Amazon加拿大Seller Central官方公告确认，自2026年11月23日起，从加拿大境外履约且未设置默认加拿大退货地址的卖家适用新退货政策：价值CAD 25及以下的退货将自动退款且无需退回；超过CAD 25时，Amazon建议卖家在48小时内提供预付退货标签或提供免退货退款。卖家同时可在Return settings按价格区间、商品类目或退货原因设置自动Returnless Resolution规则。",
+      "impact": "从中国、美国或其他境外地点向Amazon.ca买家自配送且没有加拿大本地退货地址的卖家，低货值退货可能直接形成货损；较高货值订单若不能及时给出预付标签，也会放大退款和客服风险。CAD 25门槛只适用于该加拿大境外退货场景，不能套用到加拿大FBA或US/MX。",
+      "action": "在11月23日前核对Amazon.ca默认退货地址及所有境外自配送SKU；对CAD 25及以下订单把自动免退货退款计入毛利和欺诈风险，对更高货值订单建立48小时内生成合规预付标签或批准免退货退款的值班流程。按价格、类目和退货原因设置规则前，先用历史退货数据做小范围测试并保存规则截图与变更记录。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": null,
+      "original_date_note": "Amazon.ca公开论坛页面在2026-11-16核验时显示约1周前发布，但未提供绝对时间戳；不猜日级发布日期。规则明确自2026-11-23开始。",
+      "first_seen_at": "2026-11-16T01:02:12.000Z",
+      "last_material_update_at": "2026-11-16T01:02:12.000Z",
+      "history_dates": [
+        "2026-11-16"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/3c9f642c-ae06-420a-89ea-72cc99508bd3",
+          "publisher": "Amazon Seller Central CA · News_Amazon",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-16T01:02:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/3c9f642c-ae06-420a-89ea-72cc99508bd3"
+        },
+        {
+          "url": "https://hot.ouzhou123.com/?category=platforms&tag=%E5%8C%97%E7%BE%8E",
+          "publisher": "CrossNow 跨境头条",
+          "kind": "aggregator",
+          "published_at": null,
+          "verified_at": "2026-11-16T01:02:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry_aggregator",
+          "canonical_url": "https://hot.ouzhou123.com/?category=platforms&tag=%E5%8C%97%E7%BE%8E"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-ca-international-seller-returns|require-local-return-option-or-auto-returnless-refund|CA|2026-11-23",
+      "id": "evt-43473cb9a1fe8736",
+      "primary_source_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/3c9f642c-ae06-420a-89ea-72cc99508bd3"
+    },
+    {
+      "subject_key": "amazon-ads-legacy-report-centers",
+      "action_key": "sunset-legacy-reports-and-migrate-to-unified-reporting",
+      "marketplaces": [
+        "CA",
+        "MX",
+        "US"
+      ],
+      "effective_date": "2026-12-31",
+      "deadline": "2026-12-31",
+      "title": "Amazon Ads旧报告中心将停用：美加墨广告主需迁移至Unified Reporting并备份历史数据",
+      "summary": "Amazon Ads官方帮助页显示，Sponsored ads reports与旧Amazon DSP reports页面计划于2026年12月31日停用，未迁移的已保存报告、定时报表和历史数据将被永久删除；12月17日起旧页面将停止新建和编辑、仅保留只读。迁移工具会把字段映射到Unified Reporting，但不兼容的指标或层级可能被丢弃，例如topOfSearchImpressionShare在旧报告可按关键词、Targeting与Campaign层级使用，而新报告仅支持Campaign层级。Unified Reporting已面向US、CA、MX等市场开放。",
+      "impact": "依赖旧报表做三站关键词、Placement、Search term或定时投递的团队，若不迁移和留档，可能失去历史口径与自动报表；字段层级变化也会让迁移前后数据不可直接同比。近期行业报道声称停用日已延至2027年1月31日，但当前公开官方检索仍显示12月31日，不能把延期当成已确认。",
+      "action": "立即分别在US、CA、MX Ads Console查看迁移横幅和账户实际截止日；在12月17日前导出旧报告定义、字段、时区、币种、归因窗口、历史文件和定时计划，运行迁移后逐字段对照Unified Reporting。对无法映射的关键词或Targeting层级指标建立独立备份；在官方页面与后台日期冲突时按更早的12月31日完成。",
+      "category": "ads",
+      "priority": "P0",
+      "original_published_at": "2026-10-12",
+      "original_date_note": "Amazon Ads公开帮助索引标注Updated on Oct 12, 2026，并列出2026-12-31停用；2026-11-12后的行业报道声称官方页面改为2027-01-31，但公开官方索引仍返回12月31日。本卡保守采用可直接核验的更早日期，并要求账户后台复核，不声称延期已确认。",
+      "first_seen_at": "2026-11-16T01:02:12.000Z",
+      "last_material_update_at": "2026-11-16T01:02:12.000Z",
+      "history_dates": [
+        "2026-11-16"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://advertising.amazon.com/help/GK3JZZE5QLTF8U8A",
+          "publisher": "Amazon Ads Help",
+          "kind": "official",
+          "published_at": "2026-10-12",
+          "verified_at": "2026-11-16T01:02:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://advertising.amazon.com/help/GK3JZZE5QLTF8U8A"
+        },
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new/streamline-campaign-analysis-with-unified-reporting",
+          "publisher": "Amazon Ads",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-16T01:02:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://advertising.amazon.com/resources/whats-new/streamline-campaign-analysis-with-unified-reporting"
+        },
+        {
+          "url": "https://ppc.land/amazon-advertisers-will-lose-unmigrated-reports-on-january-31-2027/",
+          "publisher": "PPC Land",
+          "kind": "industry_original",
+          "published_at": "2026-11-12",
+          "verified_at": "2026-11-16T01:02:12.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry_original",
+          "canonical_url": "https://ppc.land/amazon-advertisers-will-lose-unmigrated-reports-on-january-31-2027"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31",
+      "id": "evt-5b6e93e3d5394f88",
+      "primary_source_url": "https://advertising.amazon.com/help/GK3JZZE5QLTF8U8A"
     }
   ]
 }
