@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-16T01:02:12.000Z",
+  "content_updated_at": "2026-11-17T00:57:28.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -7718,6 +7718,131 @@
       "event_key": "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31",
       "id": "evt-5b6e93e3d5394f88",
       "primary_source_url": "https://advertising.amazon.com/help/GK3JZZE5QLTF8U8A"
+    },
+    {
+      "subject_key": "twitch-shoppable-ads",
+      "action_key": "launch-open-desktop-beta-with-amazon-cart",
+      "marketplaces": [
+        "CA",
+        "US"
+      ],
+      "effective_date": "2026-11-13",
+      "deadline": null,
+      "title": "Twitch可购物视频广告在美加开放桌面端Beta；12月将测试可跳过广告",
+      "summary": "Amazon旗下Twitch于2026年11月13日在美国和加拿大面向广告主开放in-stream shoppable ads桌面端Beta。广告以视频叠加层展示Amazon商品，用户可浏览款式、加入Amazon购物车并购买；报道还称Twitch计划在12月开放skippable ads Beta，观看超过30秒、看完较短广告或点击后才计费。",
+      "impact": "在Amazon US/CA已有可售ASIN的品牌，可把Twitch视频曝光直接连接到Amazon购物车，减少另建落地页的工作；但目前是桌面端Beta，尚不能把测试品牌的ROAS或新客数据外推为普遍效果，也不适用于墨西哥站。",
+      "action": "若目标受众与Twitch重合，先以US或CA单站、少量ASIN和独立预算测试；记录曝光、点击、加购、订单与新客口径，并与Prime Video或现有视频广告做增量对照。不要套用报道中的单一品牌ROAS案例，MX暂不启用。",
+      "category": "ads",
+      "priority": "P1",
+      "original_published_at": "2026-11-13",
+      "original_date_note": "Marketing Dive于2026-11-13报道Twitch向其分享的新品消息；未找到可公开访问的Twitch正式发布页，因此按行业原创线索收录，不标为Amazon官方确认。",
+      "first_seen_at": "2026-11-17T00:57:28.000Z",
+      "last_material_update_at": "2026-11-17T00:57:28.000Z",
+      "verification_status": "reviewed",
+      "history_dates": [
+        "2026-11-17"
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.marketingdive.com/news/twitch-debuts-shoppable-skippable-ads-as-twitchcon-feels-growing-pains/874614/",
+          "publisher": "Marketing Dive",
+          "kind": "industry_original",
+          "published_at": "2026-11-13",
+          "verified_at": "2026-11-17T00:57:28.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "verification_note": "已读取全文并核对US/CA桌面端open beta、12月skippable ads计划、计费条件及Amazon购物车路径；消息来源为Twitch向媒体分享，未提升为官方确认。",
+          "canonical_url": "https://www.marketingdive.com/news/twitch-debuts-shoppable-skippable-ads-as-twitchcon-feels-growing-pains/874614/"
+        }
+      ],
+      "event_key": "twitch-shoppable-ads|launch-open-desktop-beta-with-amazon-cart|CA+US|2026-11-13",
+      "id": "evt-09f696a24f943000",
+      "primary_source_url": "https://www.marketingdive.com/news/twitch-debuts-shoppable-skippable-ads-as-twitchcon-feels-growing-pains/874614/"
+    },
+    {
+      "subject_key": "amazon-world-product-graph",
+      "action_key": "consider-global-product-data-index-for-ai-shopping",
+      "marketplaces": [
+        "GLOBAL",
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "路透披露Amazon内部“World Product Graph”构想；Amazon称文件过时且不代表当前计划",
+      "summary": "Reuters于2026年11月13日披露其查阅的Amazon内部PR/FAQ：名为World Product Graph的构想拟整合Amazon未必销售的全球商品数据，为Alexa for Shopping等AI购物体验补充商品关系信息。Reuters无法确认项目是否或何时实施；Amazon回应称该文件为过时草案，不能据此代表当前计划，项目仍可能修改或取消。",
+      "impact": "这不是已上线功能或卖家政策，当前不产生强制操作；若未来推进，品牌官网、零售渠道与Amazon目录之间的属性、型号、变体和关系数据一致性可能更重要，也可能影响AI购物推荐与站外商品发现。",
+      "action": "不按报道日期改系统或预算；先盘点核心ASIN与品牌官网的型号、规格、变体、兼容关系和结构化数据是否一致，保留差异清单。仅在Amazon正式公告或Seller Central出现可用入口后再制定实施计划。",
+      "category": "ai",
+      "priority": "P2",
+      "original_published_at": "2026-11-13",
+      "original_date_note": "Reuters于2026-11-13独家报道；报道明确无法确认上线时间，Amazon称文件过时且不一定代表当前计划，因此effective_date保持null，不把内部草案的愿景日期当生效日。",
+      "first_seen_at": "2026-11-17T00:57:28.000Z",
+      "last_material_update_at": "2026-11-17T00:57:28.000Z",
+      "verification_status": "reviewed",
+      "history_dates": [
+        "2026-11-17"
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/",
+          "publisher": "Reuters",
+          "kind": "industry_original",
+          "published_at": "2026-11-13",
+          "verified_at": "2026-11-17T00:57:28.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "verification_note": "已读取Reuters原文，核对内部PR/FAQ、World Product Graph范围、无法确认实施时间、Amazon否认其代表当前计划以及可能修改或取消等限制。",
+          "canonical_url": "https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/"
+        }
+      ],
+      "event_key": "amazon-world-product-graph|consider-global-product-data-index-for-ai-shopping|GLOBAL+US|unknown",
+      "id": "evt-4f5018e61a17d089",
+      "primary_source_url": "https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/"
+    },
+    {
+      "subject_key": "health-canada-radon-detectors",
+      "action_key": "warn-against-inaccurate-online-devices",
+      "marketplaces": [
+        "CA"
+      ],
+      "effective_date": "2026-11-16",
+      "deadline": null,
+      "title": "Health Canada提醒线上氡检测仪准确性风险；Amazon.ca相关旧召回产品继续需停售处置",
+      "summary": "Health Canada于2026年11月16日发布公共提醒，指出线上销售的部分氡检测仪可能给出不准确读数，并汇总过去曾召回或警示的型号，其中包括在Amazon.ca销售过的产品。该页面没有宣布新的Amazon政策或新的单独召回型号，而是重申消费者应使用经C-NRPP认可的设备，并称监管部门会对发现的健康或安全风险采取执法行动。",
+      "impact": "Amazon.ca销售氡检测仪的卖家需要把旧召回与准确性要求作为持续合规事项；若产品没有可核验的性能测试或仍属于既往警示型号，继续销售可能带来下架、召回和消费者安全风险。该提醒不能扩展套用到无关检测设备或US/MX。",
+      "action": "核对Amazon.ca在售氡检测仪ASIN、型号、供应商测试材料和C-NRPP认可情况；立即停售并处置任何既往召回/警示型号，保存下架、买家通知与库存隔离记录。不要把本次提醒误报为11月16日新增召回。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-11-16",
+      "original_date_note": "Health Canada于2026-11-16发布监管提醒；它汇总旧召回并重申准确性风险，不是新的Amazon.ca平台规则或新的单独召回。",
+      "first_seen_at": "2026-11-17T00:57:28.000Z",
+      "last_material_update_at": "2026-11-17T00:57:28.000Z",
+      "verification_status": "reviewed",
+      "history_dates": [
+        "2026-11-17"
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/health-canada-warns-inaccurate-radon-detectors-sold-online",
+          "publisher": "Health Canada",
+          "kind": "regulator",
+          "published_at": "2026-11-16",
+          "verified_at": "2026-11-17T00:57:28.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取加拿大政府原文，核对发布日期、线上销售范围、Amazon.ca旧案例、C-NRPP建议及其并非新单独召回。",
+          "canonical_url": "https://recalls-rappels.canada.ca/en/alert-recall/health-canada-warns-inaccurate-radon-detectors-sold-online"
+        }
+      ],
+      "event_key": "health-canada-radon-detectors|warn-against-inaccurate-online-devices|CA|2026-11-16",
+      "id": "evt-f2acd3510cdee5e2",
+      "primary_source_url": "https://recalls-rappels.canada.ca/en/alert-recall/health-canada-warns-inaccurate-radon-detectors-sold-online"
     }
   ]
 }
