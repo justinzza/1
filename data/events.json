@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-17T00:57:28.000Z",
+  "content_updated_at": "2026-11-18T01:14:33.009Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -7843,6 +7843,112 @@
       "event_key": "health-canada-radon-detectors|warn-against-inaccurate-online-devices|CA|2026-11-16",
       "id": "evt-f2acd3510cdee5e2",
       "primary_source_url": "https://recalls-rappels.canada.ca/en/alert-recall/health-canada-warns-inaccurate-radon-detectors-sold-online"
+    },
+    {
+      "subject_key": "amazon-us-haul-distributed-fulfillment",
+      "action_key": "cross-list-selected-fba-products-and-surface-haul-in-search",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "Amazon Haul将部分本地FBA商品交叉刊登，并把相关Haul商品纳入美国站主搜索",
+      "summary": "Amazon官方Seller Central帮助页确认，Haul Distributed Fulfillment会把Amazon选择的、已存放在美国本地FBA网络中的商品交叉刊登至Haul；商品同时保留在Amazon.com主店，订单继续由本地FBA库存履约。卖家不能逐个ASIN退出，只能按账户退出该计划。Amazon于11月9日另确认，相关Haul商品现可在匹配查询时出现在Amazon主搜索结果中。",
+      "impact": "美国站低价FBA商品可能在卖家未逐个报名的情况下获得Haul额外曝光，同时也进入更直接的低价比较环境；履约费和销售佣金仍按常规FBA收取，Amazon出资的Haul促销不降低卖家净回款。该机制当前直接证据仅适用于US，不能外推到CA或MX。",
+      "action": "在Seller Central核对Haul已交叉刊登offers，逐项复核售价、毛利、品牌定位与合规资料；若整体不适合低价渠道，联系Selling Partner Support评估账户级退出，注意不能仅移除单个ASIN。将Haul流量、转化和净毛利与Amazon.com主店分开观察。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-11-09",
+      "original_date_note": "Amazon于2026-11-09公开确认Haul商品进入相关主搜索结果；Seller Central的Distributed Fulfillment帮助页未标明发布日期，因此不以抓取日代替其上线日期。",
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/help/hub/reference/external/GMULTR2SMZ6WWX57",
+          "canonical_url": "https://sellercentral.amazon.com/help/hub/reference/external/GMULTR2SMZ6WWX57",
+          "publisher": "Amazon Seller Central",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-18T01:14:33.009Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取公开帮助页，核对US适用范围、本地FBA交叉刊登、相同费用、账户级退出及Direct Fulfillment仍为邀请制。"
+        },
+        {
+          "url": "https://www.aboutamazon.com/news/retail/amazon-haul-sale-ultra-low-price-deals",
+          "canonical_url": "https://www.aboutamazon.com/news/retail/amazon-haul-sale-ultra-low-price-deals",
+          "publisher": "Amazon",
+          "kind": "official",
+          "published_at": "2026-11-09",
+          "verified_at": "2026-11-18T01:14:33.009Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取Amazon原文，核对相关Haul商品进入Amazon主搜索结果以及US退货与Haul入口说明。"
+        },
+        {
+          "url": "https://www.marketplacepulse.com/articles/amazon-has-put-four-in-ten-sellers-on-haul",
+          "canonical_url": "https://www.marketplacepulse.com/articles/amazon-has-put-four-in-ten-sellers-on-haul",
+          "publisher": "Marketplace Pulse",
+          "kind": "industry_original",
+          "published_at": "2026-11-12",
+          "verified_at": "2026-11-18T01:14:33.009Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "verification_note": "已读取行业原创，作为交叉刊登规模与卖家实际影响线索；数量不作为Amazon官方口径。"
+        }
+      ],
+      "event_key": "amazon-us-haul-distributed-fulfillment|cross-list-selected-fba-products-and-surface-haul-in-search|US|unknown",
+      "id": "evt-1d3ad69bc7b24a0f",
+      "first_seen_at": "2026-11-18T01:14:33.009Z",
+      "last_material_update_at": "2026-11-18T01:14:33.009Z",
+      "history_dates": [
+        "2026-11-18"
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "primary_source_url": "https://sellercentral.amazon.com/help/hub/reference/external/GMULTR2SMZ6WWX57"
+    },
+    {
+      "subject_key": "amazon-ads-vast-4",
+      "action_key": "support-vast-4-on-third-party-video-inventory",
+      "marketplaces": [
+        "CA",
+        "MX",
+        "US"
+      ],
+      "effective_date": "2026-09-02",
+      "deadline": null,
+      "title": "Amazon DSP在美加墨第三方视频库存支持VAST 4，自动选择兼容版本",
+      "summary": "Amazon Ads官方确认，Amazon DSP已在全球第三方publisher inventory支持VAST 4.0至4.3，并会按发布商播放器能力自动返回最高兼容版本；VAST 2/3继续受支持。Amazon自营库存（如Stores、Fire TV）仍只支持VAST 2/3，本次不能理解为所有Amazon视频库存统一升级。",
+      "impact": "使用Amazon DSP投放第三方视频库存的美加墨广告主可覆盖要求VAST 4的更多publisher，并获得更完整的跨渠道测量能力；Amazon-served campaign无需操作，但使用第三方ad server的团队需要确认VAST 4 tag与播放器兼容性。",
+      "action": "将第三方视频供应按US/CA/MX分别核对VAST版本、素材托管方式和报告字段；第三方ad server先小流量验证VAST 4 tag，Amazon自营库存继续保留VAST 2/3兼容版本，不要混用结论。",
+      "category": "ads",
+      "priority": "P2",
+      "original_published_at": "2026-09-02",
+      "original_date_note": "Amazon Ads官方发布于2026-09-02，处于首次成功基准为空时自2026-08-28开始的待补查窗口；本次为补查发现，不包装成11月18日新发布。",
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new/serve-video-ads-with-vast-4-on-third-party-supply",
+          "canonical_url": "https://advertising.amazon.com/resources/whats-new/serve-video-ads-with-vast-4-on-third-party-supply",
+          "publisher": "Amazon Ads",
+          "kind": "official",
+          "published_at": "2026-09-02",
+          "verified_at": "2026-11-18T01:14:33.009Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取Amazon Ads原文，核对VAST 4.0-4.3、第三方库存、US/CA/MX适用范围及Amazon自营库存例外。"
+        }
+      ],
+      "event_key": "amazon-ads-vast-4|support-vast-4-on-third-party-video-inventory|CA+MX+US|2026-09-02",
+      "id": "evt-db4d74eb4716787d",
+      "first_seen_at": "2026-11-18T01:14:33.009Z",
+      "last_material_update_at": "2026-11-18T01:14:33.009Z",
+      "history_dates": [
+        "2026-11-18"
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "primary_source_url": "https://advertising.amazon.com/resources/whats-new/serve-video-ads-with-vast-4-on-third-party-supply"
     }
   ]
 }

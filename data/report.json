@@ -1,9 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "twitch-shoppable-ads|launch-open-desktop-beta-with-amazon-cart|CA+US|2026-11-13",
-    "health-canada-radon-detectors|warn-against-inaccurate-online-devices|CA|2026-11-16",
-    "amazon-world-product-graph|consider-global-product-data-index-for-ai-shopping|GLOBAL+US|unknown"
+    "amazon-us-haul-distributed-fulfillment|cross-list-selected-fba-products-and-surface-haul-in-search|US|unknown",
+    "amazon-ads-vast-4|support-vast-4-on-third-party-video-inventory|CA+MX+US|2026-09-02"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,47 +11,40 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "已在公开可访问范围核验US、CA、MX Seller Central、Amazon Ads、Amazon Global Selling、CPSC、FTC、Health Canada、PROFECO及既定行业媒体；industry_wechat_ca与industry_wechat_mx均逐一对全部include_source_ids追加站点词检索。Seller Central登录后内容、部分行业站点与公众号正文只能取得公开索引、搜索摘要、空结果或受限页面，不能声称完整检查，来源成功游标及2026年8月29—30日待补查标记不推进。汽车用品检索受Amazon robots与缺少同站点、同ASIN、同变体、同地域、同税费/运费口径快照限制，本次不判断价格、Coupon、BSR、销量或关键词变化。World Product Graph仅为媒体披露的内部构想，Twitch发布未取得公开正式发布页，均按行业线索标注。",
+  "coverage_note": "已在公开可访问范围核验US、CA、MX Seller Central、Amazon Ads、Amazon Global Selling、CPSC、FTC、Health Canada、PROFECO及既定行业媒体；industry_wechat_ca与industry_wechat_mx均逐一按15个include_source_ids追加站点词检索。Seller Central登录后内容、部分行业站点与公众号正文只能取得公开索引、搜索摘要、空结果或受限页面，不能声称完整检查，来源成功游标及2026年8月29—30日待补查标记不推进。汽车用品检索受Amazon robots与缺少同站点、同ASIN、同变体、同地域、同税费/运费口径快照限制，本次不判断价格、Coupon、BSR、销量或关键词变化。VAST 4为9月官方发布的待补查发现，未包装成今日新发布。",
   "category_notes": {
-    "policy": "发现一条Health Canada官方提醒；Seller Central与监管来源未能全部直接访问。",
-    "ads": "发现Twitch美加桌面端可购物广告Beta的行业原创报道；未取得公开正式发布页。",
-    "ai": "发现World Product Graph内部构想报道；Amazon明确称草案过时且不代表当前计划。",
-    "opportunities": "汽车用品公开结果缺少可比较基线，未判定趋势变化。",
-    "competitors": "没有指定ASIN或满足同站点/变体/地域/时间口径的连续快照，未判定价格、Coupon或排名变化。"
+    "policy": "发现Amazon Haul美国站本地FBA交叉刊登与主搜索整合；部分Seller Central内容仍受登录限制。",
+    "ads": "补查确认Amazon DSP第三方视频库存VAST 4支持，适用US/CA/MX；今日未发现更晚的可靠Amazon Ads增量。",
+    "ai": "今日无重要增量；公开结果中的Alexa与World Product Graph变化已在事件库。",
+    "opportunities": "汽车用品公开结果缺少可比较基线，未判定关键词或类目趋势变化。",
+    "competitors": "没有指定ASIN或满足同站点、变体、地域、时间、税费/运费口径的连续快照，未判定价格、Coupon或排名变化。"
   },
   "action_items": [
     {
-      "title": "评估Twitch美加可购物广告小规模测试",
-      "detail": "仅对US/CA已有可售ASIN、受众匹配的商品建立独立预算和增量衡量；MX不套用。",
+      "title": "核对美国站Haul交叉刊登清单",
+      "detail": "检查已被Amazon选择的FBA offers、毛利和品牌定位；不适合时评估账户级退出，不能按单个ASIN退出。",
       "due": "本周",
-      "event_key": "twitch-shoppable-ads|launch-open-desktop-beta-with-amazon-cart|CA+US|2026-11-13"
+      "event_key": "amazon-us-haul-distributed-fulfillment|cross-list-selected-fba-products-and-surface-haul-in-search|US|unknown"
     },
     {
-      "title": "审计Amazon.ca氡检测仪合规状态",
-      "detail": "核对型号、C-NRPP认可与旧召回清单；停售既往警示型号，并保存通知和库存隔离记录。",
-      "due": "立即",
-      "event_key": "health-canada-radon-detectors|warn-against-inaccurate-online-devices|CA|2026-11-16"
-    },
-    {
-      "title": "校准品牌官网与Amazon目录数据",
-      "detail": "先记录型号、规格、变体与兼容关系差异；等待World Product Graph官方确认后再调整系统。",
-      "due": "本月",
-      "event_key": "amazon-world-product-graph|consider-global-product-data-index-for-ai-shopping|GLOBAL+US|unknown"
+      "title": "验证Amazon DSP第三方视频VAST兼容",
+      "detail": "按US/CA/MX拆分第三方视频供应，小流量核验VAST 4 tag；Amazon自营库存继续保留VAST 2/3兼容。",
+      "due": "本周",
+      "event_key": "amazon-ads-vast-4|support-vast-4-on-third-party-video-inventory|CA+MX+US|2026-09-02"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-17",
-  "content_updated_at": "2026-11-17T00:57:28.000Z",
+  "report_date": "2026-11-18",
+  "content_updated_at": "2026-11-18T01:14:33.009Z",
   "new_event_keys": [
-    "twitch-shoppable-ads|launch-open-desktop-beta-with-amazon-cart|CA+US|2026-11-13",
-    "amazon-world-product-graph|consider-global-product-data-index-for-ai-shopping|GLOBAL+US|unknown",
-    "health-canada-radon-detectors|warn-against-inaccurate-online-devices|CA|2026-11-16"
+    "amazon-us-haul-distributed-fulfillment|cross-list-selected-fba-products-and-surface-haul-in-search|US|unknown",
+    "amazon-ads-vast-4|support-vast-4-on-third-party-video-inventory|CA+MX+US|2026-09-02"
   ],
   "updated_event_keys": [],
   "counts": {
-    "new": 3,
+    "new": 2,
     "updated": 0,
     "merged": 0,
-    "deduplicated": 6
+    "deduplicated": 4
   }
 }
