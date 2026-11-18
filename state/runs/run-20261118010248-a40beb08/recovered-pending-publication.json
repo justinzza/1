@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261118010248-a40beb08",
+  "recovered_pending_run_id": "run-20261117005728-a3c91e6b",
+  "recovered_at": "2026-11-18T01:04:51.885Z",
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "3a530253a09de84360a0a7a5f4328ec78b90cb42",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "0c69174a3c85dcca5e3a31a22c4c7a9280c1a6d12c706df3af7894f3ffc44f21",
+    "observed_digest": "0c69174a3c85dcca5e3a31a22c4c7a9280c1a6d12c706df3af7894f3ffc44f21",
+    "verified_at": "2026-11-18T01:04:51.885Z",
+    "expected_summary": {
+      "cards": 136,
+      "new": 3,
+      "updated": 0,
+      "merged": 0,
+      "deduplicated": 6,
+      "three_market_cards": 129,
+      "daily_briefing_present": false
+    },
+    "observed_summary": {
+      "cards": 136,
+      "three_market_cards": 129,
+      "new_cards_visible": 3,
+      "daily_briefing_present": false,
+      "production_content_verified": true,
+      "report_date": "2026-11-17",
+      "html_length": 368443
+    },
+    "summary": "GitHub精确提交的Vercel状态为success；正式域名完整页面data-content-digest与预期一致，三条新增卡片可见，129条三站事件，未恢复DAILY BRIEFING/分类摘要。"
+  },
+  "main_commit": "3a530253a09de84360a0a7a5f4328ec78b90cb42",
+  "result": "verified",
+  "cursor_effect": "none; prior source statuses were public_search_only"
+}
