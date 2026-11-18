@@ -1,0 +1,359 @@
+{
+  "base_digest": "ebba4710be1c6f18fad84abe89aab713508163192e70a54aa3cf47ad2ce4c67d",
+  "checked_at": "2026-11-18T01:14:33.009Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-haul-distributed-fulfillment",
+        "action_key": "cross-list-selected-fba-products-and-surface-haul-in-search",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": null,
+        "deadline": null,
+        "title": "Amazon Haul将部分本地FBA商品交叉刊登，并把相关Haul商品纳入美国站主搜索",
+        "summary": "Amazon官方Seller Central帮助页确认，Haul Distributed Fulfillment会把Amazon选择的、已存放在美国本地FBA网络中的商品交叉刊登至Haul；商品同时保留在Amazon.com主店，订单继续由本地FBA库存履约。卖家不能逐个ASIN退出，只能按账户退出该计划。Amazon于11月9日另确认，相关Haul商品现可在匹配查询时出现在Amazon主搜索结果中。",
+        "impact": "美国站低价FBA商品可能在卖家未逐个报名的情况下获得Haul额外曝光，同时也进入更直接的低价比较环境；履约费和销售佣金仍按常规FBA收取，Amazon出资的Haul促销不降低卖家净回款。该机制当前直接证据仅适用于US，不能外推到CA或MX。",
+        "action": "在Seller Central核对Haul已交叉刊登offers，逐项复核售价、毛利、品牌定位与合规资料；若整体不适合低价渠道，联系Selling Partner Support评估账户级退出，注意不能仅移除单个ASIN。将Haul流量、转化和净毛利与Amazon.com主店分开观察。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": "2026-11-09",
+        "original_date_note": "Amazon于2026-11-09公开确认Haul商品进入相关主搜索结果；Seller Central的Distributed Fulfillment帮助页未标明发布日期，因此不以抓取日代替其上线日期。",
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/help/hub/reference/external/GMULTR2SMZ6WWX57",
+            "canonical_url": "https://sellercentral.amazon.com/help/hub/reference/external/GMULTR2SMZ6WWX57",
+            "publisher": "Amazon Seller Central",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-18T01:14:33.009Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取公开帮助页，核对US适用范围、本地FBA交叉刊登、相同费用、账户级退出及Direct Fulfillment仍为邀请制。"
+          },
+          {
+            "url": "https://www.aboutamazon.com/news/retail/amazon-haul-sale-ultra-low-price-deals",
+            "canonical_url": "https://www.aboutamazon.com/news/retail/amazon-haul-sale-ultra-low-price-deals",
+            "publisher": "Amazon",
+            "kind": "official",
+            "published_at": "2026-11-09",
+            "verified_at": "2026-11-18T01:14:33.009Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取Amazon原文，核对相关Haul商品进入Amazon主搜索结果以及US退货与Haul入口说明。"
+          },
+          {
+            "url": "https://www.marketplacepulse.com/articles/amazon-has-put-four-in-ten-sellers-on-haul",
+            "canonical_url": "https://www.marketplacepulse.com/articles/amazon-has-put-four-in-ten-sellers-on-haul",
+            "publisher": "Marketplace Pulse",
+            "kind": "industry_original",
+            "published_at": "2026-11-12",
+            "verified_at": "2026-11-18T01:14:33.009Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "已读取行业原创，作为交叉刊登规模与卖家实际影响线索；数量不作为Amazon官方口径。"
+          }
+        ],
+        "event_key": "amazon-us-haul-distributed-fulfillment|cross-list-selected-fba-products-and-surface-haul-in-search|US|unknown",
+        "id": "evt-1d3ad69bc7b24a0f",
+        "first_seen_at": "2026-11-18T01:14:33.009Z",
+        "last_material_update_at": "2026-11-18T01:14:33.009Z",
+        "history_dates": [
+          "2026-11-18"
+        ],
+        "key_aliases": [],
+        "revisions": [],
+        "primary_source_url": "https://sellercentral.amazon.com/help/hub/reference/external/GMULTR2SMZ6WWX57"
+      },
+      "dedupe_review": {
+        "compared_digest": "ebba4710be1c6f18fad84abe89aab713508163192e70a54aa3cf47ad2ce4c67d",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比对event_key、标题语义、规范化来源链接和生效日期；事件库及本批均无同一变化。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-vast-4",
+        "action_key": "support-vast-4-on-third-party-video-inventory",
+        "marketplaces": [
+          "CA",
+          "MX",
+          "US"
+        ],
+        "effective_date": "2026-09-02",
+        "deadline": null,
+        "title": "Amazon DSP在美加墨第三方视频库存支持VAST 4，自动选择兼容版本",
+        "summary": "Amazon Ads官方确认，Amazon DSP已在全球第三方publisher inventory支持VAST 4.0至4.3，并会按发布商播放器能力自动返回最高兼容版本；VAST 2/3继续受支持。Amazon自营库存（如Stores、Fire TV）仍只支持VAST 2/3，本次不能理解为所有Amazon视频库存统一升级。",
+        "impact": "使用Amazon DSP投放第三方视频库存的美加墨广告主可覆盖要求VAST 4的更多publisher，并获得更完整的跨渠道测量能力；Amazon-served campaign无需操作，但使用第三方ad server的团队需要确认VAST 4 tag与播放器兼容性。",
+        "action": "将第三方视频供应按US/CA/MX分别核对VAST版本、素材托管方式和报告字段；第三方ad server先小流量验证VAST 4 tag，Amazon自营库存继续保留VAST 2/3兼容版本，不要混用结论。",
+        "category": "ads",
+        "priority": "P2",
+        "original_published_at": "2026-09-02",
+        "original_date_note": "Amazon Ads官方发布于2026-09-02，处于首次成功基准为空时自2026-08-28开始的待补查窗口；本次为补查发现，不包装成11月18日新发布。",
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/resources/whats-new/serve-video-ads-with-vast-4-on-third-party-supply",
+            "canonical_url": "https://advertising.amazon.com/resources/whats-new/serve-video-ads-with-vast-4-on-third-party-supply",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": "2026-09-02",
+            "verified_at": "2026-11-18T01:14:33.009Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取Amazon Ads原文，核对VAST 4.0-4.3、第三方库存、US/CA/MX适用范围及Amazon自营库存例外。"
+          }
+        ],
+        "event_key": "amazon-ads-vast-4|support-vast-4-on-third-party-video-inventory|CA+MX+US|2026-09-02",
+        "id": "evt-db4d74eb4716787d",
+        "first_seen_at": "2026-11-18T01:14:33.009Z",
+        "last_material_update_at": "2026-11-18T01:14:33.009Z",
+        "history_dates": [
+          "2026-11-18"
+        ],
+        "key_aliases": [],
+        "revisions": [],
+        "primary_source_url": "https://advertising.amazon.com/resources/whats-new/serve-video-ads-with-vast-4-on-third-party-supply"
+      },
+      "dedupe_review": {
+        "compared_digest": "ebba4710be1c6f18fad84abe89aab713508163192e70a54aa3cf47ad2ce4c67d",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已逐条比对event_key、标题语义、规范化来源链接和生效日期；事件库及本批均无同一变化。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ca-cross-border-returns",
+        "action_key": "add-automatic-returnless-rules-and-default-address-policy",
+        "marketplaces": [
+          "CA"
+        ],
+        "effective_date": "2026-11-23",
+        "deadline": null,
+        "title": "加拿大站11月23日上线自动免退货规则，并调整境外履约退货处理",
+        "summary": "Amazon加拿大站宣布，自2026年11月23日起，卖家可按价格区间、商品类别或退货原因设置automatic returnless resolution rules。同期，对从加拿大境外履约、且未设置加拿大默认退货地址的订单实施新规则：价值不超过CAD 25的退货将自动退款且无需退回；高于CAD 25时，Amazon建议卖家在48小时内提供预付退货标签，或选择免退货退款。",
+        "impact": "从境外向加拿大买家发货且没有本地默认退货地址的卖家，将面临CAD 25以下订单自动免退货退款的直接损失；高于阈值的订单也需要更快的48小时退货响应。自动规则若设置过宽，可能扩大退款损耗，但合理按品类与原因配置可降低逆向物流成本。",
+        "action": "立即检查加拿大站Return settings中的默认退货地址与Resolutions设置；按毛利、回运成本、危险品属性和欺诈风险划分CAD价格区间，谨慎建立returnless规则。为CAD 25以上订单准备48小时内可用的预付标签流程，并对境外履约SKU测算退货损耗。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-07",
+        "original_date_note": "Amazon加拿大站News_Amazon于2026-11-07发布公告，规则于2026-11-23生效。",
+        "first_seen_at": "2026-11-07T01:06:02.000Z",
+        "last_material_update_at": "2026-11-07T01:06:02.000Z",
+        "history_dates": [
+          "2026-11-07"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/3c9f642c-ae06-420a-89ea-72cc99508bd3",
+            "publisher": "Amazon Seller Central Canada / News_Amazon",
+            "kind": "official",
+            "published_at": "2026-11-07",
+            "verified_at": "2026-11-07T01:06:02.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已核对官方发帖身份、11月23日生效、CAD 25阈值、48小时建议及规则配置入口。",
+            "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/3c9f642c-ae06-420a-89ea-72cc99508bd3"
+          }
+        ],
+        "event_key": "amazon-ca-cross-border-returns|add-automatic-returnless-rules-and-default-address-policy|CA|2026-11-23",
+        "id": "evt-bf9f7cbc209703f6",
+        "primary_source_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/3c9f642c-ae06-420a-89ea-72cc99508bd3"
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "ebba4710be1c6f18fad84abe89aab713508163192e70a54aa3cf47ad2ce4c67d",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-ca-cross-border-returns|add-automatic-returnless-rules-and-default-address-policy|CA|2026-11-23",
+        "reason": "检索结果与既有事件主体、变化动作、站点及日期相同，保留原卡片并排除重复。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-us-listing-protection",
+        "action_key": "keep-most-aha-listings-active-during-compliance-review",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": null,
+        "deadline": "2026-12-31",
+        "title": "Amazon计划年底前向全美AHA卖家开放Listing Protection，合规复核期间多数商品保持在售",
+        "summary": "Amazon在Accelerate 2026官方回顾中公布，Listing Protection计划于2026年底前覆盖美国所有Account Health Assurance（AHA）卖家，并在2027年扩展至全球。符合条件的Listing被系统标记潜在违规时，Amazon将给出处理步骤或申诉入口；在多数情况下，商品会在Amazon作出决定前保持在售。官方没有公布美国站的单一启用日，也未确认加拿大或墨西哥站的具体上线时间。",
+        "impact": "这项机制可降低AHA卖家因待审合规问题而立即丢失流量和销售的风险，但它并非违规豁免，也不保证所有Listing在调查期间持续销售。当前直接证据只确认美国AHA卖家在年底前覆盖，不能把2027年全球路线提前当作CA或MX已上线。",
+        "action": "美国站团队先在Account Health页面确认账号是否已具备AHA资格，并记录Listing Protection入口、受保护ASIN、问题类型、整改步骤和申诉时限；对被标记商品仍按通知要求及时补交资料，不因Listing暂时在线而延迟处理。加拿大与墨西哥团队只记录官方路线，不改变现有合规流程，待当地明确上线证据后再更新。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": "2026-09-29",
+        "original_date_note": "Amazon Selling Partners官方Accelerate 2026回顾发布于2026-09-29；原文只给出美国站在2026年底前完成覆盖的路线节点，没有单一启用日，因此effective_date保留null，并把2026-12-31作为覆盖目标截止节点。2027年全球扩展未给出CA/MX落地日，本卡当前仅标记US。",
+        "first_seen_at": "2026-10-19T01:16:00.000Z",
+        "last_material_update_at": "2026-10-19T01:16:00.000Z",
+        "history_dates": [
+          "2026-10-19"
+        ],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://sellingpartners.aboutamazon.com/accelerate-2026-recap",
+            "publisher": "Amazon Selling Partners",
+            "kind": "official",
+            "published_at": "2026-09-29",
+            "verified_at": "2026-10-19T01:16:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://sellingpartners.aboutamazon.com/accelerate-2026-recap"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": [],
+        "event_key": "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown",
+        "id": "evt-a8c79b7db67386b7",
+        "primary_source_url": "https://sellingpartners.aboutamazon.com/accelerate-2026-recap"
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "ebba4710be1c6f18fad84abe89aab713508163192e70a54aa3cf47ad2ce4c67d",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown",
+        "reason": "检索结果与既有事件主体、变化动作、站点及日期相同，保留原卡片并排除重复。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-us-2027-referral-and-fba-fees",
+        "action_key": "raise-fulfillment-fees-and-simplify-storage-fees",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2027-01-15",
+        "deadline": null,
+        "title": "Amazon美国站公布2027年费用调整：FBA履约费平均每件增加0.19美元，仓储费结构同步简化",
+        "summary": "Amazon于2026年11月5日公布2027年美国站Referral与FBA费用更新，多数变化于2027年1月15日生效。FBA履约费平均每件增加0.19美元，约占平均商品售价的0.8%，但具体SKU可能上涨或下降；FBA fuel and logistics surcharge维持不变。自2027年2月1日起取消storage utilization surcharge，并把aged inventory surcharge并入按库龄计费的月仓储费；周转不足6个月的库存费用持平或下降，老龄库存费用提高。low-inventory-level fee也改为仅在库存低于28天供应量时适用，并同时参考评估日前后各4周的实际发货。",
+        "impact": "美国站FBA卖家的2027年单位履约与仓储成本会按尺寸、售价、库龄和周转速度分化，不能用0.19美元平均值直接套算全部SKU。汽车用品中的长尺寸、重件、低周转变体和老龄库存更可能出现毛利压力；CA和MX未在本公告适用范围内，不能跨站套用。",
+        "action": "立即导出美国站Fee Change Comparison dashboard与Profit Analytics数据，按ASIN逐项重算2027年1月15日后的履约成本；再以2027年2月1日为切点，分别模拟仓储库龄、低库存费、MCF和AWD变化。优先复核燃油管、CPE编织油管、AN接头和排气卡箍的尺寸分段、售价与库存周转，并在Q4补货决策中控制可能进入老龄费率的库存。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-05",
+        "original_date_note": "Amazon官方文章发表于2026-11-05；多数费用变化于2027-01-15生效，storage utilization surcharge、aged inventory fee整合及low-inventory-level fee调整于2027-02-01生效。卡片以多数变化的生效日建档，并在正文单独保留2月1日边界。",
+        "first_seen_at": "2026-11-06T01:04:22.000Z",
+        "last_material_update_at": "2026-11-06T01:04:22.000Z",
+        "history_dates": [
+          "2026-11-06"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellingpartners.aboutamazon.com/update-to-us-referral-and-fulfillment-by-amazon-fees-for-2027",
+            "publisher": "Amazon Selling Partners",
+            "kind": "official",
+            "published_at": "2026-11-05",
+            "verified_at": "2026-11-06T01:04:22.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "已读取Amazon官方全文，核对平均履约费变化、附加费不变、1月15日与2月1日两组生效日期及仓储和低库存费逻辑。",
+            "canonical_url": "https://sellingpartners.aboutamazon.com/update-to-us-referral-and-fulfillment-by-amazon-fees-for-2027"
+          }
+        ],
+        "event_key": "amazon-us-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|US|2027-01-15",
+        "id": "evt-0be0ef7d14be99af",
+        "primary_source_url": "https://sellingpartners.aboutamazon.com/update-to-us-referral-and-fulfillment-by-amazon-fees-for-2027"
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "ebba4710be1c6f18fad84abe89aab713508163192e70a54aa3cf47ad2ce4c67d",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-us-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|US|2027-01-15",
+        "reason": "检索结果与既有事件主体、变化动作、站点及日期相同，保留原卡片并排除重复。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-legacy-report-centers",
+        "action_key": "sunset-legacy-reports-and-migrate-to-unified-reporting",
+        "marketplaces": [
+          "CA",
+          "MX",
+          "US"
+        ],
+        "effective_date": "2026-12-31",
+        "deadline": "2026-12-31",
+        "title": "Amazon Ads旧报告中心将停用：美加墨广告主需迁移至Unified Reporting并备份历史数据",
+        "summary": "Amazon Ads官方帮助页显示，Sponsored ads reports与旧Amazon DSP reports页面计划于2026年12月31日停用，未迁移的已保存报告、定时报表和历史数据将被永久删除；12月17日起旧页面将停止新建和编辑、仅保留只读。迁移工具会把字段映射到Unified Reporting，但不兼容的指标或层级可能被丢弃，例如topOfSearchImpressionShare在旧报告可按关键词、Targeting与Campaign层级使用，而新报告仅支持Campaign层级。Unified Reporting已面向US、CA、MX等市场开放。",
+        "impact": "依赖旧报表做三站关键词、Placement、Search term或定时投递的团队，若不迁移和留档，可能失去历史口径与自动报表；字段层级变化也会让迁移前后数据不可直接同比。近期行业报道声称停用日已延至2027年1月31日，但当前公开官方检索仍显示12月31日，不能把延期当成已确认。",
+        "action": "立即分别在US、CA、MX Ads Console查看迁移横幅和账户实际截止日；在12月17日前导出旧报告定义、字段、时区、币种、归因窗口、历史文件和定时计划，运行迁移后逐字段对照Unified Reporting。对无法映射的关键词或Targeting层级指标建立独立备份；在官方页面与后台日期冲突时按更早的12月31日完成。",
+        "category": "ads",
+        "priority": "P0",
+        "original_published_at": "2026-10-12",
+        "original_date_note": "Amazon Ads公开帮助索引标注Updated on Oct 12, 2026，并列出2026-12-31停用；2026-11-12后的行业报道声称官方页面改为2027-01-31，但公开官方索引仍返回12月31日。本卡保守采用可直接核验的更早日期，并要求账户后台复核，不声称延期已确认。",
+        "first_seen_at": "2026-11-16T01:02:12.000Z",
+        "last_material_update_at": "2026-11-16T01:02:12.000Z",
+        "history_dates": [
+          "2026-11-16"
+        ],
+        "verification_status": "reviewed",
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/help/GK3JZZE5QLTF8U8A",
+            "publisher": "Amazon Ads Help",
+            "kind": "official",
+            "published_at": "2026-10-12",
+            "verified_at": "2026-11-16T01:02:12.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://advertising.amazon.com/help/GK3JZZE5QLTF8U8A"
+          },
+          {
+            "url": "https://advertising.amazon.com/resources/whats-new/streamline-campaign-analysis-with-unified-reporting",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-16T01:02:12.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "canonical_url": "https://advertising.amazon.com/resources/whats-new/streamline-campaign-analysis-with-unified-reporting"
+          },
+          {
+            "url": "https://ppc.land/amazon-advertisers-will-lose-unmigrated-reports-on-january-31-2027/",
+            "publisher": "PPC Land",
+            "kind": "industry_original",
+            "published_at": "2026-11-12",
+            "verified_at": "2026-11-16T01:02:12.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry_original",
+            "canonical_url": "https://ppc.land/amazon-advertisers-will-lose-unmigrated-reports-on-january-31-2027"
+          }
+        ],
+        "key_aliases": [],
+        "revisions": [],
+        "event_key": "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31",
+        "id": "evt-5b6e93e3d5394f88",
+        "primary_source_url": "https://advertising.amazon.com/help/GK3JZZE5QLTF8U8A"
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "ebba4710be1c6f18fad84abe89aab713508163192e70a54aa3cf47ad2ce4c67d",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31",
+        "reason": "检索结果与既有事件主体、变化动作、站点及日期相同，保留原卡片并排除重复。"
+      }
+    }
+  ],
+  "report": {}
+}

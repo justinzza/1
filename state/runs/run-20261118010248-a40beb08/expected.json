@@ -1,0 +1,64 @@
+{
+  "run_id": "run-20261118010248-a40beb08",
+  "checked_at": "2026-11-18T01:14:33.009Z",
+  "base_main_sha": "3a530253a09de84360a0a7a5f4328ec78b90cb42",
+  "expected_content_digest": "eb2d85a95b9f5d5e3556c9b88083827c78e468d028eec3600a271249ab6eec7e",
+  "result": {
+    "material_changed": true,
+    "metadata_changed": true,
+    "counts": {
+      "new": 2,
+      "updated": 0,
+      "merged": 0,
+      "deduplicated": 4
+    },
+    "new_event_keys": [
+      "amazon-us-haul-distributed-fulfillment|cross-list-selected-fba-products-and-surface-haul-in-search|US|unknown",
+      "amazon-ads-vast-4|support-vast-4-on-third-party-video-inventory|CA+MX+US|2026-09-02"
+    ],
+    "updated_event_keys": [],
+    "decisions": [
+      {
+        "event_key": "amazon-us-haul-distributed-fulfillment|cross-list-selected-fba-products-and-surface-haul-in-search|US|unknown",
+        "action": "new",
+        "review": "四重比对无同一事件"
+      },
+      {
+        "event_key": "amazon-ads-vast-4|support-vast-4-on-third-party-video-inventory|CA+MX+US|2026-09-02",
+        "action": "new",
+        "review": "四重比对无同一事件"
+      },
+      {
+        "event_key": "amazon-ca-cross-border-returns|add-automatic-returnless-rules-and-default-address-policy|CA|2026-11-23",
+        "action": "duplicate",
+        "review": "与既有事件语义相同"
+      },
+      {
+        "event_key": "amazon-us-listing-protection|keep-most-aha-listings-active-during-compliance-review|US|unknown",
+        "action": "duplicate",
+        "review": "与既有事件语义相同"
+      },
+      {
+        "event_key": "amazon-us-2027-referral-and-fba-fees|raise-fulfillment-fees-and-simplify-storage-fees|US|2027-01-15",
+        "action": "duplicate",
+        "review": "与既有事件语义相同"
+      },
+      {
+        "event_key": "amazon-ads-legacy-report-centers|sunset-legacy-reports-and-migrate-to-unified-reporting|CA+MX+US|2026-12-31",
+        "action": "duplicate",
+        "review": "与既有事件语义相同"
+      }
+    ],
+    "snapshot": {
+      "digest": "ebba4710be1c6f18fad84abe89aab713508163192e70a54aa3cf47ad2ce4c67d",
+      "event_count": 136
+    },
+    "tests": {
+      "registry_unique": true,
+      "report_valid": true,
+      "index_consistent": true,
+      "daily_briefing_absent": true,
+      "three_market_cards": 131
+    }
+  }
+}
