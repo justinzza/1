@@ -1,10 +1,8 @@
 {
-  "run_id": "run-20261117005728-a3c91e6b",
-  "status": "released",
-  "acquired_at": "2026-11-17T00:57:28.000Z",
-  "expires_at": "2026-11-17T02:27:28.000Z",
-  "previous_radar_state_head": "8c0bc2f40dbc48325c7bcaa77f0de998c6398cc0",
-  "takeover_reason": null,
-  "released_at": "2026-11-17T01:10:03.160Z",
-  "release_reason": "finalized_publication_unverified"
+  "run_id": "run-20261118010248-a40beb08",
+  "status": "active",
+  "acquired_at": "2026-11-18T01:02:48.976Z",
+  "expires_at": "2026-11-18T02:32:48.976Z",
+  "previous_radar_state_head": "eed6e734e4571ee19a0b3c909d4da0f4e8fe341c",
+  "takeover_reason": null
 }
