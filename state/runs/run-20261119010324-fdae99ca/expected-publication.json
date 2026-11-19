@@ -1,0 +1,21 @@
+{
+  "run_id": "run-20261119010324-fdae99ca",
+  "checked_at": "2026-11-19T01:09:34.035Z",
+  "base_main_head": "487bc6319642f16ecaf5626f8fd3e8c3c1658eab",
+  "material_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-price-history|expand-pdp-history-to-30-90-365-days|CA+US|2026-11-16",
+    "amazon-product-opportunity-explorer|add-own-idea-validation-and-first-90-day-launch-plan|US|unknown"
+  ],
+  "updated_event_keys": [
+    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+  ],
+  "expected_registry_digest": "492ad047d038dfd7f7d14d95f7405338f2e69d1a237965806048233ce8a35ad6",
+  "expected_content_digest": "0b23b63b7849c92cf4257343a92a7c59e8945cd4a9e792fda5fa9018f3744c9c"
+}
