@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-18T01:14:33.009Z",
+  "content_updated_at": "2026-11-19T01:09:34.035Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -6411,26 +6411,51 @@
       "subject_key": "amazon-us-bfcm-deal-sourcing-2026",
       "action_key": "extend-deal-submission-deadline-to-november-13",
       "marketplaces": [
+        "CA",
         "US"
       ],
-      "effective_date": "2026-11-13",
+      "effective_date": "2026-11-19",
       "deadline": "2026-11-13",
-      "title": "美国站2026黑五网一Deal提报截止延至11月13日",
-      "summary": "Amazon美国站News_Amazon公告，2026年Black Friday与Cyber Monday的Deal sourcing窗口延长至11月13日。延长的是Deal提报窗口，不等同于FBA到仓截止或所有促销类型的截止日；Prime Exclusive Discounts需在Seller Central的Advertising > Price Discounts中按单独流程创建。",
-      "impact": "尚未完成Best Deal、Lightning Deal等Deal提报的美国站卖家获得补报窗口，但库存到仓、价格资格、活动费和广告节奏仍按各自规则执行。该公告不能直接套用于墨西哥站；加拿大站公开页面虽镜像展示同一公告，现有活动日历本已列11月13日，未据此把加拿大站记作本次延期变化。",
-      "action": "美国站立即在Deal dashboard逐ASIN确认资格、活动价、参考价与库存，并在11月13日前完成可用Deal提报；Prime Exclusive Discounts/Price Discounts、Coupon与广告分别核对独立截止和费用。不要因提报窗口延长而推迟FBA到仓或补货决策。",
-      "category": "ads",
+      "title": "美加站2026 Black Friday与Cyber Monday活动11月19—30日进行",
+      "summary": "Amazon美国官方活动说明确认，2026年Black Friday Week与Cyber Monday从11月19日12:01 a.m. PST开始，持续至11月30日；加拿大Seller Central公开检索结果同样列出11月19—30日活动期。此前美国站Deal sourcing已延长至11月13日；活动期与Deal提报截止、FBA到仓截止和Price Discounts/Coupon流程仍须分别管理。",
+      "impact": "美加站进入连续12天活动窗口，促销、预算、库存和价格历史需按站点独立复核；美国站官方还说明每日主题Deal会持续更新。加拿大页面正文依赖JavaScript，本次仅核验到官方公开索引摘要，因此不据此外推墨西哥站活动日期或加拿大其他规则。",
+      "action": "立即按US、CA分别核对活动中的Deal/Price Discount/Coupon状态、广告日预算与可售库存，并在每天主题Deal更新后检查转化和断货风险；活动价格先对照各站点可见的Price History，保留币种、税费与运费口径。",
+      "category": "opportunities",
       "priority": "P0",
-      "original_published_at": null,
-      "original_date_note": "公开Seller Central页面仅显示相对发布时间，未提供可独立确认的绝对发布日期；2026-11-13是Deal sourcing提报截止日，不是FBA入仓截止或统一促销生效日。",
+      "original_published_at": "2026-11-09",
+      "original_date_note": "美国About Amazon于2026-11-09发布活动日历并明确11月19—30日；加拿大Seller Central官方公开索引摘要同样显示该活动期，但页面正文需JavaScript。11月13日为此前Deal sourcing截止，不是本卡的活动开始日。",
       "first_seen_at": "2026-11-02T01:06:23.000Z",
-      "last_material_update_at": "2026-11-02T01:06:23.000Z",
+      "last_material_update_at": "2026-11-19T01:09:34.035Z",
       "history_dates": [
-        "2026-11-02"
+        "2026-11-02",
+        "2026-11-19"
       ],
       "verification_status": "reviewed",
-      "key_aliases": [],
-      "revisions": [],
+      "key_aliases": [
+        "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|CA+US|2026-11-19"
+      ],
+      "revisions": [
+        {
+          "at": "2026-11-19T01:09:34.035Z",
+          "reason": "官方活动日历补充了11月19—30日实际活动窗口，并有加拿大站官方公开索引支持同一日期；因此在原Deal提报截止卡片上扩展CA站点并更新为活动期，不新增重复卡片。",
+          "previous": {
+            "title": "美国站2026黑五网一Deal提报截止延至11月13日",
+            "summary": "Amazon美国站News_Amazon公告，2026年Black Friday与Cyber Monday的Deal sourcing窗口延长至11月13日。延长的是Deal提报窗口，不等同于FBA到仓截止或所有促销类型的截止日；Prime Exclusive Discounts需在Seller Central的Advertising > Price Discounts中按单独流程创建。",
+            "impact": "尚未完成Best Deal、Lightning Deal等Deal提报的美国站卖家获得补报窗口，但库存到仓、价格资格、活动费和广告节奏仍按各自规则执行。该公告不能直接套用于墨西哥站；加拿大站公开页面虽镜像展示同一公告，现有活动日历本已列11月13日，未据此把加拿大站记作本次延期变化。",
+            "action": "美国站立即在Deal dashboard逐ASIN确认资格、活动价、参考价与库存，并在11月13日前完成可用Deal提报；Prime Exclusive Discounts/Price Discounts、Coupon与广告分别核对独立截止和费用。不要因提报窗口延长而推迟FBA到仓或补货决策。",
+            "category": "ads",
+            "priority": "P0",
+            "marketplaces": [
+              "US"
+            ],
+            "effective_date": "2026-11-13",
+            "deadline": "2026-11-13",
+            "original_published_at": null,
+            "original_date_note": "公开Seller Central页面仅显示相对发布时间，未提供可独立确认的绝对发布日期；2026-11-13是Deal sourcing提报截止日，不是FBA入仓截止或统一促销生效日。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "sources": [
         {
           "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/18142cfc-2700-4fb5-974a-dae42a2f241a",
@@ -6453,6 +6478,28 @@
           "authority_confirmed": false,
           "verification_note": "行业汇总指向美国站并说明原截止日为10月20日；仅作为站点与旧日期的辅助线索，核心变化以官方公告为准。",
           "canonical_url": "https://www.chwang.com/daily"
+        },
+        {
+          "url": "https://www.aboutamazon.com/news/retail/amazon-black-friday-cyber-monday-deals-2026",
+          "publisher": "Amazon（About Amazon）",
+          "kind": "official",
+          "published_at": "2026-11-09",
+          "verified_at": "2026-11-19T01:09:34.035Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "官方活动页明确美站活动于2026-11-19 12:01 a.m. PST开始并持续至11月30日。",
+          "canonical_url": "https://www.aboutamazon.com/news/retail/amazon-black-friday-cyber-monday-deals-2026"
+        },
+        {
+          "url": "https://sellercentral.amazon.ca/help/hub/reference/external/G4QH4XCRWUXRJBLY",
+          "publisher": "Amazon Seller Central CA",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-19T01:09:34.035Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "公开搜索索引摘要显示加拿大站Black Friday与Cyber Monday活动期为11月19—30日；页面正文依赖JavaScript，本次未声称核验到更多加拿大规则。",
+          "canonical_url": "https://sellercentral.amazon.ca/help/hub/reference/external/G4QH4XCRWUXRJBLY"
         }
       ],
       "event_key": "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13",
@@ -7882,7 +7929,7 @@
           "verified_at": "2026-11-18T01:14:33.009Z",
           "supports_event": true,
           "authority_confirmed": true,
-          "verification_note": "已读取Amazon原文，核对相关Haul商品进入Amazon主搜索结果以及US退货与Haul入口说明。"
+          "verification_note": "已读取Amazon原文，核对相关Haul商品进入Amazon主搜��结果以及US退货与Haul入口说明。"
         },
         {
           "url": "https://www.marketplacepulse.com/articles/amazon-has-put-four-in-ten-sellers-on-haul",
@@ -7949,6 +7996,89 @@
       "key_aliases": [],
       "revisions": [],
       "primary_source_url": "https://advertising.amazon.com/resources/whats-new/serve-video-ads-with-vast-4-on-third-party-supply"
+    },
+    {
+      "subject_key": "amazon-price-history",
+      "action_key": "expand-pdp-history-to-30-90-365-days",
+      "marketplaces": [
+        "CA",
+        "US"
+      ],
+      "effective_date": "2026-11-16",
+      "deadline": null,
+      "title": "Amazon美加站向顾客展示30、90和365天Price History",
+      "summary": "Amazon官方于11月16日更新说明：Alexa for Shopping及符合条件的商品详情页可展示30、90、365天价格历史；顾客可点击价格旁的Price history入口，或询问该商品近期是否为低价。官方明确该功能向美国和加拿大所有顾客开放，但只有符合条件的商品详情页显示历史入口。",
+      "impact": "美加站消费者在Black Friday/Cyber Monday期间可直接比较最长365天历史价格，短期抬价后再打折、频繁改价或折扣缺乏历史优势更容易被识别；运营也获得公开的竞品价格历史观察入口。该能力不等于所有ASIN都有完整365天数据，也不适用于墨西哥站。",
+      "action": "活动前逐一检查美加站核心ASIN的30/90/365天Price History展示和当前折扣解释，记录站点、ASIN、变体、地域与观察时间；把可见竞品历史价格另建基线，不将首次观察写成价格变化，也不把美国历史价格套用于加拿大。",
+      "category": "competitors",
+      "priority": "P0",
+      "original_published_at": "2026-05-01",
+      "original_date_note": "官方文章最初发布于2026-05-01，并于2026-11-16更新以反映Price History的增长与扩展；本卡以明确的更新日作为本次功能范围变化日期。",
+      "first_seen_at": "2026-11-19T01:09:34.035Z",
+      "last_material_update_at": "2026-11-19T01:09:34.035Z",
+      "history_dates": [
+        "2026-11-19"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/retail/how-to-check-amazon-price-history",
+          "publisher": "Amazon（About Amazon）",
+          "kind": "official",
+          "published_at": "2026-05-01",
+          "verified_at": "2026-11-19T01:09:34.035Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "官方文章标注2026-11-16更新，并明确30/90/365天窗口、美国和加拿大可用范围以及仅符合条件的详情页展示。",
+          "canonical_url": "https://www.aboutamazon.com/news/retail/how-to-check-amazon-price-history"
+        }
+      ],
+      "event_key": "amazon-price-history|expand-pdp-history-to-30-90-365-days|CA+US|2026-11-16",
+      "id": "evt-b41a94efb8be7098",
+      "primary_source_url": "https://www.aboutamazon.com/news/retail/how-to-check-amazon-price-history"
+    },
+    {
+      "subject_key": "amazon-product-opportunity-explorer",
+      "action_key": "add-own-idea-validation-and-first-90-day-launch-plan",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美国站Product Opportunity Explorer支持自带产品构想验证，并预告首90天Launch Plan",
+      "summary": "Amazon Seller Central官方公告显示，Product Opportunity Explorer现可让卖家输入拟开发产品和价格点，对照真实顾客购买信号及类目头部商品验证构想；未来数月还将推送含期望功能与建议价格的产品机会，并预告基于类目前10商品表现生成首90天新品Launch Plan，覆盖Listing质量、Fulfillment、Advertising、预填关键词和FBA New Selection激励。",
+      "impact": "新品开发可在开模或备货前用Amazon站内购买信号校验功能与价格假设，并把上市后的Listing、履约和广告动作串成计划。官方页面把“现已可用”与“未来数月/即将提供”分开表述，不能把全部预告功能视为已经上线，也不能据此编造搜索量、销量或成功率。",
+      "action": "美国站先用Product Opportunity Explorer分别测试燃油管、CPE编织油管、AN接头和排气卡箍的产品描述与价格点，保存输入、对照类目和结果时间；仅把当前可见数据作为开发假设，待首90天Launch Plan实际出现在账户后再建立执行清单。",
+      "category": "ai",
+      "priority": "P1",
+      "original_published_at": null,
+      "original_date_note": "公开官方页面仅显示相对发布时间“a month ago”，未提供可独立确认的绝对发布日期；因此不以抓取日替代原始发布日期。页面明确区分当前可用的构想验证与未来数月/即将上线的功能。",
+      "first_seen_at": "2026-11-19T01:09:34.035Z",
+      "last_material_update_at": "2026-11-19T01:09:34.035Z",
+      "history_dates": [
+        "2026-11-19"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/64df2f80-b3b5-4c72-b9e7-02c69a170d76",
+          "publisher": "Amazon Seller Central US（News_Amazon）",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-19T01:09:34.035Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "公开官方公告逐项说明当前可用的自带产品构想验证、未来产品机会推送和即将提供的首90天新品Launch Plan；页面主体与发布账号已核验。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/64df2f80-b3b5-4c72-b9e7-02c69a170d76"
+        }
+      ],
+      "event_key": "amazon-product-opportunity-explorer|add-own-idea-validation-and-first-90-day-launch-plan|US|unknown",
+      "id": "evt-45f503c4dc937128",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/64df2f80-b3b5-4c72-b9e7-02c69a170d76"
     }
   ]
 }

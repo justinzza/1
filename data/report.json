@@ -1,8 +1,9 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-us-haul-distributed-fulfillment|cross-list-selected-fba-products-and-surface-haul-in-search|US|unknown",
-    "amazon-ads-vast-4|support-vast-4-on-third-party-video-inventory|CA+MX+US|2026-09-02"
+    "amazon-price-history|expand-pdp-history-to-30-90-365-days|CA+US|2026-11-16",
+    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13",
+    "amazon-product-opportunity-explorer|add-own-idea-validation-and-first-90-day-launch-plan|US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,40 +12,48 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "已在公开可访问范围核验US、CA、MX Seller Central、Amazon Ads、Amazon Global Selling、CPSC、FTC、Health Canada、PROFECO及既定行业媒体；industry_wechat_ca与industry_wechat_mx均逐一按15个include_source_ids追加站点词检索。Seller Central登录后内容、部分行业站点与公众号正文只能取得公开索引、搜索摘要、空结果或受限页面，不能声称完整检查，来源成功游标及2026年8月29—30日待补查标记不推进。汽车用品检索受Amazon robots与缺少同站点、同ASIN、同变体、同地域、同税费/运费口径快照限制，本次不判断价格、Coupon、BSR、销量或关键词变化。VAST 4为9月官方发布的待补查发现，未包装成今日新发布。",
+  "coverage_note": "已在公开可访问范围核验US、CA、MX Seller Central、Amazon Ads、Amazon Global Selling及相关监管机构，并对industry_wechat_ca与industry_wechat_mx逐一按15个include_source_ids追加站点词检索。部分Seller Central、行业网站及公众号仅取得公开索引、搜索摘要、空结果或受限页面，不能声称完整检查；各来源成功游标及2026年8月29—30日待补查标记不推进。汽车用品三站检索中Amazon.com受robots限制，加墨结果缺少同站点、同ASIN、同变体、同地域、同税费/运费口径的连续快照，本次不判断价格、Coupon、BSR、销量或关键词变化。",
   "category_notes": {
-    "policy": "发现Amazon Haul美国站本地FBA交叉刊登与主搜索整合；部分Seller Central内容仍受登录限制。",
-    "ads": "补查确认Amazon DSP第三方视频库存VAST 4支持，适用US/CA/MX；今日未发现更晚的可靠Amazon Ads增量。",
-    "ai": "今日无重要增量；公开结果中的Alexa与World Product Graph变化已在事件库。",
-    "opportunities": "汽车用品公开结果缺少可比较基线，未判定关键词或类目趋势变化。",
-    "competitors": "没有指定ASIN或满足同站点、变体、地域、时间、税费/运费口径的连续快照，未判定价格、Coupon或排名变化。"
+    "policy": "今日无可靠政策规则增量；部分官方后台正文受登录或JavaScript限制，保持待补查。",
+    "ads": "今日无重要增量；已核验的Amazon Ads近期公开更新均已在事件库，未重复展示。",
+    "ai": "补查发现Product Opportunity Explorer现可验证自带产品构想，并预告首90天新品Launch Plan；预告功能未当作已上线。",
+    "opportunities": "美加站2026 BFCM活动期确认在11月19—30日；汽车用品公开检索缺少可比较基线，未判定类目或关键词变化。",
+    "competitors": "美加站顾客可在符合条件的详情页查看30/90/365天Price History；墨西哥站未获同等官方证据。"
   },
   "action_items": [
     {
-      "title": "核对美国站Haul交叉刊登清单",
-      "detail": "检查已被Amazon选择的FBA offers、毛利和品牌定位；不适合时评估账户级退出，不能按单个ASIN退出。",
-      "due": "本周",
-      "event_key": "amazon-us-haul-distributed-fulfillment|cross-list-selected-fba-products-and-surface-haul-in-search|US|unknown"
+      "title": "审计美加站Price History",
+      "detail": "逐一记录核心ASIN的30/90/365天价格历史与当前促销表现，按站点、变体、地域、币种、税费和运费分开保存。",
+      "due": "今日",
+      "event_key": "amazon-price-history|expand-pdp-history-to-30-90-365-days|CA+US|2026-11-16"
     },
     {
-      "title": "验证Amazon DSP第三方视频VAST兼容",
-      "detail": "按US/CA/MX拆分第三方视频供应，小流量核验VAST 4 tag；Amazon自营库存继续保留VAST 2/3兼容。",
+      "title": "按美加站分别盯盘BFCM",
+      "detail": "核对Deal、Price Discount、Coupon、广告预算与可售库存；每日主题Deal更新后复盘转化和断货风险。",
+      "due": "今日起至11月30日",
+      "event_key": "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+    },
+    {
+      "title": "用Opportunity Explorer校验汽配新品假设",
+      "detail": "分别测试燃油管、CPE编织油管、AN接头、排气卡箍的描述与价格点，保存输入和时间；不把首次观察当趋势。",
       "due": "本周",
-      "event_key": "amazon-ads-vast-4|support-vast-4-on-third-party-video-inventory|CA+MX+US|2026-09-02"
+      "event_key": "amazon-product-opportunity-explorer|add-own-idea-validation-and-first-90-day-launch-plan|US|unknown"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-18",
-  "content_updated_at": "2026-11-18T01:14:33.009Z",
+  "report_date": "2026-11-19",
+  "content_updated_at": "2026-11-19T01:09:34.035Z",
   "new_event_keys": [
-    "amazon-us-haul-distributed-fulfillment|cross-list-selected-fba-products-and-surface-haul-in-search|US|unknown",
-    "amazon-ads-vast-4|support-vast-4-on-third-party-video-inventory|CA+MX+US|2026-09-02"
+    "amazon-price-history|expand-pdp-history-to-30-90-365-days|CA+US|2026-11-16",
+    "amazon-product-opportunity-explorer|add-own-idea-validation-and-first-90-day-launch-plan|US|unknown"
   ],
-  "updated_event_keys": [],
+  "updated_event_keys": [
+    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
+  ],
   "counts": {
     "new": 2,
-    "updated": 0,
-    "merged": 0,
-    "deduplicated": 4
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
   }
 }
