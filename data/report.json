@@ -1,9 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-price-history|expand-pdp-history-to-30-90-365-days|CA+US|2026-11-16",
-    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13",
-    "amazon-product-opportunity-explorer|add-own-idea-validation-and-first-90-day-launch-plan|US|unknown"
+    "us-cbp-foreign-importers-of-record|require-ctpat-validation-or-validated-customs-broker|US|2027-01-05",
+    "us-cpsc-amazon-products-2026-11-19|recall-three-amazon-sold-products|US|2026-11-19"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,48 +11,40 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "已在公开可访问范围核验US、CA、MX Seller Central、Amazon Ads、Amazon Global Selling及相关监管机构，并对industry_wechat_ca与industry_wechat_mx逐一按15个include_source_ids追加站点词检索。部分Seller Central、行业网站及公众号仅取得公开索引、搜索摘要、空结果或受限页面，不能声称完整检查；各来源成功游标及2026年8月29—30日待补查标记不推进。汽车用品三站检索中Amazon.com受robots限制，加墨结果缺少同站点、同ASIN、同变体、同地域、同税费/运费口径的连续快照，本次不判断价格、Coupon、BSR、销量或关键词变化。",
+  "coverage_note": "已在公开可访问范围核验US、CA、MX Seller Central、Amazon Ads、Amazon Global Selling及相关监管机构；对industry_wechat_ca与industry_wechat_mx分别逐一检索15个include_source_ids。部分Seller Central、行业网站及公众号仅取得公开索引、搜索摘要、空结果或受限页面，不能声称完整检查；各来源成功游标及2026年8月29—30日待补查标记不推进。汽车用品三站公开检索中Amazon.com受robots限制，加墨结果缺少同站点、同ASIN、同变体、同地域、同税费/运费口径的连续快照，本次不判断价格、Coupon、BSR、销量或关键词变化。",
   "category_notes": {
-    "policy": "今日无可靠政策规则增量；部分官方后台正文受登录或JavaScript限制，保持待补查。",
-    "ads": "今日无重要增量；已核验的Amazon Ads近期公开更新均已在事件库，未重复展示。",
-    "ai": "补查发现Product Opportunity Explorer现可验证自带产品构想，并预告首90天新品Launch Plan；预告功能未当作已上线。",
-    "opportunities": "美加站2026 BFCM活动期确认在11月19—30日；汽车用品公开检索缺少可比较基线，未判定类目或关键词变化。",
-    "competitors": "美加站顾客可在符合条件的详情页查看30/90/365天Price History；墨西哥站未获同等官方证据。"
+    "policy": "新增两组美国官方增量：CBP外国IOR新要求，以及CPSC 11月19日三项Amazon.com商品召回。",
+    "ads": "今日无重要增量；公开可核验的Amazon Ads近期更新均已在事件库，未重复展示。",
+    "ai": "今日无重要增量；未把预告功能或行业推测包装为已上线变化。",
+    "opportunities": "未获得燃油管、CPE编织油管、AN接头、排气卡箍三站可比连续基线，不能判定趋势或关键词变化。",
+    "competitors": "未获得三站同ASIN、变体、地域、币种、税费与运费口径的连续快照，不能判定价格、Coupon、BSR或页面变化。"
   },
   "action_items": [
     {
-      "title": "审计美加站Price History",
-      "detail": "逐一记录核心ASIN的30/90/365天价格历史与当前促销表现，按站点、变体、地域、币种、税费和运费分开保存。",
-      "due": "今日",
-      "event_key": "amazon-price-history|expand-pdp-history-to-30-90-365-days|CA+US|2026-11-16"
-    },
-    {
-      "title": "按美加站分别盯盘BFCM",
-      "detail": "核对Deal、Price Discount、Coupon、广告预算与可售库存；每日主题Deal更新后复盘转化和断货风险。",
-      "due": "今日起至11月30日",
-      "event_key": "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
-    },
-    {
-      "title": "用Opportunity Explorer校验汽配新品假设",
-      "detail": "分别测试燃油管、CPE编织油管、AN接头、排气卡箍的描述与价格点，保存输入和时间；不把首次观察当趋势。",
+      "title": "核验美国进口IOR与报关行资格",
+      "detail": "向货代书面确认实际IOR；外国IOR须核验自身CTPAT或报关行牌照、CTPAT状态和filer code，并盘点2027年1月5日后清关批次。",
       "due": "本周",
-      "event_key": "amazon-product-opportunity-explorer|add-own-idea-validation-and-first-90-day-launch-plan|US|unknown"
+      "event_key": "us-cbp-foreign-importers-of-record|require-ctpat-validation-or-validated-customs-broker|US|2027-01-05"
+    },
+    {
+      "title": "排查CPSC 11月19日召回商品",
+      "detail": "按品牌、型号、批次与包装码核对Listing、库存和订单，立即停售命中商品并执行退款、通知和处置。",
+      "due": "今日",
+      "event_key": "us-cpsc-amazon-products-2026-11-19|recall-three-amazon-sold-products|US|2026-11-19"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-19",
-  "content_updated_at": "2026-11-19T01:09:34.035Z",
+  "report_date": "2026-11-20",
+  "content_updated_at": "2026-11-20T01:22:00.000Z",
   "new_event_keys": [
-    "amazon-price-history|expand-pdp-history-to-30-90-365-days|CA+US|2026-11-16",
-    "amazon-product-opportunity-explorer|add-own-idea-validation-and-first-90-day-launch-plan|US|unknown"
+    "us-cbp-foreign-importers-of-record|require-ctpat-validation-or-validated-customs-broker|US|2027-01-05",
+    "us-cpsc-amazon-products-2026-11-19|recall-three-amazon-sold-products|US|2026-11-19"
   ],
-  "updated_event_keys": [
-    "amazon-us-bfcm-deal-sourcing-2026|extend-deal-submission-deadline-to-november-13|US|2026-11-13"
-  ],
+  "updated_event_keys": [],
   "counts": {
     "new": 2,
-    "updated": 1,
-    "merged": 1,
+    "updated": 0,
+    "merged": 0,
     "deduplicated": 0
   }
 }
