@@ -1,0 +1,18 @@
+{
+  "run_id": "run-20261120005802-924888c2",
+  "base_main_head": "fbe57670ae317ed842d01df95c0520e978158c08",
+  "expected_content_digest": "f62ccfca14c53a61fa58aa4817407b60bf20d2fcdd69e5b44910acc528647a7f",
+  "expected_event_count": 142,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "staged_file_sha256": [
+    "b4df0e8b197f1e3c9e415eed5e5b41b8f11ff5d1a08e0d70c78a252d79454ed8  data/events.json",
+    "e607e18a04264dec5d272d5870a18912349b28121ba3ba35fa95fba6cf685ad4  data/report.json",
+    "952f67e6ba0ba394f4902b7c0ba57c18a919f16fe289a37e2e8b1f2e132b5f30  index.html"
+  ],
+  "created_at": "2026-11-20T01:26:00.000Z"
+}

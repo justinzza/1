@@ -1,0 +1,169 @@
+{
+  "base_digest": "bd0287105bab428cd3ad78140b370bc5f5204b189e9c22f7600a6764555f597e",
+  "checked_at": "2026-11-20T01:22:00.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "us-cbp-foreign-importers-of-record",
+        "action_key": "require-ctpat-validation-or-validated-customs-broker",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2027-01-05",
+        "deadline": null,
+        "title": "美国CBP 2027年1月5日起收紧外国IOR：须完成CTPAT验证或使用CTPAT验证报关行",
+        "summary": "美国海关与边境保护局（CBP）临时最终规则将于2027年1月5日生效：不符合美国Importer of Record（IOR）资格的外国IOR，办理消费进口时须自身通过CTPAT验证，或指定同时持牌且通过CTPAT验证的报关行。Amazon Seller Central说明，美国地址本身不足以成为美国IOR；规则按货物清关日判断，已在途但于生效日后清关的货物同样适用，未满足要求的进口可能被拒绝。",
+        "impact": "以境外主体、货代或不符合美国IOR条件的安排向美国FBA或其他美国渠道进口，可能面临清关延误、退运或拒绝入境。规则针对美国进口环节，不能套用到加拿大或墨西哥；使用普通持牌报关行也不一定满足外国IOR的新条件。",
+        "action": "立即向货代书面确认实际IOR主体及其美国IOR资格；若属于外国IOR，取得自身CTPAT验证证明，或核验报关行的牌照、CTPAT验证状态和filer code。盘点预计在2027年1月5日及以后清关的在途与计划发运批次，并把证据留存在报关资料中。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-06",
+        "original_date_note": "Federal Register临时最终规则发布于2026-11-06并明确2027-01-05生效；Amazon Seller Central于2026-11-19发布面向卖家的操作提醒。",
+        "first_seen_at": "2026-11-20T01:22:00.000Z",
+        "last_material_update_at": "2026-11-20T01:22:00.000Z",
+        "history_dates": [
+          "2026-11-20"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-06/html/2026-22735.htm",
+            "publisher": "U.S. Customs and Border Protection / Federal Register",
+            "kind": "regulator",
+            "published_at": "2026-11-06",
+            "verified_at": "2026-11-20T01:22:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "官方规则正文明确外国IOR的CTPAT或CTPAT验证报关行要求，以及2027-01-05生效日。"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e9dc1aa7-436b-49f5-a3ba-5ba30687cf79",
+            "publisher": "Amazon Seller Central US（News_Amazon）",
+            "kind": "official",
+            "published_at": "2026-11-19",
+            "verified_at": "2026-11-20T01:22:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "官方卖家公告说明美国IOR三项判断、美国地址不足、在途货物按清关日适用及不合规进口可能被拒。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "bd0287105bab428cd3ad78140b370bc5f5204b189e9c22f7600a6764555f597e",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "逐条比对140条基准事件及本批候选：既有美国IOR事件针对Form 5106与数据准确性，本事件是2027年外国IOR的CTPAT/报关行资格新要求；event_key、变化动作、适用日期和官方链接均不同。",
+        "matches_event_key": null,
+        "distinct_event_reason": "与既有“美国海关作废不准确或不完整IOR记录”事件不是同一规则：本事件新增外国IOR的CTPAT资格路径，且2027-01-05才生效。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "us-cpsc-amazon-products-2026-11-19",
+        "action_key": "recall-three-amazon-sold-products",
+        "marketplaces": [
+          "US"
+        ],
+        "effective_date": "2026-11-19",
+        "deadline": null,
+        "title": "美国CPSC 11月19日召回3类Amazon.com商品：磁力玩具、婴儿摇椅及成人床护栏",
+        "summary": "美国CPSC于2026年11月19日分别召回在Amazon.com销售的CHE-US磁力机器人玩具（约101,282件）、Kidsview婴儿摇椅（约412件）及Xentrawave成人便携床护栏XT016/XT026（约2,114件）。风险分别涉及强磁体吞咽、使用中坍塌撞击，以及夹困和窒息；Xentrawave事件报告一人死亡。三项均要求停止使用并按公告办理退款或Amazon礼品卡。",
+        "impact": "相关品牌、型号或同供应链商品需要立即停售、拦截发货并核对库存和历史订单；CPSC禁止继续销售已召回商品。该批次仅确认美国站和公告列明商品，不能扩大为所有磁力玩具、摇椅或床护栏，也不能直接外推到加拿大或墨西哥。",
+        "action": "按品牌、型号、批次和公告标识检索Listing、FBA/FBM库存及历史订单：CHE-US包装码X004N3MGCB；Kidsview日期码2022/08、2022/09、2022/10；Xentrawave XT016全部批次及XT026批次20251212。立即停售并配合退款、客户通知和销毁/退货要求，同时检查同供应商目录但不要无证据扩大召回范围。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-19",
+        "original_date_note": "三项CPSC召回均于2026-11-19发布并明确在Amazon.com销售。",
+        "first_seen_at": "2026-11-20T01:22:00.000Z",
+        "last_material_update_at": "2026-11-20T01:22:00.000Z",
+        "history_dates": [
+          "2026-11-20"
+        ],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/CHE-US-Recalls-Magnetic-Robot-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-11-19",
+            "verified_at": "2026-11-20T01:22:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "官方召回页核验商品标识、约101,282件、Amazon.com销售期、强磁体吞咽风险与退款措施。"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/Kidsview-Recalls-Infant-Bouncers-Due-to-Risk-of-Collapse-and-Impact-Injury-to-Infants",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-11-19",
+            "verified_at": "2026-11-20T01:22:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "官方召回页核验日期码、约412件、Amazon.com销售、坍塌事故及Amazon礼品卡补偿。"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/Xentrawave-Recalls-Adult-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails-One-Death-Reported",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-11-19",
+            "verified_at": "2026-11-20T01:22:00.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "verification_note": "官方召回页核验XT016/XT026批次、约2,114件、Amazon.com销售、夹困/窒息风险及一人死亡。"
+          }
+        ]
+      },
+      "material_update": false,
+      "dedupe_review": {
+        "compared_digest": "bd0287105bab428cd3ad78140b370bc5f5204b189e9c22f7600a6764555f597e",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "逐条比对140条基准事件及本批候选：既有CPSC卡片覆盖其他日期和商品；本事件为2026-11-19独立发布的三项Amazon.com召回，商品、公告链接和生效日均不同。",
+        "matches_event_key": null,
+        "distinct_event_reason": "与11月12日及更早的CPSC批次只共享监管主体；召回日期、商品、风险与公告均独立，按同日官方行动合并为一张新卡。"
+      }
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "us-cbp-foreign-importers-of-record|require-ctpat-validation-or-validated-customs-broker|US|2027-01-05",
+      "us-cpsc-amazon-products-2026-11-19|recall-three-amazon-sold-products|US|2026-11-19"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "partial"
+    },
+    "coverage_note": "已在公开可访问范围核验US、CA、MX Seller Central、Amazon Ads、Amazon Global Selling及相关监管机构；对industry_wechat_ca与industry_wechat_mx分别逐一检索15个include_source_ids。部分Seller Central、行业网站及公众号仅取得公开索引、搜索摘要、空结果或受限页面，不能声称完整检查；各来源成功游标及2026年8月29—30日待补查标记不推进。汽车用品三站公开检索中Amazon.com受robots限制，加墨结果缺少同站点、同ASIN、同变体、同地域、同税费/运费口径的连续快照，本次不判断价格、Coupon、BSR、销量或关键词变化。",
+    "category_notes": {
+      "policy": "新增两组美国官方增量：CBP外国IOR新要求，以及CPSC 11月19日三项Amazon.com商品召回。",
+      "ads": "今日无重要增量；公开可核验的Amazon Ads近期更新均已在事件库，未重复展示。",
+      "ai": "今日无重要增量；未把预告功能或行业推测包装为已上线变化。",
+      "opportunities": "未获得燃油管、CPE编织油管、AN接头、排气卡箍三站可比连续基线，不能判定趋势或关键词变化。",
+      "competitors": "未获得三站同ASIN、变体、地域、币种、税费与运费口径的连续快照，不能判定价格、Coupon、BSR或页面变化。"
+    },
+    "action_items": [
+      {
+        "title": "核验美国进口IOR与报关行资格",
+        "detail": "向货代书面确认实际IOR；外国IOR须核验自身CTPAT或报关行牌照、CTPAT状态和filer code，并盘点2027年1月5日后清关批次。",
+        "due": "本周",
+        "event_key": "us-cbp-foreign-importers-of-record|require-ctpat-validation-or-validated-customs-broker|US|2027-01-05"
+      },
+      {
+        "title": "排查CPSC 11月19日召回商品",
+        "detail": "按品牌、型号、批次与包装码核对Listing、库存和订单，立即停售命中商品并执行退款、通知和处置。",
+        "due": "今日",
+        "event_key": "us-cpsc-amazon-products-2026-11-19|recall-three-amazon-sold-products|US|2026-11-19"
+      }
+    ]
+  }
+}
+
