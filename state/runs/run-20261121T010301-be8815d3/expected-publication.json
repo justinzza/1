@@ -1,0 +1,14 @@
+{
+  "run_id": "run-20261121T010301-be8815d3",
+  "status": "prepared",
+  "prepared_at": "2026-11-21T01:07:17.000Z",
+  "base_main_sha": "e15ac1e0d46796accc74d41d281d47615ec2dd6c",
+  "base_content_digest": "f62ccfca14c53a61fa58aa4817407b60bf20d2fcdd69e5b44910acc528647a7f",
+  "expected_content_digest": "412eea9ea2aa8387c551a0555e6bb52481056244384e58fc6775668bd876f7ad",
+  "expected_event_count": 144,
+  "counts": {"new": 2, "updated": 0, "merged": 0, "deduplicated": 0},
+  "new_event_keys": [
+    "amazon-ads-holiday-sponsorship-program|expand-official-holiday-partnerships-to-canada|CA+US|2026-11-20",
+    "amazon-ca-whole-foods-return-network|add-box-free-label-free-dropoff-at-all-canada-stores|CA|2026-11-19"
+  ]
+}
