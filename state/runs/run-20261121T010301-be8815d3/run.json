@@ -1,0 +1,167 @@
+{
+  "id": "run-20261121t010301-be8815d3",
+  "lease_run_id": "run-20261121T010301-be8815d3",
+  "base_state_digest": "ea32cc32dbc6481824863bd35689a56a916263beba72666eaf8c50a021a785ed",
+  "started_at": "2026-11-21T01:03:01.219Z",
+  "finished_at": "2026-11-21T01:18:18.281Z",
+  "material_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "unverified",
+    "github_status": "success",
+    "commit_sha": "7acd33cd47cf54cf4fdf4839a77a7eab7a7ac50c",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "412eea9ea2aa8387c551a0555e6bb52481056244384e58fc6775668bd876f7ad",
+    "observed_digest": null,
+    "verification_attempted_at": "2026-11-21T01:18:18.281Z",
+    "verification_note": "GitHub Vercel状态为success，但正式域名虽返回HTTP 200，响应体在当前验证通道中为不可解码字节，无法取得完整HTML或data-content-digest；按规则不验收发布，不推进任何成功游标。"
+  },
+  "backfill_complete": false,
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "note": "amazon_seller_news：通过公开检索核对近期内容；未完成来源全量列表读取，旧闻、重复线索和缺少直接证据的摘要未收录。"
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "note": "amazon_global_selling_news：通过公开检索核对近期内容；未完成来源全量列表读取，旧闻、重复线索和缺少直接证据的摘要未收录。"
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "note": "通过公开检索及Amazon Ads官方原文核验到2026-11-20 Holiday Sponsorship Program扩展至加拿大；未能证明来源列表全量读取，故不推进成功游标。"
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "note": "relevant_regulators：检查公开监管检索结果；未发现可直接支持本批新增的同日监管原文，且未完成全站列表读取。"
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "note": "通过公开检索及About Amazon Canada官方原文核验到2026-11-19 Whole Foods Canada退货网络更新；Seller Central全量列表未完整读取，故不推进成功游标。"
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "note": "amazon_seller_news_mx：通过公开检索核对近期内容；未完成来源全量列表读取，旧闻、重复线索和缺少直接证据的摘要未收录。"
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "note": "relevant_regulators_ca：检查公开监管检索结果；未发现可直接支持本批新增的同日监管原文，且未完成全站列表读取。"
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "note": "relevant_regulators_mx：检查公开监管检索结果；未发现可直接支持本批新增的同日监管原文，且未完成全站列表读取。"
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "note": "crossborder_headlines：通过公开检索核对近期内容；未完成来源全量列表读取，旧闻、重复线索和缺少直接证据的摘要未收录。"
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "note": "crossborder_briefs：通过公开检索核对近期内容；未完成来源全量列表读取，旧闻、重复线索和缺少直接证据的摘要未收录。"
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "note": "wearesellers：通过公开检索核对近期内容；未完成来源全量列表读取，旧闻、重复线索和缺少直接证据的摘要未收录。"
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "note": "tt123：通过公开检索核对近期内容；未完成来源全量列表读取，旧闻、重复线索和缺少直接证据的摘要未收录。"
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "note": "brand_ark：通过公开检索核对近期内容；未完成来源全量列表读取，旧闻、重复线索和缺少直接证据的摘要未收录。"
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "note": "seller_home：通过公开检索核对近期内容；未完成来源全量列表读取，旧闻、重复线索和缺少直接证据的摘要未收录。"
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "note": "wechat_dabao：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录/验证码。"
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "note": "wechat_huluwa：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录/验证码。"
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "note": "wechat_santou：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录/验证码。"
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "note": "wechat_crossborder_headlines：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录/验证码。"
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "note": "wechat_crossborder_briefs：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录/验证码。"
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "note": "wechat_wearesellers：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录/验证码。"
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "note": "wechat_tt123：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录/验证码。"
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "note": "wechat_brand_ark：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录/验证码。"
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "note": "wechat_seller_home：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录/验证码。"
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "blocked",
+      "note": "amazon_category_competitors：Amazon站内汽车用品页面受robots/访问限制，且未提供指定ASIN或可比历史快照；未声称价格、Coupon或BSR变化。"
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "note": "industry_wechat_ca：已逐一公开检索include_source_ids（crossborder_headlines、crossborder_briefs、wearesellers、tt123、brand_ark、seller_home、wechat_dabao、wechat_huluwa、wechat_santou、wechat_crossborder_headlines、wechat_crossborder_briefs、wechat_wearesellers、wechat_tt123、wechat_brand_ark、wechat_seller_home）；仅取得公开检索结果/摘要或未检出可核验新文，未登录、未绕过限制，未达到全量检查标准。"
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "note": "industry_wechat_mx：已逐一公开检索include_source_ids（crossborder_headlines、crossborder_briefs、wearesellers、tt123、brand_ark、seller_home、wechat_dabao、wechat_huluwa、wechat_santou、wechat_crossborder_headlines、wechat_crossborder_briefs、wechat_wearesellers、wechat_tt123、wechat_brand_ark、wechat_seller_home）；仅取得公开检索结果/摘要或未检出可核验新文，未登录、未绕过限制，未达到全量检查标准。"
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "blocked",
+      "note": "amazon_category_competitors_ca：Amazon站内汽车用品页面受robots/访问限制，且未提供指定ASIN或可比历史快照；未声称价格、Coupon或BSR变化。"
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "blocked",
+      "note": "amazon_category_competitors_mx：Amazon站内汽车用品页面受robots/访问限制，且未提供指定ASIN或可比历史快照；未声称价格、Coupon或BSR变化。"
+    }
+  ]
+}

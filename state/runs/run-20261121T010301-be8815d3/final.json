@@ -1,0 +1,23 @@
+{
+  "run_id": "run-20261121t010301-be8815d3",
+  "lease_run_id": "run-20261121T010301-be8815d3",
+  "status": "publication_unverified",
+  "finished_at": "2026-11-21T01:18:18.281Z",
+  "counts": {
+    "new": 2,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "unverified",
+    "github_status": "success",
+    "commit_sha": "7acd33cd47cf54cf4fdf4839a77a7eab7a7ac50c",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "expected_digest": "412eea9ea2aa8387c551a0555e6bb52481056244384e58fc6775668bd876f7ad",
+    "observed_digest": null,
+    "verification_attempted_at": "2026-11-21T01:18:18.281Z",
+    "verification_note": "GitHub Vercel状态为success，但正式域名虽返回HTTP 200，响应体在当前验证通道中为不可解码字节，无法取得完整HTML或data-content-digest；按规则不验收发布，不推进任何成功游标。"
+  },
+  "lease_status": "released"
+}
