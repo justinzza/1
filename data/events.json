@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-20T01:22:00.000Z",
+  "content_updated_at": "2026-11-21T01:07:17.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -8194,6 +8194,89 @@
       "event_key": "us-cpsc-amazon-products-2026-11-19|recall-three-amazon-sold-products|US|2026-11-19",
       "id": "evt-413db35714170458",
       "primary_source_url": "https://www.cpsc.gov/Recalls/2027/CHE-US-Recalls-Magnetic-Robot-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys"
+    },
+    {
+      "subject_key": "amazon-ads-holiday-sponsorship-program",
+      "action_key": "expand-official-holiday-partnerships-to-canada",
+      "marketplaces": [
+        "CA",
+        "US"
+      ],
+      "effective_date": "2026-11-20",
+      "deadline": null,
+      "title": "Amazon Ads假日赞助项目首次扩展至加拿大，联动Brand Store、Fire TV与Amazon Live",
+      "summary": "Amazon Ads于2026年11月20日宣布Holiday Sponsorship Program进入第二年，并首次从美国扩展至加拿大、欧洲和日本。加拿大由Google、SharkNinja与The LEGO Group担任官方合作伙伴，配置定制Brand Store页面、Fire TV激活及美国Amazon Live节日送礼系列的加拿大同步直播；其中LEGO设置个性化兴趣商店入口，Google安排专场直播。美国合作还覆盖Prime Video、Amazon Live、创作者内容及纽约3D户外广告。该项目由Brand Innovation Lab面向少数官方合作品牌实施，并非面向全部卖家的自助广告产品。",
+      "impact": "加拿大首次被纳入Amazon Ads节日全漏斗赞助体系，说明Brand Store、Connected TV、直播与站内购买链路可被组合成区域化节日激活。普通卖家不能据此假定可直接报名或获得同等资源，但可把这些触点作为旺季内容一致性和品牌衡量的参照；本公告没有墨西哥站适用证据。",
+      "action": "加拿大与美国品牌团队应分别审查节日Brand Store、视频、直播和商品详情页的素材、库存与归因口径是否一致；需要高阶整合资源的品牌可向Amazon Ads销售或Brand Innovation Lab确认资格、预算和区域可用性。未获得书面资格前，不把该项目写入常规Sponsored Ads投放计划，也不向墨西哥站外推。",
+      "category": "ads",
+      "priority": "P1",
+      "original_published_at": "2026-11-20",
+      "original_date_note": "Amazon Ads官方文章标注2026-11-20并说明项目已进入第二年且首次扩展到加拿大；以公开发布及项目启动日建档。",
+      "first_seen_at": "2026-11-21T01:07:17.000Z",
+      "last_material_update_at": "2026-11-21T01:07:17.000Z",
+      "history_dates": [
+        "2026-11-21"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://advertising.amazon.com/library/news/holiday-sponsorship-program-2026",
+          "publisher": "Amazon Ads",
+          "kind": "official",
+          "published_at": "2026-11-20",
+          "verified_at": "2026-11-21T01:07:17.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取Amazon Ads官方全文，核对首次扩展至加拿大、合作品牌、Amazon Live同步、Brand Store和Fire TV激活，并确认该计划面向select group of brands。",
+          "canonical_url": "https://advertising.amazon.com/library/news/holiday-sponsorship-program-2026"
+        }
+      ],
+      "event_key": "amazon-ads-holiday-sponsorship-program|expand-official-holiday-partnerships-to-canada|CA+US|2026-11-20",
+      "id": "evt-84f103fde35393d7",
+      "primary_source_url": "https://advertising.amazon.com/library/news/holiday-sponsorship-program-2026"
+    },
+    {
+      "subject_key": "amazon-ca-whole-foods-return-network",
+      "action_key": "add-box-free-label-free-dropoff-at-all-canada-stores",
+      "marketplaces": [
+        "CA"
+      ],
+      "effective_date": "2026-11-19",
+      "deadline": null,
+      "title": "Amazon.ca把Whole Foods加拿大12家门店全部纳入免箱免标签退货网络",
+      "summary": "Amazon Canada于2026年11月19日宣布，符合条件的Amazon.ca退货现可在不列颠哥伦比亚省和安大略省全部12家Whole Foods Market门店使用自助退货柜台办理，无需额外纸箱、胶带或标签，顾客在Your Orders发起退货并出示QR code。Amazon称加拿大现有超过5,300个退货投递点，包括Whole Foods、Staples、Purolator及部分Couche-Tard和Canada Post网点；实际可选方式仍取决于顾客地点、卖家、商品和退货原因。",
+      "impact": "加拿大退货触点进一步扩展，可能降低符合条件订单的退货摩擦并改变部分城市的退货路径，但公告没有改变卖家退货责任、费用或商品可退资格，也不保证所有订单显示Whole Foods选项。美国和墨西哥站不能套用这组加拿大门店与数量。",
+      "action": "加拿大站团队应抽查主要城市、典型商品和自营/FBA/FBM订单在Returns Centre中实际显示的选项，更新客服话术时保留“eligible”和地点限制；同步监控退货原因、退款时效、可售回仓率与移除成本，未见账户或费率变化前不假定卖家费用下降。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-11-19",
+      "original_date_note": "Amazon Canada官方文章标注2026-11-19，并使用now/can now描述12家门店已可使用，故以该日作为服务上线日期。",
+      "first_seen_at": "2026-11-21T01:07:17.000Z",
+      "last_material_update_at": "2026-11-21T01:07:17.000Z",
+      "history_dates": [
+        "2026-11-21"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.ca/news/customer-trust/amazon-offers-returns-with-no-box-tape-or-label-needed",
+          "publisher": "Amazon Canada",
+          "kind": "official",
+          "published_at": "2026-11-19",
+          "verified_at": "2026-11-21T01:07:17.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "verification_note": "已读取Amazon Canada官方全文，核对12家Whole Foods门店、BC与Ontario城市、自助QR退货流程、免额外纸箱和标签，以及适用性限制。",
+          "canonical_url": "https://www.aboutamazon.ca/news/customer-trust/amazon-offers-returns-with-no-box-tape-or-label-needed"
+        }
+      ],
+      "event_key": "amazon-ca-whole-foods-return-network|add-box-free-label-free-dropoff-at-all-canada-stores|CA|2026-11-19",
+      "id": "evt-ea3cfb3e9c28c1b1",
+      "primary_source_url": "https://www.aboutamazon.ca/news/customer-trust/amazon-offers-returns-with-no-box-tape-or-label-needed"
     }
   ]
 }

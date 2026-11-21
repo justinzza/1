@@ -1,8 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "us-cbp-foreign-importers-of-record|require-ctpat-validation-or-validated-customs-broker|US|2027-01-05",
-    "us-cpsc-amazon-products-2026-11-19|recall-three-amazon-sold-products|US|2026-11-19"
+    "amazon-ads-holiday-sponsorship-program|expand-official-holiday-partnerships-to-canada|CA+US|2026-11-20",
+    "amazon-ca-whole-foods-return-network|add-box-free-label-free-dropoff-at-all-canada-stores|CA|2026-11-19"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -11,34 +11,27 @@
     "opportunities": "partial",
     "competitors": "partial"
   },
-  "coverage_note": "已在公开可访问范围核验US、CA、MX Seller Central、Amazon Ads、Amazon Global Selling及相关监管机构；对industry_wechat_ca与industry_wechat_mx分别逐一检索15个include_source_ids。部分Seller Central、行业网站及公众号仅取得公开索引、搜索摘要、空结果或受限页面，不能声称完整检查；各来源成功游标及2026年8月29—30日待补查标记不推进。汽车用品三站公开检索中Amazon.com受robots限制，加墨结果缺少同站点、同ASIN、同变体、同地域、同税费/运费口径的连续快照，本次不判断价格、Coupon、BSR、销量或关键词变化。",
-  "category_notes": {
-    "policy": "新增两组美国官方增量：CBP外国IOR新要求，以及CPSC 11月19日三项Amazon.com商品召回。",
-    "ads": "今日无重要增量；公开可核验的Amazon Ads近期更新均已在事件库，未重复展示。",
-    "ai": "今日无重要增量；未把预告功能或行业推测包装为已上线变化。",
-    "opportunities": "未获得燃油管、CPE编织油管、AN接头、排气卡箍三站可比连续基线，不能判定趋势或关键词变化。",
-    "competitors": "未获得三站同ASIN、变体、地域、币种、税费与运费口径的连续快照，不能判定价格、Coupon、BSR或页面变化。"
-  },
+  "coverage_note": "已按各来源窗口检查Amazon Seller Central US/CA/MX、Amazon Ads、全球开店公开页、CPSC、Health Canada及墨西哥监管公开检索结果，并逐一公开检索15个行业网站/公众号身份。两项官方增量经全文或完整搜索正文核验；Seller Central列表、行业网站和公众号多数仅能公开搜索摘要，不能声称完整读取。Amazon商品页受robots限制，且未提供指定ASIN或同站同变体可比快照，因此US/CA/MX汽车用品价格、Coupon、BSR与页面变化未完成比较；8月29、30日待补查标记保留。",
   "action_items": [
     {
-      "title": "核验美国进口IOR与报关行资格",
-      "detail": "向货代书面确认实际IOR；外国IOR须核验自身CTPAT或报关行牌照、CTPAT状态和filer code，并盘点2027年1月5日后清关批次。",
+      "title": "核对加拿大旺季整合广告触点",
+      "detail": "分别审查Brand Store、Fire TV/视频、直播与商品页素材和库存的一致性；向Amazon Ads确认Holiday Sponsorship资格，未确认前不视为自助产品。",
       "due": "本周",
-      "event_key": "us-cbp-foreign-importers-of-record|require-ctpat-validation-or-validated-customs-broker|US|2027-01-05"
+      "event_key": "amazon-ads-holiday-sponsorship-program|expand-official-holiday-partnerships-to-canada|CA+US|2026-11-20"
     },
     {
-      "title": "排查CPSC 11月19日召回商品",
-      "detail": "按品牌、型号、批次与包装码核对Listing、库存和订单，立即停售命中商品并执行退款、通知和处置。",
-      "due": "今日",
-      "event_key": "us-cpsc-amazon-products-2026-11-19|recall-three-amazon-sold-products|US|2026-11-19"
+      "title": "抽查加拿大退货选项",
+      "detail": "按城市、履约方式和商品类型在Returns Centre抽查Whole Foods退货选项，并记录退货原因、退款时效和回仓可售率。",
+      "due": "本周",
+      "event_key": "amazon-ca-whole-foods-return-network|add-box-free-label-free-dropoff-at-all-canada-stores|CA|2026-11-19"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-20",
-  "content_updated_at": "2026-11-20T01:22:00.000Z",
+  "report_date": "2026-11-21",
+  "content_updated_at": "2026-11-21T01:07:17.000Z",
   "new_event_keys": [
-    "us-cbp-foreign-importers-of-record|require-ctpat-validation-or-validated-customs-broker|US|2027-01-05",
-    "us-cpsc-amazon-products-2026-11-19|recall-three-amazon-sold-products|US|2026-11-19"
+    "amazon-ads-holiday-sponsorship-program|expand-official-holiday-partnerships-to-canada|CA+US|2026-11-20",
+    "amazon-ca-whole-foods-return-network|add-box-free-label-free-dropoff-at-all-canada-stores|CA|2026-11-19"
   ],
   "updated_event_keys": [],
   "counts": {
