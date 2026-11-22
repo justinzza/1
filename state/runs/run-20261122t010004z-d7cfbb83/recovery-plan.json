@@ -1,0 +1,16 @@
+{
+  "run_id": "run-20261122t010004z-d7cfbb83",
+  "status": "prepared_recovery",
+  "prepared_at": "2026-11-22T01:02:25.056Z",
+  "pending_run_id": "run-20261121t010301-be8815d3",
+  "production_commit": "7acd33cd47cf54cf4fdf4839a77a7eab7a7ac50c",
+  "main_head_before_recovery": "7acd33cd47cf54cf4fdf4839a77a7eab7a7ac50c",
+  "reason": "The main index.html blob and production response are corrupted while data/events.json and data/report.json match the staged publication.",
+  "expected_content_digest": "412eea9ea2aa8387c551a0555e6bb52481056244384e58fc6775668bd876f7ad",
+  "expected_index_git_blob_sha": "41671acc9b0187fde37593e3c912f1a007d6e026",
+  "expected_index_sha256": "3614ed83626317e496e174db1ffddca88b5d6d518cde20874f40636d8611de46",
+  "expected_event_count": 144,
+  "repair_scope": [
+    "index.html"
+  ]
+}
