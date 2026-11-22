@@ -1,0 +1,33 @@
+{
+  "run_id": "run-20261122t010004z-d7cfbb83",
+  "status": "partial",
+  "finished_at": "2026-11-22T01:06:33.316Z",
+  "counts": {
+    "new": 0,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "recovered_pending_publication": {
+    "run_id": "run-20261121t010301-be8815d3",
+    "original_counts": {
+      "new": 2,
+      "updated": 0,
+      "merged": 0,
+      "deduplicated": 0
+    },
+    "repair_commit": "a6bbcaf77778e5712fad05f5c852575146bd76dd",
+    "reason": "Replaced the corrupted index.html blob; event and report data were already correct."
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "a6bbcaf77778e5712fad05f5c852575146bd76dd",
+    "expected_digest": "412eea9ea2aa8387c551a0555e6bb52481056244384e58fc6775668bd876f7ad",
+    "observed_digest": "412eea9ea2aa8387c551a0555e6bb52481056244384e58fc6775668bd876f7ad",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "verified_at": "2026-11-22T01:04:38.000Z",
+    "verification_note": "GitHub Vercel状态success；正式域名HTTP 200，UTF-8 HTML 597868字节，data-content-digest与预期一致，两张待发布卡片可见，DAILY BRIEFING不存在，页面SHA-256为3614ed83626317e496e174db1ffddca88b5d6d518cde20874f40636d8611de46。"
+  },
+  "lease_status": "released"
+}

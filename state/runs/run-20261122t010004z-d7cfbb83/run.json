@@ -1,0 +1,177 @@
+{
+  "id": "run-20261122t010004z-d7cfbb83",
+  "base_state_digest": "c65731bdf1d32d97ae83c04a854c3bceecb2ea1fa27e06992c03d314e35c1e5c",
+  "started_at": "2026-11-22T01:00:04.859Z",
+  "finished_at": "2026-11-22T01:06:33.316Z",
+  "material_changed": true,
+  "counts": {
+    "new": 0,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "recovered_pending_publication": {
+    "run_id": "run-20261121t010301-be8815d3",
+    "original_counts": {
+      "new": 2,
+      "updated": 0,
+      "merged": 0,
+      "deduplicated": 0
+    },
+    "repair_commit": "a6bbcaf77778e5712fad05f5c852575146bd76dd",
+    "reason": "Replaced the corrupted index.html blob; event and report data were already correct."
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "a6bbcaf77778e5712fad05f5c852575146bd76dd",
+    "expected_digest": "412eea9ea2aa8387c551a0555e6bb52481056244384e58fc6775668bd876f7ad",
+    "observed_digest": "412eea9ea2aa8387c551a0555e6bb52481056244384e58fc6775668bd876f7ad",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "verified_at": "2026-11-22T01:04:38.000Z",
+    "verification_note": "GitHub Vercel状态success；正式域名HTTP 200，UTF-8 HTML 597868字节，data-content-digest与预期一致，两张待发布卡片可见，DAILY BRIEFING不存在，页面SHA-256为3614ed83626317e496e174db1ffddca88b5d6d518cde20874f40636d8611de46。"
+  },
+  "backfill_complete": false,
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "note": "公开检索Seller Central News and Announcements；命中2027费用、假日退货等已收录旧事项，未完成登录后全量公告列表读取。"
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "note": "读取Amazon全球开店公开新闻索引；11月条目以已收录的2027美国站费用和运营文章为主，未发现新的可核验规则。"
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "note": "读取Amazon Ads近期公开结果及11月20日Location-based IVA官方全文；确认新增动作是欧洲扩展，US/CA/MX仅为既有可用地区，故未包装为今日北美增量。"
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "note": "relevant_regulators：检查CPSC、Health Canada或墨西哥监管公开索引；近期Amazon相关召回均已收录或无新原文，未声称全站完整覆盖。"
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "note": "公开检索加拿大Seller Central；2027 CA费用与PanAmericas内容已在事件库，未完成登录后全量列表读取。"
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "note": "公开检索墨西哥Seller Central；命中2026费率等旧页面，未发现可核验的新公告且未完成登录后全量列表读取。"
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "note": "relevant_regulators_ca：检查CPSC、Health Canada或墨西哥监管公开索引；近期Amazon相关召回均已收录或无新原文，未声称全站完整覆盖。"
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "note": "relevant_regulators_mx：检查CPSC、Health Canada或墨西哥监管公开索引；近期Amazon相关召回均已收录或无新原文，未声称全站完整覆盖。"
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "note": "crossborder_headlines：公开检索近期内容；结果为旧闻、重复线索或缺少直接证据的行业摘要，未达到全量检查标准。"
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "note": "crossborder_briefs：公开检索近期内容；结果为旧闻、重复线索或缺少直接证据的行业摘要，未达到全量检查标准。"
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "note": "wearesellers：公开检索近期内容；结果为旧闻、重复线索或缺少直接证据的行业摘要，未达到全量检查标准。"
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "note": "tt123：公开检索近期内容；结果为旧闻、重复线索或缺少直接证据的行业摘要，未达到全量检查标准。"
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "note": "brand_ark：公开检索近期内容；结果为旧闻、重复线索或缺少直接证据的行业摘要，未达到全量检查标准。"
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "note": "seller_home：公开检索近期内容；结果为旧闻、重复线索或缺少直接证据的行业摘要，未达到全量检查标准。"
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "note": "wechat_dabao：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录、验证码或访问限制。"
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "note": "wechat_huluwa：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录、验证码或访问限制。"
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "note": "wechat_santou：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录、验证码或访问限制。"
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "note": "wechat_crossborder_headlines：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录、验证码或访问限制。"
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "note": "wechat_crossborder_briefs：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录、验证码或访问限制。"
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "note": "wechat_wearesellers：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录、验证码或访问限制。"
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "note": "wechat_tt123：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录、验证码或访问限制。"
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "note": "wechat_brand_ark：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录、验证码或访问限制。"
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "note": "wechat_seller_home：仅使用无需登录的公开检索结果逐一核对；未检出可独立核验的新事件或只能取得摘要，未绕过登录、验证码或访问限制。"
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "blocked",
+      "note": "amazon_category_competitors：Amazon站内页面受robots/访问限制，且没有指定ASIN或可比历史快照；未报告价格、Coupon、BSR或关键词变化。"
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "note": "industry_wechat_ca：逐一公开检索include_source_ids（crossborder_headlines、crossborder_briefs、wearesellers、tt123、brand_ark、seller_home、wechat_dabao、wechat_huluwa、wechat_santou、wechat_crossborder_headlines、wechat_crossborder_briefs、wechat_wearesellers、wechat_tt123、wechat_brand_ark、wechat_seller_home）；仅取得公开索引/摘要、旧闻或未检出结果，未登录或绕过限制，未达到全量检查标准。"
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "note": "industry_wechat_mx：逐一公开检索include_source_ids（crossborder_headlines、crossborder_briefs、wearesellers、tt123、brand_ark、seller_home、wechat_dabao、wechat_huluwa、wechat_santou、wechat_crossborder_headlines、wechat_crossborder_briefs、wechat_wearesellers、wechat_tt123、wechat_brand_ark、wechat_seller_home）；仅取得公开索引/摘要、旧闻或未检出结果，未登录或绕过限制，未达到全量检查标准。"
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "blocked",
+      "note": "amazon_category_competitors_ca：Amazon站内页面受robots/访问限制，且没有指定ASIN或可比历史快照；未报告价格、Coupon、BSR或关键词变化。"
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "blocked",
+      "note": "amazon_category_competitors_mx：Amazon站内页面受robots/访问限制，且没有指定ASIN或可比历史快照；未报告价格、Coupon、BSR或关键词变化。"
+    }
+  ]
+}

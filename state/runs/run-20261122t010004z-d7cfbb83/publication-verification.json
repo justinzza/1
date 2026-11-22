@@ -1,0 +1,16 @@
+{
+  "run_id": "run-20261122t010004z-d7cfbb83",
+  "status": "verified",
+  "production_commit": "a6bbcaf77778e5712fad05f5c852575146bd76dd",
+  "github_vercel_status": "success",
+  "official_url": "https://amazon-ops-radar-vercel.vercel.app/",
+  "http_status": 200,
+  "html_bytes": 597868,
+  "expected_digest": "412eea9ea2aa8387c551a0555e6bb52481056244384e58fc6775668bd876f7ad",
+  "observed_digest": "412eea9ea2aa8387c551a0555e6bb52481056244384e58fc6775668bd876f7ad",
+  "html_sha256": "3614ed83626317e496e174db1ffddca88b5d6d518cde20874f40636d8611de46",
+  "ads_card_visible": true,
+  "returns_card_visible": true,
+  "daily_briefing_present": false,
+  "verified_at": "2026-11-22T01:04:38.000Z"
+}

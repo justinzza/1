@@ -1,0 +1,18 @@
+{
+  "base_digest": "e83fedad3e7978a6d29c7a13e10af033d3ec382b4c8e6fa895a66cd0f943b5e8",
+  "checked_at": "2026-11-22T01:05:30.000Z",
+  "candidates": [],
+  "report": {
+    "status": "partial",
+    "top_changes": [],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "not_checked"
+    },
+    "coverage_note": "US/CA/MX第一层官方与监管公开索引、第二层行业媒体及公开公众号均按可访问范围检索。Amazon Ads 11月20日公告的实质变化是Location-based IVA扩展至欧洲；其中US/CA/MX仅列为既有可用地区，不能把11月20日当作北美新增生效日，故排除。行业摘要中的税务提醒、销量和ACOS数据缺少可直接核验的官方或可比证据，未收录。汽车用品三站页面受robots限制且没有指定ASIN或可比快照，不能报告价格、Coupon、BSR或关键词变化。",
+    "action_items": []
+  }
+}
