@@ -1,0 +1,18 @@
+{
+  "base_digest": "e83fedad3e7978a6d29c7a13e10af033d3ec382b4c8e6fa895a66cd0f943b5e8",
+  "checked_at": "2026-11-23T01:13:30.000Z",
+  "candidates": [],
+  "report": {
+    "status": "partial",
+    "top_changes": [],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "not_checked"
+    },
+    "coverage_note": "US/CA/MX第一层官方公告、Amazon Ads、监管公开索引，以及第二层行业媒体和公开公众号均按无需登录的可访问范围逐项检索。Amazon Live Shopping页面仅能确认11月20日更新了美国Beta最佳实践，不能证明该日上线新功能；AWD 3.5%附加费属于已收录的2027美国费率变化；加拿大11月23日跨境退货规则及FBA Returnless Resolutions均已在事件库，未重复展示；墨西哥公开公告最新仍为11月7日所得税逐单展示。行业摘要与公众号公开归档未提供晚于已收录事件的独立可靠增量。汽车用品三站商品页受robots限制，且没有指定ASIN和可比快照，因此未报告价格、Coupon、BSR、销量或关键词变化。",
+    "action_items": []
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "id": "run-20261123t010039z-06b26d82",
+  "base_state_digest": "ae6069a8025c24697dff9312836fdc569b05524d7968e46dc49555d74dc22a1a",
+  "started_at": "2026-11-23T01:00:39.920Z",
+  "finished_at": "2026-11-23T01:17:30.000Z",
+  "material_changed": false,
+  "counts": {
+    "new": 0,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "not_needed"
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查US News and Announcements及72小时重叠窗口；最新可见仍为已收录的2027费率、保险与旺季事项，未发现可靠新变化。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查Amazon全球开店公开新闻中心与近期文章；未发现晚于事件库的US/CA/MX新政策或功能。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查Amazon Ads What’s New与近期帮助页；Amazon Live Shopping页面仅为11月20日更新的美国Beta最佳实践，无法证明当日新上线，未收录。",
+      "evidence": []
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查CPSC近期Amazon相关召回；最新可见11月19日磁性机器人事件已收录，未发现新的US直接监管增量。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查CA News and Announcements；11月23日跨境退货规则、11月6日FBA Returnless Resolutions及2027费率均已收录，未重复。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查MX News and Announcements；最新可见仍为11月7日所得税逐单展示及既有2026费率，未发现新官方变化。",
+      "evidence": []
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查Health Canada近期召回；11月10日Amazon.ca燃料产品标签召回早于当前窗口且未形成晚于事件库的新增。",
+      "evidence": []
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查PROFECO、SAT及公开监管检索；近期为一般电商消费提示与既有数字服务登记，未发现Amazon卖家新义务。",
+      "evidence": []
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查跨境头条/CrossNow公开结果；近期条目为既有加拿大退货、2027费率和广告政策转述，未形成独立新事件。",
+      "evidence": []
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查AMZ123跨境头条、跨境快讯与早报；11月20日及更早条目均为已收录或非US/CA/MX事项。",
+      "evidence": []
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查知无不言公开headline、问题页和检索摘要；部分内容受登录/付费限制，未绕过，未取得可核验新事件。",
+      "evidence": []
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查TT123公开站点与近期索引；11月22日可见内容主要为TikTok政策，未发现Amazon三站可靠增量。",
+      "evidence": []
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查品牌方舟公开检索与作者入口；未发现11月22至23日Amazon US/CA/MX可靠增量。",
+      "evidence": []
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "检查卖家之家公开检索；未发现晚于已收录事项的可直接核验三站变化。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "逐名检索“大宝站外推广”；仅获得身份页和旧文归档，无可公开读取的本期新文章。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "逐名检索“葫芦娃站外推广”；仅获得旧文与作者归档，无可公开读取的本期新文章。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "逐名检索“三头六臂跨境电商”；公开归档最新可见为10月既有事项，无本期可靠增量。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "逐名检索跨境头条对应公众号；公开结果与网站稿件重复，未获得可独立读取的本期公众号原文。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "逐名检索跨境快讯对应公众号；仅获得AMZ123网站公开摘要，未声明完整读取公众号历史。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "逐名检索知无不言对应公众号；仅获得网站公开页面与账号线索，未发现可核验新事件。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "逐名检索TT123对应公众号；公开结果近期为TikTok主题，未发现Amazon三站可靠增量。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "逐名检索品牌方舟对应公众号；公开结果未出现Amazon三站本期可靠增量。",
+      "evidence": []
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "逐名检索卖家之家对应公众号；公开搜索仅映射网站内容，无可独立读取的本期原文。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "blocked",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "Amazon.com汽车用品商品页受robots限制；没有指定ASIN和同口径历史快照，不能判断USD价格、Coupon、BSR或页面变化。",
+      "evidence": []
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "按include_source_ids逐一复核15个网站/公众号来源；可见内容为既有加拿大退货与费率转述，受限入口如实保留，未作一次概括搜索。",
+      "evidence": []
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "按include_source_ids逐一复核15个网站/公众号来源；未找到晚于既有墨西哥税务与费率事项的新证据，受限入口如实保留。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "blocked",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "Amazon.ca汽车用品页面无法形成稳定公开样本；无指定ASIN、变体、地域和可比快照，不能判断CAD价格、Coupon或BSR变化。",
+      "evidence": []
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "blocked",
+      "window_start": "2026-08-28T00:00:00+08:00",
+      "checked_through": "2026-11-23T01:17:30.000Z",
+      "note": "Amazon.com.mx汽车用品页面检索不足且无指定ASIN、变体、地域和可比快照，不能判断MXN价格、Coupon或BSR变化。",
+      "evidence": []
+    }
+  ]
+}
+

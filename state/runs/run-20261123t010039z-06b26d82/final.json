@@ -1,0 +1,21 @@
+{
+  "run_id": "run-20261123t010039z-06b26d82",
+  "status": "partial",
+  "finished_at": "2026-11-23T01:17:30.000Z",
+  "counts": {
+    "new": 0,
+    "updated": 0,
+    "merged": 0,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "not_needed"
+  },
+  "coverage_summary": {
+    "US": "官方、监管、行业媒体与公开公众号仅完成公开可检索范围；无可靠增量，汽车用品页面受robots限制。",
+    "CA": "加拿大11月23日跨境退货与11月6日FBA Returnless事项已收录；无可靠增量，商品快照缺基线。",
+    "MX": "最新公开公告仍为11月7日所得税逐单展示；无可靠增量，商品快照缺基线。"
+  },
+  "lease_status": "released"
+}
+

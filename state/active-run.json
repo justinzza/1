@@ -1,8 +1,12 @@
 {
   "run_id": "run-20261123t010039z-06b26d82",
-  "status": "active",
+  "status": "released",
   "acquired_at": "2026-11-23T01:00:39.920Z",
   "expires_at": "2026-11-23T02:30:39.920Z",
   "previous_radar_state_head": "fc55b4b8246ef9bb2619b8c68d16a21e9a00cc4d",
-  "takeover_reason": null
+  "takeover_reason": null,
+  "released_at": "2026-11-23T01:17:30.000Z",
+  "release_reason": "Run finalized with no material changes; main and deployment were not modified.",
+  "final_status": "partial"
 }
+
