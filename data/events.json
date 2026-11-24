@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-21T01:07:17.000Z",
+  "content_updated_at": "2026-11-24T01:01:42.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -7381,26 +7381,51 @@
       "subject_key": "amazon-mx-fbm-seller-defined-holidays",
       "action_key": "add-custom-holidays-and-order-report-fields",
       "marketplaces": [
+        "CA",
         "MX"
       ],
       "effective_date": null,
       "deadline": null,
-      "title": "墨西哥站FBM支持自定义节假日，订单报表新增处理及运输时长列",
-      "summary": "Amazon墨西哥站Seller Central公开公告显示，卖家现在可为自配送（FBM）商品设置自定义节假日：在不隐藏Listing的情况下标记企业停业日，停业日仍可接收订单，系统会自动调整承诺发货与送达日期。Amazon预设节假日保持不变；若企业在国家法定节假日营业，可将其改为工作日。FBM订单报表同时新增每笔订单的处理时间与运输时间列，用于核对承诺日期计算。",
-      "impact": "该功能直接影响MX站FBM承诺日期、准时发货与买家预期。它不同于Vacation mode：Listing仍展示且订单继续进入，因此配置错误或把法定假日误设为工作日，会在没有履约能力时形成交付风险。公告未给出绝对发布日期或明确生效日，故事件日期保持unknown，不用抓取日替代。",
-      "action": "在墨西哥站Seller Central核对并配置未来停业日与实际营业的法定节假日；在节前用FBM订单报表的处理时间、运输时间列抽样验证承诺发货/送达日期。只有确认仓库、客服和承运商均可履约时，才把国家法定节假日改为工作日；同步保留配置截图与异常订单复盘。",
+      "title": "Amazon加墨站FBM支持自定义假期，订单报告新增处理及运输时长列",
+      "summary": "Amazon加拿大站与墨西哥站News_Amazon公告确认，FBM卖家可在不隐藏Listing的情况下设置企业休息日；停业日仍可接单，系统会把这些日期计入承诺发货和送达日期。两站FBM订单报告同时新增处理时间（handling time）与运输时间（transit time）列，便于复核承诺送达日期的计算。墨西哥站还明确，若企业在Amazon预设的国家法定节假日营业，可将其改为工作日。",
+      "impact": "加墨站自配送团队不再需要仅为短期停业启用Vacation Mode，可在Listing保持可见和继续接单的同时自动顺延承诺时效；但错误设置休息日或承运商实际揽收能力，仍可能放大迟发和准时送达绩效风险。本次证据仅支持加拿大与墨西哥站，不能套用到美国站。",
+      "action": "在加拿大、墨西哥站Shipping Settings逐一登记年末休息日，并与仓库、客服和承运商揽收日历交叉核对；导出FBM订单报告，抽查新增handling/transit列与前台承诺日期是否一致。只有确认三方均可履约时，才在墨西哥站把国家法定节假日改为工作日。",
       "category": "policy",
       "priority": "P1",
       "original_published_at": null,
-      "original_date_note": "公开页面仅显示相对时间“7 days ago”，未提供可独立核验的绝对发布日期或生效日期；因此原始发布日期与effective_date均记为null/unknown，不以发现日替代。",
+      "original_date_note": "加拿大官方页面在2026-11-24核验时显示“4 days ago”，墨西哥页面显示“2 weeks ago”，均未公开精确发布日期或单独生效日，因此不以发现日替代发布日期或生效日。",
       "first_seen_at": "2026-11-13T01:10:29.453Z",
-      "last_material_update_at": "2026-11-13T01:10:29.453Z",
+      "last_material_update_at": "2026-11-24T01:01:42.000Z",
       "history_dates": [
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-24"
       ],
       "verification_status": "reviewed",
-      "key_aliases": [],
-      "revisions": [],
+      "key_aliases": [
+        "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|CA+MX|unknown"
+      ],
+      "revisions": [
+        {
+          "at": "2026-11-24T01:01:42.000Z",
+          "reason": "加拿大站官方公告补充了同一功能的当地适用证据；按多站同动作规则扩展原卡片至CA+MX并保留原event_key。",
+          "previous": {
+            "title": "墨西哥站FBM支持自定义节假日，订单报表新增处理及运输时长列",
+            "summary": "Amazon墨西哥站Seller Central公开公告显示，卖家现在可为自配送（FBM）商品设置自定义节假日：在不隐藏Listing的情况下标记企业停业日，停业日仍可接收订单，系统会自动调整承诺发货与送达日期。Amazon预设节假日保持不变；若企业在国家法定节假日营业，可将其改为工作日。FBM订单报表同时新增每笔订单的处理时间与运输时间列，用于核对承诺日期计算。",
+            "impact": "该功能直接影响MX站FBM承诺日期、准时发货与买家预期。它不同于Vacation mode：Listing仍展示且订单继续进入，因此配置错误或把法定假日误设为工作日，会在没有履约能力时形成交付风险。公告未给出绝对发布日期或明确生效日，故事件日期保持unknown，不用抓取日替代。",
+            "action": "在墨西哥站Seller Central核对并配置未来停业日与实际营业的法定节假日；在节前用FBM订单报表的处理时间、运输时间列抽样验证承诺发货/送达日期。只有确认仓库、客服和承运商均可履约时，才把国家法定节假日改为工作日；同步保留配置截图与异常订单复盘。",
+            "category": "policy",
+            "priority": "P1",
+            "marketplaces": [
+              "MX"
+            ],
+            "effective_date": null,
+            "deadline": null,
+            "original_published_at": null,
+            "original_date_note": "公开页面仅显示相对时间“7 days ago”，未提供可独立核验的绝对发布日期或生效日期；因此原始发布日期与effective_date均记为null/unknown，不以发现日替代。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "sources": [
         {
           "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/524f59b2-ff00-455d-ac41-ae7c55cd3bc4",
@@ -7412,6 +7437,17 @@
           "authority_confirmed": true,
           "verification_note": "已读取公开公告正文，核对自定义节假日、订单继续进入、承诺日期自动调整、法定节假日可改为工作日，以及FBM订单报表新增处理和运输时长列。页面仅给相对时间。",
           "canonical_url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/524f59b2-ff00-455d-ac41-ae7c55cd3bc4"
+        },
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/9ad91b98-3225-470c-912d-78ea4436523e",
+          "publisher": "Amazon Seller Central Canada",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-24T01:01:42.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/9ad91b98-3225-470c-912d-78ea4436523e"
         }
       ],
       "event_key": "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown",
@@ -8277,6 +8313,88 @@
       "event_key": "amazon-ca-whole-foods-return-network|add-box-free-label-free-dropoff-at-all-canada-stores|CA|2026-11-19",
       "id": "evt-ea3cfb3e9c28c1b1",
       "primary_source_url": "https://www.aboutamazon.ca/news/customer-trust/amazon-offers-returns-with-no-box-tape-or-label-needed"
+    },
+    {
+      "subject_key": "amazon-us-seller-central-navigation",
+      "action_key": "add-classic-menu-option-inside-new-seller-central",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美国站新版Seller Central恢复Classic Menu切换选项",
+      "summary": "Amazon美国站社区经理公告确认，新版Seller Central菜单顶部现可切换到Classic Menu，恢复Catalog、Inventory、Pricing、Orders、Reports、Payments和Performance等熟悉分类。页面和Workspace仍使用新版体验；该开关只改变菜单结构，不等同于切回完整旧版Seller Central。",
+      "impact": "美国站团队可减少寻找订单、付款、绩效和报告入口的点击成本，也便于沿用现有SOP截图与岗位培训。但新版页面本身没有回退，依赖旧版页面布局的自动化或培训材料仍需逐项验证。",
+      "action": "让美国站运营在菜单顶部测试Classic Menu，并逐项核对Catalog、Orders、Payments、Reports与Performance入口；更新内部SOP时明确“经典菜单”不等于“完整旧版站点”，避免把页面级差异误判为功能回退。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": null,
+      "original_date_note": "官方社区经理页面在2026-11-24核验时显示由moderator于2小时前更新，但未公开原始精确发布日期；事件记录保留unknown，不以抓取日代替。",
+      "first_seen_at": "2026-11-24T01:01:42.000Z",
+      "last_material_update_at": "2026-11-24T01:01:42.000Z",
+      "history_dates": [
+        "2026-11-24"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e4d34700-cb8b-4cca-9d89-cc2ba08b314d",
+          "publisher": "Amazon Seller Central US",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-24T01:01:42.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e4d34700-cb8b-4cca-9d89-cc2ba08b314d"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-seller-central-navigation|add-classic-menu-option-inside-new-seller-central|US|unknown",
+      "id": "evt-1b2577fbdabbd8e5",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e4d34700-cb8b-4cca-9d89-cc2ba08b314d"
+    },
+    {
+      "subject_key": "amazon-us-holiday-ai-operations-guide",
+      "action_key": "publish-quick-plugin-and-ads-mcp-workflow-guide",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "Amazon发布旺季AI操作路径：库存联动广告，Ads MCP报表约15分钟刷新",
+      "summary": "Amazon美国站News_Amazon发布旺季AI运营指南，把Amazon Quick、Selling Partner plugin（Beta）与Amazon Ads MCP Server（Open Beta）串成旺季前、中、后三阶段操作路径：旺季前审核Listing并预测需求，峰值期用库存判断暂停或加投ASIN，并通过Ads MCP获取约15分钟刷新的效果摘要，旺季后复盘促销与补货。官方要求每次执行前人工确认，并让工具说明所依据的数据。",
+      "impact": "这不是三款工具首次发布，而是Amazon首次用官方旺季流程明确库存、Listing与广告之间的联动方法。它可缩短峰值期预算和补货判断，但Beta权限、数据范围及自动执行错误仍是主要风险；本次直接证据来自美国站，不能据此声称加拿大或墨西哥站插件已开放。",
+      "action": "美国站先选择少量Holiday ASIN建立只读试点：明确marketplace、日期、ASIN和指标，比较库存覆盖天数与广告消耗；所有暂停、调预算、改Listing或补货动作必须人工确认，并保存工具引用的数据与审批记录。加拿大、墨西哥站继续等待当地可用性证据。",
+      "category": "ai",
+      "priority": "P1",
+      "original_published_at": "2026-11-24",
+      "original_date_note": "Amazon美国站News_Amazon页面于2026-11-24核验时显示“8 hours ago”；本卡片记录的是新发布的旺季操作指南，不把9月已发布的Selling Partner plugin功能包装为本日首次上线。",
+      "first_seen_at": "2026-11-24T01:01:42.000Z",
+      "last_material_update_at": "2026-11-24T01:01:42.000Z",
+      "history_dates": [
+        "2026-11-24"
+      ],
+      "verification_status": "reviewed",
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e3962a18-828b-46ec-938d-abfcdd8c73d6",
+          "publisher": "Amazon Seller Central US",
+          "kind": "official",
+          "published_at": "2026-11-24",
+          "verified_at": "2026-11-24T01:01:42.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e3962a18-828b-46ec-938d-abfcdd8c73d6"
+        }
+      ],
+      "key_aliases": [],
+      "revisions": [],
+      "event_key": "amazon-us-holiday-ai-operations-guide|publish-quick-plugin-and-ads-mcp-workflow-guide|US|unknown",
+      "id": "evt-6e4d0d1c41c72c53",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e3962a18-828b-46ec-938d-abfcdd8c73d6"
     }
   ]
 }

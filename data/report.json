@@ -1,43 +1,52 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-ads-holiday-sponsorship-program|expand-official-holiday-partnerships-to-canada|CA+US|2026-11-20",
-    "amazon-ca-whole-foods-return-network|add-box-free-label-free-dropoff-at-all-canada-stores|CA|2026-11-19"
+    "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown",
+    "amazon-us-seller-central-navigation|add-classic-menu-option-inside-new-seller-central|US|unknown",
+    "amazon-us-holiday-ai-operations-guide|publish-quick-plugin-and-ads-mcp-workflow-guide|US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
     "ads": "partial",
     "ai": "partial",
     "opportunities": "partial",
-    "competitors": "partial"
+    "competitors": "not_checked"
   },
-  "coverage_note": "已按各来源窗口检查Amazon Seller Central US/CA/MX、Amazon Ads、全球开店公开页、CPSC、Health Canada及墨西哥监管公开检索结果，并逐一公开检索15个行业网站/公众号身份。两项官方增量经全文或完整搜索正文核验；Seller Central列表、行业网站和公众号多数仅能公开搜索摘要，不能声称完整读取。Amazon商品页受robots限制，且未提供指定ASIN或同站同变体可比快照，因此US/CA/MX汽车用品价格、Coupon、BSR与页面变化未完成比较；8月29、30日待补查标记保留。",
+  "coverage_note": "已核验US/CA/MX Seller Central公开公告、Amazon全球开店、Amazon Ads公开更新、加拿大与墨西哥监管公开检索，以及既定行业网站和各公开公众号入口；部分来源仅能取得公开检索摘要，公众号未绕过登录或访问限制。汽配行业榜单仅提供未经独立复核的估算销量，且没有指定ASIN与可比历史快照；Amazon三站竞品价格、Coupon、BSR和页面变化因此缺少可比基线，未声称发生变化。",
   "action_items": [
     {
-      "title": "核对加拿大旺季整合广告触点",
-      "detail": "分别审查Brand Store、Fire TV/视频、直播与商品页素材和库存的一致性；向Amazon Ads确认Holiday Sponsorship资格，未确认前不视为自助产品。",
-      "due": "本周",
-      "event_key": "amazon-ads-holiday-sponsorship-program|expand-official-holiday-partnerships-to-canada|CA+US|2026-11-20"
+      "title": "配置加墨站FBM休息日",
+      "detail": "在Shipping Settings登记实际停业日，并用FBM订单报告新增handling/transit列抽查承诺日期。",
+      "due": "下次休息日前",
+      "event_key": "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown"
     },
     {
-      "title": "抽查加拿大退货选项",
-      "detail": "按城市、履约方式和商品类型在Returns Centre抽查Whole Foods退货选项，并记录退货原因、退款时效和回仓可售率。",
+      "title": "复核美国站经典菜单SOP",
+      "detail": "测试Catalog、Orders、Payments、Reports和Performance入口，标明菜单切换不改变新版页面。",
       "due": "本周",
-      "event_key": "amazon-ca-whole-foods-return-network|add-box-free-label-free-dropoff-at-all-canada-stores|CA|2026-11-19"
+      "event_key": "amazon-us-seller-central-navigation|add-classic-menu-option-inside-new-seller-central|US|unknown"
+    },
+    {
+      "title": "建立旺季AI只读试点",
+      "detail": "选择少量美国站ASIN，对库存、广告15分钟摘要和补货建议做人工审批验证。",
+      "due": "黑五网一期间",
+      "event_key": "amazon-us-holiday-ai-operations-guide|publish-quick-plugin-and-ads-mcp-workflow-guide|US|unknown"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-21",
-  "content_updated_at": "2026-11-21T01:07:17.000Z",
+  "report_date": "2026-11-24",
+  "content_updated_at": "2026-11-24T01:01:42.000Z",
   "new_event_keys": [
-    "amazon-ads-holiday-sponsorship-program|expand-official-holiday-partnerships-to-canada|CA+US|2026-11-20",
-    "amazon-ca-whole-foods-return-network|add-box-free-label-free-dropoff-at-all-canada-stores|CA|2026-11-19"
+    "amazon-us-seller-central-navigation|add-classic-menu-option-inside-new-seller-central|US|unknown",
+    "amazon-us-holiday-ai-operations-guide|publish-quick-plugin-and-ads-mcp-workflow-guide|US|unknown"
   ],
-  "updated_event_keys": [],
+  "updated_event_keys": [
+    "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown"
+  ],
   "counts": {
     "new": 2,
-    "updated": 0,
-    "merged": 0,
+    "updated": 1,
+    "merged": 1,
     "deduplicated": 0
   }
 }
