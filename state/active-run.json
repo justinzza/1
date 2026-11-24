@@ -1,12 +1,8 @@
 {
-  "run_id": "run-20261123t010039z-06b26d82",
-  "status": "released",
-  "acquired_at": "2026-11-23T01:00:39.920Z",
-  "expires_at": "2026-11-23T02:30:39.920Z",
-  "previous_radar_state_head": "fc55b4b8246ef9bb2619b8c68d16a21e9a00cc4d",
-  "takeover_reason": null,
-  "released_at": "2026-11-23T01:17:30.000Z",
-  "release_reason": "Run finalized with no material changes; main and deployment were not modified.",
-  "final_status": "partial"
+  "run_id": "run-20261124t005620z-3f91a4c7",
+  "status": "active",
+  "acquired_at": "2026-11-24T00:56:20.000Z",
+  "expires_at": "2026-11-24T02:26:20.000Z",
+  "previous_radar_state_head": "d91a8e26c32ca3b5c3eda33fe08b64c1269ba05e",
+  "takeover_reason": null
 }
-
