@@ -1,0 +1,16 @@
+{
+  "run_id": "run-20261124t005620z-3f91a4c7",
+  "status": "prepared",
+  "prepared_at": "2026-11-24T01:01:42.000Z",
+  "base_main_head": "a6bbcaf77778e5712fad05f5c852575146bd76dd",
+  "base_registry_digest": "e83fedad3e7978a6d29c7a13e10af033d3ec382b4c8e6fa895a66cd0f943b5e8",
+  "expected_registry_digest": "c86a888dde277969cd68b260b6917796a2c824309d5c2b38cb96a832d7dd8913",
+  "expected_content_digest": "46f30e4aeabe58d8c498a5e57315c8ecda73e84a3a884128c0b999a60026d3f5",
+  "expected_html_sha256": "fa775fd71a03fb6c053e4035b9c87c5c53b4dbb93d7ebc86b830a073b4a0d11f",
+  "counts": {
+    "new": 2,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  }
+}

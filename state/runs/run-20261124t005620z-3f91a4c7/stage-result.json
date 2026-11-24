@@ -1,0 +1,41 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 2,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-seller-central-navigation|add-classic-menu-option-inside-new-seller-central|US|unknown",
+    "amazon-us-holiday-ai-operations-guide|publish-quick-plugin-and-ads-mcp-workflow-guide|US|unknown"
+  ],
+  "updated_event_keys": [
+    "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown",
+      "action": "update",
+      "axes": {
+        "event_key": false,
+        "title": false,
+        "identity": false,
+        "source": true,
+        "effective_date": false
+      },
+      "review": "四重比对发现墨西哥站同一动作已在事件库；加拿大官方公告描述相同的FBM自定义假期及handling/transit报告列，且均无独立生效日，因此更新原卡片marketplaces并合并加拿大来源，不新增重复卡片。"
+    },
+    {
+      "event_key": "amazon-us-seller-central-navigation|add-classic-menu-option-inside-new-seller-central|US|unknown",
+      "action": "new",
+      "review": "逐条审核现有导航、新版Seller Central和后台功能标题，未发现Classic Menu恢复事项；其动作与本批FBM设置及AI指南不同，官方链接也未在事件库出现。"
+    },
+    {
+      "event_key": "amazon-us-holiday-ai-operations-guide|publish-quick-plugin-and-ads-mcp-workflow-guide|US|unknown",
+      "action": "new",
+      "review": "现有事件已记录9月Seller Assistant/Selling Partner plugin发布和Ads MCP SQL工具，但没有11月24日官方三阶段旺季操作指南、库存与广告联动步骤或15分钟效果摘要使用方法；本卡片以新的运营方法为动作，不声称底层工具今日首次上线。"
+    }
+  ]
+}
