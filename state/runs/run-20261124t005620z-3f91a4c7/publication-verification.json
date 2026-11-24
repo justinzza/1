@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "main_commit": "c43eb9539a8fec13d55a7916d8e2f830c42ba5a8",
+  "github_vercel_status": "success",
+  "production_url": "https://amazon-ops-radar-vercel.vercel.app/",
+  "expected_content_digest": "46f30e4aeabe58d8c498a5e57315c8ecda73e84a3a884128c0b999a60026d3f5",
+  "observed_content_digest": "46f30e4aeabe58d8c498a5e57315c8ecda73e84a3a884128c0b999a60026d3f5",
+  "observed_html_length": 394594,
+  "daily_briefing_present": false,
+  "verified_at": "2026-11-24T01:08:50.000Z",
+  "note": "Vercel项目列表接口403不可见；按运行手册使用GitHub精确提交状态成功与正式域名完整DOM/data-content-digest验收。"
+}

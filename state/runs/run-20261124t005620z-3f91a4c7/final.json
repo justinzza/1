@@ -1,0 +1,462 @@
+{
+  "id": "run-20261124t005620z-3f91a4c7",
+  "base_state_digest": "be1f87be2c99cd8515d6941ff6e8d638e384706c8716f0c7b5e2cd93380b9ee4",
+  "started_at": "2026-11-24T00:56:20.000Z",
+  "finished_at": "2026-11-24T01:09:35.000Z",
+  "material_changed": true,
+  "backfill_complete": false,
+  "counts": {
+    "added": 2,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "c43eb9539a8fec13d55a7916d8e2f830c42ba5a8",
+    "expected_digest": "46f30e4aeabe58d8c498a5e57315c8ecda73e84a3a884128c0b999a60026d3f5",
+    "observed_digest": "46f30e4aeabe58d8c498a5e57315c8ecda73e84a3a884128c0b999a60026d3f5",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "verified_at": "2026-11-24T01:08:50.000Z",
+    "verification_note": "GitHub上该生产提交的Vercel状态为success；Vercel项目列表接口返回403不可见，改用正式域名内容路径验收。正式页面标题为“亚马逊运营雷达”，完整DOM长度394594，data-content-digest与预期一致；两条新增、一条更新均可见，DAILY BRIEFING/分类摘要不存在。"
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "note": "检查美国站Seller Central公开News/论坛及公开检索；直接核验Classic Menu公告和旺季AI运营指南，但Seller Central登录内公告与自bootstrap起完整历史无法公开穷尽，因此不推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e4d34700-cb8b-4cca-9d89-cc2ba08b314d",
+          "note": "Amazon社区经理公告：新版Seller Central增加Classic Menu选项。"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e3962a18-828b-46ec-938d-abfcdd8c73d6",
+          "note": "News_Amazon旺季AI运营方法指南，含Quick、Selling Partner plugin与Ads MCP。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "note": "逐站检索Amazon全球开店公开新闻与当地更新；公开结果未发现可独立核验的新US/CA/MX增量，部分栏目仅有摘要或历史页，未声称完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://gs.amazon.cn/news",
+          "note": "Amazon全球开店公开新闻中心入口；本次使用公开索引与检索结果核查。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "note": "检查Amazon Ads What's New公开索引及US/CA/MX相关结果；未找到可与既有事件区分的新增正式公告。公开索引无法证明全部后台功能更新均已覆盖。",
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/resources/whats-new",
+          "note": "Amazon Ads What's New公开入口。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "note": "检索美国FTC、CPSC及相关监管公开更新，未找到本窗口内直接影响三站卖家且可核验的新事件；公开检索不是监管数据库全量审查。",
+      "evidence": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases",
+          "note": "FTC公开新闻稿入口。"
+        },
+        {
+          "url": "https://www.cpsc.gov/Newsroom/News-Releases",
+          "note": "CPSC公开新闻发布入口。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "note": "直接核验加拿大站News_Amazon关于FBM自定义假期及订单报告新增handling/transit字段的公告；其余仅覆盖公开可访问论坛/检索，登录内公告及完整历史未穷尽，故不推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/9ad91b98-3225-470c-912d-78ea4436523e",
+          "note": "加拿大站官方News_Amazon公告，直接支持CA适用范围。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "note": "复核墨西哥站同一FBM功能官方公告并与既有事件合并；其余仅覆盖公开可访问论坛/检索，登录内公告及完整历史未穷尽。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com.mx/seller-forums/discussions/t/524f59b2-ff00-455d-ac41-ae7c55cd3bc4",
+          "note": "墨西哥站官方News_Amazon公告，直接支持MX适用范围。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "note": "检索Competition Bureau、Health Canada/召回及税务相关公开更新，未发现本窗口内可直接支持的新Amazon CA运营事件；未对受限数据库作全量审查。",
+      "evidence": [
+        {
+          "url": "https://competition-bureau.canada.ca/how-we-foster-competition/education-and-outreach/news-releases",
+          "note": "加拿大Competition Bureau公开新闻稿入口。"
+        },
+        {
+          "url": "https://recalls-rappels.canada.ca/en",
+          "note": "加拿大公开召回与安全警示入口。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "note": "检索PROFECO、SAT及墨西哥监管公开更新，未发现本窗口内可直接支持的新Amazon MX运营事件；公开索引覆盖有限。",
+      "evidence": [
+        {
+          "url": "https://www.gob.mx/profeco/prensa",
+          "note": "PROFECO公开新闻稿入口。"
+        },
+        {
+          "url": "https://www.sat.gob.mx/noticias",
+          "note": "SAT公开新闻入口。"
+        }
+      ]
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "note": "逐一检索跨境头条公开栏目与近期索引；未发现可由官方原文独立支持、且未入库的US/CA/MX实质更新。部分页面仅有搜索摘要或读取受限，未声称完整检查。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/daily",
+          "note": "跨境头条公开入口/栏目，记录了公开检索范围。"
+        }
+      ]
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "note": "逐一检索跨境快讯公开栏目与近期索引；未发现可由官方原文独立支持、且未入库的US/CA/MX实质更新。部分页面仅有搜索摘要或读取受限，未声称完整检查。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "跨境快讯公开入口/栏目，记录了公开检索范围。"
+        }
+      ]
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "note": "逐一检索知无不言公开栏目与近期索引；未发现可由官方原文独立支持、且未入库的US/CA/MX实质更新。部分页面仅有搜索摘要或读取受限，未声称完整检查。",
+      "evidence": [
+        {
+          "url": "https://www.wearesellers.com/headline/category-40",
+          "note": "知无不言公开入口/栏目，记录了公开检索范围。"
+        }
+      ]
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "note": "逐一检索TT123卖家导航公开栏目与近期索引；未发现可由官方原文独立支持、且未入库的US/CA/MX实质更新。部分页面仅有搜索摘要或读取受限，未声称完整检查。",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/kx",
+          "note": "TT123卖家导航公开入口/栏目，记录了公开检索范围。"
+        }
+      ]
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "note": "逐一检索品牌方舟公开栏目与近期索引；未发现可由官方原文独立支持、且未入库的US/CA/MX实质更新。部分页面仅有搜索摘要或读取受限，未声称完整检查。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/",
+          "note": "品牌方舟公开入口/栏目，记录了公开检索范围。"
+        }
+      ]
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "note": "逐一检索卖家之家公开栏目与近期索引；未发现可由官方原文独立支持、且未入库的US/CA/MX实质更新。部分页面仅有搜索摘要或读取受限，未声称完整检查。",
+      "evidence": [
+        {
+          "url": "https://mjzj.com/",
+          "note": "卖家之家公开入口/栏目，记录了公开检索范围。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "note": "逐一检索大宝站外推广公开可检索文章/作者索引；仅使用无需登录的公开摘要与可访问页面，没有绕过登录、验证码或访问限制。未找到可独立核验的新三站事件，故不声明完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-9392",
+          "note": "大宝站外推广公开索引或媒体身份入口；正文受限时只记录摘要范围。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "note": "逐一检索葫芦娃站外推广公开可检索文章/作者索引；仅使用无需登录的公开摘要与可访问页面，没有绕过登录、验证码或访问限制。未找到可独立核验的新三站事件，故不声明完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-61871",
+          "note": "葫芦娃站外推广公开索引或媒体身份入口；正文受限时只记录摘要范围。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "note": "逐一检索三头六臂跨境电商公开可检索文章/作者索引；仅使用无需登录的公开摘要与可访问页面，没有绕过登录、验证码或访问限制。未找到可独立核验的新三站事件，故不声明完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-97",
+          "note": "三头六臂跨境电商公开索引或媒体身份入口；正文受限时只记录摘要范围。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "note": "逐一检索跨境头条公众号公开可检索文章/作者索引；仅使用无需登录的公开摘要与可访问页面，没有绕过登录、验证码或访问限制。未找到可独立核验的新三站事件，故不声明完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/daily",
+          "note": "跨境头条公众号公开索引或媒体身份入口；正文受限时只记录摘要范围。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "note": "逐一检索跨境快讯公众号公开可检索文章/作者索引；仅使用无需登录的公开摘要与可访问页面，没有绕过登录、验证码或访问限制。未找到可独立核验的新三站事件，故不声明完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "跨境快讯公众号公开索引或媒体身份入口；正文受限时只记录摘要范围。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "note": "逐一检索知无不言公众号公开可检索文章/作者索引；仅使用无需登录的公开摘要与可访问页面，没有绕过登录、验证码或访问限制。未找到可独立核验的新三站事件，故不声明完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-78",
+          "note": "知无不言公众号公开索引或媒体身份入口；正文受限时只记录摘要范围。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "note": "逐一检索TT123公众号公开可检索文章/作者索引；仅使用无需登录的公开摘要与可访问页面，没有绕过登录、验证码或访问限制。未找到可独立核验的新三站事件，故不声明完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/author-21",
+          "note": "TT123公众号公开索引或媒体身份入口；正文受限时只记录摘要范围。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "note": "逐一检索品牌方舟公众号公开可检索文章/作者索引；仅使用无需登录的公开摘要与可访问页面，没有绕过登录、验证码或访问限制。未找到可独立核验的新三站事件，故不声明完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/author-2",
+          "note": "品牌方舟公众号公开索引或媒体身份入口；正文受限时只记录摘要范围。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "note": "逐一检索卖家之家公众号公开可检索文章/作者索引；仅使用无需登录的公开摘要与可访问页面，没有绕过登录、验证码或访问限制。未找到可独立核验的新三站事件，故不声明完整覆盖。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/mjzj/introduction",
+          "note": "卖家之家公众号公开索引或媒体身份入口；正文受限时只记录摘要范围。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "blocked",
+      "note": "未指定可比ASIN、变体、邮编和历史快照；公开搜索仅找到第三方估算榜单，无法建立US站价格、Coupon、BSR或关键词变化，首次观察不计变化。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/t/9sZM6k6B",
+          "note": "公开第三方估算榜单仅作线索，因口径和基线不足未发布。"
+        }
+      ]
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "note": "已逐一检查全部15个include_source_ids，分别检索CA/FBA/费用/税务/广告/促销/汽车用品语境；公开结果无可靠CA增量。部分公众号仅有公开索引或摘要，未登录、未绕过限制，因此不清除待补查。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/daily",
+          "note": "include_source_id=crossborder_headlines 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "include_source_id=crossborder_briefs 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.wearesellers.com/headline/category-40",
+          "note": "include_source_id=wearesellers 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.tt123.com/kx",
+          "note": "include_source_id=tt123 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.brandark.com/",
+          "note": "include_source_id=brand_ark 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://mjzj.com/",
+          "note": "include_source_id=seller_home 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/author-9392",
+          "note": "include_source_id=wechat_dabao 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/author-61871",
+          "note": "include_source_id=wechat_huluwa 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/author-97",
+          "note": "include_source_id=wechat_santou 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://hot.ouzhou123.com/daily",
+          "note": "include_source_id=wechat_crossborder_headlines 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "include_source_id=wechat_crossborder_briefs 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/author-78",
+          "note": "include_source_id=wechat_wearesellers 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.tt123.com/author-21",
+          "note": "include_source_id=wechat_tt123 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.brandark.com/author-2",
+          "note": "include_source_id=wechat_brand_ark 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/mjzj/introduction",
+          "note": "include_source_id=wechat_seller_home 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        }
+      ]
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "note": "已逐一检查全部15个include_source_ids，分别检索MX/FBA/费用/税务/广告/促销/汽车用品语境；公开结果无可靠MX增量。部分公众号仅有公开索引或摘要，未登录、未绕过限制，因此不清除待补查。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/daily",
+          "note": "include_source_id=crossborder_headlines 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "include_source_id=crossborder_briefs 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.wearesellers.com/headline/category-40",
+          "note": "include_source_id=wearesellers 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.tt123.com/kx",
+          "note": "include_source_id=tt123 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.brandark.com/",
+          "note": "include_source_id=brand_ark 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://mjzj.com/",
+          "note": "include_source_id=seller_home 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/author-9392",
+          "note": "include_source_id=wechat_dabao 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/author-61871",
+          "note": "include_source_id=wechat_huluwa 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/author-97",
+          "note": "include_source_id=wechat_santou 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://hot.ouzhou123.com/daily",
+          "note": "include_source_id=wechat_crossborder_headlines 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "include_source_id=wechat_crossborder_briefs 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/author-78",
+          "note": "include_source_id=wechat_wearesellers 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.tt123.com/author-21",
+          "note": "include_source_id=wechat_tt123 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.brandark.com/author-2",
+          "note": "include_source_id=wechat_brand_ark 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        },
+        {
+          "url": "https://www.amz123.com/mjzj/introduction",
+          "note": "include_source_id=wechat_seller_home 已单独检索；只记录公开结果，正文受限或无加墨专门增量时保留失败/限制。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "blocked",
+      "note": "未指定可比ASIN、变体、加拿大邮编和历史快照，且公开页面无法保证CAD税费/运费与地域口径一致；未建立或声称CA价格、Coupon、BSR、关键词变化。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.ca/",
+          "note": "加拿大站公开入口；因缺少ASIN和地域化可比快照未执行变化结论。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "blocked",
+      "note": "未指定可比ASIN、变体、墨西哥邮编和历史快照，且公开页面无法保证MXN税费/运费与地域口径一致；未建立或声称MX价格、Coupon、BSR、关键词变化。",
+      "evidence": [
+        {
+          "url": "https://www.amazon.com.mx/",
+          "note": "墨西哥站公开入口；因缺少ASIN和地域化可比快照未执行变化结论。"
+        }
+      ]
+    }
+  ]
+}
