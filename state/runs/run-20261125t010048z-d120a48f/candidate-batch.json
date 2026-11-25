@@ -1,0 +1,147 @@
+{
+  "base_digest": "c86a888dde277969cd68b260b6917796a2c824309d5c2b38cb96a832d7dd8913",
+  "checked_at": "2026-11-25T01:05:38.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-fba-inventory-page",
+        "action_key": "rename-and-consolidate-as-manage-amazon-inventory",
+        "marketplaces": ["US"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "美国站FBA Inventory更名为Manage Amazon inventory并整合GWD、AWD与FBA库存",
+        "summary": "Amazon美国站官方公告确认，FBA Inventory页面已迁入新版Seller Central并更名为Manage Amazon inventory。新页面把Global Warehousing and Distribution（GWD）、Amazon Warehousing and Distribution（AWD）及FBA库存汇总在一个视图中；Total inventory包含在途库存，并按Inbound、At global storage、At domestic storage和At fulfillment拆分。卖家还可在Restock settings列按商品或批量修改lead time、restock frequency和end-of-life设置。",
+        "impact": "库存总量口径现在可能包含在途与多层仓储库存，若团队继续按旧FBA页面列位或导出字段理解可售量，可能误判补货和广告承接能力。公告只确认美国站新版Seller Central页面，未提供加拿大或墨西哥站同步上线证据。",
+        "action": "美国站团队应保存旧版库存SOP与新页面字段映射，逐项核对Inbound、GWD、AWD、FBA及可售库存口径；抽查重点ASIN的lead time、restock frequency和end-of-life设置，并在自动补货或报表脚本中确认字段没有错位。CA/MX继续沿用各自已验证页面，不跨站套用。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": "2026-11-24",
+        "original_date_note": "Amazon美国站News_Amazon官方页面在北京时间2026-11-25核验时显示为前一日发布；公告未给出独立日级生效日期，因此effective_date保留null。",
+        "first_seen_at": "2026-11-25T01:05:38.000Z",
+        "last_material_update_at": "2026-11-25T01:05:38.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/2d8620b9-04de-40b4-bf46-c9466cee3f97",
+            "publisher": "Amazon Seller Central US",
+            "kind": "official",
+            "published_at": "2026-11-24",
+            "verified_at": "2026-11-25T01:05:38.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "verification_note": "已读取Amazon Seller Central News_Amazon公开页面，逐项核对页面更名、GWD/AWD/FBA汇总、四类库存列及Restock settings字段。",
+            "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/2d8620b9-04de-40b4-bf46-c9466cee3f97"
+          },
+          {
+            "url": "https://hot.ouzhou123.com/items/d3rd0kcp1vgnys9wd5hj79pg9",
+            "publisher": "跨境头条",
+            "kind": "aggregator",
+            "published_at": "2026-11-24",
+            "verified_at": "2026-11-25T01:05:38.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "verification_note": "行业聚合页提供同一页面迁移线索；事实与适用站点仍以Amazon官方原文为准。",
+            "canonical_url": "https://hot.ouzhou123.com/items/d3rd0kcp1vgnys9wd5hj79pg9"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "c86a888dde277969cd68b260b6917796a2c824309d5c2b38cb96a832d7dd8913",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "逐条比对全库event_key、标题语义、规范化来源与生效日期；现有Seller Central导航卡只记录Classic Menu切换，未记录FBA库存页面更名或GWD/AWD/FBA整合。本批另一候选是广告评论邀请，主体与变化动作均不同。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ads-review-requests",
+        "action_key": "launch-open-beta-2026",
+        "marketplaces": ["US"],
+        "effective_date": null,
+        "deadline": null,
+        "title": "Amazon Ads Review Requests已在美国开放Beta，按点击付费邀请已验证买家评价",
+        "summary": "Amazon Ads产品页和11月18日更新的帮助页确认，Review Requests现已在美国以Open Beta提供。符合条件的卖家与供应商可向近期已验证购买者展示原生邀请，收集星级、文字、图片或视频评价；广告主仅在消费者点击并进入提交Rating或Review流程时按CPC付费，可查看实时Campaign指标，并可通过Amazon Ads Agent与Unified API管理。商品累计Ratings与Reviews达到1,000后Campaign自动暂停。",
+        "impact": "这把此前的上线预告升级为可用状态，并明确了按点击计费和实时衡量口径。它仍是付费广告产品，不改变评论真实性或操纵评论政策；点击不等于完成评价，Closed Beta的历史效果也不能作为保证。当前公开证据仅适用于美国站。",
+        "action": "美国站先筛选评论少于1,000且账户无活动违规的新品做小规模试点，设置CPC和总预算上限，分别跟踪点击、完成Rating/Review、每新增评价成本及自然评论基线；保存素材与政策审计记录。未见当地资格前不向CA/MX套用。",
+        "category": "ads",
+        "priority": "P1",
+        "original_published_at": "2026-09-29",
+        "original_date_note": "Review Requests最初由Amazon Ads于2026-09-29公布；2026-11-18更新的官方帮助页与当前产品页确认Open Beta已可用，但没有公开日级正式生效日，因此effective_date继续保留null。",
+        "first_seen_at": "2026-11-25T01:05:38.000Z",
+        "last_material_update_at": "2026-11-25T01:05:38.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://advertising.amazon.com/products/review-requests",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-25T01:05:38.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "verification_note": "已读取官方产品页，核对Open Beta可用状态、CPC计费、实时指标、已验证购买者邀请及Ads Agent/Unified API管理方式。",
+            "canonical_url": "https://advertising.amazon.com/products/review-requests"
+          },
+          {
+            "url": "https://advertising.amazon.com/help/GMGECFS7PM2LEVUV",
+            "publisher": "Amazon Ads",
+            "kind": "official",
+            "published_at": "2026-11-18",
+            "verified_at": "2026-11-25T01:05:38.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "verification_note": "已读取官方帮助页，核对美国Open Beta资格、1,000条Ratings/Reviews阈值与自动暂停规则。",
+            "canonical_url": "https://advertising.amazon.com/help/GMGECFS7PM2LEVUV"
+          }
+        ]
+      },
+      "material_update": true,
+      "update_reason": "原卡片只记录2026年9月的计划上线窗口；当前官方产品页及11月18日帮助页已确认美国Open Beta可用，并补充CPC计费、实时指标与资格规则，属于实质状态和操作信息更新。",
+      "dedupe_review": {
+        "compared_digest": "c86a888dde277969cd68b260b6917796a2c824309d5c2b38cb96a832d7dd8913",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-ads-review-requests|launch-open-beta-2026|US|unknown",
+        "reason": "event_key与核心主体、变化动作、适用站点及未知生效日均与既有Review Requests卡一致；标题变化表达从预告转为已开放状态，必须更新原卡片而非新建。本批FBA库存候选与其无语义重合。"
+      }
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "amazon-us-fba-inventory-page|rename-and-consolidate-as-manage-amazon-inventory|US|unknown",
+      "amazon-ads-review-requests|launch-open-beta-2026|US|unknown"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "not_checked"
+    },
+    "coverage_note": "已按US/CA/MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店、美国/加拿大/墨西哥监管公开入口，以及跨境头条、跨境快讯、知无不言、TT123、品牌方舟、卖家之家和15个行业/公众号入口。部分Seller Central与公众号仅能取得公开页面或检索摘要，未绕过登录、验证码或访问限制，因此整体为partial。汽车用品关键词榜单已按三站分别检索，但缺少指定ASIN、变体、配送地域和同口径历史快照；未把首次样本当价格、Coupon、BSR或关键词变化。",
+    "action_items": [
+      {
+        "title": "映射Manage Amazon inventory字段",
+        "detail": "核对Inbound、GWD、AWD、FBA与可售库存口径，并检查补货脚本和SOP是否依赖旧列位。",
+        "due": "本周",
+        "event_key": "amazon-us-fba-inventory-page|rename-and-consolidate-as-manage-amazon-inventory|US|unknown"
+      },
+      {
+        "title": "小规模测试Review Requests",
+        "detail": "对合格美国站新品设置CPC与预算上限，分开跟踪点击、完成评价和每新增评价成本。",
+        "due": "本周",
+        "event_key": "amazon-ads-review-requests|launch-open-beta-2026|US|unknown"
+      }
+    ]
+  }
+}

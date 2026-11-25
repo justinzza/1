@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261125t010048z-d120a48f",
+  "status": "staged",
+  "checked_at": "2026-11-25T01:05:38.000Z",
+  "base_main_sha": "c43eb9539a8fec13d55a7916d8e2f830c42ba5a8",
+  "base_event_digest": "c86a888dde277969cd68b260b6917796a2c824309d5c2b38cb96a832d7dd8913",
+  "expected": {
+    "new": 1,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0,
+    "report_date": "2026-11-25",
+    "events": 147
+  },
+  "publication": {
+    "target_branch": "main",
+    "status": "prepared",
+    "production_url": "https://amazon-ops-radar-vercel.vercel.app/"
+  },
+  "lease_commit": "f3499471810901e93fe472f76437a2d6110ad97e"
+}

@@ -1,0 +1,35 @@
+{
+  "material_changed": true,
+  "metadata_changed": true,
+  "counts": {
+    "new": 1,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0
+  },
+  "new_event_keys": [
+    "amazon-us-fba-inventory-page|rename-and-consolidate-as-manage-amazon-inventory|US|unknown"
+  ],
+  "updated_event_keys": [
+    "amazon-ads-review-requests|launch-open-beta-2026|US|unknown"
+  ],
+  "decisions": [
+    {
+      "event_key": "amazon-us-fba-inventory-page|rename-and-consolidate-as-manage-amazon-inventory|US|unknown",
+      "action": "new",
+      "review": "逐条比对全库event_key、标题语义、规范化来源与生效日期；现有Seller Central导航卡只记录Classic Menu切换，未记录FBA库存页面更名或GWD/AWD/FBA整合。本批另一候选是广告评论邀请，主体与变化动作均不同。"
+    },
+    {
+      "event_key": "amazon-ads-review-requests|launch-open-beta-2026|US|unknown",
+      "action": "update",
+      "axes": {
+        "event_key": true,
+        "title": false,
+        "identity": true,
+        "source": false,
+        "effective_date": false
+      },
+      "review": "event_key与核心主体、变化动作、适用站点及未知生效日均与既有Review Requests卡一致；标题变化表达从预告转为已开放状态，必须更新原卡片而非新建。本批FBA库存候选与其无语义重合。"
+    }
+  ]
+}
