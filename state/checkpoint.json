@@ -7,186 +7,195 @@
     "2026-08-30"
   ],
   "last_successful_run_at": null,
-  "last_run_id": "run-20261124t005620z-3f91a4c7",
+  "last_run_id": "run-20261125t010048z-d120a48f",
   "last_run_status": "partial",
   "last_verified_publication": {
     "status": "verified",
     "github_status": "success",
-    "commit_sha": "c43eb9539a8fec13d55a7916d8e2f830c42ba5a8",
-    "expected_digest": "46f30e4aeabe58d8c498a5e57315c8ecda73e84a3a884128c0b999a60026d3f5",
-    "observed_digest": "46f30e4aeabe58d8c498a5e57315c8ecda73e84a3a884128c0b999a60026d3f5",
+    "commit_sha": "75462fcfba86b0da3ecc57b4c1682edd84b9d3b1",
+    "expected_digest": "0ba0e971aa408e17f5435cfe4b5a58b7249b4a0bad2f6f8a0817a37d690a74de",
+    "observed_digest": "0ba0e971aa408e17f5435cfe4b5a58b7249b4a0bad2f6f8a0817a37d690a74de",
     "url": "https://amazon-ops-radar-vercel.vercel.app/",
-    "verified_at": "2026-11-24T01:08:50.000Z",
-    "verification_note": "GitHub上该生产提交的Vercel状态为success；Vercel项目列表接口返回403不可见，改用正式域名内容路径验收。正式页面标题为“亚马逊运营雷达”，完整DOM长度394594，data-content-digest与预期一致；两条新增、一条更新均可见，DAILY BRIEFING/分类摘要不存在。"
+    "verified_at": "2026-11-25T01:11:18.000Z",
+    "summary": {
+      "new": 1,
+      "updated": 1,
+      "merged": 1,
+      "deduplicated": 0,
+      "events": 147,
+      "github_status_context": "Vercel",
+      "formal_page_report_date": "2026-11-25",
+      "briefing_present": false
+    }
   },
   "pending_publication": null,
   "deferred_metadata": null,
   "sources": {
     "amazon_seller_news": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_global_selling_news": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_ads_whats_new": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "relevant_regulators": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_seller_news_ca": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_seller_news_mx": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "relevant_regulators_ca": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "relevant_regulators_mx": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "crossborder_headlines": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "crossborder_briefs": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wearesellers": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "tt123": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "brand_ark": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "seller_home": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_dabao": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_huluwa": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_santou": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_crossborder_headlines": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_crossborder_briefs": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_wearesellers": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_tt123": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_brand_ark": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "wechat_seller_home": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_category_competitors": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "blocked",
       "backfill_complete": false
     },
     "industry_wechat_ca": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "industry_wechat_mx": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "public_search_only",
       "backfill_complete": false
     },
     "amazon_category_competitors_ca": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "blocked",
       "backfill_complete": false
     },
     "amazon_category_competitors_mx": {
       "last_successful_check_at": null,
-      "last_attempt_at": "2026-11-24T01:09:35.000Z",
+      "last_attempt_at": "2026-11-25T01:11:18.000Z",
       "last_status": "blocked",
       "backfill_complete": false
     }

@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "run_id": "run-20261125t010048z-d120a48f",
+  "status": "finalized",
+  "started_at": "2026-11-25T01:00:48.000Z",
+  "finished_at": "2026-11-25T01:11:18.000Z",
+  "lease_status": "released",
+  "material_changed": true,
+  "result_summary": {
+    "new": 1,
+    "updated": 1,
+    "merged": 1,
+    "deduplicated": 0,
+    "coverage": {
+      "US": "partial",
+      "CA": "partial",
+      "MX": "partial"
+    },
+    "notes": "发布2项真实增量；所有未完整来源保留旧游标，8月29/30待补查标记保留。"
+  },
+  "publication": {
+    "status": "verified",
+    "github_status": "success",
+    "commit_sha": "75462fcfba86b0da3ecc57b4c1682edd84b9d3b1",
+    "expected_digest": "0ba0e971aa408e17f5435cfe4b5a58b7249b4a0bad2f6f8a0817a37d690a74de",
+    "observed_digest": "0ba0e971aa408e17f5435cfe4b5a58b7249b4a0bad2f6f8a0817a37d690a74de",
+    "url": "https://amazon-ops-radar-vercel.vercel.app/",
+    "verified_at": "2026-11-25T01:11:18.000Z",
+    "summary": {
+      "new": 1,
+      "updated": 1,
+      "merged": 1,
+      "deduplicated": 0,
+      "events": 147,
+      "github_status_context": "Vercel",
+      "formal_page_report_date": "2026-11-25",
+      "briefing_present": false
+    }
+  },
+  "sources": [
+    {
+      "id": "amazon_seller_news",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/2d8620b9-04de-40b4-bf46-c9466cee3f97",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_global_selling_news",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-17",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_ads_whats_new",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://advertising.amazon.com/products/review-requests",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/11/new-details-emerge-amazon-ads-auction-rigging-case",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_ca",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.ca/seller-forums",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_seller_news_mx",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://sellercentral.amazon.com.mx/seller-forums",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_ca",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "relevant_regulators_mx",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.gob.mx/profeco",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "crossborder_headlines",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/daily",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "crossborder_briefs",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "wearesellers",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.wearesellers.com/headline/category-40",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "tt123",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/kx",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "brand_ark",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "seller_home",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://mjzj.com/",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_dabao",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-9392",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_huluwa",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-61871",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_santou",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-97",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_crossborder_headlines",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/daily",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_crossborder_briefs",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/kx",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_wearesellers",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/author-78",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_tt123",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.tt123.com/author-21",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_brand_ark",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.brandark.com/author-2",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "wechat_seller_home",
+      "status": "public_search_only",
+      "note": "已检查公开页面或公开检索摘要；因登录限制、摘要可见性或自bootstrap窗口以来无法完整逐页核验，状态如实记为public_search_only，未推进成功游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/mjzj/introduction",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors",
+      "status": "blocked",
+      "note": "已按对应站点检索公开汽车用品关键词与商品样本，但缺少指定ASIN、变体、收货地域及同口径历史快照；首次观察不能判定价格、Coupon、BSR或关键词变化，未推进游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/keywordrank",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "industry_wechat_ca",
+      "status": "public_search_only",
+      "note": "已逐一用15个include_source_ids的媒体/公众号公开入口叠加当地站点词检索，并分别记录可见结果；部分仅有公开索引或摘要，未绕过登录/访问限制，不能声明完整覆盖，未推进游标。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/daily",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "industry_wechat_mx",
+      "status": "public_search_only",
+      "note": "已逐一用15个include_source_ids的媒体/公众号公开入口叠加当地站点词检索，并分别记录可见结果；部分仅有公开索引或摘要，未绕过登录/访问限制，不能声明完整覆盖，未推进游标。",
+      "evidence": [
+        {
+          "url": "https://hot.ouzhou123.com/daily",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors_ca",
+      "status": "blocked",
+      "note": "已按对应站点检索公开汽车用品关键词与商品样本，但缺少指定ASIN、变体、收货地域及同口径历史快照；首次观察不能判定价格、Coupon、BSR或关键词变化，未推进游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/keywordrank/ca",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    },
+    {
+      "id": "amazon_category_competitors_mx",
+      "status": "blocked",
+      "note": "已按对应站点检索公开汽车用品关键词与商品样本，但缺少指定ASIN、变体、收货地域及同口径历史快照；首次观察不能判定价格、Coupon、BSR或关键词变化，未推进游标。",
+      "evidence": [
+        {
+          "url": "https://www.amz123.com/keywordrank/mx",
+          "note": "本次公开检查入口或代表性证据；状态不是完整成功核验。"
+        }
+      ]
+    }
+  ]
+}

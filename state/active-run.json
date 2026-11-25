@@ -1,8 +1,11 @@
 {
   "run_id": "run-20261125t010048z-d120a48f",
-  "status": "active",
+  "status": "released",
   "acquired_at": "2026-11-25T01:00:48.000Z",
   "expires_at": "2026-11-25T02:30:48.000Z",
+  "released_at": "2026-11-25T01:11:18.000Z",
   "previous_radar_state_head": "a3a246e5f8ced503af8f289a72224ae9793d5c1a",
-  "takeover_reason": null
+  "takeover_reason": null,
+  "finalized_status": "partial",
+  "production_commit": "75462fcfba86b0da3ecc57b4c1682edd84b9d3b1"
 }
