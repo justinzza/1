@@ -1,9 +1,8 @@
 {
   "status": "partial",
   "top_changes": [
-    "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown",
-    "amazon-us-seller-central-navigation|add-classic-menu-option-inside-new-seller-central|US|unknown",
-    "amazon-us-holiday-ai-operations-guide|publish-quick-plugin-and-ads-mcp-workflow-guide|US|unknown"
+    "amazon-us-fba-inventory-page|rename-and-consolidate-as-manage-amazon-inventory|US|unknown",
+    "amazon-ads-review-requests|launch-open-beta-2026|US|unknown"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,39 +11,32 @@
     "opportunities": "partial",
     "competitors": "not_checked"
   },
-  "coverage_note": "已核验US/CA/MX Seller Central公开公告、Amazon全球开店、Amazon Ads公开更新、加拿大与墨西哥监管公开检索，以及既定行业网站和各公开公众号入口；部分来源仅能取得公开检索摘要，公众号未绕过登录或访问限制。汽配行业榜单仅提供未经独立复核的估算销量，且没有指定ASIN与可比历史快照；Amazon三站竞品价格、Coupon、BSR和页面变化因此缺少可比基线，未声称发生变化。",
+  "coverage_note": "已按US/CA/MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店、美国/加拿大/墨西哥监管公开入口，以及跨境头条、跨境快讯、知无不言、TT123、品牌方舟、卖家之家和15个行业/公众号入口。部分Seller Central与公众号仅能取得公开页面或检索摘要，未绕过登录、验证码或访问限制，因此整体为partial。汽车用品关键词榜单已按三站分别检索，但缺少指定ASIN、变体、配送地域和同口径历史快照；未把首次样本当价格、Coupon、BSR或关键词变化。",
   "action_items": [
     {
-      "title": "配置加墨站FBM休息日",
-      "detail": "在Shipping Settings登记实际停业日，并用FBM订单报告新增handling/transit列抽查承诺日期。",
-      "due": "下次休息日前",
-      "event_key": "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown"
-    },
-    {
-      "title": "复核美国站经典菜单SOP",
-      "detail": "测试Catalog、Orders、Payments、Reports和Performance入口，标明菜单切换不改变新版页面。",
+      "title": "映射Manage Amazon inventory字段",
+      "detail": "核对Inbound、GWD、AWD、FBA与可售库存口径，并检查补货脚本和SOP是否依赖旧列位。",
       "due": "本周",
-      "event_key": "amazon-us-seller-central-navigation|add-classic-menu-option-inside-new-seller-central|US|unknown"
+      "event_key": "amazon-us-fba-inventory-page|rename-and-consolidate-as-manage-amazon-inventory|US|unknown"
     },
     {
-      "title": "建立旺季AI只读试点",
-      "detail": "选择少量美国站ASIN，对库存、广告15分钟摘要和补货建议做人工审批验证。",
-      "due": "黑五网一期间",
-      "event_key": "amazon-us-holiday-ai-operations-guide|publish-quick-plugin-and-ads-mcp-workflow-guide|US|unknown"
+      "title": "小规模测试Review Requests",
+      "detail": "对合格美国站新品设置CPC与预算上限，分开跟踪点击、完成评价和每新增评价成本。",
+      "due": "本周",
+      "event_key": "amazon-ads-review-requests|launch-open-beta-2026|US|unknown"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-24",
-  "content_updated_at": "2026-11-24T01:01:42.000Z",
+  "report_date": "2026-11-25",
+  "content_updated_at": "2026-11-25T01:05:38.000Z",
   "new_event_keys": [
-    "amazon-us-seller-central-navigation|add-classic-menu-option-inside-new-seller-central|US|unknown",
-    "amazon-us-holiday-ai-operations-guide|publish-quick-plugin-and-ads-mcp-workflow-guide|US|unknown"
+    "amazon-us-fba-inventory-page|rename-and-consolidate-as-manage-amazon-inventory|US|unknown"
   ],
   "updated_event_keys": [
-    "amazon-mx-fbm-seller-defined-holidays|add-custom-holidays-and-order-report-fields|MX|unknown"
+    "amazon-ads-review-requests|launch-open-beta-2026|US|unknown"
   ],
   "counts": {
-    "new": 2,
+    "new": 1,
     "updated": 1,
     "merged": 1,
     "deduplicated": 0

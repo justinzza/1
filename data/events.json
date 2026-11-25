@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-24T01:01:42.000Z",
+  "content_updated_at": "2026-11-25T01:05:38.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -3043,14 +3043,14 @@
       ],
       "effective_date": null,
       "deadline": null,
-      "title": "Amazon Ads将于10月底至11月在美国测试Review Requests广告",
-      "summary": "Amazon Ads于2026年9月29日公布Review Requests：向近期已验证购买者展示原生邀请，让其提交星级、文字、图片或视频评论。符合条件的美国站卖家和供应商须有状态良好且无活动中的政策违规，商品总Ratings与Reviews少于1,000；达到1,000后Campaign自动暂停。可通过Amazon Ads Agent和Unified API管理。",
-      "impact": "这是付费广告形式的评论邀请，并未改变评论真实性和操纵评论政策。官方What’s New写明Open Beta在10月下旬，新闻稿写明11月，日级时间尚不一致，因此effective_date保留unknown。三倍周度评论增长来自2026年6月美国Closed Beta内部测试，不能作为效果保证。",
-      "action": "先筛选美国站评论数少于1,000且账户无活动违规的新品，等待Ads Console实际出现入口后再投放；建立广告花费、每新增Rating成本、自然评论基线与政策审计，不向CA/MX套用。",
+      "title": "Amazon Ads Review Requests已在美国开放Beta，按点击付费邀请已验证买家评价",
+      "summary": "Amazon Ads产品页和11月18日更新的帮助页确认，Review Requests现已在美国以Open Beta提供。符合条件的卖家与供应商可向近期已验证购买者展示原生邀请，收集星级、文字、图片或视频评价；广告主仅在消费者点击并进入提交Rating或Review流程时按CPC付费，可查看实时Campaign指标，并可通过Amazon Ads Agent与Unified API管理。商品累计Ratings与Reviews达到1,000后Campaign自动暂停。",
+      "impact": "这把此前的上线预告升级为可用状态，并明确了按点击计费和实时衡量口径。它仍是付费广告产品，不改变评论真实性或操纵评论政策；点击不等于完成评价，Closed Beta的历史效果也不能作为保证。当前公开证据仅适用于美国站。",
+      "action": "美国站先筛选评论少于1,000且账户无活动违规的新品做小规模试点，设置CPC和总预算上限，分别跟踪点击、完成Rating/Review、每新增评价成本及自然评论基线；保存素材与政策审计记录。未见当地资格前不向CA/MX套用。",
       "category": "ads",
       "priority": "P1",
       "original_published_at": "2026-09-29",
-      "original_date_note": "两份Amazon Ads官方页面均发表于2026-09-29，但一份写Open Beta在late October、另一份写November；未强行选择日期，effective_date为null。",
+      "original_date_note": "Review Requests最初由Amazon Ads于2026-09-29公布；2026-11-18更新的官方帮助页与当前产品页确认Open Beta已可用，但没有公开日级正式生效日，因此effective_date继续保留null。",
       "sources": [
         {
           "url": "https://advertising.amazon.com/resources/whats-new/get-product-reviews-faster-with-review-requests",
@@ -3073,16 +3073,62 @@
           "authority_confirmed": true,
           "claimed_kind": "official",
           "canonical_url": "https://advertising.amazon.com/library/news/branded-conversations-review-requests"
+        },
+        {
+          "url": "https://advertising.amazon.com/products/review-requests",
+          "publisher": "Amazon Ads",
+          "kind": "official",
+          "published_at": null,
+          "verified_at": "2026-11-25T01:05:38.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "verification_note": "已读取官方产品页，核对Open Beta可用状态、CPC计费、实时指标、已验证购买者邀请及Ads Agent/Unified API管理方式。",
+          "canonical_url": "https://advertising.amazon.com/products/review-requests"
+        },
+        {
+          "url": "https://advertising.amazon.com/help/GMGECFS7PM2LEVUV",
+          "publisher": "Amazon Ads",
+          "kind": "official",
+          "published_at": "2026-11-18",
+          "verified_at": "2026-11-25T01:05:38.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "verification_note": "已读取官方帮助页，核对美国Open Beta资格、1,000条Ratings/Reviews阈值与自动暂停规则。",
+          "canonical_url": "https://advertising.amazon.com/help/GMGECFS7PM2LEVUV"
         }
       ],
       "first_seen_at": "2026-10-01T01:10:00.000Z",
-      "last_material_update_at": "2026-10-01T01:10:00.000Z",
+      "last_material_update_at": "2026-11-25T01:05:38.000Z",
       "history_dates": [
-        "2026-10-01"
+        "2026-10-01",
+        "2026-11-25"
       ],
       "verification_status": "reviewed",
       "key_aliases": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "at": "2026-11-25T01:05:38.000Z",
+          "reason": "原卡片只记录2026年9月的计划上线窗口；当前官方产品页及11月18日帮助页已确认美国Open Beta可用，并补充CPC计费、实时指标与资格规则，属于实质状态和操作信息更新。",
+          "previous": {
+            "title": "Amazon Ads将于10月底至11月在美国测试Review Requests广告",
+            "summary": "Amazon Ads于2026年9月29日公布Review Requests：向近期已验证购买者展示原生邀请，让其提交星级、文字、图片或视频评论。符合条件的美国站卖家和供应商须有状态良好且无活动中的政策违规，商品总Ratings与Reviews少于1,000；达到1,000后Campaign自动暂停。可通过Amazon Ads Agent和Unified API管理。",
+            "impact": "这是付费广告形式的评论邀请，并未改变评论真实性和操纵评论政策。官方What’s New写明Open Beta在10月下旬，新闻稿写明11月，日级时间尚不一致，因此effective_date保留unknown。三倍周度评论增长来自2026年6月美国Closed Beta内部测试，不能作为效果保证。",
+            "action": "先筛选美国站评论数少于1,000且账户无活动违规的新品，等待Ads Console实际出现入口后再投放；建立广告花费、每新增Rating成本、自然评论基线与政策审计，不向CA/MX套用。",
+            "category": "ads",
+            "priority": "P1",
+            "marketplaces": [
+              "US"
+            ],
+            "effective_date": null,
+            "deadline": null,
+            "original_published_at": "2026-09-29",
+            "original_date_note": "两份Amazon Ads官方页面均发表于2026-09-29，但一份写Open Beta在late October、另一份写November；未强行选择日期，effective_date为null。",
+            "verification_status": "reviewed"
+          }
+        }
+      ],
       "event_key": "amazon-ads-review-requests|launch-open-beta-2026|US|unknown",
       "id": "evt-67ac962b93135795",
       "primary_source_url": "https://advertising.amazon.com/library/news/branded-conversations-review-requests"
@@ -8395,6 +8441,59 @@
       "event_key": "amazon-us-holiday-ai-operations-guide|publish-quick-plugin-and-ads-mcp-workflow-guide|US|unknown",
       "id": "evt-6e4d0d1c41c72c53",
       "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/e3962a18-828b-46ec-938d-abfcdd8c73d6"
+    },
+    {
+      "subject_key": "amazon-us-fba-inventory-page",
+      "action_key": "rename-and-consolidate-as-manage-amazon-inventory",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": null,
+      "deadline": null,
+      "title": "美国站FBA Inventory更名为Manage Amazon inventory并整合GWD、AWD与FBA库存",
+      "summary": "Amazon美国站官方公告确认，FBA Inventory页面已迁入新版Seller Central并更名为Manage Amazon inventory。新页面把Global Warehousing and Distribution（GWD）、Amazon Warehousing and Distribution（AWD）及FBA库存汇总在一个视图中；Total inventory包含在途库存，并按Inbound、At global storage、At domestic storage和At fulfillment拆分。卖家还可在Restock settings列按商品或批量修改lead time、restock frequency和end-of-life设置。",
+      "impact": "库存总量口径现在可能包含在途与多层仓储库存，若团队继续按旧FBA页面列位或导出字段理解可售量，可能误判补货和广告承接能力。公告只确认美国站新版Seller Central页面，未提供加拿大或墨西哥站同步上线证据。",
+      "action": "美国站团队应保存旧版库存SOP与新页面字段映射，逐项核对Inbound、GWD、AWD、FBA及可售库存口径；抽查重点ASIN的lead time、restock frequency和end-of-life设置，并在自动补货或报表脚本中确认字段没有错位。CA/MX继续沿用各自已验证页面，不跨站套用。",
+      "category": "policy",
+      "priority": "P1",
+      "original_published_at": "2026-11-24",
+      "original_date_note": "Amazon美国站News_Amazon官方页面在北京时间2026-11-25核验时显示为前一日发布；公告未给出独立日级生效日期，因此effective_date保留null。",
+      "first_seen_at": "2026-11-25T01:05:38.000Z",
+      "last_material_update_at": "2026-11-25T01:05:38.000Z",
+      "history_dates": [
+        "2026-11-25"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/2d8620b9-04de-40b4-bf46-c9466cee3f97",
+          "publisher": "Amazon Seller Central US",
+          "kind": "official",
+          "published_at": "2026-11-24",
+          "verified_at": "2026-11-25T01:05:38.000Z",
+          "supports_event": true,
+          "authority_confirmed": true,
+          "claimed_kind": "official",
+          "verification_note": "已读取Amazon Seller Central News_Amazon公开页面，逐项核对页面更名、GWD/AWD/FBA汇总、四类库存列及Restock settings字段。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/2d8620b9-04de-40b4-bf46-c9466cee3f97"
+        },
+        {
+          "url": "https://hot.ouzhou123.com/items/d3rd0kcp1vgnys9wd5hj79pg9",
+          "publisher": "跨境头条",
+          "kind": "aggregator",
+          "published_at": "2026-11-24",
+          "verified_at": "2026-11-25T01:05:38.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "verification_note": "行业聚合页提供同一页面迁移线索；事实与适用站点仍以Amazon官方原文为准。",
+          "canonical_url": "https://hot.ouzhou123.com/items/d3rd0kcp1vgnys9wd5hj79pg9"
+        }
+      ],
+      "event_key": "amazon-us-fba-inventory-page|rename-and-consolidate-as-manage-amazon-inventory|US|unknown",
+      "id": "evt-54921c8133d01215",
+      "primary_source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/2d8620b9-04de-40b4-bf46-c9466cee3f97"
     }
   ]
 }
