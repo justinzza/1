@@ -1,0 +1,277 @@
+{
+  "base_digest": "076f6a10bf0db3810b14dfefd78f3228f05c449a281e61ff52e96b194e2a77a3",
+  "checked_at": "2026-11-26T01:08:34.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-product-bundling-policy",
+        "action_key": "expand-manufacturer-packaging-requirement-2027",
+        "marketplaces": ["US"],
+        "effective_date": "2027-01-11",
+        "deadline": "2027-01-11",
+        "title": "美国站Bundle新规增加逐次违规30天宽限期，但品牌投诉可跳过宽限",
+        "summary": "Amazon美国站News_Amazon于2026年11月25日补充说明：2027年1月11日起，大多数单ASIN实体Product Bundle仍须由原始制造商或品牌方包装；Amazon每次识别到受影响Bundle ASIN后会发送违规通知，并给予30天宽限期，宽限期内Account Health显示“Listing at risk of removal”。未在1月11日收到通知不代表合规，后续任何时间仍可能被识别；若由品牌所有者举报，Amazon可不提供宽限期。Multipacks不属于本次Bundle新规范围；一封授权书可覆盖同一品牌下多个Bundle，无需逐ASIN出具。",
+        "impact": "宽限期降低了规则生效日当天下架的突发性，但不是统一延后30天，也不构成合规豁免。卖家需以每次违规通知日期单独计时，品牌投诉路径还可能立即触发处置。FBA库存、Account Health与品牌授权仍需在2027年1月11日前准备，不能等收到通知再开始清理。该公告只支持美国站，不能外推CA或MX。",
+        "action": "立即导出美国站全部单ASIN实体Bundle，逐一标记包装主体、品牌、授权书、FBA库存与负责人；在1月11日前完成无授权自组Bundle的停售、售罄或移除。为每个品牌集中准备一封覆盖相关Bundle的重新包装授权书，并建立违规通知台账，以通知日+30天为最晚整改节点；品牌投诉相关ASIN按无宽限期处理。Multipack与Bundle分开审计。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": "2026-09-11",
+        "original_date_note": "事件最早可稳定引用的行业文章发布于2026-09-11；2026-11-25的Amazon官方更新补充逐次30天宽限、品牌投诉例外、Multipack边界与授权书覆盖范围，未改变2027-01-11生效日。",
+        "first_seen_at": "2026-09-12T01:10:09.000Z",
+        "last_material_update_at": "2026-11-26T01:08:34.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/845c15e6-c47b-4dd5-b515-c0dea03fd087",
+            "publisher": "Amazon Seller Central US / News_Amazon",
+            "kind": "official",
+            "published_at": "2026-11-25",
+            "verified_at": "2026-11-26T01:08:34.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "verification_note": "已读取官方更新全文，核对每次违规通知30天宽限、Listing at risk of removal状态、品牌投诉可跳过宽限、Multipack排除及一封品牌授权书可覆盖多个Bundle。",
+            "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/845c15e6-c47b-4dd5-b515-c0dea03fd087"
+          }
+        ]
+      },
+      "material_update": true,
+      "update_reason": "官方在既有2027年Bundle新规上新增逐次30天宽限期、品牌投诉例外、Multipack边界和授权书覆盖范围，直接改变卖家的整改时限与执行方式；保留原event_key并更新原卡片。",
+      "dedupe_review": {
+        "compared_digest": "076f6a10bf0db3810b14dfefd78f3228f05c449a281e61ff52e96b194e2a77a3",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11",
+        "reason": "逐条复核全库event_key、标题语义、规范化来源和生效日；主体、动作、站点与2027-01-11生效日均与原Bundle卡一致，新内容是执法与宽限口径，必须更新原卡而非新增。与本批CA危险品中心、法院裁定及召回事件无语义重合。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "amazon-ca-fba-dangerous-goods-centre",
+        "action_key": "open-ykf1-and-add-dangerous-goods-capacity",
+        "marketplaces": ["CA"],
+        "effective_date": "2026-11-15",
+        "deadline": null,
+        "title": "加拿大站新开YKF1危险品FBA中心，北美已获批卖家仍需申请加拿大仓容",
+        "summary": "Amazon加拿大站官方公告确认，位于3495 Steeles Ave E, Brampton, Ontario的YKF1危险品履约中心已于2026年11月15日启用。使用该中心需同时获得North America dangerous goods program资格、获准在加拿大销售危险品，并单独申请加拿大危险品仓储容量。已获美国危险品计划批准的卖家自动覆盖北美资格，但仍须申请加拿大仓容。",
+        "impact": "YKF1增加加拿大站危险品FBA容量，但并非自动开放入仓。卖家若只有美国危险品计划资格而未完成加拿大销售许可或仓容申请，仍不能据此发货；错误把美国资格等同于加拿大仓容可能造成入仓拒收、补货中断或合规风险。",
+        "action": "加拿大站危险品卖家应核对North America dangerous goods program状态、加拿大站危险品销售资格及Dangerous Goods Capacity Manager中的加拿大仓容申请；取得容量后再创建入仓计划，并把YKF1地址、批准截图、ASIN危险品分类与SDS/豁免文件纳入站点独立SOP。美国站批准不能替代加拿大仓容确认。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": null,
+        "original_date_note": "Amazon加拿大站官方公告在2026-11-26核验时确认YKF1于2026-11-15启用；页面未提供可独立核验的绝对公告发布日期，因此保留null，不以抓取日替代。",
+        "first_seen_at": "2026-11-26T01:08:34.000Z",
+        "last_material_update_at": "2026-11-26T01:08:34.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/cc44341a-ac09-487d-9c59-d54919e67c4a",
+            "publisher": "Amazon Seller Central Canada / News_Amazon",
+            "kind": "official",
+            "published_at": null,
+            "verified_at": "2026-11-26T01:08:34.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "official",
+            "verification_note": "已读取加拿大站官方公告，核对YKF1地址、2026-11-15启用日、北美危险品计划资格、加拿大销售许可及单独申请加拿大仓容的要求。",
+            "canonical_url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/cc44341a-ac09-487d-9c59-d54919e67c4a"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "076f6a10bf0db3810b14dfefd78f3228f05c449a281e61ff52e96b194e2a77a3",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "全库已有危险品Listing问答字段和北美危险品合规卡，但没有加拿大YKF1启用或仓容申请事件；本事件是新履约设施与容量申请动作，适用CA且生效日为2026-11-15。与本批其他候选主体、动作和来源均不同。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "us-cpsc-amazon-fba-distributor-liability",
+        "action_key": "federal-court-uphold-cpsc-recall-order",
+        "marketplaces": ["US"],
+        "effective_date": "2026-11-24",
+        "deadline": null,
+        "title": "美国联邦法院维持CPSC对Amazon FBA“分销商”责任认定",
+        "summary": "美国消费品安全委员会（CPSC）于2026年11月25日公布，马里兰联邦地区法院在11月24日否决Amazon的summary judgment请求、批准CPSC一方的cross-motion，并驳回Amazon对委员会命令的挑战。该裁定维持CPSC 2024年结论：对特定FBA危险商品，Amazon属于Consumer Product Safety Act下的“distributor”，并对超过40万件危险商品承担召回责任。",
+        "impact": "该裁定强化了FBA链路中的平台召回责任与监管确定性，但并不替代卖家、进口商或制造商自身的产品安全义务。对于在美国站销售受监管商品的运营团队，CPSC召回、平台停售、买家通知和库存处置可能更紧密联动；任何受召回商品都不得继续销售。",
+        "action": "美国站建立CPSC召回清单与FBA ASIN、供应商、进口商和库存的映射，发现命中后立即停售、冻结补货并按官方remedy处置；保留测试报告、追溯批次、买家通知与销毁/退款记录。法务与合规团队继续跟踪是否上诉及Amazon后续召回流程变化。",
+        "category": "policy",
+        "priority": "P1",
+        "original_published_at": "2026-11-25",
+        "original_date_note": "CPSC新闻稿发布于2026-11-25；法院命令作出于2026-11-24，故effective_date记录法院裁定日。",
+        "first_seen_at": "2026-11-26T01:08:34.000Z",
+        "last_material_update_at": "2026-11-26T01:08:34.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://www.cpsc.gov/Newsroom/News-Releases/2027/Federal-Court-Rules-in-Favor-of-CPSC-in-Landmark-E-Commerce-Product-Safety-Case",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-11-25",
+            "verified_at": "2026-11-26T01:08:34.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator",
+            "verification_note": "已读取CPSC官方新闻稿，核对11月24日法院命令、双方summary judgment结果、Amazon FBA分销商认定与超过40万件危险商品范围。",
+            "canonical_url": "https://www.cpsc.gov/Newsroom/News-Releases/2027/Federal-Court-Rules-in-Favor-of-CPSC-in-Landmark-E-Commerce-Product-Safety-Case"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "076f6a10bf0db3810b14dfefd78f3228f05c449a281e61ff52e96b194e2a77a3",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "全库逐条检查未发现同一法院裁定或Amazon FBA分销商责任卡；既有CPSC卡均为具体商品召回，主体和变化动作不同。本事件以2026-11-24法院命令独立建档，不与11月25日具体产品召回合并。"
+      }
+    },
+    {
+      "event": {
+        "subject_key": "us-cpsc-amazon-products-2026-11-25",
+        "action_key": "recall-or-warn-six-amazon-sold-products",
+        "marketplaces": ["US"],
+        "effective_date": "2026-11-25",
+        "deadline": null,
+        "title": "美国CPSC对6组Amazon.com商品发布召回或停用警告：床护栏、磁贴、ATV与门框训练架",
+        "summary": "CPSC于2026年11月25日对6组曾在Amazon.com销售的商品发布5项召回和1项停用警告：Justforjoyful JJ0212农场动物冰箱磁贴（铅与邻苯二甲酸盐超标）、YY Vertical VerticalBase门框训练架ASIN B0FNS2SNSX（坠落风险）、Easymake HC030-3成人床护栏、HOMEAL Model 317成人床护栏、YATORP MX49-A2/MX49-A1青少年ATV，以及HMDB HMDB-504E成人床护栏。前5项分别提供退款或维修/退款；HMDB卖家未配合召回，CPSC要求立即停用、处置且不得转售或赠送。",
+        "impact": "涉及ASIN、型号或批次的美国站库存必须立即停止销售和补货，并按每份官方通知的remedy处理。成人床护栏集中触发强制标准问题；HMDB没有召回补救方案，不能把一般退款流程当作监管处置。YY Vertical已报告3起倾斜或跌落事件，其中1起受伤。",
+        "action": "立即在美国站、FBA在途/可售库存、退货仓与供应商台账中检索JJ0212、B0FNS2SNSX、HC030-3、HOMEAL 317/BG-202501129-001、MX49-A2、MX49-A1及HMDB-504E；命中后停售、冻结广告与补货并保存批次证据。按各CPSC页面执行退款、维修包、回收或销毁；HMDB商品不得转售或赠送。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-25",
+        "original_date_note": "六份CPSC官方召回/警告页面均标注2026-11-25；仅合并同日、同监管动作且均曾在Amazon.com销售的商品，未把其他渠道商品并入。",
+        "first_seen_at": "2026-11-26T01:08:34.000Z",
+        "last_material_update_at": "2026-11-26T01:08:34.000Z",
+        "history_dates": [],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/Justforjoyful-Recalls-Farm-Animals-Refrigerator-Magnets-Due-to-Risk-of-Serious-Injury-from-Lead-and-Phthalate-Exposure-Violate-Federal-Lead-Content-and-Phthalates-Bans",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-11-25",
+            "verified_at": "2026-11-26T01:08:34.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator",
+            "verification_note": "核对JJ0212型号、约1,300件、Amazon.com销售渠道、铅/邻苯二甲酸盐风险与退款处置。",
+            "canonical_url": "https://www.cpsc.gov/Recalls/2027/Justforjoyful-Recalls-Farm-Animals-Refrigerator-Magnets-Due-to-Risk-of-Serious-Injury-from-Lead-and-Phthalate-Exposure-Violate-Federal-Lead-Content-and-Phthalates-Bans"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/YY-Vertical-Recalls-VerticalBase-Hangboard-Doorway-Mount-Holders-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-11-25",
+            "verified_at": "2026-11-26T01:08:34.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator",
+            "verification_note": "核对ASIN B0FNS2SNSX、约227件、Amazon.com销售、三起事件含一起受伤以及维修包/退款方案。",
+            "canonical_url": "https://www.cpsc.gov/Recalls/2027/YY-Vertical-Recalls-VerticalBase-Hangboard-Doorway-Mount-Holders-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/YiHe-US-Recalls-Easymake-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-11-25",
+            "verified_at": "2026-11-26T01:08:34.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator",
+            "verification_note": "核对Easymake HC030-3、约4,499件、Amazon.com销售、成人床护栏强制标准违规与退款处置。",
+            "canonical_url": "https://www.cpsc.gov/Recalls/2027/YiHe-US-Recalls-Easymake-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/HOMEAL-US-Recalls-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-11-25",
+            "verified_at": "2026-11-26T01:08:34.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator",
+            "verification_note": "核对HOMEAL Model 317、批次BG-202501129-001、约3,897件、Amazon.com销售与退款处置。",
+            "canonical_url": "https://www.cpsc.gov/Recalls/2027/HOMEAL-US-Recalls-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
+          },
+          {
+            "url": "https://www.cpsc.gov/Recalls/2027/YALE-Direct-Recalls-YATORP-Youth-All-Terrain-Vehicles-ATVs-Due-to-Risk-of-Serious-Injury-or-Death-from-Crash-Hazard-Violate-Mandatory-Standard-for-ATVs",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-11-25",
+            "verified_at": "2026-11-26T01:08:34.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator",
+            "verification_note": "核对YATORP MX49-A2/MX49-A1、约162件、Amazon.com销售、ATV强制标准违规与退款/回收处置。",
+            "canonical_url": "https://www.cpsc.gov/Recalls/2027/YALE-Direct-Recalls-YATORP-Youth-All-Terrain-Vehicles-ATVs-Due-to-Risk-of-Serious-Injury-or-Death-from-Crash-Hazard-Violate-Mandatory-Standard-for-ATVs"
+          },
+          {
+            "url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-HMDB-Portable-Bed-Rails-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails",
+            "publisher": "U.S. Consumer Product Safety Commission",
+            "kind": "regulator",
+            "published_at": "2026-11-25",
+            "verified_at": "2026-11-26T01:08:34.000Z",
+            "supports_event": true,
+            "authority_confirmed": true,
+            "claimed_kind": "regulator",
+            "verification_note": "核对HMDB-504E、约1,793件、Amazon.com销售、企业未配合召回及立即停用处置且不得转售或赠送。",
+            "canonical_url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-HMDB-Portable-Bed-Rails-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "076f6a10bf0db3810b14dfefd78f3228f05c449a281e61ff52e96b194e2a77a3",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "reason": "已与全库按日期分组的CPSC卡逐条比对；最近卡截至2026-11-19，本批六份监管原文均为2026-11-25且对应不同型号/ASIN。按既有数据模型合并同日Amazon.com召回与停用警告为一张卡，不为六个商品重复建卡；与同批法院裁定仅共享监管机构，变化动作不同。"
+      }
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": [
+      "us-cpsc-amazon-products-2026-11-25|recall-or-warn-six-amazon-sold-products|US|2026-11-25",
+      "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11",
+      "amazon-ca-fba-dangerous-goods-centre|open-ykf1-and-add-dangerous-goods-capacity|CA|2026-11-15"
+    ],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "not_checked"
+    },
+    "coverage_note": "已按US/CA/MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店及美国、加拿大、墨西哥监管公开入口，并逐一记录跨境头条、跨境快讯、知无不言、TT123、品牌方舟、卖家之家及其公开公众号入口。部分Seller Central和公众号仅能取得公开页面或检索摘要，未绕过登录、验证码、访问限制或付费墙，因此整体为partial。汽车用品燃油管、CPE编织油管、AN接头与排气卡箍已按三站分别做公开检索；Amazon商品页受robots限制，且缺少指定ASIN、变体、配送地域和同口径历史快照，未将首次样本或搜索摘要认定为价格、Coupon、BSR或关键词变化。",
+    "action_items": [
+      {
+        "title": "立即排查11月25日CPSC清单",
+        "detail": "检索六组型号/ASIN，命中后停售、冻结广告与补货，并按各监管页面执行退款、维修、回收或销毁。",
+        "due": "今日",
+        "event_key": "us-cpsc-amazon-products-2026-11-25|recall-or-warn-six-amazon-sold-products|US|2026-11-25"
+      },
+      {
+        "title": "按通知日管理Bundle 30天宽限",
+        "detail": "1月11日前完成无授权自组Bundle清理，集中准备品牌授权书，并按每次违规通知日期单独倒排整改。",
+        "due": "2027-01-11前",
+        "event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
+      },
+      {
+        "title": "申请加拿大危险品仓容",
+        "detail": "核对北美危险品计划与加拿大销售资格后，在Dangerous Goods Capacity Manager单独申请加拿大仓容，再创建YKF1入仓计划。",
+        "due": "补货前",
+        "event_key": "amazon-ca-fba-dangerous-goods-centre|open-ykf1-and-add-dangerous-goods-capacity|CA|2026-11-15"
+      }
+    ]
+  }
+}

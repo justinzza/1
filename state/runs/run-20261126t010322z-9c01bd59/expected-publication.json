@@ -1,0 +1,13 @@
+{
+  "run_id": "run-20261126t010322z-9c01bd59",
+  "base_main_commit": "75462fcfba86b0da3ecc57b4c1682edd84b9d3b1",
+  "expected_registry_digest": "aa8895042c03537a664c7a7aa540c271c22d26e19df0d3e78e37857329b8faec",
+  "expected_file_sha256": {
+    "data/events.json": "fdf2f5eaa79c29a22c44749e1f090755e936814780c83c806b9d107656db4a71",
+    "data/report.json": "1be1a5e8b5cbfed2998f91acd1162be428950cfd2e254547e6951c73b1a02a90",
+    "index.html": "a92a253829d55d8f22fb63bf2a1a14c9f6422ecab156c5b4c0dd7546f48d4d9b"
+  },
+  "counts": {"new": 3, "updated": 1, "merged": 1, "deduplicated": 0},
+  "tests": {"passed": 22, "failed": 0, "consistency_check": "passed", "daily_briefing_absent": true},
+  "publication_status": "staged_not_committed"
+}
