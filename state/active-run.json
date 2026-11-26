@@ -1,8 +1,10 @@
 {
   "run_id": "run-20261126t010322z-9c01bd59",
-  "status": "active",
+  "status": "released",
   "acquired_at": "2026-11-26T01:03:22.000Z",
   "expires_at": "2026-11-26T02:33:22.000Z",
+  "released_at": "2026-11-26T01:15:39.000Z",
   "previous_radar_state_head": "f95584d476742069700ffd52bd06fb22efbc275f",
+  "finalized_run_id": "run-20261126t010322z-9c01bd59",
   "takeover_reason": null
 }
