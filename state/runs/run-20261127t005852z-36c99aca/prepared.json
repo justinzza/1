@@ -1,0 +1,13 @@
+{
+  "run_id": "run-20261127t005852z-36c99aca",
+  "status": "prepared",
+  "prepared_at": "2026-11-27T01:02:54.000Z",
+  "base_main_commit": "00ce4d8090cb2e491eff1316ada9ee392fd37635",
+  "base_registry_digest": "aa8895042c03537a664c7a7aa540c271c22d26e19df0d3e78e37857329b8faec",
+  "expected_registry_digest": "a79757ca4b0b0959ebcc477d0326fd816e1a69857449caaa4d371a32a6a9d351",
+  "expected_content_digest": "b48b6caa8181ec8ca229360ae3325f7ece0440a2db1edc1bd8d9830044ddd224",
+  "counts": {"new": 1, "updated": 0, "merged": 0, "deduplicated": 0},
+  "new_event_keys": ["amazon-us-victorias-secret-nwd|restrict-third-party-listings-to-brand-representatives|US|2026-11-26"],
+  "tests": {"passed": 22, "failed": 0},
+  "consistency": {"events": 151, "briefing_absent": true, "new_key_present": true}
+}

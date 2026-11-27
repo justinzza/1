@@ -1,0 +1,97 @@
+{
+  "base_digest": "aa8895042c03537a664c7a7aa540c271c22d26e19df0d3e78e37857329b8faec",
+  "checked_at": "2026-11-27T01:02:54.000Z",
+  "candidates": [
+    {
+      "event": {
+        "subject_key": "amazon-us-victorias-secret-nwd",
+        "action_key": "restrict-third-party-listings-to-brand-representatives",
+        "marketplaces": ["US"],
+        "effective_date": "2026-11-26",
+        "deadline": "2026-11-26",
+        "title": "美国站Victoria’s Secret触发NWD限制：仅Brand Representative账号可继续销售｜行业线索",
+        "summary": "PPC Land于2026年11月23日披露一份署名Amazon Services的卖家通知：自11月26日起，Victoria’s Secret在Amazon.com不再允许普通第三方卖家刊登，仅具备该品牌Brand Representative角色的账号可继续销售。通知要求受影响卖家在截止日前售完剩余库存或删除无库存SKU，并称NWD移除不会影响Account Health Rating。两名Seller Forums卖家分别称11月17日和19日才收到通知，实际只有9天或7天准备期，短于Amazon公开NWD帮助所述15天通知期；尚未发现Amazon面向全站发布的Victoria’s Secret正式公告或版主确认。",
+        "impact": "这是既有NWD机制对一个明确品牌、明确日期的独立执行，直接影响美国站持有Victoria’s Secret库存的经销账号。Reseller角色未被通知列为可继续销售的资格；截止日后FBA仓内剩余库存如何处理仍不明确，不能据行业报道推定自动移除或销毁。现有证据仅支持Amazon.com，不能外推加拿大或墨西哥站。",
+        "action": "美国站立即在Manage Products、Account Health、消息中心及注册邮箱检索Victoria’s Secret相关通知和错误码5465/6045，核对销售账号是否具有该品牌Brand Representative角色。无该角色的账号停止新增采购和广告，导出ASIN、FNSKU、在途与FBA库存，并向Selling Partner Support确认截止后库存处置、移除订单与费用；保存通知、角色截图、Case和时间线。不要把NWD移除等同于AHR处罚，也不要在未获答复前假定仓内库存会自动处理。",
+        "category": "policy",
+        "priority": "P0",
+        "original_published_at": "2026-11-23",
+        "original_date_note": "PPC Land于2026-11-23首次公开转述署名Amazon Services的Victoria’s Secret通知，通知固定移除日为2026-11-26但公开版本未显示发送日；两名Seller Forums卖家分别称于11月17日和19日收到通知。由于未找到Amazon面向全站的品牌专项正式公告，本卡明确标注为行业线索。",
+        "first_seen_at": "2026-11-27T01:02:54.000Z",
+        "last_material_update_at": "2026-11-27T01:02:54.000Z",
+        "history_dates": ["2026-11-27"],
+        "verification_status": "reviewed",
+        "key_aliases": [],
+        "revisions": [],
+        "sources": [
+          {
+            "url": "https://ppc.land/amazon-blocks-third-party-victorias-secret-sellers-from-november-26/",
+            "publisher": "PPC Land",
+            "kind": "industry_original",
+            "published_at": "2026-11-23",
+            "verified_at": "2026-11-27T01:02:54.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "industry_original",
+            "verification_note": "已阅读全文并逐项核对公开通知的品牌、Amazon.com范围、2026-11-26移除日、Brand Representative资格、AHR说明及未说明FBA剩余库存处置；该媒体转述通知，不等于Amazon公开公告。",
+            "canonical_url": "https://ppc.land/amazon-blocks-third-party-victorias-secret-sellers-from-november-26/"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/88d89f61-40a0-4c52-8019-10ad74d8989a",
+            "publisher": "Amazon Seller Central卖家论坛",
+            "kind": "seller_forum",
+            "published_at": "2026-11-26",
+            "verified_at": "2026-11-27T01:02:54.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "seller_post",
+            "verification_note": "卖家自述于11月17日收到11月26日生效通知，只有9天准备期；未见Amazon版主确认，作为通知时点的交叉线索。",
+            "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/88d89f61-40a0-4c52-8019-10ad74d8989a"
+          },
+          {
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/534da1fc-5b0c-4161-aeeb-50bfac767d00",
+            "publisher": "Amazon Seller Central卖家论坛",
+            "kind": "seller_forum",
+            "published_at": "2026-11-26",
+            "verified_at": "2026-11-27T01:02:54.000Z",
+            "supports_event": true,
+            "authority_confirmed": false,
+            "claimed_kind": "seller_post",
+            "verification_note": "第二名卖家自述于11月19日收到11月26日生效通知，只有7天准备期，并称已有FBA库存；未见Amazon版主确认。",
+            "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/534da1fc-5b0c-4161-aeeb-50bfac767d00"
+          }
+        ]
+      },
+      "dedupe_review": {
+        "compared_digest": "aa8895042c03537a664c7a7aa540c271c22d26e19df0d3e78e37857329b8faec",
+        "title_semantics_reviewed": true,
+        "batch_semantics_reviewed": true,
+        "matches_event_key": null,
+        "reason": "已与现有NWD总则卡、全库标题、规范化来源链接和生效日期逐条比较。现有卡记录2026-10-27一批未点名品牌的通用NWD执行及10月28日版主澄清；本卡记录点名Victoria’s Secret、独立通知、独立2026-11-26生效日和新的7至9天通知争议，来源链接亦不同。",
+        "distinct_event_reason": "同属NWD机制但品牌对象与生效日均独立，且影响一组明确库存与截止日；按规则不同生效日期或独立变化应分别建档，不能把11月26日专项执行改写为10月27日原卡的更新。"
+      },
+      "material_update": false,
+      "update_reason": ""
+    }
+  ],
+  "report": {
+    "status": "partial",
+    "top_changes": ["amazon-us-victorias-secret-nwd|restrict-third-party-listings-to-brand-representatives|US|2026-11-26"],
+    "category_coverage": {
+      "policy": "partial",
+      "ads": "partial",
+      "ai": "partial",
+      "opportunities": "partial",
+      "competitors": "not_checked"
+    },
+    "coverage_note": "已按US/CA/MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店及美国、加拿大、墨西哥监管公开入口，并逐一检索跨境头条、跨境快讯、知无不言、TT123、品牌方舟、卖家之家及其公开公众号入口。部分Seller Central和公众号仅能取得公开页面或检索摘要，未绕过登录、验证码、访问限制或付费墙，因此整体为partial。汽车用品fuel line、CPE braided fuel hose、AN fittings与exhaust clamp已按三站分别做公开检索；Amazon.com商品页受robots限制，且缺少指定ASIN、变体、配送地域和同口径历史快照，不能把首次结果认定为价格、Coupon、BSR或关键词变化。",
+    "action_items": [
+      {
+        "title": "立即排查Victoria’s Secret NWD限制",
+        "detail": "核对通知、Brand Representative角色、错误码5465/6045及FBA剩余库存；无资格账号停止新增采购和广告，并向Support确认移除与费用。",
+        "due": "今日",
+        "event_key": "amazon-us-victorias-secret-nwd|restrict-third-party-listings-to-brand-representatives|US|2026-11-26"
+      }
+    ]
+  }
+}
