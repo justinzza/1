@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-26T01:08:34.000Z",
+  "content_updated_at": "2026-11-27T01:02:54.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -1906,7 +1906,7 @@
       "category": "policy",
       "priority": "P0",
       "original_published_at": "2026-09-17",
-      "original_date_note": "7份CPSC原文均标��2026-09-17；为避免同日同类监管行动重复刷屏，本次合并为一张批次卡片并按9月17日归档。",
+      "original_date_note": "7份CPSC原文均标注2026-09-17；为避免同日同类监管行动重复刷屏，本次合并为一张批次卡片并按9月17日归档。",
       "first_seen_at": "2026-09-18T01:11:31.000Z",
       "last_material_update_at": "2026-09-18T01:11:31.000Z",
       "history_dates": [
@@ -4640,7 +4640,7 @@
       "deadline": null,
       "title": "Amazon墨西哥新增逾11,000个旺季临时岗位以加强物流网络",
       "summary": "Amazon Mexico于2026年10月5日宣布，为年末旺季新增超过11,000个临时岗位，覆盖配送中心、配送站与分拣中心。岗位主要集中在墨西哥城（逾4,000个）、蒙特雷（逾3,000个）和瓜达拉哈拉（逾1,000个），其他运营站点也有增员；Amazon称其墨西哥网络现有40多个运营站点并覆盖500多个城市。",
-      "impact": "这是墨西哥站旺季履约容量的官方投入信号，可能缓解订单高峰的人力压力，但不是卖家可用的FBA容量承诺、配送SLA或费用调整，也不能据此推断具体ASIN会获得更快入仓或派送。美国、加拿大没有找到与该公告同批且可合并的2026年官方证据，因���仅标记MX。",
+      "impact": "这是墨西哥站旺季履约容量的官方投入信号，可能缓解订单高峰的人力压力，但不是卖家可用的FBA容量承诺、配送SLA或费用调整，也不能据此推断具体ASIN会获得更快入仓或派送。美国、加拿大没有找到与该公告同批且可合并的2026年官方证据，因此仅标记MX。",
       "action": "为墨西哥站年末订单分别建立入仓预约、Receive时间、承诺送达、延迟配送和丢件基线；重点汽配ASIN按墨西哥城、蒙特雷、瓜达拉哈拉收货地址抽查到货承诺。不要因招聘规模提前承诺全国时效，也不要把岗位数量当成FBA可用库容。",
       "category": "opportunities",
       "priority": "P2",
@@ -7117,7 +7117,7 @@
       "effective_date": "2026-11-10",
       "deadline": "2027-01-09T23:59:00-05:00",
       "title": "美国USTR将178项对华Section 301关税排除延长至2027年1月9日",
-      "summary": "美国贸易代表办公室（USTR）于2026年11月6日发布正式通知，将现行178项中国商品Section 301附加关税排除全部再延长两个月。延长期适用于2026年11月10日00:01（美国东部时间）��报关进口或从仓库提取消费、且在2027年1月9日23:59（美国东部时间）前完成的货物；涉及HTSUS 9903.88.69和9903.88.70及对应注释。",
+      "summary": "美国贸易代表办公室（USTR）于2026年11月6日发布正式通知，将现行178项中国商品Section 301附加关税排除全部再延长两个月。延长期适用于2026年11月10日00:01（美国东部时间）起报关进口或从仓库提取消费、且在2027年1月9日23:59（美国东部时间）前完成的货物；涉及HTSUS 9903.88.69和9903.88.70及对应注释。",
       "impact": "命中排除描述的中国进口商品在延长期内可继续免于相应Section 301附加税，直接影响Amazon.com卖家的到岸成本、补货报价和清关申报。排除资格由十位HTSUS统计号与产品描述共同决定，不能把“178项延长”理解为所有中国商品普遍免税。",
       "action": "立即让报关行按在途及计划补货SKU逐项比对HTSUS 9903.88.69、9903.88.70及U.S. notes 20(vvv)/(www)，保留产品规格和归类依据；把11月10日至1月9日的排除窗口纳入美国站到岸成本与采购排期，并在1月9日前再次确认USTR/CBP是否续期或调整。",
       "category": "policy",
@@ -7915,7 +7915,7 @@
           "verified_at": "2026-11-17T00:57:28.000Z",
           "supports_event": true,
           "authority_confirmed": false,
-          "verification_note": "已读取全文并核对US/CA桌面端open beta、12月skippable ads计划���计费条件及Amazon购物车路径；消息来源为Twitch向媒体分享，未提升为官方确认。",
+          "verification_note": "已读取全文并核对US/CA桌面端open beta、12月skippable ads计划、计费条件及Amazon购物车路径；消息来源为Twitch向媒体分享，未提升为官方确认。",
           "canonical_url": "https://www.marketingdive.com/news/twitch-debuts-shoppable-skippable-ads-as-twitchcon-feels-growing-pains/874614/"
         }
       ],
@@ -8713,6 +8713,72 @@
       "event_key": "us-cpsc-amazon-products-2026-11-25|recall-or-warn-six-amazon-sold-products|US|2026-11-25",
       "id": "evt-3e83ef32b72ab80e",
       "primary_source_url": "https://www.cpsc.gov/Recalls/2027/HOMEAL-US-Recalls-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
+    },
+    {
+      "subject_key": "amazon-us-victorias-secret-nwd",
+      "action_key": "restrict-third-party-listings-to-brand-representatives",
+      "marketplaces": [
+        "US"
+      ],
+      "effective_date": "2026-11-26",
+      "deadline": "2026-11-26",
+      "title": "美国站Victoria’s Secret触发NWD限制：仅Brand Representative账号可继续销售｜行业线索",
+      "summary": "PPC Land于2026年11月23日披露一份署名Amazon Services的卖家通知：自11月26日起，Victoria’s Secret在Amazon.com不再允许普通第三方卖家刊登，仅具备该品牌Brand Representative角色的账号可继续销售。通知要求受影响卖家在截止日前售完剩余库存或删除无库存SKU，并称NWD移除不会影响Account Health Rating。两名Seller Forums卖家分别称11月17日和19日才收到通知，实际只有9天或7天准备期，短于Amazon公开NWD帮助所述15天通知期；尚未发现Amazon面向全站发布的Victoria’s Secret正式公告或版主确认。",
+      "impact": "这是既有NWD机制对一个明确品牌、明确日期的独立执行，直接影响美国站持有Victoria’s Secret库存的经销账号。Reseller角色未被通知列为可继续销售的资格；截止日后FBA仓内剩余库存如何处理仍不明确，不能据行业报道推定自动移除或销毁。现有证据仅支持Amazon.com，不能外推加拿大或墨西哥站。",
+      "action": "美国站立即在Manage Products、Account Health、消息中心及注册邮箱检索Victoria’s Secret相关通知和错误码5465/6045，核对销售账号是否具有该品牌Brand Representative角色。无该角色的账号停止新增采购和广告，导出ASIN、FNSKU、在途与FBA库存，并向Selling Partner Support确认截止后库存处置、移除订单与费用；保存通知、角色截图、Case和时间线。不要把NWD移除等同于AHR处罚，也不要在未获答复前假定仓内库存会自动处理。",
+      "category": "policy",
+      "priority": "P0",
+      "original_published_at": "2026-11-23",
+      "original_date_note": "PPC Land于2026-11-23首次公开转述署名Amazon Services的Victoria’s Secret通知，通知固定移除日为2026-11-26但公开版本未显示发送日；两名Seller Forums卖家分别称于11月17日和19日收到通知。由于未找到Amazon面向全站的品牌专项正式公告，本卡明确标注为行业线索。",
+      "first_seen_at": "2026-11-27T01:02:54.000Z",
+      "last_material_update_at": "2026-11-27T01:02:54.000Z",
+      "history_dates": [
+        "2026-11-27"
+      ],
+      "verification_status": "reviewed",
+      "key_aliases": [],
+      "revisions": [],
+      "sources": [
+        {
+          "url": "https://ppc.land/amazon-blocks-third-party-victorias-secret-sellers-from-november-26/",
+          "publisher": "PPC Land",
+          "kind": "industry_original",
+          "published_at": "2026-11-23",
+          "verified_at": "2026-11-27T01:02:54.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "industry_original",
+          "verification_note": "已阅读全文并逐项核对公开通知的品牌、Amazon.com范围、2026-11-26移除日、Brand Representative资格、AHR说明及未说明FBA剩余库存处置；该媒体转述通知，不等于Amazon公开公告。",
+          "canonical_url": "https://ppc.land/amazon-blocks-third-party-victorias-secret-sellers-from-november-26"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/88d89f61-40a0-4c52-8019-10ad74d8989a",
+          "publisher": "Amazon Seller Central卖家论坛",
+          "kind": "seller_forum",
+          "published_at": "2026-11-26",
+          "verified_at": "2026-11-27T01:02:54.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "seller_post",
+          "verification_note": "卖家自述于11月17日收到11月26日生效通知，只有9天准备期；未见Amazon版主确认，作为通知时点的交叉线索。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/88d89f61-40a0-4c52-8019-10ad74d8989a"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/534da1fc-5b0c-4161-aeeb-50bfac767d00",
+          "publisher": "Amazon Seller Central卖家论坛",
+          "kind": "seller_forum",
+          "published_at": "2026-11-26",
+          "verified_at": "2026-11-27T01:02:54.000Z",
+          "supports_event": true,
+          "authority_confirmed": false,
+          "claimed_kind": "seller_post",
+          "verification_note": "第二名卖家自述于11月19日收到11月26日生效通知，只有7天准备期，并称已有FBA库存；未见Amazon版主确认。",
+          "canonical_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/534da1fc-5b0c-4161-aeeb-50bfac767d00"
+        }
+      ],
+      "event_key": "amazon-us-victorias-secret-nwd|restrict-third-party-listings-to-brand-representatives|US|2026-11-26",
+      "id": "evt-ac3461e2391cab05",
+      "primary_source_url": "https://ppc.land/amazon-blocks-third-party-victorias-secret-sellers-from-november-26"
     }
   ]
 }

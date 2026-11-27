@@ -1,9 +1,7 @@
 {
   "status": "partial",
   "top_changes": [
-    "us-cpsc-amazon-products-2026-11-25|recall-or-warn-six-amazon-sold-products|US|2026-11-25",
-    "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11",
-    "amazon-ca-fba-dangerous-goods-centre|open-ykf1-and-add-dangerous-goods-capacity|CA|2026-11-15"
+    "amazon-us-victorias-secret-nwd|restrict-third-party-listings-to-brand-representatives|US|2026-11-26"
   ],
   "category_coverage": {
     "policy": "partial",
@@ -12,42 +10,26 @@
     "opportunities": "partial",
     "competitors": "not_checked"
   },
-  "coverage_note": "已按US/CA/MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店及美国、加拿大、墨西哥监管公开入口，并逐一记录跨境头条、跨境快讯、知无不言、TT123、品牌方舟、卖家之家及其公开公众号入口。部分Seller Central和公众号仅能取得公开页面或检索摘要，未绕过登录、验证码、访问限制或付费墙，因此整体为partial。汽车用品燃油管、CPE编织油管、AN接头与排气卡箍已按三站分别做公开检索；Amazon商品页受robots限制，且缺少指定ASIN、变体、配送地域和同口径历史快照，未将首次样本或搜索摘要认定为价格、Coupon、BSR或关键词变化。",
+  "coverage_note": "已按US/CA/MX分别检查Seller Central公开公告、Amazon Ads、Amazon全球开店及美国、加拿大、墨西哥监管公开入口，并逐一检索跨境头条、跨境快讯、知无不言、TT123、品牌方舟、卖家之家及其公开公众号入口。部分Seller Central和公众号仅能取得公开页面或检索摘要，未绕过登录、验证码、访问限制或付费墙，因此整体为partial。汽车用品fuel line、CPE braided fuel hose、AN fittings与exhaust clamp已按三站分别做公开检索；Amazon.com商品页受robots限制，且缺少指定ASIN、变体、配送地域和同口径历史快照，不能把首次结果认定为价格、Coupon、BSR或关键词变化。",
   "action_items": [
     {
-      "title": "立即排查11月25日CPSC清单",
-      "detail": "检索六组型号/ASIN，命中后停售、冻结广告与补货，并按各监管页面执行退款、维修、回收或销毁。",
+      "title": "立即排查Victoria’s Secret NWD限制",
+      "detail": "核对通知、Brand Representative角色、错误码5465/6045及FBA剩余库存；无资格账号停止新增采购和广告，并向Support确认移除与费用。",
       "due": "今日",
-      "event_key": "us-cpsc-amazon-products-2026-11-25|recall-or-warn-six-amazon-sold-products|US|2026-11-25"
-    },
-    {
-      "title": "按通知日管理Bundle 30天宽限",
-      "detail": "1月11日前完成无授权自组Bundle清理，集中准备品牌授权书，并按每次违规通知日期单独倒排整改。",
-      "due": "2027-01-11前",
-      "event_key": "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
-    },
-    {
-      "title": "申请加拿大危险品仓容",
-      "detail": "核对北美危险品计划与加拿大销售资格后，在Dangerous Goods Capacity Manager单独申请加拿大仓容，再创建YKF1入仓计划。",
-      "due": "补货前",
-      "event_key": "amazon-ca-fba-dangerous-goods-centre|open-ykf1-and-add-dangerous-goods-capacity|CA|2026-11-15"
+      "event_key": "amazon-us-victorias-secret-nwd|restrict-third-party-listings-to-brand-representatives|US|2026-11-26"
     }
   ],
   "schema_version": 1,
-  "report_date": "2026-11-26",
-  "content_updated_at": "2026-11-26T01:08:34.000Z",
+  "report_date": "2026-11-27",
+  "content_updated_at": "2026-11-27T01:02:54.000Z",
   "new_event_keys": [
-    "amazon-ca-fba-dangerous-goods-centre|open-ykf1-and-add-dangerous-goods-capacity|CA|2026-11-15",
-    "us-cpsc-amazon-fba-distributor-liability|federal-court-uphold-cpsc-recall-order|US|2026-11-24",
-    "us-cpsc-amazon-products-2026-11-25|recall-or-warn-six-amazon-sold-products|US|2026-11-25"
+    "amazon-us-victorias-secret-nwd|restrict-third-party-listings-to-brand-representatives|US|2026-11-26"
   ],
-  "updated_event_keys": [
-    "amazon-us-product-bundling-policy|expand-manufacturer-packaging-requirement-2027|US|2027-01-11"
-  ],
+  "updated_event_keys": [],
   "counts": {
-    "new": 3,
-    "updated": 1,
-    "merged": 1,
+    "new": 1,
+    "updated": 0,
+    "merged": 0,
     "deduplicated": 0
   }
 }
