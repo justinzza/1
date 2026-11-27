@@ -1,10 +1,8 @@
 {
-  "run_id": "run-20261126t010322z-9c01bd59",
-  "status": "released",
-  "acquired_at": "2026-11-26T01:03:22.000Z",
-  "expires_at": "2026-11-26T02:33:22.000Z",
-  "released_at": "2026-11-26T01:15:39.000Z",
-  "previous_radar_state_head": "f95584d476742069700ffd52bd06fb22efbc275f",
-  "finalized_run_id": "run-20261126t010322z-9c01bd59",
+  "run_id": "run-20261127t005852z-36c99aca",
+  "status": "active",
+  "acquired_at": "2026-11-27T00:58:52.000Z",
+  "expires_at": "2026-11-27T02:28:52.000Z",
+  "previous_radar_state_head": "1b96c2a7b46ed2853ff9c98a759f4b918589e0a3",
   "takeover_reason": null
 }
