@@ -49,6 +49,18 @@ test('official source promotion updates the same card', () => {
   assert.equal(result.counts.updated, 1);
   assert.equal(result.material_changed, true);
 });
+test('newer verification refreshes metadata for the same canonical source', () => {
+  const base = registry();
+  const refreshedAt = '2026-11-28T01:05:25.000Z';
+  const refreshed = event({ sources: [{ ...source(), published_at: '2026-11-26', verified_at: refreshedAt }] });
+  const candidate = item(base, refreshed);
+  candidate.dedupe_review.matches_event_key = base.events[0].event_key;
+  const result = applyBatch(base, { ...batch(base, [candidate]), checked_at: refreshedAt });
+  assert.equal(result.registry.events[0].sources[0].published_at, '2026-11-26');
+  assert.equal(result.registry.events[0].sources[0].verified_at, refreshedAt);
+  assert.equal(result.counts.merged, 1);
+  assert.equal(result.material_changed, false);
+});
 test('date corrections keep the event identity and add aliases', () => {
   const base = registry([event({ effective_date: null })]);
   const candidate = item(base, event(), { material_update: true, update_reason: 'Official effective date is now available.' });
@@ -147,3 +159,4 @@ test('migrated data render once, escape HTML, and do not claim news success', ()
   data.events[0].summary = '<script>alert("x")</script>';
   assert(!renderPage(data, report).includes('<script>alert'));
 });
+

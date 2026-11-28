@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_updated_at": "2026-11-27T01:02:54.000Z",
+  "content_updated_at": "2026-11-28T01:05:25.000Z",
   "migration": {
     "at": "2026-08-31T03:26:26.627Z",
     "source_report_date": "2026-08-31",
@@ -4243,40 +4243,67 @@
         "MX",
         "US"
       ],
-      "effective_date": "2026-09-30",
+      "effective_date": "2026-11-26",
       "deadline": null,
       "title": "Amazon Ads重构Responsive eCommerce Creative，美加墨新增视频、轮播与富媒体布局",
-      "summary": "Amazon Ads于2026年9月30日重构Responsive eCommerce Creative（REC）：US、CA、MX均可使用in-banner video、3至6个商品的multi-image carousel、Rich Media Layouts、Preview/Advanced Preview及Alexa+版位。Brand identity controls和Alexa for Shopping互动prompts目前仅美国可用；REC面向endemic advertisers的managed-service与self-service广告主、卖家、供应商和代理商。",
-      "impact": "三站广告主可用同一创意系统覆盖更多站内外display与设备版位，但功能范围并不完全相同，尤其品牌控制和对话式prompt不能从美国套用到加拿大、墨西哥。官方14% CTR和7.2% ROAS提升来自Amazon内部汇总数据，不是账户效果承诺。",
+      "summary": "Amazon Ads官方Launch announcement现标注2026年11月26日：Responsive eCommerce Creative（REC）在US、CA、MX可提供in-banner video、3至6个商品的multi-image carousel、Rich Media Layouts、Preview/Advanced Preview及Alexa+与Fire Tablet版位。Brand identity controls和Alexa for Shopping互动prompts目前仍仅美国可用；REC面向endemic advertisers的managed-service与self-service广告主、卖家、供应商和代理商。",
+      "impact": "三站广告主可用同一创意系统覆盖更多站内外display与设备版位，但功能范围并不完全相同，尤其品牌控制和对话式prompt不能从美国套用到加拿大、墨西哥。官方14% CTR和7.2% ROAS提升来自Amazon内部汇总数据，不是账户效果承诺。此次核验更正了原卡片记录的发布日期与生效日，不代表另一次独立发布。",
       "action": "分别在US、CA、MX Ads Console检查REC可见功能，用同一ASIN组小预算测试静态、video与carousel；美国站另核对brand controls和Alexa prompts。上线前逐站预览语言、价格、主图、变体和品牌资产，并以本账户CTR、ROAS与转化数据判断效果。",
       "category": "ads",
       "priority": "P1",
-      "original_published_at": "2026-09-30",
-      "original_date_note": "Amazon Ads官方Launch announcement标注2026-09-30；各功能可用地区按页面逐项记录，未把美国专属功能扩大到CA/MX。",
+      "original_published_at": "2026-11-26",
+      "original_date_note": "2026-11-28复核Amazon Ads官方Launch announcement时，页面明确标注2026-11-26；原卡片记录的2026-09-30无法由当前官方页面继续支持，故更正发布日期与生效日。保留原event_key，并把新日期生成的规范键作为别名，不把日期更正包装成第二条新闻。",
       "sources": [
         {
           "url": "https://advertising.amazon.com/resources/whats-new/unboxed-2026-responsive-ecommerce-creative",
           "publisher": "Amazon Ads",
           "kind": "official",
-          "published_at": "2026-09-30",
-          "verified_at": "2026-10-07T01:03:47.000Z",
+          "published_at": "2026-11-26",
+          "verified_at": "2026-11-28T01:05:25.000Z",
           "supports_event": true,
           "authority_confirmed": true,
           "claimed_kind": "official",
+          "verification_note": "已读取官方页面全文，核对Launch announcement日期2026-11-26、US/CA/MX可用地区、video/carousel/rich media功能，以及Brand controls和Alexa prompts仅美国可用的限制。",
           "canonical_url": "https://advertising.amazon.com/resources/whats-new/unboxed-2026-responsive-ecommerce-creative"
         }
       ],
       "first_seen_at": "2026-10-07T01:03:47.000Z",
-      "last_material_update_at": "2026-10-07T01:03:47.000Z",
+      "last_material_update_at": "2026-11-28T01:05:25.000Z",
       "history_dates": [
-        "2026-10-07"
+        "2026-10-07",
+        "2026-11-28"
       ],
       "verification_status": "reviewed",
-      "key_aliases": [],
+      "key_aliases": [
+        "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-11-26"
+      ],
       "event_key": "amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30",
       "id": "evt-35e7c07e5e9a98cd",
       "primary_source_url": "https://advertising.amazon.com/resources/whats-new/unboxed-2026-responsive-ecommerce-creative",
-      "revisions": []
+      "revisions": [
+        {
+          "at": "2026-11-28T01:05:25.000Z",
+          "reason": "官方页面当前明确标注2026-11-26，纠正原卡片记录的2026-09-30；适用站点、核心功能与美国专属限制仍属于同一REC重构事件，因此保留原身份并以日期别名更新原卡片。",
+          "previous": {
+            "title": "Amazon Ads重构Responsive eCommerce Creative，美加墨新增视频、轮播与富媒体布局",
+            "summary": "Amazon Ads于2026年9月30日重构Responsive eCommerce Creative（REC）：US、CA、MX均可使用in-banner video、3至6个商品的multi-image carousel、Rich Media Layouts、Preview/Advanced Preview及Alexa+版位。Brand identity controls和Alexa for Shopping互动prompts目前仅美国可用；REC面向endemic advertisers的managed-service与self-service广告主、卖家、供应商和代理商。",
+            "impact": "三站广告主可用同一创意系统覆盖更多站内外display与设备版位，但功能范围并不完全相同，尤其品牌控制和对话式prompt不能从美国套用到加拿大、墨西哥。官方14% CTR和7.2% ROAS提升来自Amazon内部汇总数据，不是账户效果承诺。",
+            "action": "分别在US、CA、MX Ads Console检查REC可见功能，用同一ASIN组小预算测试静态、video与carousel；美国站另核对brand controls和Alexa prompts。上线前逐站预览语言、价格、主图、变体和品牌资产，并以本账户CTR、ROAS与转化数据判断效果。",
+            "category": "ads",
+            "priority": "P1",
+            "marketplaces": [
+              "CA",
+              "MX",
+              "US"
+            ],
+            "effective_date": "2026-09-30",
+            "deadline": null,
+            "original_published_at": "2026-09-30",
+            "original_date_note": "Amazon Ads官方Launch announcement标注2026-09-30；各功能可用地区按页面逐项记录，未把美国专属功能扩大到CA/MX。",
+            "verification_status": "reviewed"
+          }
+        }
+      ]
     },
     {
       "subject_key": "amazon-mexico-easy-ship-carriers",
