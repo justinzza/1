@@ -1,0 +1,15 @@
+{
+  "run_id": "run-20261128t010026z-fcde6c69",
+  "status": "prepared",
+  "prepared_at": "2026-11-28T01:05:25.000Z",
+  "base_main_commit": "de72c8e76d5ca99b5d93f365bfefd61ba7b407dd",
+  "base_registry_digest": "a79757ca4b0b0959ebcc477d0326fd816e1a69857449caaa4d371a32a6a9d351",
+  "expected_registry_digest": "ab3cc9b6eeb4b26430651e24b0467d9c6f060a7981a2a3a1fc357f27170d7e37",
+  "expected_content_digest": "3a67d0cffdf625857e42afad8904c80ecee6f7a131b259e21bc56fb62885142f",
+  "counts": {"new": 0, "updated": 1, "merged": 1, "deduplicated": 0},
+  "new_event_keys": [],
+  "updated_event_keys": ["amazon-ads-responsive-ecommerce-creative|add-video-carousel-and-rich-media-layouts-2026|CA+MX+US|2026-09-30"],
+  "tests": {"passed": 23, "failed": 0},
+  "consistency": {"events": 151, "briefing_absent": true, "updated_key_present": true, "date_alias_present": true},
+  "implementation_note": "同一canonical source在更晚公开核验时允许刷新published_at、verified_at和核验说明；事件是否实质更新仍由materialDigest独立判定。"
+}
